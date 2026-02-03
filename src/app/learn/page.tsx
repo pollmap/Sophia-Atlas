@@ -18,8 +18,6 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const BASE_PATH = "/Sophia-Atlas";
-
 interface LearningStep {
   title: string;
   description: string;
@@ -63,31 +61,31 @@ const learningPaths: LearningPath[] = [
         title: "소크라테스 - 철학의 시작",
         description:
           "'너 자신을 알라' - 질문하는 것이 철학의 시작입니다. 소크라테스의 산파술과 무지의 자각을 배웁니다.",
-        link: `${BASE_PATH}/philosophy/socrates/`,
+        link: `/philosophy/socrates/`,
       },
       {
         title: "플라톤 - 이데아의 세계",
         description:
           "동굴의 비유를 통해 진정한 실재란 무엇인지 탐구합니다. 현상과 본질의 구분을 이해합니다.",
-        link: `${BASE_PATH}/philosophy/plato/`,
+        link: `/philosophy/plato/`,
       },
       {
         title: "아리스토텔레스 - 만학의 아버지",
         description:
           "논리학, 윤리학, 정치학을 체계화한 아리스토텔레스의 철학 세계를 탐험합니다.",
-        link: `${BASE_PATH}/philosophy/aristotle/`,
+        link: `/philosophy/aristotle/`,
       },
       {
         title: "데카르트 - 근대의 출발",
         description:
           "'나는 생각한다, 고로 존재한다' - 방법적 회의와 근대 주체 철학의 탄생을 살펴봅니다.",
-        link: `${BASE_PATH}/philosophy/descartes/`,
+        link: `/philosophy/descartes/`,
       },
       {
         title: "칸트 - 비판철학",
         description:
           "인식의 한계와 도덕의 보편 법칙을 탐구한 칸트의 비판철학을 정리합니다.",
-        link: `${BASE_PATH}/philosophy/kant/`,
+        link: `/philosophy/kant/`,
       },
     ],
   },
@@ -109,43 +107,43 @@ const learningPaths: LearningPath[] = [
         title: "소크라테스와 아테네 철학",
         description:
           "소크라테스의 산파술, 소피스트와의 논쟁, 윤리적 지식의 추구를 탐구합니다.",
-        link: `${BASE_PATH}/philosophy/socrates/`,
+        link: `/philosophy/socrates/`,
       },
       {
         title: "플라톤과 아리스토텔레스",
         description:
           "이데아론과 질료형상론의 대립, 아카데메이아와 리케이온의 전통을 비교합니다.",
-        link: `${BASE_PATH}/philosophy/plato/`,
+        link: `/philosophy/plato/`,
       },
       {
         title: "중세 교부철학과 스콜라철학",
         description:
           "아우구스티누스와 토마스 아퀴나스를 통해 신앙과 이성의 관계를 살펴봅니다.",
-        link: `${BASE_PATH}/philosophy/augustine/`,
+        link: `/philosophy/augustine/`,
       },
       {
         title: "근대 합리론: 데카르트",
         description:
           "코기토에서 출발하는 근대 철학의 전환점을 이해합니다.",
-        link: `${BASE_PATH}/philosophy/descartes/`,
+        link: `/philosophy/descartes/`,
       },
       {
         title: "칸트의 비판철학",
         description:
           "합리론과 경험론의 종합, 코페르니쿠스적 전회의 의미를 파악합니다.",
-        link: `${BASE_PATH}/philosophy/kant/`,
+        link: `/philosophy/kant/`,
       },
       {
         title: "니체와 가치의 전복",
         description:
           "'신은 죽었다' 선언과 위버멘쉬, 영원회귀 사상을 살펴봅니다.",
-        link: `${BASE_PATH}/philosophy/nietzsche/`,
+        link: `/philosophy/nietzsche/`,
       },
       {
         title: "현대 실존주의: 하이데거와 사르트르",
         description:
           "존재의 의미, 실존과 자유, 인간의 책임에 대한 현대적 사유를 정리합니다.",
-        link: `${BASE_PATH}/philosophy/heidegger/`,
+        link: `/philosophy/heidegger/`,
       },
     ],
   },
@@ -162,31 +160,31 @@ const learningPaths: LearningPath[] = [
         title: "힌두교 - 가장 오래된 종교 전통",
         description:
           "브라만과 아트만, 카르마와 윤회, 다르마의 개념을 이해합니다.",
-        link: `${BASE_PATH}/religion/hinduism/`,
+        link: `/religion/hinduism/`,
       },
       {
         title: "불교 - 고통과 깨달음의 길",
         description:
           "사성제와 팔정도, 연기와 무아의 가르침을 살펴봅니다.",
-        link: `${BASE_PATH}/religion/buddhism/`,
+        link: `/religion/buddhism/`,
       },
       {
         title: "유대교/기독교/이슬람 - 아브라함 종교",
         description:
           "유일신 신앙의 세 전통을 비교하며 공통점과 차이점을 이해합니다.",
-        link: `${BASE_PATH}/religion/christianity/`,
+        link: `/religion/christianity/`,
       },
       {
         title: "유교 - 동아시아의 윤리 체계",
         description:
           "인, 의, 예, 지의 덕목과 군자의 이상을 탐구합니다.",
-        link: `${BASE_PATH}/religion/confucianism/`,
+        link: `/religion/confucianism/`,
       },
       {
         title: "세계 신화 비교",
         description:
           "그리스, 북유럽, 이집트, 메소포타미아 신화의 공통 테마를 비교합니다.",
-        link: `${BASE_PATH}/religion/compare/`,
+        link: `/religion/compare/`,
       },
     ],
   },

@@ -77,7 +77,7 @@ export default function QuestionsPage() {
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         <Link
-          href="/Sophia-Atlas/"
+          href="/"
           className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors mb-6"
         >
           <ArrowLeft className="w-4 h-4" />
@@ -179,7 +179,7 @@ export default function QuestionsPage() {
                   {selectedPhilosophers.map((p) => (
                     <Link
                       key={p.id}
-                      href={`/Sophia-Atlas/philosophy/${p.id}/`}
+                      href={`/philosophy/${p.id}/`}
                       className={cn(
                         'group block rounded-xl border bg-slate-800/20 p-4 hover:bg-slate-800/40 transition-all duration-200 border-l-4',
                         getEraBorderClass(p.era)

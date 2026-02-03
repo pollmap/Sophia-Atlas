@@ -16,8 +16,6 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const BASE_PATH = "/Sophia-Atlas";
-
 const goals = [
   {
     icon: <BookOpen className="w-6 h-6" />,

@@ -32,12 +32,12 @@ const eraDescriptions: Record<string, string> = {
 };
 
 const navItems = [
-  { title: '타임라인', description: '철학의 역사를 시간순으로 탐색', href: '/Sophia-Atlas/philosophy/timeline/', icon: Clock },
-  { title: '영향 관계 그래프', description: '사상가들의 연결 관계', href: '/Sophia-Atlas/philosophy/graph/', icon: GitBranch },
-  { title: '근본 질문', description: '질문으로 철학 탐색하기', href: '/Sophia-Atlas/philosophy/questions/', icon: HelpCircle },
-  { title: '세계지도', description: '사상과 종교의 지리적 분포', href: '/Sophia-Atlas/religion/map/', icon: Globe },
-  { title: '분파 트리', description: '종교와 학파의 분기 역사', href: '/Sophia-Atlas/religion/tree/', icon: TreePine },
-  { title: '비교표', description: '종교와 신화의 테마 비교', href: '/Sophia-Atlas/religion/compare/', icon: Grid3X3 },
+  { title: '타임라인', description: '철학의 역사를 시간순으로 탐색', href: '/philosophy/timeline/', icon: Clock },
+  { title: '영향 관계 그래프', description: '사상가들의 연결 관계', href: '/philosophy/graph/', icon: GitBranch },
+  { title: '근본 질문', description: '질문으로 철학 탐색하기', href: '/philosophy/questions/', icon: HelpCircle },
+  { title: '세계지도', description: '사상과 종교의 지리적 분포', href: '/religion/map/', icon: Globe },
+  { title: '분파 트리', description: '종교와 학파의 분기 역사', href: '/religion/tree/', icon: TreePine },
+  { title: '비교표', description: '종교와 신화의 테마 비교', href: '/religion/compare/', icon: Grid3X3 },
 ];
 
 export default function HomePage() {
@@ -114,7 +114,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
               <div>
                 <Link
-                  href={`/Sophia-Atlas/philosophy/${todayQuote.philosopherId}/`}
+                  href={`/philosophy/${todayQuote.philosopherId}/`}
                   className="text-ancient hover:text-ancient/80 font-medium transition-colors"
                 >
                   {todayQuote.philosopher}
@@ -154,7 +154,7 @@ export default function HomePage() {
           {eras.map((era) => (
             <Link
               key={era}
-              href={`/Sophia-Atlas/philosophy/timeline/`}
+              href={`/philosophy/timeline/`}
               className={cn(
                 'group relative rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200'
               )}

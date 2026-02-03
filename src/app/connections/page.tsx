@@ -605,7 +605,7 @@ export default function ConnectionsPage() {
                         {p.summary}
                       </p>
                       <Link
-                        href={`/Sophia-Atlas/philosophy/${p.id}/`}
+                        href={`/philosophy/${p.id}/`}
                         className="text-sm text-amber-400 hover:text-amber-300"
                       >
                         상세 페이지 →

@@ -18,8 +18,6 @@ import religionsData from "@/data/religions.json";
 import glossaryData from "@/data/glossary.json";
 import { cn, getEraColorClass, getEraLabel } from "@/lib/utils";
 
-const BASE_PATH = "/Sophia-Atlas";
-
 interface PhilosopherResult {
   type: "philosopher";
   id: string;
@@ -186,7 +184,7 @@ export default function SearchPage() {
                   {results.philosophers.map((item) => (
                     <Link
                       key={item.id}
-                      href={`${BASE_PATH}/philosophy/${item.id}/`}
+                      href={`/philosophy/${item.id}/`}
                       className="flex items-start gap-3 p-4 rounded-xl border border-border bg-background-secondary/20 hover:bg-background-secondary/40 transition-colors group"
                     >
                       <BookOpen className="w-4 h-4 text-blue-400 flex-shrink-0 mt-1" />
@@ -232,7 +230,7 @@ export default function SearchPage() {
                   {results.religions.map((item) => (
                     <Link
                       key={item.id}
-                      href={`${BASE_PATH}/religion/${item.id}/`}
+                      href={`/religion/${item.id}/`}
                       className="flex items-start gap-3 p-4 rounded-xl border border-border bg-background-secondary/20 hover:bg-background-secondary/40 transition-colors group"
                     >
                       {item.type === "religion" ? (

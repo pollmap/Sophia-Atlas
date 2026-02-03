@@ -19,8 +19,6 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const BASE_PATH = "/Sophia-Atlas";
-
 interface NavItem {
   label: string;
   href: string;
@@ -83,14 +81,12 @@ export default function Header() {
   };
 
   const isActive = (href: string) => {
-    const fullPath = `${BASE_PATH}${href}`;
     if (href === "/") {
-      return pathname === fullPath || pathname === `${fullPath}/` || pathname === BASE_PATH;
+      return pathname === "/" || pathname === "";
     }
     // Match parent paths (e.g., /philosophy/timeline matches /philosophy/*)
-    const basePath = href.split("/").slice(0, 2).join("/");
-    const fullBasePath = `${BASE_PATH}${basePath}`;
-    return pathname?.startsWith(fullBasePath);
+    const parentPath = href.split("/").slice(0, 2).join("/");
+    return pathname?.startsWith(parentPath);
   };
 
   return (
@@ -107,7 +103,7 @@ export default function Header() {
           <div className="flex items-center justify-between h-full">
             {/* Logo */}
             <Link
-              href={`${BASE_PATH}/`}
+              href="/"
               className="flex items-center gap-2.5 group"
             >
               <div
@@ -135,7 +131,7 @@ export default function Header() {
               {navItems.map((item) => (
                 <Link
                   key={item.href}
-                  href={`${BASE_PATH}${item.href}`}
+                  href={item.href}
                   className={cn(
                     "flex items-center gap-2 px-3.5 py-2 rounded-lg",
                     "text-sm font-medium transition-all duration-200",
@@ -250,7 +246,7 @@ export default function Header() {
               {navItems.map((item, index) => (
                 <Link
                   key={item.href}
-                  href={`${BASE_PATH}${item.href}`}
+                  href={item.href}
                   className={cn(
                     "flex items-center gap-3 px-4 py-3 rounded-lg",
                     "text-sm font-medium transition-all duration-200",

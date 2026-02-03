@@ -68,7 +68,7 @@ export default async function PhilosopherPage({
             사상가를 찾을 수 없습니다
           </h1>
           <Link
-            href="/Sophia-Atlas/philosophy/timeline/"
+            href="/philosophy/timeline/"
             className="text-ancient hover:text-ancient/80 transition-colors"
           >
             타임라인으로 돌아가기
@@ -85,7 +85,7 @@ export default async function PhilosopherPage({
       {/* Back Navigation */}
       <div className="max-w-4xl mx-auto px-4 pt-8">
         <Link
-          href="/Sophia-Atlas/philosophy/timeline/"
+          href="/philosophy/timeline/"
           className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors"
         >
           <ArrowLeft className="w-4 h-4" />
@@ -259,7 +259,7 @@ export default async function PhilosopherPage({
                     return (
                       <Link
                         key={infId}
-                        href={`/Sophia-Atlas/philosophy/${infId}/`}
+                        href={`/philosophy/${infId}/`}
                         className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-700/30 transition-colors group"
                       >
                         {inf && (
@@ -297,7 +297,7 @@ export default async function PhilosopherPage({
                     return (
                       <Link
                         key={infId}
-                        href={`/Sophia-Atlas/philosophy/${infId}/`}
+                        href={`/philosophy/${infId}/`}
                         className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-700/30 transition-colors group"
                       >
                         {inf && (
@@ -362,7 +362,7 @@ export default async function PhilosopherPage({
               {philosopher.questions.map((question) => (
                 <Link
                   key={question}
-                  href="/Sophia-Atlas/philosophy/questions/"
+                  href="/philosophy/questions/"
                   className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-700/30 transition-colors group"
                 >
                   <HelpCircle className="w-4 h-4 text-slate-500 flex-shrink-0" />

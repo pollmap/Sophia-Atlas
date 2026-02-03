@@ -24,8 +24,6 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const BASE_PATH = "/Sophia-Atlas";
-
 interface SidebarSection {
   title: string;
   icon: React.ReactNode;
@@ -122,8 +120,7 @@ export default function Sidebar({ className }: SidebarProps) {
   };
 
   const isItemActive = (href: string) => {
-    const fullPath = `${BASE_PATH}${href}`;
-    return pathname === fullPath || pathname === `${fullPath}/`;
+    return pathname === href || pathname === `${href}/`;
   };
 
   return (
@@ -239,7 +236,7 @@ export default function Sidebar({ className }: SidebarProps) {
                       {section.items.map((item) => (
                         <Link
                           key={item.href}
-                          href={`${BASE_PATH}${item.href}`}
+                          href={item.href}
                           className={cn(
                             "flex items-center gap-2.5 px-3 py-2 rounded-md",
                             "text-sm transition-all duration-200",
