@@ -20,8 +20,6 @@ import {
 import religionsData from "@/data/religions.json";
 import { cn, formatYear } from "@/lib/utils";
 
-const BASE_PATH = "/Sophia-Atlas";
-
 type FilterType = "all" | "religion" | "mythology";
 
 interface RegionConfig {
@@ -262,7 +260,7 @@ export default function ReligionMapPage() {
               {filteredReligions.map((religion) => (
                 <Link
                   key={religion.id}
-                  href={`${BASE_PATH}/religion/${religion.id}/`}
+                  href={`/religion/${religion.id}/`}
                   className="flex items-start gap-4 px-6 py-5 hover:bg-background-secondary/50 transition-colors duration-200 group"
                 >
                   <div className="flex-shrink-0 mt-1">

@@ -4,12 +4,10 @@ import Link from "next/link";
 import { Github, Heart, ExternalLink } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const BASE_PATH = "/Sophia-Atlas";
-
 const footerLinks = [
-  { label: "About", href: `${BASE_PATH}/about` },
-  { label: "기여 가이드", href: `${BASE_PATH}/contributing` },
-  { label: "학습경로", href: `${BASE_PATH}/learning-paths` },
+  { label: "About", href: "/about" },
+  { label: "기여 가이드", href: "/contributing" },
+  { label: "학습경로", href: "/learning-paths" },
 ];
 
 export default function Footer() {

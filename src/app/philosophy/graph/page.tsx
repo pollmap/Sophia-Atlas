@@ -117,7 +117,7 @@ export default function GraphPage() {
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         <Link
-          href="/Sophia-Atlas/"
+          href="/"
           className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors mb-6"
         >
           <ArrowLeft className="w-4 h-4" />
@@ -406,7 +406,7 @@ export default function GraphPage() {
                 )}
 
                 <Link
-                  href={`/Sophia-Atlas/philosophy/${selectedPhilosopher.id}/`}
+                  href={`/philosophy/${selectedPhilosopher.id}/`}
                   className="flex items-center justify-center gap-2 w-full mt-4 px-4 py-2.5 rounded-lg bg-slate-700/50 text-white text-sm font-medium hover:bg-slate-700 transition-colors"
                 >
                   상세 페이지

@@ -12,8 +12,6 @@ import {
 import religionsData from "@/data/religions.json";
 import { cn, formatYear } from "@/lib/utils";
 
-const BASE_PATH = "/Sophia-Atlas";
-
 interface Branch {
   name: string;
   year?: number;
@@ -348,7 +346,7 @@ export default function ReligionTreePage() {
           {/* Link to detail */}
           <div className="mt-6 pt-4 border-t border-border">
             <Link
-              href={`${BASE_PATH}/religion/${selectedReligion.id}/`}
+              href={`/religion/${selectedReligion.id}/`}
               className={cn(
                 "inline-flex items-center gap-2 text-sm font-medium transition-colors",
                 colors.text,

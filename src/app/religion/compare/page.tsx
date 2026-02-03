@@ -17,8 +17,6 @@ import {
 import religionsData from "@/data/religions.json";
 import { cn } from "@/lib/utils";
 
-const BASE_PATH = "/Sophia-Atlas";
-
 type FilterType = "all" | "religion" | "mythology";
 
 interface ThemeConfig {
@@ -135,7 +133,7 @@ export default function ReligionComparePage() {
                 >
                   <td className="px-5 py-4">
                     <Link
-                      href={`${BASE_PATH}/religion/${religion.id}/`}
+                      href={`/religion/${religion.id}/`}
                       className="flex items-center gap-2 group"
                     >
                       {religion.type === "religion" ? (
@@ -192,7 +190,7 @@ export default function ReligionComparePage() {
           >
             {/* Card Header */}
             <Link
-              href={`${BASE_PATH}/religion/${religion.id}/`}
+              href={`/religion/${religion.id}/`}
               className="flex items-center justify-between px-4 py-3 bg-background-secondary/50 border-b border-border group"
             >
               <div className="flex items-center gap-2">
@@ -297,7 +295,7 @@ export default function ReligionComparePage() {
             {/* Modal Footer */}
             <div className="px-6 py-4 border-t border-border">
               <Link
-                href={`${BASE_PATH}/religion/${selectedCell.religionId}/`}
+                href={`/religion/${selectedCell.religionId}/`}
                 className="inline-flex items-center gap-2 text-sm font-medium text-amber-400 hover:text-amber-300 transition-colors"
                 onClick={() => setSelectedCell(null)}
               >
