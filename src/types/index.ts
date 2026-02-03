@@ -52,11 +52,19 @@ export interface Quote {
   category: string;
 }
 
+export type RelationshipType =
+  | "influenced"   // 직접 영향 (스승-제자, 저작 읽음)
+  | "opposed"      // 비판/반박
+  | "developed"    // 사상을 발전/변형/종합
+  | "parallel"     // 독립적 구조적 유사성 (스토아↔불교 등)
+  | "contextual";  // 같은 역사적 맥락/사건 공유
+
 export interface Relationship {
   source: string;
   target: string;
-  type: "influenced" | "opposed" | "developed";
+  type: RelationshipType;
   description: string;
+  strength?: 1 | 2 | 3; // 1=약함, 2=보통, 3=강함
 }
 
 export interface GlossaryTerm {

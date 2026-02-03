@@ -15,6 +15,7 @@ import {
   Scroll,
   Route,
   Info,
+  Network,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -28,10 +29,11 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { label: "홈", href: "/", icon: <Home className="w-4 h-4" /> },
-  { label: "철학", href: "/philosophy", icon: <BookOpen className="w-4 h-4" /> },
-  { label: "신화/종교", href: "/mythology", icon: <Scroll className="w-4 h-4" /> },
+  { label: "철학", href: "/philosophy/timeline", icon: <BookOpen className="w-4 h-4" /> },
+  { label: "신화/종교", href: "/religion/map", icon: <Scroll className="w-4 h-4" /> },
+  { label: "인드라망", href: "/connections", icon: <Network className="w-4 h-4" /> },
   { label: "검색", href: "/search", icon: <Search className="w-4 h-4" /> },
-  { label: "학습경로", href: "/learning-paths", icon: <Route className="w-4 h-4" /> },
+  { label: "학습경로", href: "/learn", icon: <Route className="w-4 h-4" /> },
   { label: "About", href: "/about", icon: <Info className="w-4 h-4" /> },
 ];
 
@@ -85,7 +87,10 @@ export default function Header() {
     if (href === "/") {
       return pathname === fullPath || pathname === `${fullPath}/` || pathname === BASE_PATH;
     }
-    return pathname?.startsWith(fullPath);
+    // Match parent paths (e.g., /philosophy/timeline matches /philosophy/*)
+    const basePath = href.split("/").slice(0, 2).join("/");
+    const fullBasePath = `${BASE_PATH}${basePath}`;
+    return pathname?.startsWith(fullBasePath);
   };
 
   return (
