@@ -1,0 +1,877 @@
+[
+  {
+    "source": "socrates",
+    "target": "plato",
+    "type": "influenced",
+    "description": "소크라테스는 플라톤의 스승으로, 대화법과 산파술은 플라톤 철학의 출발점이 되었다",
+    "strength": 3
+  },
+  {
+    "source": "plato",
+    "target": "aristotle",
+    "type": "influenced",
+    "description": "아리스토텔레스는 플라톤 아카데메이아에서 20년간 수학하며 스승의 체계를 비판적으로 계승했다",
+    "strength": 3
+  },
+  {
+    "source": "aristotle",
+    "target": "plato",
+    "type": "opposed",
+    "description": "아리스토텔레스는 이데아가 사물과 분리되어 존재한다는 플라톤의 이데아론을 정면으로 비판했다",
+    "strength": 3
+  },
+  {
+    "source": "thales",
+    "target": "pythagoras",
+    "type": "influenced",
+    "description": "밀레토스 학파의 자연 탐구 전통이 피타고라스의 수학적 우주론에 영감을 주었다",
+    "strength": 2
+  },
+  {
+    "source": "thales",
+    "target": "heraclitus",
+    "type": "influenced",
+    "description": "탈레스의 만물의 근원(아르케) 탐구는 헤라클레이토스의 불(火) 원리론으로 이어졌다",
+    "strength": 2
+  },
+  {
+    "source": "thales",
+    "target": "parmenides",
+    "type": "influenced",
+    "description": "밀레토스 학파의 존재론적 물음이 파르메니데스의 '존재는 있고 비존재는 없다'는 명제로 심화되었다",
+    "strength": 2
+  },
+  {
+    "source": "heraclitus",
+    "target": "parmenides",
+    "type": "opposed",
+    "description": "헤라클레이토스의 만물유전(萬物流轉)과 파르메니데스의 불변 존재론은 서양 형이상학의 근본 대립을 형성했다",
+    "strength": 3
+  },
+  {
+    "source": "pythagoras",
+    "target": "plato",
+    "type": "influenced",
+    "description": "피타고라스의 수학적 실재론과 영혼 불멸설은 플라톤의 이데아론과 영혼론에 깊이 스며들었다",
+    "strength": 3
+  },
+  {
+    "source": "heraclitus",
+    "target": "plato",
+    "type": "influenced",
+    "description": "헤라클레이토스의 유전(流轉) 사상은 플라톤이 감각 세계를 불안정한 것으로 규정하는 근거가 되었다",
+    "strength": 2
+  },
+  {
+    "source": "parmenides",
+    "target": "plato",
+    "type": "influenced",
+    "description": "파르메니데스의 불변 존재 개념은 플라톤 이데아의 영원불변성에 직접적 영향을 주었다",
+    "strength": 3
+  },
+  {
+    "source": "heraclitus",
+    "target": "hegel",
+    "type": "influenced",
+    "description": "헤라클레이토스의 대립자의 통일과 변화 사상은 헤겔 변증법의 고대적 선구로 평가된다",
+    "strength": 2
+  },
+  {
+    "source": "socrates",
+    "target": "epicurus",
+    "type": "influenced",
+    "description": "소크라테스의 '좋은 삶'에 대한 탐구가 에피쿠로스의 쾌락주의 윤리학의 출발점이 되었다",
+    "strength": 1
+  },
+  {
+    "source": "socrates",
+    "target": "zeno-stoic",
+    "type": "influenced",
+    "description": "소크라테스의 덕 윤리와 자기 통제 사상은 키니코스 학파를 거쳐 스토아학파의 제논에게 전해졌다",
+    "strength": 2
+  },
+  {
+    "source": "epicurus",
+    "target": "zeno-stoic",
+    "type": "opposed",
+    "description": "에피쿠로스의 쾌락주의와 스토아의 금욕적 덕 윤리는 헬레니즘 시대의 양대 대립축이었다",
+    "strength": 3
+  },
+  {
+    "source": "plato",
+    "target": "augustine",
+    "type": "influenced",
+    "description": "신플라톤주의를 통해 전달된 플라톤의 이데아론은 아우구스티누스 기독교 신학의 철학적 뼈대가 되었다",
+    "strength": 3
+  },
+  {
+    "source": "aristotle",
+    "target": "aquinas",
+    "type": "influenced",
+    "description": "이슬람 철학자들이 보존한 아리스토텔레스 저작이 아퀴나스의 스콜라 철학 체계의 근간이 되었다",
+    "strength": 3
+  },
+  {
+    "source": "augustine",
+    "target": "aquinas",
+    "type": "influenced",
+    "description": "아우구스티누스의 교부 신학 전통은 아퀴나스가 아리스토텔레스와 종합하는 토대가 되었다",
+    "strength": 2
+  },
+  {
+    "source": "augustine",
+    "target": "descartes",
+    "type": "influenced",
+    "description": "아우구스티누스의 'si fallor, sum'(내가 틀린다면 나는 존재한다)은 데카르트의 코기토 사유를 선취했다",
+    "strength": 2
+  },
+  {
+    "source": "augustine",
+    "target": "kierkegaard",
+    "type": "influenced",
+    "description": "아우구스티누스의 내면적 고백과 신앙의 도약은 키르케고르 실존 사상의 기독교적 원천이 되었다",
+    "strength": 2
+  },
+  {
+    "source": "aquinas",
+    "target": "descartes",
+    "type": "contextual",
+    "description": "스콜라 철학의 전통에서 훈련받은 데카르트는 그것을 극복하며 근대 철학을 열었다",
+    "strength": 2
+  },
+  {
+    "source": "descartes",
+    "target": "spinoza",
+    "type": "influenced",
+    "description": "데카르트의 실체 개념과 기하학적 방법론은 스피노자가 일원론 체계로 급진화하는 출발점이 되었다",
+    "strength": 3
+  },
+  {
+    "source": "descartes",
+    "target": "locke",
+    "type": "opposed",
+    "description": "데카르트의 본유관념론에 맞서 로크는 마음을 '백지(tabula rasa)'로 규정하며 경험론을 수립했다",
+    "strength": 3
+  },
+  {
+    "source": "locke",
+    "target": "hume",
+    "type": "developed",
+    "description": "흄은 로크의 경험론을 급진적으로 밀고 나가 인과 관계마저 습관의 산물로 해체했다",
+    "strength": 3
+  },
+  {
+    "source": "locke",
+    "target": "rousseau",
+    "type": "influenced",
+    "description": "로크의 자연권과 사회계약론은 루소의 정치철학 형성에 직접적 영향을 주었다",
+    "strength": 2
+  },
+  {
+    "source": "hume",
+    "target": "kant",
+    "type": "influenced",
+    "description": "흄의 인과론 비판이 칸트를 '독단의 잠'에서 깨워 비판철학을 탄생시켰다",
+    "strength": 3
+  },
+  {
+    "source": "descartes",
+    "target": "kant",
+    "type": "influenced",
+    "description": "데카르트의 합리론적 전통은 칸트 비판철학의 한 축으로, 경험론과 종합되었다",
+    "strength": 2
+  },
+  {
+    "source": "rousseau",
+    "target": "kant",
+    "type": "influenced",
+    "description": "루소의 자유 개념과 도덕 감정론은 칸트의 도덕철학과 자율성 개념에 깊은 영향을 주었다",
+    "strength": 2
+  },
+  {
+    "source": "spinoza",
+    "target": "hegel",
+    "type": "influenced",
+    "description": "스피노자의 범신론적 실체 일원론은 헤겔의 절대정신 개념 형성에 중요한 원천이 되었다",
+    "strength": 2
+  },
+  {
+    "source": "kant",
+    "target": "hegel",
+    "type": "developed",
+    "description": "헤겔은 칸트의 이율배반을 모순의 생산적 운동으로 전환하여 변증법 체계를 완성했다",
+    "strength": 3
+  },
+  {
+    "source": "aristotle",
+    "target": "hegel",
+    "type": "influenced",
+    "description": "아리스토텔레스의 목적론과 논리학은 헤겔이 변증법적 논리학으로 재구성하는 원천이 되었다",
+    "strength": 2
+  },
+  {
+    "source": "hegel",
+    "target": "marx",
+    "type": "developed",
+    "description": "마르크스는 헤겔의 관념론적 변증법을 '발로 서게 하여' 유물론적 역사 변증법으로 전환시켰다",
+    "strength": 3
+  },
+  {
+    "source": "hegel",
+    "target": "kierkegaard",
+    "type": "opposed",
+    "description": "키르케고르는 헤겔의 체계 속에서 개인의 실존이 증발한다고 비판하며 실존주의를 개척했다",
+    "strength": 3
+  },
+  {
+    "source": "hegel",
+    "target": "schopenhauer",
+    "type": "opposed",
+    "description": "쇼펜하우어는 헤겔을 '사이비 철학자'로 맹렬히 비난하며 의지의 형이상학을 대립시켰다",
+    "strength": 3
+  },
+  {
+    "source": "kant",
+    "target": "schopenhauer",
+    "type": "developed",
+    "description": "쇼펜하우어는 칸트의 '물자체'를 '맹목적 의지'로 재해석하며 비관주의 형이상학을 세웠다",
+    "strength": 3
+  },
+  {
+    "source": "schopenhauer",
+    "target": "nietzsche",
+    "type": "developed",
+    "description": "니체는 쇼펜하우어의 의지 형이상학을 계승하되 부정이 아닌 '힘에의 의지'로 긍정적으로 전환했다",
+    "strength": 3
+  },
+  {
+    "source": "kant",
+    "target": "nietzsche",
+    "type": "opposed",
+    "description": "니체는 칸트의 정언명령과 의무 도덕을 삶을 부정하는 '노예 도덕'의 철학적 표현으로 비판했다",
+    "strength": 3
+  },
+  {
+    "source": "hegel",
+    "target": "nietzsche",
+    "type": "opposed",
+    "description": "니체는 헤겔의 역사 목적론과 체계적 형이상학을 생의 구체성을 무시하는 것으로 거부했다",
+    "strength": 2
+  },
+  {
+    "source": "nietzsche",
+    "target": "heidegger",
+    "type": "influenced",
+    "description": "니체의 허무주의 진단과 서양 형이상학 비판은 하이데거의 존재사적 사유의 핵심 주제가 되었다",
+    "strength": 3
+  },
+  {
+    "source": "nietzsche",
+    "target": "sartre",
+    "type": "influenced",
+    "description": "니체의 '신은 죽었다'와 자기 초극 사상은 사르트르의 무신론적 실존주의의 토대가 되었다",
+    "strength": 2
+  },
+  {
+    "source": "nietzsche",
+    "target": "freud",
+    "type": "influenced",
+    "description": "니체의 무의식적 충동과 본능에 대한 통찰은 프로이트 정신분석학의 철학적 선구로 평가된다",
+    "strength": 2
+  },
+  {
+    "source": "kierkegaard",
+    "target": "heidegger",
+    "type": "influenced",
+    "description": "키르케고르의 불안, 결단, 죽음에의 존재 등의 실존 범주가 하이데거의 현존재 분석론에 흡수되었다",
+    "strength": 2
+  },
+  {
+    "source": "kierkegaard",
+    "target": "sartre",
+    "type": "influenced",
+    "description": "키르케고르의 선택과 불안의 실존 사상은 사르트르 실존주의의 핵심 주제로 계승되었다",
+    "strength": 2
+  },
+  {
+    "source": "heidegger",
+    "target": "sartre",
+    "type": "developed",
+    "description": "사르트르는 하이데거의 현존재 분석을 인간적 자유의 철학으로 재해석하여 실존주의를 수립했다",
+    "strength": 3
+  },
+  {
+    "source": "sartre",
+    "target": "simone-de-beauvoir",
+    "type": "influenced",
+    "description": "보부아르는 사르트르의 실존주의를 공유하되 여성의 실존적 상황에 독창적으로 적용했다",
+    "strength": 3
+  },
+  {
+    "source": "simone-de-beauvoir",
+    "target": "sartre",
+    "type": "influenced",
+    "description": "보부아르의 타자성 분석과 상황 개념은 사르트르의 후기 사회 철학에 영향을 미쳤다",
+    "strength": 2
+  },
+  {
+    "source": "hegel",
+    "target": "simone-de-beauvoir",
+    "type": "influenced",
+    "description": "헤겔의 주인-노예 변증법은 보부아르가 『제2의 성』에서 여성의 타자화를 분석하는 틀이 되었다",
+    "strength": 2
+  },
+  {
+    "source": "marx",
+    "target": "sartre",
+    "type": "influenced",
+    "description": "마르크스의 소외론과 계급 분석은 후기 사르트르의 실존적 마르크스주의에 통합되었다",
+    "strength": 2
+  },
+  {
+    "source": "marx",
+    "target": "simone-de-beauvoir",
+    "type": "influenced",
+    "description": "마르크스의 유물론적 사회 분석은 보부아르의 여성 억압 구조 분석에 방법론적 영향을 주었다",
+    "strength": 1
+  },
+  {
+    "source": "freud",
+    "target": "sartre",
+    "type": "opposed",
+    "description": "사르트르는 프로이트의 무의식 결정론을 '자기기만'이라는 실존적 개념으로 대체하며 비판했다",
+    "strength": 2
+  },
+  {
+    "source": "freud",
+    "target": "simone-de-beauvoir",
+    "type": "opposed",
+    "description": "보부아르는 프로이트의 '해부학이 운명'이라는 생물학적 결정론을 실존주의적 관점에서 비판했다",
+    "strength": 2
+  },
+  {
+    "source": "russell",
+    "target": "wittgenstein",
+    "type": "influenced",
+    "description": "러셀의 논리학과 지도 아래 비트겐슈타인은 『논리철학 논고』를 집필하며 분석철학을 혁신했다",
+    "strength": 3
+  },
+  {
+    "source": "wittgenstein",
+    "target": "russell",
+    "type": "influenced",
+    "description": "비트겐슈타인의 『논고』는 러셀의 논리적 원자론을 근본적으로 재구성하게 만들었다",
+    "strength": 2
+  },
+  {
+    "source": "kant",
+    "target": "wittgenstein",
+    "type": "influenced",
+    "description": "칸트의 인식 한계 설정은 비트겐슈타인의 '말할 수 없는 것에는 침묵해야 한다'에 반향되었다",
+    "strength": 2
+  },
+  {
+    "source": "schopenhauer",
+    "target": "wittgenstein",
+    "type": "influenced",
+    "description": "쇼펜하우어의 의지와 표상 구분은 비트겐슈타인의 말할 수 있는 것과 없는 것의 구분에 영향을 주었다",
+    "strength": 1
+  },
+  {
+    "source": "hume",
+    "target": "russell",
+    "type": "influenced",
+    "description": "흄의 경험론과 회의주의 전통은 러셀의 논리적 경험주의에 중요한 철학적 원천이 되었다",
+    "strength": 2
+  },
+  {
+    "source": "wittgenstein",
+    "target": "heidegger",
+    "type": "parallel",
+    "description": "비트겐슈타인의 언어 한계론과 하이데거의 존재 망각 진단은 서양 형이상학의 한계를 각기 다른 방식으로 지적했다",
+    "strength": 2
+  },
+  {
+    "source": "confucius",
+    "target": "mencius",
+    "type": "influenced",
+    "description": "맹자는 공자의 인(仁) 사상을 계승하여 성선설과 사단(四端)의 도덕 심리학으로 발전시켰다",
+    "strength": 3
+  },
+  {
+    "source": "confucius",
+    "target": "xunzi",
+    "type": "influenced",
+    "description": "순자는 공자의 예(禮) 사상을 계승하되 성악설의 관점에서 사회 제도의 중요성을 강조했다",
+    "strength": 3
+  },
+  {
+    "source": "mencius",
+    "target": "xunzi",
+    "type": "opposed",
+    "description": "맹자의 성선설과 순자의 성악설은 유가 내부의 가장 근본적인 인성론 대립을 형성했다",
+    "strength": 3
+  },
+  {
+    "source": "confucius",
+    "target": "zhuxi",
+    "type": "influenced",
+    "description": "주희는 공자-맹자의 도통(道統)을 계승하여 성리학(신유학)의 체계를 집대성했다",
+    "strength": 3
+  },
+  {
+    "source": "mencius",
+    "target": "zhuxi",
+    "type": "developed",
+    "description": "주희는 맹자의 성선설을 이기론(理氣論)으로 형이상학적 근거를 부여하며 체계화했다",
+    "strength": 3
+  },
+  {
+    "source": "laozi",
+    "target": "zhuangzi",
+    "type": "influenced",
+    "description": "노자의 도(道)와 무위(無爲) 사상을 장자가 계승하여 자유로운 소요유(逍遙遊)의 경지로 확장했다",
+    "strength": 3
+  },
+  {
+    "source": "confucius",
+    "target": "laozi",
+    "type": "opposed",
+    "description": "공자의 예악(禮樂) 질서와 노자의 무위자연(無爲自然)은 중국 사상의 양대 축으로 대립했다",
+    "strength": 3
+  },
+  {
+    "source": "zhuangzi",
+    "target": "xunzi",
+    "type": "opposed",
+    "description": "장자의 자유로운 개인주의와 순자의 사회적 규범주의는 개인과 사회의 관계에 대한 대립적 비전이었다",
+    "strength": 2
+  },
+  {
+    "source": "laozi",
+    "target": "zhuxi",
+    "type": "influenced",
+    "description": "노자의 도(道) 개념은 주희가 리(理)의 우주론적 의미를 구성하는 데 간접적 영향을 주었다",
+    "strength": 1
+  },
+  {
+    "source": "zeno-stoic",
+    "target": "laozi",
+    "type": "parallel",
+    "description": "스토아의 자연 순응과 노자의 무위자연은 우주적 질서에 따르는 삶이라는 놀라운 구조적 유사성을 보인다",
+    "strength": 3
+  },
+  {
+    "source": "zeno-stoic",
+    "target": "zhuangzi",
+    "type": "parallel",
+    "description": "스토아의 운명 수용과 장자의 제물론(齊物論)은 집착을 내려놓는 자유의 길이라는 점에서 유사하다",
+    "strength": 2
+  },
+  {
+    "source": "epicurus",
+    "target": "zhuangzi",
+    "type": "parallel",
+    "description": "에피쿠로스의 아타락시아(마음의 평정)와 장자의 소요유(逍遙遊)는 세속적 걱정으로부터의 해방을 추구한다",
+    "strength": 2
+  },
+  {
+    "source": "plato",
+    "target": "nagarjuna",
+    "type": "parallel",
+    "description": "플라톤의 현상/이데아 구분과 나가르주나의 세속제/승의제(二諦) 구분은 실재의 이중 구조를 공유한다",
+    "strength": 2
+  },
+  {
+    "source": "heraclitus",
+    "target": "nagarjuna",
+    "type": "parallel",
+    "description": "헤라클레이토스의 만물유전과 나가르주나의 공(空)·연기(緣起)는 고정된 실체의 부정이라는 점에서 유사하다",
+    "strength": 2
+  },
+  {
+    "source": "nagarjuna",
+    "target": "schopenhauer",
+    "type": "influenced",
+    "description": "나가르주나를 포함한 불교의 고(苦)와 공(空) 사상은 쇼펜하우어의 비관주의 철학에 깊은 영향을 주었다",
+    "strength": 2
+  },
+  {
+    "source": "nagarjuna",
+    "target": "wittgenstein",
+    "type": "parallel",
+    "description": "나가르주나의 사구부정(四句否定)과 비트겐슈타인의 '사다리를 걷어차기'는 언어적 한계 인식에서 유사하다",
+    "strength": 2
+  },
+  {
+    "source": "nagarjuna",
+    "target": "heidegger",
+    "type": "parallel",
+    "description": "나가르주나의 공(空) 사유와 하이데거의 무(Nichts) 사유는 서양·동양 존재론의 깊은 공명을 보여준다",
+    "strength": 2
+  },
+  {
+    "source": "confucius",
+    "target": "socrates",
+    "type": "parallel",
+    "description": "공자와 소크라테스는 동시대에 대화를 통한 교육과 덕의 탐구에 헌신한 동서양의 '스승의 원형'이다",
+    "strength": 3
+  },
+  {
+    "source": "confucius",
+    "target": "aristotle",
+    "type": "parallel",
+    "description": "공자의 중용(中庸)과 아리스토텔레스의 메소테스(중용)는 덕의 실천적 지혜로서 놀라운 유사성을 보인다",
+    "strength": 3
+  },
+  {
+    "source": "mencius",
+    "target": "rousseau",
+    "type": "parallel",
+    "description": "맹자의 성선설과 루소의 자연인 선성론은 인간 본성의 선함을 주장하는 동서양의 평행 사상이다",
+    "strength": 3
+  },
+  {
+    "source": "xunzi",
+    "target": "locke",
+    "type": "parallel",
+    "description": "순자의 인성론과 로크의 백지론은 인간이 교육과 환경에 의해 형성된다는 점에서 구조적으로 유사하다",
+    "strength": 1
+  },
+  {
+    "source": "laozi",
+    "target": "spinoza",
+    "type": "parallel",
+    "description": "노자의 도(道)와 스피노자의 신 즉 자연(Deus sive Natura)은 범재신론적 일원론이라는 점에서 공명한다",
+    "strength": 2
+  },
+  {
+    "source": "zhuangzi",
+    "target": "nietzsche",
+    "type": "parallel",
+    "description": "장자의 가치 상대주의와 니체의 관점주의는 절대적 진리를 해체한다는 점에서 구조적 유사성을 갖는다",
+    "strength": 2
+  },
+  {
+    "source": "laozi",
+    "target": "heidegger",
+    "type": "parallel",
+    "description": "노자의 '도가도비상도'(道可道非常道)와 하이데거의 존재 은폐/탈은폐 구조는 언어 너머의 진리를 지시한다",
+    "strength": 2
+  },
+  {
+    "source": "zhuxi",
+    "target": "kant",
+    "type": "parallel",
+    "description": "주희의 리(理)와 칸트의 선험적 형식은 경험에 앞서는 보편적 원리라는 점에서 구조적으로 비교된다",
+    "strength": 1
+  },
+  {
+    "source": "schopenhauer",
+    "target": "freud",
+    "type": "influenced",
+    "description": "쇼펜하우어의 무의식적 의지 개념은 프로이트의 이드(id)와 무의식 이론의 직접적 철학적 선구가 되었다",
+    "strength": 2
+  },
+  {
+    "source": "marx",
+    "target": "freud",
+    "type": "contextual",
+    "description": "마르크스의 이데올로기 비판과 프로이트의 무의식 분석은 근대 '의심의 해석학'의 양대 축을 이루었다",
+    "strength": 2
+  },
+  {
+    "source": "nietzsche",
+    "target": "freud",
+    "type": "contextual",
+    "description": "니체, 마르크스, 프로이트는 리쾨르가 명명한 '의심의 대가들'로서 근대적 의식의 투명성을 함께 해체했다",
+    "strength": 2
+  },
+  {
+    "source": "descartes",
+    "target": "hume",
+    "type": "contextual",
+    "description": "데카르트의 합리론과 흄의 경험론은 근대 인식론의 양대 진영으로 칸트에 의해 종합되었다",
+    "strength": 2
+  },
+  {
+    "source": "locke",
+    "target": "rousseau",
+    "type": "contextual",
+    "description": "로크와 루소는 계몽주의 시대에 자연 상태와 사회계약이라는 공통 틀 위에서 서로 다른 정치 비전을 제시했다",
+    "strength": 2
+  },
+  {
+    "source": "rousseau",
+    "target": "marx",
+    "type": "influenced",
+    "description": "루소의 사유재산 비판과 불평등 기원론은 마르크스의 자본주의 비판에 선행하는 사상적 원천이었다",
+    "strength": 2
+  },
+  {
+    "source": "hume",
+    "target": "wittgenstein",
+    "type": "influenced",
+    "description": "흄의 관념 분석과 형이상학적 언어 비판은 비트겐슈타인의 언어 분석적 접근에 영향을 주었다",
+    "strength": 1
+  },
+  {
+    "source": "plato",
+    "target": "descartes",
+    "type": "influenced",
+    "description": "플라톤의 합리론적 전통과 감각 불신은 데카르트의 방법적 회의와 심신 이원론의 사상적 뿌리가 되었다",
+    "strength": 2
+  },
+  {
+    "source": "aristotle",
+    "target": "locke",
+    "type": "influenced",
+    "description": "아리스토텔레스의 경험적 탐구 방법론은 로크의 경험론적 인식론에 간접적 영향을 주었다",
+    "strength": 1
+  },
+  {
+    "source": "spinoza",
+    "target": "marx",
+    "type": "influenced",
+    "description": "스피노자의 내재성 철학과 신학-정치 비판은 마르크스의 종교·이데올로기 비판에 영향을 주었다",
+    "strength": 1
+  },
+  {
+    "source": "thales",
+    "target": "socrates",
+    "type": "contextual",
+    "description": "탈레스에서 시작된 자연철학이 소피스트를 거쳐 소크라테스의 인간 중심 철학으로 전환되는 흐름을 형성했다",
+    "strength": 2
+  },
+  {
+    "source": "confucius",
+    "target": "zhuxi",
+    "type": "contextual",
+    "description": "공자로부터 1,500년의 시간을 넘어 주희가 성리학으로 유학을 재건한 것은 동아시아 사상사의 결정적 사건이다",
+    "strength": 2
+  },
+  {
+    "source": "kierkegaard",
+    "target": "nietzsche",
+    "type": "parallel",
+    "description": "키르케고르와 니체는 같은 시대에 서로 모른 채 체계 철학을 거부하고 개인의 실존을 복권시킨 쌍둥이 반역자였다",
+    "strength": 3
+  },
+  {
+    "source": "marx",
+    "target": "heidegger",
+    "type": "contextual",
+    "description": "마르크스의 소외론과 하이데거의 비본래적 실존 분석은 근대성 비판이라는 공통 지평을 공유한다",
+    "strength": 1
+  },
+  {
+    "source": "heraclitus",
+    "target": "laozi",
+    "type": "parallel",
+    "description": "헤라클레이토스의 로고스와 노자의 도(道)는 거의 동시대에 만물의 숨겨진 질서를 사유한 동서양의 평행 사상이다",
+    "strength": 3
+  },
+  {
+    "source": "parmenides",
+    "target": "nagarjuna",
+    "type": "parallel",
+    "description": "파르메니데스의 존재론과 나가르주나의 공 사상은 논리적 엄밀성으로 일상 경험의 실재를 문제삼은 점에서 비교된다",
+    "strength": 1
+  },
+  {
+    "source": "socrates",
+    "target": "nagarjuna",
+    "type": "parallel",
+    "description": "소크라테스의 무지의 지와 나가르주나의 공(空)은 모든 확실한 앎에 대한 근본적 회의라는 점에서 공명한다",
+    "strength": 2
+  },
+  {
+    "source": "aristotle",
+    "target": "epicurus",
+    "type": "influenced",
+    "description": "아리스토텔레스의 자연학과 행복론은 에피쿠로스가 감각 경험 중심의 윤리학을 발전시키는 맥락이 되었다",
+    "strength": 1
+  },
+  {
+    "source": "spinoza",
+    "target": "schopenhauer",
+    "type": "influenced",
+    "description": "스피노자의 실체 일원론은 쇼펜하우어가 의지를 세계의 유일한 본질로 규정하는 데 영향을 주었다",
+    "strength": 1
+  },
+  {
+    "source": "hegel",
+    "target": "sartre",
+    "type": "influenced",
+    "description": "헤겔의 의식 현상학과 주인-노예 변증법은 사르트르의 대타존재론과 시선 이론에 흡수되었다",
+    "strength": 2
+  },
+  {
+    "source": "descartes",
+    "target": "heidegger",
+    "type": "opposed",
+    "description": "하이데거는 데카르트의 주체 중심 존재론을 서양 형이상학의 결정적 전도로 비판했다",
+    "strength": 2
+  },
+  {
+    "source": "plato",
+    "target": "nietzsche",
+    "type": "opposed",
+    "description": "니체는 플라톤의 이데아론을 '참된 세계의 허구'로 규정하며 서양 형이상학 전체를 '플라톤주의'로 비판했다",
+    "strength": 3
+  },
+  {
+    "source": "plato",
+    "target": "heidegger",
+    "type": "opposed",
+    "description": "하이데거는 플라톤의 이데아론에서 존재 망각이 시작되었다고 진단하며 그리스적 사유의 원점으로 돌아가고자 했다",
+    "strength": 2
+  },
+  {
+    "source": "locke",
+    "target": "kant",
+    "type": "influenced",
+    "description": "로크의 경험론적 인식론은 칸트가 합리론과 종합하여 비판철학을 수립하는 한 축이 되었다",
+    "strength": 2
+  },
+  {
+    "source": "confucius",
+    "target": "kant",
+    "type": "parallel",
+    "description": "공자의 '기소불욕 물시어인'(己所不欲 勿施於人)과 칸트의 정언명령은 보편적 도덕 원리의 동서양 평행 표현이다",
+    "strength": 2
+  },
+  {
+    "source": "zhuangzi",
+    "target": "wittgenstein",
+    "type": "parallel",
+    "description": "장자의 언어 회의론('물고기의 즐거움' 논변)과 비트겐슈타인의 '언어 게임'은 언어와 실재의 간극을 각각 탐구했다",
+    "strength": 2
+  },
+  {
+    "source": "aristotle",
+    "target": "marx",
+    "type": "influenced",
+    "description": "아리스토텔레스의 실천적 지혜(프로네시스)와 공동체적 인간관은 마르크스의 인간 본질론에 영향을 주었다",
+    "strength": 1
+  },
+  {
+    "source": "rousseau",
+    "target": "hegel",
+    "type": "influenced",
+    "description": "루소의 일반의지와 자유 개념은 헤겔의 인륜성(Sittlichkeit) 이론의 중요한 원천이 되었다",
+    "strength": 2
+  },
+  {
+    "source": "hume",
+    "target": "nietzsche",
+    "type": "influenced",
+    "description": "흄의 도덕 감정론과 이성 비판은 니체의 도덕 계보학과 반합리주의에 간접적 영향을 주었다",
+    "strength": 1
+  },
+  {
+    "source": "epicurus",
+    "target": "marx",
+    "type": "influenced",
+    "description": "마르크스는 박사논문에서 에피쿠로스의 유물론을 연구했으며 이것이 유물론적 세계관의 한 출발점이 되었다",
+    "strength": 2
+  },
+  {
+    "source": "plato",
+    "target": "zhuxi",
+    "type": "parallel",
+    "description": "플라톤의 이데아와 주희의 리(理)는 감각 세계를 초월하는 형이상학적 원리라는 점에서 동서양의 가장 유명한 평행 사상이다",
+    "strength": 3
+  },
+  {
+    "source": "descartes",
+    "target": "locke",
+    "type": "contextual",
+    "description": "데카르트와 로크는 근대 인식론의 합리론과 경험론이라는 양대 전통을 각각 창시하며 17세기 지적 혁명을 이끌었다",
+    "strength": 2
+  },
+  {
+    "source": "kierkegaard",
+    "target": "simone-de-beauvoir",
+    "type": "influenced",
+    "description": "키르케고르의 실존적 선택과 불안의 사상은 보부아르의 실존주의적 여성론의 철학적 배경이 되었다",
+    "strength": 1
+  },
+  {
+    "source": "zeno-stoic",
+    "target": "spinoza",
+    "type": "influenced",
+    "description": "스토아의 필연성 수용과 자연의 로고스는 스피노자의 결정론적 범신론에 사상적 영향을 주었다",
+    "strength": 1
+  },
+  {
+    "source": "pythagoras",
+    "target": "nagarjuna",
+    "type": "parallel",
+    "description": "피타고라스의 윤회설과 나가르주나의 불교적 윤회·해탈 체계는 영혼의 순환이라는 동서양 공통 주제를 보여준다",
+    "strength": 1
+  },
+  {
+    "source": "heraclitus",
+    "target": "zeno-stoic",
+    "type": "influenced",
+    "description": "헤라클레이토스의 불(火)과 로고스 개념은 스토아학파의 우주론과 자연 철학의 직접적 원천이 되었다",
+    "strength": 2
+  },
+  {
+    "source": "heidegger",
+    "target": "simone-de-beauvoir",
+    "type": "influenced",
+    "description": "하이데거의 현존재 분석과 세계-내-존재 개념은 보부아르의 상황적 실존 분석의 철학적 틀이 되었다",
+    "strength": 1
+  },
+  {
+    "source": "russell",
+    "target": "heidegger",
+    "type": "opposed",
+    "description": "러셀은 하이데거의 존재론을 '무의미한 말의 남용'으로, 하이데거는 분석철학을 '기술적 사유'로 비판하며 20세기 철학의 대분열을 상징했다",
+    "strength": 2
+  },
+  {
+    "source": "mencius",
+    "target": "kant",
+    "type": "parallel",
+    "description": "맹자의 양지(良知)와 칸트의 실천이성은 인간 내면에 보편적 도덕 능력이 내재한다는 도덕 내재론의 동서양 표현이다",
+    "strength": 2
+  },
+  {
+    "source": "xunzi",
+    "target": "hume",
+    "type": "parallel",
+    "description": "순자의 경험적 인성론과 흄의 도덕 감정론은 도덕을 선험적 원리가 아닌 경험과 관습에서 찾는다는 점에서 유사하다",
+    "strength": 1
+  },
+  {
+    "source": "schopenhauer",
+    "target": "kierkegaard",
+    "type": "contextual",
+    "description": "쇼펜하우어와 키르케고르는 같은 시대에 헤겔 체계에 반기를 들며 개인의 고통과 실존을 복권시킨 사상적 동지였다",
+    "strength": 2
+  },
+  {
+    "source": "freud",
+    "target": "heidegger",
+    "type": "contextual",
+    "description": "프로이트와 하이데거는 20세기 초 서로 다른 방식으로 인간 의식의 표면 아래에 놓인 더 깊은 층위를 탐구했다",
+    "strength": 1
+  },
+  {
+    "source": "nagarjuna",
+    "target": "laozi",
+    "type": "parallel",
+    "description": "나가르주나의 공(空)과 노자의 무(無)는 궁극적 실재를 부정적 방식으로 지시하는 동양 사유의 핵심적 공명이다",
+    "strength": 3
+  },
+  {
+    "source": "plato",
+    "target": "spinoza",
+    "type": "influenced",
+    "description": "플라톤의 이성 중심 형이상학 전통은 스피노자의 기하학적 방법과 실체 일원론의 먼 원천이 되었다",
+    "strength": 1
+  }
+]

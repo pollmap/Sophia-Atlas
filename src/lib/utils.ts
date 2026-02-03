@@ -95,3 +95,62 @@ export function formatYear(year: number): string {
 export function formatPeriod(start: number, end: number): string {
   return `${formatYear(start)} ~ ${formatYear(end)}`;
 }
+
+// ── Category Utilities ──
+
+export type PersonCategory = "philosopher" | "religious_figure" | "scientist" | "historical_figure" | "cultural_figure";
+
+export function getCategoryColor(category: string): string {
+  const colors: Record<string, string> = {
+    philosopher: "text-indigo-400",
+    religious_figure: "text-amber-400",
+    scientist: "text-emerald-400",
+    historical_figure: "text-red-400",
+    cultural_figure: "text-pink-400",
+  };
+  return colors[category] || "text-slate-400";
+}
+
+export function getCategoryBgColor(category: string): string {
+  const colors: Record<string, string> = {
+    philosopher: "bg-indigo-500/20",
+    religious_figure: "bg-amber-500/20",
+    scientist: "bg-emerald-500/20",
+    historical_figure: "bg-red-500/20",
+    cultural_figure: "bg-pink-500/20",
+  };
+  return colors[category] || "bg-slate-500/20";
+}
+
+export function getCategoryHexColor(category: string): string {
+  const colors: Record<string, string> = {
+    philosopher: "#6366F1",
+    religious_figure: "#F59E0B",
+    scientist: "#10B981",
+    historical_figure: "#EF4444",
+    cultural_figure: "#EC4899",
+  };
+  return colors[category] || "#64748B";
+}
+
+export function getCategoryLabel(category: string): string {
+  const labels: Record<string, string> = {
+    philosopher: "철학자",
+    religious_figure: "종교 인물",
+    scientist: "과학자",
+    historical_figure: "역사 인물",
+    cultural_figure: "문화/예술",
+  };
+  return labels[category] || category;
+}
+
+export function getCategoryBadgeClass(category: string): string {
+  const classes: Record<string, string> = {
+    philosopher: "bg-indigo-500/20 text-indigo-300 border-indigo-500/30",
+    religious_figure: "bg-amber-500/20 text-amber-300 border-amber-500/30",
+    scientist: "bg-emerald-500/20 text-emerald-300 border-emerald-500/30",
+    historical_figure: "bg-red-500/20 text-red-300 border-red-500/30",
+    cultural_figure: "bg-pink-500/20 text-pink-300 border-pink-500/30",
+  };
+  return classes[category] || "bg-slate-500/20 text-slate-300 border-slate-500/30";
+}

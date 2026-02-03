@@ -1,0 +1,2769 @@
+[
+  {
+    "id": "edward-jenner",
+    "name": {
+      "ko": "에드워드 제너",
+      "en": "Edward Jenner"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1749,
+      "end": 1823
+    },
+    "location": {
+      "lat": 51.69,
+      "lng": -2.46,
+      "region": "영국 글로스터셔"
+    },
+    "category": "scientist",
+    "subcategory": "medicine",
+    "tags": [
+      "의학",
+      "백신",
+      "천연두",
+      "면역학"
+    ],
+    "mvp": true,
+    "summary": "세계 최초로 천연두 백신을 개발하여 면역학의 아버지로 불리는 의사. 종두법의 개발로 인류 역사상 가장 많은 생명을 구한 인물 중 하나이다.",
+    "detailed": "제너는 1796년 우두에 걸린 소녀의 고름을 이용하여 8세 소년에게 종두법을 실시, 천연두에 대한 면역을 입증했다. 이 발견은 인류 최초의 백신으로, 1980년 WHO에 의한 천연두 근절의 기초가 되었다. '백신(vaccine)'이라는 용어도 라틴어 'vacca(소)'에서 유래하여 그의 업적을 기리고 있다.",
+    "keyWorks": [
+      {
+        "title": "우두의 원인과 효과에 대한 탐구",
+        "year": 1798,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "과학과 인류를 위한 의학의 가장 위대한 선물은 예방이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "pasteur",
+      "alexander-fleming",
+      "jonas-salk"
+    ],
+    "field": [
+      "면역학",
+      "의학"
+    ],
+    "discoveries": [
+      "천연두 백신(종두법)"
+    ]
+  },
+  {
+    "id": "semmelweis",
+    "name": {
+      "ko": "이그나츠 제멜바이스",
+      "en": "Ignaz Semmelweis",
+      "original": "Semmelweis Ignác Fülöp"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1818,
+      "end": 1865
+    },
+    "location": {
+      "lat": 48.21,
+      "lng": 16.37,
+      "region": "헝가리→오스트리아 빈"
+    },
+    "category": "scientist",
+    "subcategory": "medicine",
+    "tags": [
+      "의학",
+      "위생",
+      "손 씻기",
+      "산욕열"
+    ],
+    "mvp": true,
+    "summary": "손 씻기의 중요성을 최초로 과학적으로 입증한 '어머니들의 구원자'. 산욕열의 원인이 의사의 오염된 손임을 밝혀냈다.",
+    "detailed": "제멜바이스는 빈 종합병원에서 의사가 시체 해부 후 손을 씻지 않고 분만을 돕는 것이 산욕열의 원인임을 통계적으로 밝혀내고, 소독액 손 씻기를 도입하여 사망률을 극적으로 낮췄다. 그러나 당시 의학계의 반발로 인정받지 못하고 정신병원에서 비극적으로 생을 마감했다. 세균 이론이 확립된 후 그의 업적이 재평가되었다.",
+    "keyWorks": [
+      {
+        "title": "산욕열의 병인, 개념 및 예방",
+        "year": 1861,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "손 씻기만으로도 수천 명의 생명을 구할 수 있다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "lister",
+      "pasteur"
+    ],
+    "field": [
+      "산부인과학",
+      "감염관리",
+      "역학"
+    ],
+    "discoveries": [
+      "손 소독의 산욕열 예방 효과",
+      "의원성 감염 개념"
+    ]
+  },
+  {
+    "id": "ramon-y-cajal",
+    "name": {
+      "ko": "산티아고 라몬 이 카할",
+      "en": "Santiago Ramón y Cajal"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1852,
+      "end": 1934
+    },
+    "location": {
+      "lat": 40.42,
+      "lng": -3.7,
+      "region": "스페인 마드리드"
+    },
+    "category": "scientist",
+    "subcategory": "medicine",
+    "tags": [
+      "의학",
+      "신경과학",
+      "뉴런 이론",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "뉴런 독립체설을 확립하여 현대 신경과학의 기초를 놓은 해부학자. 1906년 노벨 생리의학상을 수상했다.",
+    "detailed": "라몬 이 카할은 골지 염색법을 개선하여 신경 세포의 미세 구조를 상세히 관찰하고, 신경계가 연속적 그물이 아니라 개별적 세포(뉴런)로 구성되어 있다는 뉴런 독립체설을 확립했다. 뛰어난 현미경 화가이기도 하여 그가 그린 신경세포 그림은 과학적 예술의 걸작으로 남아있다. 현대 신경과학의 아버지로 불린다.",
+    "keyWorks": [
+      {
+        "title": "인간과 척추동물의 신경계의 조직학",
+        "year": 1904,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "모든 사람은 원한다면 자기 뇌의 조각가가 될 수 있다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "golgi"
+    ],
+    "influenced": [
+      "sherrington"
+    ],
+    "field": [
+      "신경해부학",
+      "조직학",
+      "신경과학"
+    ],
+    "discoveries": [
+      "뉴런 독립체설",
+      "신경 가소성 개념",
+      "축삭 성장 원뿔"
+    ]
+  },
+  {
+    "id": "poincare",
+    "name": {
+      "ko": "앙리 푸앵카레",
+      "en": "Henri Poincaré",
+      "original": "Jules Henri Poincaré"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1854,
+      "end": 1912
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "scientist",
+    "subcategory": "mathematics",
+    "tags": [
+      "수학",
+      "물리학",
+      "위상수학",
+      "카오스 이론"
+    ],
+    "mvp": true,
+    "summary": "위상수학을 창시하고 카오스 이론의 기초를 놓은 19~20세기의 마지막 보편 수학자. 특수 상대성이론의 선구적 연구도 수행했다.",
+    "detailed": "푸앵카레는 위상수학(대수적 위상수학)을 창시하고, 3체 문제 연구에서 카오스 현상을 최초로 발견하여 혼돈역학의 기초를 놓았다. '푸앵카레 추측'은 100년 후 페렐만에 의해 증명된 밀레니엄 문제이다. 특수 상대성이론의 핵심 아이디어를 아인슈타인과 독립적으로 발전시켰으며, 과학의 본질에 대한 철학적 저작도 남겼다.",
+    "keyWorks": [
+      {
+        "title": "천체역학의 새로운 방법",
+        "year": 1892,
+        "type": "book"
+      },
+      {
+        "title": "과학과 가설",
+        "year": 1902,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "수학은 다른 이름으로 같은 것을 부르는 기술이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "riemann",
+      "gauss"
+    ],
+    "influenced": [
+      "einstein",
+      "hilbert",
+      "grothendieck"
+    ],
+    "field": [
+      "수학",
+      "수리물리학",
+      "천체역학"
+    ],
+    "discoveries": [
+      "위상수학 창시",
+      "푸앵카레 추측",
+      "카오스 이론의 기초",
+      "푸앵카레 재귀 정리"
+    ]
+  },
+  {
+    "id": "sherrington",
+    "name": {
+      "ko": "찰스 셰링턴",
+      "en": "Charles Sherrington"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1857,
+      "end": 1952
+    },
+    "location": {
+      "lat": 51.75,
+      "lng": -1.25,
+      "region": "영국 옥스퍼드"
+    },
+    "category": "scientist",
+    "subcategory": "medicine",
+    "tags": [
+      "의학",
+      "신경과학",
+      "시냅스",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "신경계의 통합적 기능을 연구하고 '시냅스'라는 용어를 도입한 신경생리학의 아버지. 1932년 노벨 생리의학상을 수상했다.",
+    "detailed": "셰링턴은 신경계가 반사궁을 통해 통합적으로 기능한다는 것을 실험적으로 증명하고, 신경 세포 사이의 접합부를 '시냅스'라 명명했다. 흥분성과 억제성 시냅스의 존재를 밝혀 신경계의 복잡한 조절 메커니즘을 이해하는 기초를 놓았다. 그의 저서 '신경계의 통합적 작용'은 현대 신경과학의 기초가 되었다.",
+    "keyWorks": [
+      {
+        "title": "신경계의 통합적 작용",
+        "year": 1906,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "뇌는 마법의 베틀이다. 수백만 개의 번쩍이는 북이 순간적 패턴을 짜는.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "ramon-y-cajal"
+    ],
+    "field": [
+      "신경생리학",
+      "신경과학"
+    ],
+    "discoveries": [
+      "시냅스 개념",
+      "흥분-억제 신경 메커니즘",
+      "고유감각"
+    ]
+  },
+  {
+    "id": "planck",
+    "name": {
+      "ko": "막스 플랑크",
+      "en": "Max Planck",
+      "original": "Max Karl Ernst Ludwig Planck"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1858,
+      "end": 1947
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.4,
+      "region": "독일 베를린"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "양자역학",
+      "플랑크 상수",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "양자역학의 창시자로, 에너지가 불연속적 양자 단위로 방출된다는 플랑크의 양자 가설을 제안했다. 1918년 노벨 물리학상을 수상했다.",
+    "detailed": "플랑크는 1900년 흑체 복사 문제를 해결하기 위해 에너지가 연속적이 아닌 불연속적인 '양자' 단위로 방출된다는 혁명적 가설을 제안했다. 이 양자 가설은 고전 물리학의 근본적 한계를 드러내며 양자역학이라는 새로운 물리학 분야의 시작을 알렸다. 독일 물리학회 회장과 카이저 빌헬름 협회 회장을 역임하며 독일 과학계를 이끌었다.",
+    "keyWorks": [
+      {
+        "title": "흑체 복사의 에너지 분포 법칙에 관하여",
+        "year": 1900,
+        "type": "paper"
+      },
+      {
+        "title": "열복사 이론 강의",
+        "year": 1906,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "새로운 과학적 진리는 반대자를 설득하여 승리하는 것이 아니라, 반대자가 사라지고 새 세대가 그것에 익숙해지면서 승리한다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "clausius",
+      "boltzmann"
+    ],
+    "influenced": [
+      "einstein",
+      "bohr",
+      "heisenberg",
+      "schrodinger"
+    ],
+    "field": [
+      "이론물리학",
+      "열역학",
+      "양자역학"
+    ],
+    "discoveries": [
+      "양자 가설",
+      "플랑크 상수",
+      "플랑크 복사 법칙"
+    ]
+  },
+  {
+    "id": "hilbert",
+    "name": {
+      "ko": "다비트 힐베르트",
+      "en": "David Hilbert"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1862,
+      "end": 1943
+    },
+    "location": {
+      "lat": 51.54,
+      "lng": 9.94,
+      "region": "독일 괴팅겐"
+    },
+    "category": "scientist",
+    "subcategory": "mathematics",
+    "tags": [
+      "수학",
+      "힐베르트 공간",
+      "형식주의",
+      "힐베르트의 23문제"
+    ],
+    "mvp": true,
+    "summary": "20세기 수학을 정의한 거장으로, '힐베르트의 23문제'를 제시하여 현대 수학의 연구 방향을 제시했다. 수학의 형식주의 프로그램을 주도했다.",
+    "detailed": "힐베르트는 1900년 파리 국제수학자대회에서 20세기 수학이 풀어야 할 23개의 문제를 제시하여 수학 연구의 청사진을 그렸다. 불변론, 수론, 기하학의 기초, 적분방정식 등 수학의 거의 모든 분야에 기여했다. 수학을 완전하고 무모순인 형식 체계로 만들려는 '힐베르트 프로그램'은 괴델의 불완전성 정리에 의해 한계가 밝혀졌으나 수리논리학의 발전을 이끌었다.",
+    "keyWorks": [
+      {
+        "title": "기하학의 기초",
+        "year": 1899,
+        "type": "book"
+      },
+      {
+        "title": "수학의 문제들",
+        "year": 1900,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "우리는 알아야 한다. 우리는 알게 될 것이다.",
+        "source": "은퇴 연설"
+      }
+    ],
+    "influences": [
+      "gauss",
+      "riemann"
+    ],
+    "influenced": [
+      "godel",
+      "von-neumann",
+      "emmy-noether",
+      "turing"
+    ],
+    "field": [
+      "수학",
+      "수리논리학"
+    ],
+    "discoveries": [
+      "힐베르트의 23문제",
+      "힐베르트 공간",
+      "형식주의 프로그램",
+      "기하학의 공리화"
+    ]
+  },
+  {
+    "id": "marie-curie",
+    "name": {
+      "ko": "마리 퀴리",
+      "en": "Marie Curie",
+      "original": "Maria Skłodowska-Curie"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1867,
+      "end": 1934
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "화학",
+      "방사능",
+      "노벨상",
+      "여성 과학자"
+    ],
+    "mvp": true,
+    "summary": "방사능 연구의 선구자로 폴로늄과 라듐을 발견한 과학자. 노벨 물리학상(1903)과 노벨 화학상(1911)을 모두 수상한 최초의 인물이다.",
+    "detailed": "마리 퀴리는 폴란드 출신으로 파리에서 남편 피에르 퀴리와 함께 방사능을 연구하여 폴로늄과 라듐이라는 두 가지 새로운 원소를 발견했다. 두 차례 노벨상을 수상한 최초의 인물이자 두 개의 다른 분야에서 노벨상을 받은 유일한 인물이다. 방사능 연구에 대한 장기 노출로 재생불량성 빈혈로 사망했으며, 여성 과학자의 선구자적 존재이다.",
+    "keyWorks": [
+      {
+        "title": "방사성 물질에 관한 연구",
+        "year": 1903,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "인생에서 두려워할 것은 아무것도 없다. 이해할 것만 있을 뿐이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "becquerel"
+    ],
+    "influenced": [
+      "rosalind-franklin",
+      "irene-joliot-curie"
+    ],
+    "field": [
+      "물리학",
+      "화학",
+      "방사능"
+    ],
+    "discoveries": [
+      "폴로늄 발견",
+      "라듐 발견",
+      "방사능 연구"
+    ]
+  },
+  {
+    "id": "rutherford",
+    "name": {
+      "ko": "어니스트 러더퍼드",
+      "en": "Ernest Rutherford"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1871,
+      "end": 1937
+    },
+    "location": {
+      "lat": 52.2,
+      "lng": 0.12,
+      "region": "영국 캠브리지"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "핵물리학",
+      "원자 모형",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "원자핵을 발견하고 핵물리학의 아버지로 불리는 실험물리학자. 1908년 노벨 화학상을 수상했다.",
+    "detailed": "러더퍼드는 알파 입자 산란 실험을 통해 원자의 중심에 작고 밀도 높은 양전하 핵이 존재한다는 것을 발견하여 원자의 핵 모형을 제안했다. 최초로 원자핵의 인공 변환을 달성하고 양성자의 존재를 확인했다. 뉴질랜드 출신으로 캠브리지 캐번디시 연구소를 이끌며 채드윅, 블랙켓 등 수많은 노벨상 수상자를 배출했다.",
+    "keyWorks": [
+      {
+        "title": "물질에 의한 알파 및 베타 입자의 산란과 원자의 구조",
+        "year": 1911,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "모든 과학은 물리학이거나 우표 수집이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "thomson"
+    ],
+    "influenced": [
+      "bohr",
+      "chadwick"
+    ],
+    "field": [
+      "핵물리학",
+      "원자물리학"
+    ],
+    "discoveries": [
+      "원자핵 발견",
+      "양성자 발견",
+      "알파/베타 방사선 분류",
+      "핵변환"
+    ]
+  },
+  {
+    "id": "einstein",
+    "name": {
+      "ko": "알베르트 아인슈타인",
+      "en": "Albert Einstein",
+      "original": "Albert Einstein"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1879,
+      "end": 1955
+    },
+    "location": {
+      "lat": 40.35,
+      "lng": -74.66,
+      "region": "취리히→프린스턴"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "상대성이론",
+      "양자역학",
+      "노벨상",
+      "20세기 물리학"
+    ],
+    "mvp": true,
+    "summary": "특수 상대성이론과 일반 상대성이론으로 시공간 개념을 혁명적으로 변화시킨 20세기 최고의 물리학자. 광전효과 설명으로 1921년 노벨 물리학상을 수상했다.",
+    "detailed": "아인슈타인은 1905년 '기적의 해'에 특수 상대성이론, 광전효과, 브라운 운동을 설명하는 세 편의 혁명적 논문을 발표했다. 1915년에는 중력을 시공간의 곡률로 설명하는 일반 상대성이론을 완성하여 뉴턴 역학을 넘어서는 새로운 물리학의 틀을 제시했다. 나치의 부상으로 미국에 망명한 뒤 프린스턴 고등연구소에서 통일장 이론 연구에 매진했으며, E=mc²는 핵에너지의 이론적 기초가 되었다.",
+    "keyWorks": [
+      {
+        "title": "특수 상대성이론",
+        "year": 1905,
+        "type": "paper"
+      },
+      {
+        "title": "일반 상대성이론",
+        "year": 1915,
+        "type": "paper"
+      },
+      {
+        "title": "광전효과에 관하여",
+        "year": 1905,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "상상력은 지식보다 중요하다.",
+        "source": ""
+      },
+      {
+        "text": "신은 주사위를 던지지 않는다.",
+        "source": "보어에게 보낸 편지"
+      }
+    ],
+    "influences": [
+      "newton",
+      "maxwell",
+      "mach",
+      "planck"
+    ],
+    "influenced": [
+      "bohr",
+      "heisenberg",
+      "feynman",
+      "hawking",
+      "oppenheimer"
+    ],
+    "field": [
+      "이론물리학",
+      "양자역학",
+      "통계역학"
+    ],
+    "discoveries": [
+      "특수 상대성이론",
+      "일반 상대성이론",
+      "광전효과",
+      "E=mc²",
+      "보즈-아인슈타인 응축"
+    ]
+  },
+  {
+    "id": "alexander-fleming",
+    "name": {
+      "ko": "알렉산더 플레밍",
+      "en": "Alexander Fleming"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1881,
+      "end": 1955
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "scientist",
+    "subcategory": "medicine",
+    "tags": [
+      "의학",
+      "페니실린",
+      "항생제",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "세계 최초의 항생제 페니실린을 발견하여 현대 의학에 혁명을 일으킨 세균학자. 1945년 노벨 생리의학상을 수상했다.",
+    "detailed": "플레밍은 1928년 우연히 푸른곰팡이가 세균의 성장을 억제하는 것을 발견하고 이를 '페니실린'이라 명명했다. 이후 플로리와 체인이 페니실린의 대량 생산법을 개발하여 2차 세계대전 중 수백만 명의 생명을 구했다. 페니실린의 발견은 항생제 시대를 열어 감염병 치료에 혁명적 변화를 가져왔다.",
+    "keyWorks": [
+      {
+        "title": "페니실리움 배양물의 항균 작용에 관하여",
+        "year": 1929,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "어디에서나 관찰할 준비가 된 정신만이 행운의 기회를 잡을 수 있다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "jonas-salk"
+    ],
+    "field": [
+      "세균학",
+      "의학"
+    ],
+    "discoveries": [
+      "페니실린 발견"
+    ]
+  },
+  {
+    "id": "emmy-noether",
+    "name": {
+      "ko": "에미 뇌터",
+      "en": "Emmy Noether",
+      "original": "Amalie Emmy Noether"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1882,
+      "end": 1935
+    },
+    "location": {
+      "lat": 51.54,
+      "lng": 9.94,
+      "region": "독일 괴팅겐"
+    },
+    "category": "scientist",
+    "subcategory": "mathematics",
+    "tags": [
+      "수학",
+      "대수학",
+      "뇌터 정리",
+      "여성 과학자"
+    ],
+    "mvp": true,
+    "summary": "현대 추상대수학의 기초를 놓고 물리학에서 대칭과 보존법칙의 관계를 밝힌 뇌터 정리를 증명한 수학자.",
+    "detailed": "뇌터는 1918년 물리학에서 연속적 대칭이 있으면 대응하는 보존법칙이 존재한다는 뇌터 정리를 증명하여 이론물리학에 근본적 기여를 했다. 추상대수학 분야에서 이상론(ideal theory)과 환론(ring theory)의 기초를 확립하여 현대 대수학의 구조를 만들었다. 여성이라는 이유로 정식 교수직을 얻기 어려웠음에도 불구하고 아인슈타인이 '역사상 가장 중요한 여성 수학자'로 칭찬했다.",
+    "keyWorks": [
+      {
+        "title": "불변 변분 문제",
+        "year": 1918,
+        "type": "paper"
+      },
+      {
+        "title": "환의 이상론",
+        "year": 1921,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "수학은 눈에 보이지 않는 아름다움의 세계이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "hilbert",
+      "gauss"
+    ],
+    "influenced": [
+      "grothendieck"
+    ],
+    "field": [
+      "수학",
+      "추상대수학",
+      "수리물리학"
+    ],
+    "discoveries": [
+      "뇌터 정리",
+      "뇌터 환",
+      "현대 추상대수학의 기초"
+    ]
+  },
+  {
+    "id": "bohr",
+    "name": {
+      "ko": "닐스 보어",
+      "en": "Niels Bohr",
+      "original": "Niels Henrik David Bohr"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1885,
+      "end": 1962
+    },
+    "location": {
+      "lat": 55.68,
+      "lng": 12.57,
+      "region": "덴마크 코펜하겐"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "양자역학",
+      "원자 모형",
+      "코펜하겐 해석",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "원자 모형을 제안하고 양자역학의 코펜하겐 해석을 확립한 물리학자. 1922년 노벨 물리학상을 수상했다.",
+    "detailed": "보어는 1913년 수소 원자의 양자 모형을 제안하여 원자 구조에 대한 이해를 혁명적으로 바꿨다. 코펜하겐에 이론물리학 연구소를 설립하여 하이젠베르크, 파울리 등 젊은 물리학자들의 연구 중심지로 만들었다. 상보성 원리와 코펜하겐 해석을 통해 양자역학의 철학적 기초를 확립했으며, 아인슈타인과의 유명한 논쟁은 20세기 물리학사의 하이라이트이다.",
+    "keyWorks": [
+      {
+        "title": "원자의 구조에 관하여",
+        "year": 1913,
+        "type": "paper"
+      },
+      {
+        "title": "상보성 원리",
+        "year": 1928,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "양자역학에 충격받지 않은 사람은 양자역학을 이해하지 못한 것이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "rutherford",
+      "planck",
+      "einstein"
+    ],
+    "influenced": [
+      "heisenberg",
+      "dirac",
+      "feynman",
+      "wheeler"
+    ],
+    "field": [
+      "이론물리학",
+      "양자역학",
+      "원자물리학"
+    ],
+    "discoveries": [
+      "보어 원자 모형",
+      "상보성 원리",
+      "코펜하겐 해석",
+      "보어 모형"
+    ]
+  },
+  {
+    "id": "schrodinger",
+    "name": {
+      "ko": "에르빈 슈뢰딩거",
+      "en": "Erwin Schrödinger",
+      "original": "Erwin Rudolf Josef Alexander Schrödinger"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1887,
+      "end": 1961
+    },
+    "location": {
+      "lat": 48.21,
+      "lng": 16.37,
+      "region": "오스트리아 빈"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "양자역학",
+      "파동방정식",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "양자역학의 파동 방정식을 수립하고 '슈뢰딩거의 고양이' 사고실험으로 양자역학의 해석 문제를 제기한 물리학자. 1933년 노벨 물리학상을 수상했다.",
+    "detailed": "슈뢰딩거는 1926년 양자 시스템의 시간 변화를 기술하는 슈뢰딩거 방정식을 발표하여 양자역학의 파동역학 형식을 확립했다. 그의 방정식은 하이젠베르크의 행렬 역학과 수학적으로 동치임이 밝혀졌다. '슈뢰딩거의 고양이' 사고실험은 양자역학의 코펜하겐 해석에 대한 비판으로 제안되었으나 양자 중첩의 본질을 보여주는 아이콘이 되었다.",
+    "keyWorks": [
+      {
+        "title": "고유값 문제로서의 양자화",
+        "year": 1926,
+        "type": "paper"
+      },
+      {
+        "title": "생명이란 무엇인가",
+        "year": 1944,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "양자 도약이 없다면 물리학을 하지 않았을 것이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "boltzmann",
+      "einstein",
+      "de-broglie"
+    ],
+    "influenced": [
+      "dirac",
+      "feynman",
+      "crick"
+    ],
+    "field": [
+      "이론물리학",
+      "양자역학",
+      "생물물리학"
+    ],
+    "discoveries": [
+      "슈뢰딩거 방정식",
+      "슈뢰딩거의 고양이",
+      "양자 얽힘 개념"
+    ]
+  },
+  {
+    "id": "norbert-wiener",
+    "name": {
+      "ko": "노버트 위너",
+      "en": "Norbert Wiener"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1894,
+      "end": 1964
+    },
+    "location": {
+      "lat": 42.36,
+      "lng": -71.09,
+      "region": "미국 MIT"
+    },
+    "category": "scientist",
+    "subcategory": "mathematics",
+    "tags": [
+      "수학",
+      "사이버네틱스",
+      "제어이론",
+      "확률과정"
+    ],
+    "mvp": true,
+    "summary": "사이버네틱스를 창시하여 제어와 통신의 통합 이론을 제시한 수학자. 인공지능과 자동화 이론의 선구자이다.",
+    "detailed": "위너는 1948년 '사이버네틱스'를 출간하여 동물과 기계의 제어 및 통신을 통합적으로 다루는 새로운 학문을 창시했다. 확률과정론에서 위너 과정(브라운 운동의 수학적 모형)을 엄밀하게 정의하고, 피드백 제어 이론의 수학적 기초를 놓았다. 기술의 사회적 영향에 대한 경고를 일찍이 제기한 선각자이기도 했다.",
+    "keyWorks": [
+      {
+        "title": "사이버네틱스",
+        "year": 1948,
+        "type": "book"
+      },
+      {
+        "title": "인간의 인간적 이용",
+        "year": 1950,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "기계에 목적을 부여한 인간은 그 목적에 책임을 져야 한다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "leibniz"
+    ],
+    "influenced": [
+      "claude-shannon"
+    ],
+    "field": [
+      "수학",
+      "사이버네틱스",
+      "제어이론"
+    ],
+    "discoveries": [
+      "사이버네틱스",
+      "위너 과정",
+      "위너 필터"
+    ]
+  },
+  {
+    "id": "heisenberg",
+    "name": {
+      "ko": "베르너 하이젠베르크",
+      "en": "Werner Heisenberg",
+      "original": "Werner Karl Heisenberg"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1901,
+      "end": 1976
+    },
+    "location": {
+      "lat": 48.14,
+      "lng": 11.58,
+      "region": "독일 뮌헨"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "양자역학",
+      "불확정성 원리",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "양자역학의 행렬 역학을 창안하고 불확정성 원리를 발견한 물리학자. 1932년 노벨 물리학상을 수상했다.",
+    "detailed": "하이젠베르크는 1925년 관측 가능한 물리량만을 다루는 행렬 역학을 창안하여 양자역학의 수학적 기초를 놓았다. 1927년에는 위치와 운동량을 동시에 정확하게 측정할 수 없다는 불확정성 원리를 발표하여 물리학과 철학에 깊은 영향을 미쳤다. 2차 세계대전 중 독일의 핵 프로그램에 참여했으나 그 역할에 대해서는 논란이 있다.",
+    "keyWorks": [
+      {
+        "title": "양자역학적 운동학과 역학의 직관적 내용에 관하여",
+        "year": 1927,
+        "type": "paper"
+      },
+      {
+        "title": "부분과 전체",
+        "year": 1969,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "원자의 세계에서는 관찰 행위 자체가 관찰 대상을 변화시킨다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "bohr",
+      "planck",
+      "sommerfeld"
+    ],
+    "influenced": [
+      "feynman",
+      "gell-mann",
+      "schwinger"
+    ],
+    "field": [
+      "이론물리학",
+      "양자역학"
+    ],
+    "discoveries": [
+      "행렬 역학",
+      "불확정성 원리",
+      "핵 아이소스핀"
+    ]
+  },
+  {
+    "id": "fermi",
+    "name": {
+      "ko": "엔리코 페르미",
+      "en": "Enrico Fermi"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1901,
+      "end": 1954
+    },
+    "location": {
+      "lat": 41.79,
+      "lng": -87.6,
+      "region": "이탈리아→미국 시카고"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "핵물리학",
+      "원자로",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "최초의 제어된 핵연쇄반응을 실현하고 이론과 실험 양면에서 탁월한 업적을 남긴 물리학자. 1938년 노벨 물리학상을 수상했다.",
+    "detailed": "페르미는 이론물리학과 실험물리학 모두에서 뛰어난 업적을 남긴 20세기의 마지막 '보편적 물리학자'로 불린다. 중성미자 이론과 베타 붕괴 이론을 발전시키고, 느린 중성자에 의한 핵반응 연구로 노벨상을 수상했다. 1942년 시카고에서 최초의 제어된 핵연쇄반응을 실현하여 원자력 시대를 열었다.",
+    "keyWorks": [
+      {
+        "title": "베타 붕괴 이론",
+        "year": 1934,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "실험이 이론과 일치하면 나는 결과를 확인한다. 일치하지 않으면 나는 발견을 한다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "dirac",
+      "bohr"
+    ],
+    "influenced": [
+      "oppenheimer",
+      "gell-mann",
+      "feynman"
+    ],
+    "field": [
+      "핵물리학",
+      "입자물리학",
+      "통계역학"
+    ],
+    "discoveries": [
+      "최초의 핵연쇄반응",
+      "페르미-디랙 통계",
+      "베타 붕괴 이론",
+      "중성자 감속 효과"
+    ]
+  },
+  {
+    "id": "dirac",
+    "name": {
+      "ko": "폴 디랙",
+      "en": "Paul Dirac",
+      "original": "Paul Adrien Maurice Dirac"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1902,
+      "end": 1984
+    },
+    "location": {
+      "lat": 52.2,
+      "lng": 0.12,
+      "region": "영국 캠브리지"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "양자역학",
+      "반물질",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "디랙 방정식으로 양자역학과 특수 상대성이론을 통합하고 반물질의 존재를 예측한 이론물리학자. 1933년 노벨 물리학상을 수상했다.",
+    "detailed": "디랙은 1928년 전자의 상대론적 양자역학 방정식을 수립하여 전자의 스핀을 자연스럽게 설명하고 반물질(양전자)의 존재를 이론적으로 예측했다. 양전자는 1932년 앤더슨에 의해 실험적으로 발견되었다. 양자전기역학의 기초를 놓았으며, '물리학에서 가장 아름다운 방정식'이라 불리는 디랙 방정식은 현대 입자물리학의 초석이 되었다.",
+    "keyWorks": [
+      {
+        "title": "양자역학의 원리",
+        "year": 1930,
+        "type": "book"
+      },
+      {
+        "title": "전자의 양자 이론",
+        "year": 1928,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "물리 법칙은 수학적 아름다움을 가져야 한다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "bohr",
+      "heisenberg",
+      "einstein"
+    ],
+    "influenced": [
+      "feynman",
+      "schwinger",
+      "weinberg"
+    ],
+    "field": [
+      "이론물리학",
+      "양자역학",
+      "양자전기역학"
+    ],
+    "discoveries": [
+      "디랙 방정식",
+      "반물질 예측",
+      "페르미-디랙 통계",
+      "자기홀극 이론"
+    ]
+  },
+  {
+    "id": "mcclintock",
+    "name": {
+      "ko": "바버라 매클린톡",
+      "en": "Barbara McClintock"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1902,
+      "end": 1992
+    },
+    "location": {
+      "lat": 40.86,
+      "lng": -73.47,
+      "region": "미국 콜드스프링하버"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "유전학",
+      "전위인자",
+      "노벨상",
+      "여성 과학자"
+    ],
+    "mvp": true,
+    "summary": "전위인자(점프 유전자)를 발견하여 유전학의 패러다임을 바꾼 세포유전학자. 1983년 단독으로 노벨 생리의학상을 수상했다.",
+    "detailed": "매클린톡은 1940~50년대 옥수수 연구를 통해 유전자가 염색체 내에서 위치를 이동할 수 있는 '전위인자(트랜스포존)'를 발견했다. 유전자가 고정된 위치에 있다는 당시의 통설에 반하는 발견이었기에 수십 년간 무시되었으나, 분자생물학의 발전으로 재평가되어 81세에 노벨상을 수상했다.",
+    "keyWorks": [
+      {
+        "title": "옥수수의 색소 조절에 관한 연구",
+        "year": 1950,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "당신의 재료에 귀를 기울여야 합니다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "jennifer-doudna"
+    ],
+    "field": [
+      "세포유전학",
+      "분자생물학"
+    ],
+    "discoveries": [
+      "전위인자(점프 유전자)",
+      "유전자 조절 메커니즘"
+    ]
+  },
+  {
+    "id": "von-neumann",
+    "name": {
+      "ko": "존 폰 노이만",
+      "en": "John von Neumann",
+      "original": "Neumann János Lajos"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1903,
+      "end": 1957
+    },
+    "location": {
+      "lat": 40.35,
+      "lng": -74.66,
+      "region": "헝가리→미국 프린스턴"
+    },
+    "category": "scientist",
+    "categories": [
+      "scientist",
+      "philosopher"
+    ],
+    "subcategory": "mathematics",
+    "tags": [
+      "수학",
+      "컴퓨터",
+      "게임이론",
+      "양자역학",
+      "폰 노이만 구조"
+    ],
+    "mvp": true,
+    "summary": "20세기 가장 뛰어난 수학자 중 한 명으로, 양자역학의 수학적 기초, 게임이론, 컴퓨터 구조 등 다양한 분야에 혁명적 기여를 했다.",
+    "detailed": "폰 노이만은 양자역학의 수학적 기초를 힐베르트 공간 이론으로 정립하고, 게임이론을 창시하여 경제학과 전략학에 수학적 기초를 놓았다. 저장 프로그램 방식의 '폰 노이만 구조'는 현대 컴퓨터의 기본 설계가 되었다. 맨해튼 프로젝트에도 참여하여 폭축 렌즈 설계에 기여했으며, 자기 복제 오토마타 이론으로 인공생명의 이론적 기초를 마련했다.",
+    "keyWorks": [
+      {
+        "title": "양자역학의 수학적 기초",
+        "year": 1932,
+        "type": "book"
+      },
+      {
+        "title": "게임이론과 경제행동",
+        "year": 1944,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "수학에서 당신은 것들을 이해하지 않는다. 그것들에 그저 익숙해질 뿐이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "hilbert",
+      "godel"
+    ],
+    "influenced": [
+      "turing",
+      "claude-shannon"
+    ],
+    "field": [
+      "수학",
+      "컴퓨터과학",
+      "물리학",
+      "경제학"
+    ],
+    "discoveries": [
+      "폰 노이만 구조",
+      "게임이론",
+      "양자역학의 수학적 기초",
+      "자기 복제 오토마타"
+    ]
+  },
+  {
+    "id": "alonzo-church",
+    "name": {
+      "ko": "앨론조 처치",
+      "en": "Alonzo Church"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1903,
+      "end": 1995
+    },
+    "location": {
+      "lat": 40.35,
+      "lng": -74.66,
+      "region": "미국 프린스턴"
+    },
+    "category": "scientist",
+    "subcategory": "mathematics",
+    "tags": [
+      "수학",
+      "논리학",
+      "람다 계산법",
+      "계산이론"
+    ],
+    "mvp": true,
+    "summary": "람다 계산법을 개발하여 계산 가능성 이론의 기초를 놓은 수학자. 처치-튜링 테제를 통해 계산의 본질적 한계를 밝혔다.",
+    "detailed": "처치는 1936년 람다 계산법이라는 형식 체계를 개발하여 계산 가능한 함수를 정의하는 방법을 제시했다. 이는 튜링 머신과 동등한 계산 능력을 가지며, 처치-튜링 테제로 알려진 '효과적으로 계산 가능한 함수는 람다 정의 가능한 함수와 같다'는 주장의 기초가 되었다. 프린스턴에서 튜링의 박사 지도교수였으며, 람다 계산법은 함수형 프로그래밍 언어의 이론적 기초가 되었다.",
+    "keyWorks": [
+      {
+        "title": "기초 수론의 결정 불가능한 문제에 대한 주석",
+        "year": 1936,
+        "type": "paper"
+      }
+    ],
+    "quotes": [],
+    "influences": [
+      "hilbert",
+      "godel"
+    ],
+    "influenced": [
+      "turing"
+    ],
+    "field": [
+      "수리논리학",
+      "계산이론"
+    ],
+    "discoveries": [
+      "람다 계산법",
+      "처치-튜링 테제",
+      "처치 수"
+    ]
+  },
+  {
+    "id": "oppenheimer",
+    "name": {
+      "ko": "로버트 오펜하이머",
+      "en": "J. Robert Oppenheimer"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1904,
+      "end": 1967
+    },
+    "location": {
+      "lat": 35.88,
+      "lng": -106.3,
+      "region": "미국 로스앨러모스"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "맨해튼 프로젝트",
+      "핵무기",
+      "원자폭탄"
+    ],
+    "mvp": true,
+    "summary": "맨해튼 프로젝트의 과학 책임자로 최초의 원자폭탄 개발을 이끈 물리학자. '원자폭탄의 아버지'로 불린다.",
+    "detailed": "오펜하이머는 보른-오펜하이머 근사법 등 이론물리학에 기여한 뒤, 2차 세계대전 중 맨해튼 프로젝트의 과학 책임자로 임명되어 로스앨러모스 연구소를 이끌었다. 1945년 최초의 핵실험 성공 후 '나는 죽음이 되었다, 세계의 파괴자가'라는 유명한 말을 남겼다. 전후 핵무기 확산에 반대하다 매카시즘의 희생양이 되어 보안 인가를 박탈당했다.",
+    "keyWorks": [
+      {
+        "title": "보른-오펜하이머 근사법",
+        "year": 1927,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 죽음이 되었다, 세계의 파괴자가.",
+        "source": "트리니티 핵실험 후, 바가바드기타 인용"
+      }
+    ],
+    "influences": [
+      "bohr",
+      "dirac",
+      "fermi"
+    ],
+    "influenced": [],
+    "field": [
+      "이론물리학",
+      "핵물리학"
+    ],
+    "discoveries": [
+      "보른-오펜하이머 근사법",
+      "오펜하이머-스나이더 모형",
+      "맨해튼 프로젝트 지도"
+    ]
+  },
+  {
+    "id": "godel",
+    "name": {
+      "ko": "쿠르트 괴델",
+      "en": "Kurt Gödel",
+      "original": "Kurt Friedrich Gödel"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1906,
+      "end": 1978
+    },
+    "location": {
+      "lat": 40.35,
+      "lng": -74.66,
+      "region": "오스트리아→미국 프린스턴"
+    },
+    "category": "scientist",
+    "subcategory": "mathematics",
+    "tags": [
+      "수학",
+      "논리학",
+      "불완전성 정리",
+      "수리철학"
+    ],
+    "mvp": true,
+    "summary": "불완전성 정리를 증명하여 수학의 한계를 밝히고 20세기 논리학에 혁명을 일으킨 수학자. 아인슈타인의 가장 가까운 친구였다.",
+    "detailed": "괴델은 1931년 충분히 강력한 형식 체계는 자기 자신의 무모순성을 증명할 수 없으며, 참이지만 증명할 수 없는 명제가 존재한다는 불완전성 정리를 발표했다. 이는 힐베르트의 형식주의 프로그램에 치명적 타격을 가하고, 수학과 철학에 근본적 질문을 제기했다. 프린스턴에서 아인슈타인과 깊은 우정을 나누었으며, 일반 상대성이론에서 시간여행 가능성을 보이는 괴델 해를 발견했다.",
+    "keyWorks": [
+      {
+        "title": "프린키피아 마테마티카의 형식적으로 결정 불가능한 명제에 관하여",
+        "year": 1931,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "거짓은 증명될 수 있다는 것이 아니라, 참이지만 증명될 수 없는 것이 있다는 것이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "hilbert",
+      "leibniz"
+    ],
+    "influenced": [
+      "turing",
+      "alonzo-church",
+      "von-neumann"
+    ],
+    "field": [
+      "수리논리학",
+      "수학",
+      "수리철학"
+    ],
+    "discoveries": [
+      "불완전성 정리",
+      "완전성 정리",
+      "괴델 해"
+    ]
+  },
+  {
+    "id": "landau",
+    "name": {
+      "ko": "레프 란다우",
+      "en": "Lev Landau",
+      "original": "Лев Давидович Ландау"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1908,
+      "end": 1968
+    },
+    "location": {
+      "lat": 55.76,
+      "lng": 37.62,
+      "region": "소련 모스크바"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "응집물질물리학",
+      "초유체",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "응집물질물리학의 거장으로 초유체 이론, 란다우 감쇠, 상전이 이론 등 광범위한 업적을 남긴 소련의 물리학자. 1962년 노벨 물리학상을 수상했다.",
+    "detailed": "란다우는 액체 헬륨의 초유체 현상을 설명하는 이론을 발전시켜 노벨상을 수상했다. 2차 상전이의 란다우 이론, 란다우 준위, 페르미 액체 이론 등 이론물리학의 거의 모든 분야에 걸쳐 기여했다. 리프시츠와 공저한 '란다우-리프시츠 교과서' 시리즈는 이론물리학의 표준 참고서로 세계적으로 사용되고 있다.",
+    "keyWorks": [
+      {
+        "title": "이론물리학 교정 (란다우-리프시츠)",
+        "year": 1938,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "물리학자를 1등급부터 5등급까지 분류하자면, 아인슈타인은 0.5등급이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "bohr",
+      "dirac"
+    ],
+    "influenced": [],
+    "field": [
+      "이론물리학",
+      "응집물질물리학",
+      "양자역학"
+    ],
+    "discoveries": [
+      "초유체 이론",
+      "란다우 감쇠",
+      "란다우 상전이 이론",
+      "페르미 액체 이론"
+    ]
+  },
+  {
+    "id": "turing",
+    "name": {
+      "ko": "앨런 튜링",
+      "en": "Alan Turing"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1912,
+      "end": 1954
+    },
+    "location": {
+      "lat": 53.48,
+      "lng": -2.24,
+      "region": "영국 맨체스터"
+    },
+    "category": "scientist",
+    "subcategory": "computer_science",
+    "tags": [
+      "컴퓨터과학",
+      "인공지능",
+      "튜링 머신",
+      "암호해독"
+    ],
+    "mvp": true,
+    "summary": "튜링 머신 개념으로 계산 이론의 기초를 놓고 인공지능의 개념을 제안한 컴퓨터과학의 아버지. 2차 대전 중 에니그마 암호 해독에 기여했다.",
+    "detailed": "튜링은 1936년 '계산 가능한 수에 대하여' 논문에서 튜링 머신이라는 추상적 계산 모델을 제시하여 현대 컴퓨터과학의 이론적 기초를 놓았다. 2차 세계대전 중 블레츨리 파크에서 독일 에니그마 암호를 해독하여 연합군 승리에 결정적으로 기여했다. 1950년 '기계가 생각할 수 있는가?'라는 질문과 튜링 테스트를 제안하여 인공지능 분야를 개척했다.",
+    "keyWorks": [
+      {
+        "title": "계산 가능한 수에 대하여",
+        "year": 1936,
+        "type": "paper"
+      },
+      {
+        "title": "계산 기계와 지능",
+        "year": 1950,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "기계가 생각할 수 있는가?",
+        "source": "계산 기계와 지능"
+      }
+    ],
+    "influences": [
+      "godel",
+      "alonzo-church",
+      "hilbert"
+    ],
+    "influenced": [
+      "von-neumann",
+      "claude-shannon"
+    ],
+    "field": [
+      "컴퓨터과학",
+      "수리논리학",
+      "암호학",
+      "인공지능"
+    ],
+    "discoveries": [
+      "튜링 머신",
+      "튜링 테스트",
+      "에니그마 암호 해독",
+      "형태발생 이론"
+    ]
+  },
+  {
+    "id": "jonas-salk",
+    "name": {
+      "ko": "조너스 소크",
+      "en": "Jonas Salk"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1914,
+      "end": 1995
+    },
+    "location": {
+      "lat": 40.44,
+      "lng": -79.96,
+      "region": "미국 피츠버그"
+    },
+    "category": "scientist",
+    "subcategory": "medicine",
+    "tags": [
+      "의학",
+      "백신",
+      "소아마비",
+      "공중보건"
+    ],
+    "mvp": true,
+    "summary": "소아마비 백신을 개발하여 인류를 소아마비의 공포에서 해방시킨 의학자. 백신의 특허를 거부하고 인류에 기여했다.",
+    "detailed": "소크는 1955년 불활성화 소아마비 백신을 개발하여 전 세계적으로 유행하던 소아마비를 사실상 퇴치하는 데 결정적 기여를 했다. 백신의 특허를 취득하지 않고 '태양에 특허를 낼 수 있는가?'라고 답하여 과학자의 윤리적 모범을 보였다. 소크 생물학연구소를 설립하여 생의학 연구의 중심지로 만들었다.",
+    "keyWorks": [
+      {
+        "title": "소아마비 불활성화 백신",
+        "year": 1955,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "태양에 특허를 낼 수 있는가?",
+        "source": "백신 특허에 관한 질문에 대한 답"
+      }
+    ],
+    "influences": [
+      "alexander-fleming"
+    ],
+    "influenced": [],
+    "field": [
+      "바이러스학",
+      "백신학",
+      "공중보건"
+    ],
+    "discoveries": [
+      "소아마비 백신 개발"
+    ]
+  },
+  {
+    "id": "crick",
+    "name": {
+      "ko": "프랜시스 크릭",
+      "en": "Francis Crick"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1916,
+      "end": 2004
+    },
+    "location": {
+      "lat": 52.2,
+      "lng": 0.12,
+      "region": "영국 캠브리지"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "DNA",
+      "이중나선",
+      "분자생물학",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "왓슨과 함께 DNA의 이중나선 구조를 발견하여 분자생물학의 시대를 연 과학자. 1962년 노벨 생리의학상을 수상했다.",
+    "detailed": "크릭은 1953년 제임스 왓슨과 함께 DNA의 이중나선 구조를 밝혀내어 생명과학 역사상 가장 중요한 발견을 이루었다. 로절린드 프랭클린의 X선 결정학 데이터가 결정적 단서를 제공했다. 이후 유전 코드의 해독에 기여하고 분자생물학의 중심 원리(Central Dogma)를 정립했으며, 말년에는 의식의 신경과학적 기초를 연구했다.",
+    "keyWorks": [
+      {
+        "title": "핵산의 분자 구조",
+        "year": 1953,
+        "type": "paper"
+      },
+      {
+        "title": "놀라운 가설",
+        "year": 1994,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "우리는 생명의 비밀을 발견했다.",
+        "source": "DNA 구조 발견 당시 왓슨에게"
+      }
+    ],
+    "influences": [
+      "schrodinger",
+      "rosalind-franklin"
+    ],
+    "influenced": [
+      "watson",
+      "jennifer-doudna"
+    ],
+    "field": [
+      "분자생물학",
+      "유전학",
+      "신경과학"
+    ],
+    "discoveries": [
+      "DNA 이중나선 구조",
+      "중심 원리",
+      "유전 코드 해독"
+    ]
+  },
+  {
+    "id": "claude-shannon",
+    "name": {
+      "ko": "클로드 섀넌",
+      "en": "Claude Shannon"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1916,
+      "end": 2001
+    },
+    "location": {
+      "lat": 42.36,
+      "lng": -71.09,
+      "region": "미국 MIT"
+    },
+    "category": "scientist",
+    "subcategory": "computer_science",
+    "tags": [
+      "정보이론",
+      "수학",
+      "컴퓨터과학",
+      "디지털 회로"
+    ],
+    "mvp": true,
+    "summary": "정보이론을 창시하여 디지털 통신의 수학적 기초를 놓은 '정보 시대의 아버지'. 디지털 회로 설계의 기초도 확립했다.",
+    "detailed": "섀넌은 1948년 '통신의 수학적 이론'을 발표하여 정보를 수학적으로 정량화하는 방법을 제시하고, 정보의 기본 단위인 '비트'를 도입했다. 이 논문은 디지털 통신, 데이터 압축, 암호학의 이론적 기초가 되었다. 석사 논문에서 부울 대수가 전기 스위칭 회로에 적용될 수 있음을 보여 디지털 회로 설계의 기초를 놓았다.",
+    "keyWorks": [
+      {
+        "title": "통신의 수학적 이론",
+        "year": 1948,
+        "type": "paper"
+      },
+      {
+        "title": "릴레이 및 스위칭 회로의 기호적 분석",
+        "year": 1938,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "정보는 불확실성의 해소이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "boole",
+      "turing",
+      "von-neumann"
+    ],
+    "influenced": [],
+    "field": [
+      "정보이론",
+      "수학",
+      "전기공학"
+    ],
+    "discoveries": [
+      "정보이론",
+      "비트 개념",
+      "채널 용량 정리",
+      "부울 대수의 회로 적용"
+    ]
+  },
+  {
+    "id": "feynman",
+    "name": {
+      "ko": "리처드 파인만",
+      "en": "Richard Feynman",
+      "original": "Richard Phillips Feynman"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1918,
+      "end": 1988
+    },
+    "location": {
+      "lat": 34.14,
+      "lng": -118.12,
+      "region": "미국 캘리포니아공과대학"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "양자전기역학",
+      "파인만 다이어그램",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "양자전기역학(QED)을 재정립하고 파인만 다이어그램을 고안한 물리학자. 1965년 노벨 물리학상을 수상했다.",
+    "detailed": "파인만은 경로 적분 형식을 통해 양자역학을 새롭게 해석하고, 파인만 다이어그램을 고안하여 입자 상호작용의 계산을 직관적으로 만들었다. 양자전기역학(QED)의 재규격화 이론으로 슈윙거, 도모나가와 함께 노벨상을 수상했다. 뛰어난 과학 대중화 능력으로도 유명하며, '파인만 물리학 강의'는 물리학 교육의 금자탑으로 남아있다.",
+    "keyWorks": [
+      {
+        "title": "파인만 물리학 강의",
+        "year": 1964,
+        "type": "book"
+      },
+      {
+        "title": "양자전기역학의 시공간 접근법",
+        "year": 1949,
+        "type": "paper"
+      },
+      {
+        "title": "남이야 어떻게 생각하든",
+        "year": 1985,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "내가 만들 수 없는 것은 이해하지 못한 것이다.",
+        "source": "칠판에 남긴 글"
+      },
+      {
+        "text": "자연은 상상력의 한계를 넘어서는 것으로 가득 차 있다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "dirac",
+      "wheeler",
+      "einstein"
+    ],
+    "influenced": [
+      "gell-mann",
+      "weinberg",
+      "hawking"
+    ],
+    "field": [
+      "이론물리학",
+      "양자전기역학",
+      "입자물리학"
+    ],
+    "discoveries": [
+      "경로 적분",
+      "파인만 다이어그램",
+      "QED 재규격화",
+      "파톤 모형"
+    ]
+  },
+  {
+    "id": "schwinger",
+    "name": {
+      "ko": "줄리언 슈윙거",
+      "en": "Julian Schwinger"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1918,
+      "end": 1994
+    },
+    "location": {
+      "lat": 42.37,
+      "lng": -71.12,
+      "region": "미국 하버드"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "양자전기역학",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "양자전기역학(QED)의 재규격화를 독자적으로 완성한 이론물리학자. 1965년 노벨 물리학상을 파인만, 도모나가와 공동 수상했다.",
+    "detailed": "슈윙거는 상대론적으로 불변인 형태로 양자전기역학의 재규격화를 엄밀하게 수행하여 전자의 비정상 자기 모멘트를 정확하게 계산했다. 그의 접근법은 파인만의 직관적 방법과 대비되는 수학적으로 엄밀한 것이었다. 하버드에서 다수의 박사 과정 학생을 지도하여 미국 이론물리학의 발전에 크게 기여했다.",
+    "keyWorks": [
+      {
+        "title": "양자전기역학 I, II, III",
+        "year": 1948,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "파인만은 방정식을 그림으로 바꾸었다. 나는 그림을 방정식으로 바꾸었다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "dirac",
+      "fermi"
+    ],
+    "influenced": [],
+    "field": [
+      "이론물리학",
+      "양자전기역학"
+    ],
+    "discoveries": [
+      "QED 재규격화",
+      "전자의 비정상 자기 모멘트",
+      "슈윙거 효과"
+    ]
+  },
+  {
+    "id": "rosalind-franklin",
+    "name": {
+      "ko": "로절린드 프랭클린",
+      "en": "Rosalind Franklin"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1920,
+      "end": 1958
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "DNA",
+      "X선 결정학",
+      "여성 과학자"
+    ],
+    "mvp": true,
+    "summary": "X선 결정학으로 DNA 구조 해명에 결정적 기여를 한 과학자. '사진 51'은 이중나선 발견의 핵심 증거였다.",
+    "detailed": "프랭클린은 킹스 칼리지 런던에서 DNA의 X선 회절 사진을 촬영하여 DNA가 나선 구조임을 보여주는 결정적 증거를 제공했다. 그녀가 촬영한 '사진 51'은 왓슨과 크릭이 이중나선 모형을 구축하는 데 핵심적 역할을 했으나, 당시 그녀의 기여는 충분히 인정받지 못했다. 37세에 난소암으로 요절하여 노벨상을 수상하지 못했다.",
+    "keyWorks": [
+      {
+        "title": "DNA의 X선 회절 사진 (사진 51)",
+        "year": 1952,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "과학과 일상생활은 떼어놓을 수 없고, 떼어놓아서도 안 된다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "crick",
+      "watson"
+    ],
+    "field": [
+      "X선 결정학",
+      "분자생물학",
+      "바이러스학"
+    ],
+    "discoveries": [
+      "DNA X선 회절 사진(사진 51)",
+      "담배 모자이크 바이러스 구조"
+    ]
+  },
+  {
+    "id": "watson",
+    "name": {
+      "ko": "제임스 왓슨",
+      "en": "James Watson"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1928,
+      "end": -1
+    },
+    "location": {
+      "lat": 40.86,
+      "lng": -73.47,
+      "region": "미국 콜드스프링하버"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "DNA",
+      "이중나선",
+      "분자생물학",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "크릭과 함께 DNA의 이중나선 구조를 발견한 분자생물학자. 1962년 노벨 생리의학상을 수상하고 인간 게놈 프로젝트를 주도했다.",
+    "detailed": "왓슨은 25세의 나이에 크릭과 함께 DNA의 이중나선 구조를 밝혀내어 유전학의 혁명을 촉발했다. 이후 하버드 대학 교수, 콜드스프링하버 연구소 소장을 역임하며 분자생물학의 발전을 이끌었다. 인간 게놈 프로젝트의 초대 책임자로 인간 유전체 해독 사업의 시작을 이끌었다.",
+    "keyWorks": [
+      {
+        "title": "이중나선",
+        "year": 1968,
+        "type": "book"
+      },
+      {
+        "title": "유전자의 분자생물학",
+        "year": 1965,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "남보다 먼저 발견하려면 남들이 아직 묻지 않은 질문을 해야 한다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "crick",
+      "rosalind-franklin"
+    ],
+    "influenced": [
+      "jennifer-doudna"
+    ],
+    "field": [
+      "분자생물학",
+      "유전학"
+    ],
+    "discoveries": [
+      "DNA 이중나선 구조",
+      "인간 게놈 프로젝트 주도"
+    ]
+  },
+  {
+    "id": "grothendieck",
+    "name": {
+      "ko": "알렉산더 그로텐디크",
+      "en": "Alexander Grothendieck"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1928,
+      "end": 2014
+    },
+    "location": {
+      "lat": 48.8,
+      "lng": 2.23,
+      "region": "프랑스 IHES"
+    },
+    "category": "scientist",
+    "subcategory": "mathematics",
+    "tags": [
+      "수학",
+      "대수기하학",
+      "범주론",
+      "필즈상"
+    ],
+    "mvp": true,
+    "summary": "대수기하학을 재건하고 현대 수학의 언어와 방법을 혁신한 20세기 가장 위대한 수학자 중 한 명. 1966년 필즈상을 수상했다.",
+    "detailed": "그로텐디크는 스킴 이론과 토포스 이론을 통해 대수기하학을 근본적으로 재구축하여 수학의 광범위한 분야를 통합하는 새로운 틀을 제시했다. IHES에서의 12년간 세미나를 통해 현대 대수기하학의 토대를 놓았다. 1970년 정치적·환경적 신념으로 학계를 떠나 은둔 생활에 들어갔으나, 그의 수학은 계속해서 현대 수학의 핵심 언어로 사용되고 있다.",
+    "keyWorks": [
+      {
+        "title": "대수기하학의 원리 (EGA)",
+        "year": 1960,
+        "type": "book"
+      },
+      {
+        "title": "수확과 파종",
+        "year": 1986,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "문제를 풀 때 호두를 깨는 것이 아니라, 바다에 담가두어 저절로 열리게 해야 한다.",
+        "source": "수확과 파종"
+      }
+    ],
+    "influences": [
+      "emmy-noether",
+      "hilbert",
+      "poincare"
+    ],
+    "influenced": [
+      "andrew-wiles"
+    ],
+    "field": [
+      "대수기하학",
+      "범주론",
+      "호몰로지 대수학"
+    ],
+    "discoveries": [
+      "스킴 이론",
+      "토포스 이론",
+      "에탈 코호몰로지",
+      "모티프 이론"
+    ]
+  },
+  {
+    "id": "gell-mann",
+    "name": {
+      "ko": "머리 겔만",
+      "en": "Murray Gell-Mann"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1929,
+      "end": 2019
+    },
+    "location": {
+      "lat": 34.14,
+      "lng": -118.12,
+      "region": "미국 캘리포니아공과대학"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "입자물리학",
+      "쿼크",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "쿼크 모형을 제안하여 하드론의 내부 구조를 설명한 이론물리학자. 1969년 노벨 물리학상을 수상했다.",
+    "detailed": "겔만은 1964년 하드론이 더 기본적인 구성 입자인 '쿼크'로 이루어져 있다는 쿼크 모형을 독립적으로 제안했다. 이전에 기이함(strangeness)이라는 양자수를 도입하고 '팔정도(Eightfold Way)'라는 하드론 분류법을 개발했다. 산타페 연구소의 공동 설립자로서 복잡계 과학의 발전에도 기여했다.",
+    "keyWorks": [
+      {
+        "title": "강입자의 대칭과 분류에 관한 팔정도",
+        "year": 1961,
+        "type": "paper"
+      },
+      {
+        "title": "쿼크와 재규어",
+        "year": 1994,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "상상할 수 있는 모든 것 중에서 실제로 존재하는 것만이 중요하다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "feynman",
+      "fermi"
+    ],
+    "influenced": [
+      "weinberg",
+      "witten"
+    ],
+    "field": [
+      "이론물리학",
+      "입자물리학",
+      "복잡계"
+    ],
+    "discoveries": [
+      "쿼크 모형",
+      "팔정도",
+      "기이함 양자수",
+      "양자색역학 기초"
+    ]
+  },
+  {
+    "id": "higgs",
+    "name": {
+      "ko": "피터 힉스",
+      "en": "Peter Higgs"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1929,
+      "end": 2024
+    },
+    "location": {
+      "lat": 55.95,
+      "lng": -3.19,
+      "region": "영국 에든버러"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "힉스 보손",
+      "표준모형",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "입자에 질량을 부여하는 힉스 메커니즘을 이론적으로 제안한 물리학자. 2012년 힉스 보손 발견으로 2013년 노벨 물리학상을 수상했다.",
+    "detailed": "힉스는 1964년 자발적 대칭 깨짐을 통해 기본 입자가 질량을 얻는 메커니즘을 제안했다. 이 '힉스 메커니즘'은 표준모형에서 W, Z 보손과 페르미온의 질량을 설명하는 핵심 이론이다. 2012년 CERN의 대형 강입자 충돌기(LHC)에서 힉스 보손이 발견되어 거의 반세기 만에 이론이 실험적으로 확인되었다.",
+    "keyWorks": [
+      {
+        "title": "깨어진 대칭과 게이지 보손의 질량",
+        "year": 1964,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "입자에 '신의 입자'라는 별명을 붙인 것은 유감이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "dirac",
+      "weinberg"
+    ],
+    "influenced": [],
+    "field": [
+      "이론물리학",
+      "입자물리학"
+    ],
+    "discoveries": [
+      "힉스 메커니즘",
+      "힉스 보손 예측"
+    ]
+  },
+  {
+    "id": "penrose",
+    "name": {
+      "ko": "로저 펜로즈",
+      "en": "Roger Penrose"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1931,
+      "end": -1
+    },
+    "location": {
+      "lat": 51.75,
+      "lng": -1.25,
+      "region": "영국 옥스퍼드"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "수학",
+      "블랙홀",
+      "특이점 정리",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "블랙홀 형성에 대한 특이점 정리를 증명하고 수학적 물리학에 광범위한 기여를 한 학자. 2020년 노벨 물리학상을 수상했다.",
+    "detailed": "펜로즈는 1965년 일반 상대성이론에서 특이점 형성이 불가피함을 증명하는 특이점 정리를 발표하여 블랙홀 물리학의 수학적 기초를 놓았다. 트위스터 이론, 펜로즈 타일링, 우주 검열 가설 등 수학과 물리학의 경계에서 독창적 기여를 계속하고 있다. '황제의 새 마음'에서는 의식과 양자역학의 관계에 대한 도발적 논의를 전개했다.",
+    "keyWorks": [
+      {
+        "title": "황제의 새 마음",
+        "year": 1989,
+        "type": "book"
+      },
+      {
+        "title": "현실로 가는 길",
+        "year": 2004,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "의식은 계산이 아니다.",
+        "source": "황제의 새 마음"
+      }
+    ],
+    "influences": [
+      "einstein",
+      "dirac"
+    ],
+    "influenced": [
+      "hawking"
+    ],
+    "field": [
+      "수리물리학",
+      "우주론",
+      "기하학"
+    ],
+    "discoveries": [
+      "특이점 정리",
+      "펜로즈 타일링",
+      "트위스터 이론",
+      "우주 검열 가설"
+    ]
+  },
+  {
+    "id": "weinberg",
+    "name": {
+      "ko": "스티븐 와인버그",
+      "en": "Steven Weinberg"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1933,
+      "end": 2021
+    },
+    "location": {
+      "lat": 30.27,
+      "lng": -97.74,
+      "region": "미국 텍사스 오스틴"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "전약 통일",
+      "표준모형",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "전자기력과 약력을 통합하는 전약 통일 이론을 제안하여 입자물리학의 표준모형 완성에 기여한 이론물리학자. 1979년 노벨 물리학상을 수상했다.",
+    "detailed": "와인버그는 1967년 전자기 상호작용과 약한 상호작용을 하나의 이론으로 통합하는 전약 통일 모형을 제안했다. 이 이론은 살람의 독립적 연구와 함께 입자물리학 표준모형의 핵심 축이 되었다. 과학 저술가로서도 탁월하여 '최초의 3분간'과 '최종 이론의 꿈' 등은 물리학 대중서의 고전으로 남아있다.",
+    "keyWorks": [
+      {
+        "title": "경입자 모형",
+        "year": 1967,
+        "type": "paper"
+      },
+      {
+        "title": "최초의 3분간",
+        "year": 1977,
+        "type": "book"
+      },
+      {
+        "title": "최종 이론의 꿈",
+        "year": 1992,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "우주를 이해하면 할수록 무의미해 보인다.",
+        "source": "최초의 3분간"
+      }
+    ],
+    "influences": [
+      "dirac",
+      "feynman",
+      "gell-mann"
+    ],
+    "influenced": [
+      "witten",
+      "higgs"
+    ],
+    "field": [
+      "이론물리학",
+      "입자물리학",
+      "우주론"
+    ],
+    "discoveries": [
+      "전약 통일 이론",
+      "표준모형 기여"
+    ]
+  },
+  {
+    "id": "lynn-margulis",
+    "name": {
+      "ko": "린 마굴리스",
+      "en": "Lynn Margulis"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1938,
+      "end": 2011
+    },
+    "location": {
+      "lat": 42.39,
+      "lng": -72.53,
+      "region": "미국 매사추세츠"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "진화론",
+      "공생",
+      "세포생물학",
+      "여성 과학자"
+    ],
+    "mvp": true,
+    "summary": "세포 내 공생설을 주장하여 미토콘드리아와 엽록체가 독립 세균에서 유래했음을 밝힌 진화생물학자.",
+    "detailed": "마굴리스는 1967년 진핵세포의 미토콘드리아와 엽록체가 원래 독립적인 세균이었으나 공생을 통해 세포 내 소기관이 되었다는 세포 내 공생설을 제안했다. 처음에는 학계의 거센 반대를 받았으나 분자생물학적 증거가 축적되면서 현대 생물학의 핵심 이론으로 자리잡았다. 가이아 가설의 발전에도 기여했다.",
+    "keyWorks": [
+      {
+        "title": "유사분열 세포에서의 공생의 기원",
+        "year": 1967,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "생명은 전투가 아니라 네트워크이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "darwin"
+    ],
+    "influenced": [
+      "richard-dawkins"
+    ],
+    "field": [
+      "진화생물학",
+      "세포생물학"
+    ],
+    "discoveries": [
+      "세포 내 공생설",
+      "연속 세포내 공생 이론"
+    ]
+  },
+  {
+    "id": "stephen-jay-gould",
+    "name": {
+      "ko": "스티븐 제이 굴드",
+      "en": "Stephen Jay Gould"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1941,
+      "end": 2002
+    },
+    "location": {
+      "lat": 42.37,
+      "lng": -71.12,
+      "region": "미국 하버드"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "진화론",
+      "고생물학",
+      "과학 대중화"
+    ],
+    "mvp": true,
+    "summary": "단속평형설을 제안하고 진화론의 대중화에 크게 기여한 고생물학자. 과학 에세이스트로서도 큰 명성을 얻었다.",
+    "detailed": "굴드는 엘드리지와 함께 1972년 진화가 점진적으로가 아니라 긴 안정기와 급격한 변화의 교대로 진행된다는 단속평형설을 제안했다. 이 이론은 화석 기록에서 관찰되는 '잃어버린 고리'의 부재를 설명하며 다윈주의에 대한 중요한 보완이 되었다. 내추럴 히스토리 잡지에 연재한 300편의 에세이는 과학 대중화의 모범으로 남아있다.",
+    "keyWorks": [
+      {
+        "title": "단속평형: 계통발생학에 대한 대안",
+        "year": 1972,
+        "type": "paper"
+      },
+      {
+        "title": "인간에 대한 오해",
+        "year": 1981,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "진화에는 진보의 방향이 없다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "darwin"
+    ],
+    "influenced": [],
+    "field": [
+      "고생물학",
+      "진화생물학"
+    ],
+    "discoveries": [
+      "단속평형설",
+      "스팬드럴 개념"
+    ]
+  },
+  {
+    "id": "richard-dawkins",
+    "name": {
+      "ko": "리처드 도킨스",
+      "en": "Richard Dawkins"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1941,
+      "end": -1
+    },
+    "location": {
+      "lat": 51.75,
+      "lng": -1.25,
+      "region": "영국 옥스퍼드"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "진화론",
+      "이기적 유전자",
+      "밈",
+      "무신론"
+    ],
+    "mvp": true,
+    "summary": "유전자 중심의 진화 이론과 '밈' 개념을 제안하고 과학적 무신론을 대중화한 진화생물학자.",
+    "detailed": "도킨스는 1976년 '이기적 유전자'에서 자연선택의 기본 단위가 개체가 아닌 유전자임을 주장하여 진화생물학의 대중적 이해를 혁신했다. 문화적 진화의 기본 단위로 '밈'이라는 개념을 도입하여 인터넷 시대의 핵심 용어를 만들었다. '만들어진 신'을 통해 신무신론(New Atheism) 운동의 대표적 논객이 되었다.",
+    "keyWorks": [
+      {
+        "title": "이기적 유전자",
+        "year": 1976,
+        "type": "book"
+      },
+      {
+        "title": "만들어진 신",
+        "year": 2006,
+        "type": "book"
+      },
+      {
+        "title": "눈먼 시계공",
+        "year": 1986,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "우리는 유전자라는 이기적 분자의 생존 기계이다.",
+        "source": "이기적 유전자"
+      }
+    ],
+    "influences": [
+      "darwin",
+      "hamilton",
+      "lynn-margulis"
+    ],
+    "influenced": [],
+    "field": [
+      "진화생물학",
+      "동물행동학"
+    ],
+    "discoveries": [
+      "유전자 중심 진화론",
+      "밈 개념",
+      "확장된 표현형"
+    ]
+  },
+  {
+    "id": "hawking",
+    "name": {
+      "ko": "스티븐 호킹",
+      "en": "Stephen Hawking"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1942,
+      "end": 2018
+    },
+    "location": {
+      "lat": 52.2,
+      "lng": 0.12,
+      "region": "영국 캠브리지"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "블랙홀",
+      "우주론",
+      "호킹 복사"
+    ],
+    "mvp": true,
+    "summary": "블랙홀 열역학과 호킹 복사를 발견하여 양자중력 이론에 혁명적 기여를 한 우주론자. 루게릭병에도 불구하고 반세기 이상 연구를 지속했다.",
+    "detailed": "호킹은 1974년 블랙홀이 양자 효과로 인해 열복사를 방출한다는 '호킹 복사'를 발견하여 일반 상대성이론, 양자역학, 열역학을 연결하는 획기적 업적을 남겼다. 펜로즈와 함께 특이점 정리를 증명하여 빅뱅의 불가피성을 수학적으로 보였다. '시간의 역사'는 과학 대중서의 역사상 가장 많이 팔린 책 중 하나이다.",
+    "keyWorks": [
+      {
+        "title": "시간의 역사",
+        "year": 1988,
+        "type": "book"
+      },
+      {
+        "title": "블랙홀의 입자 생성",
+        "year": 1975,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "우주는 존재할 필요가 없었다면 왜 존재하는가?",
+        "source": "시간의 역사"
+      }
+    ],
+    "influences": [
+      "penrose",
+      "dirac",
+      "einstein"
+    ],
+    "influenced": [],
+    "field": [
+      "이론물리학",
+      "우주론",
+      "양자중력"
+    ],
+    "discoveries": [
+      "호킹 복사",
+      "특이점 정리",
+      "블랙홀 열역학",
+      "무경계 가설"
+    ]
+  },
+  {
+    "id": "witten",
+    "name": {
+      "ko": "에드워드 위튼",
+      "en": "Edward Witten"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1951,
+      "end": -1
+    },
+    "location": {
+      "lat": 40.35,
+      "lng": -74.66,
+      "region": "미국 프린스턴"
+    },
+    "category": "scientist",
+    "subcategory": "physics",
+    "tags": [
+      "물리학",
+      "수학",
+      "끈이론",
+      "M이론",
+      "필즈상"
+    ],
+    "mvp": true,
+    "summary": "끈이론의 다섯 가지 버전을 통합하는 M이론을 제안한 이론물리학자. 물리학자로서 최초로 필즈상(1990)을 수상했다.",
+    "detailed": "위튼은 1995년 다섯 가지 일관된 초끈이론이 하나의 11차원 M이론의 서로 다른 극한임을 제안하여 끈이론의 '두 번째 혁명'을 촉발했다. 위상적 양자장이론, 시버그-위튼 이론 등 수학과 물리학의 경계에서 혁명적 기여를 하여 물리학자임에도 필즈상을 수상했다. 현대 이론물리학에서 가장 영향력 있는 학자 중 하나이다.",
+    "keyWorks": [
+      {
+        "title": "초끈이론에서의 끈 이론 역학",
+        "year": 1995,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "끈이론은 21세기 물리학이 우연히 20세기에 발견된 것이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "weinberg",
+      "gell-mann",
+      "einstein"
+    ],
+    "influenced": [],
+    "field": [
+      "이론물리학",
+      "수리물리학",
+      "끈이론"
+    ],
+    "discoveries": [
+      "M이론",
+      "위튼형 위상적 양자장이론",
+      "시버그-위튼 이론"
+    ]
+  },
+  {
+    "id": "andrew-wiles",
+    "name": {
+      "ko": "앤드루 와일스",
+      "en": "Andrew Wiles"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1953,
+      "end": -1
+    },
+    "location": {
+      "lat": 51.75,
+      "lng": -1.25,
+      "region": "영국 옥스퍼드"
+    },
+    "category": "scientist",
+    "subcategory": "mathematics",
+    "tags": [
+      "수학",
+      "정수론",
+      "페르마의 마지막 정리",
+      "아벨상"
+    ],
+    "mvp": true,
+    "summary": "350년간 미해결이었던 페르마의 마지막 정리를 증명한 수학자. 2016년 아벨상을 수상했다.",
+    "detailed": "와일스는 1995년 페르마의 마지막 정리를 증명하여 수학 역사상 가장 유명한 미해결 문제를 해결했다. 10세에 페르마의 정리를 알게 된 이후 평생의 목표로 삼았으며, 7년간의 비밀 연구 끝에 타니야마-시무라 추측(의 반안정 경우)을 증명하는 방법으로 이를 달성했다. 이 증명은 정수론, 대수기하학, 모듈러 형식 이론을 심오하게 연결한 업적이다.",
+    "keyWorks": [
+      {
+        "title": "모듈러 타원곡선과 페르마의 마지막 정리",
+        "year": 1995,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "수학은 너무 아름다워서 세상에 알려져야 한다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "grothendieck",
+      "hilbert"
+    ],
+    "influenced": [],
+    "field": [
+      "정수론",
+      "대수기하학"
+    ],
+    "discoveries": [
+      "페르마의 마지막 정리 증명",
+      "타니야마-시무라 추측 (반안정 경우) 증명"
+    ]
+  },
+  {
+    "id": "jennifer-doudna",
+    "name": {
+      "ko": "제니퍼 다우드나",
+      "en": "Jennifer Doudna"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1964,
+      "end": -1
+    },
+    "location": {
+      "lat": 37.87,
+      "lng": -122.26,
+      "region": "미국 UC 버클리"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "유전공학",
+      "CRISPR",
+      "노벨상",
+      "여성 과학자"
+    ],
+    "mvp": true,
+    "summary": "CRISPR-Cas9 유전자 편집 기술을 개발하여 생명과학에 혁명을 일으킨 생화학자. 2020년 노벨 화학상을 수상했다.",
+    "detailed": "다우드나는 샤르팡티에와 함께 CRISPR-Cas9을 유전자 편집 도구로 개발하여 모든 생물의 유전자를 정확하게 편집할 수 있는 기술을 만들었다. 이 기술은 유전병 치료, 농업 개선, 감염병 진단 등 광범위한 분야에 응용되고 있다. CRISPR 기술의 윤리적 사용에 대한 공개적 논의도 주도하고 있다.",
+    "keyWorks": [
+      {
+        "title": "프로그래밍 가능한 이중 RNA 유도 DNA 엔도뉴클레아제",
+        "year": 2012,
+        "type": "paper"
+      },
+      {
+        "title": "창조의 균열",
+        "year": 2017,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "CRISPR는 생명의 레시피를 편집할 수 있게 해준다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "crick",
+      "watson",
+      "mcclintock"
+    ],
+    "influenced": [],
+    "field": [
+      "생화학",
+      "유전공학",
+      "분자생물학"
+    ],
+    "discoveries": [
+      "CRISPR-Cas9 유전자 편집"
+    ]
+  },
+  {
+    "id": "charpentier",
+    "name": {
+      "ko": "에마뉘엘 샤르팡티에",
+      "en": "Emmanuelle Charpentier"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1968,
+      "end": -1
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.4,
+      "region": "프랑스→독일 베를린"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "유전공학",
+      "CRISPR",
+      "노벨상",
+      "여성 과학자"
+    ],
+    "mvp": true,
+    "summary": "다우드나와 함께 CRISPR-Cas9 유전자 편집 기술을 개발한 미생물학자. 2020년 노벨 화학상을 공동 수상했다.",
+    "detailed": "샤르팡티에는 세균의 면역 시스템에서 CRISPR-Cas9 메커니즘의 핵심 요소인 tracrRNA를 발견했다. 2012년 다우드나와의 공동 연구를 통해 이 시스템을 프로그래밍 가능한 유전자 편집 도구로 개발했다. 현재 막스플랑크 감염생물학 연구소에서 병원성 세균의 조절 메커니즘을 연구하고 있다.",
+    "keyWorks": [
+      {
+        "title": "CRISPR-Cas9에 의한 적응 면역",
+        "year": 2012,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "기초 과학의 호기심이 혁명적 기술로 이어질 수 있다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "field": [
+      "미생물학",
+      "유전공학"
+    ],
+    "discoveries": [
+      "tracrRNA 발견",
+      "CRISPR-Cas9 유전자 편집"
+    ]
+  }
+]
