@@ -6,8 +6,16 @@ import { cn } from "@/lib/utils";
 
 const footerLinks = [
   { label: "About", href: "/about" },
-  { label: "기여 가이드", href: "/contributing" },
-  { label: "학습경로", href: "/learning-paths" },
+  { label: "인물 탐색", href: "/persons" },
+  { label: "학습경로", href: "/learn" },
+];
+
+const sectionLinks = [
+  { label: "철학", href: "/philosophy/timeline" },
+  { label: "종교", href: "/religion/map" },
+  { label: "과학", href: "/science" },
+  { label: "역사", href: "/history" },
+  { label: "문화", href: "/culture" },
 ];
 
 export default function Footer() {
@@ -20,7 +28,7 @@ export default function Footer() {
 
       <div className="section-container">
         {/* Main Footer Content */}
-        <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand Column */}
           <div className="space-y-3">
             <div className="flex items-center gap-2">
@@ -31,7 +39,7 @@ export default function Footer() {
             </div>
             <p className="text-foreground-muted text-sm leading-relaxed max-w-xs">
               인류의 위대한 사상과 지혜를 탐험하는 인터랙티브 플랫폼.
-              철학, 신화, 종교의 연결고리를 발견하세요.
+              철학 · 종교 · 과학 · 역사 · 문화의 연결고리를 발견하세요.
             </p>
           </div>
 
@@ -42,6 +50,29 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2">
               {footerLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className={cn(
+                      "text-sm text-foreground-muted",
+                      "hover:text-accent transition-colors duration-200",
+                      "hover-underline inline-block"
+                    )}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Sections Column */}
+          <div className="space-y-3">
+            <h3 className="text-sm font-semibold text-foreground uppercase tracking-wider">
+              영역
+            </h3>
+            <ul className="space-y-2">
+              {sectionLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
