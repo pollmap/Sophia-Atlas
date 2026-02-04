@@ -1,16 +1,18 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import {
   ArrowLeft,
+  ChevronLeft,
   ChevronRight,
   HelpCircle,
   Lightbulb,
   Search,
-  Tag,
   Users,
   X,
+  BookOpen,
+  Quote,
 } from 'lucide-react';
 import philosophersData from '@/data/persons/philosophers.json';
 import {
@@ -19,14 +21,16 @@ import {
   getEraBgColor,
   getEraLabel,
   formatYear,
+  getEraColorClass,
+  getEraBorderClass,
 } from '@/lib/utils';
-import { getEraColorClass, getEraBorderClass } from '@/lib/utils';
 
 type Era = 'ancient' | 'medieval' | 'modern' | 'contemporary';
 
 export default function QuestionsPage() {
   const [selectedQuestion, setSelectedQuestion] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
+  const philosopherListRef = useRef<HTMLDivElement>(null);
 
   // Extract all unique questions
   const allQuestions = useMemo(() => {
@@ -72,6 +76,28 @@ export default function QuestionsPage() {
     '진리란?': '🔍',
   };
 
+  // On mobile, scroll to philosopher list when question is selected
+  const handleSelectQuestion = useCallback((question: string) => {
+    setSelectedQuestion((prev) => {
+      const next = prev === question ? null : question;
+      if (next && philosopherListRef.current) {
+        // Delay to let state update and render
+        setTimeout(() => {
+          philosopherListRef.current?.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+          });
+        }, 100);
+      }
+      return next;
+    });
+  }, []);
+
+  const handleBackToQuestions = useCallback(() => {
+    setSelectedQuestion(null);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
   return (
     <div className="min-h-screen bg-[#0F172A]">
       {/* Header */}
@@ -109,7 +135,11 @@ export default function QuestionsPage() {
       <div className="max-w-7xl mx-auto px-4 pb-20">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Questions Grid */}
-          <div className="flex-1">
+          <div className={cn(
+            'flex-1',
+            // On mobile, hide question list when a question is selected
+            selectedQuestion ? 'hidden lg:block' : 'block'
+          )}>
             <h2 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
               <Lightbulb className="w-5 h-5 text-slate-400" />
               질문 목록
@@ -124,9 +154,7 @@ export default function QuestionsPage() {
                 return (
                   <button
                     key={q.question}
-                    onClick={() =>
-                      setSelectedQuestion(isActive ? null : q.question)
-                    }
+                    onClick={() => handleSelectQuestion(q.question)}
                     className={cn(
                       'group text-left rounded-xl border p-5 transition-all duration-200',
                       isActive
@@ -150,6 +178,10 @@ export default function QuestionsPage() {
                           <span>{q.philosopherIds.length}명의 사상가</span>
                         </div>
                       </div>
+                      <ChevronRight className={cn(
+                        'w-4 h-4 flex-shrink-0 mt-1 transition-colors',
+                        isActive ? 'text-modern' : 'text-slate-600 group-hover:text-slate-400'
+                      )} />
                     </div>
                   </button>
                 );
@@ -158,80 +190,158 @@ export default function QuestionsPage() {
           </div>
 
           {/* Selected Question - Philosophers */}
-          <div className="w-full lg:w-96 flex-shrink-0">
+          <div
+            ref={philosopherListRef}
+            className={cn(
+              'w-full lg:w-[480px] flex-shrink-0',
+              // On mobile, show full width when question is selected
+              selectedQuestion ? 'block' : 'hidden lg:block'
+            )}
+          >
             {selectedQuestion ? (
               <div>
-                <div className="flex items-center justify-between mb-4">
-                  <h2 className="text-lg font-semibold text-modern">
-                    {selectedQuestion}
-                  </h2>
-                  <button
-                    onClick={() => setSelectedQuestion(null)}
-                    className="text-slate-500 hover:text-white transition-colors"
-                  >
-                    <X className="w-5 h-5" />
-                  </button>
+                {/* Mobile back button */}
+                <button
+                  onClick={handleBackToQuestions}
+                  className="lg:hidden flex items-center gap-1.5 text-sm text-slate-400 hover:text-white transition-colors mb-4"
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                  질문 목록으로 돌아가기
+                </button>
+
+                {/* Selected question header */}
+                <div className="rounded-xl border border-modern/30 bg-modern/5 p-5 mb-5">
+                  <div className="flex items-start justify-between mb-2">
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl flex-shrink-0">
+                        {questionIcons[selectedQuestion] || '?'}
+                      </span>
+                      <h2 className="text-xl font-bold text-modern">
+                        {selectedQuestion}
+                      </h2>
+                    </div>
+                    <button
+                      onClick={() => setSelectedQuestion(null)}
+                      className="text-slate-500 hover:text-white transition-colors hidden lg:block"
+                    >
+                      <X className="w-5 h-5" />
+                    </button>
+                  </div>
+                  <p className="text-sm text-slate-400 mt-2">
+                    이 질문을 탐구한 사상가 <span className="text-modern font-semibold">{selectedPhilosophers.length}</span>명
+                  </p>
                 </div>
-                <p className="text-sm text-slate-500 mb-4">
-                  이 질문을 탐구한 사상가 {selectedPhilosophers.length}명
-                </p>
+
+                {/* Philosopher cards */}
                 <div className="space-y-3">
                   {selectedPhilosophers.map((p) => (
                     <Link
                       key={p.id}
-                      href={`/philosophy/${p.id}/`}
+                      href={`/persons/${p.id}/`}
                       className={cn(
-                        'group block rounded-xl border bg-slate-800/20 p-4 hover:bg-slate-800/40 transition-all duration-200 border-l-4',
+                        'group block rounded-xl border bg-slate-800/20 hover:bg-slate-800/40 transition-all duration-200 border-l-4 overflow-hidden',
                         getEraBorderClass(p.era)
                       )}
                     >
-                      <div className="flex items-start justify-between mb-2">
-                        <div>
-                          <h3 className="text-white font-semibold group-hover:text-ancient transition-colors">
-                            {p.name.ko}
-                          </h3>
-                          <p className="text-xs text-slate-500">{p.name.en}</p>
-                        </div>
-                        <span
-                          className={cn(
-                            'text-[10px] px-2 py-0.5 rounded-full font-medium',
-                            getEraColorClass(p.era)
-                          )}
-                        >
-                          {getEraLabel(p.era as Era)}
-                        </span>
-                      </div>
-
-                      <p className="text-xs text-slate-500 mb-2">
-                        {formatYear(p.period.start)} ~{' '}
-                        {formatYear(p.period.end)}
-                      </p>
-
-                      <div className="flex flex-wrap gap-1 mb-2">
-                        {p.school.map((s) => (
+                      <div className="p-4 sm:p-5">
+                        {/* Name and era badge */}
+                        <div className="flex items-start justify-between mb-2">
+                          <div>
+                            <h3 className="text-white font-semibold text-base group-hover:text-modern transition-colors">
+                              {p.name.ko}
+                            </h3>
+                            <p className="text-xs text-slate-500">{p.name.en}</p>
+                          </div>
                           <span
-                            key={s}
-                            className="text-[10px] px-1.5 py-0.5 rounded bg-slate-700/50 text-slate-400"
+                            className={cn(
+                              'text-[10px] px-2 py-0.5 rounded-full font-medium shrink-0 ml-2',
+                              getEraColorClass(p.era)
+                            )}
                           >
-                            {s}
+                            {getEraLabel(p.era as Era)}
                           </span>
-                        ))}
-                      </div>
+                        </div>
 
-                      <p className="text-sm text-slate-400 line-clamp-2">
-                        {p.summary}
-                      </p>
+                        {/* Period and region */}
+                        <p className="text-xs text-slate-500 mb-3">
+                          {formatYear(p.period.start)} ~ {formatYear(p.period.end)}
+                          {p.location?.region && (
+                            <span className="ml-2 text-slate-600">| {p.location.region}</span>
+                          )}
+                        </p>
 
-                      <div className="mt-2 flex items-center text-xs text-slate-500 group-hover:text-ancient transition-colors">
-                        상세 페이지
-                        <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
+                        {/* Schools */}
+                        <div className="flex flex-wrap gap-1 mb-3">
+                          {p.school.map((s) => (
+                            <span
+                              key={s}
+                              className="text-[10px] px-1.5 py-0.5 rounded bg-slate-700/50 text-slate-400"
+                            >
+                              {s}
+                            </span>
+                          ))}
+                        </div>
+
+                        {/* Summary */}
+                        <p className="text-sm text-slate-400 leading-relaxed mb-3">
+                          {p.summary}
+                        </p>
+
+                        {/* Concepts related to this question */}
+                        {p.concepts && p.concepts.length > 0 && (
+                          <div className="mb-3">
+                            <div className="flex items-center gap-1 text-[10px] text-slate-500 mb-1.5">
+                              <BookOpen className="w-3 h-3" />
+                              주요 개념
+                            </div>
+                            <div className="flex flex-wrap gap-1">
+                              {p.concepts.slice(0, 5).map((c) => (
+                                <span
+                                  key={c}
+                                  className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-300 border border-indigo-500/20"
+                                >
+                                  {c}
+                                </span>
+                              ))}
+                              {p.concepts.length > 5 && (
+                                <span className="text-[10px] px-2 py-0.5 rounded-full bg-slate-700/30 text-slate-500">
+                                  +{p.concepts.length - 5}
+                                </span>
+                              )}
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Quote if available */}
+                        {p.quotes && p.quotes.length > 0 && (
+                          <div className="bg-slate-900/50 rounded-lg p-3 mb-3 border border-slate-700/30">
+                            <div className="flex items-start gap-2">
+                              <Quote className="w-3 h-3 text-slate-600 mt-0.5 flex-shrink-0" />
+                              <div>
+                                <p className="text-xs text-slate-400 italic leading-relaxed">
+                                  &ldquo;{p.quotes[0].text}&rdquo;
+                                </p>
+                                {p.quotes[0].source && (
+                                  <p className="text-[10px] text-slate-600 mt-1">
+                                    - {p.quotes[0].source}
+                                  </p>
+                                )}
+                              </div>
+                            </div>
+                          </div>
+                        )}
+
+                        <div className="flex items-center text-xs text-slate-500 group-hover:text-modern transition-colors">
+                          상세 페이지
+                          <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
+                        </div>
                       </div>
                     </Link>
                   ))}
                 </div>
               </div>
             ) : (
-              <div className="rounded-xl border border-slate-700/50 bg-slate-800/20 p-8 text-center">
+              <div className="rounded-xl border border-slate-700/50 bg-slate-800/20 p-8 text-center sticky top-8">
                 <HelpCircle className="w-10 h-10 text-slate-600 mx-auto mb-3" />
                 <p className="text-slate-500 text-sm">
                   왼쪽에서 질문을 선택하면

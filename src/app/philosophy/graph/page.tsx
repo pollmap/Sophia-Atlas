@@ -11,7 +11,17 @@ import {
   X,
 } from 'lucide-react';
 import philosophersData from '@/data/persons/philosophers.json';
+import religiousFiguresData from '@/data/persons/religious-figures.json';
+import scientistsData from '@/data/persons/scientists.json';
+import historicalFiguresData from '@/data/persons/historical-figures.json';
 import rawRelationships from '@/data/relationships/person-person.json';
+
+const allPersonsLookup: { id: string; name: { ko: string; en: string }; era: string }[] = [
+  ...(philosophersData as any[]),
+  ...(religiousFiguresData as any[]),
+  ...(scientistsData as any[]),
+  ...(historicalFiguresData as any[]),
+];
 
 const relationshipsData = rawRelationships as unknown as { source: string; target: string; type: string; description: string }[];
 import {
@@ -97,7 +107,7 @@ export default function GraphPage() {
   }, [selectedNode]);
 
   const getPhilosopherName = useCallback((id: string) => {
-    const p = philosophersData.find((ph) => ph.id === id);
+    const p = allPersonsLookup.find((ph) => ph.id === id);
     return p ? p.name.ko : id;
   }, []);
 
@@ -406,7 +416,7 @@ export default function GraphPage() {
                 )}
 
                 <Link
-                  href={`/philosophy/${selectedPhilosopher.id}/`}
+                  href={`/persons/${selectedPhilosopher.id}/`}
                   className="flex items-center justify-center gap-2 w-full mt-4 px-4 py-2.5 rounded-lg bg-slate-700/50 text-white text-sm font-medium hover:bg-slate-700 transition-colors"
                 >
                   상세 페이지

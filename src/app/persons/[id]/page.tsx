@@ -210,8 +210,12 @@ export default async function PersonPage({
 
       {/* Detailed */}
       <section className="max-w-4xl mx-auto px-4 pb-6">
-        <ExpandableSection title="상세 해설" icon={<BookOpen className="w-5 h-5 text-medieval" />}>
-          <p className="leading-relaxed whitespace-pre-line">{person.detailed}</p>
+        <ExpandableSection title="상세 해설" icon={<BookOpen className="w-5 h-5 text-medieval" />} defaultOpen>
+          <div className="leading-relaxed whitespace-pre-line text-slate-300 space-y-3">
+            {person.detailed.split('\n').filter(Boolean).map((para, i) => (
+              <p key={i}>{para}</p>
+            ))}
+          </div>
         </ExpandableSection>
       </section>
 
