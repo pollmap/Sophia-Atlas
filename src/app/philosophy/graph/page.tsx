@@ -10,10 +10,10 @@ import {
   GitBranch,
   X,
 } from 'lucide-react';
-import philosophersData from '@/data/philosophers.json';
-import rawRelationships from '@/data/relationships.json';
+import philosophersData from '@/data/persons/philosophers.json';
+import rawRelationships from '@/data/relationships/person-person.json';
 
-const relationshipsData = rawRelationships as unknown as { from: string; to: string; type: string; description: string }[];
+const relationshipsData = rawRelationships as unknown as { source: string; target: string; type: string; description: string }[];
 import {
   cn,
   getEraColor,
@@ -87,7 +87,7 @@ export default function GraphPage() {
   // Filter relationships
   const filteredRelationships = useMemo(() => {
     return relationshipsData.filter(
-      (r) => filteredIds.has(r.from) && filteredIds.has(r.to)
+      (r) => filteredIds.has(r.source) && filteredIds.has(r.target)
     );
   }, [filteredIds]);
 
@@ -104,8 +104,8 @@ export default function GraphPage() {
   // Relationships for selected node
   const selectedRelationships = useMemo(() => {
     if (!selectedNode) return { incoming: [], outgoing: [] };
-    const incoming = relationshipsData.filter((r) => r.to === selectedNode);
-    const outgoing = relationshipsData.filter((r) => r.from === selectedNode);
+    const incoming = relationshipsData.filter((r) => r.target === selectedNode);
+    const outgoing = relationshipsData.filter((r) => r.source === selectedNode);
     return { incoming, outgoing };
   }, [selectedNode]);
 
@@ -201,12 +201,12 @@ export default function GraphPage() {
 
                 {/* Relationship edges */}
                 {filteredRelationships.map((rel, idx) => {
-                  const from = nodePositions[rel.from];
-                  const to = nodePositions[rel.to];
+                  const from = nodePositions[rel.source];
+                  const to = nodePositions[rel.target];
                   if (!from || !to) return null;
 
                   const isHighlighted =
-                    selectedNode === rel.from || selectedNode === rel.to;
+                    selectedNode === rel.source || selectedNode === rel.target;
 
                   const midX = (from.x + to.x) / 2;
                   const midY = (from.y + to.y) / 2 - 20;
@@ -253,8 +253,8 @@ export default function GraphPage() {
                     selectedNode
                       ? relationshipsData.some(
                           (r) =>
-                            (r.from === selectedNode && r.to === p.id) ||
-                            (r.to === selectedNode && r.from === p.id)
+                            (r.source === selectedNode && r.target === p.id) ||
+                            (r.target === selectedNode && r.source === p.id)
                         )
                       : false;
                   const dimmed = selectedNode && !isSelected && !isConnected;
@@ -353,20 +353,20 @@ export default function GraphPage() {
                       {selectedRelationships.incoming.map((r, i) => (
                         <button
                           key={i}
-                          onClick={() => setSelectedNode(r.from)}
+                          onClick={() => setSelectedNode(r.source)}
                           className="flex items-center gap-2 w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-700/30 transition-colors"
                         >
                           <div
                             className={cn(
                               'w-2 h-2 rounded-full',
                               getEraBgColor(
-                                (philosophersData.find((p) => p.id === r.from)
+                                (philosophersData.find((p) => p.id === r.source)
                                   ?.era || 'contemporary') as Era
                               )
                             )}
                           />
                           <span className="text-sm text-slate-300">
-                            {getPhilosopherName(r.from)}
+                            {getPhilosopherName(r.source)}
                           </span>
                         </button>
                       ))}
@@ -384,20 +384,20 @@ export default function GraphPage() {
                       {selectedRelationships.outgoing.map((r, i) => (
                         <button
                           key={i}
-                          onClick={() => setSelectedNode(r.to)}
+                          onClick={() => setSelectedNode(r.target)}
                           className="flex items-center gap-2 w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-700/30 transition-colors"
                         >
                           <div
                             className={cn(
                               'w-2 h-2 rounded-full',
                               getEraBgColor(
-                                (philosophersData.find((p) => p.id === r.to)
+                                (philosophersData.find((p) => p.id === r.target)
                                   ?.era || 'contemporary') as Era
                               )
                             )}
                           />
                           <span className="text-sm text-slate-300">
-                            {getPhilosopherName(r.to)}
+                            {getPhilosopherName(r.target)}
                           </span>
                         </button>
                       ))}

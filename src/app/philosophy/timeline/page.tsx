@@ -3,7 +3,7 @@
 import { useState, useMemo, useRef } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, ArrowRight, Calendar, ChevronRight, Filter, MapPin, Tag } from 'lucide-react';
-import philosophersData from '@/data/philosophers.json';
+import philosophersData from '@/data/persons/philosophers.json';
 import {
   cn,
   getEraColor,

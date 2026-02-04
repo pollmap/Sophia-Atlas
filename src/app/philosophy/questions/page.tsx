@@ -12,7 +12,7 @@ import {
   Users,
   X,
 } from 'lucide-react';
-import philosophersData from '@/data/philosophers.json';
+import philosophersData from '@/data/persons/philosophers.json';
 import {
   cn,
   getEraColor,

@@ -16,8 +16,8 @@ import {
   Globe,
   Layers,
 } from "lucide-react";
-import philosophersData from "@/data/philosophers.json";
-import relationshipsData from "@/data/relationships.json";
+import philosophersData from "@/data/persons/philosophers.json";
+import relationshipsData from "@/data/relationships/person-person.json";
 import { cn } from "@/lib/utils";
 
 const philosophers = philosophersData as any[];
