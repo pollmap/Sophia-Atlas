@@ -13,9 +13,8 @@ import {
   Home,
   BookOpen,
   Scroll,
-  Route,
-  Info,
   Network,
+  Users,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -27,12 +26,12 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { label: "홈", href: "/", icon: <Home className="w-4 h-4" /> },
+  { label: "인물", href: "/persons", icon: <Users className="w-4 h-4" /> },
+  { label: "엔터티", href: "/entities", icon: <Landmark className="w-4 h-4" /> },
   { label: "철학", href: "/philosophy/timeline", icon: <BookOpen className="w-4 h-4" /> },
   { label: "신화/종교", href: "/religion/map", icon: <Scroll className="w-4 h-4" /> },
   { label: "인드라망", href: "/connections", icon: <Network className="w-4 h-4" /> },
   { label: "검색", href: "/search", icon: <Search className="w-4 h-4" /> },
-  { label: "학습경로", href: "/learn", icon: <Route className="w-4 h-4" /> },
-  { label: "About", href: "/about", icon: <Info className="w-4 h-4" /> },
 ];
 
 export default function Header() {

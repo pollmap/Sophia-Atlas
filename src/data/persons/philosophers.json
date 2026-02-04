@@ -1,0 +1,7869 @@
+[
+  {
+    "id": "thales",
+    "name": {
+      "ko": "탈레스",
+      "en": "Thales",
+      "original": "Θαλῆς"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -624,
+      "end": -546,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.53,
+      "lng": 27.18,
+      "region": "그리스 밀레토스"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "자연철학",
+      "밀레토스학파",
+      "서양철학의 시조"
+    ],
+    "mvp": true,
+    "summary": "서양 철학의 아버지로 불리는 최초의 자연철학자. 만물의 근원(아르케)을 물이라 주장하며 신화적 세계관에서 합리적 탐구로의 전환을 이끌었다.",
+    "detailed": "탈레스는 소아시아의 밀레토스 출신으로, 서양 철학사 최초의 철학자로 인정받는다. 그는 만물의 근원(아르케)이 물이라고 주장하며, 자연 현상을 신화가 아닌 자연 자체로 설명하려 했다. 일식을 예측했다고 전해지며, 기하학에도 기여했다. 탈레스의 정리로 알려진 수학적 업적도 남겼다. 그의 자연철학적 접근은 아낙시만드로스, 아낙시메네스로 이어지는 밀레토스 학파의 출발점이 되었다.",
+    "keyWorks": [
+      {
+        "title": "직접 저술 미전승 (후대 기록으로 전해짐)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "만물은 물이다.",
+        "source": "아리스토텔레스 《형이상학》 전승"
+      },
+      {
+        "text": "가장 어려운 일은 자기 자신을 아는 것이다.",
+        "source": "디오게네스 라에르티오스"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "anaximander",
+      "anaximenes"
+    ],
+    "school": [
+      "밀레토스학파",
+      "자연철학"
+    ],
+    "concepts": [
+      "아르케",
+      "물 일원론",
+      "자연적 설명"
+    ],
+    "questions": [
+      "만물의 근원은 무엇인가?"
+    ]
+  },
+  {
+    "id": "anaximander",
+    "name": {
+      "ko": "아낙시만드로스",
+      "en": "Anaximander",
+      "original": "Ἀναξίμανδρος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -610,
+      "end": -546,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.53,
+      "lng": 27.18,
+      "region": "그리스 밀레토스"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "자연철학",
+      "밀레토스학파",
+      "무한정자"
+    ],
+    "mvp": true,
+    "summary": "만물의 근원을 '아페이론(무한정자)'이라는 추상적 개념으로 설명한 최초의 철학자. 최초의 세계 지도를 제작했다고 전해진다.",
+    "detailed": "아낙시만드로스는 탈레스의 제자로, 만물의 근원을 특정 물질이 아닌 '아페이론(무한정자)'이라는 무규정적이고 무한한 것으로 보았다. 이는 추상적 원리로 세계를 설명하려는 최초의 시도였다. 또한 생물이 바다에서 기원했다는 진화론적 사고의 맹아를 보여주었으며, 최초의 세계 지도와 천구의를 제작한 것으로 알려져 있다.",
+    "keyWorks": [
+      {
+        "title": "자연에 관하여 (단편만 전승)",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "만물의 근원은 아페이론(무한정자)이다.",
+        "source": "심플리키오스 전승"
+      }
+    ],
+    "influences": [
+      "thales"
+    ],
+    "influenced": [
+      "anaximenes"
+    ],
+    "school": [
+      "밀레토스학파"
+    ],
+    "concepts": [
+      "아페이론",
+      "무한정자",
+      "대립자의 분리"
+    ],
+    "questions": [
+      "근원은 특정 물질일 수 있는가?"
+    ]
+  },
+  {
+    "id": "anaximenes",
+    "name": {
+      "ko": "아낙시메네스",
+      "en": "Anaximenes",
+      "original": "Ἀναξιμένης"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -586,
+      "end": -526,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.53,
+      "lng": 27.18,
+      "region": "그리스 밀레토스"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "자연철학",
+      "밀레토스학파"
+    ],
+    "mvp": false,
+    "summary": "만물의 근원을 공기로 보고, 공기의 농축과 희박화로 만물의 변화를 설명한 밀레토스 학파의 마지막 철학자.",
+    "detailed": "아낙시메네스는 아낙시만드로스의 제자로, 만물의 아르케를 공기(아에르)로 보았다. 공기가 희박해지면 불이 되고, 농축되면 바람, 구름, 물, 흙, 돌이 된다고 설명했다. 이러한 양적 변화에 의한 질적 변화 설명은 후대 자연과학의 선구적 사고로 평가된다.",
+    "keyWorks": [
+      {
+        "title": "자연에 관하여 (단편만 전승)",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "anaximander"
+    ],
+    "influenced": [
+      "diogenes-apollonia"
+    ],
+    "school": [
+      "밀레토스학파"
+    ],
+    "concepts": [
+      "공기 일원론",
+      "농축과 희박화"
+    ],
+    "questions": [
+      "변화는 어떻게 일어나는가?"
+    ]
+  },
+  {
+    "id": "pythagoras",
+    "name": {
+      "ko": "피타고라스",
+      "en": "Pythagoras",
+      "original": "Πυθαγόρας"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -570,
+      "end": -495,
+      "approximate": true
+    },
+    "location": {
+      "lat": 39.73,
+      "lng": 15.8,
+      "region": "이탈리아 크로톤"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "scientist"
+    ],
+    "subcategory": "presocratic",
+    "tags": [
+      "수학",
+      "피타고라스학파",
+      "영혼 윤회",
+      "수비학"
+    ],
+    "mvp": true,
+    "summary": "만물의 근원을 수(數)로 본 철학자이자 수학자. 피타고라스 정리로 유명하며, 영혼의 윤회를 믿는 종교적 공동체를 세웠다.",
+    "detailed": "피타고라스는 사모스 섬 출신으로 남이탈리아 크로톤에서 활동했다. '만물은 수(數)이다'라는 명제로, 우주의 질서가 수학적 비례와 조화에 있다고 주장했다. 음악의 음정이 수학적 비례에 따른다는 발견은 이 사상의 핵심 근거였다. 그는 영혼의 윤회(메템프시코시스)를 믿었으며, 엄격한 규율의 공동체를 운영했다. 피타고라스 정리를 비롯한 수학적 업적은 후대 수학과 철학에 지대한 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "직접 저술 없음 (제자들의 기록으로 전승)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "만물은 수이다.",
+        "source": "아리스토텔레스 전승"
+      },
+      {
+        "text": "침묵하라, 아니면 침묵보다 나은 말을 하라.",
+        "source": "전승"
+      }
+    ],
+    "influences": [
+      "thales",
+      "anaximander"
+    ],
+    "influenced": [
+      "philolaus",
+      "plato"
+    ],
+    "school": [
+      "피타고라스학파"
+    ],
+    "concepts": [
+      "수 일원론",
+      "하르모니아",
+      "영혼 윤회",
+      "코스모스"
+    ],
+    "questions": [
+      "우주의 질서는 수학적인가?"
+    ],
+    "field": [
+      "수학"
+    ]
+  },
+  {
+    "id": "xenophanes",
+    "name": {
+      "ko": "크세노파네스",
+      "en": "Xenophanes",
+      "original": "Ξενοφάνης"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -570,
+      "end": -475,
+      "approximate": true
+    },
+    "location": {
+      "lat": 38.4,
+      "lng": 26.77,
+      "region": "그리스 콜로폰"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "자연철학",
+      "신학비판",
+      "일신론"
+    ],
+    "mvp": false,
+    "summary": "의인화된 신 개념을 비판하고 하나의 신(一神)을 주장한 철학자. 호메로스와 헤시오도스의 신화적 세계관을 합리적으로 비판했다.",
+    "detailed": "크세노파네스는 이오니아의 콜로폰 출신으로, 그리스 전역을 떠돌며 활동했다. 그는 인간이 신을 자기 모습대로 만든다고 비판하며, 만약 소나 말이 신을 그린다면 자기 모습으로 그릴 것이라 풍자했다. 하나의 부동의 신을 주장하여 엘레아학파의 선구자로 평가된다. 화석을 관찰하여 지구 변화에 대한 선구적 지질학적 사고도 보여주었다.",
+    "keyWorks": [
+      {
+        "title": "자연에 관하여 / 풍자시 (단편)",
+        "type": "book"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "parmenides"
+    ],
+    "school": [
+      "엘레아학파 선구"
+    ],
+    "concepts": [
+      "신 비판",
+      "일신론",
+      "인식의 한계"
+    ],
+    "questions": [
+      "신은 어떤 존재인가?"
+    ]
+  },
+  {
+    "id": "heraclitus",
+    "name": {
+      "ko": "헤라클레이토스",
+      "en": "Heraclitus",
+      "original": "Ἡράκλειτος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -535,
+      "end": -475,
+      "approximate": true
+    },
+    "location": {
+      "lat": 38.42,
+      "lng": 27.14,
+      "region": "그리스 에페소스"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "자연철학",
+      "만물유전",
+      "변증법의 선구"
+    ],
+    "mvp": true,
+    "summary": "'만물은 흐른다(판타 레이)'로 유명한 철학자. 불을 만물의 근원으로, 대립자의 투쟁과 조화를 로고스로 설명했다.",
+    "detailed": "헤라클레이토스는 에페소스의 귀족 출신으로, '어두운 철학자'라 불렸다. 그는 만물이 끊임없이 변화한다고 보았으며, '같은 강물에 두 번 들어갈 수 없다'는 비유로 이를 표현했다. 불을 만물의 근원으로 보았고, 대립자들의 투쟁과 통일이 세계의 근본 원리(로고스)라 주장했다. 이러한 변증법적 사고는 후대 헤겔, 마르크스에게 큰 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "자연에 관하여 (단편만 전승)",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "만물은 흐른다. (판타 레이)",
+        "source": "플라톤 《크라튈로스》 전승"
+      },
+      {
+        "text": "같은 강물에 두 번 들어갈 수 없다.",
+        "source": "단편 B91"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "plato",
+      "hegel",
+      "nietzsche"
+    ],
+    "school": [
+      "에페소스학파"
+    ],
+    "concepts": [
+      "만물유전",
+      "로고스",
+      "불 일원론",
+      "대립자의 통일"
+    ],
+    "questions": [
+      "변화의 법칙은 무엇인가?",
+      "대립은 어떻게 조화를 이루는가?"
+    ]
+  },
+  {
+    "id": "parmenides",
+    "name": {
+      "ko": "파르메니데스",
+      "en": "Parmenides",
+      "original": "Παρμενίδης"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -515,
+      "end": -450,
+      "approximate": true
+    },
+    "location": {
+      "lat": 40.16,
+      "lng": 15.14,
+      "region": "이탈리아 엘레아"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "엘레아학파",
+      "존재론",
+      "논리적 추론"
+    ],
+    "mvp": true,
+    "summary": "'있는 것은 있고, 없는 것은 없다'는 존재론의 창시자. 변화와 운동은 감각의 착각이며 존재는 하나이고 불변한다고 주장했다.",
+    "detailed": "파르메니데스는 남이탈리아 엘레아 출신으로, 서양 존재론(온톨로지)의 출발점을 놓았다. 그는 사유와 존재의 동일성을 주장하며, 논리적 추론만이 진리에 이르는 길이라 보았다. '있는 것은 있고 없는 것은 없다'는 명제에서 출발하여, 존재는 생성도 소멸도 변화도 없는 하나의 완전한 구(球)와 같다고 결론지었다. 이는 헤라클레이토스의 만물유전론과 정면 대립하며, 후대 철학에 존재와 변화의 문제를 남겼다.",
+    "keyWorks": [
+      {
+        "title": "자연에 관하여 (운문 단편)",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "있는 것은 있고, 없는 것은 없다.",
+        "source": "단편 B2"
+      },
+      {
+        "text": "사유하는 것과 존재하는 것은 같다.",
+        "source": "단편 B3"
+      }
+    ],
+    "influences": [
+      "xenophanes"
+    ],
+    "influenced": [
+      "zeno-of-elea",
+      "melissus",
+      "plato"
+    ],
+    "school": [
+      "엘레아학파"
+    ],
+    "concepts": [
+      "존재의 불변성",
+      "진리의 길과 의견의 길",
+      "사유와 존재의 동일성"
+    ],
+    "questions": [
+      "존재란 무엇인가?",
+      "변화는 실재하는가?"
+    ]
+  },
+  {
+    "id": "anaxagoras",
+    "name": {
+      "ko": "아낙사고라스",
+      "en": "Anaxagoras",
+      "original": "Ἀναξαγόρας"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -500,
+      "end": -428,
+      "approximate": true
+    },
+    "location": {
+      "lat": 38.37,
+      "lng": 26.78,
+      "region": "클라조메나이 → 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "누스",
+      "다원론",
+      "아테네 철학"
+    ],
+    "mvp": true,
+    "summary": "우주적 정신(누스, Nous)을 도입하여 물질과 정신을 구분한 최초의 철학자. 아테네에 철학을 전파한 선구자이다.",
+    "detailed": "아낙사고라스는 소아시아 클라조메나이 출신으로, 아테네에서 페리클레스의 벗이자 스승으로 활동했다. 그는 만물에 무한히 많은 종류의 씨앗(스페르마타)이 혼합되어 있으며, 누스(정신/이성)가 이를 질서 있게 배열한다고 주장했다. 태양은 뜨거운 돌이라는 주장으로 불경죄에 고발되어 아테네를 떠나야 했으며, 이 사건은 사상의 자유 문제의 초기 사례이다.",
+    "keyWorks": [
+      {
+        "title": "자연에 관하여",
+        "year": -460
+      }
+    ],
+    "quotes": [
+      {
+        "text": "만물에는 만물의 부분이 들어 있다.",
+        "source": "단편 11"
+      }
+    ],
+    "influences": [
+      "parmenides"
+    ],
+    "influenced": [
+      "socrates",
+      "aristotle"
+    ],
+    "school": [
+      "다원론"
+    ],
+    "concepts": [
+      "누스",
+      "스페르마타",
+      "만물의 혼합"
+    ],
+    "questions": [
+      "우주에 질서를 부여하는 원리는 무엇인가?"
+    ]
+  },
+  {
+    "id": "empedocles",
+    "name": {
+      "ko": "엠페도클레스",
+      "en": "Empedocles",
+      "original": "Ἐμπεδοκλῆς"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -494,
+      "end": -434,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.31,
+      "lng": 13.58,
+      "region": "시칠리아 아크라가스"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "자연철학",
+      "4원소설",
+      "사랑과 투쟁"
+    ],
+    "mvp": true,
+    "summary": "만물의 근원을 흙, 물, 불, 공기 네 원소(리조마타)로 설명하고, 사랑과 투쟁이라는 두 힘이 이들을 결합·분리시킨다고 주장했다.",
+    "detailed": "엠페도클레스는 시칠리아 아크라가스 출신으로, 자연철학의 다원론적 전환을 이끌었다. 그는 파르메니데스의 '존재는 생성·소멸하지 않는다'는 원리를 수용하면서도, 네 가지 뿌리(흙·물·불·공기)의 혼합과 분리로 변화를 설명했다. 사랑(필리아)은 결합의 힘이고, 투쟁(네이코스)은 분리의 힘이다. 이러한 4원소설은 아리스토텔레스를 거쳐 중세까지 서양 자연관의 기초가 되었다.",
+    "keyWorks": [
+      {
+        "title": "자연에 관하여 (단편)",
+        "type": "book"
+      },
+      {
+        "title": "정화 (단편)",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "사랑이 하나로 모으고, 투쟁이 둘로 나눈다.",
+        "source": "단편"
+      }
+    ],
+    "influences": [
+      "parmenides",
+      "pythagoras"
+    ],
+    "influenced": [
+      "aristotle"
+    ],
+    "school": [
+      "다원론"
+    ],
+    "concepts": [
+      "4원소설",
+      "사랑과 투쟁",
+      "리조마타"
+    ],
+    "questions": [
+      "변화의 원동력은 무엇인가?"
+    ]
+  },
+  {
+    "id": "zeno-of-elea",
+    "name": {
+      "ko": "제논 (엘레아)",
+      "en": "Zeno of Elea",
+      "original": "Ζήνων ὁ Ἐλεάτης"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -490,
+      "end": -430,
+      "approximate": true
+    },
+    "location": {
+      "lat": 40.16,
+      "lng": 15.14,
+      "region": "이탈리아 엘레아"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "엘레아학파",
+      "역설",
+      "변증론"
+    ],
+    "mvp": false,
+    "summary": "아킬레우스와 거북이, 날아가는 화살 등 유명한 역설로 운동과 다수의 불가능성을 논증하여 파르메니데스의 존재론을 옹호했다.",
+    "detailed": "제논은 파르메니데스의 제자로, 스승의 존재론을 간접적으로 옹호하기 위해 역설(파라독스)을 고안했다. '아킬레우스와 거북이', '이분법', '날아가는 화살', '경기장' 등의 역설은 운동과 다수(多數)의 개념이 모순에 빠짐을 보여준다. 이는 논리적 귀류법의 선구적 사례이며, 후대 수학의 극한 이론과 무한 개념 발전에 기여했다.",
+    "keyWorks": [
+      {
+        "title": "역설들 (단편으로 전승)"
+      }
+    ],
+    "influences": [
+      "parmenides"
+    ],
+    "influenced": [
+      "aristotle"
+    ],
+    "school": [
+      "엘레아학파"
+    ],
+    "concepts": [
+      "아킬레우스와 거북이",
+      "이분법 역설",
+      "날아가는 화살 역설"
+    ],
+    "questions": [
+      "운동은 실재하는가?",
+      "무한 분할이 가능한가?"
+    ]
+  },
+  {
+    "id": "protagoras",
+    "name": {
+      "ko": "프로타고라스",
+      "en": "Protagoras",
+      "original": "Πρωταγόρας"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -490,
+      "end": -420,
+      "approximate": true
+    },
+    "location": {
+      "lat": 40.95,
+      "lng": 24.15,
+      "region": "그리스 압데라"
+    },
+    "category": "philosopher",
+    "subcategory": "sophist",
+    "tags": [
+      "소피스트",
+      "상대주의",
+      "수사학"
+    ],
+    "mvp": true,
+    "summary": "'인간은 만물의 척도이다'라는 명제로 유명한 소피스트의 대표자. 진리의 상대성을 주장하며 수사학과 교육을 직업으로 삼았다.",
+    "detailed": "프로타고라스는 압데라 출신의 대표적 소피스트로, 아테네에서 활발히 활동했다. '인간은 만물의 척도이다'는 그의 핵심 명제로, 진리는 개인의 지각에 상대적이라는 인식론적 상대주의를 표방한다. 그는 수사학과 논증술을 가르쳐 보수를 받은 최초의 직업 교사이기도 했다. 신의 존재에 대해 불가지론적 태도를 취하여 아테네에서 추방당했다고 전해진다.",
+    "keyWorks": [
+      {
+        "title": "진리 (알레테이아)",
+        "type": "book"
+      },
+      {
+        "title": "신들에 관하여",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "인간은 만물의 척도이다.",
+        "source": "진리"
+      }
+    ],
+    "influences": [
+      "democritus"
+    ],
+    "influenced": [],
+    "school": [
+      "소피스트"
+    ],
+    "concepts": [
+      "인간 척도설",
+      "상대주의",
+      "불가지론"
+    ],
+    "questions": [
+      "진리는 절대적인가 상대적인가?"
+    ]
+  },
+  {
+    "id": "gorgias",
+    "name": {
+      "ko": "고르기아스",
+      "en": "Gorgias",
+      "original": "Γοργίας"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -483,
+      "end": -375,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.07,
+      "lng": 15.29,
+      "region": "시칠리아 레온티노이"
+    },
+    "category": "philosopher",
+    "subcategory": "sophist",
+    "tags": [
+      "소피스트",
+      "수사학",
+      "허무주의"
+    ],
+    "mvp": true,
+    "summary": "수사학의 대가이자 극단적 회의주의를 전개한 소피스트. 존재하지 않는다, 존재하더라도 인식 불가, 인식하더라도 전달 불가라는 삼단논법을 제시했다.",
+    "detailed": "고르기아스는 시칠리아 레온티노이 출신으로, 수사학의 대가로서 아테네에서 큰 명성을 얻었다. 그의 《존재하지 않는 것에 관하여》에서 세 가지 명제를 제시했다: 아무것도 존재하지 않는다, 존재하더라도 인식할 수 없다, 인식하더라도 타인에게 전달할 수 없다. 이는 엘레아학파의 논증 방식을 극단까지 밀어붙인 것으로, 수사학이 철학보다 우위에 있다는 주장의 근거가 되었다.",
+    "keyWorks": [
+      {
+        "title": "존재하지 않는 것에 관하여",
+        "type": "book"
+      },
+      {
+        "title": "헬레나 찬사",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "아무것도 존재하지 않는다. 존재하더라도 알 수 없다. 알더라도 전달할 수 없다.",
+        "source": "존재하지 않는 것에 관하여"
+      }
+    ],
+    "influences": [
+      "empedocles",
+      "parmenides"
+    ],
+    "influenced": [],
+    "school": [
+      "소피스트"
+    ],
+    "concepts": [
+      "수사학적 설득",
+      "존재 부정의 삼단논법"
+    ],
+    "questions": [
+      "진리를 전달할 수 있는가?"
+    ]
+  },
+  {
+    "id": "leucippus",
+    "name": {
+      "ko": "레우키포스",
+      "en": "Leucippus",
+      "original": "Λεύκιππος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -480,
+      "end": -420,
+      "approximate": true
+    },
+    "location": {
+      "lat": 40.95,
+      "lng": 24.15,
+      "region": "그리스 압데라/밀레토스"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "원자론",
+      "유물론"
+    ],
+    "mvp": false,
+    "summary": "원자론의 창시자. 만물이 불가분의 원자와 빈 공간으로 이루어진다는 이론을 최초로 제시했다.",
+    "detailed": "레우키포스는 원자론의 창시자로 알려져 있으나, 생애에 대해 거의 알려진 바가 없다. 그는 파르메니데스의 존재론과 엘레아학파의 문제를 해결하기 위해 원자론을 고안했다. '아무것도 무작위로 생기지 않으며, 모든 것에는 이유와 필연이 있다'는 그의 명제는 결정론적 세계관의 출발점이다. 제자 데모크리토스가 이를 체계화했다.",
+    "keyWorks": [
+      {
+        "title": "대우주론 (미전승)",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "parmenides",
+      "zeno-of-elea"
+    ],
+    "influenced": [
+      "democritus"
+    ],
+    "school": [
+      "원자론"
+    ],
+    "concepts": [
+      "원자",
+      "빈 공간",
+      "필연성"
+    ],
+    "questions": [
+      "존재와 비존재는 공존 가능한가?"
+    ]
+  },
+  {
+    "id": "melissus",
+    "name": {
+      "ko": "멜리소스",
+      "en": "Melissus",
+      "original": "Μέλισσος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -470,
+      "end": -430,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.75,
+      "lng": 26.97,
+      "region": "그리스 사모스"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "엘레아학파",
+      "존재론",
+      "무한"
+    ],
+    "mvp": true,
+    "summary": "엘레아학파의 철학자이자 사모스의 장군. 파르메니데스의 존재론을 발전시켜 존재는 시간적·공간적으로 무한하다고 주장했다.",
+    "detailed": "멜리소스는 사모스 출신의 해군 장군이자 철학자로, 엘레아학파의 존재론을 독자적으로 발전시켰다. 파르메니데스가 존재를 유한한 구(球)로 본 것과 달리 존재는 무한하다고 주장했으며, 비존재와 운동, 변화를 체계적으로 부정했다. 그의 논증은 원자론자들이 엘레아학파에 대응하는 데 중요한 논점을 제공했다.",
+    "keyWorks": [
+      {
+        "title": "자연에 관하여 또는 존재에 관하여",
+        "year": -440
+      }
+    ],
+    "quotes": [],
+    "influences": [
+      "parmenides"
+    ],
+    "influenced": [
+      "leucippus"
+    ],
+    "school": [
+      "엘레아학파"
+    ],
+    "concepts": [
+      "존재의 무한성",
+      "비존재 부정",
+      "불변의 일자"
+    ],
+    "questions": [
+      "존재는 유한한가 무한한가?"
+    ]
+  },
+  {
+    "id": "philolaus",
+    "name": {
+      "ko": "필로라오스",
+      "en": "Philolaus",
+      "original": "Φιλόλαος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -470,
+      "end": -385,
+      "approximate": true
+    },
+    "location": {
+      "lat": 39.08,
+      "lng": 17.12,
+      "region": "이탈리아 크로톤"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "피타고라스학파",
+      "우주론",
+      "수학"
+    ],
+    "mvp": true,
+    "summary": "피타고라스학파의 주요 계승자. 중심불(中心火) 우주론을 제시하고 피타고라스 사상을 최초로 문서화했다.",
+    "detailed": "필로라오스는 크로톤 출신의 피타고라스학파 철학자로, 피타고라스 교단의 비밀 가르침을 최초로 책으로 저술한 인물이다. 우주 중심에 '헤스티아'(중심불)가 있고 지구가 그 주위를 돈다는 비지구중심적 우주론을 제시했다. 한정자(페라스)와 무한정자(아페이론)의 조화로 만물이 구성된다는 이론은 플라톤에게 큰 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "자연에 관하여",
+        "year": -430
+      }
+    ],
+    "quotes": [],
+    "influences": [
+      "pythagoras"
+    ],
+    "influenced": [
+      "plato"
+    ],
+    "school": [
+      "피타고라스학파"
+    ],
+    "concepts": [
+      "중심불 우주론",
+      "한정자와 무한정자의 조화",
+      "수적 비율"
+    ],
+    "questions": [
+      "우주의 중심은 어디인가?"
+    ]
+  },
+  {
+    "id": "socrates",
+    "name": {
+      "ko": "소크라테스",
+      "en": "Socrates",
+      "original": "Σωκράτης"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -470,
+      "end": -399
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "classical_greek",
+    "tags": [
+      "서양철학",
+      "문답법",
+      "윤리학",
+      "아테네"
+    ],
+    "mvp": true,
+    "summary": "서양 철학의 아버지. 문답법(산파술)을 통해 진리를 탐구했으며, '너 자신을 알라'는 격언으로 유명하다. 검토되지 않은 삶은 살 가치가 없다고 믿었다.",
+    "detailed": "소크라테스는 기원전 5세기 아테네에서 활동한 철학자로, 서양 철학의 근본적 전환점을 만든 인물이다. 그는 자연철학에서 윤리학과 인식론으로 철학의 관심을 돌렸다. '검토되지 않은 삶은 살 가치가 없다'는 그의 신조였으며, 소크라테스적 방법(산파술)이라 불리는 질문과 대화를 통해 상대방 스스로 진리를 발견하게 했다. 그는 저서를 남기지 않았으며, 그의 사상은 제자 플라톤의 대화편을 통해 전해진다. 기원전 399년 아테네 법정에서 신성모독과 청년 타락 혐의로 사형을 선고받고 독배를 마시고 죽었다.",
+    "keyWorks": [
+      {
+        "title": "직접 저술 없음 (플라톤의 대화편을 통해 전해짐)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "너 자신을 알라.",
+        "source": "델포이 신전의 격언"
+      },
+      {
+        "text": "검토되지 않은 삶은 살 가치가 없다.",
+        "source": "소크라테스의 변론"
+      },
+      {
+        "text": "나는 내가 아무것도 모른다는 것을 안다.",
+        "source": "플라톤의 대화편"
+      }
+    ],
+    "influences": [
+      "anaxagoras"
+    ],
+    "influenced": [
+      "plato",
+      "antisthenes",
+      "xenophon",
+      "aristippus",
+      "euclides-megara",
+      "phaedo"
+    ],
+    "school": [
+      "소크라테스학파"
+    ],
+    "concepts": [
+      "산파술",
+      "무지의 자각",
+      "덕의 지식",
+      "영혼의 돌봄",
+      "다이몬"
+    ],
+    "questions": [
+      "지식이란 무엇인가?",
+      "선이란 무엇인가?",
+      "행복이란?",
+      "영혼은 있는가?"
+    ]
+  },
+  {
+    "id": "prodicus",
+    "name": {
+      "ko": "프로디코스",
+      "en": "Prodicus",
+      "original": "Πρόδικος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -465,
+      "end": -395,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.62,
+      "lng": 24.32,
+      "region": "케오스 → 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "sophist",
+    "tags": [
+      "소피스트",
+      "언어철학",
+      "윤리학"
+    ],
+    "mvp": true,
+    "summary": "유의어 구분에 뛰어난 소피스트로 언어 분석의 선구자. '헤라클레스의 선택' 우화로 덕과 악덕의 갈림길을 이야기했다.",
+    "detailed": "프로디코스는 키클라데스 제도의 케오스 출신 소피스트로, 유사한 단어들의 미묘한 의미 차이를 분석하는 데 탁월했다. 이 언어 분석적 방법론은 소크라테스에게도 영향을 미쳤다. 가장 유명한 작품은 '헤라클레스의 선택'으로, 젊은 헤라클레스가 쾌락(악덕)의 길과 노고(덕)의 길 사이에서 선택하는 우화이다. 종교의 기원을 자연 현상의 신격화에서 찾는 자연주의적 종교론도 제시했다.",
+    "keyWorks": [
+      {
+        "title": "호라이 (계절들)",
+        "year": -430
+      }
+    ],
+    "quotes": [
+      {
+        "text": "헤라클레스 앞에 두 여인이 나타났다. 하나는 쾌락, 다른 하나는 덕이었다.",
+        "source": "크세노폰 《소크라테스 회상》"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "socrates"
+    ],
+    "school": [
+      "소피스트"
+    ],
+    "concepts": [
+      "유의어 분석",
+      "종교의 자연적 기원",
+      "헤라클레스의 선택"
+    ],
+    "questions": [
+      "단어의 정확한 의미는 왜 중요한가?"
+    ]
+  },
+  {
+    "id": "democritus",
+    "name": {
+      "ko": "데모크리토스",
+      "en": "Democritus",
+      "original": "Δημόκριτος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -460,
+      "end": -370,
+      "approximate": true
+    },
+    "location": {
+      "lat": 40.95,
+      "lng": 24.15,
+      "region": "그리스 압데라"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "원자론",
+      "유물론",
+      "자연철학"
+    ],
+    "mvp": true,
+    "summary": "레우키포스와 함께 원자론을 완성한 철학자. 만물은 더 이상 쪼갤 수 없는 원자(아토모스)와 빈 공간(케논)으로 이루어진다고 주장했다.",
+    "detailed": "데모크리토스는 트라키아의 압데라 출신으로, '웃는 철학자'로 불렸다. 스승 레우키포스의 원자론을 체계화하여, 만물은 더 이상 나눌 수 없는 원자들이 빈 공간 속에서 운동하며 결합·분리함으로써 생성·소멸한다고 설명했다. 원자들은 모양, 크기, 배열만 다를 뿐 질적으로 동일하다. 이러한 기계론적 유물론은 에피쿠로스를 거쳐 근대 과학의 원자론에 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "소우주론 외 다수 (대부분 미전승)",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "관습에 의해 달고, 관습에 의해 쓰다. 실제로는 원자와 빈 공간만 있다.",
+        "source": "단편 B125"
+      }
+    ],
+    "influences": [
+      "leucippus"
+    ],
+    "influenced": [
+      "epicurus"
+    ],
+    "school": [
+      "원자론"
+    ],
+    "concepts": [
+      "원자",
+      "빈 공간",
+      "기계론적 유물론"
+    ],
+    "questions": [
+      "물질의 궁극적 구성 요소는 무엇인가?"
+    ]
+  },
+  {
+    "id": "diogenes-apollonia",
+    "name": {
+      "ko": "아폴로니아의 디오게네스",
+      "en": "Diogenes of Apollonia",
+      "original": "Διογένης ὁ Ἀπολλωνιάτης"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -460,
+      "end": -400,
+      "approximate": true
+    },
+    "location": {
+      "lat": 42.1,
+      "lng": 29.07,
+      "region": "흑해 아폴로니아"
+    },
+    "category": "philosopher",
+    "subcategory": "presocratic",
+    "tags": [
+      "자연철학",
+      "공기론",
+      "목적론"
+    ],
+    "mvp": true,
+    "summary": "아낙시메네스의 공기론을 계승하면서 목적론적 요소를 결합한 절충적 자연철학자. 공기가 곧 사유하는 신적 실체라고 주장했다.",
+    "detailed": "아폴로니아의 디오게네스는 흑해 연안 아폴로니아 출신으로, 아낙시메네스의 공기론을 계승하면서도 아낙사고라스의 누스 개념을 통합했다. 그는 공기가 만물의 아르케이자 지성을 가진 신적 실체라고 보았으며, 이 공기-정신이 만물을 가장 좋은 방식으로 배열한다고 주장했다. 아리스토파네스의 희극 《구름》에서 소크라테스의 자연철학으로 패러디된 것이 그의 사상이라는 설이 있다.",
+    "keyWorks": [
+      {
+        "title": "자연에 관하여",
+        "year": -430
+      }
+    ],
+    "quotes": [],
+    "influences": [
+      "anaximenes",
+      "anaxagoras"
+    ],
+    "influenced": [],
+    "school": [
+      "자연철학"
+    ],
+    "concepts": [
+      "공기-정신",
+      "목적론적 자연관"
+    ],
+    "questions": [
+      "물질과 정신은 하나인가?"
+    ]
+  },
+  {
+    "id": "hippias",
+    "name": {
+      "ko": "히피아스",
+      "en": "Hippias",
+      "original": "Ἱππίας"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -460,
+      "end": -399,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.65,
+      "lng": 21.63,
+      "region": "그리스 엘리스"
+    },
+    "category": "philosopher",
+    "subcategory": "sophist",
+    "tags": [
+      "소피스트",
+      "박학",
+      "자연법"
+    ],
+    "mvp": false,
+    "summary": "박학다식한 소피스트로, 수학·천문·역사·문법 등 다방면에 능했다. 자연(퓌시스)과 관습(노모스)의 구분을 강조했다.",
+    "detailed": "히피아스는 엘리스 출신의 소피스트로, 다양한 학문에 정통한 박학자였다. 그는 기억술에 뛰어났고, 수학적 발견(히피아스의 곡선)도 남겼다. 플라톤의 대화편 《히피아스》에서 소크라테스의 대화 상대로 등장한다. 자연법과 인정법의 구분을 강조하여, 관습은 인간을 억압하지만 자연은 모든 인간을 평등하게 한다고 주장했다.",
+    "keyWorks": [
+      {
+        "title": "저술 미전승"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "school": [
+      "소피스트"
+    ],
+    "concepts": [
+      "퓌시스와 노모스",
+      "박학"
+    ],
+    "questions": [
+      "자연법과 인정법은 어떻게 다른가?"
+    ]
+  },
+  {
+    "id": "thrasymachus",
+    "name": {
+      "ko": "트라시마코스",
+      "en": "Thrasymachus",
+      "original": "Θρασύμαχος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -459,
+      "end": -400,
+      "approximate": true
+    },
+    "location": {
+      "lat": 40.9,
+      "lng": 27.88,
+      "region": "비티니아 칼케돈 → 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "sophist",
+    "tags": [
+      "소피스트",
+      "정치철학",
+      "정의론"
+    ],
+    "mvp": true,
+    "summary": "정의란 강자의 이익이라고 주장한 소피스트. 플라톤 《국가》에서 소크라테스의 주요 논쟁 상대로 등장한다.",
+    "detailed": "트라시마코스는 칼케돈 출신의 수사학자이자 소피스트로, 플라톤의 《국가》 1권에서 강렬한 인상을 남긴다. 그는 정의란 강자의 이익에 불과하며, 모든 정부는 자신의 이익을 위해 법을 만든다고 주장했다. 부정의한 자가 정의로운 자보다 실제로 더 행복하다는 그의 도전은, 플라톤이 《국가》 전체를 통해 반박하려 한 핵심 논제가 되었다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "정의란 강자의 이익에 다름 아니다.",
+        "source": "플라톤 《국가》 1권"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "school": [
+      "소피스트"
+    ],
+    "concepts": [
+      "정의는 강자의 이익",
+      "권력과 정의의 관계"
+    ],
+    "questions": [
+      "정의란 무엇인가?",
+      "부정의한 자가 더 행복한가?"
+    ]
+  },
+  {
+    "id": "euclides-megara",
+    "name": {
+      "ko": "메가라의 에우클레이데스",
+      "en": "Euclides of Megara",
+      "original": "Εὐκλείδης ὁ Μεγαρεύς"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -450,
+      "end": -380,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.99,
+      "lng": 23.34,
+      "region": "그리스 메가라"
+    },
+    "category": "philosopher",
+    "subcategory": "classical_greek",
+    "tags": [
+      "메가라학파",
+      "논리학",
+      "일원론"
+    ],
+    "mvp": true,
+    "summary": "메가라학파의 창시자로 소크라테스의 제자. 소크라테스의 윤리학과 파르메니데스의 일원론을 결합하여 '선은 하나'라고 주장했다.",
+    "detailed": "메가라의 에우클레이데스는 소크라테스 사후 플라톤이 잠시 피신한 곳으로 알려진 메가라 학파를 설립했다. 그는 선(아가톤)과 존재(온)가 동일하며 하나라고 주장하여, 소크라테스의 윤리적 탐구와 엘레아학파의 존재론을 독특하게 종합했다. 메가라학파는 이후 논리적 역설과 변증법적 논쟁으로 유명해졌다.",
+    "keyWorks": [],
+    "quotes": [],
+    "influences": [
+      "socrates",
+      "parmenides"
+    ],
+    "influenced": [],
+    "school": [
+      "메가라학파"
+    ],
+    "concepts": [
+      "선과 존재의 동일성",
+      "논리적 역설"
+    ],
+    "questions": [
+      "선과 존재는 하나인가?"
+    ]
+  },
+  {
+    "id": "antisthenes",
+    "name": {
+      "ko": "안티스테네스",
+      "en": "Antisthenes",
+      "original": "Ἀντισθένης"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -445,
+      "end": -365,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "classical_greek",
+    "tags": [
+      "견유학파",
+      "금욕주의",
+      "윤리학"
+    ],
+    "mvp": true,
+    "summary": "견유학파의 창시자로 소크라테스의 제자. 덕만이 행복에 필요한 유일한 것이며, 사치와 쾌락을 거부하는 금욕적 삶을 실천했다.",
+    "detailed": "안티스테네스는 아테네 출신으로, 처음 고르기아스에게 수사학을 배운 뒤 소크라테스에게 매료되어 그의 제자가 되었다. 덕(아레테)이 행복의 유일한 조건이며 외적 재화는 무가치하다고 주장하여 견유학파의 토대를 놓았다. 키노사르게스 체육관에서 가르쳤으며, 그의 금욕적 이상은 제자 디오게네스에 의해 극단적으로 발전되었다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "덕은 행동에 있으며 많은 말이나 학문을 필요로 하지 않는다.",
+        "source": "디오게네스 라에르티오스"
+      }
+    ],
+    "influences": [
+      "socrates",
+      "gorgias"
+    ],
+    "influenced": [
+      "diogenes-sinope"
+    ],
+    "school": [
+      "견유학파"
+    ],
+    "concepts": [
+      "덕의 자족성",
+      "금욕주의",
+      "자연에 따른 삶"
+    ],
+    "questions": [
+      "행복에 정말 필요한 것은 무엇인가?"
+    ]
+  },
+  {
+    "id": "aristippus",
+    "name": {
+      "ko": "아리스티포스",
+      "en": "Aristippus",
+      "original": "Ἀρίστιππος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -435,
+      "end": -356,
+      "approximate": true
+    },
+    "location": {
+      "lat": 32.82,
+      "lng": 21.86,
+      "region": "키레네 → 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "classical_greek",
+    "tags": [
+      "쾌락주의",
+      "키레네학파",
+      "윤리학"
+    ],
+    "mvp": true,
+    "summary": "키레네학파의 창시자이자 쾌락주의 윤리학의 선구자. 현재의 육체적 쾌락이 최고선이라고 주장했다.",
+    "detailed": "아리스티포스는 북아프리카 키레네 출신으로, 아테네에서 소크라테스의 제자가 되었다. 소크라테스의 '좋은 삶' 추구를 쾌락주의적으로 해석하여, 현재 순간의 육체적 쾌락이 삶의 목적이라고 주장했다. 안티스테네스의 금욕주의와 극명하게 대비되는 입장으로, 이후 에피쿠로스의 쾌락주의에 영향을 주었으나, 에피쿠로스는 보다 세련된 형태로 발전시켰다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "나는 쾌락을 소유하지만, 쾌락에 소유되지는 않는다.",
+        "source": "디오게네스 라에르티오스"
+      }
+    ],
+    "influences": [
+      "socrates"
+    ],
+    "influenced": [
+      "epicurus"
+    ],
+    "school": [
+      "키레네학파"
+    ],
+    "concepts": [
+      "쾌락주의",
+      "현재의 쾌락",
+      "자족성"
+    ],
+    "questions": [
+      "쾌락은 삶의 목적이 될 수 있는가?"
+    ]
+  },
+  {
+    "id": "xenophon",
+    "name": {
+      "ko": "크세노폰",
+      "en": "Xenophon",
+      "original": "Ξενοφῶν"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -430,
+      "end": -354
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "classical_greek",
+    "tags": [
+      "소크라테스학파",
+      "역사",
+      "실천철학"
+    ],
+    "mvp": true,
+    "summary": "소크라테스의 제자이자 군인·역사가. 《소크라테스 회상》과 《아나바시스》로 소크라테스의 실천적 측면과 그리스 역사를 기록했다.",
+    "detailed": "크세노폰은 아테네 출신의 군인이자 작가로, 소크라테스의 실천적 가르침을 전하는 중요한 자료를 남겼다. 플라톤이 소크라테스의 철학적 측면에 집중한 반면, 크세노폰은 일상적 지혜와 실천적 덕에 주목했다. 페르시아 원정에 참여한 경험을 《아나바시스》에 기록했으며, 경제학·기마술·사냥 등 다양한 주제의 저작을 남겼다.",
+    "keyWorks": [
+      {
+        "title": "소크라테스 회상 (Ἀπομνημονεύματα)",
+        "year": -371
+      },
+      {
+        "title": "아나바시스 (Ἀνάβασις)",
+        "year": -370
+      },
+      {
+        "title": "향연",
+        "year": -360
+      }
+    ],
+    "quotes": [
+      {
+        "text": "빠른 것이 느린 것에 승리하는 것이 아니라, 준비된 자가 승리한다.",
+        "source": "《기마술》"
+      }
+    ],
+    "influences": [
+      "socrates"
+    ],
+    "influenced": [],
+    "school": [
+      "소크라테스학파"
+    ],
+    "concepts": [
+      "실천적 지혜",
+      "좋은 통치",
+      "자기 훈련"
+    ],
+    "questions": [
+      "훌륭한 지도자란 어떤 사람인가?"
+    ]
+  },
+  {
+    "id": "plato",
+    "name": {
+      "ko": "플라톤",
+      "en": "Plato",
+      "original": "Πλάτων"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -428,
+      "end": -348
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "classical_greek",
+    "tags": [
+      "이데아론",
+      "플라톤주의",
+      "아카데메이아",
+      "형이상학"
+    ],
+    "mvp": true,
+    "summary": "이데아론을 주장하며 현실 세계 너머의 완전한 형상의 세계를 제시했다. 아카데메이아를 설립하여 서양 최초의 고등교육기관을 만들었다.",
+    "detailed": "플라톤은 소크라테스의 제자이자 아리스토텔레스의 스승으로, 서양 철학사에서 가장 영향력 있는 철학자 중 한 명이다. 그의 이데아론에 따르면, 우리가 감각으로 경험하는 세계는 불완전한 모사에 불과하며, 진정한 실재는 완전하고 영원한 이데아의 세계에 있다. 동굴의 비유는 이러한 사상을 극적으로 표현한다. 정치철학에서는 《국가》를 통해 철인왕 통치를 주장했으며, 영혼 삼분설(이성·기개·욕구)을 제시했다. 기원전 387년경 아카데메이아를 설립하여 약 900년간 운영되었다.",
+    "keyWorks": [
+      {
+        "title": "국가",
+        "year": -380,
+        "type": "book"
+      },
+      {
+        "title": "향연",
+        "year": -385,
+        "type": "book"
+      },
+      {
+        "title": "파이돈",
+        "year": -360,
+        "type": "book"
+      },
+      {
+        "title": "티마이오스",
+        "year": -360,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "동굴 속의 사람들은 그림자만을 보고 그것이 실재라 믿는다.",
+        "source": "국가"
+      },
+      {
+        "text": "사랑은 아름다움 속에서 낳고자 하는 욕구이다.",
+        "source": "향연"
+      }
+    ],
+    "influences": [
+      "socrates",
+      "pythagoras",
+      "heraclitus",
+      "parmenides"
+    ],
+    "influenced": [
+      "aristotle",
+      "plotinus",
+      "augustine",
+      "proclus"
+    ],
+    "school": [
+      "플라톤주의",
+      "아카데메이아"
+    ],
+    "concepts": [
+      "이데아론",
+      "동굴의 비유",
+      "철인왕",
+      "영혼 삼분설",
+      "상기설"
+    ],
+    "questions": [
+      "존재란 무엇인가?",
+      "선이란 무엇인가?",
+      "아름다움이란?",
+      "정의란?"
+    ]
+  },
+  {
+    "id": "phaedo",
+    "name": {
+      "ko": "파이돈",
+      "en": "Phaedo",
+      "original": "Φαίδων"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -420,
+      "end": -360,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.76,
+      "lng": 22.75,
+      "region": "그리스 엘리스 → 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "classical_greek",
+    "tags": [
+      "소크라테스학파",
+      "엘리스학파",
+      "윤리학"
+    ],
+    "mvp": true,
+    "summary": "소크라테스의 제자로 엘리스학파를 설립. 플라톤의 대화편 《파이돈》의 화자로 소크라테스의 마지막 대화를 전한다.",
+    "detailed": "파이돈은 엘리스 출신으로, 전쟁 포로로 잡혀 아테네에서 노예 생활을 하다가 소크라테스의 도움으로 해방되었다. 소크라테스의 충실한 제자가 되었으며, 특히 소크라테스가 독배를 마시는 마지막 날의 대화를 전한 인물로 유명하다. 엘리스로 돌아가 학파를 설립했으나 그의 철학적 주장에 대해서는 알려진 바가 적다.",
+    "keyWorks": [],
+    "quotes": [],
+    "influences": [
+      "socrates"
+    ],
+    "influenced": [],
+    "school": [
+      "엘리스학파"
+    ],
+    "concepts": [
+      "영혼의 불멸",
+      "윤리적 삶"
+    ],
+    "questions": [
+      "죽음 앞에서 철학자는 어떻게 살아야 하는가?"
+    ]
+  },
+  {
+    "id": "diogenes-sinope",
+    "name": {
+      "ko": "시노페의 디오게네스",
+      "en": "Diogenes of Sinope",
+      "original": "Διογένης ὁ Σινωπεύς"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -412,
+      "end": -323
+    },
+    "location": {
+      "lat": 42.03,
+      "lng": 35.15,
+      "region": "시노페 → 아테네 → 코린토스"
+    },
+    "category": "philosopher",
+    "subcategory": "hellenistic",
+    "tags": [
+      "견유학파",
+      "금욕주의",
+      "풍자"
+    ],
+    "mvp": true,
+    "summary": "통 속에서 살며 사회적 관습을 풍자한 견유학파의 대표자. 알렉산드로스 대왕에게 '햇볕을 가리지 마시오'라고 말한 일화로 유명하다.",
+    "detailed": "시노페의 디오게네스는 흑해 연안 시노페 출신으로, 화폐 위조로 추방된 뒤 아테네에서 안티스테네스의 견유적 삶을 극단적으로 실천했다. 통(피토스)에서 살며 모든 사회적 관습, 재산, 명예를 거부하고 자연에 따른 최소한의 삶을 살았다. 대낮에 등불을 들고 '사람을 찾고 있다'고 한 일화는 인간의 위선을 꼬집는 상징이 되었다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "햇볕을 가리지 마시오.",
+        "source": "알렉산드로스 대왕에게"
+      },
+      {
+        "text": "나는 사람을 찾고 있다.",
+        "source": "디오게네스 라에르티오스"
+      }
+    ],
+    "influences": [
+      "antisthenes",
+      "socrates"
+    ],
+    "influenced": [
+      "zeno-of-citium"
+    ],
+    "school": [
+      "견유학파"
+    ],
+    "concepts": [
+      "자연에 따른 삶",
+      "관습의 거부",
+      "자족",
+      "파레시아"
+    ],
+    "questions": [
+      "문명은 인간을 행복하게 하는가?",
+      "진정한 자유란 무엇인가?"
+    ]
+  },
+  {
+    "id": "aristotle",
+    "name": {
+      "ko": "아리스토텔레스",
+      "en": "Aristotle",
+      "original": "Ἀριστοτέλης"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -384,
+      "end": -322
+    },
+    "location": {
+      "lat": 40.52,
+      "lng": 23.77,
+      "region": "마케도니아 스타게이라 → 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "classical_greek",
+    "tags": [
+      "형이상학",
+      "논리학",
+      "윤리학",
+      "자연학"
+    ],
+    "mvp": true,
+    "summary": "서양 학문 체계의 아버지. 논리학·형이상학·윤리학·정치학·자연학·시학 등 거의 모든 학문 분야를 체계화했다.",
+    "detailed": "아리스토텔레스는 마케도니아 스타게이라 출신으로, 플라톤의 아카데메이아에서 20년간 수학한 뒤 리케이온을 설립했다. 플라톤의 이데아론을 비판하고 경험적 관찰에 기초한 실재론적 철학을 전개했으며, 질료와 형상, 가능태와 현실태의 개념으로 변화를 설명했다. 삼단논법을 중심으로 한 형식논리학을 창시했고, 알렉산드로스 대왕의 스승이기도 했다. 그의 체계적 학문론은 중세 이슬람과 기독교 철학을 거쳐 서양 학문 전체에 지대한 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "형이상학 (Μεταφυσικά)",
+        "year": -340
+      },
+      {
+        "title": "니코마코스 윤리학 (Ἠθικὰ Νικομάχεια)",
+        "year": -340
+      },
+      {
+        "title": "정치학 (Πολιτικά)",
+        "year": -335
+      },
+      {
+        "title": "시학 (Ποιητική)",
+        "year": -335
+      },
+      {
+        "title": "분석론 (Ἀναλυτικά)",
+        "year": -350
+      }
+    ],
+    "quotes": [
+      {
+        "text": "인간은 본성적으로 알고자 하는 존재이다.",
+        "source": "《형이상학》 1권"
+      },
+      {
+        "text": "덕은 양 극단의 중용이다.",
+        "source": "《니코마코스 윤리학》"
+      }
+    ],
+    "influences": [
+      "plato",
+      "socrates",
+      "empedocles",
+      "anaxagoras",
+      "zeno-of-elea"
+    ],
+    "influenced": [
+      "cicero",
+      "plotinus",
+      "boethius"
+    ],
+    "school": [
+      "리케이온",
+      "소요학파"
+    ],
+    "concepts": [
+      "질료와 형상",
+      "가능태와 현실태",
+      "4원인론",
+      "중용",
+      "삼단논법",
+      "부동의 원동자"
+    ],
+    "questions": [
+      "존재로서의 존재란 무엇인가?",
+      "좋은 삶이란 무엇인가?",
+      "변화의 원인은 무엇인가?"
+    ]
+  },
+  {
+    "id": "pyrrho",
+    "name": {
+      "ko": "피론",
+      "en": "Pyrrho",
+      "original": "Πύρρων"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -365,
+      "end": -275,
+      "approximate": true
+    },
+    "location": {
+      "lat": 39.62,
+      "lng": 20.49,
+      "region": "그리스 엘리스"
+    },
+    "category": "philosopher",
+    "subcategory": "hellenistic",
+    "tags": [
+      "회의주의",
+      "판단유보",
+      "평정"
+    ],
+    "mvp": false,
+    "summary": "회의주의(피론주의)의 창시자. 어떤 것도 확실히 알 수 없으므로 판단을 유보(에포케)해야 마음의 평정(아타락시아)에 이른다고 주장했다.",
+    "detailed": "피론은 엘리스 출신으로, 알렉산드로스의 원정에 동행하여 인도의 현자들을 만났다고 전해진다. 그는 사물의 본성에 대해 어떤 확실한 판단도 불가능하다고 보았다. 따라서 판단을 유보(에포케)하면, 독단에서 벗어나 마음의 평정(아타락시아)에 이를 수 있다고 가르쳤다. 직접 저술은 남기지 않았으며, 제자 티몬을 통해 전해진다.",
+    "keyWorks": [
+      {
+        "title": "직접 저술 없음"
+      }
+    ],
+    "influences": [
+      "democritus"
+    ],
+    "influenced": [
+      "sextus-empiricus"
+    ],
+    "school": [
+      "피론주의"
+    ],
+    "concepts": [
+      "에포케",
+      "아타락시아",
+      "판단유보"
+    ],
+    "questions": [
+      "확실한 지식은 가능한가?"
+    ]
+  },
+  {
+    "id": "epicurus",
+    "name": {
+      "ko": "에피쿠로스",
+      "en": "Epicurus",
+      "original": "Ἐπίκουρος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -341,
+      "end": -270
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "hellenistic",
+    "tags": [
+      "에피쿠로스학파",
+      "쾌락주의",
+      "원자론",
+      "아타락시아"
+    ],
+    "mvp": true,
+    "summary": "정신적 평정(아타락시아)을 최고의 쾌락으로 본 철학자. 원자론적 유물론을 윤리학에 적용하여 죽음에 대한 공포로부터의 해방을 추구했다.",
+    "detailed": "에피쿠로스는 사모스 출신으로 아테네에 '정원'이라 불리는 학교를 세웠다. 그는 데모크리토스의 원자론을 계승하면서, 원자의 '빗나감(클리나멘)'으로 자유의지를 설명했다. 쾌락이 최고선이지만, 그가 말하는 쾌락은 감각적 향락이 아니라 고통의 부재(아포니아)와 마음의 평정(아타락시아)이다. '죽음은 우리와 관계없다'고 주장하여 죽음에 대한 공포를 해소했다. 여성과 노예도 받아들인 학교를 운영했다.",
+    "keyWorks": [
+      {
+        "title": "메노이케우스에게 보내는 편지",
+        "type": "book"
+      },
+      {
+        "title": "주요 교설",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "죽음은 우리와 아무 관계도 없다.",
+        "source": "메노이케우스에게 보내는 편지"
+      },
+      {
+        "text": "숨어서 살라.",
+        "source": "전승"
+      }
+    ],
+    "influences": [
+      "democritus",
+      "aristippus"
+    ],
+    "influenced": [
+      "lucretius"
+    ],
+    "school": [
+      "에피쿠로스학파"
+    ],
+    "concepts": [
+      "아타락시아",
+      "쾌락주의",
+      "원자론적 윤리학",
+      "클리나멘"
+    ],
+    "questions": [
+      "행복이란 무엇인가?",
+      "죽음을 두려워해야 하는가?"
+    ]
+  },
+  {
+    "id": "zeno-of-citium",
+    "name": {
+      "ko": "제논 (키티온)",
+      "en": "Zeno of Citium",
+      "original": "Ζήνων ὁ Κιτιεύς"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -334,
+      "end": -262
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "hellenistic",
+    "tags": [
+      "스토아학파",
+      "자연학",
+      "윤리학"
+    ],
+    "mvp": true,
+    "summary": "스토아 철학의 창시자. 아테네의 채색 주랑(스토아 포이킬레)에서 가르치며, 자연에 따른 삶과 이성적 덕을 최고의 선으로 주장했다.",
+    "detailed": "제논은 키프로스 키티온 출신으로, 아테네에서 견유학파의 크라테스에게 배운 뒤 독자적 학파를 세웠다. 아테네의 채색 주랑(스토아 포이킬레)에서 가르쳐 '스토아학파'라는 이름이 붙었다. 그는 로고스(이성/자연법칙)에 따라 사는 것이 덕이며, 덕만이 유일한 선이라고 주장했다. 우주는 로고스에 의해 운영되는 합목적적 체계로, 인간은 이성을 통해 자연과 조화를 이루어야 한다고 가르쳤다.",
+    "keyWorks": [
+      {
+        "title": "국가 외 다수 (대부분 미전승)",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자연에 따라 살라.",
+        "source": "전승"
+      }
+    ],
+    "influences": [
+      "antisthenes",
+      "diogenes-sinope",
+      "heraclitus"
+    ],
+    "influenced": [
+      "cleanthes",
+      "chrysippus",
+      "seneca",
+      "epictetus",
+      "marcus-aurelius"
+    ],
+    "school": [
+      "스토아학파"
+    ],
+    "concepts": [
+      "자연에 따른 삶",
+      "로고스",
+      "아파테이아",
+      "코스모폴리타니즘"
+    ],
+    "questions": [
+      "자연에 따른 삶이란 무엇인가?"
+    ]
+  },
+  {
+    "id": "cleanthes",
+    "name": {
+      "ko": "클레안테스",
+      "en": "Cleanthes",
+      "original": "Κλεάνθης"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -330,
+      "end": -230,
+      "approximate": true
+    },
+    "location": {
+      "lat": 38.44,
+      "lng": 27.14,
+      "region": "아소스 → 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "hellenistic",
+    "tags": [
+      "스토아철학",
+      "신학",
+      "윤리학"
+    ],
+    "mvp": true,
+    "summary": "스토아학파 2대 학두로 제논의 후계자. 《제우스 찬가》를 지어 스토아 신학의 토대를 놓았다.",
+    "detailed": "클레안테스는 소아시아 아소스 출신으로, 극빈한 생활 속에서도 밤에 물을 길어 생계를 유지하며 낮에 제논의 강의를 들었다. 스토아학파의 2대 학두로서 제논의 가르침을 충실히 이어갔으며, 《제우스 찬가》에서 우주를 관통하는 로고스를 제우스와 동일시하며 범신론적 신학을 표현했다. 근면과 인내의 상징으로도 유명하다.",
+    "keyWorks": [
+      {
+        "title": "제우스 찬가 (Ὕμνος εἰς Δία)",
+        "year": -260
+      }
+    ],
+    "quotes": [
+      {
+        "text": "운명이 이끄는 자는 따르고, 거부하는 자는 끌려간다.",
+        "source": "에픽테토스 인용"
+      }
+    ],
+    "influences": [
+      "zeno-of-citium"
+    ],
+    "influenced": [
+      "chrysippus"
+    ],
+    "school": [
+      "스토아학파"
+    ],
+    "concepts": [
+      "로고스와 신",
+      "운명에의 순응",
+      "범신론"
+    ],
+    "questions": [
+      "우주에는 섭리가 있는가?"
+    ]
+  },
+  {
+    "id": "chrysippus",
+    "name": {
+      "ko": "크리시포스",
+      "en": "Chrysippus",
+      "original": "Χρύσιππος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -279,
+      "end": -206,
+      "approximate": true
+    },
+    "location": {
+      "lat": 36.74,
+      "lng": 34.57,
+      "region": "킬리키아 솔로이 → 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "hellenistic",
+    "tags": [
+      "스토아철학",
+      "논리학",
+      "결정론"
+    ],
+    "mvp": true,
+    "summary": "스토아학파 3대 학두이자 사실상의 체계 완성자. 700편 이상의 저작으로 스토아 논리학·물리학·윤리학을 체계화했다.",
+    "detailed": "크리시포스는 킬리키아 솔로이 출신으로, '크리시포스가 없었다면 스토아도 없었을 것'이라는 말이 있을 만큼 스토아 철학의 체계화에 결정적 역할을 했다. 명제논리학을 발전시켜 아리스토텔레스의 삼단논법을 보완했으며, 운명과 자유의지의 양립가능성을 논증했다. 700편 이상의 저작을 남겼으나 대부분 단편만 전해진다.",
+    "keyWorks": [
+      {
+        "title": "논리학 저작들 (단편)",
+        "year": -240
+      }
+    ],
+    "quotes": [
+      {
+        "text": "크리시포스가 없었다면 스토아도 없었을 것이다.",
+        "source": "디오게네스 라에르티오스"
+      }
+    ],
+    "influences": [
+      "cleanthes",
+      "zeno-of-citium"
+    ],
+    "influenced": [
+      "seneca",
+      "epictetus"
+    ],
+    "school": [
+      "스토아학파"
+    ],
+    "concepts": [
+      "명제논리학",
+      "결정론과 자유의지",
+      "동의론",
+      "인상론"
+    ],
+    "questions": [
+      "운명과 자유의지는 양립할 수 있는가?"
+    ]
+  },
+  {
+    "id": "carneades",
+    "name": {
+      "ko": "카르네아데스",
+      "en": "Carneades",
+      "original": "Καρνεάδης"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -214,
+      "end": -129,
+      "approximate": true
+    },
+    "location": {
+      "lat": 32.82,
+      "lng": 21.86,
+      "region": "키레네 → 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "hellenistic",
+    "tags": [
+      "회의주의",
+      "아카데메이아",
+      "개연론"
+    ],
+    "mvp": true,
+    "summary": "신아카데메이아의 학두로 스토아학파의 독단주의를 체계적으로 비판한 회의주의자. 개연적 인식론(피타논)을 제시했다.",
+    "detailed": "카르네아데스는 키레네 출신으로 아카데메이아의 학두가 되어 플라톤 이후 회의주의적 전통을 이어갔다. 기원전 155년 로마에 사절로 파견되어 하루는 정의를 찬양하고 다음 날은 정의를 반박하는 연설로 로마인들을 경악시켰다. 확실한 인식은 불가능하지만 개연적(피타논) 판단은 가능하다며 실천적 삶의 기준을 제시했다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "정의가 없다면 어떤 국가도 통치될 수 없다 — 하지만 정의가 있다면 어떤 국가도 통치될 수 없다.",
+        "source": "로마 연설"
+      }
+    ],
+    "influences": [
+      "pyrrho"
+    ],
+    "influenced": [
+      "cicero"
+    ],
+    "school": [
+      "신아카데메이아",
+      "학적 회의주의"
+    ],
+    "concepts": [
+      "개연론",
+      "피타논",
+      "독단주의 비판"
+    ],
+    "questions": [
+      "확실한 인식이 불가능하다면 어떻게 행동해야 하는가?"
+    ]
+  },
+  {
+    "id": "cicero",
+    "name": {
+      "ko": "키케로",
+      "en": "Cicero",
+      "original": "Marcus Tullius Cicero"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -106,
+      "end": -43
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "로마"
+    },
+    "category": "philosopher",
+    "subcategory": "roman",
+    "tags": [
+      "로마 철학",
+      "수사학",
+      "정치철학",
+      "절충주의"
+    ],
+    "mvp": true,
+    "summary": "로마 공화정의 정치가이자 철학자, 웅변가. 그리스 철학을 라틴어로 번역·소개하여 서양 지성사의 가교 역할을 했다.",
+    "detailed": "키케로는 로마 공화정 말기의 정치가, 변호사, 철학자로서 서양 문명에 지대한 영향을 끼쳤다. 그는 플라톤, 아리스토텔레스, 스토아, 아카데미 회의주의 등 그리스 철학을 라틴어로 번역·소개하여 로마 세계와 후대 서양에 전달하는 가교 역할을 했다. 자연법 사상과 공화주의 정치이론의 발전에 기여했으며, 그의 수사학 저작은 르네상스 인문주의의 모범이 되었다.",
+    "keyWorks": [
+      {
+        "title": "의무론",
+        "year": -44,
+        "type": "book"
+      },
+      {
+        "title": "국가론",
+        "year": -51,
+        "type": "book"
+      },
+      {
+        "title": "신들의 본성에 관하여",
+        "year": -45,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "철학 없는 삶은 존재할 가치가 없다.",
+        "source": "투스쿨룸 대화"
+      }
+    ],
+    "influences": [
+      "plato",
+      "aristotle",
+      "zeno-of-citium"
+    ],
+    "influenced": [
+      "augustine",
+      "thomas-aquinas",
+      "locke"
+    ],
+    "school": [
+      "아카데미 회의주의",
+      "절충주의"
+    ],
+    "concepts": [
+      "자연법",
+      "공화주의",
+      "수사학"
+    ],
+    "questions": [
+      "최선의 정치 체제란?",
+      "의무와 이익은 양립하는가?"
+    ]
+  },
+  {
+    "id": "lucretius",
+    "name": {
+      "ko": "루크레티우스",
+      "en": "Lucretius",
+      "original": "Titus Lucretius Carus"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -99,
+      "end": -55,
+      "approximate": true
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "로마"
+    },
+    "category": "philosopher",
+    "subcategory": "roman",
+    "tags": [
+      "에피쿠로스주의",
+      "원자론",
+      "유물론"
+    ],
+    "mvp": true,
+    "summary": "에피쿠로스 철학을 장대한 서사시 《사물의 본성에 관하여》로 집대성한 로마의 시인 철학자. 유물론적 세계관을 아름다운 시로 표현했다.",
+    "detailed": "루크레티우스는 에피쿠로스의 원자론적 자연학과 무신론적 세계관을 6권의 대서사시 《사물의 본성에 관하여(De Rerum Natura)》에 담아냈다. 이 작품은 원자의 운동, 영혼의 소멸성, 신의 무관여, 문명의 발달 등을 다루며, 종교적 미신과 죽음의 공포로부터 인간을 해방시키고자 했다. 르네상스 시대에 재발견되어 근대 과학혁명과 계몽주의에 큰 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "사물의 본성에 관하여 (De Rerum Natura)",
+        "year": -55
+      }
+    ],
+    "quotes": [
+      {
+        "text": "종교가 얼마나 많은 악을 저지르게 했는가.",
+        "source": "《사물의 본성에 관하여》 1권"
+      }
+    ],
+    "influences": [
+      "epicurus",
+      "democritus"
+    ],
+    "influenced": [],
+    "school": [
+      "에피쿠로스학파"
+    ],
+    "concepts": [
+      "원자론",
+      "영혼의 소멸성",
+      "종교비판",
+      "원자의 빗나감"
+    ],
+    "questions": [
+      "우주는 신 없이 설명될 수 있는가?"
+    ]
+  },
+  {
+    "id": "philo-of-alexandria",
+    "name": {
+      "ko": "알렉산드리아의 필론",
+      "en": "Philo of Alexandria",
+      "original": "Φίλων ὁ Ἀλεξανδρεύς"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -20,
+      "end": 50,
+      "approximate": true
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.92,
+      "region": "이집트 알렉산드리아"
+    },
+    "category": "philosopher",
+    "subcategory": "roman",
+    "tags": [
+      "유대철학",
+      "알레고리",
+      "로고스"
+    ],
+    "mvp": true,
+    "summary": "유대교 신학과 그리스 철학의 종합을 시도한 알렉산드리아의 유대 철학자. 성서의 알레고리적 해석 방법론을 체계화했다.",
+    "detailed": "알렉산드리아의 필론은 부유한 유대인 가문 출신으로, 모세의 토라와 플라톤 철학의 조화를 추구했다. 성서를 알레고리적으로 해석하여 그리스 철학적 개념과 연결시키는 방법론을 개발했으며, 특히 로고스(Logos) 개념을 신과 세계 사이의 매개자로 정립했다. 이 로고스 신학은 기독교의 '말씀이 육신이 되어(요한복음 1장)' 개념에 큰 영향을 미쳤으며, 교부 철학의 토대가 되었다.",
+    "keyWorks": [
+      {
+        "title": "모세의 생애 (De Vita Mosis)",
+        "year": 40
+      },
+      {
+        "title": "세계의 창조에 관하여 (De Opificio Mundi)",
+        "year": 30
+      }
+    ],
+    "quotes": [
+      {
+        "text": "하느님은 이름을 가질 수 없다. 그분은 존재 그 자체이시기 때문이다.",
+        "source": "《모세의 생애》"
+      }
+    ],
+    "influences": [
+      "plato"
+    ],
+    "influenced": [
+      "plotinus"
+    ],
+    "school": [
+      "알렉산드리아 유대철학",
+      "중기 플라톤주의"
+    ],
+    "concepts": [
+      "로고스",
+      "알레고리적 해석",
+      "신의 초월성",
+      "매개자"
+    ],
+    "questions": [
+      "계시와 이성은 양립할 수 있는가?"
+    ]
+  },
+  {
+    "id": "seneca",
+    "name": {
+      "ko": "세네카",
+      "en": "Seneca",
+      "original": "Lucius Annaeus Seneca"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -4,
+      "end": 65
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "로마"
+    },
+    "category": "philosopher",
+    "subcategory": "roman",
+    "tags": [
+      "스토아학파",
+      "윤리학",
+      "정치",
+      "비극"
+    ],
+    "mvp": true,
+    "summary": "로마 스토아학파의 대표 철학자이자 네로 황제의 교사. 편지와 에세이를 통해 스토아 윤리학을 실천적으로 전개했다.",
+    "detailed": "세네카는 히스파니아 코르도바 출신으로, 로마에서 정치가이자 철학자로 활동했다. 네로 황제의 교사이자 고문으로 권력의 중심에 있었으나, 말년에 네로의 명령으로 자살했다. 《도덕서간》, 《행복한 삶에 관하여》 등에서 스토아적 덕과 평정심을 실천적으로 가르쳤다. 부와 권력 속에서 스토아적 검소를 주장한 모순이 비판받기도 하지만, 그의 저술은 스토아 윤리학의 가장 감동적인 표현으로 남아 있다.",
+    "keyWorks": [
+      {
+        "title": "도덕서간",
+        "type": "book"
+      },
+      {
+        "title": "행복한 삶에 관하여",
+        "type": "book"
+      },
+      {
+        "title": "분노에 관하여",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "우리에게 부족한 것은 시간이 아니라, 시간을 낭비하는 것이다.",
+        "source": "인생의 짧음에 관하여"
+      },
+      {
+        "text": "운명은 따르는 자를 이끌고, 거부하는 자를 끌고 간다.",
+        "source": "도덕서간"
+      }
+    ],
+    "influences": [
+      "zeno-of-citium",
+      "chrysippus"
+    ],
+    "influenced": [
+      "montaigne",
+      "descartes"
+    ],
+    "school": [
+      "스토아학파"
+    ],
+    "concepts": [
+      "아파테이아",
+      "운명에의 순응",
+      "인생의 짧음"
+    ],
+    "questions": [
+      "행복하게 사는 법은?",
+      "분노를 어떻게 다스리는가?"
+    ]
+  },
+  {
+    "id": "epictetus",
+    "name": {
+      "ko": "에픽테토스",
+      "en": "Epictetus",
+      "original": "Ἐπίκτητος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 50,
+      "end": 135
+    },
+    "location": {
+      "lat": 37.93,
+      "lng": 29.12,
+      "region": "프리기아 히에라폴리스 → 로마 → 니코폴리스"
+    },
+    "category": "philosopher",
+    "subcategory": "roman",
+    "tags": [
+      "스토아철학",
+      "윤리학",
+      "자유"
+    ],
+    "mvp": true,
+    "summary": "노예 출신의 스토아 철학자. '우리에게 달린 것'과 '달리지 않은 것'의 구분을 통해 내면의 자유를 가르쳤다.",
+    "detailed": "에픽테토스는 프리기아 히에라폴리스 출신의 노예였으나, 해방된 뒤 로마와 니코폴리스에서 철학을 가르쳤다. 직접 저술하지 않았으며 제자 아리아노스가 그의 강의를 기록한 《담화록》과 요약본 《엔케이리디온》이 전해진다. 외적 상황은 통제할 수 없지만 그에 대한 우리의 판단은 통제할 수 있다는 것이 핵심 가르침이며, 이는 마르쿠스 아우렐리우스에게 깊은 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "담화록 (Διατριβαί)",
+        "year": 108
+      },
+      {
+        "title": "엔케이리디온 (Ἐγχειρίδιον)",
+        "year": 108
+      }
+    ],
+    "quotes": [
+      {
+        "text": "네게 달린 것과 달리지 않은 것을 구분하라.",
+        "source": "《엔케이리디온》 1장"
+      },
+      {
+        "text": "사물이 우리를 괴롭히는 것이 아니라, 사물에 대한 우리의 판단이 우리를 괴롭힌다.",
+        "source": "《엔케이리디온》 5장"
+      }
+    ],
+    "influences": [
+      "zeno-of-citium",
+      "chrysippus",
+      "socrates"
+    ],
+    "influenced": [
+      "marcus-aurelius"
+    ],
+    "school": [
+      "스토아학파"
+    ],
+    "concepts": [
+      "우리에게 달린 것",
+      "프로하이레시스",
+      "판단의 자유",
+      "순응"
+    ],
+    "questions": [
+      "진정한 자유란 무엇인가?",
+      "고통의 원인은 외부인가 내부인가?"
+    ]
+  },
+  {
+    "id": "marcus-aurelius",
+    "name": {
+      "ko": "마르쿠스 아우렐리우스",
+      "en": "Marcus Aurelius",
+      "original": "Marcus Aurelius Antoninus"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 121,
+      "end": 180
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "로마"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "historical_figure"
+    ],
+    "subcategory": "roman",
+    "tags": [
+      "스토아학파",
+      "황제",
+      "명상록",
+      "실천철학"
+    ],
+    "mvp": true,
+    "summary": "로마 황제이자 스토아 철학자. 《명상록》을 통해 권력의 정점에서 내면의 평정과 의무에 대한 성찰을 기록했다.",
+    "detailed": "마르쿠스 아우렐리우스는 로마 5현제의 마지막으로, '철인 황제'라 불린다. 전쟁과 역병 속에서도 《명상록(타 에이스 헤아우톤)》을 집필하여, 스토아적 자기 성찰의 모범을 남겼다. 이 책은 자신에게 보내는 편지 형식으로, 덕에 따른 삶, 무상함에 대한 수용, 공동체에 대한 의무를 말한다. 스토아 철학을 실제 통치에 적용한 유일한 사례로 평가된다.",
+    "keyWorks": [
+      {
+        "title": "명상록",
+        "year": 170,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "네가 통제할 수 없는 것에 의해 불행해지지 마라.",
+        "source": "명상록"
+      },
+      {
+        "text": "우주의 본성에 맞서 일어나는 일은 없다.",
+        "source": "명상록"
+      }
+    ],
+    "influences": [
+      "epictetus",
+      "seneca"
+    ],
+    "influenced": [],
+    "school": [
+      "스토아학파"
+    ],
+    "concepts": [
+      "자기 성찰",
+      "무상함의 수용",
+      "공동체 의무"
+    ],
+    "questions": [
+      "삶의 덧없음 속에서 어떻게 살 것인가?"
+    ]
+  },
+  {
+    "id": "clement-of-alexandria",
+    "name": {
+      "ko": "클레멘스 (알렉산드리아)",
+      "en": "Clement of Alexandria",
+      "original": "Κλήμης ὁ Ἀλεξανδρεύς"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 150,
+      "end": 215,
+      "approximate": true
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.92,
+      "region": "이집트 알렉산드리아"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "patristic",
+    "tags": [
+      "교부철학",
+      "알렉산드리아",
+      "그리스 철학과 기독교"
+    ],
+    "mvp": false,
+    "summary": "그리스 철학을 기독교 신학에 적극 수용한 알렉산드리아의 교부. 철학은 신앙으로 인도하는 교사라고 보았다.",
+    "detailed": "클레멘스는 알렉산드리아의 기독교 학교(디다스칼레이온)를 이끈 초기 교부이다. 그리스 철학, 특히 플라톤주의와 스토아주의를 기독교 신학에 적극적으로 수용했다. 철학은 그리스인에게 율법이 유대인에게 한 것처럼 신앙을 위한 준비 교육(파이다고고스)이라고 주장했다. 오리게네스의 스승으로, 알렉산드리아 신학 전통의 기초를 놓았다.",
+    "keyWorks": [
+      {
+        "title": "프로트렙티코스 (신앙 권고)",
+        "type": "book"
+      },
+      {
+        "title": "파이다고고스 (교사)",
+        "type": "book"
+      },
+      {
+        "title": "스트로마테이스 (잡록)",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "plato",
+      "philo-of-alexandria"
+    ],
+    "influenced": [
+      "origen"
+    ],
+    "school": [
+      "알렉산드리아학파"
+    ],
+    "concepts": [
+      "그노시스",
+      "철학과 신앙의 조화"
+    ],
+    "questions": [
+      "그리스 철학은 기독교에 유용한가?"
+    ],
+    "religionId": "christianity"
+  },
+  {
+    "id": "tertullian",
+    "name": {
+      "ko": "테르툴리아누스",
+      "en": "Tertullian",
+      "original": "Quintus Septimius Florens Tertullianus"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 155,
+      "end": 220,
+      "approximate": true
+    },
+    "location": {
+      "lat": 36.8,
+      "lng": 10.18,
+      "region": "북아프리카 카르타고"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "patristic",
+    "tags": [
+      "교부철학",
+      "라틴 교부",
+      "신앙주의"
+    ],
+    "mvp": false,
+    "summary": "최초의 라틴어 신학자. '아테네와 예루살렘이 무슨 관계가 있는가'라며 철학과 신앙의 분리를 주장했다.",
+    "detailed": "테르툴리아누스는 카르타고의 법률가 출신 기독교 교부로, 라틴 기독교 신학의 창시자이다. 클레멘스와 달리 그리스 철학과 기독교의 조화를 거부하며, 신앙은 이성과 별개의 영역이라고 주장했다. '불합리하기 때문에 믿는다(Credo quia absurdum)'라는 말로 유명하다. 삼위일체(trinitas)와 인격(persona)이라는 신학 용어를 라틴어로 최초 정립했다.",
+    "keyWorks": [
+      {
+        "title": "호교론",
+        "type": "book"
+      },
+      {
+        "title": "이단자 규정론",
+        "type": "book"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "augustine"
+    ],
+    "school": [
+      "라틴 교부"
+    ],
+    "concepts": [
+      "신앙주의",
+      "삼위일체 용어",
+      "아테네와 예루살렘"
+    ],
+    "questions": [
+      "신앙과 이성은 양립 가능한가?"
+    ],
+    "religionId": "christianity"
+  },
+  {
+    "id": "sextus-empiricus",
+    "name": {
+      "ko": "섹스투스 엠피리쿠스",
+      "en": "Sextus Empiricus",
+      "original": "Σέξτος Ἐμπειρικός"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 160,
+      "end": 210,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스/로마 (정확한 출신지 불명)"
+    },
+    "category": "philosopher",
+    "subcategory": "roman",
+    "tags": [
+      "회의주의",
+      "피론주의",
+      "인식론"
+    ],
+    "mvp": true,
+    "summary": "고대 회의주의(피론주의)를 체계적으로 정리한 마지막 대표자. 《피론주의 개요》는 근대 회의주의의 원전이 되었다.",
+    "detailed": "섹스투스 엠피리쿠스는 의사이자 철학자로, 피론주의 회의주의를 체계적으로 정리한 가장 중요한 인물이다. 《피론주의 개요》에서 모든 독단적 주장에 대해 동등한 반론을 제시하는 '대립 논변(안티테시스)'의 방법을 통해 판단을 중지(에포케)해야 한다고 논증했다. 16세기에 재발견되어 데카르트, 흄 등 근대 인식론에 결정적 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "피론주의 개요 (Πυρρωνείων ὑποτυπώσεων)",
+        "year": 200
+      },
+      {
+        "title": "학자들에 대한 반박 (Adversus Mathematicos)",
+        "year": 200
+      }
+    ],
+    "quotes": [
+      {
+        "text": "모든 주장에 대해 동등한 반론을 제시할 수 있다.",
+        "source": "《피론주의 개요》"
+      }
+    ],
+    "influences": [
+      "pyrrho"
+    ],
+    "influenced": [],
+    "school": [
+      "피론주의",
+      "회의주의"
+    ],
+    "concepts": [
+      "에포케",
+      "안티테시스",
+      "10가지 양식",
+      "아타락시아"
+    ],
+    "questions": [
+      "확실한 지식은 가능한가?",
+      "독단을 어떻게 피할 수 있는가?"
+    ]
+  },
+  {
+    "id": "origen",
+    "name": {
+      "ko": "오리게네스",
+      "en": "Origen",
+      "original": "Ὠριγένης"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 185,
+      "end": 254
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.92,
+      "region": "이집트 알렉산드리아"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "patristic",
+    "tags": [
+      "교부철학",
+      "알레고리",
+      "보편구원"
+    ],
+    "mvp": false,
+    "summary": "알렉산드리아의 교부로, 성경의 알레고리적 해석과 체계적 기독교 신학의 선구자. 만물의 최종 회복(아포카타스타시스)을 주장했다.",
+    "detailed": "오리게네스는 알렉산드리아의 기독교 학교를 이끈 교부 신학자로, 최초의 체계적 기독교 신학서 《원리에 관하여》를 저술했다. 성경의 문자적·도덕적·영적 해석이라는 삼중 해석법을 체계화했다. 만물이 결국 신에게 돌아간다는 보편구원론(아포카타스타시스)은 후에 이단으로 단죄되었으나, 그의 신학적 방법론은 이후 모든 기독교 신학에 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "원리에 관하여",
+        "type": "book"
+      },
+      {
+        "title": "켈수스 반박",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "plato",
+      "philo-of-alexandria",
+      "clement-of-alexandria"
+    ],
+    "influenced": [
+      "augustine"
+    ],
+    "school": [
+      "알렉산드리아학파"
+    ],
+    "concepts": [
+      "알레고리적 해석",
+      "보편구원",
+      "영혼의 선재"
+    ],
+    "questions": [
+      "성경은 어떻게 해석해야 하는가?"
+    ],
+    "religionId": "christianity"
+  },
+  {
+    "id": "plotinus",
+    "name": {
+      "ko": "플로티노스",
+      "en": "Plotinus",
+      "original": "Πλωτῖνος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 204,
+      "end": 270
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "로마"
+    },
+    "category": "philosopher",
+    "subcategory": "roman",
+    "tags": [
+      "신플라톤주의",
+      "일자",
+      "유출론",
+      "형이상학"
+    ],
+    "mvp": true,
+    "summary": "신플라톤주의의 창시자. 만물이 '일자(hen)'로부터 유출된다는 체계를 구축하여, 플라톤 철학을 신비적·형이상학적으로 재해석했다.",
+    "detailed": "플로티노스는 이집트 출신으로 로마에서 활동한 철학자이다. 그의 《엔네아데스》는 제자 포르피리오스가 편집한 것으로, 플라톤 철학의 가장 심오한 해석으로 평가된다. 그에 따르면 만물은 궁극적 근원인 '일자(to hen)'로부터 유출(에마나치오)되며, 일자→누스(정신)→프시케(영혼)→물질의 위계를 이룬다. 영혼은 관조와 정화를 통해 일자와의 합일(헤노시스)에 이를 수 있다. 기독교 신학, 특히 아우구스티누스에게 큰 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "엔네아데스",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "일자는 모든 것이며, 어떤 것도 아니다.",
+        "source": "엔네아데스"
+      }
+    ],
+    "influences": [
+      "plato",
+      "aristotle"
+    ],
+    "influenced": [
+      "porphyry",
+      "iamblichus",
+      "proclus",
+      "augustine",
+      "pseudo-dionysius"
+    ],
+    "school": [
+      "신플라톤주의"
+    ],
+    "concepts": [
+      "일자",
+      "유출론",
+      "누스",
+      "헤노시스",
+      "관조"
+    ],
+    "questions": [
+      "궁극적 실재란 무엇인가?",
+      "영혼은 어떻게 근원으로 돌아가는가?"
+    ]
+  },
+  {
+    "id": "porphyry",
+    "name": {
+      "ko": "포르피리오스",
+      "en": "Porphyry",
+      "original": "Πορφύριος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 234,
+      "end": 305,
+      "approximate": true
+    },
+    "location": {
+      "lat": 33.89,
+      "lng": 35.5,
+      "region": "티로스 → 로마"
+    },
+    "category": "philosopher",
+    "subcategory": "roman",
+    "tags": [
+      "신플라톤주의",
+      "논리학",
+      "채식주의"
+    ],
+    "mvp": true,
+    "summary": "플로티노스의 제자이자 편집자. 아리스토텔레스의 《범주론》 해설서 《이사고게》로 중세 논리학의 토대를 놓았다.",
+    "detailed": "포르피리오스는 페니키아 티로스 출신으로, 로마에서 플로티노스에게 사사하고 스승의 《엔네아데스》를 편집·출판했다. 아리스토텔레스의 《범주론》에 대한 입문서 《이사고게》에서 유(類)·종(種)·종차·고유성·우유성의 다섯 범주를 정리하여 중세 보편자 논쟁의 출발점이 되었다. 또한 기독교에 대한 체계적 비판서를 저술하고 채식주의를 옹호하기도 했다.",
+    "keyWorks": [
+      {
+        "title": "이사고게 (Εἰσαγωγή)",
+        "year": 270
+      },
+      {
+        "title": "채식에 관하여 (De Abstinentia)",
+        "year": 280
+      }
+    ],
+    "quotes": [],
+    "influences": [
+      "plotinus",
+      "aristotle"
+    ],
+    "influenced": [
+      "iamblichus",
+      "boethius"
+    ],
+    "school": [
+      "신플라톤주의"
+    ],
+    "concepts": [
+      "이사고게",
+      "5가지 술어",
+      "보편자 문제"
+    ],
+    "questions": [
+      "보편적 개념은 실재하는가?"
+    ]
+  },
+  {
+    "id": "iamblichus",
+    "name": {
+      "ko": "이암블리코스",
+      "en": "Iamblichus",
+      "original": "Ἰάμβλιχος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 245,
+      "end": 325,
+      "approximate": true
+    },
+    "location": {
+      "lat": 33.77,
+      "lng": 36.16,
+      "region": "시리아 칼키스"
+    },
+    "category": "philosopher",
+    "subcategory": "roman",
+    "tags": [
+      "신플라톤주의",
+      "신비주의",
+      "테우르기아"
+    ],
+    "mvp": true,
+    "summary": "시리아 신플라톤주의의 대표자. 플로티노스의 철학에 종교적 의례(테우르기아)를 결합하여 신비주의적 방향으로 발전시켰다.",
+    "detailed": "이암블리코스는 시리아 칼키스 출신으로, 포르피리오스에게 수학한 뒤 독자적인 신플라톤주의를 전개했다. 플로티노스가 순수한 관조를 통한 합일을 추구한 반면, 이암블리코스는 신적 의례(테우르기아)가 영혼의 상승에 불가결하다고 주장했다. 존재의 위계를 더욱 세밀하게 분류하고 피타고라스 수비학을 통합하여 후기 고대 이교 철학의 중심 인물이 되었다.",
+    "keyWorks": [
+      {
+        "title": "피타고라스의 삶에 관하여",
+        "year": 300
+      },
+      {
+        "title": "이집트 신비에 관하여 (De Mysteriis)",
+        "year": 300
+      }
+    ],
+    "quotes": [],
+    "influences": [
+      "plotinus",
+      "porphyry",
+      "pythagoras"
+    ],
+    "influenced": [
+      "proclus"
+    ],
+    "school": [
+      "신플라톤주의",
+      "시리아학파"
+    ],
+    "concepts": [
+      "테우르기아",
+      "존재의 위계",
+      "수비학",
+      "신비적 합일"
+    ],
+    "questions": [
+      "철학적 관조만으로 신적 합일에 이를 수 있는가?"
+    ]
+  },
+  {
+    "id": "augustine",
+    "name": {
+      "ko": "아우구스티누스",
+      "en": "Augustine of Hippo",
+      "original": "Aurelius Augustinus"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 354,
+      "end": 430
+    },
+    "location": {
+      "lat": 36.88,
+      "lng": 7.76,
+      "region": "북아프리카 히포"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "patristic",
+    "tags": [
+      "교부철학",
+      "기독교",
+      "은총론",
+      "고백",
+      "신플라톤주의"
+    ],
+    "mvp": true,
+    "summary": "서방 기독교 최대의 교부. 《고백록》과 《신국론》으로 신앙과 이성의 관계, 은총과 자유의지, 역사의 의미를 탐구했다.",
+    "detailed": "아우구스티누스는 북아프리카 타가스테 출신으로, 마니교와 신플라톤주의를 거쳐 기독교로 회심했다. 히포의 주교로서 서방 기독교 신학의 기초를 놓았다. 《고백록》은 최초의 서양 자서전으로 내면적 자기 성찰의 전통을 열었고, 《신국론》은 로마 멸망에 대한 기독교적 역사철학을 제시했다. 원죄론, 은총론, 예정론, 시간론 등은 중세 신학과 종교개혁에 결정적 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "고백록",
+        "year": 397,
+        "type": "book"
+      },
+      {
+        "title": "신국론",
+        "year": 426,
+        "type": "book"
+      },
+      {
+        "title": "삼위일체론",
+        "year": 416,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "당신은 우리를 당신을 향하여 만드셨으므로, 우리 마음이 당신 안에서 쉬기까지 불안합니다.",
+        "source": "고백록"
+      },
+      {
+        "text": "이해하기 위해 믿으라.",
+        "source": "설교"
+      }
+    ],
+    "influences": [
+      "plato",
+      "plotinus",
+      "cicero"
+    ],
+    "influenced": [
+      "thomas-aquinas",
+      "anselm",
+      "luther",
+      "descartes",
+      "kierkegaard"
+    ],
+    "school": [
+      "교부철학",
+      "신플라톤주의적 기독교"
+    ],
+    "concepts": [
+      "원죄",
+      "은총",
+      "예정론",
+      "신국과 지상국",
+      "시간론"
+    ],
+    "questions": [
+      "신은 존재하는가?",
+      "악의 문제는?",
+      "자유의지와 은총의 관계는?"
+    ],
+    "religionId": "christianity"
+  },
+  {
+    "id": "proclus",
+    "name": {
+      "ko": "프로클로스",
+      "en": "Proclus",
+      "original": "Πρόκλος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 412,
+      "end": 485
+    },
+    "location": {
+      "lat": 41.01,
+      "lng": 28.98,
+      "region": "콘스탄티노폴리스 → 아테네"
+    },
+    "category": "philosopher",
+    "subcategory": "roman",
+    "tags": [
+      "신플라톤주의",
+      "체계철학",
+      "형이상학"
+    ],
+    "mvp": true,
+    "summary": "아테네 아카데메이아의 마지막 위대한 학두. 신플라톤주의를 가장 정교한 체계로 완성하여 '디아도코스(후계자)'로 불렸다.",
+    "detailed": "프로클로스는 리키아 출신으로, 아테네 아카데메이아의 학두가 되어 '디아도코스'라는 칭호를 받았다. 플로티노스의 유출론을 '머무름-나아감-되돌아옴(mone-proodos-epistrophe)'의 삼원적 운동으로 체계화하여 신플라톤주의의 가장 정교한 형이상학 체계를 구축했다. 《신학 요강》과 플라톤 대화편 주석서들은 중세 기독교 신학과 이슬람 철학에 깊은 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "신학 요강 (Στοιχείωσις θεολογική)",
+        "year": 460
+      },
+      {
+        "title": "플라톤 《티마이오스》 주석",
+        "year": 450
+      }
+    ],
+    "quotes": [
+      {
+        "text": "모든 것은 일자에서 나오고 일자로 돌아간다.",
+        "source": "《신학 요강》"
+      }
+    ],
+    "influences": [
+      "plotinus",
+      "iamblichus",
+      "plato"
+    ],
+    "influenced": [
+      "boethius"
+    ],
+    "school": [
+      "신플라톤주의",
+      "아테네학파"
+    ],
+    "concepts": [
+      "머무름-나아감-되돌아옴",
+      "헤나데스",
+      "삼원적 변증법"
+    ],
+    "questions": [
+      "만물의 유출과 회귀는 어떤 구조를 가지는가?"
+    ]
+  },
+  {
+    "id": "boethius",
+    "name": {
+      "ko": "보에티우스",
+      "en": "Boethius",
+      "original": "Anicius Manlius Severinus Boethius"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 480,
+      "end": 524
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "로마"
+    },
+    "category": "philosopher",
+    "subcategory": "roman",
+    "tags": [
+      "중세철학",
+      "위안",
+      "번역가"
+    ],
+    "mvp": true,
+    "summary": "'마지막 로마인'이자 중세 철학의 문을 연 사상가. 감옥에서 쓴 《철학의 위안》은 천 년 동안 서양 최고의 교양서였다.",
+    "detailed": "보에티우스는 로마 귀족 가문 출신으로, 동고트 왕국의 테오도리쿠스 왕 아래 고위 관직을 역임했다. 아리스토텔레스와 플라톤의 저작을 라틴어로 번역·주석하여 중세 유럽에 그리스 철학을 전달하는 결정적 역할을 했다. 반역 혐의로 투옥되어 처형당하기 전 쓴 《철학의 위안》에서 운명의 수레바퀴, 참된 행복, 섭리와 자유의지의 문제를 다루었다.",
+    "keyWorks": [
+      {
+        "title": "철학의 위안 (De Consolatione Philosophiae)",
+        "year": 524
+      },
+      {
+        "title": "아리스토텔레스 《범주론》 번역 및 주석",
+        "year": 510
+      }
+    ],
+    "quotes": [
+      {
+        "text": "운명의 수레바퀴가 돌면 바닥에 있던 자가 꼭대기에 오른다.",
+        "source": "《철학의 위안》"
+      },
+      {
+        "text": "불행 속에서 지난 행복을 기억하는 것이 가장 큰 불행이다.",
+        "source": "《철학의 위안》 2권"
+      }
+    ],
+    "influences": [
+      "plato",
+      "aristotle",
+      "cicero",
+      "plotinus",
+      "proclus",
+      "porphyry"
+    ],
+    "influenced": [],
+    "school": [
+      "신플라톤주의",
+      "초기 스콜라철학 선구"
+    ],
+    "concepts": [
+      "운명의 수레바퀴",
+      "철학적 위안",
+      "섭리와 자유의지",
+      "보편자"
+    ],
+    "questions": [
+      "진정한 행복은 어디에 있는가?",
+      "섭리와 자유의지는 양립하는가?"
+    ]
+  },
+  {
+    "id": "pseudo-dionysius",
+    "name": {
+      "ko": "위-디오니시우스",
+      "en": "Pseudo-Dionysius the Areopagite",
+      "original": "Διονύσιος ὁ Ἀρεοπαγίτης"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 480,
+      "end": 530,
+      "approximate": true
+    },
+    "location": {
+      "lat": 41.01,
+      "lng": 28.98,
+      "region": "시리아/비잔틴"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "patristic",
+    "tags": [
+      "부정신학",
+      "신비주의",
+      "신플라톤주의"
+    ],
+    "mvp": false,
+    "summary": "부정신학의 대표자. 신은 모든 긍정적 서술을 초월하므로, '신이 아닌 것'을 통해서만 접근할 수 있다고 주장했다.",
+    "detailed": "위-디오니시우스(가명의 디오니시우스)는 5-6세기의 시리아 수도사로, 사도행전에 등장하는 디오니시우스의 이름으로 저술했다. 프로클로스의 신플라톤주의를 기독교 신학에 적용하여, 신은 모든 존재와 인식을 초월한다는 부정신학(아포파틱 신학)을 체계화했다. 천상의 위계(천사론)와 교회 위계에 관한 저술은 중세 기독교에 지대한 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "천상의 위계",
+        "type": "book"
+      },
+      {
+        "title": "신비신학",
+        "type": "book"
+      },
+      {
+        "title": "신명론",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "proclus",
+      "plotinus"
+    ],
+    "influenced": [
+      "thomas-aquinas",
+      "meister-eckhart",
+      "nicholas-of-cusa"
+    ],
+    "school": [
+      "부정신학",
+      "신플라톤주의적 기독교"
+    ],
+    "concepts": [
+      "부정신학",
+      "천상 위계",
+      "신비적 어둠"
+    ],
+    "questions": [
+      "신에 대해 무엇을 말할 수 있는가?"
+    ],
+    "religionId": "christianity"
+  },
+  {
+    "id": "john-of-damascus",
+    "name": {
+      "ko": "요한 다마스쿠스",
+      "en": "John of Damascus",
+      "original": "Ἰωάννης ὁ Δαμασκηνός"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 676,
+      "end": 749
+    },
+    "location": {
+      "lat": 33.51,
+      "lng": 36.31,
+      "region": "시리아 다마스쿠스"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "patristic",
+    "tags": [
+      "동방교부",
+      "교리체계화",
+      "성상옹호"
+    ],
+    "mvp": false,
+    "summary": "동방 기독교 교부철학의 마지막 대표자. 《정통신앙 해설》로 동방 기독교 교리를 체계적으로 정리했다.",
+    "detailed": "요한 다마스쿠스는 이슬람 치하 다마스쿠스의 기독교인 관료 가문 출신으로, 수도원에 은거하여 저술 활동에 전념했다. 그의 《지식의 샘》, 특히 3부 《정통신앙 해설》은 동방 기독교 교리의 백과사전적 종합으로, 아리스토텔레스 논리학을 사용하여 교리를 체계화했다. 성상 논쟁에서 성상 옹호론을 전개했다. 토마스 아퀴나스의 《신학대전》의 모델이 되었다.",
+    "keyWorks": [
+      {
+        "title": "지식의 샘 (정통신앙 해설)",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "pseudo-dionysius"
+    ],
+    "influenced": [
+      "thomas-aquinas"
+    ],
+    "school": [
+      "동방 교부"
+    ],
+    "concepts": [
+      "교리 체계화",
+      "성상 옹호",
+      "아리스토텔레스적 방법"
+    ],
+    "questions": [
+      "성상 공경은 정당한가?"
+    ],
+    "religionId": "christianity"
+  },
+  {
+    "id": "al-kindi",
+    "name": {
+      "ko": "알킨디",
+      "en": "Al-Kindi",
+      "original": "الكندي"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 801,
+      "end": 873
+    },
+    "location": {
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "이라크 바그다드"
+    },
+    "category": "philosopher",
+    "subcategory": "islamic_jewish",
+    "tags": [
+      "이슬람 철학",
+      "아리스토텔레스주의",
+      "최초의 아랍 철학자"
+    ],
+    "mvp": false,
+    "summary": "'아랍의 철학자'로 불리는 이슬람 세계 최초의 체계적 철학자. 그리스 철학을 아랍어로 수용하여 이슬람 철학의 기초를 놓았다.",
+    "detailed": "알킨디는 바스라의 귀족 가문 출신으로 바그다드에서 활동했다. 아바스 왕조의 후원 아래 그리스 철학서 번역 운동에 참여하고, 아리스토텔레스와 신플라톤주의를 이슬람 신학과 조화시키려 했다. 철학과 종교는 모두 진리를 추구하므로 모순되지 않는다고 주장했다. 수학, 광학, 의학, 음악 이론에도 기여했다.",
+    "keyWorks": [
+      {
+        "title": "제일철학에 관하여",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "plotinus"
+    ],
+    "influenced": [
+      "al-farabi"
+    ],
+    "school": [
+      "이슬람 아리스토텔레스주의"
+    ],
+    "concepts": [
+      "철학과 종교의 조화",
+      "지성론"
+    ],
+    "questions": [
+      "철학과 종교는 양립하는가?"
+    ]
+  },
+  {
+    "id": "john-scotus-eriugena",
+    "name": {
+      "ko": "에리우게나",
+      "en": "John Scotus Eriugena",
+      "original": "Iohannes Scottus Eriugena"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 810,
+      "end": 877,
+      "approximate": true
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리 (아일랜드 출신)"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "초기 스콜라",
+      "신플라톤주의",
+      "범신론"
+    ],
+    "mvp": false,
+    "summary": "카롤링 르네상스의 가장 독창적 철학자. 자연의 구분이라는 체계에서 신과 만물의 관계를 신플라톤주의적으로 설명했다.",
+    "detailed": "에리우게나는 아일랜드 출신으로 프랑크 왕국 샤를 대머리왕의 궁정에서 활동했다. 위-디오니시우스를 라틴어로 번역하고, 《자연의 구분(Periphyseon)》에서 '창조하고 창조되지 않는 자연(신)', '창조하고 창조되는 자연(이데아)', '창조되고 창조하지 않는 자연(피조물)', '창조되지도 않고 창조하지도 않는 자연(만물의 귀환)'이라는 4중 구분으로 우주를 설명했다. 범신론적 경향으로 후에 단죄되었다.",
+    "keyWorks": [
+      {
+        "title": "자연의 구분",
+        "year": 867,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "pseudo-dionysius",
+      "augustine"
+    ],
+    "influenced": [
+      "nicholas-of-cusa"
+    ],
+    "school": [
+      "초기 스콜라철학"
+    ],
+    "concepts": [
+      "자연의 4중 구분",
+      "만물의 신으로의 귀환"
+    ],
+    "questions": [
+      "신과 세계의 관계는 무엇인가?"
+    ]
+  },
+  {
+    "id": "al-farabi",
+    "name": {
+      "ko": "알파라비",
+      "en": "Al-Farabi",
+      "original": "الفارابي"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 872,
+      "end": 950
+    },
+    "location": {
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "이라크 바그다드"
+    },
+    "category": "philosopher",
+    "subcategory": "islamic_jewish",
+    "tags": [
+      "이슬람 철학",
+      "정치철학",
+      "논리학",
+      "제2의 스승"
+    ],
+    "mvp": true,
+    "summary": "아리스토텔레스 다음의 '제2의 스승'으로 불린 이슬람 철학자. 플라톤과 아리스토텔레스의 종합을 시도하고, 이상 국가론을 전개했다.",
+    "detailed": "알파라비는 중앙아시아 파라브 출신으로 바그다드에서 활동했다. 플라톤의 《국가》와 아리스토텔레스의 정치학을 이슬람적 맥락에서 종합하여 《덕행 도시의 주민들의 견해》를 저술했다. 유출론에 기반한 우주론과 예언자-철인왕의 결합이라는 정치 사상이 특징적이다. 논리학 체계화에도 크게 기여하여 이븐 시나에게 직접적 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "덕행 도시의 주민들의 견해",
+        "type": "book"
+      },
+      {
+        "title": "학문의 열거",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "철학과 종교의 진리는 하나이며, 표현 방식만 다르다.",
+        "source": "학문의 열거"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "plato",
+      "al-kindi"
+    ],
+    "influenced": [
+      "ibn-sina",
+      "ibn-rushd",
+      "maimonides"
+    ],
+    "school": [
+      "이슬람 아리스토텔레스주의"
+    ],
+    "concepts": [
+      "유출론",
+      "능동 지성",
+      "덕행 도시"
+    ],
+    "questions": [
+      "이상적 정치 공동체란?"
+    ]
+  },
+  {
+    "id": "saadia-gaon",
+    "name": {
+      "ko": "사디아 가온",
+      "en": "Saadia Gaon",
+      "original": "סעדיה גאון"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 882,
+      "end": 942
+    },
+    "location": {
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "이라크 바그다드/수라"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "islamic_jewish",
+    "tags": [
+      "유대 철학",
+      "칼람",
+      "성경 번역"
+    ],
+    "mvp": false,
+    "summary": "중세 유대 철학의 선구자. 이슬람 칼람(변증 신학) 방법을 유대교에 적용하여 이성과 계시의 조화를 논증했다.",
+    "detailed": "사디아 가온은 이집트 파이윰 출신으로, 바빌로니아 수라 학원의 원장(가온)을 역임했다. 《신앙과 견해의 서》에서 이슬람 무타질라 칼람의 방법론을 빌려 유대교 교리를 이성적으로 정당화했다. 계시의 진리와 이성의 진리는 궁극적으로 일치한다고 주장했다. 성경을 아랍어로 번역하기도 했다.",
+    "keyWorks": [
+      {
+        "title": "신앙과 견해의 서",
+        "year": 933,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "plato",
+      "aristotle"
+    ],
+    "influenced": [
+      "maimonides"
+    ],
+    "school": [
+      "유대 칼람"
+    ],
+    "concepts": [
+      "이성과 계시의 조화",
+      "창조론"
+    ],
+    "questions": [
+      "이성은 계시를 검증할 수 있는가?"
+    ],
+    "religionId": "judaism"
+  },
+  {
+    "id": "ibn-sina",
+    "name": {
+      "ko": "이븐 시나",
+      "en": "Ibn Sina (Avicenna)",
+      "original": "ابن سينا"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 980,
+      "end": 1037
+    },
+    "location": {
+      "lat": 39.65,
+      "lng": 66.96,
+      "region": "부하라 (현 우즈베키스탄)"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "scientist"
+    ],
+    "subcategory": "islamic_jewish",
+    "tags": [
+      "이슬람 철학",
+      "의학",
+      "형이상학",
+      "존재론"
+    ],
+    "mvp": true,
+    "summary": "이슬람 철학과 의학의 최고봉. 존재와 본질의 구분, '떠 있는 인간' 사고실험으로 유명하며, 《의학정전》은 수 세기간 유럽의 표준 의학서였다.",
+    "detailed": "이븐 시나(아비켄나)는 부하라 근처에서 태어나 페르시아 각지에서 활동한 학자이다. 그의 《치유의 서》는 논리학, 자연학, 수학, 형이상학을 포괄하는 철학 백과사전이며, 《의학정전》은 17세기까지 유럽 의학 교육의 표준 교재였다. 존재와 본질의 실재적 구분, 필연적 존재자(신)와 가능적 존재자의 구분은 토마스 아퀴나스에게 결정적 영향을 미쳤다. '떠 있는 인간(공중에 떠 있는 사람)' 사고실험은 자아 의식의 선험성을 논증한다.",
+    "keyWorks": [
+      {
+        "title": "치유의 서 (알시파)",
+        "type": "book"
+      },
+      {
+        "title": "의학정전 (알카눈)",
+        "year": 1025,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "필연적 존재자는 그 자체로 존재하며, 원인이 없다.",
+        "source": "치유의 서"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "al-farabi",
+      "plotinus"
+    ],
+    "influenced": [
+      "thomas-aquinas",
+      "duns-scotus",
+      "al-ghazali"
+    ],
+    "school": [
+      "이슬람 아리스토텔레스주의"
+    ],
+    "concepts": [
+      "존재와 본질의 구분",
+      "필연적 존재자",
+      "떠 있는 인간",
+      "능동 지성"
+    ],
+    "questions": [
+      "존재의 근거는 무엇인가?"
+    ],
+    "field": [
+      "의학"
+    ]
+  },
+  {
+    "id": "ibn-gabirol",
+    "name": {
+      "ko": "이븐 가비롤",
+      "en": "Ibn Gabirol (Avicebron)",
+      "original": "שלמה בן יהודה אבן גבירול"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1021,
+      "end": 1058,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.39,
+      "lng": -5.98,
+      "region": "스페인 말라가/사라고사"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "islamic_jewish",
+    "tags": [
+      "유대 철학",
+      "신플라톤주의",
+      "시인"
+    ],
+    "mvp": false,
+    "summary": "안달루시아의 유대 철학자이자 시인. 《생명의 샘》에서 보편적 질료형상론을 전개하여 스콜라 철학에 영향을 미쳤다.",
+    "detailed": "이븐 가비롤(아비세브론)은 안달루시아의 유대인 철학자이자 히브리 시인이다. 그의 《생명의 샘(Fons Vitae)》은 라틴어 번역으로 기독교 스콜라 철학자들에게 영향을 미쳤는데, 오랫동안 저자가 무슬림이나 기독교인으로 잘못 알려졌다. 모든 피조물은 정신적 존재를 포함하여 질료와 형상으로 이루어진다는 보편적 질료형상론을 주장했다.",
+    "keyWorks": [
+      {
+        "title": "생명의 샘 (Fons Vitae)",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "plotinus"
+    ],
+    "influenced": [
+      "duns-scotus"
+    ],
+    "school": [
+      "유대 신플라톤주의"
+    ],
+    "concepts": [
+      "보편적 질료형상론",
+      "의지"
+    ],
+    "questions": [
+      "정신적 존재도 질료로 이루어져 있는가?"
+    ],
+    "religionId": "judaism"
+  },
+  {
+    "id": "anselm",
+    "name": {
+      "ko": "안셀무스",
+      "en": "Anselm of Canterbury",
+      "original": "Anselmus Cantuariensis"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1033,
+      "end": 1109
+    },
+    "location": {
+      "lat": 51.28,
+      "lng": 1.08,
+      "region": "영국 캔터베리"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "스콜라철학",
+      "존재론적 논증",
+      "신 존재 증명"
+    ],
+    "mvp": true,
+    "summary": "스콜라 철학의 아버지. 존재론적 신 존재 증명으로 유명하며, '이해를 추구하는 신앙(fides quaerens intellectum)'을 표방했다.",
+    "detailed": "안셀무스는 이탈리아 아오스타 출신으로, 노르만디 벡 수도원을 거쳐 캔터베리 대주교가 되었다. 《프로슬로기온》에서 '그보다 더 큰 것을 생각할 수 없는 것'이라는 개념으로 신의 존재를 순수 이성만으로 증명하는 존재론적 논증을 제시했다. 이 논증은 토마스 아퀴나스에 의해 비판되었으나, 데카르트와 헤겔에 의해 부활되었다.",
+    "keyWorks": [
+      {
+        "title": "프로슬로기온",
+        "year": 1078,
+        "type": "book"
+      },
+      {
+        "title": "모놀로기온",
+        "year": 1076,
+        "type": "book"
+      },
+      {
+        "title": "왜 신은 인간이 되었나",
+        "year": 1098,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 이해하기 위해 믿는다.",
+        "source": "프로슬로기온"
+      }
+    ],
+    "influences": [
+      "augustine",
+      "boethius"
+    ],
+    "influenced": [
+      "thomas-aquinas",
+      "descartes"
+    ],
+    "school": [
+      "스콜라철학"
+    ],
+    "concepts": [
+      "존재론적 논증",
+      "이해를 추구하는 신앙",
+      "속죄론"
+    ],
+    "questions": [
+      "신의 존재를 이성으로 증명할 수 있는가?"
+    ],
+    "religionId": "christianity"
+  },
+  {
+    "id": "al-ghazali",
+    "name": {
+      "ko": "알가잘리",
+      "en": "Al-Ghazali",
+      "original": "الغزالي"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1058,
+      "end": 1111
+    },
+    "location": {
+      "lat": 36.27,
+      "lng": 59.62,
+      "region": "페르시아 투스"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "islamic_jewish",
+    "tags": [
+      "이슬람 철학",
+      "수피즘",
+      "철학 비판"
+    ],
+    "mvp": true,
+    "summary": "이슬람 최고의 신학자 중 하나. 《철학자들의 모순》으로 아리스토텔레스주의 철학을 비판하고, 수피즘적 영성으로 전환했다.",
+    "detailed": "알가잘리는 페르시아 투스 출신으로, 바그다드 니자미야 학교의 교수로 명성을 얻었다. 그러나 영적 위기를 겪고 교직을 버린 뒤 수피즘의 길로 들어섰다. 《철학자들의 모순》에서 알파라비와 이븐 시나의 철학이 이슬람 신앙과 모순된다고 비판하여, 이슬람 세계에서 아리스토텔레스주의의 퇴조를 가져왔다. 《종교학의 부활》에서 이슬람 신학과 수피 영성을 종합했다.",
+    "keyWorks": [
+      {
+        "title": "철학자들의 모순",
+        "year": 1095,
+        "type": "book"
+      },
+      {
+        "title": "종교학의 부활",
+        "year": 1106,
+        "type": "book"
+      },
+      {
+        "title": "미혹으로부터의 구원",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "의심은 진리로 가는 길이다.",
+        "source": "미혹으로부터의 구원"
+      }
+    ],
+    "influences": [
+      "ibn-sina",
+      "al-farabi"
+    ],
+    "influenced": [
+      "ibn-rushd",
+      "thomas-aquinas"
+    ],
+    "school": [
+      "아샤리학파",
+      "수피즘"
+    ],
+    "concepts": [
+      "인과율 비판",
+      "신비적 체험",
+      "영적 위기"
+    ],
+    "questions": [
+      "철학은 신앙에 해로운가?",
+      "신비 체험은 정당한 인식인가?"
+    ],
+    "religionId": "islam"
+  },
+  {
+    "id": "abelard",
+    "name": {
+      "ko": "아벨라르",
+      "en": "Peter Abelard",
+      "original": "Petrus Abaelardus"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1079,
+      "end": 1142
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "스콜라철학",
+      "논리학",
+      "보편자 논쟁",
+      "개념론"
+    ],
+    "mvp": false,
+    "summary": "중세 최고의 논리학자이자 신학자. 보편자 문제에서 개념론적 입장을 취했으며, 엘로이즈와의 사랑으로도 유명하다.",
+    "detailed": "아벨라르는 브르타뉴 출신으로, 파리에서 변증술의 대가로 명성을 얻었다. 보편자 논쟁에서 실재론과 유명론 사이의 개념론적 해결을 제시했다. 《예와 아니오(Sic et Non)》에서 교부들의 상충하는 견해를 병치하여 변증법적 신학 방법론을 제시했다. 제자 엘로이즈와의 비극적 사랑 이야기는 중세 가장 유명한 로맨스이다.",
+    "keyWorks": [
+      {
+        "title": "예와 아니오",
+        "year": 1120,
+        "type": "book"
+      },
+      {
+        "title": "나 자신을 알라",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "boethius"
+    ],
+    "influenced": [
+      "thomas-aquinas"
+    ],
+    "school": [
+      "스콜라철학"
+    ],
+    "concepts": [
+      "개념론",
+      "변증법적 신학",
+      "도덕적 의도론"
+    ],
+    "questions": [
+      "보편자는 실재하는가?"
+    ]
+  },
+  {
+    "id": "ibn-bajja",
+    "name": {
+      "ko": "이븐 바즈자",
+      "en": "Ibn Bajja (Avempace)",
+      "original": "ابن باجة"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1095,
+      "end": 1138
+    },
+    "location": {
+      "lat": 41.65,
+      "lng": -0.88,
+      "region": "스페인 사라고사"
+    },
+    "category": "philosopher",
+    "subcategory": "islamic_jewish",
+    "tags": [
+      "이슬람 철학",
+      "안달루시아",
+      "정치철학"
+    ],
+    "mvp": false,
+    "summary": "안달루시아 이슬람 철학의 선구자. 철학적 고독자의 통치를 다룬 《고독자의 통치》로 이븐 투파일과 이븐 루시드에게 영향을 미쳤다.",
+    "detailed": "이븐 바즈자(아벰파케)는 안달루시아 사라고사 출신으로, 서부 이슬람 세계에서 아리스토텔레스주의를 전개한 최초의 주요 철학자이다. 《고독자의 통치》에서 불완전한 사회 속에서 철학자가 어떻게 완전한 삶을 영위할 수 있는지를 논했다. 인간 지성이 능동 지성과 합일하여 영원한 인식에 이를 수 있다고 주장했다.",
+    "keyWorks": [
+      {
+        "title": "고독자의 통치",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "al-farabi"
+    ],
+    "influenced": [
+      "ibn-tufayl",
+      "ibn-rushd"
+    ],
+    "school": [
+      "이슬람 아리스토텔레스주의"
+    ],
+    "concepts": [
+      "고독자의 통치",
+      "지성적 합일"
+    ],
+    "questions": [
+      "불완전한 사회에서 철학자는 어떻게 살아야 하는가?"
+    ]
+  },
+  {
+    "id": "peter-lombard",
+    "name": {
+      "ko": "롬바르두스",
+      "en": "Peter Lombard",
+      "original": "Petrus Lombardus"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1096,
+      "end": 1164
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "스콜라철학",
+      "교과서",
+      "명제집"
+    ],
+    "mvp": false,
+    "summary": "《명제집(Sententiae)》의 저자로, 이 책은 중세 대학의 표준 신학 교과서로 약 500년간 사용되었다.",
+    "detailed": "페트루스 롬바르두스는 이탈리아 노바라 출신으로, 파리 대학의 신학 교수이자 파리 주교를 역임했다. 그의 《명제집 4권》은 교부들의 견해를 체계적으로 정리한 것으로, 13세기부터 16세기까지 유럽 대학의 표준 신학 교과서였다. 토마스 아퀴나스, 보나벤투라, 둔스 스코투스 등 중세의 거의 모든 신학자가 이 책에 주석을 달았다.",
+    "keyWorks": [
+      {
+        "title": "명제집 4권",
+        "year": 1150,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "augustine"
+    ],
+    "influenced": [
+      "thomas-aquinas",
+      "duns-scotus"
+    ],
+    "school": [
+      "스콜라철학"
+    ],
+    "concepts": [
+      "교리 체계화",
+      "성사론"
+    ],
+    "questions": [
+      "신학은 어떻게 체계화할 수 있는가?"
+    ]
+  },
+  {
+    "id": "hildegard-of-bingen",
+    "name": {
+      "ko": "힐데가르트 (빙엔)",
+      "en": "Hildegard of Bingen",
+      "original": "Hildegardis Bingensis"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1098,
+      "end": 1179
+    },
+    "location": {
+      "lat": 49.97,
+      "lng": 7.89,
+      "region": "독일 빙엔"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure",
+      "cultural_figure"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "신비주의",
+      "여성 철학자",
+      "음악",
+      "의학",
+      "자연학"
+    ],
+    "mvp": false,
+    "summary": "중세 독일의 수녀원장이자 신비가, 작곡가, 자연학자. 환시(幻視) 체험에 기반한 우주론과 신학적 저술을 남겼다.",
+    "detailed": "힐데가르트는 라인란트 출신의 베네딕도회 수녀원장으로, 중세 가장 다재다능한 인물 중 하나이다. 어린 시절부터 환시를 체험했으며, 《Scivias》 등에서 이를 신학적으로 해석한 방대한 저술을 남겼다. 의학과 자연학에 관한 저작도 있으며, 70여 곡의 전례 음악을 작곡했다. 2012년 교회 박사로 선포되었다.",
+    "keyWorks": [
+      {
+        "title": "알라 (Scivias)",
+        "year": 1151,
+        "type": "book"
+      },
+      {
+        "title": "자연학 (Physica)",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "augustine"
+    ],
+    "influenced": [],
+    "school": [
+      "중세 신비주의"
+    ],
+    "concepts": [
+      "환시 신학",
+      "비리디타스(녹색 생명력)",
+      "우주적 조화"
+    ],
+    "questions": [
+      "자연과 신성은 어떤 관계인가?"
+    ],
+    "religionId": "christianity"
+  },
+  {
+    "id": "ibn-tufayl",
+    "name": {
+      "ko": "이븐 투파일",
+      "en": "Ibn Tufayl",
+      "original": "ابن طفيل"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1105,
+      "end": 1185
+    },
+    "location": {
+      "lat": 37.18,
+      "lng": -3.6,
+      "region": "스페인 그라나다"
+    },
+    "category": "philosopher",
+    "subcategory": "islamic_jewish",
+    "tags": [
+      "이슬람 철학",
+      "안달루시아",
+      "철학소설"
+    ],
+    "mvp": false,
+    "summary": "최초의 철학소설 《야크잔의 아들 하이》의 저자. 무인도에서 자란 인간이 독자적으로 철학적·신비적 진리에 도달하는 이야기를 통해 이성과 계시의 조화를 논증했다.",
+    "detailed": "이븐 투파일은 안달루시아 출신으로 무와히드 왕조의 궁정 의사를 역임했다. 그의 철학소설 《야크잔의 아들 하이(Hayy ibn Yaqzan)》는 무인도에서 혼자 자란 아이가 관찰과 사유만으로 자연학, 형이상학, 신비적 합일에 이르는 과정을 그린다. 이는 자연적 이성과 종교적 계시가 동일한 진리에 도달한다는 것을 보여준다. 로빈슨 크루소의 선행 작품으로도 평가된다.",
+    "keyWorks": [
+      {
+        "title": "야크잔의 아들 하이",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "ibn-sina",
+      "ibn-bajja"
+    ],
+    "influenced": [
+      "ibn-rushd"
+    ],
+    "school": [
+      "이슬람 아리스토텔레스주의"
+    ],
+    "concepts": [
+      "자연적 이성",
+      "독자적 인식",
+      "이성과 계시의 조화"
+    ],
+    "questions": [
+      "인간은 계시 없이 진리에 도달할 수 있는가?"
+    ]
+  },
+  {
+    "id": "ibn-rushd",
+    "name": {
+      "ko": "이븐 루시드",
+      "en": "Ibn Rushd (Averroes)",
+      "original": "ابن رشد"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1126,
+      "end": 1198
+    },
+    "location": {
+      "lat": 37.88,
+      "lng": -4.77,
+      "region": "스페인 코르도바"
+    },
+    "category": "philosopher",
+    "subcategory": "islamic_jewish",
+    "tags": [
+      "이슬람 철학",
+      "아리스토텔레스주의",
+      "이중진리론"
+    ],
+    "mvp": true,
+    "summary": "'주석자'로 불린 이슬람 최대의 아리스토텔레스 해석자. 철학과 종교의 조화를 옹호하며, 서양 중세 스콜라 철학에 결정적 영향을 미쳤다.",
+    "detailed": "이븐 루시드(아베로에스)는 스페인 코르도바의 법학자 가문 출신으로, 아리스토텔레스 전집에 대한 대주석, 중주석, 소주석을 저술하여 '주석자(The Commentator)'로 불렸다. 알가잘리의 철학 비판에 반박하여 《반박의 반박》을 저술했다. 종교와 철학은 각각 고유한 방식으로 동일한 진리에 도달한다는 입장을 취했다. 그의 아리스토텔레스 주석은 라틴어로 번역되어 토마스 아퀴나스를 비롯한 스콜라 철학에 혁명적 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "아리스토텔레스 대주석",
+        "type": "book"
+      },
+      {
+        "title": "반박의 반박",
+        "year": 1180,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "무지는 두려움을 낳고, 두려움은 증오를 낳는다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "al-farabi",
+      "ibn-sina"
+    ],
+    "influenced": [
+      "thomas-aquinas",
+      "maimonides"
+    ],
+    "school": [
+      "이슬람 아리스토텔레스주의"
+    ],
+    "concepts": [
+      "이중진리론",
+      "단일 지성론",
+      "영원한 세계"
+    ],
+    "questions": [
+      "철학과 종교는 모순되는가?"
+    ]
+  },
+  {
+    "id": "maimonides",
+    "name": {
+      "ko": "마이모니데스",
+      "en": "Maimonides",
+      "original": "משה בן מימון"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1138,
+      "end": 1204
+    },
+    "location": {
+      "lat": 37.88,
+      "lng": -4.77,
+      "region": "스페인 코르도바/이집트 카이로"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "islamic_jewish",
+    "tags": [
+      "유대 철학",
+      "아리스토텔레스주의",
+      "의학",
+      "율법학"
+    ],
+    "mvp": true,
+    "summary": "중세 유대 철학의 최고봉. 《방황하는 자들을 위한 안내서》에서 아리스토텔레스 철학과 유대교 신학의 종합을 시도했다.",
+    "detailed": "마이모니데스(모세 벤 마이몬, 람밤)는 코르도바에서 태어나 이슬람 박해를 피해 모로코와 이집트로 이주했다. 카이로에서 살라딘의 궁정 의사로 활동했다. 《방황하는 자들을 위한 안내서》에서 아리스토텔레스 철학을 통해 성경을 해석하며, 부정신학적 신관을 전개했다. 《미슈네 토라》는 유대 율법의 체계적 법전이다. 토마스 아퀴나스에게 직접적 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "방황하는 자들을 위한 안내서",
+        "year": 1190,
+        "type": "book"
+      },
+      {
+        "title": "미슈네 토라",
+        "year": 1180,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "신에 대해 우리가 말할 수 있는 것은 신이 무엇이 아닌지뿐이다.",
+        "source": "방황하는 자들을 위한 안내서"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "al-farabi",
+      "ibn-rushd"
+    ],
+    "influenced": [
+      "thomas-aquinas",
+      "spinoza"
+    ],
+    "school": [
+      "유대 아리스토텔레스주의"
+    ],
+    "concepts": [
+      "부정신학",
+      "계시와 이성의 조화",
+      "율법의 이성적 근거"
+    ],
+    "questions": [
+      "신앙과 이성은 양립하는가?"
+    ],
+    "religionId": "judaism"
+  },
+  {
+    "id": "albertus-magnus",
+    "name": {
+      "ko": "알베르투스 마그누스",
+      "en": "Albertus Magnus",
+      "original": "Albertus Magnus"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1200,
+      "end": 1280
+    },
+    "location": {
+      "lat": 50.94,
+      "lng": 6.96,
+      "region": "독일 쾰른"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "스콜라철학",
+      "아리스토텔레스주의",
+      "자연학"
+    ],
+    "mvp": false,
+    "summary": "'보편 박사(Doctor Universalis)'로 불린 도미니코회 학자. 토마스 아퀴나스의 스승으로, 아리스토텔레스 전체 저작을 주석하여 중세 유럽에 전달했다.",
+    "detailed": "알베르투스 마그누스는 슈바벤 출신 도미니코회 수도사로, 파리와 쾰른에서 활동했다. 아리스토텔레스의 거의 모든 저작에 주석을 달았으며, 아랍 철학자들(이븐 시나, 이븐 루시드)의 해석도 비판적으로 수용했다. 자연과학에도 깊은 관심을 가져 식물학, 광물학, 동물학 저술을 남겼다. 토마스 아퀴나스의 스승이자 동료로서 중세 학문의 방향을 결정지었다.",
+    "keyWorks": [
+      {
+        "title": "아리스토텔레스 전집 주석",
+        "type": "book"
+      },
+      {
+        "title": "식물에 관하여",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "ibn-sina",
+      "ibn-rushd"
+    ],
+    "influenced": [
+      "thomas-aquinas"
+    ],
+    "school": [
+      "스콜라철학"
+    ],
+    "concepts": [
+      "신학과 자연학의 구분",
+      "경험적 관찰"
+    ],
+    "questions": [
+      "자연 연구는 신학에 기여하는가?"
+    ]
+  },
+  {
+    "id": "roger-bacon",
+    "name": {
+      "ko": "로저 베이컨",
+      "en": "Roger Bacon",
+      "original": "Rogerus Baco"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1214,
+      "end": 1292
+    },
+    "location": {
+      "lat": 51.75,
+      "lng": -1.25,
+      "region": "영국 옥스퍼드"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "scientist"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "경험과학",
+      "광학",
+      "프란치스코회"
+    ],
+    "mvp": false,
+    "summary": "'경이의 박사'로 불린 중세 학자. 실험과 관찰에 기반한 경험과학을 주장하여 근대 과학 방법론의 선구자로 평가된다.",
+    "detailed": "로저 베이컨은 영국 출신 프란치스코회 수도사로, 옥스퍼드와 파리에서 활동했다. 아리스토텔레스 연구와 아랍 과학을 바탕으로 경험적 실험(scientia experimentalis)의 중요성을 강조했다. 광학, 천문학, 연금술에 기여했으며, 비행기, 자동차, 잠수함 같은 미래 발명을 예견했다고 전해진다.",
+    "keyWorks": [
+      {
+        "title": "대작(Opus Majus)",
+        "year": 1267,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "aristotle"
+    ],
+    "influenced": [
+      "francis-bacon"
+    ],
+    "school": [
+      "스콜라철학",
+      "경험과학"
+    ],
+    "concepts": [
+      "실험과학",
+      "광학",
+      "수학적 방법"
+    ],
+    "questions": [
+      "지식은 경험에서 오는가?"
+    ],
+    "field": [
+      "광학",
+      "자연과학"
+    ]
+  },
+  {
+    "id": "bonaventure",
+    "name": {
+      "ko": "보나벤투라",
+      "en": "Bonaventure",
+      "original": "Bonaventura"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1221,
+      "end": 1274
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "스콜라철학",
+      "프란치스코회",
+      "아우구스티누스주의",
+      "신비주의"
+    ],
+    "mvp": false,
+    "summary": "'천사적 박사'로 불린 프란치스코회 신학자. 아우구스티누스적 전통을 따르며 신비적 관조를 통한 신과의 합일을 강조했다.",
+    "detailed": "보나벤투라는 이탈리아 출신 프란치스코회의 총장을 역임한 신학자이다. 토마스 아퀴나스의 아리스토텔레스적 접근과 달리, 아우구스티누스와 신플라톤주의 전통을 따랐다. 《하나님께로의 정신의 여정》에서 감각세계→영혼→신이라는 관조의 단계를 체계화했다. 프란체스코 성인의 전기도 집필했다.",
+    "keyWorks": [
+      {
+        "title": "하나님께로의 정신의 여정",
+        "year": 1259,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "augustine",
+      "plotinus"
+    ],
+    "influenced": [],
+    "school": [
+      "스콜라철학",
+      "프란치스코 신학"
+    ],
+    "concepts": [
+      "신비적 관조",
+      "조명설",
+      "흔적론"
+    ],
+    "questions": [
+      "영혼은 어떻게 신에게 이르는가?"
+    ],
+    "religionId": "christianity"
+  },
+  {
+    "id": "thomas-aquinas",
+    "name": {
+      "ko": "토마스 아퀴나스",
+      "en": "Thomas Aquinas",
+      "original": "Thomas Aquinas"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1225,
+      "end": 1274
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리/이탈리아"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "스콜라철학",
+      "토미즘",
+      "신학대전",
+      "자연법",
+      "신 존재 증명"
+    ],
+    "mvp": true,
+    "summary": "중세 스콜라 철학의 최고봉. 아리스토텔레스 철학과 기독교 신학을 종합하여 《신학대전》을 저술했다. 신 존재의 다섯 가지 길로 유명하다.",
+    "detailed": "토마스 아퀴나스는 이탈리아 남부 아퀴노 출신의 도미니코회 수도사로, 파리 대학에서 활동했다. 아리스토텔레스 철학을 전면적으로 수용하여 기독교 신학과 종합한 것이 그의 핵심 업적이다. 《신학대전》에서 신 존재의 다섯 가지 길(우주론적 논증), 자연법 이론, 존재와 본질의 구분, 유비론 등을 체계화했다. 가톨릭 교회의 공식 철학자로 인정받으며, 그의 사상은 근대 이후에도 신토미즘으로 계승되었다.",
+    "keyWorks": [
+      {
+        "title": "신학대전",
+        "year": 1274,
+        "type": "book"
+      },
+      {
+        "title": "대이교도대전",
+        "year": 1264,
+        "type": "book"
+      },
+      {
+        "title": "존재와 본질에 관하여",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "은총은 자연을 파괴하지 않고 완성한다.",
+        "source": "신학대전"
+      },
+      {
+        "text": "존재하지 않는 것의 법칙은 없다.",
+        "source": "신학대전"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "augustine",
+      "ibn-rushd",
+      "ibn-sina",
+      "pseudo-dionysius",
+      "boethius"
+    ],
+    "influenced": [
+      "duns-scotus",
+      "william-of-ockham",
+      "descartes"
+    ],
+    "school": [
+      "토미즘",
+      "스콜라철학"
+    ],
+    "concepts": [
+      "신 존재의 다섯 가지 길",
+      "자연법",
+      "존재와 본질",
+      "유비론",
+      "은총과 자연"
+    ],
+    "questions": [
+      "신은 존재하는가?",
+      "이성과 신앙은 양립 가능한가?",
+      "자연법이란 무엇인가?"
+    ],
+    "religionId": "christianity"
+  },
+  {
+    "id": "meister-eckhart",
+    "name": {
+      "ko": "마이스터 에크하르트",
+      "en": "Meister Eckhart",
+      "original": "Eckhart von Hochheim"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1260,
+      "end": 1328
+    },
+    "location": {
+      "lat": 50.94,
+      "lng": 6.96,
+      "region": "독일 쾰른"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "신비주의",
+      "도미니코회",
+      "부정신학"
+    ],
+    "mvp": false,
+    "summary": "중세 독일 신비주의의 최고봉. 신 안에서 영혼의 '내면의 불꽃'을 발견하는 신비적 합일을 독일어 설교로 설파했다.",
+    "detailed": "에크하르트는 튀링겐 출신 도미니코회 수도사로, 파리와 쾰른에서 활동했다. 라틴어 학술 저작과 독일어 설교를 모두 남겼다. 영혼 깊은 곳의 '불꽃(Seelenfünklein)'이 신성과 직접 만나는 곳이며, 자기를 비움(Gelassenheit, 이탈)을 통해 신과의 합일에 이른다고 가르쳤다. 일부 명제가 이단으로 단죄되었으나, 그의 신비사상은 루터, 하이데거, 선불교와의 비교에서 재조명된다.",
+    "keyWorks": [
+      {
+        "title": "독일어 설교와 논고",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "눈이 색을 보기 위해서는 스스로 모든 색에서 자유로워야 한다.",
+        "source": "독일어 설교"
+      }
+    ],
+    "influences": [
+      "thomas-aquinas",
+      "pseudo-dionysius",
+      "augustine"
+    ],
+    "influenced": [
+      "nicholas-of-cusa",
+      "heidegger"
+    ],
+    "school": [
+      "독일 신비주의"
+    ],
+    "concepts": [
+      "영혼의 불꽃",
+      "이탈(Gelassenheit)",
+      "신성의 근저"
+    ],
+    "questions": [
+      "신과의 합일은 어떻게 가능한가?"
+    ],
+    "religionId": "christianity"
+  },
+  {
+    "id": "duns-scotus",
+    "name": {
+      "ko": "둔스 스코투스",
+      "en": "Duns Scotus",
+      "original": "Johannes Duns Scotus"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1266,
+      "end": 1308
+    },
+    "location": {
+      "lat": 51.52,
+      "lng": -0.13,
+      "region": "영국/프랑스 파리"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "스콜라철학",
+      "의지주의",
+      "개체성",
+      "존재의 일의성"
+    ],
+    "mvp": true,
+    "summary": "'정교한 박사(Doctor Subtilis)'로 불린 스콜라 철학자. 존재의 일의성과 개체화 원리(하에크체이타스)로 토마스주의에 대안적 체계를 제시했다.",
+    "detailed": "둔스 스코투스는 스코틀랜드 출신의 프란치스코회 수도사로, 옥스퍼드와 파리에서 활동했다. 토마스 아퀴나스의 유비론에 반대하여, 존재는 신과 피조물에 일의적(univocal)으로 적용된다고 주장했다. 개체화 원리로 '이것임(haecceitas)'을 제시하여, 개별 사물의 고유성을 형이상학적으로 정당화했다. 의지의 자유를 지성보다 우위에 놓는 의지주의를 전개했다.",
+    "keyWorks": [
+      {
+        "title": "옥스퍼드 강의(오르디나티오)",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "존재는 일의적이다.",
+        "source": "오르디나티오"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "augustine",
+      "thomas-aquinas"
+    ],
+    "influenced": [
+      "william-of-ockham"
+    ],
+    "school": [
+      "스콜라철학",
+      "스코투스주의"
+    ],
+    "concepts": [
+      "존재의 일의성",
+      "하에크체이타스",
+      "의지주의",
+      "형상적 구분"
+    ],
+    "questions": [
+      "존재란 무엇인가?",
+      "개체를 개체로 만드는 것은 무엇인가?"
+    ],
+    "religionId": "christianity"
+  },
+  {
+    "id": "william-of-ockham",
+    "name": {
+      "ko": "윌리엄 오컴",
+      "en": "William of Ockham",
+      "original": "Gulielmus de Ockham"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1287,
+      "end": 1347
+    },
+    "location": {
+      "lat": 51.52,
+      "lng": -0.13,
+      "region": "영국 옥스퍼드"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "스콜라철학",
+      "유명론",
+      "오컴의 면도날",
+      "논리학"
+    ],
+    "mvp": true,
+    "summary": "'오컴의 면도날'로 유명한 유명론의 대표자. 불필요한 존재를 상정하지 말라는 절약의 원리로 중세 형이상학을 해체하고 근대 경험론의 길을 열었다.",
+    "detailed": "윌리엄 오컴은 영국 서리 주 오컴 출신의 프란치스코회 수도사로, 옥스퍼드에서 활동했다. 보편자는 사물 안에 실재하는 것이 아니라 정신 속의 이름(용어)에 불과하다는 유명론을 주장했다. '필요 이상으로 존재를 상정하지 말라(오컴의 면도날)'는 절약의 원리는 과학적 사고의 기본 원칙이 되었다. 교황의 절대 권력에 반대하여 이단 혐의를 받고 뮌헨으로 망명했다.",
+    "keyWorks": [
+      {
+        "title": "논리학 대전",
+        "type": "book"
+      },
+      {
+        "title": "명제집 주석",
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "필요 이상으로 존재를 상정하지 말라.",
+        "source": "오컴의 면도날"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "duns-scotus"
+    ],
+    "influenced": [
+      "francis-bacon",
+      "hobbes",
+      "locke"
+    ],
+    "school": [
+      "유명론",
+      "스콜라철학"
+    ],
+    "concepts": [
+      "오컴의 면도날",
+      "유명론",
+      "용어 논리학",
+      "교회와 국가의 분리"
+    ],
+    "questions": [
+      "보편자는 실재하는가?",
+      "불필요한 가정을 왜 배제해야 하는가?"
+    ]
+  },
+  {
+    "id": "gersonides",
+    "name": {
+      "ko": "게르소니데스",
+      "en": "Gersonides",
+      "original": "לוי בן גרשום"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1288,
+      "end": 1344
+    },
+    "location": {
+      "lat": 43.84,
+      "lng": 4.36,
+      "region": "프랑스 남부 (프로방스)"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "scientist"
+    ],
+    "subcategory": "islamic_jewish",
+    "tags": [
+      "유대 철학",
+      "아리스토텔레스주의",
+      "천문학"
+    ],
+    "mvp": false,
+    "summary": "중세 유대 아리스토텔레스주의 철학자이자 천문학자. 신의 전지와 인간의 자유의지 문제를 독창적으로 해결하려 했다.",
+    "detailed": "게르소니데스(레비 벤 게르숌, 랄바그)는 프랑스 남부에서 활동한 유대인 철학자, 수학자, 천문학자이다. 《주의 전쟁(Milhamot HaShem)》에서 아리스토텔레스 철학과 유대교의 관계를 다루며, 신은 보편적인 것은 알지만 개별적인 것은 보편을 통해서만 안다고 주장하여 자유의지를 보존하려 했다. 야콥의 지팡이라는 천문 관측 도구를 발명했다.",
+    "keyWorks": [
+      {
+        "title": "주의 전쟁",
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "maimonides"
+    ],
+    "influenced": [],
+    "school": [
+      "유대 아리스토텔레스주의"
+    ],
+    "concepts": [
+      "신의 지식과 자유의지",
+      "천문학적 관측"
+    ],
+    "questions": [
+      "전지전능한 신과 자유의지는 양립하는가?"
+    ],
+    "field": [
+      "천문학",
+      "수학"
+    ]
+  },
+  {
+    "id": "ibn-khaldun",
+    "name": {
+      "ko": "이븐 할둔",
+      "en": "Ibn Khaldun",
+      "original": "ابن خلدون"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1332,
+      "end": 1406
+    },
+    "location": {
+      "lat": 36.8,
+      "lng": 10.18,
+      "region": "튀니지 튀니스"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "historical_figure"
+    ],
+    "subcategory": "islamic_jewish",
+    "tags": [
+      "역사철학",
+      "사회학",
+      "문명론"
+    ],
+    "mvp": true,
+    "summary": "역사학과 사회학의 선구자. 《무깟디마》에서 문명의 흥망성쇠를 아사비야(집단 연대의식)로 설명하는 체계적 역사철학을 제시했다.",
+    "detailed": "이븐 할둔은 튀니스의 안달루시아 이주민 가문 출신으로, 북아프리카 각지에서 정치가이자 학자로 활동했다. 그의 《무깟디마(역사 서론)》는 역사를 과학적으로 분석한 최초의 시도로 평가된다. 유목 사회의 강한 아사비야(집단 연대의식)가 문명을 건설하지만, 도시 문명의 사치가 아사비야를 약화시켜 결국 새로운 유목 세력에 의해 대체된다는 문명 순환론을 제시했다.",
+    "keyWorks": [
+      {
+        "title": "무깟디마",
+        "year": 1377,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "역사의 표면적 의미는 과거 사건의 기록이지만, 내면적 의미는 사색과 검증이다.",
+        "source": "무깟디마"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "al-farabi"
+    ],
+    "influenced": [
+      "montesquieu",
+      "comte"
+    ],
+    "school": [
+      "역사철학",
+      "사회학 선구"
+    ],
+    "concepts": [
+      "아사비야",
+      "문명 순환론",
+      "역사의 과학"
+    ],
+    "questions": [
+      "문명은 왜 흥망하는가?"
+    ]
+  },
+  {
+    "id": "nicholas-of-cusa",
+    "name": {
+      "ko": "쿠자누스",
+      "en": "Nicholas of Cusa",
+      "original": "Nicolaus Cusanus"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1401,
+      "end": 1464
+    },
+    "location": {
+      "lat": 50.12,
+      "lng": 7.23,
+      "region": "독일 쿠에스/로마"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "scholastic",
+    "tags": [
+      "르네상스 선구",
+      "대립자의 합치",
+      "무한",
+      "부정신학"
+    ],
+    "mvp": true,
+    "summary": "'학식 있는 무지(docta ignorantia)'로 유명한 중세 말 철학자. 대립자의 합치를 통해 무한한 신을 이해하려 한 사유는 르네상스와 근대 철학의 선구가 되었다.",
+    "detailed": "쿠자누스는 독일 모젤 강변 쿠에스 출신으로, 추기경을 역임한 교회인이자 철학자이다. 《학식 있는 무지(De Docta Ignorantia)》에서 인간의 유한한 지성은 무한한 신을 파악할 수 없지만, '대립자의 합치(coincidentia oppositorum)' 개념을 통해 접근할 수 있다고 주장했다. 우주는 무한하고 중심이 없다는 코스모스론은 코페르니쿠스에 선행한다.",
+    "keyWorks": [
+      {
+        "title": "학식 있는 무지",
+        "year": 1440,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "무한 앞에서 모든 대립은 합치한다.",
+        "source": "학식 있는 무지"
+      }
+    ],
+    "influences": [
+      "pseudo-dionysius",
+      "meister-eckhart",
+      "plato"
+    ],
+    "influenced": [
+      "giordano-bruno",
+      "leibniz"
+    ],
+    "school": [
+      "부정신학",
+      "르네상스 선구"
+    ],
+    "concepts": [
+      "학식 있는 무지",
+      "대립자의 합치",
+      "우주의 무한성"
+    ],
+    "questions": [
+      "무한을 어떻게 인식하는가?",
+      "대립은 합치할 수 있는가?"
+    ]
+  },
+  {
+    "id": "erasmus",
+    "name": {
+      "ko": "에라스무스",
+      "en": "Erasmus",
+      "original": "Desiderius Erasmus Roterodamus"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1466,
+      "end": 1536
+    },
+    "location": {
+      "lat": 51.92,
+      "lng": 4.48,
+      "region": "네덜란드 로테르담"
+    },
+    "category": "philosopher",
+    "subcategory": "renaissance",
+    "tags": [
+      "인문주의",
+      "르네상스",
+      "기독교 인문주의",
+      "풍자"
+    ],
+    "mvp": false,
+    "summary": "북유럽 르네상스 인문주의의 대표자. 《우신예찬》으로 교회의 부패를 풍자하고, 성경의 원전 비평을 통해 종교개혁에 지적 토대를 마련했다.",
+    "detailed": "에라스무스는 네덜란드 로테르담 출신의 기독교 인문주의자로, 유럽 전역에서 활동했다. 《우신예찬(Moriae Encomium)》에서 교회의 무지와 위선을 신랄하게 풍자했으며, 그리스어 신약성경 원전을 교정 출판하여 종교개혁의 지적 기반을 마련했다. 그러나 루터의 급진적 개혁에는 반대하여, 자유의지 논쟁에서 루터와 대립했다.",
+    "keyWorks": [
+      {
+        "title": "우신예찬",
+        "year": 1511,
+        "type": "book"
+      },
+      {
+        "title": "그리스어 신약성경",
+        "year": 1516,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "plato",
+      "cicero"
+    ],
+    "influenced": [
+      "thomas-more",
+      "montaigne"
+    ],
+    "school": [
+      "기독교 인문주의"
+    ],
+    "concepts": [
+      "기독교 인문주의",
+      "원전 비평",
+      "관용"
+    ],
+    "questions": [
+      "지식인의 사회적 책임이란?"
+    ]
+  },
+  {
+    "id": "machiavelli",
+    "name": {
+      "ko": "마키아벨리",
+      "en": "Machiavelli",
+      "original": "Niccolò Machiavelli"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1469,
+      "end": 1527
+    },
+    "location": {
+      "lat": 43.77,
+      "lng": 11.25,
+      "region": "이탈리아 피렌체"
+    },
+    "category": "philosopher",
+    "subcategory": "renaissance",
+    "tags": [
+      "정치철학",
+      "르네상스",
+      "현실주의",
+      "권력론"
+    ],
+    "mvp": true,
+    "summary": "근대 정치철학의 창시자. 《군주론》에서 정치를 도덕에서 분리하여 권력의 현실적 작동 방식을 냉혹하게 분석했다.",
+    "detailed": "마키아벨리는 피렌체 공화국의 외교관 출신으로, 메디치 가문의 복귀 후 정치에서 물러나 저술에 전념했다. 《군주론》은 정치를 도덕이나 종교에서 분리하여, 군주가 권력을 획득하고 유지하기 위해 필요한 현실적 방법을 서술한다. '여우의 교활함과 사자의 힘'을 갖추어야 한다고 주장했다. 《로마사 논고》에서는 공화주의적 이상도 전개했다.",
+    "keyWorks": [
+      {
+        "title": "군주론",
+        "year": 1513,
+        "type": "book"
+      },
+      {
+        "title": "로마사 논고",
+        "year": 1517,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "목적이 수단을 정당화한다.",
+        "source": "군주론 (통속적 해석)"
+      },
+      {
+        "text": "사랑받는 것보다 두려움의 대상이 되는 것이 안전하다.",
+        "source": "군주론"
+      }
+    ],
+    "influences": [
+      "aristotle",
+      "cicero"
+    ],
+    "influenced": [
+      "hobbes",
+      "montesquieu",
+      "rousseau"
+    ],
+    "school": [
+      "정치적 현실주의"
+    ],
+    "concepts": [
+      "비르투",
+      "포르투나",
+      "국가이성",
+      "정치와 도덕의 분리"
+    ],
+    "questions": [
+      "정치에 도덕은 필요한가?",
+      "권력을 어떻게 유지하는가?"
+    ]
+  },
+  {
+    "id": "thomas-more",
+    "name": {
+      "ko": "토마스 모어",
+      "en": "Thomas More",
+      "original": "Thomas More"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1478,
+      "end": 1535
+    },
+    "location": {
+      "lat": 51.52,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "philosopher",
+    "subcategory": "renaissance",
+    "tags": [
+      "인문주의",
+      "유토피아",
+      "정치철학"
+    ],
+    "mvp": false,
+    "summary": "《유토피아》의 저자로, 이상적 사회의 모습을 그린 인문주의자. 헨리 8세의 종교 정책에 반대하여 순교했다.",
+    "detailed": "토마스 모어는 영국의 법률가이자 인문주의자로, 헨리 8세의 대법관을 역임했다. 《유토피아(1516)》에서 사유재산이 없고 종교적 관용이 보장된 이상적 섬나라를 그려, 당대 유럽 사회를 비판했다. '유토피아(어디에도 없는 곳)'라는 용어를 창안했다. 헨리 8세의 수장령에 반대하여 처형되었으며, 가톨릭 교회에서 성인으로 시성되었다.",
+    "keyWorks": [
+      {
+        "title": "유토피아",
+        "year": 1516,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "plato",
+      "erasmus"
+    ],
+    "influenced": [],
+    "school": [
+      "기독교 인문주의"
+    ],
+    "concepts": [
+      "유토피아",
+      "이상 사회",
+      "관용"
+    ],
+    "questions": [
+      "이상적 사회는 가능한가?"
+    ]
+  },
+  {
+    "id": "montaigne",
+    "name": {
+      "ko": "몽테뉴",
+      "en": "Montaigne",
+      "original": "Michel de Montaigne"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1533,
+      "end": 1592
+    },
+    "location": {
+      "lat": 44.84,
+      "lng": -0.58,
+      "region": "프랑스 보르도"
+    },
+    "category": "philosopher",
+    "subcategory": "renaissance",
+    "tags": [
+      "에세이",
+      "회의주의",
+      "인간학",
+      "관용"
+    ],
+    "mvp": true,
+    "summary": "에세이(수필) 장르의 창시자. '나는 무엇을 아는가(Que sais-je?)'를 화두로, 인간의 편견과 한계를 성찰하며 관용과 자기 탐구를 실천했다.",
+    "detailed": "몽테뉴는 프랑스 보르도 근처 성에서 태어나, 시장을 역임한 뒤 은거하며 《수상록(Essais)》을 집필했다. 고대 회의주의(특히 섹스투스 엠피리쿠스)를 부활시켜 인간 이성의 한계를 보여주면서도, 자기 자신에 대한 솔직한 관찰을 통해 보편적 인간 조건을 탐구했다. 종교전쟁 시대에 관용과 상호 이해를 호소했다. 파스칼과 데카르트에게 결정적 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "수상록 (에세)",
+        "year": 1580,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 무엇을 아는가? (Que sais-je?)",
+        "source": "수상록"
+      },
+      {
+        "text": "세상에서 가장 위대한 일은 자기 자신이 되는 법을 아는 것이다.",
+        "source": "수상록"
+      }
+    ],
+    "influences": [
+      "sextus-empiricus",
+      "seneca",
+      "plutarch"
+    ],
+    "influenced": [
+      "pascal",
+      "descartes",
+      "rousseau"
+    ],
+    "school": [
+      "르네상스 회의주의"
+    ],
+    "concepts": [
+      "에세이",
+      "자기 탐구",
+      "관용",
+      "퓌시스와 노모스"
+    ],
+    "questions": [
+      "나는 무엇을 아는가?",
+      "인간의 본성이란?"
+    ]
+  },
+  {
+    "id": "giordano-bruno",
+    "name": {
+      "ko": "조르다노 브루노",
+      "en": "Giordano Bruno",
+      "original": "Giordano Bruno"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1548,
+      "end": 1600
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "이탈리아 (유럽 각지)"
+    },
+    "category": "philosopher",
+    "subcategory": "renaissance",
+    "tags": [
+      "우주론",
+      "범신론",
+      "무한 우주",
+      "이단"
+    ],
+    "mvp": false,
+    "summary": "무한한 우주와 무수한 세계를 주장한 르네상스 사상가. 이단 혐의로 화형당했으며, 사상의 자유를 위한 순교자로 평가된다.",
+    "detailed": "브루노는 나폴리 근처 놀라 출신의 도미니코회 수도사로, 코페르니쿠스의 태양중심설을 넘어 우주가 무한하며 태양과 같은 별들이 무수히 있다고 주장했다. 쿠자누스의 '대립자의 합치'와 스피노자에 앞선 범신론을 전개했다. 유럽 각지를 떠돌다 로마 종교재판소에 의해 화형당했다. 근대 자유사상과 우주론의 선구자로 재평가된다.",
+    "keyWorks": [
+      {
+        "title": "원인, 원리 그리고 하나에 관하여",
+        "year": 1584,
+        "type": "book"
+      },
+      {
+        "title": "무한한 우주와 세계에 관하여",
+        "year": 1584,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "nicholas-of-cusa",
+      "lucretius",
+      "plotinus"
+    ],
+    "influenced": [
+      "spinoza",
+      "leibniz"
+    ],
+    "school": [
+      "르네상스 자연철학"
+    ],
+    "concepts": [
+      "무한 우주",
+      "범신론",
+      "단자론의 선구"
+    ],
+    "questions": [
+      "우주는 유한한가 무한한가?"
+    ]
+  },
+  {
+    "id": "francis-bacon",
+    "name": {
+      "ko": "프란시스 베이컨",
+      "en": "Francis Bacon",
+      "original": "Francis Bacon"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1561,
+      "end": 1626
+    },
+    "location": {
+      "lat": 51.52,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "philosopher",
+    "subcategory": "renaissance",
+    "tags": [
+      "경험론",
+      "귀납법",
+      "과학혁명",
+      "우상론"
+    ],
+    "mvp": true,
+    "summary": "근대 경험론과 과학적 방법의 선구자. '아는 것이 힘이다'를 선언하고, 귀납법에 기반한 새로운 학문 방법을 제시했다.",
+    "detailed": "프란시스 베이컨은 영국의 정치가이자 철학자로, 대법관을 역임했다. 《신기관(Novum Organum)》에서 아리스토텔레스의 연역적 오르가논에 대항하여, 관찰과 실험에 기반한 귀납법을 제시했다. 인간의 편견을 네 가지 우상(종족·동굴·시장·극장)으로 분류하여 학문적 오류의 원인을 분석했다. '아는 것이 힘이다(scientia potentia est)'라는 명제는 근대적 지식관의 표어가 되었다.",
+    "keyWorks": [
+      {
+        "title": "신기관",
+        "year": 1620,
+        "type": "book"
+      },
+      {
+        "title": "학문의 진보",
+        "year": 1605,
+        "type": "book"
+      },
+      {
+        "title": "새로운 아틀란티스",
+        "year": 1627,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "아는 것이 힘이다.",
+        "source": "전승"
+      },
+      {
+        "text": "자연은 복종함으로써만 지배할 수 있다.",
+        "source": "신기관"
+      }
+    ],
+    "influences": [
+      "roger-bacon",
+      "william-of-ockham"
+    ],
+    "influenced": [
+      "locke",
+      "hume",
+      "hobbes"
+    ],
+    "school": [
+      "경험론",
+      "귀납주의"
+    ],
+    "concepts": [
+      "귀납법",
+      "네 가지 우상",
+      "아는 것이 힘",
+      "새로운 학문"
+    ],
+    "questions": [
+      "지식은 어떻게 획득하는가?",
+      "편견을 어떻게 극복하는가?"
+    ]
+  },
+  {
+    "id": "grotius",
+    "name": {
+      "ko": "그로티우스",
+      "en": "Hugo Grotius",
+      "original": "Hugo de Groot"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1583,
+      "end": 1645
+    },
+    "location": {
+      "lat": 52.08,
+      "lng": 4.31,
+      "region": "네덜란드 델프트"
+    },
+    "category": "philosopher",
+    "subcategory": "renaissance",
+    "tags": [
+      "국제법",
+      "자연법",
+      "정치철학"
+    ],
+    "mvp": false,
+    "summary": "근대 국제법의 아버지. 자연법에 기반한 국제법 이론을 체계화하여, 신의 존재와 무관하게 도덕법이 타당하다고 주장했다.",
+    "detailed": "그로티우스는 네덜란드의 법학자이자 외교관으로, 근대 국제법(만국공법)의 창시자로 불린다. 《전쟁과 평화의 법》에서 자연법에 기반하여 전쟁의 합법적 원인과 한계를 규정했다. '설령 신이 존재하지 않더라도 자연법은 타당하다(etiamsi daremus non esse Deum)'는 명제는 세속적 자연법 이론의 출발점이다.",
+    "keyWorks": [
+      {
+        "title": "전쟁과 평화의 법",
+        "year": 1625,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "cicero",
+      "thomas-aquinas"
+    ],
+    "influenced": [
+      "locke",
+      "kant"
+    ],
+    "school": [
+      "자연법론",
+      "국제법"
+    ],
+    "concepts": [
+      "자연법",
+      "국제법",
+      "정의전쟁론"
+    ],
+    "questions": [
+      "전쟁에도 법칙이 있는가?"
+    ]
+  },
+  {
+    "id": "hobbes",
+    "name": {
+      "ko": "홉스",
+      "en": "Hobbes",
+      "original": "Thomas Hobbes"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1588,
+      "end": 1679
+    },
+    "location": {
+      "lat": 51.52,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "philosopher",
+    "subcategory": "renaissance",
+    "tags": [
+      "사회계약론",
+      "정치철학",
+      "유물론",
+      "절대주의"
+    ],
+    "mvp": true,
+    "summary": "사회계약론의 선구자. 자연상태를 '만인의 만인에 대한 투쟁'으로 규정하고, 강력한 주권자(리바이어던)에 의한 질서를 주장했다.",
+    "detailed": "홉스는 영국의 정치철학자이자 유물론자이다. 《리바이어던》에서 자연상태에서의 인간은 자기보존 본능에 따라 '만인의 만인에 대한 투쟁' 상태에 있으며, 이를 벗어나기 위해 사회계약으로 주권자에게 권력을 양도한다고 주장했다. 기계론적 유물론에 입각하여, 인간의 정신 활동도 물질적 운동으로 설명했다. 로크, 루소 등 이후 사회계약론의 출발점이 되었다.",
+    "keyWorks": [
+      {
+        "title": "리바이어던",
+        "year": 1651,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "만인의 만인에 대한 투쟁.",
+        "source": "리바이어던"
+      },
+      {
+        "text": "자연상태에서의 삶은 고독하고, 가난하고, 불결하고, 짧다.",
+        "source": "리바이어던"
+      }
+    ],
+    "influences": [
+      "machiavelli",
+      "francis-bacon",
+      "democritus"
+    ],
+    "influenced": [
+      "locke",
+      "rousseau",
+      "spinoza"
+    ],
+    "school": [
+      "사회계약론",
+      "유물론"
+    ],
+    "concepts": [
+      "사회계약",
+      "리바이어던",
+      "자연상태",
+      "자연권"
+    ],
+    "questions": [
+      "국가는 왜 필요한가?",
+      "정당한 권력의 근거는?"
+    ]
+  },
+  {
+    "id": "gassendi",
+    "name": {
+      "ko": "가상디",
+      "en": "Pierre Gassendi",
+      "original": "Pierre Gassendi"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1592,
+      "end": 1655
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "renaissance",
+    "tags": [
+      "원자론",
+      "에피쿠로스주의",
+      "경험론"
+    ],
+    "mvp": false,
+    "summary": "에피쿠로스의 원자론을 기독교와 양립 가능한 형태로 부활시킨 철학자. 데카르트의 합리론에 반대하여 경험론적 인식론을 주장했다.",
+    "detailed": "가상디는 프랑스의 사제이자 철학자, 천문학자로, 에피쿠로스의 원자론과 윤리학을 기독교 신학과 조화시키려 했다. 원자는 신이 창조한 것이며 영혼은 물질적 원자와 다른 비물질적 존재라고 주장하여, 유물론적 함의를 피했다. 데카르트의 《성찰》에 반론을 제기하여 유명한 철학적 논쟁을 벌였다.",
+    "keyWorks": [
+      {
+        "title": "에피쿠로스 철학 종합",
+        "year": 1649,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "epicurus",
+      "lucretius"
+    ],
+    "influenced": [
+      "locke"
+    ],
+    "school": [
+      "에피쿠로스주의",
+      "기독교 원자론"
+    ],
+    "concepts": [
+      "기독교적 원자론",
+      "경험론적 인식론"
+    ],
+    "questions": [
+      "원자론은 신앙과 양립하는가?"
+    ]
+  },
+  {
+    "id": "descartes",
+    "name": {
+      "ko": "데카르트",
+      "en": "Descartes",
+      "original": "René Descartes"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1596,
+      "end": 1650
+    },
+    "location": {
+      "lat": 52.37,
+      "lng": 4.9,
+      "region": "네덜란드 (프랑스 출신)"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "scientist"
+    ],
+    "subcategory": "rationalist",
+    "tags": [
+      "합리론",
+      "이원론",
+      "방법적 회의",
+      "근대 철학의 아버지"
+    ],
+    "mvp": true,
+    "summary": "근대 철학의 아버지. '나는 생각한다, 고로 나는 존재한다(Cogito ergo sum)'로 확실한 지식의 토대를 세우고, 심신이원론을 주장했다.",
+    "detailed": "데카르트는 프랑스 출신으로 주로 네덜란드에서 활동했다. 《방법서설》과 《성찰》에서 모든 것을 의심하는 방법적 회의를 거쳐, 의심하는 나 자신의 존재만은 의심할 수 없다는 코기토(cogito)에 도달했다. 이를 토대로 신의 존재를 증명하고, 정신(사유 실체)과 물질(연장 실체)이라는 이원론 체계를 구축했다. 해석기하학을 창안하여 수학에도 혁명적 기여를 했다.",
+    "keyWorks": [
+      {
+        "title": "방법서설",
+        "year": 1637,
+        "type": "book"
+      },
+      {
+        "title": "성찰",
+        "year": 1641,
+        "type": "book"
+      },
+      {
+        "title": "철학의 원리",
+        "year": 1644,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 생각한다, 고로 나는 존재한다. (Cogito ergo sum)",
+        "source": "방법서설"
+      },
+      {
+        "text": "좋은 정신을 가진 것만으로는 충분하지 않다. 중요한 것은 그것을 잘 사용하는 것이다.",
+        "source": "방법서설"
+      }
+    ],
+    "influences": [
+      "augustine",
+      "anselm",
+      "montaigne",
+      "sextus-empiricus"
+    ],
+    "influenced": [
+      "spinoza",
+      "leibniz",
+      "malebranche",
+      "locke",
+      "kant"
+    ],
+    "school": [
+      "합리론",
+      "이원론"
+    ],
+    "concepts": [
+      "코기토",
+      "방법적 회의",
+      "심신이원론",
+      "명석판명한 관념",
+      "송과선"
+    ],
+    "questions": [
+      "확실한 지식의 토대는 무엇인가?",
+      "정신과 물질은 어떤 관계인가?"
+    ],
+    "field": [
+      "수학",
+      "광학"
+    ]
+  },
+  {
+    "id": "arnauld",
+    "name": {
+      "ko": "아르노",
+      "en": "Antoine Arnauld",
+      "original": "Antoine Arnauld"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1612,
+      "end": 1694
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "rationalist",
+    "tags": [
+      "얀센주의",
+      "논리학",
+      "포르루아얄"
+    ],
+    "mvp": false,
+    "summary": "포르루아얄 논리학의 공저자이자 얀센주의 신학의 대표자. 데카르트, 말브랑슈, 라이프니츠와의 철학적 논쟁으로 유명하다.",
+    "detailed": "앙투안 아르노는 '위대한 아르노'로 불린 프랑스의 신학자, 철학자이다. 니콜과 함께 《포르루아얄 논리학(사유의 기술)》을 저술하여, 데카르트적 방법론에 기반한 논리학 교과서를 만들었다. 데카르트의 《성찰》에 반론을 제기하고, 말브랑슈의 기회인론과 라이프니츠의 모나드론을 비판했다. 얀센주의의 주도적 옹호자로서 예수회와 길고 긴 논쟁을 벌였다.",
+    "keyWorks": [
+      {
+        "title": "포르루아얄 논리학 (사유의 기술)",
+        "year": 1662,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "descartes",
+      "augustine"
+    ],
+    "influenced": [],
+    "school": [
+      "포르루아얄",
+      "얀센주의"
+    ],
+    "concepts": [
+      "포르루아얄 논리학",
+      "내포와 외연"
+    ],
+    "questions": [
+      "명석판명한 관념은 참된 인식을 보장하는가?"
+    ]
+  },
+  {
+    "id": "pascal",
+    "name": {
+      "ko": "파스칼",
+      "en": "Pascal",
+      "original": "Blaise Pascal"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1623,
+      "end": 1662
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "scientist"
+    ],
+    "subcategory": "renaissance",
+    "tags": [
+      "기독교 변증",
+      "수학",
+      "확률론",
+      "얀센주의"
+    ],
+    "mvp": true,
+    "summary": "수학자, 물리학자이자 기독교 변증론자. '파스칼의 내기'와 '마음의 이유' 개념으로 유명하며, 《팡세》는 인간 조건에 대한 깊은 성찰이다.",
+    "detailed": "파스칼은 프랑스의 수학자, 물리학자, 철학자이다. 12세에 기하학 정리를 스스로 증명했고, 기압계 실험, 확률론, 파스칼 삼각형 등 과학적 업적을 남겼다. 1654년 신비 체험('불의 밤') 이후 종교적 저술에 전념했다. 《팡세》에서 인간은 '생각하는 갈대'이며, 이성의 한계를 넘어선 '마음의 이유(raisons du coeur)'가 있다고 주장했다. '파스칼의 내기'는 신 존재에 대한 실용적 논증이다.",
+    "keyWorks": [
+      {
+        "title": "팡세",
+        "year": 1670,
+        "type": "book"
+      },
+      {
+        "title": "시골 친구에게 보내는 편지",
+        "year": 1657,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "인간은 생각하는 갈대이다.",
+        "source": "팡세"
+      },
+      {
+        "text": "마음에는 이성이 모르는 이유가 있다.",
+        "source": "팡세"
+      },
+      {
+        "text": "클레오파트라의 코가 조금만 낮았더라면 세계의 얼굴이 바뀌었을 것이다.",
+        "source": "팡세"
+      }
+    ],
+    "influences": [
+      "montaigne",
+      "augustine",
+      "descartes"
+    ],
+    "influenced": [
+      "kierkegaard",
+      "dostoevsky"
+    ],
+    "school": [
+      "기독교 변증론",
+      "얀센주의"
+    ],
+    "concepts": [
+      "생각하는 갈대",
+      "파스칼의 내기",
+      "마음의 이유",
+      "디베르티스망"
+    ],
+    "questions": [
+      "신을 믿는 것이 합리적인가?",
+      "인간의 비참함과 위대함은?"
+    ],
+    "field": [
+      "수학",
+      "물리학"
+    ]
+  },
+  {
+    "id": "spinoza",
+    "name": {
+      "ko": "스피노자",
+      "en": "Spinoza",
+      "original": "Baruch Spinoza"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1632,
+      "end": 1677
+    },
+    "location": {
+      "lat": 52.08,
+      "lng": 4.31,
+      "region": "네덜란드 헤이그"
+    },
+    "category": "philosopher",
+    "subcategory": "rationalist",
+    "tags": [
+      "합리론",
+      "범신론",
+      "윤리학",
+      "자유"
+    ],
+    "mvp": true,
+    "summary": "신 즉 자연(Deus sive Natura)을 주장한 범신론 철학자. 기하학적 방법으로 《에티카》를 저술하여, 자유란 필연성의 인식이라고 논증했다.",
+    "detailed": "스피노자는 암스테르담의 유대인 공동체 출신으로, 비정통적 신관으로 파문당했다. 렌즈를 갈아 생계를 유지하며 저술에 전념했다. 《에티카》에서 신과 자연은 동일한 유일 실체이며, 모든 것은 이 실체의 양태라고 주장했다(범신론). 자유의지는 환상이며, 진정한 자유는 사물의 필연적 질서를 이해하는 데 있다. 기하학적 증명 방식(정의-공리-정리)으로 윤리학을 전개한 독특한 방법론이 특징이다.",
+    "keyWorks": [
+      {
+        "title": "에티카",
+        "year": 1677,
+        "type": "book"
+      },
+      {
+        "title": "신학정치론",
+        "year": 1670,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "신 즉 자연. (Deus sive Natura)",
+        "source": "에티카"
+      },
+      {
+        "text": "자유로운 인간은 죽음에 대해 생각하지 않는다.",
+        "source": "에티카"
+      }
+    ],
+    "influences": [
+      "descartes",
+      "maimonides",
+      "hobbes",
+      "giordano-bruno"
+    ],
+    "influenced": [
+      "leibniz",
+      "hegel",
+      "nietzsche",
+      "deleuze"
+    ],
+    "school": [
+      "합리론",
+      "범신론"
+    ],
+    "concepts": [
+      "신 즉 자연",
+      "실체 일원론",
+      "코나투스",
+      "필연성으로서의 자유"
+    ],
+    "questions": [
+      "신과 자연은 동일한가?",
+      "자유의지는 존재하는가?"
+    ]
+  },
+  {
+    "id": "locke",
+    "name": {
+      "ko": "로크",
+      "en": "Locke",
+      "original": "John Locke"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1632,
+      "end": 1704
+    },
+    "location": {
+      "lat": 51.52,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "philosopher",
+    "subcategory": "empiricist",
+    "tags": [
+      "경험론",
+      "자유주의",
+      "사회계약론",
+      "관용"
+    ],
+    "mvp": true,
+    "summary": "근대 경험론의 창시자이자 자유주의 정치철학의 아버지. 인간의 마음은 백지(tabula rasa)이며, 모든 지식은 경험에서 온다고 주장했다.",
+    "detailed": "로크는 영국의 철학자이자 의사로, 《인간오성론》에서 본유관념을 부정하고 인간의 마음은 백지(tabula rasa)로 시작하여 감각 경험과 반성을 통해 지식을 획득한다고 주장했다. 《통치론 2편》에서 자연권(생명, 자유, 재산)과 사회계약, 저항권을 이론화하여 명예혁명을 정당화했다. 이는 미국 독립선언과 프랑스 인권선언의 사상적 기반이 되었다.",
+    "keyWorks": [
+      {
+        "title": "인간오성론",
+        "year": 1689,
+        "type": "book"
+      },
+      {
+        "title": "통치론",
+        "year": 1689,
+        "type": "book"
+      },
+      {
+        "title": "관용에 관한 서한",
+        "year": 1689,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "인간의 마음은 백지와 같다.",
+        "source": "인간오성론"
+      }
+    ],
+    "influences": [
+      "francis-bacon",
+      "descartes",
+      "hobbes"
+    ],
+    "influenced": [
+      "berkeley",
+      "hume",
+      "voltaire",
+      "rousseau",
+      "kant"
+    ],
+    "school": [
+      "경험론",
+      "자유주의"
+    ],
+    "concepts": [
+      "백지설",
+      "자연권",
+      "사회계약",
+      "삼권분립",
+      "관용"
+    ],
+    "questions": [
+      "지식의 기원은 무엇인가?",
+      "정당한 정부란?"
+    ]
+  },
+  {
+    "id": "malebranche",
+    "name": {
+      "ko": "말브랑슈",
+      "en": "Malebranche",
+      "original": "Nicolas Malebranche"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1638,
+      "end": 1715
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "rationalist",
+    "tags": [
+      "합리론",
+      "기회인론",
+      "신 안에서의 관조"
+    ],
+    "mvp": false,
+    "summary": "데카르트의 심신이원론 문제를 기회인론으로 해결한 철학자. 모든 인식은 '신 안에서의 관조'라고 주장했다.",
+    "detailed": "말브랑슈는 파리의 오라토리오회 사제이자 철학자로, 데카르트 철학에 깊은 영향을 받았다. 정신과 물질 사이의 상호작용 문제를 기회인론(occasionalism)으로 해결했다: 정신과 물질은 직접 작용하지 않으며, 신이 매 순간 양자를 조율한다. 또한 우리가 사물을 인식하는 것은 '신 안에서' 이데아를 보는 것이라고 주장했다.",
+    "keyWorks": [
+      {
+        "title": "진리 탐구",
+        "year": 1674,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "descartes",
+      "augustine"
+    ],
+    "influenced": [
+      "berkeley",
+      "hume"
+    ],
+    "school": [
+      "합리론",
+      "기회인론"
+    ],
+    "concepts": [
+      "기회인론",
+      "신 안에서의 관조"
+    ],
+    "questions": [
+      "정신과 물질은 어떻게 상호작용하는가?"
+    ]
+  },
+  {
+    "id": "leibniz",
+    "name": {
+      "ko": "라이프니츠",
+      "en": "Leibniz",
+      "original": "Gottfried Wilhelm Leibniz"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1646,
+      "end": 1716
+    },
+    "location": {
+      "lat": 52.37,
+      "lng": 9.74,
+      "region": "독일 하노버"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "scientist"
+    ],
+    "subcategory": "rationalist",
+    "tags": [
+      "합리론",
+      "모나드론",
+      "수학",
+      "논리학",
+      "낙관론"
+    ],
+    "mvp": true,
+    "summary": "모나드론과 '최선의 세계' 이론으로 유명한 합리론 철학자. 뉴턴과 독립적으로 미적분학을 발명한 수학자이기도 하다.",
+    "detailed": "라이프니츠는 독일의 철학자, 수학자, 논리학자, 외교관으로 최후의 '보편 천재'로 불린다. 세계는 무수한 정신적 단위인 모나드(monade)로 구성되며, 각 모나드는 '창 없는' 독립적 실체이지만 신의 예정조화에 의해 조화를 이룬다고 주장했다. 이 세계는 신이 선택한 '가능한 세계 중 최선의 세계'라는 낙관론을 전개했다. 뉴턴과 독립적으로 미적분학을 발명했으며, 이진법, 기호논리학의 선구적 업적도 남겼다.",
+    "keyWorks": [
+      {
+        "title": "모나드론",
+        "year": 1714,
+        "type": "book"
+      },
+      {
+        "title": "신정론",
+        "year": 1710,
+        "type": "book"
+      },
+      {
+        "title": "인간오성신론",
+        "year": 1704,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "이 세계는 가능한 모든 세계 중 최선의 세계이다.",
+        "source": "신정론"
+      },
+      {
+        "text": "왜 무가 아니라 무언가가 존재하는가?",
+        "source": "자연과 은총의 원리"
+      }
+    ],
+    "influences": [
+      "descartes",
+      "spinoza",
+      "plato",
+      "aristotle"
+    ],
+    "influenced": [
+      "wolff",
+      "kant",
+      "russell",
+      "whitehead"
+    ],
+    "school": [
+      "합리론",
+      "모나드론"
+    ],
+    "concepts": [
+      "모나드",
+      "예정조화",
+      "최선의 세계",
+      "충족이유율",
+      "불가식별자 동일 원리"
+    ],
+    "questions": [
+      "왜 무가 아니라 무언가가 존재하는가?",
+      "이 세계는 최선의 세계인가?"
+    ],
+    "field": [
+      "수학",
+      "논리학"
+    ]
+  },
+  {
+    "id": "berkeley",
+    "name": {
+      "ko": "버클리",
+      "en": "Berkeley",
+      "original": "George Berkeley"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1685,
+      "end": 1753
+    },
+    "location": {
+      "lat": 52.84,
+      "lng": -6.93,
+      "region": "아일랜드 킬케니"
+    },
+    "category": "philosopher",
+    "subcategory": "empiricist",
+    "tags": [
+      "경험론",
+      "관념론",
+      "비물질론"
+    ],
+    "mvp": true,
+    "summary": "'존재하는 것은 지각되는 것이다(esse est percipi)'를 주장한 관념론자. 물질의 독립적 존재를 부정하고, 모든 것은 정신과 관념뿐이라고 논증했다.",
+    "detailed": "버클리는 아일랜드의 성공회 주교이자 철학자이다. 로크의 경험론을 급진화하여, 물질적 실체의 존재를 부정했다. 우리가 아는 것은 감각적 관념뿐이며, 관념은 정신 안에만 존재한다. 사물이 지각되지 않을 때에도 존재하는 것은 신이 항상 지각하고 있기 때문이다. 이러한 비물질론(immaterialism)은 유물론과 무신론에 대한 반박으로 의도된 것이었다.",
+    "keyWorks": [
+      {
+        "title": "인지 원리론",
+        "year": 1710,
+        "type": "book"
+      },
+      {
+        "title": "하일라스와 필로노스의 세 대화",
+        "year": 1713,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "존재하는 것은 지각되는 것이다. (Esse est percipi)",
+        "source": "인지 원리론"
+      }
+    ],
+    "influences": [
+      "locke",
+      "malebranche"
+    ],
+    "influenced": [
+      "hume",
+      "kant"
+    ],
+    "school": [
+      "경험론",
+      "주관적 관념론"
+    ],
+    "concepts": [
+      "존재는 지각됨",
+      "비물질론",
+      "신의 지각"
+    ],
+    "questions": [
+      "물질은 정말 존재하는가?"
+    ]
+  },
+  {
+    "id": "montesquieu",
+    "name": {
+      "ko": "몽테스키외",
+      "en": "Montesquieu",
+      "original": "Charles-Louis de Secondat"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1689,
+      "end": 1755
+    },
+    "location": {
+      "lat": 44.84,
+      "lng": -0.58,
+      "region": "프랑스 보르도"
+    },
+    "category": "philosopher",
+    "subcategory": "enlightenment",
+    "tags": [
+      "계몽주의",
+      "삼권분립",
+      "정치철학",
+      "법사회학"
+    ],
+    "mvp": true,
+    "summary": "삼권분립론으로 유명한 계몽주의 정치사상가. 《법의 정신》에서 법과 정치 제도를 기후, 풍토, 사회구조와 연관지어 분석했다.",
+    "detailed": "몽테스키외는 프랑스 보르도의 귀족 출신으로, 법관을 역임했다. 《법의 정신(1748)》에서 공화정, 군주정, 전제정의 세 정체를 분석하고, 입법·행정·사법의 삼권분립을 통한 권력 견제의 필요성을 주장했다. 이는 미국 헌법의 사상적 기반이 되었다. 법과 정치를 기후, 지리, 인구, 종교 등 사회적 조건과 관련지어 분석하는 사회학적 접근의 선구자이기도 하다.",
+    "keyWorks": [
+      {
+        "title": "법의 정신",
+        "year": 1748,
+        "type": "book"
+      },
+      {
+        "title": "페르시아인의 편지",
+        "year": 1721,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "권력을 남용하지 않으려면, 권력이 권력을 견제해야 한다.",
+        "source": "법의 정신"
+      }
+    ],
+    "influences": [
+      "locke",
+      "aristotle",
+      "machiavelli"
+    ],
+    "influenced": [
+      "rousseau",
+      "madison",
+      "tocqueville"
+    ],
+    "school": [
+      "계몽주의",
+      "입헌주의"
+    ],
+    "concepts": [
+      "삼권분립",
+      "정체 유형론",
+      "법의 정신"
+    ],
+    "questions": [
+      "권력 남용을 어떻게 방지하는가?"
+    ]
+  },
+  {
+    "id": "voltaire",
+    "name": {
+      "ko": "볼테르",
+      "en": "Voltaire",
+      "original": "François-Marie Arouet"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1694,
+      "end": 1778
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "enlightenment",
+    "tags": [
+      "계몽주의",
+      "관용",
+      "이신론",
+      "풍자"
+    ],
+    "mvp": true,
+    "summary": "프랑스 계몽주의의 상징적 인물. 관용, 이성, 표현의 자유를 옹호하며 종교적 광신과 전제주의에 맞서 풍자의 칼을 휘둘렀다.",
+    "detailed": "볼테르는 프랑스의 작가, 철학자, 역사가로 계몽주의의 가장 영향력 있는 인물이다. 영국 망명 경험을 바탕으로 로크의 경험론과 뉴턴의 과학을 프랑스에 소개했다. 《캉디드》에서 라이프니츠의 낙관론을 풍자했고, 칼라스 사건 등에서 종교적 관용과 사법 개혁을 위해 투쟁했다. '나는 당신의 의견에 동의하지 않지만, 당신이 그것을 말할 권리는 죽음으로 지키겠다'는 그의 정신을 표현한다.",
+    "keyWorks": [
+      {
+        "title": "캉디드",
+        "year": 1759,
+        "type": "book"
+      },
+      {
+        "title": "철학서간 (영국인에 관한 편지)",
+        "year": 1733,
+        "type": "book"
+      },
+      {
+        "title": "관용론",
+        "year": 1763,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 당신의 의견에 동의하지 않지만, 당신이 그것을 말할 권리는 죽음으로 지키겠다.",
+        "source": "전승 (Evelyn Beatrice Hall 표현)"
+      }
+    ],
+    "influences": [
+      "locke",
+      "newton"
+    ],
+    "influenced": [
+      "diderot",
+      "rousseau"
+    ],
+    "school": [
+      "계몽주의",
+      "이신론"
+    ],
+    "concepts": [
+      "관용",
+      "이성",
+      "표현의 자유",
+      "이신론"
+    ],
+    "questions": [
+      "종교적 관용은 가능한가?",
+      "이성은 미신을 극복할 수 있는가?"
+    ]
+  },
+  {
+    "id": "thomas-reid",
+    "name": {
+      "ko": "토마스 리드",
+      "en": "Thomas Reid",
+      "original": "Thomas Reid"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1710,
+      "end": 1796
+    },
+    "location": {
+      "lat": 57.15,
+      "lng": -2.09,
+      "region": "스코틀랜드 애버딘"
+    },
+    "category": "philosopher",
+    "subcategory": "empiricist",
+    "tags": [
+      "상식철학",
+      "스코틀랜드 철학"
+    ],
+    "mvp": false,
+    "summary": "스코틀랜드 상식철학의 창시자. 흄의 회의주의에 반대하여, 인간에게는 보편적 상식의 원리가 있으며 이것이 지식의 토대라고 주장했다.",
+    "detailed": "토마스 리드는 스코틀랜드의 철학자로, 흄의 회의주의가 경험론의 불가피한 귀결이라면 경험론의 전제가 잘못된 것이라고 주장했다. 관념은 지각의 대상이 아니라 행위이며, 인간에게는 외부 세계의 실재, 인과성, 타인의 마음 등에 대한 보편적 '상식(common sense)' 원리가 있다고 보았다. 이는 후대 프래그머티즘과 상식 실재론에 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "인간 마음의 능력에 관한 탐구",
+        "year": 1764,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "locke"
+    ],
+    "influenced": [
+      "peirce",
+      "ge-moore"
+    ],
+    "school": [
+      "스코틀랜드 상식철학"
+    ],
+    "concepts": [
+      "상식의 원리",
+      "직접 실재론"
+    ],
+    "questions": [
+      "상식은 철학의 토대가 될 수 있는가?"
+    ]
+  },
+  {
+    "id": "hume",
+    "name": {
+      "ko": "흄",
+      "en": "Hume",
+      "original": "David Hume"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1711,
+      "end": 1776
+    },
+    "location": {
+      "lat": 55.95,
+      "lng": -3.19,
+      "region": "스코틀랜드 에든버러"
+    },
+    "category": "philosopher",
+    "subcategory": "empiricist",
+    "tags": [
+      "경험론",
+      "회의주의",
+      "인과 비판",
+      "도덕감정론"
+    ],
+    "mvp": true,
+    "summary": "경험론을 철저히 밀어붙여 인과율, 자아, 귀납법의 확실성을 의심한 회의론자. 칸트를 '독단의 잠'에서 깨웠다고 알려져 있다.",
+    "detailed": "흄은 스코틀랜드의 철학자이자 역사가이다. 《인성론》에서 모든 인식의 재료를 인상(impression)과 관념(idea)으로 구분하고, 인과 관계는 필연적 연결이 아니라 습관적 연합에 불과하다고 주장했다. 자아(self)도 인상의 다발에 불과하며, 도덕은 이성이 아닌 감정(공감)에 기반한다고 보았다. 이러한 철저한 회의주의는 칸트를 '독단의 잠'에서 깨웠다고 알려져 있다.",
+    "keyWorks": [
+      {
+        "title": "인성론",
+        "year": 1739,
+        "type": "book"
+      },
+      {
+        "title": "인간오성에 관한 탐구",
+        "year": 1748,
+        "type": "book"
+      },
+      {
+        "title": "도덕 원리에 관한 탐구",
+        "year": 1751,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "이성은 정념의 노예이며, 노예이어야 한다.",
+        "source": "인성론"
+      },
+      {
+        "text": "있는 것에서 있어야 할 것을 도출할 수 없다.",
+        "source": "인성론"
+      }
+    ],
+    "influences": [
+      "locke",
+      "berkeley",
+      "montaigne",
+      "sextus-empiricus"
+    ],
+    "influenced": [
+      "kant",
+      "adam-smith",
+      "bentham",
+      "russell"
+    ],
+    "school": [
+      "경험론",
+      "회의주의"
+    ],
+    "concepts": [
+      "인과 비판",
+      "인상과 관념",
+      "자아 다발론",
+      "귀납의 문제",
+      "사실과 가치의 구분"
+    ],
+    "questions": [
+      "인과관계는 실재하는가?",
+      "귀납은 정당화될 수 있는가?"
+    ]
+  },
+  {
+    "id": "rousseau",
+    "name": {
+      "ko": "루소",
+      "en": "Rousseau",
+      "original": "Jean-Jacques Rousseau"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1712,
+      "end": 1778
+    },
+    "location": {
+      "lat": 46.2,
+      "lng": 6.14,
+      "region": "스위스 제네바/프랑스"
+    },
+    "category": "philosopher",
+    "subcategory": "enlightenment",
+    "tags": [
+      "사회계약론",
+      "자연상태",
+      "일반의지",
+      "교육"
+    ],
+    "mvp": true,
+    "summary": "'인간은 자유롭게 태어났으나 어디서나 쇠사슬에 묶여 있다.' 사회계약론과 일반의지 개념으로 프랑스 혁명의 사상적 토대를 마련했다.",
+    "detailed": "루소는 제네바 출신의 프랑스어 철학자로, 계몽주의에 속하면서도 이를 넘어서는 독자적 사상을 전개했다. 자연 상태의 인간은 선하지만 문명과 사유재산이 불평등과 부패를 낳았다고 진단했다. 《사회계약론》에서 일반의지(volonté générale)에 기반한 주권 이론을, 《에밀》에서 자연에 따른 교육론을 전개했다. 프랑스 혁명의 사상적 기반이자 낭만주의의 선구자이다.",
+    "keyWorks": [
+      {
+        "title": "사회계약론",
+        "year": 1762,
+        "type": "book"
+      },
+      {
+        "title": "에밀",
+        "year": 1762,
+        "type": "book"
+      },
+      {
+        "title": "인간 불평등 기원론",
+        "year": 1755,
+        "type": "book"
+      },
+      {
+        "title": "고백록",
+        "year": 1782,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "인간은 자유롭게 태어났으나, 어디서나 쇠사슬에 묶여 있다.",
+        "source": "사회계약론"
+      }
+    ],
+    "influences": [
+      "locke",
+      "hobbes",
+      "montaigne",
+      "plato"
+    ],
+    "influenced": [
+      "kant",
+      "hegel",
+      "marx",
+      "dewey"
+    ],
+    "school": [
+      "사회계약론",
+      "낭만주의 선구"
+    ],
+    "concepts": [
+      "일반의지",
+      "자연 상태",
+      "사회계약",
+      "자연 교육"
+    ],
+    "questions": [
+      "문명은 인간을 타락시키는가?",
+      "정당한 정치 권력의 근거는?"
+    ]
+  },
+  {
+    "id": "diderot",
+    "name": {
+      "ko": "디드로",
+      "en": "Diderot",
+      "original": "Denis Diderot"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1713,
+      "end": 1784
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "enlightenment",
+    "tags": [
+      "계몽주의",
+      "백과전서",
+      "유물론",
+      "미학"
+    ],
+    "mvp": false,
+    "summary": "《백과전서》의 편집자로 계몽주의의 핵심 인물. 유물론, 무신론, 미학 등 다방면에서 혁신적 사상을 전개했다.",
+    "detailed": "디드로는 프랑스 계몽주의의 중심 인물로, 달랑베르와 함께 《백과전서(Encyclopédie)》를 편집하여 이성과 과학에 기반한 지식의 체계적 보급을 추진했다. 유물론적 무신론에 가까운 자연관, 《라모의 조카》에서의 사회 비판, 《연기의 역설》에서의 미학 이론 등 다방면에서 혁신적 사상을 전개했다.",
+    "keyWorks": [
+      {
+        "title": "백과전서 (공동 편집)",
+        "year": 1772,
+        "type": "book"
+      },
+      {
+        "title": "라모의 조카",
+        "year": 1762,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "locke",
+      "francis-bacon"
+    ],
+    "influenced": [
+      "hegel",
+      "marx"
+    ],
+    "school": [
+      "계몽주의",
+      "유물론"
+    ],
+    "concepts": [
+      "백과전서주의",
+      "유물론적 자연관",
+      "미학"
+    ],
+    "questions": [
+      "지식의 체계적 보급은 사회를 변화시키는가?"
+    ]
+  },
+  {
+    "id": "condillac",
+    "name": {
+      "ko": "콩디야크",
+      "en": "Condillac",
+      "original": "Étienne Bonnot de Condillac"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1714,
+      "end": 1780
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "enlightenment",
+    "tags": [
+      "경험론",
+      "감각론",
+      "계몽주의"
+    ],
+    "mvp": false,
+    "summary": "로크의 경험론을 급진화하여 모든 정신 활동을 감각에서 도출한 감각론의 대표자. '감각하는 조각상' 사고실험으로 유명하다.",
+    "detailed": "콩디야크는 프랑스 계몽주의의 철학자로, 로크의 경험론에서 '반성'까지도 제거하여 모든 정신 능력을 감각의 변환으로 설명했다. 《감각론》에서 대리석 조각상에 차례로 감각을 부여하면 기억, 판단, 의지 등 모든 정신 활동이 생겨남을 보여주는 사고실험을 전개했다.",
+    "keyWorks": [
+      {
+        "title": "감각론",
+        "year": 1754,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "locke"
+    ],
+    "influenced": [],
+    "school": [
+      "감각론",
+      "프랑스 경험론"
+    ],
+    "concepts": [
+      "감각론",
+      "감각하는 조각상"
+    ],
+    "questions": [
+      "모든 인식이 감각에서 비롯되는가?"
+    ]
+  },
+  {
+    "id": "helvetius",
+    "name": {
+      "ko": "엘베시우스",
+      "en": "Helvétius",
+      "original": "Claude Adrien Helvétius"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1715,
+      "end": 1771
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "enlightenment",
+    "tags": [
+      "계몽주의",
+      "공리주의 선구",
+      "유물론"
+    ],
+    "mvp": false,
+    "summary": "인간의 행동을 자기이익 추구로 설명하고, 교육과 법률을 통한 사회 개혁을 주장한 계몽주의 철학자. 벤담 공리주의의 선구자.",
+    "detailed": "엘베시우스는 프랑스의 세금 징수관 출신 철학자로, 《정신론(De l'Esprit)》에서 인간의 모든 행동은 자기이익(self-interest)에서 비롯되며, 도덕은 입법자가 개인의 이익과 공공의 이익을 조화시키는 데 있다고 주장했다. 모든 인간은 태어날 때 동등하며, 차이는 교육의 결과라고 보았다.",
+    "keyWorks": [
+      {
+        "title": "정신론",
+        "year": 1758,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "locke"
+    ],
+    "influenced": [
+      "bentham",
+      "john-stuart-mill"
+    ],
+    "school": [
+      "계몽주의",
+      "공리주의 선구"
+    ],
+    "concepts": [
+      "자기이익",
+      "교육 만능론",
+      "입법을 통한 사회 개혁"
+    ],
+    "questions": [
+      "도덕은 자기이익에서 비롯되는가?"
+    ]
+  },
+  {
+    "id": "dalembert",
+    "name": {
+      "ko": "달랑베르",
+      "en": "d'Alembert",
+      "original": "Jean le Rond d'Alembert"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1717,
+      "end": 1783
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "scientist"
+    ],
+    "subcategory": "enlightenment",
+    "tags": [
+      "계몽주의",
+      "백과전서",
+      "수학",
+      "과학"
+    ],
+    "mvp": false,
+    "summary": "《백과전서》의 공동 편집자이자 수학자. 서문에서 인간 지식의 체계와 진보를 개관하여 계몽주의의 학문적 강령을 제시했다.",
+    "detailed": "달랑베르는 프랑스의 수학자, 물리학자, 철학자로, 디드로와 함께 《백과전서》를 공동 편집했다. 서문(Discours préliminaire)에서 베이컨과 로크의 전통에 따라 인간 지식의 체계적 분류와 진보의 역사를 서술했다. 수학에서는 달랑베르의 원리(역학), 편미분방정식 이론에 기여했다.",
+    "keyWorks": [
+      {
+        "title": "백과전서 서문",
+        "year": 1751,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "francis-bacon",
+      "locke",
+      "newton"
+    ],
+    "influenced": [],
+    "school": [
+      "계몽주의"
+    ],
+    "concepts": [
+      "지식의 체계적 분류",
+      "진보"
+    ],
+    "questions": [
+      "인간 지식은 어떻게 체계화할 수 있는가?"
+    ],
+    "field": [
+      "수학",
+      "물리학"
+    ]
+  },
+  {
+    "id": "adam-smith",
+    "name": {
+      "ko": "애덤 스미스",
+      "en": "Adam Smith",
+      "original": "Adam Smith"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1723,
+      "end": 1790
+    },
+    "location": {
+      "lat": 55.95,
+      "lng": -3.19,
+      "region": "스코틀랜드 에든버러"
+    },
+    "category": "philosopher",
+    "subcategory": "empiricist",
+    "tags": [
+      "도덕철학",
+      "경제학",
+      "자유주의",
+      "공감"
+    ],
+    "mvp": true,
+    "summary": "《국부론》의 저자이자 근대 경제학의 아버지. 《도덕감정론》에서 공감(sympathy)에 기반한 도덕 이론을 전개했다.",
+    "detailed": "애덤 스미스는 스코틀랜드의 도덕철학자이자 경제학자이다. 먼저 《도덕감정론(1759)》에서 공감(sympathy)과 공정한 관찰자(impartial spectator)에 기반한 도덕 이론을 전개했다. 이후 《국부론(1776)》에서 자유 시장 경제의 원리를 체계화하여, 개인의 이기심이 '보이지 않는 손'에 의해 사회적 이익으로 전환된다고 주장했다. 분업, 자유무역, 정부의 역할 제한을 옹호했다.",
+    "keyWorks": [
+      {
+        "title": "도덕감정론",
+        "year": 1759,
+        "type": "book"
+      },
+      {
+        "title": "국부론",
+        "year": 1776,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "우리가 저녁 식사를 기대하는 것은 정육점, 양조장 주인의 자비심 덕분이 아니라 그들의 이기심 덕분이다.",
+        "source": "국부론"
+      }
+    ],
+    "influences": [
+      "hume",
+      "francis-hutcheson"
+    ],
+    "influenced": [
+      "marx",
+      "john-stuart-mill",
+      "rawls"
+    ],
+    "school": [
+      "스코틀랜드 계몽주의",
+      "고전 자유주의"
+    ],
+    "concepts": [
+      "보이지 않는 손",
+      "공감",
+      "공정한 관찰자",
+      "분업"
+    ],
+    "questions": [
+      "시장은 자율적으로 작동하는가?",
+      "도덕의 기초는 무엇인가?"
+    ]
+  },
+  {
+    "id": "adam-ferguson",
+    "name": {
+      "ko": "퍼거슨",
+      "en": "Adam Ferguson",
+      "original": "Adam Ferguson"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1723,
+      "end": 1816
+    },
+    "location": {
+      "lat": 55.95,
+      "lng": -3.19,
+      "region": "스코틀랜드 에든버러"
+    },
+    "category": "philosopher",
+    "subcategory": "empiricist",
+    "tags": [
+      "스코틀랜드 계몽주의",
+      "시민사회론",
+      "사회학 선구"
+    ],
+    "mvp": false,
+    "summary": "스코틀랜드 계몽주의의 도덕철학자. 《시민사회의 역사에 관한 에세이》로 근대 사회학의 선구자로 평가된다.",
+    "detailed": "퍼거슨은 스코틀랜드 하이랜드 출신의 도덕철학자로, 에든버러 대학에서 가르쳤다. 흄, 스미스와 함께 스코틀랜드 계몽주의의 핵심 인물이다. 문명의 진보가 반드시 도덕적 진보를 의미하지 않으며, 상업사회에서 시민적 덕이 쇠퇴할 수 있다고 경고했다. 마르크스의 소외론에 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "시민사회의 역사에 관한 에세이",
+        "year": 1767,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "montesquieu"
+    ],
+    "influenced": [
+      "marx",
+      "hegel"
+    ],
+    "school": [
+      "스코틀랜드 계몽주의"
+    ],
+    "concepts": [
+      "시민사회",
+      "문명과 도덕의 관계",
+      "분업의 폐해"
+    ],
+    "questions": [
+      "문명의 진보는 도덕적 진보인가?"
+    ]
+  },
+  {
+    "id": "holbach",
+    "name": {
+      "ko": "돌바흐",
+      "en": "Baron d'Holbach",
+      "original": "Paul-Henri Thiry, Baron d'Holbach"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1723,
+      "end": 1789
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "enlightenment",
+    "tags": [
+      "계몽주의",
+      "유물론",
+      "무신론",
+      "결정론"
+    ],
+    "mvp": false,
+    "summary": "계몽주의 시대 가장 철저한 유물론자이자 무신론자. 《자연의 체계》에서 자연은 자족적이며 신은 불필요하다고 주장했다.",
+    "detailed": "돌바흐는 독일 출신으로 파리에서 활동한 철학자이다. 그의 파리 살롱은 계몽주의 사상가들의 모임 장소였다. 《자연의 체계(Système de la Nature, 1770)》에서 우주는 순전히 물질적이며, 모든 현상은 물리적 법칙으로 설명 가능하고, 신이나 영혼 같은 비물질적 존재는 필요 없다고 주장했다. 당시 '무신론의 성경'으로 불린 이 책은 볼테르에게서조차 비판받았다.",
+    "keyWorks": [
+      {
+        "title": "자연의 체계",
+        "year": 1770,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "democritus",
+      "epicurus",
+      "locke"
+    ],
+    "influenced": [
+      "marx"
+    ],
+    "school": [
+      "유물론",
+      "무신론"
+    ],
+    "concepts": [
+      "기계론적 유물론",
+      "무신론",
+      "결정론"
+    ],
+    "questions": [
+      "자연 외에 다른 설명이 필요한가?"
+    ]
+  },
+  {
+    "id": "kant",
+    "name": {
+      "ko": "칸트",
+      "en": "Kant",
+      "original": "Immanuel Kant"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1724,
+      "end": 1804
+    },
+    "location": {
+      "lat": 54.71,
+      "lng": 20.51,
+      "region": "프로이센 쾨니히스베르크"
+    },
+    "category": "philosopher",
+    "subcategory": "german_idealism",
+    "tags": [
+      "독일 관념론",
+      "비판철학",
+      "선험철학",
+      "도덕법칙"
+    ],
+    "mvp": true,
+    "summary": "근대 철학의 최대 전환점. 《순수이성비판》에서 인식의 조건을 분석하고, 경험론과 합리론을 종합하여 비판철학(선험적 관념론)을 수립했다.",
+    "detailed": "칸트는 쾨니히스베르크를 평생 떠나지 않은 채 철학사를 영원히 바꾸었다. 흄에 의해 '독단의 잠'에서 깨어나, 《순수이성비판》에서 인식의 선험적 조건(공간·시간·범주)을 분석하여, 우리가 아는 것은 물자체가 아니라 현상계뿐이라고 논증했다. 《실천이성비판》에서 도덕법칙의 보편적 형식(정언명령)을, 《판단력비판》에서 미와 목적론을 다루었다. 《영구평화론》은 국제법과 UN의 사상적 기반이 되었다.",
+    "keyWorks": [
+      {
+        "title": "순수이성비판",
+        "year": 1781,
+        "type": "book"
+      },
+      {
+        "title": "실천이성비판",
+        "year": 1788,
+        "type": "book"
+      },
+      {
+        "title": "판단력비판",
+        "year": 1790,
+        "type": "book"
+      },
+      {
+        "title": "영구평화론",
+        "year": 1795,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "네 의지의 준칙이 항상 보편적 법칙의 원리가 될 수 있도록 행위하라.",
+        "source": "실천이성비판"
+      },
+      {
+        "text": "내 위의 별이 빛나는 하늘과 내 안의 도덕법칙.",
+        "source": "실천이성비판 결론"
+      }
+    ],
+    "influences": [
+      "hume",
+      "locke",
+      "leibniz",
+      "rousseau",
+      "newton"
+    ],
+    "influenced": [
+      "fichte",
+      "schelling",
+      "hegel",
+      "schopenhauer",
+      "husserl",
+      "rawls"
+    ],
+    "school": [
+      "비판철학",
+      "선험적 관념론"
+    ],
+    "concepts": [
+      "선험적 종합판단",
+      "물자체",
+      "정언명령",
+      "코페르니쿠스적 전환",
+      "선험적 감성론"
+    ],
+    "questions": [
+      "인식의 한계는 어디인가?",
+      "보편적 도덕법칙은 가능한가?"
+    ]
+  },
+  {
+    "id": "thomas-paine",
+    "name": {
+      "ko": "토마스 페인",
+      "en": "Thomas Paine",
+      "original": "Thomas Paine"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1737,
+      "end": 1809
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -74.01,
+      "region": "미국/영국/프랑스"
+    },
+    "category": "philosopher",
+    "subcategory": "enlightenment",
+    "tags": [
+      "계몽주의",
+      "혁명",
+      "공화주의",
+      "인권"
+    ],
+    "mvp": false,
+    "summary": "미국 독립혁명과 프랑스 혁명에 사상적 영향을 미친 급진적 계몽주의자. 《상식》, 《인간의 권리》로 공화주의와 인권을 옹호했다.",
+    "detailed": "토마스 페인은 영국 출신으로 미국으로 건너가 《상식(Common Sense, 1776)》으로 미국 독립의 여론을 조성했다. 프랑스 혁명 때는 《인간의 권리(Rights of Man)》로 버크의 보수주의를 반박하며 혁명을 옹호했다. 《이성의 시대》에서 이신론을 옹호하고 조직 종교를 비판했다. 미국, 영국, 프랑스 3국의 혁명 시대에 모두 참여한 유일한 사상가이다.",
+    "keyWorks": [
+      {
+        "title": "상식",
+        "year": 1776,
+        "type": "book"
+      },
+      {
+        "title": "인간의 권리",
+        "year": 1791,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "locke",
+      "voltaire"
+    ],
+    "influenced": [],
+    "school": [
+      "계몽주의",
+      "공화주의"
+    ],
+    "concepts": [
+      "인권",
+      "공화주의",
+      "이신론"
+    ],
+    "questions": [
+      "자연권은 무엇인가?"
+    ]
+  },
+  {
+    "id": "herder",
+    "name": {
+      "ko": "헤르더",
+      "en": "Herder",
+      "original": "Johann Gottfried Herder"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1744,
+      "end": 1803
+    },
+    "location": {
+      "lat": 50.98,
+      "lng": 11.33,
+      "region": "독일 바이마르"
+    },
+    "category": "philosopher",
+    "subcategory": "german_idealism",
+    "tags": [
+      "역사철학",
+      "언어철학",
+      "민족주의",
+      "낭만주의"
+    ],
+    "mvp": false,
+    "summary": "역사주의와 문화 다원주의의 선구자. 각 민족은 고유한 정신(Volksgeist)을 가지며, 언어가 사고를 형성한다고 주장했다.",
+    "detailed": "헤르더는 칸트의 제자이면서 계몽주의의 보편주의에 반대하여, 각 문화와 역사적 시기의 고유한 가치를 옹호한 문화 다원주의의 선구자이다. 언어가 사고를 형성한다는 언어철학, 민중 시가(Volkslied)의 가치를 재발견한 문학론, 각 민족의 고유한 정신(Volksgeist)이라는 역사관으로 독일 낭만주의와 민족주의에 결정적 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "언어의 기원에 관한 논문",
+        "year": 1772,
+        "type": "book"
+      },
+      {
+        "title": "인류의 역사철학 구상",
+        "year": 1791,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "kant",
+      "rousseau"
+    ],
+    "influenced": [
+      "hegel",
+      "humboldt"
+    ],
+    "school": [
+      "역사주의",
+      "낭만주의"
+    ],
+    "concepts": [
+      "민족정신(Volksgeist)",
+      "문화 다원주의",
+      "언어적 세계관"
+    ],
+    "questions": [
+      "보편적 기준으로 다른 문화를 평가할 수 있는가?"
+    ]
+  },
+  {
+    "id": "bentham",
+    "name": {
+      "ko": "벤담",
+      "en": "Bentham",
+      "original": "Jeremy Bentham"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1748,
+      "end": 1832
+    },
+    "location": {
+      "lat": 51.52,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "philosopher",
+    "subcategory": "utilitarian",
+    "tags": [
+      "공리주의",
+      "법철학",
+      "사회 개혁"
+    ],
+    "mvp": true,
+    "summary": "공리주의의 창시자. '최대 다수의 최대 행복'을 도덕과 입법의 원리로 삼고, 쾌락과 고통을 계량하는 체계를 구축했다.",
+    "detailed": "벤담은 영국의 법학자이자 철학자로, '최대 다수의 최대 행복(the greatest happiness of the greatest number)'을 모든 행위와 법의 기준으로 삼는 공리주의를 체계화했다. 쾌락계산법(felicific calculus)을 통해 행위의 쾌락과 고통을 양적으로 계산할 수 있다고 주장했다. 감옥 개혁, 동물 권리, 동성애 비범죄화 등 급진적 사회 개혁을 주장했다.",
+    "keyWorks": [
+      {
+        "title": "도덕과 입법의 원리 서론",
+        "year": 1789,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "최대 다수의 최대 행복.",
+        "source": "도덕과 입법의 원리 서론"
+      },
+      {
+        "text": "문제는 동물이 추론할 수 있느냐가 아니라, 고통을 느낄 수 있느냐이다.",
+        "source": "도덕과 입법의 원리 서론"
+      }
+    ],
+    "influences": [
+      "hume",
+      "helvetius",
+      "locke"
+    ],
+    "influenced": [
+      "john-stuart-mill",
+      "singer"
+    ],
+    "school": [
+      "공리주의"
+    ],
+    "concepts": [
+      "최대 다수의 최대 행복",
+      "쾌락계산법",
+      "파놉티콘"
+    ],
+    "questions": [
+      "행복은 계량 가능한가?",
+      "법의 목적은 무엇인가?"
+    ]
+  },
+  {
+    "id": "mary-wollstonecraft",
+    "name": {
+      "ko": "울스턴크래프트",
+      "en": "Mary Wollstonecraft",
+      "original": "Mary Wollstonecraft"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1759,
+      "end": 1797
+    },
+    "location": {
+      "lat": 51.52,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "philosopher",
+    "subcategory": "enlightenment",
+    "tags": [
+      "계몽주의",
+      "페미니즘",
+      "여성 교육",
+      "인권"
+    ],
+    "mvp": false,
+    "summary": "최초의 페미니즘 철학자. 《여성의 권리 옹호》에서 여성도 남성과 동등한 이성적 존재이므로 동등한 교육과 권리를 받아야 한다고 주장했다.",
+    "detailed": "울스턴크래프트는 영국의 작가이자 철학자로, 《여성의 권리 옹호(1792)》에서 계몽주의의 이성과 평등 원리를 여성에게도 적용해야 한다고 주장했다. 여성의 열등함은 자연적인 것이 아니라 교육의 결여에서 비롯되며, 여성도 남성과 동등한 교육을 받으면 동등한 능력을 발휘할 수 있다고 논증했다. 근대 페미니즘의 창시자로 평가된다.",
+    "keyWorks": [
+      {
+        "title": "여성의 권리 옹호",
+        "year": 1792,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 여성이 남성에 대한 권력을 갖기를 원하는 것이 아니라, 자기 자신에 대한 권력을 갖기를 원한다.",
+        "source": "여성의 권리 옹호"
+      }
+    ],
+    "influences": [
+      "locke",
+      "rousseau"
+    ],
+    "influenced": [
+      "beauvoir"
+    ],
+    "school": [
+      "계몽주의",
+      "페미니즘"
+    ],
+    "concepts": [
+      "여성 교육권",
+      "이성적 평등",
+      "자율성"
+    ],
+    "questions": [
+      "여성의 열등함은 자연적인가 사회적인가?"
+    ]
+  },
+  {
+    "id": "fichte",
+    "name": {
+      "ko": "피히테",
+      "en": "Fichte",
+      "original": "Johann Gottlieb Fichte"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1762,
+      "end": 1814
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.41,
+      "region": "독일 베를린/예나"
+    },
+    "category": "philosopher",
+    "subcategory": "german_idealism",
+    "tags": [
+      "독일 관념론",
+      "자아철학",
+      "민족주의"
+    ],
+    "mvp": true,
+    "summary": "칸트 이후 독일 관념론의 개척자. 절대적 자아(Ich)를 철학의 출발점으로 삼아, 자아가 비아(非我)를 정립하는 과정으로 세계를 설명했다.",
+    "detailed": "피히테는 칸트 철학에서 출발하되, 칸트의 물자체를 제거하고 순수 자아(Ich)를 모든 인식과 존재의 원리로 삼았다. 자아는 자기를 정립하고(정), 비아를 대립시키며(반), 양자를 종합(합)하는 변증법적 운동을 전개한다. 이는 헤겔 변증법의 선구가 되었다. 나폴레옹 점령기에 《독일 국민에게 고함》으로 독일 민족의식을 고취시켰다.",
+    "keyWorks": [
+      {
+        "title": "전체 학문론의 기초",
+        "year": 1794,
+        "type": "book"
+      },
+      {
+        "title": "독일 국민에게 고함",
+        "year": 1808,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자아는 자기 자신을 정립한다.",
+        "source": "전체 학문론의 기초"
+      }
+    ],
+    "influences": [
+      "kant"
+    ],
+    "influenced": [
+      "schelling",
+      "hegel"
+    ],
+    "school": [
+      "독일 관념론"
+    ],
+    "concepts": [
+      "자아(Ich)",
+      "비아(Nicht-Ich)",
+      "사행(Tathandlung)"
+    ],
+    "questions": [
+      "자아란 무엇인가?",
+      "인식의 궁극적 근거는?"
+    ]
+  },
+  {
+    "id": "schleiermacher",
+    "name": {
+      "ko": "슐라이어마허",
+      "en": "Schleiermacher",
+      "original": "Friedrich Schleiermacher"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1768,
+      "end": 1834
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.41,
+      "region": "독일 베를린"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "german_idealism",
+    "tags": [
+      "해석학",
+      "종교철학",
+      "낭만주의 신학"
+    ],
+    "mvp": false,
+    "summary": "근대 해석학과 자유주의 신학의 창시자. 종교의 본질을 '절대적 의존 감정'으로 정의하고, 텍스트 해석의 일반 이론을 수립했다.",
+    "detailed": "슐라이어마허는 프로이센의 개혁파 목사이자 베를린 대학 교수로, 근대 신학과 해석학의 아버지이다. 종교의 본질을 교리나 도덕이 아닌 '절대적 의존 감정(schlechthinnige Abhängigkeit)'으로 정의하여 근대 자유주의 신학을 열었다. 또한 텍스트 해석의 일반 이론으로서 해석학을 체계화하여, 딜타이와 가다머에게 이어지는 해석학 전통의 기초를 놓았다.",
+    "keyWorks": [
+      {
+        "title": "종교론",
+        "year": 1799,
+        "type": "book"
+      },
+      {
+        "title": "기독교 신앙",
+        "year": 1821,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "kant",
+      "spinoza"
+    ],
+    "influenced": [
+      "dilthey",
+      "gadamer",
+      "ricoeur"
+    ],
+    "school": [
+      "해석학",
+      "자유주의 신학"
+    ],
+    "concepts": [
+      "절대적 의존 감정",
+      "해석학적 순환",
+      "심리학적 해석"
+    ],
+    "questions": [
+      "종교의 본질은 무엇인가?",
+      "텍스트 이해는 어떻게 가능한가?"
+    ]
+  },
+  {
+    "id": "hegel",
+    "name": {
+      "ko": "헤겔",
+      "en": "Hegel",
+      "original": "Georg Wilhelm Friedrich Hegel"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1770,
+      "end": 1831
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.41,
+      "region": "독일 베를린"
+    },
+    "category": "philosopher",
+    "subcategory": "german_idealism",
+    "tags": [
+      "독일 관념론",
+      "변증법",
+      "절대정신",
+      "역사철학"
+    ],
+    "mvp": true,
+    "summary": "변증법(정-반-합)의 대가. 절대정신의 자기 전개로서 역사와 자연 전체를 설명하는 가장 포괄적인 철학 체계를 구축했다.",
+    "detailed": "헤겔은 독일 관념론의 정점으로, 《정신현상학》, 《논리학》, 《법철학》 등을 통해 서양 철학사 최대 규모의 체계를 구축했다. 그의 변증법에 따르면, 모든 것은 정(These)-반(Antithese)-합(Synthese)의 운동으로 발전하며, 이 과정은 절대정신의 자기 인식이다. 역사는 자유의 의식의 진보이며, 국가는 도덕적 이성의 구현이다. 마르크스, 키르케고르, 실존주의, 분석철학 모두 헤겔에 대한 반응으로 탄생했다.",
+    "keyWorks": [
+      {
+        "title": "정신현상학",
+        "year": 1807,
+        "type": "book"
+      },
+      {
+        "title": "논리학",
+        "year": 1816,
+        "type": "book"
+      },
+      {
+        "title": "법철학",
+        "year": 1820,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "미네르바의 올빼미는 황혼이 되어야 날개를 편다.",
+        "source": "법철학 서문"
+      },
+      {
+        "text": "이성적인 것은 현실적이고, 현실적인 것은 이성적이다.",
+        "source": "법철학 서문"
+      }
+    ],
+    "influences": [
+      "kant",
+      "fichte",
+      "schelling",
+      "heraclitus",
+      "spinoza"
+    ],
+    "influenced": [
+      "marx",
+      "kierkegaard",
+      "heidegger",
+      "adorno",
+      "habermas"
+    ],
+    "school": [
+      "독일 관념론",
+      "절대적 관념론"
+    ],
+    "concepts": [
+      "변증법",
+      "절대정신",
+      "주인과 노예",
+      "인정투쟁",
+      "역사의 종말"
+    ],
+    "questions": [
+      "역사에 목적이 있는가?",
+      "자유란 무엇인가?"
+    ]
+  },
+  {
+    "id": "schelling",
+    "name": {
+      "ko": "셸링",
+      "en": "Schelling",
+      "original": "Friedrich Wilhelm Joseph Schelling"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1775,
+      "end": 1854
+    },
+    "location": {
+      "lat": 48.78,
+      "lng": 9.18,
+      "region": "독일 뮌헨/베를린"
+    },
+    "category": "philosopher",
+    "subcategory": "german_idealism",
+    "tags": [
+      "독일 관념론",
+      "자연철학",
+      "예술철학",
+      "동일철학"
+    ],
+    "mvp": true,
+    "summary": "자연과 정신의 동일성(동일철학)을 주장한 독일 관념론의 철학자. 자연철학과 예술철학에서 독창적 체계를 전개했다.",
+    "detailed": "셸링은 피히테와 헤겔 사이의 독일 관념론 발전에서 핵심적 역할을 했다. 초기에는 자연을 '눈에 보이는 정신'으로, 정신을 '눈에 보이지 않는 자연'으로 보는 동일철학을 전개했다. 자연은 맹목적 물질이 아니라 정신으로 향하는 무의식적 목적론적 과정이다. 후기에는 실존적 전회를 거쳐, 이성으로 포착할 수 없는 '존재의 심연'을 탐구하여 키르케고르와 실존주의의 선구가 되었다.",
+    "keyWorks": [
+      {
+        "title": "선험적 관념론의 체계",
+        "year": 1800,
+        "type": "book"
+      },
+      {
+        "title": "인간 자유의 본질에 관한 철학적 탐구",
+        "year": 1809,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "kant",
+      "fichte",
+      "spinoza"
+    ],
+    "influenced": [
+      "hegel",
+      "kierkegaard",
+      "heidegger"
+    ],
+    "school": [
+      "독일 관념론",
+      "동일철학"
+    ],
+    "concepts": [
+      "동일철학",
+      "자연철학",
+      "예술적 직관",
+      "존재의 심연"
+    ],
+    "questions": [
+      "자연과 정신은 어떤 관계인가?"
+    ]
+  },
+  {
+    "id": "schopenhauer",
+    "name": {
+      "ko": "쇼펜하우어",
+      "en": "Schopenhauer",
+      "original": "Arthur Schopenhauer"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1788,
+      "end": 1860
+    },
+    "location": {
+      "lat": 50.11,
+      "lng": 8.68,
+      "region": "독일 프랑크푸르트"
+    },
+    "category": "philosopher",
+    "subcategory": "german_idealism",
+    "tags": [
+      "독일 관념론",
+      "의지",
+      "비관주의",
+      "동양사상 수용"
+    ],
+    "mvp": true,
+    "summary": "세계의 본질을 맹목적 '의지'로 파악한 비관주의 철학자. 칸트의 물자체를 의지로 해석하고, 동양 사상을 서양 철학에 본격 수용했다.",
+    "detailed": "쇼펜하우어는 칸트의 물자체를 '의지(Wille)'로 해석하여, 세계는 표상(Vorstellung)과 의지라는 두 측면을 가진다고 주장했다. 의지는 맹목적이고 끝없는 욕구이므로 삶은 본질적으로 고통이다. 이 고통에서 벗어나는 길은 예술적 관조와 궁극적으로 의지의 부정(금욕)이다. 우파니샤드와 불교에 깊은 관심을 보여 동서 사상의 대화를 열었다. 니체, 프로이트, 비트겐슈타인에게 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "의지와 표상으로서의 세계",
+        "year": 1818,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "삶은 고통과 지루함 사이의 시계추이다.",
+        "source": "의지와 표상으로서의 세계"
+      },
+      {
+        "text": "인간은 원하는 것을 할 수 있지만, 원하는 것을 원할 수는 없다.",
+        "source": "의지의 자유에 관하여"
+      }
+    ],
+    "influences": [
+      "kant",
+      "plato"
+    ],
+    "influenced": [
+      "nietzsche",
+      "wittgenstein",
+      "freud"
+    ],
+    "school": [
+      "의지 철학",
+      "비관주의"
+    ],
+    "concepts": [
+      "의지와 표상",
+      "맹목적 의지",
+      "의지의 부정",
+      "동양사상 수용"
+    ],
+    "questions": [
+      "삶은 고통인가?",
+      "고통에서 벗어나는 길은?"
+    ]
+  },
+  {
+    "id": "comte",
+    "name": {
+      "ko": "콩트",
+      "en": "Auguste Comte",
+      "original": "Auguste Comte"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1798,
+      "end": 1857
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "utilitarian",
+    "tags": [
+      "실증주의",
+      "사회학",
+      "과학철학"
+    ],
+    "mvp": false,
+    "summary": "실증주의의 창시자이자 사회학의 아버지. 인류 지식이 신학→형이상학→실증과학의 3단계로 발전한다는 법칙을 제시했다.",
+    "detailed": "콩트는 프랑스의 철학자로, '실증주의(positivisme)'와 '사회학(sociologie)'이라는 용어를 만들었다. 인류의 지적 발전이 신학적 단계→형이상학적 단계→실증적(과학적) 단계로 진행한다는 3단계 법칙을 제시했다. 사회 현상도 자연과학과 같은 방법으로 연구할 수 있다고 주장하여 사회학을 체계화했다.",
+    "keyWorks": [
+      {
+        "title": "실증철학 강의",
+        "year": 1842,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "montesquieu",
+      "condorcet"
+    ],
+    "influenced": [
+      "john-stuart-mill",
+      "durkheim"
+    ],
+    "school": [
+      "실증주의"
+    ],
+    "concepts": [
+      "3단계 법칙",
+      "실증주의",
+      "사회학"
+    ],
+    "questions": [
+      "사회도 과학적으로 연구할 수 있는가?"
+    ]
+  },
+  {
+    "id": "john-stuart-mill",
+    "name": {
+      "ko": "밀",
+      "en": "John Stuart Mill",
+      "original": "John Stuart Mill"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1806,
+      "end": 1873
+    },
+    "location": {
+      "lat": 51.52,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "philosopher",
+    "subcategory": "utilitarian",
+    "tags": [
+      "공리주의",
+      "자유주의",
+      "논리학",
+      "여성 참정권"
+    ],
+    "mvp": true,
+    "summary": "공리주의를 정교화하고 자유론을 체계화한 19세기 영국의 대표적 철학자. 《자유론》에서 개인의 자유와 언론의 자유를 옹호했다.",
+    "detailed": "밀은 아버지 제임스 밀에 의해 엄격한 조기 교육을 받은 천재로, 벤담의 공리주의를 계승하면서 질적 쾌락의 구분을 도입하여 정교화했다. '만족한 돼지보다 불만족한 소크라테스가 낫다'는 명제가 이를 표현한다. 《자유론》에서 '해악의 원칙(harm principle)'에 기반한 개인 자유의 옹호는 자유주의 정치철학의 고전이다. 《여성의 종속》으로 여성 참정권도 옹호했다.",
+    "keyWorks": [
+      {
+        "title": "자유론",
+        "year": 1859,
+        "type": "book"
+      },
+      {
+        "title": "공리주의",
+        "year": 1861,
+        "type": "book"
+      },
+      {
+        "title": "논리학 체계",
+        "year": 1843,
+        "type": "book"
+      },
+      {
+        "title": "여성의 종속",
+        "year": 1869,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "만족한 돼지보다 불만족한 소크라테스가 낫다.",
+        "source": "공리주의"
+      },
+      {
+        "text": "자기 자신에 대해, 자신의 몸과 마음에 대해 개인은 주권자이다.",
+        "source": "자유론"
+      }
+    ],
+    "influences": [
+      "bentham",
+      "adam-smith",
+      "hume"
+    ],
+    "influenced": [
+      "rawls",
+      "singer"
+    ],
+    "school": [
+      "공리주의",
+      "자유주의"
+    ],
+    "concepts": [
+      "질적 공리주의",
+      "해악의 원칙",
+      "표현의 자유",
+      "여성해방"
+    ],
+    "questions": [
+      "최대 다수의 최대 행복이란?",
+      "개인의 자유의 한계는?"
+    ]
+  },
+  {
+    "id": "spencer",
+    "name": {
+      "ko": "스펜서",
+      "en": "Herbert Spencer",
+      "original": "Herbert Spencer"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1820,
+      "end": 1903
+    },
+    "location": {
+      "lat": 51.52,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "philosopher",
+    "subcategory": "utilitarian",
+    "tags": [
+      "진화론",
+      "사회진화론",
+      "자유방임"
+    ],
+    "mvp": false,
+    "summary": "'적자생존'이라는 용어를 만든 사회진화론의 대표자. 진화의 원리를 사회, 도덕, 우주 전체에 적용하여 종합 철학 체계를 구축했다.",
+    "detailed": "스펜서는 다윈의 《종의 기원》 이전부터 진화론적 사고를 전개한 영국의 철학자이다. '적자생존(survival of the fittest)'이라는 용어를 만들어 다윈도 이를 채택했다. 진화의 원리를 생물학, 심리학, 사회학, 윤리학에 적용하여 거대한 종합 철학을 구축했다. 사회진화론과 자유방임주의를 옹호하여 복지국가에 반대했으나, 이는 후에 사회적 다윈주의로 비판받았다.",
+    "keyWorks": [
+      {
+        "title": "종합 철학 체계",
+        "year": 1896,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "darwin",
+      "lamarck"
+    ],
+    "influenced": [],
+    "school": [
+      "사회진화론",
+      "자유방임주의"
+    ],
+    "concepts": [
+      "적자생존",
+      "사회진화론",
+      "우주적 진화"
+    ],
+    "questions": [
+      "사회에도 자연선택이 적용되는가?"
+    ]
+  },
+  {
+    "id": "peirce",
+    "name": {
+      "ko": "퍼스",
+      "en": "Peirce",
+      "original": "Charles Sanders Peirce"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1839,
+      "end": 1914
+    },
+    "location": {
+      "lat": 42.37,
+      "lng": -71.12,
+      "region": "미국 보스턴"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "scientist"
+    ],
+    "subcategory": "utilitarian",
+    "tags": [
+      "프래그머티즘",
+      "기호학",
+      "논리학",
+      "과학 방법론"
+    ],
+    "mvp": false,
+    "summary": "프래그머티즘의 창시자이자 근대 기호학의 아버지. 의미의 기준을 실천적 결과에 둔 프래그머티즘 준칙을 제시했다.",
+    "detailed": "퍼스는 미국의 과학자이자 논리학자, 철학자로 프래그머티즘을 최초로 정식화했다. '우리의 관념을 명확하게 만드는 방법(1878)'에서 개념의 의미는 그것이 가져올 실천적 결과로 정의된다는 프래그머티즘 준칙을 제시했다. 기호학(semiotics)에서 삼원적 기호 이론(기호-대상-해석체)을 전개했으며, 가추법(abduction) 등 논리학에도 독창적 기여를 했다.",
+    "keyWorks": [
+      {
+        "title": "우리의 관념을 명확하게 만드는 방법",
+        "year": 1878,
+        "type": "paper"
+      }
+    ],
+    "influences": [
+      "kant",
+      "thomas-reid"
+    ],
+    "influenced": [
+      "william-james",
+      "dewey"
+    ],
+    "school": [
+      "프래그머티즘",
+      "기호학"
+    ],
+    "concepts": [
+      "프래그머티즘 준칙",
+      "가추법",
+      "삼원적 기호학",
+      "탐구 공동체"
+    ],
+    "questions": [
+      "의미란 무엇인가?",
+      "탐구는 어떻게 진행되는가?"
+    ],
+    "field": [
+      "논리학",
+      "기호학"
+    ]
+  },
+  {
+    "id": "william-james",
+    "name": {
+      "ko": "윌리엄 제임스",
+      "en": "William James",
+      "original": "William James"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1842,
+      "end": 1910
+    },
+    "location": {
+      "lat": 42.37,
+      "lng": -71.12,
+      "region": "미국 보스턴/하버드"
+    },
+    "category": "philosopher",
+    "subcategory": "utilitarian",
+    "tags": [
+      "프래그머티즘",
+      "심리학",
+      "종교철학",
+      "다원주의"
+    ],
+    "mvp": true,
+    "summary": "미국 프래그머티즘의 대표자이자 심리학의 선구자. 진리를 '효용성'으로 정의하고, 종교 경험의 다양성을 긍정했다.",
+    "detailed": "윌리엄 제임스는 미국의 철학자이자 심리학자로, 하버드 대학에서 가르쳤다. 퍼스의 프래그머티즘을 발전시켜, 진리란 '작동하는 것', 실제 결과를 가져오는 것이라고 주장했다. 《심리학 원리》는 근대 심리학의 고전이며, 의식의 흐름(stream of consciousness) 개념을 제시했다. 《종교경험의 다양성》에서 종교적 체험의 개인적·심리적 측면을 분석했다.",
+    "keyWorks": [
+      {
+        "title": "심리학 원리",
+        "year": 1890,
+        "type": "book"
+      },
+      {
+        "title": "프래그머티즘",
+        "year": 1907,
+        "type": "book"
+      },
+      {
+        "title": "종교경험의 다양성",
+        "year": 1902,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "진리란 사건에 대해 일어나는 일이다.",
+        "source": "프래그머티즘"
+      }
+    ],
+    "influences": [
+      "peirce",
+      "john-stuart-mill"
+    ],
+    "influenced": [
+      "dewey",
+      "rorty"
+    ],
+    "school": [
+      "프래그머티즘"
+    ],
+    "concepts": [
+      "프래그머티즘",
+      "의식의 흐름",
+      "급진적 경험론",
+      "다원주의"
+    ],
+    "questions": [
+      "진리란 무엇인가?",
+      "종교 경험은 정당한가?"
+    ]
+  },
+  {
+    "id": "jaspers",
+    "name": {
+      "ko": "야스퍼스",
+      "en": "Jaspers",
+      "original": "Karl Jaspers"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1883,
+      "end": 1969
+    },
+    "location": {
+      "lat": 47.56,
+      "lng": 7.59,
+      "region": "스위스 바젤 (독일 출신)"
+    },
+    "category": "philosopher",
+    "subcategory": "german_idealism",
+    "tags": [
+      "실존철학",
+      "정신의학",
+      "한계상황",
+      "축의 시대"
+    ],
+    "mvp": true,
+    "summary": "실존철학의 대표자이자 정신과 의사. '한계상황'에서의 실존적 각성과 '축의 시대' 개념으로 유명하다.",
+    "detailed": "야스퍼스는 정신과 의사에서 철학자로 전향한 독일의 실존철학자이다. 죽음, 고통, 투쟁, 죄 같은 '한계상황(Grenzsituation)'에서 인간은 자기 실존의 근원에 직면한다고 보았다. '축의 시대(Achsenzeit)' 개념으로 기원전 800-200년경 동서양에서 동시에 일어난 지적 혁명(공자, 붓다, 소크라테스, 예언자들)을 조명했다. 나치에 반대하여 교직에서 추방된 경험이 있다.",
+    "keyWorks": [
+      {
+        "title": "철학",
+        "year": 1932,
+        "type": "book"
+      },
+      {
+        "title": "역사의 기원과 목표",
+        "year": 1949,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "철학은 도상에 있는 것이며, 그 물음이 대답보다 중요하다.",
+        "source": "철학 입문"
+      }
+    ],
+    "influences": [
+      "kant",
+      "kierkegaard",
+      "nietzsche"
+    ],
+    "influenced": [
+      "arendt"
+    ],
+    "school": [
+      "실존철학"
+    ],
+    "concepts": [
+      "한계상황",
+      "축의 시대",
+      "포괄자",
+      "실존적 교통"
+    ],
+    "questions": [
+      "한계상황에서 인간은 무엇을 경험하는가?"
+    ]
+  }
+]

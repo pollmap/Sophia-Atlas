@@ -121,9 +121,12 @@ export type HistoricalSubcategory =
   | "political_leader"    // 정치 지도자
   | "military_leader"     // 군사 지도자
   | "revolutionary"       // 혁명가
+  | "explorer"            // 탐험가
+  | "literary_figure"     // 문학가
   | "writer"              // 작가/문인
   | "artist"              // 예술가
   | "musician"            // 음악가
+  | "social_reformer"     // 사회 개혁가
   | "other_historical";   // 기타
 
 export type PersonSubcategory =
