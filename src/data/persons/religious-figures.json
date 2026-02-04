@@ -1,5 +1,169 @@
 [
   {
+    "id": "moses",
+    "name": {
+      "ko": "모세",
+      "en": "Moses"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -1300,
+      "end": -1200,
+      "approximate": true
+    },
+    "location": {
+      "lat": 29.98,
+      "lng": 32.55,
+      "region": "이집트/시나이"
+    },
+    "category": "religious_figure",
+    "subcategory": "judaism",
+    "tags": [
+      "유대교",
+      "출애굽",
+      "토라"
+    ],
+    "mvp": true,
+    "summary": "유대교의 최대 예언자. 이스라엘 백성을 이집트에서 이끌어내고 시나이 산에서 십계명을 받았다.",
+    "detailed": "이집트에서 태어나 파라오의 궁에서 자랐으나 히브리인의 정체성을 깨닫고 출애굽을 이끌었다. 시나이 산에서 하나님으로부터 토라를 받아 유대교의 기초를 놓았다.",
+    "keyWorks": [
+      {
+        "title": "토라(모세 오경)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "이스라엘아 들으라, 주 우리 하나님은 하나이시다.",
+        "source": "신명기 6:4"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "judaism",
+    "role": "예언자/입법자"
+  },
+  {
+    "id": "zoroaster",
+    "name": {
+      "ko": "조로아스터(자라투스트라)",
+      "en": "Zoroaster"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -1000,
+      "end": -900,
+      "approximate": true
+    },
+    "location": {
+      "lat": 36.84,
+      "lng": 54.44,
+      "region": "페르시아"
+    },
+    "category": "religious_figure",
+    "subcategory": "other_religion",
+    "tags": [
+      "조로아스터교",
+      "선악이원론",
+      "아베스타"
+    ],
+    "mvp": true,
+    "summary": "조로아스터교의 창시자. 선(아후라 마즈다)과 악(앙그라 마이뉴)의 이원론으로 세계 종교사에 깊은 영향을 미쳤다.",
+    "detailed": "고대 페르시아에서 아후라 마즈다를 유일한 선한 신으로 섬기는 종교를 창시했다. 최후의 심판, 천사, 부활 등의 개념은 유대교, 기독교, 이슬람에 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "가타(아베스타의 핵심)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "선한 생각, 선한 말, 선한 행동.",
+        "source": "조로아스터교 3대 덕목"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "zoroastrianism",
+    "role": "예언자/조로아스터교 창시자"
+  },
+  {
+    "id": "mahavira",
+    "name": {
+      "ko": "마하비라",
+      "en": "Mahavira"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -599,
+      "end": -527,
+      "approximate": true
+    },
+    "location": {
+      "lat": 25.61,
+      "lng": 84.16,
+      "region": "인도"
+    },
+    "category": "religious_figure",
+    "subcategory": "other_religion",
+    "tags": [
+      "자이나교",
+      "아힘사",
+      "비폭력"
+    ],
+    "mvp": true,
+    "summary": "자이나교의 제24대 티르탕카라(건널 자를 만드는 자). 극단적 비폭력(아힘사)과 고행을 통한 해탈을 가르쳤다.",
+    "detailed": "왕자로 태어났으나 출가하여 12년간의 극심한 고행 끝에 케발라 지나(전지)를 얻었다. 모든 생명에 대한 비폭력과 5대 서원을 자이나교의 핵심으로 확립했다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "비폭력은 최고의 종교다.",
+        "source": "자이나 경전"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "jainism",
+    "role": "티르탕카라/자이나교 지도자"
+  },
+  {
+    "id": "hillel",
+    "name": {
+      "ko": "힐렐",
+      "en": "Hillel the Elder"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -110,
+      "end": 10,
+      "approximate": true
+    },
+    "location": {
+      "lat": 31.77,
+      "lng": 35.23,
+      "region": "예루살렘"
+    },
+    "category": "religious_figure",
+    "subcategory": "judaism",
+    "tags": [
+      "유대교",
+      "탈무드",
+      "율법"
+    ],
+    "mvp": true,
+    "summary": "유대교의 위대한 현자. 타인에 대한 사랑과 관용을 강조한 탈무드 시대의 가장 영향력 있는 랍비.",
+    "detailed": "바빌론 출신으로 예루살렘에서 활동하며 율법의 관대한 해석으로 유명했다. 산헤드린의 수장으로 유대 율법의 7가지 해석 규칙을 정립했다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "네가 싫어하는 것을 남에게 하지 마라. 이것이 토라의 전부이고, 나머지는 주석이다.",
+        "source": "탈무드"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "judaism",
+    "role": "랍비/탈무드 현자"
+  },
+  {
     "id": "jesus",
     "name": {
       "ko": "예수",
@@ -547,6 +711,52 @@
     "role": "주교, 교부"
   },
   {
+    "id": "nagarjuna-buddhist",
+    "name": {
+      "ko": "나가르주나",
+      "en": "Nagarjuna"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 150,
+      "end": 250,
+      "approximate": true
+    },
+    "location": {
+      "lat": 16.51,
+      "lng": 80.52,
+      "region": "인도 안드라"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_mahayana",
+    "tags": [
+      "대승불교",
+      "중관학파",
+      "공사상"
+    ],
+    "mvp": true,
+    "summary": "인도의 대승 불교 철학자. 중론으로 공(空) 사상을 체계화하고 중관학파를 창시했다.",
+    "detailed": "모든 존재의 자성(自性)이 공(空)함을 논리적으로 증명하여 대승 불교 철학의 기초를 놓았다. 중도(中道)의 개념을 극단의 존재론과 허무론 사이의 길로 재해석했다.",
+    "keyWorks": [
+      {
+        "title": "중론(중관론)"
+      },
+      {
+        "title": "대지도론"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "연기하는 것, 그것을 우리는 공이라 말한다.",
+        "source": "중론"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "buddhism",
+    "role": "대승 철학자/중관학파 창시자"
+  },
+  {
     "id": "hippolytus",
     "name": {
       "ko": "히폴리토스",
@@ -1020,6 +1230,49 @@
     "role": "교부 (교회박사), 성경학자"
   },
   {
+    "id": "buddhaghosa",
+    "name": {
+      "ko": "붓다고사",
+      "en": "Buddhaghosa"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 370,
+      "end": 450,
+      "approximate": true
+    },
+    "location": {
+      "lat": 7.87,
+      "lng": 80.77,
+      "region": "스리랑카"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_theravada",
+    "tags": [
+      "상좌부불교",
+      "주석학",
+      "청정도론"
+    ],
+    "mvp": true,
+    "summary": "인도 출신의 상좌부 불교 학승. 청정도론으로 테라와다 불교 교학을 체계적으로 정리한 최대의 주석가.",
+    "detailed": "인도에서 스리랑카로 건너가 팔리 삼장에 대한 방대한 주석을 집필했다. 청정도론은 테라와다 불교 수행의 백과전서로 지금까지 핵심 교본이다.",
+    "keyWorks": [
+      {
+        "title": "청정도론(위숫디막가)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "buddhism",
+    "role": "상좌부 불교 최대의 주석가"
+  },
+  {
     "id": "leo-great",
     "name": {
       "ko": "대 레오",
@@ -1073,6 +1326,45 @@
     ],
     "religionId": "christianity",
     "role": "교황"
+  },
+  {
+    "id": "bodhidharma",
+    "name": {
+      "ko": "보리달마(달마)",
+      "en": "Bodhidharma"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 440,
+      "end": 528,
+      "approximate": true
+    },
+    "location": {
+      "lat": 34.75,
+      "lng": 113.65,
+      "region": "인도→중국"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_mahayana",
+    "tags": [
+      "선불교",
+      "달마",
+      "중국불교"
+    ],
+    "mvp": true,
+    "summary": "인도 출신의 승려. 중국에 선(禪)불교를 전파한 선종의 초조(初祖).",
+    "detailed": "인도에서 중국으로 건너가 소림사에서 9년간 면벽 수행을 했다고 전해진다. 경전의 문자가 아닌 직접적 깨달음을 강조하는 선종의 전통을 확립했다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "불립문자, 교외별전, 직지인심, 견성성불.",
+        "source": "선종 4대 강령"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "buddhism",
+    "role": "선종 초조/달마 대사"
   },
   {
     "id": "benedict-nursia",
@@ -1187,6 +1479,462 @@
     "role": "교황, 교부 (교회박사)"
   },
   {
+    "id": "muhammad",
+    "name": {
+      "ko": "무함마드",
+      "en": "Muhammad"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 570,
+      "end": 632,
+      "approximate": true
+    },
+    "location": {
+      "lat": 21.42,
+      "lng": 39.83,
+      "region": "메카/메디나"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_prophet",
+    "tags": [
+      "이슬람",
+      "예언자",
+      "꾸란"
+    ],
+    "mvp": true,
+    "summary": "이슬람의 창시자이자 최후의 예언자. 610년 천사 지브릴로부터 계시를 받아 꾸란을 전했다.",
+    "detailed": "메카의 상인으로 40세에 히라 동굴에서 첫 계시를 받았다. 메디나로 히즈라한 후 이슬람 공동체(움마)를 건설했다. 630년 메카를 정복하고 아라비아 반도를 통일했다.",
+    "keyWorks": [
+      {
+        "title": "꾸란 (하나님의 계시)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "아는 것을 추구하라, 비록 중국까지 가더라도.",
+        "source": "하디스"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "islam",
+    "role": "최후의 예언자"
+  },
+  {
+    "id": "abu-bakr",
+    "name": {
+      "ko": "아부 바크르",
+      "en": "Abu Bakr"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 573,
+      "end": 634,
+      "approximate": true
+    },
+    "location": {
+      "lat": 21.42,
+      "lng": 39.83,
+      "region": "메카"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_prophet",
+    "tags": [
+      "이슬람",
+      "칼리프",
+      "정통칼리프"
+    ],
+    "mvp": true,
+    "summary": "이슬람의 초대 정통 칼리프. 무함마드의 가장 가까운 동반자이자 장인.",
+    "detailed": "무함마드의 첫 남성 개종자이며 가장 신뢰받는 동반자였다. 무함마드 사후 움마의 분열을 막고 이슬람 국가의 기초를 다졌다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "islam",
+    "role": "초대 정통 칼리프"
+  },
+  {
+    "id": "ali-ibn-abi-talib",
+    "name": {
+      "ko": "알리 이븐 아비 탈리브",
+      "en": "Ali ibn Abi Talib"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 601,
+      "end": 661,
+      "approximate": true
+    },
+    "location": {
+      "lat": 32.62,
+      "lng": 44.02,
+      "region": "메카/쿠파"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_scholar",
+    "tags": [
+      "이슬람",
+      "시아파",
+      "칼리프"
+    ],
+    "mvp": true,
+    "summary": "이슬람의 제4대 정통 칼리프. 무함마드의 사촌이자 사위로, 시아파의 초대 이맘.",
+    "detailed": "무함마드의 사촌이자 딸 파티마의 남편. 이슬람 법학과 신비주의에 큰 영향을 미쳤다. 그의 칼리프 지위를 둘러싼 논쟁은 수니-시아 분열의 원인이 되었다.",
+    "keyWorks": [
+      {
+        "title": "나흐줄 발라가(웅변의 길)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "지식은 최고의 보물이다.",
+        "source": "나흐줄 발라가"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "islam",
+    "role": "제4대 정통 칼리프/시아파 초대 이맘"
+  },
+  {
+    "id": "huineng",
+    "name": {
+      "ko": "혜능",
+      "en": "Huineng"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 638,
+      "end": 713,
+      "approximate": true
+    },
+    "location": {
+      "lat": 23.13,
+      "lng": 113.27,
+      "region": "중국 광동"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_mahayana",
+    "tags": [
+      "선불교",
+      "남종선",
+      "돈오"
+    ],
+    "mvp": true,
+    "summary": "중국 선종의 6조. 돈오(頓悟)를 강조한 남종선의 창시자로 선불교의 대중화에 기여했다.",
+    "detailed": "문맹의 나무꾼이었으나 금강경 한 구절을 듣고 깨달음을 얻었다. 6조단경은 중국인이 쓴 유일한 '경'으로 불리는 선종의 핵심 경전이다.",
+    "keyWorks": [
+      {
+        "title": "6조단경"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "본래 아무것도 없는데, 어디에 먼지가 끼겠는가.",
+        "source": "6조단경"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "buddhism",
+    "role": "선종 6조/남종선 창시자"
+  },
+  {
+    "id": "abu-hanifa",
+    "name": {
+      "ko": "아부 하니파",
+      "en": "Abu Hanifa"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 699,
+      "end": 767,
+      "approximate": true
+    },
+    "location": {
+      "lat": 32.62,
+      "lng": 44.02,
+      "region": "쿠파"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_scholar",
+    "tags": [
+      "이슬람법학",
+      "하나피학파",
+      "이성법학"
+    ],
+    "mvp": true,
+    "summary": "이슬람 4대 법학파 중 가장 큰 하나피 학파의 창시자. 이성적 추론(라이)을 법학에 도입했다.",
+    "detailed": "쿠파에서 활동하며 유추(키야스)와 이스티흐산(공익적 추론)을 법학 방법으로 발전시켰다. 가장 많은 무슬림이 따르는 하나피 학파의 근간을 놓았다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "islam",
+    "role": "법학자/하나피학파 창시자"
+  },
+  {
+    "id": "imam-malik",
+    "name": {
+      "ko": "이맘 말리크",
+      "en": "Imam Malik"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 711,
+      "end": 795,
+      "approximate": true
+    },
+    "location": {
+      "lat": 24.47,
+      "lng": 39.61,
+      "region": "메디나"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_scholar",
+    "tags": [
+      "이슬람법학",
+      "말리크학파",
+      "하디스"
+    ],
+    "mvp": true,
+    "summary": "이슬람의 4대 법학파 중 하나인 말리크 학파의 창시자. 무왓타는 현존하는 가장 오래된 법학서 중 하나.",
+    "detailed": "메디나에서 태생하여 평생 그곳에서 활동하며 예언자의 도시의 관행을 법학의 근거로 삼았다.",
+    "keyWorks": [
+      {
+        "title": "무왓타"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "islam",
+    "role": "법학자/말리크학파 창시자"
+  },
+  {
+    "id": "rabia-al-adawiyya",
+    "name": {
+      "ko": "라비아 알-아다위야",
+      "en": "Rabia al-Adawiyya"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 717,
+      "end": 801,
+      "approximate": true
+    },
+    "location": {
+      "lat": 30.51,
+      "lng": 47.81,
+      "region": "바스라"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_sufi",
+    "tags": [
+      "수피즘",
+      "신비주의",
+      "여성"
+    ],
+    "mvp": true,
+    "summary": "이슬람 수피즘 최초의 여성 성인. 신에 대한 무조건적 사랑의 교리를 확립했다.",
+    "detailed": "바스라의 가난한 가정에서 태어나 노예 생활을 거쳤으나 해방된 후 수피의 길에 들어섰다. 두려움이나 보상이 아닌 순수한 사랑으로 신을 사랑해야 한다고 가르쳤다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "오 주님, 지옥의 두려움이나 천국의 소망 때문이 아니라, 오직 당신을 사랑하기 때문에 당신을 경배합니다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "islam",
+    "role": "수피 성인/신비주의자"
+  },
+  {
+    "id": "padmasambhava",
+    "name": {
+      "ko": "파드마삼바바",
+      "en": "Padmasambhava"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 717,
+      "end": 762,
+      "approximate": true
+    },
+    "location": {
+      "lat": 34.17,
+      "lng": 77.58,
+      "region": "인도→티베트"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_tibetan",
+    "tags": [
+      "티베트불교",
+      "닝마파",
+      "밀교"
+    ],
+    "mvp": true,
+    "summary": "인도 출신의 밀교 대사. 티베트에 불교를 전파한 '구루 린포체'로 닝마파의 창시자.",
+    "detailed": "인도 우디야나 출신으로 티베트 왕 티송데첸의 초청으로 티베트에 건너갔다. 본교의 신들을 항복시키고 삼예 사원을 건립하여 티베트 불교의 기초를 놓았다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "buddhism",
+    "role": "티베트 불교 전파자/닝마파 창시자"
+  },
+  {
+    "id": "imam-shafii",
+    "name": {
+      "ko": "이맘 샤피이",
+      "en": "Imam al-Shafi'i"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 767,
+      "end": 820,
+      "approximate": true
+    },
+    "location": {
+      "lat": 30.04,
+      "lng": 31.23,
+      "region": "팔레스타인/이집트"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_scholar",
+    "tags": [
+      "이슬람법학",
+      "샤피이학파",
+      "법학방법론"
+    ],
+    "mvp": true,
+    "summary": "이슬람 4대 법학파 중 샤피이 학파의 창시자. 이슬람 법학 방법론(우술 알-피크흐)을 체계화했다.",
+    "detailed": "쿠라이시 가문 출신으로 이슬람 법학의 방법론을 체계적으로 정립했다. 꾸란, 순나, 이즈마, 키야스의 4대 법원을 확립했다.",
+    "keyWorks": [
+      {
+        "title": "알-리살라"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "islam",
+    "role": "법학자/샤피이학파 창시자"
+  },
+  {
+    "id": "shankara-hindu",
+    "name": {
+      "ko": "샹카라",
+      "en": "Adi Shankara"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 788,
+      "end": 820,
+      "approximate": true
+    },
+    "location": {
+      "lat": 10.49,
+      "lng": 76.95,
+      "region": "인도 케랄라"
+    },
+    "category": "religious_figure",
+    "subcategory": "hinduism",
+    "tags": [
+      "아드바이타",
+      "베단타",
+      "힌두교개혁"
+    ],
+    "mvp": true,
+    "summary": "인도의 철학자. 아드바이타 베단타(불이일원론)를 체계화하여 힌두 철학의 최고봉에 올랐다.",
+    "detailed": "32년의 짧은 생애 동안 인도 전역을 순례하며 불이일원론을 설파했다. 브라흐만과 아트만의 동일성을 주장하여 힌두 철학의 핵심 체계를 확립했다.",
+    "keyWorks": [
+      {
+        "title": "우파데샤 사하스리"
+      },
+      {
+        "title": "비베카추다마니"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "브라흐만만이 진실이고, 세계는 환영이며, 개아는 브라흐만과 다르지 않다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "hinduism",
+    "role": "철학자/아드바이타 베단타 확립자"
+  },
+  {
+    "id": "al-hallaj",
+    "name": {
+      "ko": "만수르 알-할라즈",
+      "en": "Mansur al-Hallaj"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 858,
+      "end": 922,
+      "approximate": true
+    },
+    "location": {
+      "lat": 32.62,
+      "lng": 44.02,
+      "region": "페르시아/바그다드"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_sufi",
+    "tags": [
+      "수피즘",
+      "순교",
+      "신비주의"
+    ],
+    "mvp": true,
+    "summary": "이슬람 수피즘의 순교자. '나는 진리(하나님)이다'라는 발언으로 처형된 신비주의의 상징.",
+    "detailed": "신과의 합일(파나) 체험을 공개적으로 선언하여 이단으로 몰렸다. '아날 하크(나는 진리다)'라는 황홀경의 발언으로 바그다드에서 처형되었다. 후대 수피들에게 신비적 사랑의 극치를 보여준 순교자로 숭앙된다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "나는 진리(하나님)이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "islam",
+    "role": "수피 순교자/신비주의자"
+  },
+  {
     "id": "odo-cluny",
     "name": {
       "ko": "클뤼니의 오도",
@@ -1230,6 +1978,185 @@
     ],
     "religionId": "christianity",
     "role": "수도원장"
+  },
+  {
+    "id": "ramanuja-hindu",
+    "name": {
+      "ko": "라마누자",
+      "en": "Ramanuja"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1017,
+      "end": 1137,
+      "approximate": true
+    },
+    "location": {
+      "lat": 13.08,
+      "lng": 80.27,
+      "region": "인도 타밀나두"
+    },
+    "category": "religious_figure",
+    "subcategory": "hinduism",
+    "tags": [
+      "비시시타드바이타",
+      "베단타",
+      "박티"
+    ],
+    "mvp": true,
+    "summary": "인도의 철학자이자 신학자. 비시시타드바이타(제한적 불이론)를 확립하고 박티(신에 대한 헌신) 운동을 발전시켰다.",
+    "detailed": "샹카라의 순수 불이론을 비판하고 신과 개아의 관계를 몸과 영혼에 비유했다. 비슈누 신에 대한 헌신적 사랑을 통한 해탈을 가르쳤다.",
+    "keyWorks": [
+      {
+        "title": "스리바샤"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "hinduism",
+    "role": "철학자/비시시타드바이타 확립자"
+  },
+  {
+    "id": "rashi",
+    "name": {
+      "ko": "라시",
+      "en": "Rashi"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1040,
+      "end": 1105,
+      "approximate": true
+    },
+    "location": {
+      "lat": 48.3,
+      "lng": 3.74,
+      "region": "프랑스 트루아"
+    },
+    "category": "religious_figure",
+    "subcategory": "judaism",
+    "tags": [
+      "유대교",
+      "성서주석",
+      "탈무드"
+    ],
+    "mvp": true,
+    "summary": "프랑스의 유대교 학자. 토라와 탈무드에 대한 주석으로 유대교 학문의 기초를 놓은 최대의 주석가.",
+    "detailed": "프랑스 트루아에서 포도주 양조업에 종사하며 성서와 탈무드에 대한 방대한 주석을 집필했다. 그의 주석은 지금까지 유대교 학습의 필수 교재이다.",
+    "keyWorks": [
+      {
+        "title": "토라 주석"
+      },
+      {
+        "title": "탈무드 주석"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "judaism",
+    "role": "랍비/최대의 성서 주석가"
+  },
+  {
+    "id": "milarepa",
+    "name": {
+      "ko": "밀라레파",
+      "en": "Milarepa"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1052,
+      "end": 1135,
+      "approximate": true
+    },
+    "location": {
+      "lat": 28.26,
+      "lng": 86.85,
+      "region": "티베트"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_tibetan",
+    "tags": [
+      "카규파",
+      "티베트불교",
+      "수행자"
+    ],
+    "mvp": true,
+    "summary": "티베트의 수행자이자 시인. 흑마법사에서 깨달은 성인으로 변모한 티베트 불교 최고의 요기.",
+    "detailed": "복수를 위해 흑마법을 배웠으나 참회하고 마르파의 제자가 되어 극한의 고행을 겪었다. 티베트 동굴에서 수행하며 깨달음을 얻었고, 그의 노래(도하)는 티베트 문학의 보물이다.",
+    "keyWorks": [
+      {
+        "title": "밀라레파의 십만 노래"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "buddhism",
+    "role": "카규파 수행자/시인"
+  },
+  {
+    "id": "al-ghazali",
+    "name": {
+      "ko": "알-가잘리",
+      "en": "Al-Ghazali"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1058,
+      "end": 1111,
+      "approximate": true
+    },
+    "location": {
+      "lat": 36.27,
+      "lng": 59.22,
+      "region": "페르시아 투스"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_scholar",
+    "tags": [
+      "이슬람신학",
+      "수피즘",
+      "철학비판"
+    ],
+    "mvp": true,
+    "summary": "페르시아의 이슬람 신학자. 철학자들의 모순으로 그리스 철학을 비판하고 수피즘과 정통 신학을 융합했다.",
+    "detailed": "니자미야 마드라사의 교수로 활동하다 영적 위기를 겪고 수피즘의 길에 들어섰다. 종교학문의 부흥은 이슬람 학문의 백과전서적 저작이다.",
+    "keyWorks": [
+      {
+        "title": "철학자들의 모순",
+        "year": 1095
+      },
+      {
+        "title": "종교학문의 부흥"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "지식 없는 행동은 광기이고, 행동 없는 지식은 헛됨이다.",
+        "source": "종교학문의 부흥"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "islam",
+    "role": "신학자/수피"
   },
   {
     "id": "bernard-clairvaux",
@@ -1333,6 +2260,52 @@
     "role": "교황"
   },
   {
+    "id": "ibn-arabi",
+    "name": {
+      "ko": "이븐 아라비",
+      "en": "Ibn Arabi"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1165,
+      "end": 1240,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.39,
+      "lng": -5.98,
+      "region": "스페인 무르시아/시리아"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_scholar",
+    "tags": [
+      "수피즘",
+      "신비주의",
+      "존재일성론"
+    ],
+    "mvp": true,
+    "summary": "이슬람 최대의 신비주의 사상가. 존재일성론(와흐닷 알-우주드)을 체계화한 '최대의 스승'.",
+    "detailed": "알안달루스에서 태어나 이슬람 세계를 여행하며 수피즘의 형이상학을 체계화했다. 메카의 계시는 수피 사상의 백과전서적 저작이다.",
+    "keyWorks": [
+      {
+        "title": "메카의 계시"
+      },
+      {
+        "title": "지혜의 보석"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "내 마음은 모든 형상을 받아들이는 그릇이 되었다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "islam",
+    "role": "수피 사상가/신비주의 대가"
+  },
+  {
     "id": "dominic",
     "name": {
       "ko": "도미니코",
@@ -1428,6 +2401,177 @@
     "role": "수도회 창립자"
   },
   {
+    "id": "dogen",
+    "name": {
+      "ko": "도겐",
+      "en": "Dogen"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1200,
+      "end": 1253,
+      "approximate": true
+    },
+    "location": {
+      "lat": 35.01,
+      "lng": 135.77,
+      "region": "일본"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_mahayana",
+    "tags": [
+      "조동종",
+      "좌선",
+      "일본선불교"
+    ],
+    "mvp": true,
+    "summary": "일본의 선승. 조동종의 개조로 오직 앉아서 수행하는 묵조선(只管打坐)을 가르쳤다.",
+    "detailed": "중국 유학 후 일본에 돌아와 조동종을 개창했다. 정법안장(正法眼藏)은 일본 철학의 걸작으로 평가받는다.",
+    "keyWorks": [
+      {
+        "title": "정법안장(쇼보겐조)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "수행과 깨달음은 하나다.",
+        "source": "정법안장"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "buddhism",
+    "role": "조동종 개조/선사"
+  },
+  {
+    "id": "rumi",
+    "name": {
+      "ko": "잘랄 앗딘 루미",
+      "en": "Rumi"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1207,
+      "end": 1273,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.87,
+      "lng": 58.34,
+      "region": "페르시아/터키 코냐"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_scholar",
+    "tags": [
+      "수피즘",
+      "시",
+      "메블라나"
+    ],
+    "mvp": true,
+    "summary": "페르시아의 수피 시인. 마스나위로 이슬람 신비주의 문학의 최고봉에 올랐다.",
+    "detailed": "샴스 타브리지와의 만남이 그의 삶을 완전히 변화시켰다. 마스나위 6권은 '페르시아어의 꾸란'으로 불리는 수피 문학의 걸작이다. 메블레비 교단의 창시자로 선회춤(세마)으로도 유명하다.",
+    "keyWorks": [
+      {
+        "title": "마스나위"
+      },
+      {
+        "title": "디완 에 샴스"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "상처가 있는 곳에 빛이 들어온다.",
+        "source": "마스나위"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "islam",
+    "role": "수피 시인/메블레비 교단 창시자"
+  },
+  {
+    "id": "nichiren",
+    "name": {
+      "ko": "니치렌",
+      "en": "Nichiren"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1222,
+      "end": 1282,
+      "approximate": true
+    },
+    "location": {
+      "lat": 35.05,
+      "lng": 140.12,
+      "region": "일본"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_mahayana",
+    "tags": [
+      "법화경",
+      "일련종",
+      "일본불교"
+    ],
+    "mvp": true,
+    "summary": "일본의 승려. 법화경을 최고의 경전으로 삼고 나무묘호렌게쿄 염불을 주창했다.",
+    "detailed": "법화경만이 말법 시대의 올바른 가르침이라고 주장하며 다른 종파를 비판했다. 여러 차례 박해를 받았으나 굴하지 않고 자신의 신앙을 관철했다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "나무묘호렌게쿄.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "buddhism",
+    "role": "일련종 창시자"
+  },
+  {
+    "id": "ibn-taymiyyah",
+    "name": {
+      "ko": "이븐 타이미야",
+      "en": "Ibn Taymiyyah"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1263,
+      "end": 1328,
+      "approximate": true
+    },
+    "location": {
+      "lat": 33.51,
+      "lng": 36.29,
+      "region": "시리아 다마스쿠스"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_scholar",
+    "tags": [
+      "이슬람개혁",
+      "살라피즘",
+      "한발리학파"
+    ],
+    "mvp": true,
+    "summary": "시리아의 이슬람 학자. 이슬람의 원류 회귀를 주장하며 후대 이슬람 개혁운동에 지대한 영향을 미쳤다.",
+    "detailed": "한발리 학파의 전통에서 꾸란과 순나로의 직접적 복귀를 강조했다. 수피즘의 일부 관행과 철학적 사변을 비판했다. 와하비즘과 현대 살라피즘에 큰 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "파타와 모음집"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "islam",
+    "role": "학자/이슬람 개혁 사상가"
+  },
+  {
     "id": "john-wycliffe",
     "name": {
       "ko": "존 위클리프",
@@ -1480,6 +2624,49 @@
     ],
     "religionId": "christianity",
     "role": "신학자, 종교개혁 선구자"
+  },
+  {
+    "id": "tsongkhapa",
+    "name": {
+      "ko": "총카파",
+      "en": "Tsongkhapa"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1357,
+      "end": 1419,
+      "approximate": true
+    },
+    "location": {
+      "lat": 36.72,
+      "lng": 101.57,
+      "region": "티베트"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_tibetan",
+    "tags": [
+      "겔룩파",
+      "티베트불교",
+      "불교개혁"
+    ],
+    "mvp": true,
+    "summary": "티베트의 불교 학승. 겔룩파를 창시하여 티베트 불교의 대개혁을 이끌었다.",
+    "detailed": "계율의 엄격한 준수와 체계적 교학을 강조하며 겔룩파를 창시했다. 달라이 라마와 판첸 라마 제도의 기원이 되는 전통을 확립했다.",
+    "keyWorks": [
+      {
+        "title": "보리도차제광론(람림첸모)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "buddhism",
+    "role": "겔룩파 창시자/불교 개혁가"
   },
   {
     "id": "jan-hus",
@@ -1582,6 +2769,49 @@
     "role": "수도승, 영성 작가"
   },
   {
+    "id": "kabir",
+    "name": {
+      "ko": "카비르",
+      "en": "Kabir"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1398,
+      "end": 1518,
+      "approximate": true
+    },
+    "location": {
+      "lat": 25.32,
+      "lng": 83.01,
+      "region": "인도 바라나시"
+    },
+    "category": "religious_figure",
+    "subcategory": "hinduism",
+    "tags": [
+      "박티운동",
+      "힌두이슬람융합",
+      "신비시"
+    ],
+    "mvp": true,
+    "summary": "인도의 신비주의 시인. 힌두교와 이슬람의 형식주의를 비판하고 신에 대한 직접적 체험을 노래했다.",
+    "detailed": "무슬림 직조공 가문 출신으로 힌두교의 라마나다에게서 가르침을 받았다. 카스트 제도와 종교적 의식주의를 비판하며 내면의 신을 찾을 것을 역설했다.",
+    "keyWorks": [
+      {
+        "title": "비잭(카비르의 노래)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "신은 사원에도 모스크에도 없다. 신은 네 안에 있다.",
+        "source": "비잭"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "hinduism",
+    "role": "신비주의 시인/박티 운동가"
+  },
+  {
     "id": "joan-of-arc",
     "name": {
       "ko": "잔 다르크",
@@ -1670,6 +2900,49 @@
     ],
     "religionId": "christianity",
     "role": "수도승, 설교가"
+  },
+  {
+    "id": "guru-nanak",
+    "name": {
+      "ko": "구루 나낙",
+      "en": "Guru Nanak"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1469,
+      "end": 1539,
+      "approximate": true
+    },
+    "location": {
+      "lat": 31.62,
+      "lng": 74.87,
+      "region": "인도 펀자브"
+    },
+    "category": "religious_figure",
+    "subcategory": "other_religion",
+    "tags": [
+      "시크교",
+      "종교개혁",
+      "평등"
+    ],
+    "mvp": true,
+    "summary": "시크교의 창시자. 힌두교와 이슬람을 초월하여 하나의 신과 인간 평등을 가르쳤다.",
+    "detailed": "힌두 가정에서 태어났으나 기존 종교의 형식주의를 비판하고 새로운 영적 길을 열었다. 카스트 제도를 부정하고 모든 인간의 평등을 선포했다.",
+    "keyWorks": [
+      {
+        "title": "잡지(구루 그란트 사히브의 핵심)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "힌두도 없고 무슬림도 없다. 그러면 누구의 길을 따르겠는가? 나는 하나님의 길을 따르겠다.",
+        "source": "첫 계시 후"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "sikhism",
+    "role": "구루/시크교 창시자"
   },
   {
     "id": "martin-luther",
@@ -2346,5 +3619,772 @@
     "influenced": [],
     "religionId": "christianity",
     "role": "수도승, 신비가 (교회박사)"
+  },
+  {
+    "id": "baal-shem-tov",
+    "name": {
+      "ko": "바알 쉠 토브",
+      "en": "Baal Shem Tov"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1698,
+      "end": 1760,
+      "approximate": true
+    },
+    "location": {
+      "lat": 48.81,
+      "lng": 26.57,
+      "region": "우크라이나"
+    },
+    "category": "religious_figure",
+    "subcategory": "judaism",
+    "tags": [
+      "하시디즘",
+      "유대신비주의",
+      "카발라"
+    ],
+    "mvp": true,
+    "summary": "하시디즘(경건주의) 운동의 창시자. 기쁨과 열정으로 신을 섬기는 민중적 유대 영성을 확립했다.",
+    "detailed": "학문적 엘리트주의에 반대하고 순박한 신앙과 기쁨을 통한 신과의 합일을 가르쳤다. 카발라의 신비적 전통을 민중의 언어로 풀어내어 동유럽 유대인 사이에서 큰 운동을 일으켰다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "기쁨으로 신을 섬기라.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "judaism",
+    "role": "하시디즘 창시자"
+  },
+  {
+    "id": "john-wesley",
+    "name": {
+      "ko": "존 웨슬리",
+      "en": "John Wesley"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1703,
+      "end": 1791,
+      "approximate": true
+    },
+    "location": {
+      "lat": 52.95,
+      "lng": -1.15,
+      "region": "영국"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_modern",
+    "tags": [
+      "감리교",
+      "부흥운동",
+      "영국"
+    ],
+    "mvp": true,
+    "summary": "영국의 성직자. 감리교의 창시자로 18세기 영국의 대각성 운동을 이끌었다.",
+    "detailed": "옥스퍼드에서 '거룩한 모임'을 조직하고, 야외설교를 통해 노동자 계층에게 복음을 전했다. 그의 운동은 감리교로 발전하여 전 세계에 확산되었다.",
+    "keyWorks": [],
+    "quotes": "",
+    "influences": [],
+    "influenced": [],
+    "religionId": "christianity",
+    "role": "감리교 창시자"
+  },
+  {
+    "id": "jonathan-edwards",
+    "name": {
+      "ko": "조나단 에드워즈",
+      "en": "Jonathan Edwards"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1703,
+      "end": 1758,
+      "approximate": true
+    },
+    "location": {
+      "lat": 41.31,
+      "lng": -72.92,
+      "region": "미국 코네티컷"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_modern",
+    "tags": [
+      "대각성운동",
+      "칼뱅주의",
+      "미국"
+    ],
+    "mvp": true,
+    "summary": "미국의 목사이자 신학자. 1차 대각성 운동의 핵심 인물로 미국 신학의 기초를 놓았다.",
+    "detailed": "성난 하나님의 손 안에 있는 죄인들 설교로 대각성 운동을 촉발시켰다. 칼뱅주의 전통에서 경험적 신앙의 중요성을 강조하여 미국 복음주의의 토대를 마련했다.",
+    "keyWorks": [
+      {
+        "title": "성난 하나님의 손 안에 있는 죄인들",
+        "year": 1741
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "christianity",
+    "role": "목사/신학자"
+  },
+  {
+    "id": "bahau-llah",
+    "name": {
+      "ko": "바하울라",
+      "en": "Baha'u'llah"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1817,
+      "end": 1892,
+      "approximate": true
+    },
+    "location": {
+      "lat": 36.18,
+      "lng": 44.01,
+      "region": "페르시아"
+    },
+    "category": "religious_figure",
+    "subcategory": "other_religion",
+    "tags": [
+      "바하이교",
+      "인류일치",
+      "세계평화"
+    ],
+    "mvp": true,
+    "summary": "바하이 신앙의 창시자. 인류의 일치와 세계 평화를 핵심 교리로 하는 바하이교를 창시했다.",
+    "detailed": "이란 귀족 출신으로 바브 운동에 참여한 후 자신이 신의 현현임을 선포했다. 40년간의 유배와 투옥 속에서도 방대한 서한과 경전을 집필하여 바하이 교리를 확립했다.",
+    "keyWorks": [
+      {
+        "title": "키탑 이 악다스(가장 거룩한 책)"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "지구는 하나의 나라이고, 인류는 그 시민이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "bahai",
+    "role": "바하이 신앙 창시자"
+  },
+  {
+    "id": "ramakrishna",
+    "name": {
+      "ko": "라마크리슈나",
+      "en": "Ramakrishna"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1836,
+      "end": 1886,
+      "approximate": true
+    },
+    "location": {
+      "lat": 22.85,
+      "lng": 88.35,
+      "region": "인도 벵골"
+    },
+    "category": "religious_figure",
+    "subcategory": "hinduism",
+    "tags": [
+      "신비주의",
+      "종교다원주의",
+      "힌두교"
+    ],
+    "mvp": true,
+    "summary": "인도의 신비주의자. 모든 종교가 같은 진리에 이른다는 종교다원주의를 체험적으로 증명했다.",
+    "detailed": "칼리 여신의 사제로 힌두교의 다양한 수행법뿐 아니라 이슬람과 기독교의 수행도 실천했다. 제자 비베카난다를 통해 그의 가르침이 세계에 전파되었다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "신을 향한 길은 다양하지만, 목적지는 하나다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "hinduism",
+    "role": "신비주의자/사제"
+  },
+  {
+    "id": "vivekananda-hindu",
+    "name": {
+      "ko": "비베카난다",
+      "en": "Swami Vivekananda"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1863,
+      "end": 1902,
+      "approximate": true
+    },
+    "location": {
+      "lat": 22.57,
+      "lng": 88.36,
+      "region": "인도 콜카타"
+    },
+    "category": "religious_figure",
+    "subcategory": "hinduism",
+    "tags": [
+      "베단타",
+      "힌두교개혁",
+      "인도철학"
+    ],
+    "mvp": true,
+    "summary": "인도의 수도승이자 사상가. 1893년 시카고 만국종교회의에서 힌두교를 세계에 알린 근대 인도의 영적 지도자.",
+    "detailed": "라마크리슈나의 수제자로 라마크리슈나 미션을 설립했다. 시카고 연설로 서양에 베단타 사상을 소개하고 인도의 영적 유산을 세계에 알렸다.",
+    "keyWorks": [
+      {
+        "title": "라자 요가",
+        "year": 1896
+      }
+    ],
+    "quotes": [
+      {
+        "text": "일어나라, 깨어나라, 목표에 도달할 때까지 멈추지 마라.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "hinduism",
+    "role": "수도승/라마크리슈나 미션 설립자"
+  },
+  {
+    "id": "aurobindo-hindu",
+    "name": {
+      "ko": "스리 오로빈도",
+      "en": "Sri Aurobindo"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1872,
+      "end": 1950,
+      "approximate": true
+    },
+    "location": {
+      "lat": 11.93,
+      "lng": 79.83,
+      "region": "인도 퐁디셰리"
+    },
+    "category": "religious_figure",
+    "subcategory": "hinduism",
+    "tags": [
+      "통합요가",
+      "인도독립",
+      "영성"
+    ],
+    "mvp": true,
+    "summary": "인도의 독립운동가이자 영적 스승. 통합 요가(인테그럴 요가)를 발전시켜 인류의 영적 진화를 추구했다.",
+    "detailed": "영국에서 교육받고 인도 독립운동에 투신했으나 이후 영적 수행으로 전환했다. 퐁디셰리에 아슈람을 설립하고 의식의 진화를 통한 인류 변혁을 추구했다.",
+    "keyWorks": [
+      {
+        "title": "신성한 삶",
+        "year": 1914
+      },
+      {
+        "title": "사비트리",
+        "year": 1950
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "hinduism",
+    "role": "영적 스승/통합 요가 창시자"
+  },
+  {
+    "id": "ramana-maharshi",
+    "name": {
+      "ko": "라마나 마하르시",
+      "en": "Ramana Maharshi"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1879,
+      "end": 1950,
+      "approximate": true
+    },
+    "location": {
+      "lat": 12.23,
+      "lng": 79.07,
+      "region": "인도 티루반나말라이"
+    },
+    "category": "religious_figure",
+    "subcategory": "hinduism",
+    "tags": [
+      "아드바이타",
+      "자기탐구",
+      "명상"
+    ],
+    "mvp": true,
+    "summary": "인도의 성인. '나는 누구인가?'라는 자기탐구(아트마 비차라) 방법으로 현대 영성에 큰 영향을 미쳤다.",
+    "detailed": "16세에 자발적인 깨달음을 체험한 후 아루나찰라 산에서 평생을 보냈다. 침묵과 자기탐구를 통한 깨달음을 가르쳤다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "나는 누구인가?",
+        "source": "자기탐구의 핵심 질문"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "hinduism",
+    "role": "성인/아드바이타 스승"
+  },
+  {
+    "id": "pope-john-xxiii",
+    "name": {
+      "ko": "요한 23세",
+      "en": "Pope John XXIII"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1881,
+      "end": 1963,
+      "approximate": true
+    },
+    "location": {
+      "lat": 45.7,
+      "lng": 9.67,
+      "region": "이탈리아"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_modern",
+    "tags": [
+      "제2차바티칸공의회",
+      "교회개혁",
+      "교황"
+    ],
+    "mvp": true,
+    "summary": "로마 가톨릭교회의 제261대 교황. 제2차 바티칸 공의회를 소집하여 가톨릭교회의 현대화를 이끌었다.",
+    "detailed": "농부 가정 출신으로 교황이 되어 '선한 교황'으로 불렸다. 제2차 바티칸 공의회를 소집하여 교회의 쇄신과 에큐메니즘을 추진했다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "창문을 열어 신선한 바람을 들여보내자.",
+        "source": "제2차 바티칸 공의회 소집 시"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "christianity",
+    "role": "교황/교회 개혁가"
+  },
+  {
+    "id": "karl-barth",
+    "name": {
+      "ko": "칼 바르트",
+      "en": "Karl Barth"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1886,
+      "end": 1968,
+      "approximate": true
+    },
+    "location": {
+      "lat": 47.56,
+      "lng": 7.59,
+      "region": "스위스 바젤"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_modern",
+    "tags": [
+      "신정통주의",
+      "변증법신학",
+      "스위스"
+    ],
+    "mvp": true,
+    "summary": "스위스의 신학자. 로마서 주석으로 자유주의 신학에 도전하고 20세기 신정통주의를 이끌었다.",
+    "detailed": "1차 세계대전의 충격 속에서 자유주의 신학을 비판하고 하나님의 절대적 타자성을 강조했다. 교회교의학은 20세기 가장 중요한 조직신학 작품이다.",
+    "keyWorks": [
+      {
+        "title": "로마서 주석",
+        "year": 1919
+      },
+      {
+        "title": "교회교의학",
+        "year": 1932
+      }
+    ],
+    "quotes": [
+      {
+        "text": "하나님은 하나님이시다.",
+        "source": "로마서 주석"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "christianity",
+    "role": "신학자/신정통주의 창시자"
+  },
+  {
+    "id": "reinhold-niebuhr",
+    "name": {
+      "ko": "라인홀트 니버",
+      "en": "Reinhold Niebuhr"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1892,
+      "end": 1971,
+      "approximate": true
+    },
+    "location": {
+      "lat": 40.81,
+      "lng": -73.96,
+      "region": "미국 뉴욕"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_modern",
+    "tags": [
+      "기독교현실주의",
+      "정치신학",
+      "미국"
+    ],
+    "mvp": true,
+    "summary": "미국의 신학자. 기독교 현실주의를 제창하여 20세기 정치신학에 큰 영향을 미쳤다.",
+    "detailed": "이상주의적 자유주의를 비판하고 인간의 죄성에 기반한 현실주의 정치신학을 발전시켰다. 평정기도문의 저자로도 유명하다.",
+    "keyWorks": [
+      {
+        "title": "도덕적 인간과 비도덕적 사회",
+        "year": 1932
+      }
+    ],
+    "quotes": [
+      {
+        "text": "바꿀 수 없는 것을 받아들이는 평정, 바꿀 수 있는 것을 바꾸는 용기, 그 차이를 아는 지혜를 주소서.",
+        "source": "평정기도문"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "christianity",
+    "role": "신학자/기독교 현실주의"
+  },
+  {
+    "id": "cs-lewis",
+    "name": {
+      "ko": "C.S. 루이스",
+      "en": "C.S. Lewis"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1898,
+      "end": 1963,
+      "approximate": true
+    },
+    "location": {
+      "lat": 51.75,
+      "lng": -1.25,
+      "region": "영국 옥스퍼드"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_modern",
+    "tags": [
+      "기독교변증",
+      "판타지문학",
+      "영국"
+    ],
+    "mvp": true,
+    "summary": "영국의 작가이자 기독교 변증가. 나니아 연대기와 순전한 기독교로 20세기 가장 영향력 있는 기독교 저술가가 되었다.",
+    "detailed": "옥스퍼드 교수로 톨킨과 교류하며 무신론에서 기독교로 회심했다. 나니아 연대기는 기독교 알레고리를 담은 판타지 걸작이다.",
+    "keyWorks": [
+      {
+        "title": "순전한 기독교",
+        "year": 1952
+      },
+      {
+        "title": "나니아 연대기",
+        "year": 1950
+      }
+    ],
+    "quotes": [
+      {
+        "text": "고통은 하나님의 확성기다.",
+        "source": "고통의 문제"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "christianity",
+    "role": "작가/기독교 변증가"
+  },
+  {
+    "id": "bonhoeffer",
+    "name": {
+      "ko": "디트리히 본회퍼",
+      "en": "Dietrich Bonhoeffer"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1906,
+      "end": 1945,
+      "approximate": true
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.4,
+      "region": "독일 베를린"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_modern",
+    "tags": [
+      "저항신학",
+      "나치저항",
+      "순교"
+    ],
+    "mvp": true,
+    "summary": "독일의 신학자. 나치 정권에 맞서 저항하다 처형된 20세기 가장 영향력 있는 신학자 중 한 명.",
+    "detailed": "나치즘에 대한 교회의 순응을 비판하고 고백교회 운동에 참여했다. 히틀러 암살 음모에 연루되어 체포된 후 플로센뷔르크 수용소에서 처형되었다.",
+    "keyWorks": [
+      {
+        "title": "나를 따르라",
+        "year": 1937
+      },
+      {
+        "title": "옥중서신",
+        "year": 1951
+      }
+    ],
+    "quotes": [
+      {
+        "text": "값싼 은혜는 교회의 치명적 적이다.",
+        "source": "나를 따르라"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "christianity",
+    "role": "신학자/순교자"
+  },
+  {
+    "id": "abraham-heschel",
+    "name": {
+      "ko": "아브라함 요슈아 헤셸",
+      "en": "Abraham Joshua Heschel"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1907,
+      "end": 1972,
+      "approximate": true
+    },
+    "location": {
+      "lat": 40.81,
+      "lng": -73.96,
+      "region": "미국"
+    },
+    "category": "religious_figure",
+    "subcategory": "judaism",
+    "tags": [
+      "유대신학",
+      "시민권",
+      "현대유대교"
+    ],
+    "mvp": true,
+    "summary": "폴란드 출신의 미국 유대교 신학자. 예언자적 정의를 강조하며 마틴 루서 킹과 함께 시민권 운동에 참여했다.",
+    "detailed": "하시디즘의 전통에서 출발하여 현대 유대 신학의 대가가 되었다. 셀마 행진에 킹 목사와 함께 참여하며 종교적 신념의 사회적 실천을 보여주었다.",
+    "keyWorks": [
+      {
+        "title": "인간을 찾는 하나님",
+        "year": 1955
+      }
+    ],
+    "quotes": [
+      {
+        "text": "기도란 하나님의 관점에서 세상을 보는 것이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "judaism",
+    "role": "신학자/시민권 운동 참여자"
+  },
+  {
+    "id": "mother-teresa",
+    "name": {
+      "ko": "마더 테레사",
+      "en": "Mother Teresa"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1910,
+      "end": 1997,
+      "approximate": true
+    },
+    "location": {
+      "lat": 22.57,
+      "lng": 88.36,
+      "region": "인도 콜카타"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_modern",
+    "tags": [
+      "자선",
+      "빈민봉사",
+      "노벨평화상"
+    ],
+    "mvp": true,
+    "summary": "알바니아 출신의 가톨릭 수녀. 인도 콜카타에서 빈민과 병자를 돌보며 사랑의 선교회를 설립했다.",
+    "detailed": "마케도니아에서 태어나 인도에서 평생을 빈민 봉사에 헌신했다. 사랑의 선교회를 설립하여 전 세계에 봉사 네트워크를 구축했다. 1979년 노벨평화상을 수상했다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "사랑의 반대는 미움이 아니라 무관심입니다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "christianity",
+    "role": "수녀/사랑의 선교회 창설자"
+  },
+  {
+    "id": "thich-nhat-hanh",
+    "name": {
+      "ko": "틱낫한",
+      "en": "Thich Nhat Hanh"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1926,
+      "end": 2022,
+      "approximate": true
+    },
+    "location": {
+      "lat": 16.47,
+      "lng": 107.58,
+      "region": "베트남/프랑스"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_tibetan",
+    "tags": [
+      "참여불교",
+      "마음챙김",
+      "평화"
+    ],
+    "mvp": true,
+    "summary": "베트남의 선승. 마음챙김 명상을 서양에 전파하고 참여불교 운동을 이끈 현대 불교의 거장.",
+    "detailed": "베트남전 중 평화운동을 이끌다 추방되어 프랑스에 플럼빌리지 공동체를 설립했다. 마음챙김을 일상에 적용하는 수행법으로 서양에 불교를 대중화했다.",
+    "keyWorks": [
+      {
+        "title": "지금 이 순간이 나의 집입니다",
+        "year": 2012
+      }
+    ],
+    "quotes": [
+      {
+        "text": "지금 이 순간이 유일한 순간입니다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "buddhism",
+    "role": "선승/참여불교 지도자"
+  },
+  {
+    "id": "desmond-tutu",
+    "name": {
+      "ko": "데스몬드 투투",
+      "en": "Desmond Tutu"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1931,
+      "end": 2021,
+      "approximate": true
+    },
+    "location": {
+      "lat": -33.93,
+      "lng": 18.42,
+      "region": "남아프리카"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_modern",
+    "tags": [
+      "반아파르트헤이트",
+      "인권",
+      "성공회"
+    ],
+    "mvp": true,
+    "summary": "남아프리카의 성공회 대주교. 아파르트헤이트에 비폭력으로 맞서 싸운 인권 운동가. 1984년 노벨평화상 수상.",
+    "detailed": "남아프리카 최초의 흑인 성공회 대주교로 아파르트헤이트 체제에 맞서 비폭력 저항을 이끌었다. 진실화해위원회 위원장으로 화해와 용서의 정신을 실천했다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "용서 없이는 미래가 없다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "christianity",
+    "role": "대주교/인권 운동가"
+  },
+  {
+    "id": "dalai-lama-14",
+    "name": {
+      "ko": "달라이 라마 14세",
+      "en": "14th Dalai Lama"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1935,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 29.65,
+      "lng": 91.13,
+      "region": "티베트/인도"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_tibetan",
+    "tags": [
+      "티베트불교",
+      "비폭력",
+      "평화"
+    ],
+    "mvp": true,
+    "summary": "티베트의 정신적 지도자. 중국의 티베트 점령 이후 망명하며 비폭력과 자비를 세계에 전파. 1989년 노벨평화상 수상.",
+    "detailed": "2세에 달라이 라마의 환생으로 인정되어 15세에 티베트의 정치·종교 지도자가 되었다. 1959년 인도로 망명한 후 비폭력으로 티베트의 자치를 추구하며 불교의 가르침을 세계에 전파했다.",
+    "keyWorks": [
+      {
+        "title": "행복의 기술",
+        "year": 1998
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나의 종교는 친절입니다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "religionId": "buddhism",
+    "role": "달라이 라마/정신적 지도자"
   }
 ]

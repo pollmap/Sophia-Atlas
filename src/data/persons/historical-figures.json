@@ -1,1 +1,4514 @@
-[]
+[
+  {
+    "id": "homer",
+    "name": {
+      "ko": "호메로스",
+      "en": "Homer"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -800,
+      "end": -700
+    },
+    "location": {
+      "lat": 38.37,
+      "lng": 26.14,
+      "region": "그리스 이오니아"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "서사시",
+      "그리스문학",
+      "고전"
+    ],
+    "mvp": true,
+    "summary": "서양 문학의 아버지. 일리아스와 오디세이아의 저자로 서양 문학과 문화의 근간을 형성했다.",
+    "detailed": "고대 그리스의 전설적 시인으로 두 대서사시를 통해 서양 문학의 기초를 놓았다. 트로이 전쟁과 오디세우스의 모험을 노래한 그의 작품은 수천 년간 서양 교육의 핵심이었다.",
+    "keyWorks": [
+      {
+        "title": "일리아스",
+        "year": -750
+      },
+      {
+        "title": "오디세이아",
+        "year": -725
+      }
+    ],
+    "quotes": [
+      {
+        "text": "노여움을 노래하라, 여신이여.",
+        "source": "일리아스 첫 행"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "서사시/고전문학",
+    "achievements": [
+      "서양 문학의 기초 확립",
+      "서사시 장르 창시"
+    ]
+  },
+  {
+    "id": "sun-tzu",
+    "name": {
+      "ko": "손자",
+      "en": "Sun Tzu"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -544,
+      "end": -496
+    },
+    "location": {
+      "lat": 31.3,
+      "lng": 117.27,
+      "region": "중국 제나라"
+    },
+    "category": "historical_figure",
+    "subcategory": "military_leader",
+    "tags": [
+      "중국",
+      "병법",
+      "전략"
+    ],
+    "mvp": true,
+    "summary": "고대 중국의 군사 전략가이자 《손자병법》의 저자. 전쟁의 철학과 전략을 체계적으로 정리한 군사학의 아버지이다.",
+    "detailed": "춘추시대 제나라 출신으로 오나라의 군사 고문으로 활동했다. 《손자병법》 13편을 저술하여 전쟁의 본질과 전략을 체계화했다. 전쟁을 피하는 것이 최선의 전략이라는 역설적 가르침을 남겼다. 동서양을 막론하고 군사 전략의 고전으로 오늘날까지 읽히고 있다.",
+    "keyWorks": [
+      {
+        "title": "손자병법",
+        "year": -500
+      }
+    ],
+    "quotes": [
+      {
+        "text": "싸우지 않고 이기는 것이 최선이다.",
+        "source": "손자병법"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "mao-zedong",
+      "napoleon"
+    ],
+    "domain": "군사/전략",
+    "achievements": [
+      "손자병법 저술",
+      "군사 전략학 창시",
+      "동서양 전략 사상에 영향"
+    ]
+  },
+  {
+    "id": "phidias",
+    "name": {
+      "ko": "페이디아스",
+      "en": "Phidias"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -480,
+      "end": -430
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "조각",
+      "그리스미술",
+      "고전"
+    ],
+    "mvp": true,
+    "summary": "고대 그리스의 조각가. 파르테논 신전의 조각과 올림피아의 제우스 상을 제작한 고전기 미술의 거장.",
+    "detailed": "페리클레스의 후원 아래 아테네 아크로폴리스의 건축과 장식을 총지휘했다. 파르테논의 아테나 여신상과 올림피아의 제우스 좌상은 고대 7대 불가사의에 포함되었다.",
+    "keyWorks": [
+      {
+        "title": "아테나 파르테노스",
+        "year": -438
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "조각/그리스미술",
+    "achievements": [
+      "파르테논 조각",
+      "올림피아 제우스 상"
+    ]
+  },
+  {
+    "id": "alexander-the-great",
+    "name": {
+      "ko": "알렉산드로스 대왕",
+      "en": "Alexander the Great"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -356,
+      "end": -323
+    },
+    "location": {
+      "lat": 40.52,
+      "lng": 22.97,
+      "region": "마케도니아"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "정복",
+      "헬레니즘",
+      "군사"
+    ],
+    "mvp": true,
+    "summary": "마케도니아의 왕으로 페르시아 제국을 정복하고 인도까지 진출한 대정복자. 헬레니즘 문명의 확산에 결정적 역할을 했다.",
+    "detailed": "아리스토텔레스에게 교육을 받았으며 20세에 왕위에 올랐다. 페르시아, 이집트, 인도에 이르는 대제국을 건설했다. 그의 정복은 그리스 문화와 동방 문화의 융합인 헬레니즘 시대를 열었다. 32세의 젊은 나이에 바빌론에서 사망했다.",
+    "keyWorks": [
+      {
+        "title": "알렉산드로스 원정기",
+        "year": -334
+      }
+    ],
+    "quotes": [
+      {
+        "text": "불가능은 없다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [
+      "aristotle"
+    ],
+    "influenced": [
+      "ptolemy-i"
+    ],
+    "domain": "정복/통치",
+    "achievements": [
+      "페르시아 제국 정복",
+      "헬레니즘 문명 확산",
+      "알렉산드리아 건설"
+    ]
+  },
+  {
+    "id": "ashoka",
+    "name": {
+      "ko": "아소카",
+      "en": "Ashoka the Great"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -304,
+      "end": -232
+    },
+    "location": {
+      "lat": 25.6,
+      "lng": 85.1,
+      "region": "인도 파탈리푸트라"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "인도",
+      "마우리아",
+      "불교"
+    ],
+    "mvp": true,
+    "summary": "마우리아 왕조의 황제로 칼링가 전쟁 후 불교에 귀의하여 비폭력과 관용의 통치를 실천했다.",
+    "detailed": "인도 아대륙 대부분을 정복한 정복 군주였다. 칼링가 전쟁의 참상에 충격을 받아 불교에 귀의했다. 다르마(법)에 기반한 통치를 실천하고 아소카 칙령을 각지에 세웠다. 불교 전파에 크게 기여하여 불교가 세계 종교로 성장하는 데 결정적 역할을 했다.",
+    "keyWorks": [
+      {
+        "title": "아소카 칙령",
+        "year": -260
+      }
+    ],
+    "quotes": [
+      {
+        "text": "모든 존재를 자식처럼 여기라.",
+        "source": "아소카 칙령"
+      }
+    ],
+    "influences": [
+      "buddha"
+    ],
+    "influenced": [],
+    "domain": "정치/종교",
+    "achievements": [
+      "비폭력 통치 실현",
+      "불교 전파",
+      "아소카 칙령 반포"
+    ]
+  },
+  {
+    "id": "qin-shi-huang",
+    "name": {
+      "ko": "진시황",
+      "en": "Qin Shi Huang"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -259,
+      "end": -210
+    },
+    "location": {
+      "lat": 34.27,
+      "lng": 108.9,
+      "region": "중국 시안"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "중국",
+      "통일",
+      "진나라"
+    ],
+    "mvp": true,
+    "summary": "중국 최초의 황제로 전국시대를 종식시키고 중국을 통일했다. 만리장성과 병마용으로 유명하다.",
+    "detailed": "진나라의 왕으로 6국을 정복하여 중국을 최초로 통일했다. 도량형, 문자, 화폐를 통일하여 중앙집권 체제를 확립했다. 만리장성 건설과 분서갱유 등 강력한 통치를 실시했다. 병마용갱으로 유명한 거대한 능묘를 조성했다.",
+    "keyWorks": [
+      {
+        "title": "중국 통일",
+        "year": -221
+      }
+    ],
+    "quotes": [
+      {
+        "text": "짐이 천하를 통일하였다.",
+        "source": "진시황본기"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "정치/통일",
+    "achievements": [
+      "중국 최초 통일",
+      "문자·도량형 통일",
+      "만리장성 건설"
+    ]
+  },
+  {
+    "id": "hannibal",
+    "name": {
+      "ko": "한니발",
+      "en": "Hannibal Barca"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -247,
+      "end": -183
+    },
+    "location": {
+      "lat": 36.85,
+      "lng": 10.33,
+      "region": "카르타고(현 튀니지)"
+    },
+    "category": "historical_figure",
+    "subcategory": "military_leader",
+    "tags": [
+      "카르타고",
+      "포에니전쟁",
+      "전략"
+    ],
+    "mvp": true,
+    "summary": "카르타고의 명장으로 알프스를 넘어 로마를 공격한 역사상 가장 위대한 군사 천재 중 한 명이다.",
+    "detailed": "아버지 하밀카르 바르카에게 로마에 대한 복수를 맹세하며 자랐다. 알프스 산맥을 코끼리와 함께 넘어 로마 본토를 침공했다. 칸나이 전투에서 로마군을 포위 섬멸하는 역사적 승리를 거두었다. 자마 전투에서 스키피오에게 패배하여 카르타고의 운명이 결정되었다.",
+    "keyWorks": [
+      {
+        "title": "칸나이 전투",
+        "year": -216
+      }
+    ],
+    "quotes": [
+      {
+        "text": "길을 찾거나 만들겠다.",
+        "source": "알프스 원정 시"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "군사/전략",
+    "achievements": [
+      "알프스 횡단 원정",
+      "칸나이 포위 전술",
+      "로마에 대한 도전"
+    ]
+  },
+  {
+    "id": "spartacus",
+    "name": {
+      "ko": "스파르타쿠스",
+      "en": "Spartacus"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -111,
+      "end": -71
+    },
+    "location": {
+      "lat": 40.85,
+      "lng": 14.27,
+      "region": "트라키아/로마"
+    },
+    "category": "historical_figure",
+    "subcategory": "military_leader",
+    "tags": [
+      "로마",
+      "노예반란",
+      "자유"
+    ],
+    "mvp": true,
+    "summary": "로마 공화정 시대의 검투사 노예로 대규모 노예 반란을 이끌었다. 자유를 향한 투쟁의 상징적 인물이다.",
+    "detailed": "트라키아 출신의 노예로 카푸아의 검투사 학교에서 반란을 일으켰다. 7만여 명의 노예를 이끌고 로마군을 여러 차례 격파했다. 2년간 이탈리아 반도를 누비며 로마를 위협했다. 크라수스의 군대에 의해 진압되어 전사했으나 자유의 상징으로 남았다.",
+    "keyWorks": [
+      {
+        "title": "노예 반란",
+        "year": -73
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자유 아니면 죽음이다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "군사/자유",
+    "achievements": [
+      "대규모 노예 반란",
+      "로마 체제에 대한 도전",
+      "자유 투쟁의 상징"
+    ]
+  },
+  {
+    "id": "julius-caesar",
+    "name": {
+      "ko": "율리우스 카이사르",
+      "en": "Julius Caesar"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -100,
+      "end": -44
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "로마"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "로마",
+      "공화정",
+      "독재"
+    ],
+    "mvp": true,
+    "summary": "로마 공화정 말기의 군인이자 정치가. 갈리아 정복과 내전 승리 후 종신독재관이 되었으나 암살당했다.",
+    "detailed": "갈리아 원정으로 로마의 영토를 크게 확장했다. 루비콘강을 건너 내전에서 승리하고 로마의 최고 권력자가 되었다. 율리우스력을 도입하는 등 다양한 개혁을 추진했다. 원로원 의원들에 의해 암살되었으나, 그의 유산은 로마 제국의 탄생으로 이어졌다.",
+    "keyWorks": [
+      {
+        "title": "갈리아 전쟁기",
+        "year": -58
+      }
+    ],
+    "quotes": [
+      {
+        "text": "왔노라, 보았노라, 이겼노라.",
+        "source": "젤라 전투 후"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "augustus"
+    ],
+    "domain": "정치/군사",
+    "achievements": [
+      "갈리아 정복",
+      "율리우스력 도입",
+      "로마 공화정에서 제정으로의 전환"
+    ]
+  },
+  {
+    "id": "virgil",
+    "name": {
+      "ko": "베르길리우스",
+      "en": "Virgil"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -70,
+      "end": -19
+    },
+    "location": {
+      "lat": 45.13,
+      "lng": 10.79,
+      "region": "로마 제국"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "서사시",
+      "로마문학",
+      "라틴어"
+    ],
+    "mvp": true,
+    "summary": "로마 최대의 시인. 아이네이스를 통해 로마의 건국 신화를 서사시로 완성했다.",
+    "detailed": "아우구스투스 시대 로마의 대시인. 목가시와 농경시를 거쳐 대서사시 아이네이스를 집필했다. 트로이 영웅 아이네아스의 여정을 통해 로마 건국의 신화적 정당성을 부여했다.",
+    "keyWorks": [
+      {
+        "title": "아이네이스",
+        "year": -19
+      },
+      {
+        "title": "목가",
+        "year": -37
+      }
+    ],
+    "quotes": [
+      {
+        "text": "운명에 길을 찾겠다, 아니면 만들겠다.",
+        "source": "아이네이스"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "서사시/라틴문학",
+    "achievements": [
+      "로마 건국 서사시 아이네이스",
+      "라틴 문학의 정점"
+    ]
+  },
+  {
+    "id": "cleopatra",
+    "name": {
+      "ko": "클레오파트라",
+      "en": "Cleopatra VII"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -69,
+      "end": -30
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.92,
+      "region": "이집트 알렉산드리아"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "이집트",
+      "프톨레마이오스",
+      "로마"
+    ],
+    "mvp": true,
+    "summary": "프톨레마이오스 왕조의 마지막 파라오. 카이사르, 안토니우스와의 정치적 동맹으로 유명하며 이집트의 독립을 지키려 했다.",
+    "detailed": "프톨레마이오스 왕조의 마지막 통치자로 여러 언어에 능통한 지적인 여왕이었다. 줄리어스 시저와의 동맹으로 왕위를 확보했다. 마르쿠스 안토니우스와 동맹하여 로마의 옥타비아누스에 맞섰다. 악티움 해전 패배 후 자살하여 이집트 왕조의 역사가 막을 내렸다.",
+    "keyWorks": [
+      {
+        "title": "이집트-로마 동맹",
+        "year": -48
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 여왕이다. 무릎 꿇지 않는다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "정치/외교",
+    "achievements": [
+      "프톨레마이오스 왕조 최후 통치",
+      "로마와의 외교적 동맹",
+      "이집트 독립 수호 시도"
+    ]
+  },
+  {
+    "id": "augustus",
+    "name": {
+      "ko": "아우구스투스",
+      "en": "Augustus"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -63,
+      "end": 14
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "로마"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "로마",
+      "제국",
+      "팍스 로마나"
+    ],
+    "mvp": true,
+    "summary": "로마 제국의 초대 황제. 카이사르의 양자로서 내전을 수습하고 팍스 로마나의 시대를 열었다.",
+    "detailed": "카이사르 암살 후 안토니우스, 레피두스와 제2차 삼두정치를 구성했다. 악티움 해전에서 안토니우스와 클레오파트라를 격파했다. 프린키파투스 체제를 확립하여 공화정의 형식을 유지하면서 실질적 황제 권력을 행사했다. 200년간의 팍스 로마나 시대를 열었다.",
+    "keyWorks": [
+      {
+        "title": "업적록(Res Gestae)",
+        "year": 14
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 벽돌의 도시를 물려받아 대리석의 도시를 남긴다.",
+        "source": "수에토니우스"
+      }
+    ],
+    "influences": [
+      "julius-caesar"
+    ],
+    "influenced": [],
+    "domain": "정치/통치",
+    "achievements": [
+      "로마 제국 건국",
+      "팍스 로마나 시대 개막",
+      "로마 행정 체계 확립"
+    ]
+  },
+  {
+    "id": "charlemagne",
+    "name": {
+      "ko": "카를 대제",
+      "en": "Charlemagne"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 742,
+      "end": 814
+    },
+    "location": {
+      "lat": 50.77,
+      "lng": 6.08,
+      "region": "프랑크 왕국(아헨)"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "프랑크",
+      "신성로마제국",
+      "카롤링거"
+    ],
+    "mvp": true,
+    "summary": "프랑크 왕국의 왕이자 서로마 제국을 부활시킨 황제. 카롤링거 르네상스를 이끌며 유럽 문명의 기틀을 마련했다.",
+    "detailed": "프랑크 왕국을 서유럽 대부분을 아우르는 대제국으로 확장했다. 800년 교황 레오 3세로부터 로마 황제 관을 받았다. 교육과 문화를 장려하여 카롤링거 르네상스를 이끌었다. 유럽의 정치적, 문화적 통합의 상징적 인물이다.",
+    "keyWorks": [
+      {
+        "title": "카롤링거 르네상스",
+        "year": 780
+      }
+    ],
+    "quotes": [
+      {
+        "text": "칼로 이룬 것을 펜으로 지키라.",
+        "source": "전승"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "정치/통치",
+    "achievements": [
+      "서유럽 통일",
+      "카롤링거 르네상스",
+      "유럽 문명 기틀 마련"
+    ]
+  },
+  {
+    "id": "murasaki-shikibu",
+    "name": {
+      "ko": "무라사키 시키부",
+      "en": "Murasaki Shikibu"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 973,
+      "end": 1014
+    },
+    "location": {
+      "lat": 35.01,
+      "lng": 135.77,
+      "region": "일본 교토"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "소설",
+      "일본문학",
+      "궁정문학"
+    ],
+    "mvp": true,
+    "summary": "일본 헤이안 시대의 궁정 여성. 겐지모노가타리를 집필하여 세계 최초의 장편소설로 평가받는다.",
+    "detailed": "헤이안 궁정의 여관으로 활동하며 54첩에 달하는 겐지모노가타리를 집필했다. 히카루 겐지의 일생을 통해 귀족 사회의 미와 무상을 그렸다. 세계 문학사에서 최초의 근대적 장편소설로 평가받는다.",
+    "keyWorks": [
+      {
+        "title": "겐지모노가타리",
+        "year": 1008
+      }
+    ],
+    "quotes": [
+      {
+        "text": "달빛이 없는 밤에도 꽃은 핀다.",
+        "source": "겐지모노가타리"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "소설/일본고전문학",
+    "achievements": [
+      "세계 최초의 장편소설 겐지모노가타리"
+    ]
+  },
+  {
+    "id": "saladin",
+    "name": {
+      "ko": "살라딘",
+      "en": "Saladin"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1137,
+      "end": 1193
+    },
+    "location": {
+      "lat": 30.04,
+      "lng": 31.24,
+      "region": "이집트/시리아"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "아이유브",
+      "십자군",
+      "이슬람"
+    ],
+    "mvp": true,
+    "summary": "아이유브 왕조의 창건자이자 십자군에 맞선 이슬람 세계의 영웅. 예루살렘을 탈환하고 기사도적 관용으로 유명했다.",
+    "detailed": "이집트와 시리아를 통일하여 아이유브 왕조를 세웠다. 1187년 하틴 전투에서 십자군을 격파하고 예루살렘을 탈환했다. 제3차 십자군 전쟁에서 리처드 1세와 대결했다. 적에게도 관용을 베풀어 동서양 모두에서 존경받는 지도자이다.",
+    "keyWorks": [
+      {
+        "title": "하틴 전투",
+        "year": 1187
+      }
+    ],
+    "quotes": [
+      {
+        "text": "관용은 승리보다 위대하다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "군사/정치",
+    "achievements": [
+      "예루살렘 탈환",
+      "아이유브 왕조 건국",
+      "이슬람 세계 통합"
+    ]
+  },
+  {
+    "id": "genghis-khan",
+    "name": {
+      "ko": "칭기즈 칸",
+      "en": "Genghis Khan"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1162,
+      "end": 1227
+    },
+    "location": {
+      "lat": 47.92,
+      "lng": 106.91,
+      "region": "몽골"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "몽골",
+      "제국",
+      "정복"
+    ],
+    "mvp": true,
+    "summary": "몽골 제국의 창건자. 유라시아 대륙을 가로지르는 역사상 최대의 연속 영토 제국을 건설했다.",
+    "detailed": "몽골 부족들을 통일하고 1206년 칭기즈 칸으로 추대되었다. 중국 북부, 중앙아시아, 페르시아, 동유럽까지 정복했다. 야사라는 법전을 제정하고 역참 제도를 확립했다. 그의 제국은 동서 문명 교류의 통로가 되었다.",
+    "keyWorks": [
+      {
+        "title": "몽골비사",
+        "year": 1228
+      }
+    ],
+    "quotes": [
+      {
+        "text": "가장 큰 행복은 적을 정복하는 것이다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "kublai-khan"
+    ],
+    "domain": "정복/통치",
+    "achievements": [
+      "몽골 제국 건설",
+      "동서 문명 교류 촉진",
+      "역참 제도 확립"
+    ]
+  },
+  {
+    "id": "marco-polo",
+    "name": {
+      "ko": "마르코 폴로",
+      "en": "Marco Polo"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1254,
+      "end": 1324
+    },
+    "location": {
+      "lat": 45.44,
+      "lng": 12.34,
+      "region": "이탈리아 베네치아"
+    },
+    "category": "historical_figure",
+    "subcategory": "explorer",
+    "tags": [
+      "탐험",
+      "실크로드",
+      "동방"
+    ],
+    "mvp": true,
+    "summary": "베네치아의 상인이자 탐험가로 실크로드를 따라 중국까지 여행했다. 《동방견문록》으로 유럽에 동양을 소개했다.",
+    "detailed": "아버지, 삼촌과 함께 17세에 동방으로의 여행길에 올랐다. 원나라 쿠빌라이 칸의 궁정에서 17년간 체류했다. 귀환 후 《동방견문록》을 집필하여 동양의 문물을 유럽에 소개했다. 그의 기록은 대항해시대의 영감이 되었다.",
+    "keyWorks": [
+      {
+        "title": "동방견문록",
+        "year": 1300
+      }
+    ],
+    "quotes": [
+      {
+        "text": "내가 본 것의 절반도 말하지 못했다.",
+        "source": "임종 시"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "columbus"
+    ],
+    "domain": "탐험/교류",
+    "achievements": [
+      "실크로드 여행",
+      "동방견문록 저술",
+      "동서 문명 교류"
+    ]
+  },
+  {
+    "id": "dante",
+    "name": {
+      "ko": "단테 알리기에리",
+      "en": "Dante Alighieri"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1265,
+      "end": 1321
+    },
+    "location": {
+      "lat": 43.77,
+      "lng": 11.25,
+      "region": "이탈리아 피렌체"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "신곡",
+      "이탈리아문학",
+      "중세"
+    ],
+    "mvp": true,
+    "summary": "이탈리아의 시인. 신곡을 통해 중세 기독교 세계관을 문학적으로 완성하고 이탈리아어 문학의 기초를 놓았다.",
+    "detailed": "피렌체 출신의 시인으로 정치적 망명 생활 중 대작 신곡을 완성했다. 지옥, 연옥, 천국을 여행하는 서사를 통해 중세 신학과 철학을 종합했다. 라틴어 대신 토스카나 방언으로 집필하여 이탈리아어의 아버지로 불린다.",
+    "keyWorks": [
+      {
+        "title": "신곡",
+        "year": 1320
+      },
+      {
+        "title": "새로운 삶",
+        "year": 1294
+      }
+    ],
+    "quotes": [
+      {
+        "text": "이 문을 지나는 자, 모든 희망을 버려라.",
+        "source": "신곡 지옥편"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "서사시/이탈리아문학",
+    "achievements": [
+      "신곡으로 중세 문학 집대성",
+      "이탈리아어 문학의 기초"
+    ]
+  },
+  {
+    "id": "zheng-he",
+    "name": {
+      "ko": "정화",
+      "en": "Zheng He"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1371,
+      "end": 1433
+    },
+    "location": {
+      "lat": 25.04,
+      "lng": 102.71,
+      "region": "중국 윈난성"
+    },
+    "category": "historical_figure",
+    "subcategory": "explorer",
+    "tags": [
+      "중국",
+      "명나라",
+      "보물선"
+    ],
+    "mvp": true,
+    "summary": "명나라의 환관 출신 항해가로 대규모 함대를 이끌고 7차례에 걸쳐 서양(동남아·인도양·아프리카)을 탐험했다.",
+    "detailed": "운남 출신의 무슬림으로 환관이 되어 영락제의 신임을 받았다. 200척이 넘는 대함대를 이끌고 동남아시아, 인도, 아라비아, 동아프리카까지 항해했다. 콜럼버스보다 수십 년 앞서 대규모 원양 항해를 수행했다. 명나라의 조공 체제를 확립하고 해상 교역을 확대했다.",
+    "keyWorks": [
+      {
+        "title": "제1차 원양 항해",
+        "year": 1405
+      }
+    ],
+    "quotes": [
+      {
+        "text": "바다는 천하를 잇는 길이다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "탐험/항해",
+    "achievements": [
+      "7차례 대원양 항해",
+      "동남아-아프리카 탐험",
+      "명나라 해상 교역 확대"
+    ]
+  },
+  {
+    "id": "joan-of-arc",
+    "name": {
+      "ko": "잔 다르크",
+      "en": "Joan of Arc"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1412,
+      "end": 1431
+    },
+    "location": {
+      "lat": 48.43,
+      "lng": 6.45,
+      "region": "프랑스 동레미"
+    },
+    "category": "historical_figure",
+    "subcategory": "military_leader",
+    "tags": [
+      "프랑스",
+      "백년전쟁",
+      "성녀"
+    ],
+    "mvp": true,
+    "summary": "백년전쟁 중 프랑스를 구한 소녀 영웅. 신의 계시를 받았다고 주장하며 오를레앙을 해방시켰으나 이단으로 화형당했다.",
+    "detailed": "농민 소녀로 신의 목소리를 듣고 프랑스 왕세자를 찾아갔다. 오를레앙 포위전에서 승리하여 백년전쟁의 전세를 뒤집었다. 샤를 7세의 대관식을 성사시켰다. 부르고뉴파에 포로로 잡혀 영국에 넘겨져 이단 재판 끝에 19세에 화형당했다.",
+    "keyWorks": [
+      {
+        "title": "오를레앙 해방",
+        "year": 1429
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 두려워하지 않는다. 이것을 위해 태어났다.",
+        "source": "재판 기록"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "군사/종교",
+    "achievements": [
+      "오를레앙 해방",
+      "백년전쟁 전세 역전",
+      "프랑스의 수호성녀"
+    ]
+  },
+  {
+    "id": "columbus",
+    "name": {
+      "ko": "콜럼버스",
+      "en": "Christopher Columbus"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1451,
+      "end": 1506
+    },
+    "location": {
+      "lat": 37.18,
+      "lng": -3.6,
+      "region": "이탈리아/스페인"
+    },
+    "category": "historical_figure",
+    "subcategory": "explorer",
+    "tags": [
+      "대항해",
+      "아메리카",
+      "탐험"
+    ],
+    "mvp": true,
+    "summary": "이탈리아 제노바 출신의 탐험가로 스페인의 후원을 받아 아메리카 대륙에 도달했다. 대항해시대의 상징적 인물이다.",
+    "detailed": "서쪽 항로로 인도에 도달하려는 계획을 스페인 여왕 이사벨라에게 제안했다. 1492년 산타마리아호를 이끌고 대서양을 횡단하여 아메리카에 도달했다. 총 네 차례의 항해를 통해 카리브해 지역을 탐험했다. 그의 항해는 구대륙과 신대륙의 접촉이라는 세계사적 전환점이 되었다.",
+    "keyWorks": [
+      {
+        "title": "제1차 항해",
+        "year": 1492
+      }
+    ],
+    "quotes": [
+      {
+        "text": "바다 저편에 새로운 세계가 있다.",
+        "source": "항해 일지"
+      }
+    ],
+    "influences": [
+      "marco-polo"
+    ],
+    "influenced": [
+      "magellan"
+    ],
+    "domain": "탐험/항해",
+    "achievements": [
+      "아메리카 대륙 도달",
+      "대항해시대 개막",
+      "구대륙-신대륙 연결"
+    ]
+  },
+  {
+    "id": "leonardo-da-vinci",
+    "name": {
+      "ko": "레오나르도 다 빈치",
+      "en": "Leonardo da Vinci"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1452,
+      "end": 1519
+    },
+    "location": {
+      "lat": 43.77,
+      "lng": 11.25,
+      "region": "이탈리아 피렌체"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "미술",
+      "르네상스",
+      "과학"
+    ],
+    "mvp": true,
+    "summary": "이탈리아 르네상스의 만능 천재. 모나리자, 최후의 만찬의 화가이자 과학자, 발명가, 건축가.",
+    "detailed": "회화, 조각, 건축, 과학, 공학, 해부학 등 거의 모든 분야에서 뛰어난 업적을 남겼다. 모나리자의 스푸마토 기법과 최후의 만찬의 구도는 서양 미술사의 이정표다. 비행기와 잠수함을 구상한 수천 쪽의 노트는 시대를 수백 년 앞선 것이었다.",
+    "keyWorks": [
+      {
+        "title": "모나리자",
+        "year": 1503
+      },
+      {
+        "title": "최후의 만찬",
+        "year": 1498
+      }
+    ],
+    "quotes": [
+      {
+        "text": "단순함은 궁극의 정교함이다.",
+        "source": "노트"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "미술/과학/발명",
+    "achievements": [
+      "모나리자",
+      "최후의 만찬",
+      "르네상스 만능인"
+    ]
+  },
+  {
+    "id": "vasco-da-gama",
+    "name": {
+      "ko": "바스코 다 가마",
+      "en": "Vasco da Gama"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1469,
+      "end": 1524
+    },
+    "location": {
+      "lat": 38.72,
+      "lng": -9.14,
+      "region": "포르투갈 리스본"
+    },
+    "category": "historical_figure",
+    "subcategory": "explorer",
+    "tags": [
+      "대항해",
+      "인도",
+      "항로"
+    ],
+    "mvp": true,
+    "summary": "포르투갈의 탐험가로 유럽에서 인도까지의 직항로를 개척했다. 대항해시대 포르투갈 해상 제국의 기틀을 마련했다.",
+    "detailed": "1497년 리스본을 출발하여 아프리카 남단 희망봉을 돌아 인도에 도달했다. 이 항로 개척으로 유럽과 아시아의 직접 교역이 가능해졌다. 포르투갈의 인도양 진출과 해상 제국 건설의 기반을 마련했다. 세 차례에 걸쳐 인도를 방문하며 교역로를 확고히 했다.",
+    "keyWorks": [
+      {
+        "title": "인도 항로 개척",
+        "year": 1498
+      }
+    ],
+    "quotes": [
+      {
+        "text": "미지의 바다를 건너야 세계를 알 수 있다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [
+      "columbus"
+    ],
+    "influenced": [],
+    "domain": "탐험/항해",
+    "achievements": [
+      "인도 항로 개척",
+      "포르투갈 해상 제국 기반",
+      "유럽-아시아 직접 교역로"
+    ]
+  },
+  {
+    "id": "michelangelo",
+    "name": {
+      "ko": "미켈란젤로 부오나로티",
+      "en": "Michelangelo"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1475,
+      "end": 1564
+    },
+    "location": {
+      "lat": 43.77,
+      "lng": 11.25,
+      "region": "이탈리아"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "조각",
+      "미술",
+      "르네상스"
+    ],
+    "mvp": true,
+    "summary": "이탈리아 르네상스의 거장. 시스티나 예배당 천장화와 다비드 상으로 인류 미술의 정점을 보여주었다.",
+    "detailed": "조각, 회화, 건축, 시 등에서 탁월한 재능을 발휘했다. 시스티나 예배당 천장화는 4년에 걸쳐 혼자 완성한 대작이다. 성 베드로 대성당의 돔 설계 등 건축에서도 불멸의 업적을 남겼다.",
+    "keyWorks": [
+      {
+        "title": "다비드 상",
+        "year": 1504
+      },
+      {
+        "title": "시스티나 천장화",
+        "year": 1512
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 대리석 안에 갇힌 천사를 보고, 자유로워질 때까지 조각했다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "조각/회화/건축",
+    "achievements": [
+      "다비드 상",
+      "시스티나 천장화",
+      "피에타"
+    ]
+  },
+  {
+    "id": "magellan",
+    "name": {
+      "ko": "마젤란",
+      "en": "Ferdinand Magellan"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1480,
+      "end": 1521
+    },
+    "location": {
+      "lat": 38.72,
+      "lng": -9.14,
+      "region": "포르투갈 리스본"
+    },
+    "category": "historical_figure",
+    "subcategory": "explorer",
+    "tags": [
+      "대항해",
+      "세계일주",
+      "탐험"
+    ],
+    "mvp": true,
+    "summary": "포르투갈 출신의 탐험가로 최초의 세계 일주 항해를 시도했다. 필리핀에서 전사했으나 그의 함대가 세계 일주를 완성했다.",
+    "detailed": "스페인 왕의 후원으로 서쪽으로 향유 제도에 도달하는 항로를 개척하려 했다. 남아메리카 남단의 해협(마젤란 해협)을 통과하여 태평양에 진입했다. 필리핀에서 원주민과의 전투 중 전사했다. 부하 엘카노가 남은 선원들을 이끌고 세계 최초의 일주를 완성했다.",
+    "keyWorks": [
+      {
+        "title": "세계 일주 항해",
+        "year": 1519
+      }
+    ],
+    "quotes": [
+      {
+        "text": "교회는 지구가 평평하다 하나, 나는 그 그림자를 보았다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [
+      "columbus"
+    ],
+    "influenced": [],
+    "domain": "탐험/항해",
+    "achievements": [
+      "최초의 세계 일주 시도",
+      "마젤란 해협 발견",
+      "태평양 횡단"
+    ]
+  },
+  {
+    "id": "suleiman",
+    "name": {
+      "ko": "술레이만",
+      "en": "Suleiman the Magnificent"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1494,
+      "end": 1566
+    },
+    "location": {
+      "lat": 41.01,
+      "lng": 28.98,
+      "region": "오스만 제국 이스탄불"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "오스만",
+      "황금시대",
+      "법전"
+    ],
+    "mvp": true,
+    "summary": "오스만 제국의 최전성기를 이끈 술탄. '입법자'라는 별명처럼 법체계를 정비하고 제국을 크게 확장했다.",
+    "detailed": "오스만 제국의 10대 술탄으로 46년간 통치했다. 유럽, 아시아, 아프리카에 걸쳐 제국을 최대 영토로 확장했다. 카눈나메를 제정하여 법체계를 정비하고 행정을 개혁했다. 예술과 건축을 후원하여 오스만 문화의 황금기를 이끌었다.",
+    "keyWorks": [
+      {
+        "title": "카눈나메(법전)",
+        "year": 1530
+      }
+    ],
+    "quotes": [
+      {
+        "text": "법 앞에 모든 신민은 평등하다.",
+        "source": "카눈나메"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "정치/법률",
+    "achievements": [
+      "오스만 제국 전성기",
+      "카눈나메 제정",
+      "이스탄불 문화 황금기"
+    ]
+  },
+  {
+    "id": "elizabeth-i",
+    "name": {
+      "ko": "엘리자베스 1세",
+      "en": "Elizabeth I"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1533,
+      "end": 1603
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "튜더",
+      "영국",
+      "황금시대"
+    ],
+    "mvp": true,
+    "summary": "잉글랜드의 여왕으로 엘리자베스 시대라 불리는 영국의 황금기를 이끌었다. 스페인 무적함대를 격파하고 영국의 국제적 위상을 높였다.",
+    "detailed": "헨리 8세와 앤 불린의 딸로 태어나 복잡한 궁정 정치 속에서 성장했다. 1558년 즉위하여 영국 국교회를 확립하고 종교 갈등을 수습했다. 1588년 스페인 무적함대를 격파하여 영국을 해양 강국으로 만들었다. 셰익스피어 등 문화 예술이 꽃피는 황금시대를 이끌었다.",
+    "keyWorks": [
+      {
+        "title": "종교통일법",
+        "year": 1559
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 잉글랜드와 결혼했다.",
+        "source": "의회 연설"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "shakespeare"
+    ],
+    "domain": "정치/통치",
+    "achievements": [
+      "스페인 무적함대 격파",
+      "영국 황금시대",
+      "영국 국교회 확립"
+    ]
+  },
+  {
+    "id": "akbar",
+    "name": {
+      "ko": "악바르",
+      "en": "Akbar the Great"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1542,
+      "end": 1605
+    },
+    "location": {
+      "lat": 27.18,
+      "lng": 78.02,
+      "region": "인도 아그라"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "무굴",
+      "인도",
+      "관용"
+    ],
+    "mvp": true,
+    "summary": "무굴 제국의 최전성기를 이끈 황제. 종교적 관용 정책과 효율적 행정으로 인도 아대륙을 통합했다.",
+    "detailed": "13세에 즉위하여 무굴 제국을 인도 아대륙 대부분으로 확장했다. 힌두교, 이슬람교 등 다양한 종교를 포용하는 관용 정책을 실시했다. 만사브다르 제도를 통해 효율적인 행정 체계를 구축했다. 딘이일라히라는 새로운 종합 종교를 시도하기도 했다.",
+    "keyWorks": [
+      {
+        "title": "아인이악바리",
+        "year": 1590
+      }
+    ],
+    "quotes": [
+      {
+        "text": "모든 종교에는 빛이 있다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "정치/통치",
+    "achievements": [
+      "무굴 제국 전성기",
+      "종교 관용 정책",
+      "인도 아대륙 통합"
+    ]
+  },
+  {
+    "id": "tokugawa-ieyasu",
+    "name": {
+      "ko": "도쿠가와 이에야스",
+      "en": "Tokugawa Ieyasu"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1543,
+      "end": 1616
+    },
+    "location": {
+      "lat": 34.97,
+      "lng": 138.38,
+      "region": "일본 에도"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "일본",
+      "에도",
+      "막부"
+    ],
+    "mvp": true,
+    "summary": "에도 막부의 창시자로 일본을 통일하고 260년간의 태평성대를 열었다.",
+    "detailed": "오다 노부나가, 도요토미 히데요시에 이어 일본 통일의 마지막 주역이었다. 1600년 세키가하라 전투에서 승리하여 패권을 장악했다. 1603년 에도 막부를 열어 중앙집권적 봉건 체제를 확립했다. 쇄국 정책을 시행하여 일본의 독자적 문화 발전을 이끌었다.",
+    "keyWorks": [
+      {
+        "title": "에도 막부 수립",
+        "year": 1603
+      }
+    ],
+    "quotes": [
+      {
+        "text": "인생은 무거운 짐을 지고 먼 길을 가는 것과 같다.",
+        "source": "유훈"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "meiji-emperor"
+    ],
+    "domain": "정치/통치",
+    "achievements": [
+      "에도 막부 수립",
+      "일본 통일 완성",
+      "260년 태평성대"
+    ]
+  },
+  {
+    "id": "yi-sun-sin",
+    "name": {
+      "ko": "이순신",
+      "en": "Yi Sun-sin"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1545,
+      "end": 1598
+    },
+    "location": {
+      "lat": 34.74,
+      "lng": 127.74,
+      "region": "조선 여수"
+    },
+    "category": "historical_figure",
+    "subcategory": "military_leader",
+    "tags": [
+      "조선",
+      "임진왜란",
+      "거북선"
+    ],
+    "mvp": true,
+    "summary": "조선의 명장으로 임진왜란에서 일본 수군을 격파한 세계 해전사의 영웅. 거북선을 활용한 혁신적 전술로 유명하다.",
+    "detailed": "조선의 무관으로 임진왜란 때 전라좌수사로 활약했다. 거북선을 건조하고 학익진 등 혁신적 전술로 23전 전승을 기록했다. 한산도 대첩에서 일본 수군을 궤멸시켜 전세를 역전시켰다. 노량해전에서 전사하였으나 조선을 구한 민족의 영웅으로 추앙받는다.",
+    "keyWorks": [
+      {
+        "title": "난중일기",
+        "year": 1592
+      }
+    ],
+    "quotes": [
+      {
+        "text": "죽고자 하면 살 것이요, 살고자 하면 죽을 것이다.",
+        "source": "명량해전 전"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "군사/해전",
+    "achievements": [
+      "23전 전승",
+      "거북선 활용",
+      "임진왜란 조선 수호"
+    ]
+  },
+  {
+    "id": "cervantes",
+    "name": {
+      "ko": "미겔 데 세르반테스",
+      "en": "Miguel de Cervantes"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1547,
+      "end": 1616
+    },
+    "location": {
+      "lat": 39.39,
+      "lng": -3.03,
+      "region": "스페인"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "소설",
+      "스페인문학",
+      "근대소설"
+    ],
+    "mvp": true,
+    "summary": "스페인의 소설가. 돈키호테를 통해 근대 소설의 형식을 창시한 문학의 거장.",
+    "detailed": "레판토 해전 참전과 포로 생활 등 파란만장한 삶을 살았다. 돈키호테는 기사도 소설의 패러디에서 출발하여 근대 소설의 원형이 되었다. 현실과 이상의 충돌이라는 보편적 주제를 다루어 시대를 초월한 걸작이 되었다.",
+    "keyWorks": [
+      {
+        "title": "돈키호테",
+        "year": 1605
+      }
+    ],
+    "quotes": [
+      {
+        "text": "사실은 꿈보다 더 기이하다.",
+        "source": "돈키호테"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "소설/스페인문학",
+    "achievements": [
+      "근대 소설의 창시자",
+      "돈키호테"
+    ]
+  },
+  {
+    "id": "shakespeare",
+    "name": {
+      "ko": "윌리엄 셰익스피어",
+      "en": "William Shakespeare"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1564,
+      "end": 1616
+    },
+    "location": {
+      "lat": 52.19,
+      "lng": -1.71,
+      "region": "영국 스트랫퍼드"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "희곡",
+      "영문학",
+      "르네상스"
+    ],
+    "mvp": true,
+    "summary": "영국의 극작가이자 시인. 햄릿, 맥베스 등 37편의 희곡으로 영문학과 세계 연극의 최고봉에 올랐다.",
+    "detailed": "엘리자베스 시대의 극작가로 비극, 희극, 역사극, 로맨스 등 다양한 장르를 아울렀다. 인간 심리의 깊이 있는 묘사와 언어의 창조적 사용으로 영어 자체를 풍요롭게 했다. 그의 작품은 400년이 지난 지금도 전 세계에서 공연된다.",
+    "keyWorks": [
+      {
+        "title": "햄릿",
+        "year": 1601
+      },
+      {
+        "title": "맥베스",
+        "year": 1606
+      },
+      {
+        "title": "로미오와 줄리엣",
+        "year": 1597
+      }
+    ],
+    "quotes": [
+      {
+        "text": "사느냐 죽느냐, 그것이 문제로다.",
+        "source": "햄릿"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "희곡/영문학",
+    "achievements": [
+      "37편의 희곡",
+      "154편의 소네트",
+      "영어 어휘 1700여 개 창조"
+    ]
+  },
+  {
+    "id": "rembrandt",
+    "name": {
+      "ko": "렘브란트 판 레인",
+      "en": "Rembrandt van Rijn"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1606,
+      "end": 1669
+    },
+    "location": {
+      "lat": 52.37,
+      "lng": 4.9,
+      "region": "네덜란드 암스테르담"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "미술",
+      "바로크",
+      "네덜란드"
+    ],
+    "mvp": true,
+    "summary": "네덜란드의 화가. 빛과 그림자의 대비를 통해 인간 내면을 깊이 있게 표현한 바로크 미술의 거장.",
+    "detailed": "자화상, 초상화, 성경 주제의 그림에서 탁월한 명암법을 구사했다. 야경은 집단 초상화의 혁신으로 평가받는다. 약 300점의 그림, 300점의 판화를 남긴 서양 미술사 최고의 화가 중 한 명이다.",
+    "keyWorks": [
+      {
+        "title": "야경",
+        "year": 1642
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "회화/바로크",
+    "achievements": [
+      "야경",
+      "자화상 연작",
+      "명암법의 혁신"
+    ]
+  },
+  {
+    "id": "louis-xiv",
+    "name": {
+      "ko": "루이 14세",
+      "en": "Louis XIV"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1638,
+      "end": 1715
+    },
+    "location": {
+      "lat": 48.8,
+      "lng": 2.12,
+      "region": "프랑스 베르사유"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "절대왕정",
+      "프랑스",
+      "베르사유"
+    ],
+    "mvp": true,
+    "summary": "프랑스의 태양왕으로 절대왕정의 전형을 보여준 군주. 베르사유 궁전을 건설하고 프랑스를 유럽 최강국으로 만들었다.",
+    "detailed": "5세에 즉위하여 72년간 통치한 유럽 역사상 최장기 재위 군주이다. 베르사유 궁전을 건설하여 귀족을 통제하고 중앙집권을 강화했다. 예술과 문화를 후원하여 프랑스 고전주의 시대를 열었다. 그러나 잦은 전쟁과 사치로 국가 재정을 악화시켰다.",
+    "keyWorks": [
+      {
+        "title": "베르사유 궁전 건설",
+        "year": 1682
+      }
+    ],
+    "quotes": [
+      {
+        "text": "짐이 곧 국가다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "정치/통치",
+    "achievements": [
+      "절대왕정 확립",
+      "베르사유 궁전 건설",
+      "프랑스 문화 황금기"
+    ]
+  },
+  {
+    "id": "peter-the-great",
+    "name": {
+      "ko": "표트르 대제",
+      "en": "Peter the Great"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1672,
+      "end": 1725
+    },
+    "location": {
+      "lat": 59.93,
+      "lng": 30.32,
+      "region": "러시아 상트페테르부르크"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "러시아",
+      "근대화",
+      "개혁"
+    ],
+    "mvp": true,
+    "summary": "러시아 제국의 차르로 대대적인 서구화 개혁을 추진했다. 상트페테르부르크를 건설하고 러시아를 유럽 강대국으로 변모시켰다.",
+    "detailed": "서유럽을 직접 방문하여 기술과 문화를 배워왔다. 군사, 행정, 교육 등 전 분야에 걸친 서구화 개혁을 단행했다. 상트페테르부르크를 건설하여 새 수도로 삼았다. 대북방전쟁에서 스웨덴을 격파하여 발트해 진출을 이루었다.",
+    "keyWorks": [
+      {
+        "title": "상트페테르부르크 건설",
+        "year": 1703
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 러시아에 유럽을 가져왔다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "catherine-the-great"
+    ],
+    "domain": "정치/개혁",
+    "achievements": [
+      "러시아 근대화",
+      "상트페테르부르크 건설",
+      "발트해 진출"
+    ]
+  },
+  {
+    "id": "bach",
+    "name": {
+      "ko": "요한 세바스티안 바흐",
+      "en": "Johann Sebastian Bach"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1685,
+      "end": 1750
+    },
+    "location": {
+      "lat": 50.98,
+      "lng": 11.33,
+      "region": "독일 아이제나흐"
+    },
+    "category": "cultural_figure",
+    "subcategory": "musician",
+    "tags": [
+      "클래식",
+      "바로크",
+      "작곡"
+    ],
+    "mvp": true,
+    "summary": "독일의 작곡가. 음악의 아버지로 불리며 바로크 음악을 집대성한 서양 음악사 최고의 거장.",
+    "detailed": "궁정 악장과 교회 음악감독으로 활동하며 1000곡 이상을 작곡했다. 평균율 클라비어곡집은 서양 조성음악의 바이블이다. 푸가와 대위법의 최고봉으로 모차르트, 베토벤 등 후대 모든 작곡가에게 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "평균율 클라비어곡집",
+        "year": 1722
+      },
+      {
+        "title": "마태 수난곡",
+        "year": 1727
+      }
+    ],
+    "quotes": [
+      {
+        "text": "음악의 유일한 목적은 신의 영광과 영혼의 치유여야 한다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "음악/바로크",
+    "achievements": [
+      "바로크 음악의 집대성",
+      "평균율 클라비어곡집",
+      "푸가의 완성"
+    ]
+  },
+  {
+    "id": "james-cook",
+    "name": {
+      "ko": "제임스 쿡",
+      "en": "James Cook"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1728,
+      "end": 1779
+    },
+    "location": {
+      "lat": 54.57,
+      "lng": -1.23,
+      "region": "영국 요크셔"
+    },
+    "category": "historical_figure",
+    "subcategory": "explorer",
+    "tags": [
+      "탐험",
+      "태평양",
+      "지도"
+    ],
+    "mvp": true,
+    "summary": "영국의 항해가이자 탐험가로 태평양을 세 차례 탐험하며 뉴질랜드, 호주 등을 유럽에 알렸다.",
+    "detailed": "요크셔 노동자 계급 출신으로 해군에서 항해술과 지도 제작 능력을 키웠다. 세 차례의 태평양 탐험에서 뉴질랜드, 호주 동해안, 하와이 등을 탐험했다. 정밀한 해도를 제작하여 태평양의 지리적 이해를 크게 넓혔다. 하와이에서 원주민과의 충돌로 사망했다.",
+    "keyWorks": [
+      {
+        "title": "제1차 태평양 탐험",
+        "year": 1768
+      }
+    ],
+    "quotes": [
+      {
+        "text": "가능한 한 멀리, 어떤 사람보다 더 멀리 가겠다.",
+        "source": "항해 일지"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "탐험/지리",
+    "achievements": [
+      "태평양 3차 탐험",
+      "호주·뉴질랜드 탐험",
+      "정밀 해도 제작"
+    ]
+  },
+  {
+    "id": "catherine-the-great",
+    "name": {
+      "ko": "예카테리나 대제",
+      "en": "Catherine the Great"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1729,
+      "end": 1796
+    },
+    "location": {
+      "lat": 59.93,
+      "lng": 30.32,
+      "region": "러시아"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "러시아",
+      "계몽주의",
+      "확장"
+    ],
+    "mvp": true,
+    "summary": "러시아 제국의 여제로 계몽주의 이상을 추구하며 러시아의 영토와 문화를 크게 확장했다.",
+    "detailed": "독일 출신으로 쿠데타를 통해 러시아 황제가 되었다. 볼테르, 디드로 등 계몽주의 사상가들과 서신을 교환하며 개혁을 추진했다. 크림반도를 합병하고 폴란드 분할에 참여하여 영토를 크게 확장했다. 예술과 교육을 장려하여 에르미타주 미술관의 기초를 놓았다.",
+    "keyWorks": [
+      {
+        "title": "나카즈(교서)",
+        "year": 1767
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 찬양받기보다 존경받기를 원한다.",
+        "source": "서한"
+      }
+    ],
+    "influences": [
+      "peter-the-great",
+      "voltaire"
+    ],
+    "influenced": [],
+    "domain": "정치/문화",
+    "achievements": [
+      "러시아 영토 확장",
+      "에르미타주 미술관 설립",
+      "계몽적 개혁 추진"
+    ]
+  },
+  {
+    "id": "george-washington",
+    "name": {
+      "ko": "조지 워싱턴",
+      "en": "George Washington"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1732,
+      "end": 1799
+    },
+    "location": {
+      "lat": 38.9,
+      "lng": -77.04,
+      "region": "미국 버지니아"
+    },
+    "category": "historical_figure",
+    "subcategory": "military_leader",
+    "tags": [
+      "미국",
+      "독립",
+      "혁명"
+    ],
+    "mvp": true,
+    "summary": "미국 독립전쟁의 총사령관이자 미국의 초대 대통령. 공화국의 아버지로 불리며 민주주의의 모범을 보였다.",
+    "detailed": "버지니아 농장주 출신으로 독립전쟁의 대륙군 총사령관이 되었다. 요크타운 전투에서 영국군을 격파하여 독립을 쟁취했다. 1789년 만장일치로 초대 대통령에 선출되었다. 2선 후 자발적으로 퇴임하여 민주적 권력 이양의 전통을 확립했다.",
+    "keyWorks": [
+      {
+        "title": "독립전쟁 승리",
+        "year": 1783
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자유는 영혼이 숨 쉴 때에만 존재한다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "abraham-lincoln"
+    ],
+    "domain": "군사/정치",
+    "achievements": [
+      "미국 독립전쟁 승리",
+      "미국 초대 대통령",
+      "민주적 권력 이양 전통 확립"
+    ]
+  },
+  {
+    "id": "goethe",
+    "name": {
+      "ko": "요한 볼프강 폰 괴테",
+      "en": "Johann Wolfgang von Goethe"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1749,
+      "end": 1832
+    },
+    "location": {
+      "lat": 50.11,
+      "lng": 8.68,
+      "region": "독일 프랑크푸르트"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "문학",
+      "독일문학",
+      "고전주의"
+    ],
+    "mvp": true,
+    "summary": "독일의 문호이자 자연과학자. 파우스트를 비롯한 방대한 작품으로 독일 문학의 정점을 이루었다.",
+    "detailed": "슈투름 운트 드랑 운동을 이끌었으며, 바이마르에서 정치가로도 활동했다. 파우스트는 60년에 걸쳐 완성한 대작으로 인간 존재의 의미를 탐구했다. 시, 소설, 희곡, 자연과학 등 다방면에서 업적을 남긴 보편적 천재였다.",
+    "keyWorks": [
+      {
+        "title": "파우스트",
+        "year": 1832
+      },
+      {
+        "title": "젊은 베르테르의 슬픔",
+        "year": 1774
+      }
+    ],
+    "quotes": [
+      {
+        "text": "더 많은 빛을!",
+        "source": "임종 시"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "문학/독일고전주의",
+    "achievements": [
+      "파우스트",
+      "독일 고전주의 문학의 완성"
+    ]
+  },
+  {
+    "id": "mozart",
+    "name": {
+      "ko": "볼프강 아마데우스 모차르트",
+      "en": "Wolfgang Amadeus Mozart"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1756,
+      "end": 1791
+    },
+    "location": {
+      "lat": 47.8,
+      "lng": 13.04,
+      "region": "오스트리아 잘츠부르크"
+    },
+    "category": "cultural_figure",
+    "subcategory": "musician",
+    "tags": [
+      "클래식",
+      "고전주의",
+      "작곡"
+    ],
+    "mvp": true,
+    "summary": "오스트리아의 천재 작곡가. 피가로의 결혼, 돈 조반니 등 오페라와 교향곡, 협주곡으로 고전주의 음악의 정점을 이루었다.",
+    "detailed": "5세에 작곡을 시작한 신동으로 35년의 짧은 생애 동안 600곡 이상을 작곡했다. 교향곡, 협주곡, 오페라, 실내악 등 모든 장르에서 완벽한 균형과 우아함을 보여주었다.",
+    "keyWorks": [
+      {
+        "title": "피가로의 결혼",
+        "year": 1786
+      },
+      {
+        "title": "레퀴엠",
+        "year": 1791
+      }
+    ],
+    "quotes": [
+      {
+        "text": "음악은 침묵 속에서 가장 아름답게 들린다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "음악/고전주의",
+    "achievements": [
+      "600곡 이상 작곡",
+      "오페라의 혁신",
+      "고전주의 완성"
+    ]
+  },
+  {
+    "id": "hokusai",
+    "name": {
+      "ko": "가츠시카 호쿠사이",
+      "en": "Katsushika Hokusai"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1760,
+      "end": 1849
+    },
+    "location": {
+      "lat": 35.69,
+      "lng": 139.69,
+      "region": "일본 에도(도쿄)"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "판화",
+      "우키요에",
+      "일본미술"
+    ],
+    "mvp": true,
+    "summary": "일본 에도 시대의 화가. 후지산 36경의 가나가와 앞바다의 큰 파도로 세계적으로 알려진 우키요에의 거장.",
+    "detailed": "70년 이상의 화업에서 3만 점이 넮는 작품을 남겼다. 후지산 36경 연작은 풍경판화의 걸작이다. 인상파 화가들에게 큰 영향을 미쳐 자포니즘의 핵심 요소가 되었다.",
+    "keyWorks": [
+      {
+        "title": "후지산 36경",
+        "year": 1831
+      }
+    ],
+    "quotes": [
+      {
+        "text": "100세가 되면 신묘한 경지에 이를 것이다.",
+        "source": "부악백경 서문"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "판화/우키요에",
+    "achievements": [
+      "가나가와 앞바다의 큰 파도",
+      "인상주의에 영향"
+    ]
+  },
+  {
+    "id": "napoleon",
+    "name": {
+      "ko": "나폴레옹",
+      "en": "Napoleon Bonaparte"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1769,
+      "end": 1821
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "프랑스",
+      "혁명",
+      "제국"
+    ],
+    "mvp": true,
+    "summary": "프랑스 혁명의 산물이자 유럽을 정복한 황제. 나폴레옹 법전을 제정하여 근대 법체계의 기초를 놓았다.",
+    "detailed": "코르시카 출신의 군인으로 프랑스 혁명 시기에 두각을 나타냈다. 1804년 황제에 즉위하여 유럽 대부분을 정복했다. 나폴레옹 법전을 제정하여 근대 시민법의 기초를 확립했다. 워털루 전투에서 패배한 후 세인트헬레나 섬에서 유배 생활 중 사망했다.",
+    "keyWorks": [
+      {
+        "title": "나폴레옹 법전",
+        "year": 1804
+      }
+    ],
+    "quotes": [
+      {
+        "text": "불가능이란 어리석은 자의 사전에나 있는 말이다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [
+      "rousseau",
+      "alexander-the-great"
+    ],
+    "influenced": [
+      "bismarck"
+    ],
+    "domain": "군사/정치",
+    "achievements": [
+      "나폴레옹 법전",
+      "유럽 정치 지형 재편",
+      "근대 행정 체계 확립"
+    ]
+  },
+  {
+    "id": "beethoven",
+    "name": {
+      "ko": "루트비히 판 베토벤",
+      "en": "Ludwig van Beethoven"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1770,
+      "end": 1827
+    },
+    "location": {
+      "lat": 50.73,
+      "lng": 7.1,
+      "region": "독일 본"
+    },
+    "category": "cultural_figure",
+    "subcategory": "musician",
+    "tags": [
+      "클래식",
+      "낭만주의",
+      "작곡"
+    ],
+    "mvp": true,
+    "summary": "독일의 작곡가. 청력을 잃으면서도 교향곡 9번 등 불멸의 걸작을 남긴 음악의 성인.",
+    "detailed": "고전주의에서 낭만주의로의 전환을 이끈 음악사의 거인. 완전한 청력 상실 속에서도 후기 현악4중주 등 깊은 내면적 작품을 남겼다. 교향곡 9번의 환희의 송가는 EU 공식 국가가 되었다.",
+    "keyWorks": [
+      {
+        "title": "교향곡 9번",
+        "year": 1824
+      },
+      {
+        "title": "월광 소나타",
+        "year": 1801
+      }
+    ],
+    "quotes": [
+      {
+        "text": "운명은 이렇게 문을 두드린다.",
+        "source": "교향곡 5번에 대해"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "음악/고전-낭만주의",
+    "achievements": [
+      "교향곡 9번",
+      "청력 상실 극복",
+      "고전에서 낭만으로의 다리"
+    ]
+  },
+  {
+    "id": "simon-bolivar",
+    "name": {
+      "ko": "시몬 볼리바르",
+      "en": "Simon Bolivar"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1783,
+      "end": 1830
+    },
+    "location": {
+      "lat": 10.49,
+      "lng": -66.88,
+      "region": "베네수엘라 카라카스"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "남미",
+      "독립",
+      "해방"
+    ],
+    "mvp": true,
+    "summary": "남아메리카의 해방자로 불리는 독립운동 지도자. 베네수엘라, 콜롬비아, 에콰도르, 페루, 볼리비아의 독립을 이끌었다.",
+    "detailed": "유럽에서 계몽주의 사상을 접한 후 남미 독립운동에 헌신했다. 스페인 식민 지배에 맞서 여러 나라의 독립을 달성했다. 남미 대륙의 통합을 꿈꿨으나 실현하지 못했다. 볼리비아는 그의 이름을 따서 명명되었다.",
+    "keyWorks": [
+      {
+        "title": "자메이카 서한",
+        "year": 1815
+      }
+    ],
+    "quotes": [
+      {
+        "text": "사슬을 끊는 자가 자유인이다.",
+        "source": "연설"
+      }
+    ],
+    "influences": [
+      "rousseau",
+      "napoleon"
+    ],
+    "influenced": [],
+    "domain": "독립/혁명",
+    "achievements": [
+      "남미 6개국 독립",
+      "라틴아메리카 해방 운동",
+      "범미주의 이상 제시"
+    ]
+  },
+  {
+    "id": "victor-hugo",
+    "name": {
+      "ko": "빅토르 위고",
+      "en": "Victor Hugo"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1802,
+      "end": 1885
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "소설",
+      "프랑스문학",
+      "낭만주의"
+    ],
+    "mvp": true,
+    "summary": "프랑스의 문호. 레 미제라블과 노트르담 드 파리 등으로 낭만주의 문학을 대표했다.",
+    "detailed": "시, 소설, 희곡을 아우른 19세기 프랑스 최대의 작가. 사회적 불의와 빈곤에 대한 관심을 문학으로 표현했다. 정치적 망명 생활 중에도 왕성한 창작 활동을 이어갔으며, 프랑스 공화정의 수호자로 존경받았다.",
+    "keyWorks": [
+      {
+        "title": "레 미제라블",
+        "year": 1862
+      },
+      {
+        "title": "노트르담 드 파리",
+        "year": 1831
+      }
+    ],
+    "quotes": [
+      {
+        "text": "바다보다 장엄한 것은 하늘이고, 하늘보다 장엄한 것은 인간의 영혼이다.",
+        "source": "레 미제라블"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "소설/프랑스문학",
+    "achievements": [
+      "레 미제라블",
+      "노트르담 드 파리",
+      "낭만주의 문학의 대표"
+    ]
+  },
+  {
+    "id": "abraham-lincoln",
+    "name": {
+      "ko": "에이브러햄 링컨",
+      "en": "Abraham Lincoln"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1809,
+      "end": 1865
+    },
+    "location": {
+      "lat": 38.9,
+      "lng": -77.04,
+      "region": "미국 워싱턴"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "미국",
+      "남북전쟁",
+      "노예해방"
+    ],
+    "mvp": true,
+    "summary": "미국의 제16대 대통령으로 남북전쟁을 승리로 이끌고 노예 해방을 선언했다. 미국 민주주의의 상징적 인물이다.",
+    "detailed": "통나무집에서 태어나 독학으로 변호사가 된 입지전적 인물이다. 1861년 대통령에 취임하여 남북전쟁을 이끌었다. 1863년 노예해방선언을 발표하여 노예제 폐지의 토대를 마련했다. 1865년 극장에서 암살당했으나 미국 역사상 가장 위대한 대통령으로 평가받는다.",
+    "keyWorks": [
+      {
+        "title": "게티즈버그 연설",
+        "year": 1863
+      },
+      {
+        "title": "노예해방선언",
+        "year": 1863
+      }
+    ],
+    "quotes": [
+      {
+        "text": "국민의, 국민에 의한, 국민을 위한 정부.",
+        "source": "게티즈버그 연설"
+      }
+    ],
+    "influences": [
+      "george-washington"
+    ],
+    "influenced": [
+      "martin-luther-king"
+    ],
+    "domain": "정치/인권",
+    "achievements": [
+      "노예해방선언",
+      "미국 통합 수호",
+      "미국 민주주의 수호"
+    ]
+  },
+  {
+    "id": "chopin",
+    "name": {
+      "ko": "프레데리크 쇼팽",
+      "en": "Frédéric Chopin"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1810,
+      "end": 1849
+    },
+    "location": {
+      "lat": 52.23,
+      "lng": 21.01,
+      "region": "폴란드 바르샤바"
+    },
+    "category": "cultural_figure",
+    "subcategory": "musician",
+    "tags": [
+      "클래식",
+      "낭만주의",
+      "피아노"
+    ],
+    "mvp": true,
+    "summary": "폴란드의 작곡가이자 피아니스트. 피아노의 시인으로 불리며 피아노 음악의 새로운 지평을 열었다.",
+    "detailed": "폴란드 출신으로 파리에서 활동하며 피아노를 위한 걸작들을 남겼다. 야상곡, 발라드, 연습곡, 폴로네즈 등에서 피아노의 가능성을 극한까지 탐구했다.",
+    "keyWorks": [
+      {
+        "title": "야상곡 모음",
+        "year": 1832
+      }
+    ],
+    "quotes": [
+      {
+        "text": "단순함은 최후에 얻어지는 것이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "피아노/낭만주의",
+    "achievements": [
+      "피아노의 시인",
+      "야상곡",
+      "폴로네즈"
+    ]
+  },
+  {
+    "id": "wagner",
+    "name": {
+      "ko": "리하르트 바그너",
+      "en": "Richard Wagner"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1813,
+      "end": 1883
+    },
+    "location": {
+      "lat": 51.34,
+      "lng": 12.37,
+      "region": "독일 라이프치히"
+    },
+    "category": "cultural_figure",
+    "subcategory": "musician",
+    "tags": [
+      "오페라",
+      "낭만주의",
+      "총체예술"
+    ],
+    "mvp": true,
+    "summary": "독일의 작곡가. 니벨룽의 반지 등 악극으로 오페라를 총체예술로 변혁시켰다.",
+    "detailed": "음악, 문학, 연극, 미술을 통합하는 총체예술(Gesamtkunstwerk) 개념을 제창했다. 바이로이트 축제극장을 건설하여 자신의 예술적 비전을 실현했다. 라이트모티프 기법은 이후 영화음악에까지 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "니벨룽의 반지",
+        "year": 1876
+      },
+      {
+        "title": "트리스탄과 이졸데",
+        "year": 1865
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "오페라/악극",
+    "achievements": [
+      "니벨룽의 반지",
+      "총체예술 개념",
+      "바이로이트 축제극장"
+    ]
+  },
+  {
+    "id": "bismarck",
+    "name": {
+      "ko": "비스마르크",
+      "en": "Otto von Bismarck"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1815,
+      "end": 1898
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.41,
+      "region": "독일 베를린"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "독일",
+      "통일",
+      "철혈정책"
+    ],
+    "mvp": true,
+    "summary": "프로이센의 재상으로 철혈정책을 통해 독일 통일을 이루었다. 유럽 외교의 달인으로 세력 균형 체제를 구축했다.",
+    "detailed": "프로이센 수상으로서 덴마크, 오스트리아, 프랑스와의 전쟁을 통해 독일을 통일했다. 1871년 독일 제국 수립 후 초대 재상이 되었다. 동맹 체계를 구축하여 유럽의 세력 균형을 유지했다. 사회보험 제도를 도입하여 복지국가의 선구자가 되었다.",
+    "keyWorks": [
+      {
+        "title": "독일 통일",
+        "year": 1871
+      }
+    ],
+    "quotes": [
+      {
+        "text": "현재의 큰 문제는 철과 피로 해결된다.",
+        "source": "의회 연설, 1862"
+      }
+    ],
+    "influences": [
+      "napoleon"
+    ],
+    "influenced": [],
+    "domain": "정치/외교",
+    "achievements": [
+      "독일 통일",
+      "사회보험 제도 도입",
+      "유럽 세력 균형 체제 구축"
+    ]
+  },
+  {
+    "id": "frederick-douglass",
+    "name": {
+      "ko": "프레더릭 더글러스",
+      "en": "Frederick Douglass"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1818,
+      "end": 1895
+    },
+    "location": {
+      "lat": 39.29,
+      "lng": -76.61,
+      "region": "미국"
+    },
+    "category": "historical_figure",
+    "subcategory": "social_reformer",
+    "tags": [
+      "노예해방",
+      "인권",
+      "연설"
+    ],
+    "mvp": true,
+    "summary": "미국의 사회 개혁가. 탈출한 노예에서 가장 영향력 있는 노예제 폐지론자이자 인권 운동가가 되었다.",
+    "detailed": "메릴랜드의 노예로 태어나 탈출한 후 뛰어난 연설과 저술로 노예제의 비인간성을 고발했다. 자서전 프레더릭 더글러스의 삶의 이야기는 노예제 폐지 운동의 핵심 문헌이 되었다.",
+    "keyWorks": [
+      {
+        "title": "프레더릭 더글러스의 삶의 이야기",
+        "year": 1845
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자유 없는 삶보다 투쟁 속의 삶이 낫다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "인권/노예해방",
+    "achievements": [
+      "노예제 폐지 운동",
+      "인권 연설가"
+    ]
+  },
+  {
+    "id": "queen-victoria",
+    "name": {
+      "ko": "빅토리아 여왕",
+      "en": "Queen Victoria"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1819,
+      "end": 1901
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "영국",
+      "빅토리아",
+      "제국"
+    ],
+    "mvp": true,
+    "summary": "대영제국의 전성기를 이끈 여왕으로 63년간 재위했다. 빅토리아 시대라 불리는 영국의 산업적, 문화적 황금기를 상징한다.",
+    "detailed": "1837년 18세에 즉위하여 1901년까지 63년간 통치했다. 산업혁명의 성과를 바탕으로 대영제국을 세계 최강국으로 이끌었다. 인도 여제 칭호를 받아 '해가 지지 않는 제국'의 상징이 되었다. 빅토리아 시대는 도덕적 엄격함과 기술 진보가 공존한 시대였다.",
+    "keyWorks": [
+      {
+        "title": "만국박람회 개최",
+        "year": 1851
+      }
+    ],
+    "quotes": [
+      {
+        "text": "우리는 즐겁지 않다.",
+        "source": "전승"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "정치/통치",
+    "achievements": [
+      "대영제국 전성기",
+      "빅토리아 시대 개막",
+      "입헌군주제 확립"
+    ]
+  },
+  {
+    "id": "susan-b-anthony",
+    "name": {
+      "ko": "수전 B. 앤서니",
+      "en": "Susan B. Anthony"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1820,
+      "end": 1906
+    },
+    "location": {
+      "lat": 43.16,
+      "lng": -77.61,
+      "region": "미국"
+    },
+    "category": "historical_figure",
+    "subcategory": "social_reformer",
+    "tags": [
+      "여성참정권",
+      "인권",
+      "페미니즘"
+    ],
+    "mvp": true,
+    "summary": "미국의 여성 참정권 운동가. 여성의 투표권 획득을 위해 평생을 헌신한 여성 인권의 선구자.",
+    "detailed": "퀘이커 가문 출신으로 노예제 폐지와 여성 참정권 운동에 헌신했다. 1872년 불법으로 투표하여 체포된 사건은 운동의 전환점이 되었다. 사망 14년 후인 1920년 수정헌법 19조로 여성 참정권이 실현되었다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "실패는 불가능하다.",
+        "source": "1906년"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "여성 참정권",
+    "achievements": [
+      "여성 참정권 운동의 상징",
+      "수정헌법 19조에 기여"
+    ]
+  },
+  {
+    "id": "dostoevsky",
+    "name": {
+      "ko": "표도르 도스토예프스키",
+      "en": "Fyodor Dostoevsky"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1821,
+      "end": 1881
+    },
+    "location": {
+      "lat": 59.93,
+      "lng": 30.32,
+      "region": "러시아 상트페테르부르크"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "소설",
+      "러시아문학",
+      "실존주의"
+    ],
+    "mvp": true,
+    "summary": "러시아의 소설가. 죄와 벌, 카라마조프가의 형제들 등으로 인간 심리의 깊은 곳을 탐구한 문학의 거장.",
+    "detailed": "시베리아 유형 생활을 거치며 인간 존재의 근본적 문제에 천착했다. 범죄, 종교, 자유의지 등의 주제를 통해 근대인의 고뇌를 형상화했다. 실존주의와 정신분석학에 큰 영향을 미쳐 니체와 프로이트가 그를 높이 평가했다.",
+    "keyWorks": [
+      {
+        "title": "죄와 벌",
+        "year": 1866
+      },
+      {
+        "title": "카라마조프가의 형제들",
+        "year": 1880
+      }
+    ],
+    "quotes": [
+      {
+        "text": "아름다움이 세상을 구원할 것이다.",
+        "source": "백치"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "소설/러시아문학",
+    "achievements": [
+      "죄와 벌",
+      "카라마조프가의 형제들",
+      "심리소설의 개척"
+    ]
+  },
+  {
+    "id": "tolstoy",
+    "name": {
+      "ko": "레프 톨스토이",
+      "en": "Leo Tolstoy"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1828,
+      "end": 1910
+    },
+    "location": {
+      "lat": 54.08,
+      "lng": 37.52,
+      "region": "러시아 야스나야 폴랴나"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "소설",
+      "러시아문학",
+      "사실주의"
+    ],
+    "mvp": true,
+    "summary": "러시아의 대문호. 전쟁과 평화, 안나 카레니나 등으로 사실주의 문학의 최고봉에 올랐다.",
+    "detailed": "귀족 가문 출신으로 크림전쟁에 참전한 후 문학에 전념했다. 전쟁과 평화는 나폴레옹 전쟁을 배경으로 한 대하소설로 세계문학의 걸작이다. 만년에는 비폭력주의와 기독교 무정부주의를 주창하며 간디 등에게 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "전쟁과 평화",
+        "year": 1869
+      },
+      {
+        "title": "안나 카레니나",
+        "year": 1877
+      }
+    ],
+    "quotes": [
+      {
+        "text": "행복한 가정은 모두 비슷하지만, 불행한 가정은 각기 다르다.",
+        "source": "안나 카레니나"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "소설/러시아문학",
+    "achievements": [
+      "전쟁과 평화",
+      "안나 카레니나",
+      "비폭력 사상"
+    ]
+  },
+  {
+    "id": "sitting-bull",
+    "name": {
+      "ko": "시팅 불",
+      "en": "Sitting Bull"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1831,
+      "end": 1890
+    },
+    "location": {
+      "lat": 46.8,
+      "lng": -100.78,
+      "region": "미국 다코타"
+    },
+    "category": "historical_figure",
+    "subcategory": "military_leader",
+    "tags": [
+      "원주민",
+      "저항",
+      "라코타"
+    ],
+    "mvp": true,
+    "summary": "라코타 수족의 추장으로 리틀빅혼 전투에서 커스터 장군을 격파한 아메리카 원주민 저항의 상징이다.",
+    "detailed": "헝크파파 라코타 수족의 성스러운 지도자이자 전쟁 추장이었다. 미국 정부의 원주민 토지 강탈에 맞서 저항했다. 1876년 리틀빅혼 전투에서 커스터 중령의 제7기병대를 전멸시켰다. 캐나다로 망명했다가 돌아온 후 체포 과정에서 살해되었다.",
+    "keyWorks": [
+      {
+        "title": "리틀빅혼 전투",
+        "year": 1876
+      }
+    ],
+    "quotes": [
+      {
+        "text": "이 땅은 우리의 것이다. 빼앗을 수 없다.",
+        "source": "연설"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "군사/저항",
+    "achievements": [
+      "리틀빅혼 전투 승리",
+      "원주민 권리 수호",
+      "미국 원주민 저항의 상징"
+    ]
+  },
+  {
+    "id": "monet",
+    "name": {
+      "ko": "클로드 모네",
+      "en": "Claude Monet"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1840,
+      "end": 1926
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "미술",
+      "인상주의",
+      "프랑스"
+    ],
+    "mvp": true,
+    "summary": "프랑스의 화가. 인상주의의 창시자로 빛과 색채의 순간적 변화를 화폭에 담았다.",
+    "detailed": "인상, 해돋이로 인상주의라는 명칭이 탄생했다. 수련 연작과 루앙 대성당 연작 등에서 같은 대상의 시간에 따른 변화를 포착했다. 지베르니의 정원에서 만년에 대형 수련 연작을 완성했다.",
+    "keyWorks": [
+      {
+        "title": "인상, 해돋이",
+        "year": 1872
+      },
+      {
+        "title": "수련 연작",
+        "year": 1906
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 빛을 그린다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "회화/인상주의",
+    "achievements": [
+      "인상주의 창시",
+      "수련 연작"
+    ]
+  },
+  {
+    "id": "rodin",
+    "name": {
+      "ko": "오귀스트 로댕",
+      "en": "Auguste Rodin"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1840,
+      "end": 1917
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "조각",
+      "근대조각",
+      "프랑스"
+    ],
+    "mvp": true,
+    "summary": "프랑스의 조각가. 생각하는 사람, 칼레의 시민 등으로 근대 조각의 아버지로 불린다.",
+    "detailed": "아카데미즘의 틀을 깨고 인체의 역동적 표현과 미완성의 미학을 조각에 도입했다. 지옥의 문 프로젝트에서 생각하는 사람 등 수많은 걸작이 탄생했다.",
+    "keyWorks": [
+      {
+        "title": "생각하는 사람",
+        "year": 1904
+      },
+      {
+        "title": "칼레의 시민",
+        "year": 1889
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 대리석 덩어리에서 불필요한 부분을 제거할 뿐이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "조각/근대미술",
+    "achievements": [
+      "생각하는 사람",
+      "근대 조각의 혁신"
+    ]
+  },
+  {
+    "id": "tchaikovsky",
+    "name": {
+      "ko": "표트르 차이콥스키",
+      "en": "Pyotr Tchaikovsky"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1840,
+      "end": 1893
+    },
+    "location": {
+      "lat": 56.33,
+      "lng": 43.99,
+      "region": "러시아"
+    },
+    "category": "cultural_figure",
+    "subcategory": "musician",
+    "tags": [
+      "클래식",
+      "낭만주의",
+      "발레"
+    ],
+    "mvp": true,
+    "summary": "러시아의 작곡가. 백조의 호수, 호두까기 인형 등 발레음악과 교향곡으로 러시아 음악의 세계화를 이끌었다.",
+    "detailed": "서양 음악의 형식과 러시아적 선율을 결합하여 독자적인 음악 세계를 구축했다. 세 편의 발레음악은 고전발레의 대명사가 되었다. 감정적 깊이와 관현악법의 화려함으로 전 세계에서 가장 사랑받는 작곡가 중 한 명이다.",
+    "keyWorks": [
+      {
+        "title": "백조의 호수",
+        "year": 1877
+      },
+      {
+        "title": "호두까기 인형",
+        "year": 1892
+      }
+    ],
+    "quotes": [
+      {
+        "text": "영감은 게으른 자에게 오지 않는다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "음악/발레",
+    "achievements": [
+      "백조의 호수",
+      "호두까기 인형",
+      "러시아 음악의 세계화"
+    ]
+  },
+  {
+    "id": "meiji-emperor",
+    "name": {
+      "ko": "메이지 천황",
+      "en": "Meiji Emperor"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1852,
+      "end": 1912
+    },
+    "location": {
+      "lat": 35.68,
+      "lng": 139.75,
+      "region": "일본 도쿄"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "일본",
+      "메이지유신",
+      "근대화"
+    ],
+    "mvp": true,
+    "summary": "일본의 근대화를 이끈 메이지 시대의 천황. 봉건 체제를 타파하고 서구식 근대 국가를 건설했다.",
+    "detailed": "1868년 메이지유신을 통해 막부 체제를 종식시키고 천황 중심의 중앙집권 체제를 확립했다. 서양의 기술과 제도를 적극 도입하여 일본을 급속히 근대화시켰다. 청일전쟁과 러일전쟁에서 승리하여 일본을 아시아의 강국으로 만들었다. 메이지 헌법을 제정하여 입헌군주제를 도입했다.",
+    "keyWorks": [
+      {
+        "title": "메이지유신",
+        "year": 1868
+      }
+    ],
+    "quotes": [
+      {
+        "text": "만기친람(모든 정무를 직접 다스린다).",
+        "source": "즉위 선언"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "정치/근대화",
+    "achievements": [
+      "메이지유신",
+      "일본 근대화",
+      "아시아 최초 입헌군주제"
+    ]
+  },
+  {
+    "id": "van-gogh",
+    "name": {
+      "ko": "빈센트 반 고흐",
+      "en": "Vincent van Gogh"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1853,
+      "end": 1890
+    },
+    "location": {
+      "lat": 51.44,
+      "lng": 5.47,
+      "region": "네덜란드/프랑스"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "미술",
+      "후기인상주의",
+      "표현주의"
+    ],
+    "mvp": true,
+    "summary": "네덜란드의 화가. 별이 빛나는 밤, 해바라기 등 강렬한 색채와 붓터치로 후기인상주의를 대표한다.",
+    "detailed": "생전에는 거의 인정받지 못했으나 사후 20세기 미술에 가장 큰 영향을 미친 화가가 되었다. 약 10년의 짧은 화업 동안 2100여 점의 작품을 남겼다. 정신질환과 싸우며 예술적 열정을 불태운 삶은 예술가의 상징이 되었다.",
+    "keyWorks": [
+      {
+        "title": "별이 빛나는 밤",
+        "year": 1889
+      },
+      {
+        "title": "해바라기",
+        "year": 1888
+      }
+    ],
+    "quotes": [
+      {
+        "text": "아름다움을 사랑하는 것은 빛을 보는 가장 좋은 방법이다.",
+        "source": "편지"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "회화/후기인상주의",
+    "achievements": [
+      "별이 빛나는 밤",
+      "해바라기",
+      "표현주의 미술의 선구"
+    ]
+  },
+  {
+    "id": "theodore-roosevelt",
+    "name": {
+      "ko": "시어도어 루스벨트",
+      "en": "Theodore Roosevelt"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1858,
+      "end": 1919
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -74.01,
+      "region": "미국 뉴욕"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "미국",
+      "진보",
+      "혁신"
+    ],
+    "mvp": true,
+    "summary": "미국의 제26대 대통령으로 진보주의 개혁을 추진하고 미국을 세계 강국으로 이끌었다. 파나마 운하 건설과 자연보호 정책으로 유명하다.",
+    "detailed": "미국 역사상 가장 젊은 대통령으로 42세에 취임했다. 독점 기업 규제, 소비자 보호, 자연 보호 등 진보적 개혁을 추진했다. 파나마 운하 건설을 추진하여 미국의 세계적 영향력을 확대했다. 러일전쟁 중재로 노벨 평화상을 수상했다.",
+    "keyWorks": [
+      {
+        "title": "파나마 운하 건설 추진",
+        "year": 1904
+      }
+    ],
+    "quotes": [
+      {
+        "text": "부드럽게 말하되 큰 몽둥이를 들어라.",
+        "source": "외교 정책 연설"
+      }
+    ],
+    "influences": [
+      "abraham-lincoln"
+    ],
+    "influenced": [
+      "fdr"
+    ],
+    "domain": "정치/개혁",
+    "achievements": [
+      "진보주의 개혁",
+      "파나마 운하",
+      "국립공원 확대"
+    ]
+  },
+  {
+    "id": "emmeline-pankhurst",
+    "name": {
+      "ko": "에밀린 팽크허스트",
+      "en": "Emmeline Pankhurst"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1858,
+      "end": 1928
+    },
+    "location": {
+      "lat": 53.48,
+      "lng": -2.24,
+      "region": "영국 맨체스터"
+    },
+    "category": "historical_figure",
+    "subcategory": "social_reformer",
+    "tags": [
+      "여성참정권",
+      "서프러제트",
+      "영국"
+    ],
+    "mvp": true,
+    "summary": "영국의 여성 참정권 운동가. 서프러제트 운동을 이끌어 영국 여성의 투표권 획득에 결정적 역할을 했다.",
+    "detailed": "여성사회정치연합(WSPU)을 창설하여 행동을 동반한 서프러제트 운동을 이끌었다. 투옥과 단식투쟁을 반복하며 여성 참정권의 필요성을 세계에 알렸다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "행동이 말보다 낫다.",
+        "source": "서프러제트 운동 모토"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "여성 참정권",
+    "achievements": [
+      "서프러제트 운동",
+      "영국 여성 참정권 획득에 기여"
+    ]
+  },
+  {
+    "id": "tagore",
+    "name": {
+      "ko": "라빈드라나트 타고르",
+      "en": "Rabindranath Tagore"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1861,
+      "end": 1941
+    },
+    "location": {
+      "lat": 22.57,
+      "lng": 88.36,
+      "region": "인도 콜카타"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "시",
+      "인도문학",
+      "벵골어"
+    ],
+    "mvp": true,
+    "summary": "인도의 시인이자 사상가. 기탄잘리로 아시아인 최초로 노벨문학상을 수상했다.",
+    "detailed": "벵골 르네상스의 중심 인물로 시, 소설, 음악, 미술 등 다방면에서 활동했다. 기탄잘리의 영어 번역본으로 1913년 노벨문학상을 수상했다. 인도와 방글라데시 국가를 작사했으며, 동서양 문화 교류에 헌신했다.",
+    "keyWorks": [
+      {
+        "title": "기탄잘리",
+        "year": 1910
+      }
+    ],
+    "quotes": [
+      {
+        "text": "꽃을 꺾지 마라. 그냥 바라보고 향기를 맡으라.",
+        "source": "기탄잘리"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "시/인도문학",
+    "achievements": [
+      "아시아 최초 노벨문학상",
+      "기탄잘리",
+      "인도 국가 작사"
+    ]
+  },
+  {
+    "id": "klimt",
+    "name": {
+      "ko": "구스타프 클림트",
+      "en": "Gustav Klimt"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1862,
+      "end": 1918
+    },
+    "location": {
+      "lat": 48.21,
+      "lng": 16.37,
+      "region": "오스트리아 빈"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "미술",
+      "아르누보",
+      "상징주의"
+    ],
+    "mvp": true,
+    "summary": "오스트리아의 화가. 키스, 아델레 블로흐-바우어의 초상 등 황금빛 장식적 화풍으로 빈 분리파를 이끌었다.",
+    "detailed": "빈 분리파의 창립 멤버이자 초대 회장으로 전통적 아카데미즘에서 벗어난 새로운 예술을 추구했다. 금박을 활용한 독특한 장식적 양식으로 에로티시즘과 상징주의를 결합했다.",
+    "keyWorks": [
+      {
+        "title": "키스",
+        "year": 1908
+      },
+      {
+        "title": "아델레 블로흐-바우어의 초상",
+        "year": 1907
+      }
+    ],
+    "quotes": [
+      {
+        "text": "",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "회화/아르누보",
+    "achievements": [
+      "키스",
+      "빈 분리파",
+      "황금빛 장식 양식"
+    ]
+  },
+  {
+    "id": "debussy",
+    "name": {
+      "ko": "클로드 드뷔시",
+      "en": "Claude Debussy"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1862,
+      "end": 1918
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "cultural_figure",
+    "subcategory": "musician",
+    "tags": [
+      "클래식",
+      "인상주의",
+      "프랑스"
+    ],
+    "mvp": true,
+    "summary": "프랑스의 작곡가. 목신의 오후 전주곡, 달빛 등으로 음악의 인상주의를 확립했다.",
+    "detailed": "전통적 화성법을 탈피하고 온음계, 5음 음계 등을 활용하여 새로운 음색과 분위기를 창조했다. 인상주의 회화에서 영감을 받아 음악에서도 빛과 색채의 효과를 추구했다.",
+    "keyWorks": [
+      {
+        "title": "목신의 오후 전주곡",
+        "year": 1894
+      },
+      {
+        "title": "달빛",
+        "year": 1890
+      }
+    ],
+    "quotes": [
+      {
+        "text": "음악은 꿈의 시학이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "음악/인상주의",
+    "achievements": [
+      "음악 인상주의 확립",
+      "프랑스 근대 음악의 아버지"
+    ]
+  },
+  {
+    "id": "kandinsky",
+    "name": {
+      "ko": "바실리 칸딘스키",
+      "en": "Wassily Kandinsky"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1866,
+      "end": 1944
+    },
+    "location": {
+      "lat": 55.76,
+      "lng": 37.62,
+      "region": "러시아/독일"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "미술",
+      "추상미술",
+      "표현주의"
+    ],
+    "mvp": true,
+    "summary": "러시아 출신의 화가. 최초의 순수 추상회화를 그려 추상미술의 아버지로 불린다.",
+    "detailed": "법학 교수에서 화가로 전향하여 바우하우스에서 교편을 잡았다. 예술에서의 정신적인 것에 대하여로 추상미술의 이론적 기초를 세웠다. 음악과 미술의 공감각적 관계를 탐구했다.",
+    "keyWorks": [
+      {
+        "title": "예술에서의 정신적인 것에 대하여",
+        "year": 1911
+      }
+    ],
+    "quotes": [
+      {
+        "text": "색채는 건반이고, 눈은 망치이며, 영혼은 줄이 많은 피아노다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "회화/추상미술",
+    "achievements": [
+      "추상미술의 창시자",
+      "바우하우스 교수"
+    ]
+  },
+  {
+    "id": "amundsen",
+    "name": {
+      "ko": "아문센",
+      "en": "Roald Amundsen"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1872,
+      "end": 1928
+    },
+    "location": {
+      "lat": 59.91,
+      "lng": 10.75,
+      "region": "노르웨이 오슬로"
+    },
+    "category": "historical_figure",
+    "subcategory": "explorer",
+    "tags": [
+      "탐험",
+      "극지",
+      "남극"
+    ],
+    "mvp": true,
+    "summary": "노르웨이의 탐험가로 남극점과 북서항로를 최초로 정복한 극지 탐험의 선구자이다.",
+    "detailed": "1903-1906년 북서항로를 최초로 통과했다. 1911년 영국의 스콧과 경쟁하여 남극점에 먼저 도달했다. 비행선으로 북극 상공을 비행하기도 했다. 1928년 실종된 동료를 구조하러 가다 북극해에서 행방불명되었다.",
+    "keyWorks": [
+      {
+        "title": "남극점 도달",
+        "year": 1911
+      }
+    ],
+    "quotes": [
+      {
+        "text": "모험은 철저한 준비의 결과다.",
+        "source": "자서전"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "탐험/극지",
+    "achievements": [
+      "남극점 최초 도달",
+      "북서항로 최초 통과",
+      "극지 탐험 선구"
+    ]
+  },
+  {
+    "id": "churchill",
+    "name": {
+      "ko": "처칠",
+      "en": "Winston Churchill"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1874,
+      "end": 1965
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "영국",
+      "2차대전",
+      "리더십"
+    ],
+    "mvp": true,
+    "summary": "제2차 세계대전 시기 영국의 수상으로 나치 독일에 맞서 영국을 이끌었다. 탁월한 연설과 불굴의 리더십으로 유명하다.",
+    "detailed": "귀족 가문 출신으로 군인, 작가, 정치가로 다채로운 경력을 쌓았다. 1940년 수상에 취임하여 나치 독일의 위협에 맞서 영국을 이끌었다. '피, 땀, 눈물'의 연설로 국민의 사기를 북돋웠다. 노벨 문학상을 수상한 뛰어난 작가이기도 했다.",
+    "keyWorks": [
+      {
+        "title": "제2차 세계대전 회고록",
+        "year": 1948
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 피와 수고와 눈물과 땀밖에 드릴 것이 없습니다.",
+        "source": "취임 연설, 1940"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "정치/군사",
+    "achievements": [
+      "2차 세계대전 승리 이끔",
+      "노벨 문학상 수상",
+      "냉전 시대 서방 진영 결속"
+    ]
+  },
+  {
+    "id": "ataturk",
+    "name": {
+      "ko": "아타튀르크",
+      "en": "Mustafa Kemal Ataturk"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1881,
+      "end": 1938
+    },
+    "location": {
+      "lat": 39.93,
+      "lng": 32.86,
+      "region": "터키 앙카라"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "터키",
+      "근대화",
+      "세속주의"
+    ],
+    "mvp": true,
+    "summary": "터키 공화국의 건국자이자 초대 대통령. 오스만 제국의 해체 후 세속 민주 국가를 건설했다.",
+    "detailed": "제1차 세계대전에서 갈리폴리 전투의 영웅이 되었다. 독립전쟁을 이끌어 외세의 침략을 물리쳤다. 1923년 터키 공화국을 수립하고 급진적인 세속화와 근대화 개혁을 추진했다. 아랍 문자를 라틴 문자로 교체하고 여성 참정권을 도입했다.",
+    "keyWorks": [
+      {
+        "title": "터키 공화국 수립",
+        "year": 1923
+      }
+    ],
+    "quotes": [
+      {
+        "text": "주권은 무조건 국민에게 있다.",
+        "source": "대국민의회 연설"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "정치/근대화",
+    "achievements": [
+      "터키 공화국 건국",
+      "세속 국가 건설",
+      "터키 근대화 개혁"
+    ]
+  },
+  {
+    "id": "picasso",
+    "name": {
+      "ko": "파블로 피카소",
+      "en": "Pablo Picasso"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1881,
+      "end": 1973
+    },
+    "location": {
+      "lat": 36.72,
+      "lng": -4.42,
+      "region": "스페인 말라가"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "미술",
+      "입체주의",
+      "현대미술"
+    ],
+    "mvp": true,
+    "summary": "스페인의 화가. 입체주의를 창시하고 20세기 미술을 혁명적으로 변화시킨 현대미술의 거장.",
+    "detailed": "청색시대, 장미빛시대를 거쳐 브라크와 함께 입체주의를 창시했다. 게르니카는 전쟁의 참상을 고발한 20세기 가장 영향력 있는 그림이다. 평생 5만 점 이상의 작품을 남긴 다작의 예술가였다.",
+    "keyWorks": [
+      {
+        "title": "게르니카",
+        "year": 1937
+      },
+      {
+        "title": "아비뇽의 처녀들",
+        "year": 1907
+      }
+    ],
+    "quotes": [
+      {
+        "text": "좋은 예술가는 베끼고, 위대한 예술가는 훔친다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "회화/조각/현대미술",
+    "achievements": [
+      "입체주의 창시",
+      "게르니카",
+      "현대미술의 혁명"
+    ]
+  },
+  {
+    "id": "fdr",
+    "name": {
+      "ko": "프랭클린 루스벨트",
+      "en": "Franklin D. Roosevelt"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1882,
+      "end": 1945
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -74.01,
+      "region": "미국 뉴욕"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "미국",
+      "뉴딜",
+      "2차대전"
+    ],
+    "mvp": true,
+    "summary": "미국의 제32대 대통령으로 대공황과 제2차 세계대전을 극복한 지도자. 뉴딜 정책으로 미국 경제를 회복시켰다.",
+    "detailed": "미국 역사상 유일하게 4선에 성공한 대통령이다. 대공황 극복을 위해 뉴딜 정책을 시행하여 사회보장 제도를 확립했다. 제2차 세계대전에서 연합국을 이끌어 승리를 이끌었다. 소아마비를 극복하고 대통령직을 수행한 의지의 상징이기도 하다.",
+    "keyWorks": [
+      {
+        "title": "뉴딜 정책",
+        "year": 1933
+      }
+    ],
+    "quotes": [
+      {
+        "text": "우리가 두려워해야 할 유일한 것은 두려움 그 자체입니다.",
+        "source": "취임 연설, 1933"
+      }
+    ],
+    "influences": [
+      "theodore-roosevelt",
+      "abraham-lincoln"
+    ],
+    "influenced": [],
+    "domain": "정치/경제",
+    "achievements": [
+      "뉴딜 정책",
+      "사회보장법",
+      "연합국 승리 이끔"
+    ]
+  },
+  {
+    "id": "james-joyce",
+    "name": {
+      "ko": "제임스 조이스",
+      "en": "James Joyce"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1882,
+      "end": 1941
+    },
+    "location": {
+      "lat": 53.35,
+      "lng": -6.26,
+      "region": "아일랜드 더블린"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "소설",
+      "영문학",
+      "모더니즘"
+    ],
+    "mvp": true,
+    "summary": "아일랜드의 소설가. 율리시스로 의식의 흐름 기법을 완성하고 모더니즘 문학의 정점을 이루었다.",
+    "detailed": "더블린을 무대로 한 작품을 통해 인간 의식의 흐름을 혁신적으로 표현했다. 율리시스는 하루 동안의 사건을 통해 호메로스의 오디세이를 현대적으로 재해석했다. 피네건의 경야는 문학 실험의 극단을 보여주는 작품이다.",
+    "keyWorks": [
+      {
+        "title": "율리시스",
+        "year": 1922
+      },
+      {
+        "title": "더블린 사람들",
+        "year": 1914
+      }
+    ],
+    "quotes": [
+      {
+        "text": "실수는 발견의 관문이다.",
+        "source": "율리시스"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "소설/모더니즘",
+    "achievements": [
+      "율리시스",
+      "의식의 흐름 기법 완성"
+    ]
+  },
+  {
+    "id": "virginia-woolf",
+    "name": {
+      "ko": "버지니아 울프",
+      "en": "Virginia Woolf"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1882,
+      "end": 1941
+    },
+    "location": {
+      "lat": 51.46,
+      "lng": -0.18,
+      "region": "영국 런던"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "소설",
+      "영문학",
+      "페미니즘"
+    ],
+    "mvp": true,
+    "summary": "영국의 소설가이자 비평가. 댈러웨이 부인, 등대로 등으로 모더니즘 소설과 페미니즘 비평의 선구자가 되었다.",
+    "detailed": "블룸즈버리 그룹의 중심 인물로 의식의 흐름 기법을 활용한 혁신적 소설을 집필했다. 자기만의 방은 페미니즘 문학비평의 고전이 되었다. 정신건강 문제와 싸우면서도 20세기 영문학의 가장 중요한 작품들을 남겼다.",
+    "keyWorks": [
+      {
+        "title": "댈러웨이 부인",
+        "year": 1925
+      },
+      {
+        "title": "등대로",
+        "year": 1927
+      }
+    ],
+    "quotes": [
+      {
+        "text": "여성이 소설을 쓰려면 돈과 자기만의 방이 있어야 한다.",
+        "source": "자기만의 방"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "소설/페미니즘",
+    "achievements": [
+      "모더니즘 소설의 혁신",
+      "페미니즘 비평의 선구"
+    ]
+  },
+  {
+    "id": "stravinsky",
+    "name": {
+      "ko": "이고르 스트라빈스키",
+      "en": "Igor Stravinsky"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1882,
+      "end": 1971
+    },
+    "location": {
+      "lat": 59.88,
+      "lng": 30.25,
+      "region": "러시아/미국"
+    },
+    "category": "cultural_figure",
+    "subcategory": "musician",
+    "tags": [
+      "클래식",
+      "현대음악",
+      "신고전주의"
+    ],
+    "mvp": true,
+    "summary": "러시아 출신의 작곡가. 봄의 제전으로 현대 음악의 혁명을 일으킨 20세기 가장 영향력 있는 작곡가.",
+    "detailed": "봄의 제전 초연은 충격적인 리듬과 불협화음으로 폭동 소동을 일으켰다. 신고전주의, 12음 기법 등 끊임없이 양식을 변화시키며 현대 음악의 방향을 제시했다.",
+    "keyWorks": [
+      {
+        "title": "봄의 제전",
+        "year": 1913
+      },
+      {
+        "title": "불새",
+        "year": 1910
+      }
+    ],
+    "quotes": [
+      {
+        "text": "혁명을 일으키기 위해서는 먼저 전통을 알아야 한다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "음악/현대음악",
+    "achievements": [
+      "봄의 제전",
+      "20세기 음악의 혁명"
+    ]
+  },
+  {
+    "id": "kafka",
+    "name": {
+      "ko": "프란츠 카프카",
+      "en": "Franz Kafka"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1883,
+      "end": 1924
+    },
+    "location": {
+      "lat": 50.09,
+      "lng": 14.42,
+      "region": "프라하"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "소설",
+      "독일어문학",
+      "모더니즘"
+    ],
+    "mvp": true,
+    "summary": "체코 프라하 출신의 독일어권 작가. 변신, 심판 등으로 현대인의 소외와 불안을 독창적으로 표현했다.",
+    "detailed": "보험회사에 근무하며 틈틈이 집필했다. 변신에서 갑자기 벌레로 변한 주인공을 통해 현대 사회의 부조리를 표현했다. 사후 친구 막스 브로트에 의해 유고가 출간되어 20세기 문학의 가장 영향력 있는 작가로 인정받게 되었다.",
+    "keyWorks": [
+      {
+        "title": "변신",
+        "year": 1915
+      },
+      {
+        "title": "심판",
+        "year": 1925
+      }
+    ],
+    "quotes": [
+      {
+        "text": "책이란 우리 안의 얼어붙은 바다를 깨는 도끼여야 한다.",
+        "source": "편지"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "소설/모더니즘",
+    "achievements": [
+      "변신",
+      "심판",
+      "현대 부조리 문학의 선구자"
+    ]
+  },
+  {
+    "id": "nehru",
+    "name": {
+      "ko": "네루",
+      "en": "Jawaharlal Nehru"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1889,
+      "end": 1964
+    },
+    "location": {
+      "lat": 28.61,
+      "lng": 77.21,
+      "region": "인도 뉴델리"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "인도",
+      "독립",
+      "비동맹"
+    ],
+    "mvp": true,
+    "summary": "인도의 초대 총리로 독립 운동과 근대 국가 건설을 이끌었다. 비동맹 운동의 창시자 중 한 명이다.",
+    "detailed": "영국 유학 후 인도 독립운동에 참여하여 간디의 핵심 동지가 되었다. 1947년 인도 독립 후 초대 총리로 17년간 재임했다. 세속주의와 사회주의적 경제 정책을 추진했다. 비동맹 운동을 주도하여 냉전 시대 제3세계의 목소리를 대변했다.",
+    "keyWorks": [
+      {
+        "title": "세계사 편력",
+        "year": 1934
+      }
+    ],
+    "quotes": [
+      {
+        "text": "역사는 자유를 위해 싸운 자들의 기록이다.",
+        "source": "인도의 발견"
+      }
+    ],
+    "influences": [
+      "gandhi"
+    ],
+    "influenced": [],
+    "domain": "정치/외교",
+    "achievements": [
+      "인도 독립",
+      "비동맹 운동 주도",
+      "현대 인도 국가 건설"
+    ]
+  },
+  {
+    "id": "ho-chi-minh",
+    "name": {
+      "ko": "호치민",
+      "en": "Ho Chi Minh"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1890,
+      "end": 1969
+    },
+    "location": {
+      "lat": 21.03,
+      "lng": 105.85,
+      "region": "베트남 하노이"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "베트남",
+      "독립",
+      "공산주의"
+    ],
+    "mvp": true,
+    "summary": "베트남 독립의 아버지이자 베트남 민주공화국의 초대 주석. 프랑스와 미국에 맞서 베트남의 독립과 통일을 위해 싸웠다.",
+    "detailed": "프랑스 식민지 시절부터 독립운동에 헌신했다. 1945년 베트남 민주공화국의 독립을 선언했다. 디엔비엔푸 전투에서 프랑스군을 격파했다. 베트남 전쟁 중 사망했으나 그의 유지를 이어 베트남은 통일되었다.",
+    "keyWorks": [
+      {
+        "title": "베트남 독립선언서",
+        "year": 1945
+      }
+    ],
+    "quotes": [
+      {
+        "text": "독립과 자유보다 귀한 것은 없다.",
+        "source": "유서"
+      }
+    ],
+    "influences": [
+      "marx"
+    ],
+    "influenced": [],
+    "domain": "독립/혁명",
+    "achievements": [
+      "베트남 독립",
+      "디엔비엔푸 전투 승리",
+      "베트남 통일의 기반"
+    ]
+  },
+  {
+    "id": "eisenhower",
+    "name": {
+      "ko": "아이젠하워",
+      "en": "Dwight D. Eisenhower"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1890,
+      "end": 1969
+    },
+    "location": {
+      "lat": 38.9,
+      "lng": -77.04,
+      "region": "미국 워싱턴"
+    },
+    "category": "historical_figure",
+    "subcategory": "military_leader",
+    "tags": [
+      "미국",
+      "2차대전",
+      "NATO"
+    ],
+    "mvp": true,
+    "summary": "제2차 세계대전 연합군 최고사령관이자 미국의 제34대 대통령. 노르망디 상륙작전을 지휘하여 유럽 해방을 이끌었다.",
+    "detailed": "웨스트포인트 출신의 군인으로 2차 대전 유럽 전선 최고사령관이 되었다. 1944년 노르망디 상륙작전(D-Day)을 성공적으로 지휘했다. 전후 NATO 초대 사령관을 역임했다. 1953년 대통령에 취임하여 냉전 시대의 안정을 추구했다.",
+    "keyWorks": [
+      {
+        "title": "노르망디 상륙작전",
+        "year": 1944
+      }
+    ],
+    "quotes": [
+      {
+        "text": "계획은 쓸모없지만 계획 수립은 필수적이다.",
+        "source": "연설"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "군사/정치",
+    "achievements": [
+      "노르망디 상륙작전 지휘",
+      "유럽 해방",
+      "NATO 초대 사령관"
+    ]
+  },
+  {
+    "id": "rommel",
+    "name": {
+      "ko": "롬멜",
+      "en": "Erwin Rommel"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1891,
+      "end": 1944
+    },
+    "location": {
+      "lat": 48.49,
+      "lng": 9.21,
+      "region": "독일 헤이덴하임"
+    },
+    "category": "historical_figure",
+    "subcategory": "military_leader",
+    "tags": [
+      "독일",
+      "2차대전",
+      "사막의 여우"
+    ],
+    "mvp": true,
+    "summary": "제2차 세계대전의 독일 장군으로 '사막의 여우'라 불린 기갑전의 대가. 히틀러 암살 음모에 연루되어 자결했다.",
+    "detailed": "제1차 세계대전에서 이미 뛰어난 전술가로 명성을 얻었다. 북아프리카 전선에서 아프리카 군단을 이끌며 '사막의 여우'라는 별명을 얻었다. 노르망디 방어를 담당했으나 연합군의 상륙을 막지 못했다. 히틀러 암살 음모와 연루되어 독약 자결을 강요받았다.",
+    "keyWorks": [
+      {
+        "title": "보병공격",
+        "year": 1937
+      }
+    ],
+    "quotes": [
+      {
+        "text": "전쟁에서 가장 좋은 방어는 공격이다.",
+        "source": "전장 발언"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "군사/전략",
+    "achievements": [
+      "북아프리카 전역",
+      "기갑전 전술 혁신",
+      "사막의 여우"
+    ]
+  },
+  {
+    "id": "mao-zedong",
+    "name": {
+      "ko": "마오쩌둥",
+      "en": "Mao Zedong"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1893,
+      "end": 1976
+    },
+    "location": {
+      "lat": 27.84,
+      "lng": 112.93,
+      "region": "중국 후난성"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "중국",
+      "공산주의",
+      "혁명"
+    ],
+    "mvp": true,
+    "summary": "중화인민공화국의 건국자이자 중국 공산당의 지도자. 중국 혁명을 이끌어 사회주의 국가를 건설했다.",
+    "detailed": "후난성 농민 가정에서 태어나 마르크스주의를 수용했다. 대장정을 이끌며 공산당의 지도자로 부상했다. 1949년 중화인민공화국을 수립하고 사회주의 개혁을 추진했다. 대약진운동과 문화대혁명 등 급진적 정책으로 큰 논란을 남겼다.",
+    "keyWorks": [
+      {
+        "title": "모순론",
+        "year": 1937
+      },
+      {
+        "title": "실천론",
+        "year": 1937
+      }
+    ],
+    "quotes": [
+      {
+        "text": "총구에서 정권이 나온다.",
+        "source": "전쟁과 전략의 문제, 1938"
+      }
+    ],
+    "influences": [
+      "marx",
+      "sun-tzu"
+    ],
+    "influenced": [],
+    "domain": "혁명/정치",
+    "achievements": [
+      "중화인민공화국 건국",
+      "중국 공산혁명",
+      "사회주의 체제 확립"
+    ]
+  },
+  {
+    "id": "louis-armstrong",
+    "name": {
+      "ko": "루이 암스트롱",
+      "en": "Louis Armstrong"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1901,
+      "end": 1971
+    },
+    "location": {
+      "lat": 29.95,
+      "lng": -90.07,
+      "region": "미국 뉴올리언스"
+    },
+    "category": "cultural_figure",
+    "subcategory": "musician",
+    "tags": [
+      "재즈",
+      "트럼펫",
+      "미국음악"
+    ],
+    "mvp": true,
+    "summary": "미국의 재즈 트럼펫 연주자이자 가수. 재즈를 대중화시키고 즉흥 연주의 예술을 확립한 재즈의 아버지.",
+    "detailed": "뉴올리언스 빈민가에서 태어나 트럼펫의 혁신적 연주로 재즈 음악을 세계에 알렸다. 스캣 싱잉 기법을 대중화했으며, '왓 어 원더풀 월드'는 시대를 초월한 명곡이 되었다.",
+    "keyWorks": [
+      {
+        "title": "What a Wonderful World",
+        "year": 1967
+      }
+    ],
+    "quotes": [
+      {
+        "text": "재즈가 뭐냐고요? 설명해야 한다면, 당신은 절대 알 수 없을 겁니다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "재즈/트럼펫",
+    "achievements": [
+      "재즈의 대중화",
+      "즉흥 연주의 예술화",
+      "스캣 싱잉"
+    ]
+  },
+  {
+    "id": "frida-kahlo",
+    "name": {
+      "ko": "프리다 칼로",
+      "en": "Frida Kahlo"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1907,
+      "end": 1954
+    },
+    "location": {
+      "lat": 19.36,
+      "lng": -99.16,
+      "region": "멕시코"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "미술",
+      "초현실주의",
+      "멕시코"
+    ],
+    "mvp": true,
+    "summary": "멕시코의 화가. 고통과 정체성을 주제로 한 강렬한 자화상으로 현대 미술과 페미니즘의 아이콘이 되었다.",
+    "detailed": "교통사고로 인한 평생의 고통을 예술로 승화시켰다. 멕시코 민속 예술과 초현실주의를 결합한 독특한 화풍을 발전시켰다. 여성, 인종, 계급의 문제를 작품에 담아 후대 예술가들에게 큰 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "두 명의 프리다",
+        "year": 1939
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 꿈을 그리는 것이 아니다. 나의 현실을 그린다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "회화/자화상",
+    "achievements": [
+      "멕시코 현대미술의 대표",
+      "페미니즘 미술의 아이콘"
+    ]
+  },
+  {
+    "id": "rosa-parks",
+    "name": {
+      "ko": "로자 파크스",
+      "en": "Rosa Parks"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1913,
+      "end": 2005
+    },
+    "location": {
+      "lat": 32.38,
+      "lng": -86.3,
+      "region": "미국 앨라배마"
+    },
+    "category": "historical_figure",
+    "subcategory": "social_reformer",
+    "tags": [
+      "시민권",
+      "인권",
+      "비폭력"
+    ],
+    "mvp": true,
+    "summary": "미국의 시민권 운동가. 버스 좌석 양보를 거부하여 몽고메리 버스 보이콧을 촉발시킨 시민권 운동의 어머니.",
+    "detailed": "1955년 앨라배마주 몽고메리에서 백인에게 버스 좌석을 양보하기를 거부하여 체포되었다. 이 사건은 381일간의 몽고메리 버스 보이콧을 촉발시켰고, 마틴 루서 킹의 시민권 운동의 시발점이 되었다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "나는 더 이상 참을 수 없었다.",
+        "source": "체포 당시"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "시민권",
+    "achievements": [
+      "몽고메리 버스 보이콧 촉발",
+      "시민권 운동의 상징"
+    ]
+  },
+  {
+    "id": "mandela",
+    "name": {
+      "ko": "넬슨 만델라",
+      "en": "Nelson Mandela"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1918,
+      "end": 2013
+    },
+    "location": {
+      "lat": -26.2,
+      "lng": 28.04,
+      "region": "남아프리카 요하네스버그"
+    },
+    "category": "historical_figure",
+    "subcategory": "political_leader",
+    "tags": [
+      "남아프리카",
+      "아파르트헤이트",
+      "인권"
+    ],
+    "mvp": true,
+    "summary": "남아프리카공화국의 반아파르트헤이트 운동 지도자이자 최초의 흑인 대통령. 화해와 용서의 상징이다.",
+    "detailed": "아파르트헤이트(인종차별정책)에 맞서 27년간 투옥되었다. 1990년 석방 후 평화적 방식으로 인종 화해를 이끌었다. 1994년 남아공 최초의 민주선거에서 대통령에 당선되었다. 노벨 평화상을 수상하며 전 세계 인권운동의 상징이 되었다.",
+    "keyWorks": [
+      {
+        "title": "자유를 향한 긴 여정",
+        "year": 1994
+      }
+    ],
+    "quotes": [
+      {
+        "text": "교육은 세상을 바꿀 수 있는 가장 강력한 무기다.",
+        "source": "연설"
+      }
+    ],
+    "influences": [
+      "gandhi",
+      "martin-luther-king"
+    ],
+    "influenced": [],
+    "domain": "인권/정치",
+    "achievements": [
+      "아파르트헤이트 종식",
+      "남아공 민주화",
+      "노벨 평화상 수상"
+    ]
+  },
+  {
+    "id": "garcia-marquez",
+    "name": {
+      "ko": "가브리엘 가르시아 마르케스",
+      "en": "Gabriel García Márquez"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1927,
+      "end": 2014
+    },
+    "location": {
+      "lat": 10.4,
+      "lng": -75.51,
+      "region": "콜롬비아 카르타헤나"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "소설",
+      "마술적사실주의",
+      "라틴아메리카문학"
+    ],
+    "mvp": true,
+    "summary": "콜롬비아의 소설가. 백년의 고독으로 마술적 사실주의를 세계에 알렸다. 1982년 노벨문학상 수상.",
+    "detailed": "저널리스트 출신으로 라틴아메리카의 역사와 신화를 융합한 마술적 사실주의의 대표 작가가 되었다. 백년의 고독은 부엔디아 가문 7대의 이야기를 통해 라틴아메리카의 역사를 압축적으로 보여준다.",
+    "keyWorks": [
+      {
+        "title": "백년의 고독",
+        "year": 1967
+      },
+      {
+        "title": "콜레라 시대의 사랑",
+        "year": 1985
+      }
+    ],
+    "quotes": [
+      {
+        "text": "인생은 살 만한 가치가 있다고 느낄 수 있는 것, 그것만으로 충분하다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "소설/마술적사실주의",
+    "achievements": [
+      "백년의 고독",
+      "마술적 사실주의",
+      "노벨문학상 수상"
+    ]
+  },
+  {
+    "id": "che-guevara",
+    "name": {
+      "ko": "체 게바라",
+      "en": "Che Guevara"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1928,
+      "end": 1967
+    },
+    "location": {
+      "lat": -34.6,
+      "lng": -58.38,
+      "region": "아르헨티나/쿠바"
+    },
+    "category": "historical_figure",
+    "subcategory": "military_leader",
+    "tags": [
+      "쿠바",
+      "혁명",
+      "게릴라"
+    ],
+    "mvp": true,
+    "summary": "아르헨티나 출신의 혁명가로 쿠바 혁명의 핵심 인물. 제3세계 혁명의 상징으로 20세기 가장 영향력 있는 아이콘이 되었다.",
+    "detailed": "아르헨티나 의사 출신으로 남미 여행 중 사회적 불평등에 눈을 떴다. 피델 카스트로와 함께 쿠바 혁명을 성공시켰다. 쿠바 산업부 장관 등을 역임했으나 관직을 버리고 세계 혁명에 나섰다. 볼리비아에서 게릴라 활동 중 체포되어 처형되었다.",
+    "keyWorks": [
+      {
+        "title": "게릴라전",
+        "year": 1961
+      }
+    ],
+    "quotes": [
+      {
+        "text": "리얼리스트가 되자. 그러나 가슴에 불가능한 꿈을 가지자.",
+        "source": "연설"
+      }
+    ],
+    "influences": [
+      "marx"
+    ],
+    "influenced": [],
+    "domain": "혁명/군사",
+    "achievements": [
+      "쿠바 혁명",
+      "게릴라전 이론",
+      "제3세계 혁명 운동 영감"
+    ]
+  },
+  {
+    "id": "andy-warhol",
+    "name": {
+      "ko": "앤디 워홀",
+      "en": "Andy Warhol"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1928,
+      "end": 1987
+    },
+    "location": {
+      "lat": 40.44,
+      "lng": -79.99,
+      "region": "미국 피츠버그"
+    },
+    "category": "cultural_figure",
+    "subcategory": "artist",
+    "tags": [
+      "미술",
+      "팝아트",
+      "현대미술"
+    ],
+    "mvp": true,
+    "summary": "미국의 예술가. 캠벨 수프 캔, 마릴린 먼로 연작 등으로 팝아트의 대표 주자가 되었다.",
+    "detailed": "상업 일러스트레이터 출신으로 대중문화와 소비사회를 예술로 승격시켰다. 실크스크린 기법을 활용한 대량생산적 작업으로 예술의 정의 자체에 도전했다. '팩토리' 스튜디오에서 다양한 실험적 작업을 이끌었다.",
+    "keyWorks": [
+      {
+        "title": "캠벨 수프 캔",
+        "year": 1962
+      }
+    ],
+    "quotes": [
+      {
+        "text": "미래에는 누구나 15분간 유명해질 것이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "팝아트/현대미술",
+    "achievements": [
+      "팝아트의 대표",
+      "대중문화와 순수미술의 경계 해체"
+    ]
+  },
+  {
+    "id": "martin-luther-king",
+    "name": {
+      "ko": "마틴 루서 킹 주니어",
+      "en": "Martin Luther King Jr."
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1929,
+      "end": 1968
+    },
+    "location": {
+      "lat": 33.75,
+      "lng": -84.39,
+      "region": "미국 조지아"
+    },
+    "category": "historical_figure",
+    "subcategory": "social_reformer",
+    "tags": [
+      "시민권",
+      "비폭력",
+      "인권"
+    ],
+    "mvp": true,
+    "summary": "미국의 시민권 운동 지도자. 비폭력 저항으로 인종차별에 맞서 싸운 20세기 가장 위대한 인권 운동가.",
+    "detailed": "침례교 목사로 간디의 비폭력주의에 영감을 받아 인종 평등을 위한 시민권 운동을 이끌었다. 1963년 워싱턴 대행진에서 나에게는 꿈이 있습니다 연설을 했다. 1964년 노벨평화상을 수상했으며, 1968년 암살되었다.",
+    "keyWorks": [
+      {
+        "title": "나에게는 꿈이 있습니다 연설",
+        "year": 1963
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나에게는 꿈이 있습니다.",
+        "source": "워싱턴 대행진 연설, 1963"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "시민권/비폭력",
+    "achievements": [
+      "시민권 운동 지도",
+      "나에게는 꿈이 있습니다 연설",
+      "노벨평화상 수상"
+    ]
+  },
+  {
+    "id": "neil-armstrong",
+    "name": {
+      "ko": "닐 암스트롱",
+      "en": "Neil Armstrong"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1930,
+      "end": 2012
+    },
+    "location": {
+      "lat": 39.76,
+      "lng": -84.19,
+      "region": "미국 오하이오"
+    },
+    "category": "historical_figure",
+    "subcategory": "explorer",
+    "tags": [
+      "우주",
+      "달",
+      "NASA"
+    ],
+    "mvp": true,
+    "summary": "미국의 우주비행사로 인류 최초로 달에 발을 디딘 사람. 아폴로 11호의 선장으로 인류 역사의 새 장을 열었다.",
+    "detailed": "해군 조종사와 시험비행 조종사를 거쳐 NASA 우주비행사가 되었다. 1969년 7월 20일 아폴로 11호의 선장으로 달에 착륙했다. 인류 최초로 달 표면에 발을 디디며 역사적인 말을 남겼다. 이후 조용히 대학 교수로 활동하며 겸손한 삶을 살았다.",
+    "keyWorks": [
+      {
+        "title": "아폴로 11호 달 착륙",
+        "year": 1969
+      }
+    ],
+    "quotes": [
+      {
+        "text": "한 사람에게는 작은 한 걸음이지만, 인류에게는 위대한 도약이다.",
+        "source": "달 착륙 시, 1969"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "탐험/우주",
+    "achievements": [
+      "인류 최초 달 착륙",
+      "아폴로 11호 선장",
+      "우주 탐험의 상징"
+    ]
+  },
+  {
+    "id": "john-lennon",
+    "name": {
+      "ko": "존 레논",
+      "en": "John Lennon"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1940,
+      "end": 1980
+    },
+    "location": {
+      "lat": 53.41,
+      "lng": -2.99,
+      "region": "영국 리버풀"
+    },
+    "category": "cultural_figure",
+    "subcategory": "musician",
+    "tags": [
+      "록",
+      "비틀즈",
+      "평화운동"
+    ],
+    "mvp": true,
+    "summary": "영국의 음악가. 비틀즈의 리더로 대중음악을 혁명적으로 변화시키고, 평화운동가로도 활동했다.",
+    "detailed": "비틀즈의 핵심 멤버로 폴 매카트니와 함께 20세기 가장 영향력 있는 노래들을 작곡했다. 솔로 활동에서 이매진은 평화와 통합의 상징이 되었다. 반전 평화운동에 적극 참여하며 음악을 넘어선 문화적 아이콘이 되었다.",
+    "keyWorks": [
+      {
+        "title": "Imagine",
+        "year": 1971
+      }
+    ],
+    "quotes": [
+      {
+        "text": "전쟁은 끝났다, 당신이 원한다면.",
+        "source": "Happy Xmas (War Is Over)"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "음악/록/평화운동",
+    "achievements": [
+      "비틀즈",
+      "이매진",
+      "대중문화의 혁명"
+    ]
+  },
+  {
+    "id": "aung-san-suu-kyi",
+    "name": {
+      "ko": "아웅산 수치",
+      "en": "Aung San Suu Kyi"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1945,
+      "end": 2026
+    },
+    "location": {
+      "lat": 16.87,
+      "lng": 96.2,
+      "region": "미얀마"
+    },
+    "category": "historical_figure",
+    "subcategory": "social_reformer",
+    "tags": [
+      "민주화",
+      "인권",
+      "미얀마"
+    ],
+    "mvp": true,
+    "summary": "미얀마의 민주화 운동가이자 정치인. 군사 독재에 맞서 비폭력으로 민주주의를 위해 싸웠다.",
+    "detailed": "미얀마 독립 영웅 아웅산의 딸로 1988년부터 군사 독재에 맞서 민주화 운동을 이끌었다. 15년간의 가택연금 속에서도 굴하지 않아 1991년 노벨평화상을 수상했다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "두려움으로부터의 자유가 진정한 자유다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "민주화/인권",
+    "achievements": [
+      "미얀마 민주화 운동",
+      "노벨평화상 수상"
+    ]
+  },
+  {
+    "id": "malala-yousafzai",
+    "name": {
+      "ko": "말랄라 유사프자이",
+      "en": "Malala Yousafzai"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1997,
+      "end": 2026
+    },
+    "location": {
+      "lat": 34.77,
+      "lng": 72.36,
+      "region": "파키스탄"
+    },
+    "category": "historical_figure",
+    "subcategory": "social_reformer",
+    "tags": [
+      "교육권",
+      "여성인권",
+      "노벨평화상"
+    ],
+    "mvp": true,
+    "summary": "파키스탄의 교육 활동가. 탈레반의 총격에서 살아남아 여성 교육권을 위해 싸우는 최연소 노벨평화상 수상자.",
+    "detailed": "파키스탄 스와트 계곡에서 탈레반의 여성 교육 금지에 반대하는 블로그를 운영했다. 2012년 스쿨버스에서 총격을 받았으나 기적적으로 회복했다. 2014년 17세의 나이로 최연소 노벨평화상을 수상했다.",
+    "keyWorks": [
+      {
+        "title": "나는 말랄라",
+        "year": 2013
+      }
+    ],
+    "quotes": [
+      {
+        "text": "한 명의 아이, 한 명의 교사, 한 권의 책, 한 자루의 펜이 세상을 바꿀 수 있습니다.",
+        "source": "UN 연설, 2013"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "교육권/여성인권",
+    "achievements": [
+      "최연소 노벨평화상 수상",
+      "여성 교육권 운동"
+    ]
+  }
+]
