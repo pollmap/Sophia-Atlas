@@ -169,6 +169,67 @@
     ]
   },
   {
+    "id": "laozi",
+    "name": {
+      "ko": "노자",
+      "en": "Laozi",
+      "original": "老子"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -571,
+      "end": -471
+    },
+    "location": {
+      "lat": 33.74,
+      "lng": 115.64,
+      "region": "중국 초나라 (하남성)"
+    },
+    "category": "philosopher",
+    "subcategory": "chinese",
+    "tags": [
+      "도교",
+      "도(道)",
+      "무위",
+      "동양철학"
+    ],
+    "mvp": true,
+    "summary": "도교의 창시자. 도(道)와 무위자연의 사상으로 유교적 인위를 비판하고 자연과의 조화를 추구했다.",
+    "detailed": "노자는 도(道)를 만물의 근원이자 자연의 법칙으로 제시했다. 도덕경에서 무위자연(無爲自然)을 핵심 원리로 삼아, 인위적 작위를 버리고 자연의 흐름에 따르는 삶을 주장했다. 물처럼 낮은 곳으로 흐르는 겸손과 유연함을 이상적 덕으로 보았으며, 소국과민(小國寡民)의 이상적 사회를 그렸다. 유교의 인위적 도덕과 제도를 비판하며, 동양 사상사에서 유교와 대비되는 자연주의적 전통을 수립했다.",
+    "keyWorks": [
+      {
+        "title": "도덕경",
+        "year": -500,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "도가 도라 할 수 있으면 상도가 아니다.",
+        "source": "도덕경"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "zhuangzi",
+      "zhu-xi"
+    ],
+    "school": [
+      "도가"
+    ],
+    "concepts": [
+      "도(道)",
+      "무위자연",
+      "상선약수",
+      "소국과민",
+      "도덕경"
+    ],
+    "questions": [
+      "말로 표현할 수 없는 진리가 있는가?",
+      "무위가 최선의 행위인가?"
+    ]
+  },
+  {
     "id": "pythagoras",
     "name": {
       "ko": "피타고라스",
@@ -288,6 +349,72 @@
     ],
     "questions": [
       "신은 어떤 존재인가?"
+    ]
+  },
+  {
+    "id": "confucius",
+    "name": {
+      "ko": "공자",
+      "en": "Confucius",
+      "original": "孔子"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -551,
+      "end": -479
+    },
+    "location": {
+      "lat": 35.6,
+      "lng": 116.99,
+      "region": "중국 노나라 (산동성 곡부)"
+    },
+    "category": "philosopher",
+    "subcategory": "chinese",
+    "tags": [
+      "유교",
+      "인(仁)",
+      "예(禮)",
+      "동양철학"
+    ],
+    "mvp": true,
+    "summary": "유교의 창시자. 인(仁)과 예(禮)를 핵심으로 도덕적 자기 수양과 이상적 통치를 가르쳤으며, 동아시아 문명의 정신적 토대를 놓았다.",
+    "detailed": "공자는 춘추시대 혼란기에 인(仁)을 핵심 덕목으로 제시하며 도덕적 수양을 통한 사회 질서 회복을 주장했다. 군자(君子)의 이상을 제시하고, 예(禮)를 통한 사회적 조화, 효(孝)를 통한 가족 윤리, 정명(正名)을 통한 올바른 통치를 가르쳤다. 시경, 서경 등 고전을 정리하고 제자들을 교육하여 유교 전통의 기초를 마련했다. 그의 가르침은 『논어』에 수록되어 2500년간 동아시아를 지배하는 사상적 토대가 되었다.",
+    "keyWorks": [
+      {
+        "title": "논어",
+        "year": -479,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "배우고 때때로 익히면 또한 기쁘지 아니한가.",
+        "source": "논어"
+      }
+    ],
+    "influences": [
+      "duke-of-zhou"
+    ],
+    "influenced": [
+      "mencius",
+      "xunzi",
+      "zhu-xi",
+      "wang-yangming"
+    ],
+    "school": [
+      "유교"
+    ],
+    "concepts": [
+      "인(仁)",
+      "예(禮)",
+      "효(孝)",
+      "군자",
+      "정명",
+      "중용"
+    ],
+    "questions": [
+      "인간은 어떻게 도덕적 존재가 되는가?",
+      "이상적 통치란 무엇인가?"
     ]
   },
   {
@@ -944,6 +1071,64 @@
       "선이란 무엇인가?",
       "행복이란?",
       "영혼은 있는가?"
+    ]
+  },
+  {
+    "id": "mozi",
+    "name": {
+      "ko": "묵자",
+      "en": "Mozi",
+      "original": "墨子"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -470,
+      "end": -391
+    },
+    "location": {
+      "lat": 34.75,
+      "lng": 113.65,
+      "region": "중국 노나라 (산동성)"
+    },
+    "category": "philosopher",
+    "subcategory": "chinese",
+    "tags": [
+      "묵가",
+      "겸애",
+      "비공",
+      "동양철학"
+    ],
+    "mvp": true,
+    "summary": "겸애(兼愛)와 비공(非攻)을 주장하며 유가의 차별적 사랑을 비판한 중국 고대 사상가.",
+    "detailed": "묵자는 유교의 차등적 사랑(별애)을 비판하고, 모든 사람을 차별 없이 사랑하는 겸애(兼愛)를 주장했다. 전쟁에 반대하는 비공(非攻)을 주장하며, 방어 기술과 논리학에도 뛰어났다. 실용주의적 관점에서 음악과 장례의 낭비를 비판하고, 절검(절약)을 강조했다. 하늘의 뜻(天志)에 기반한 객관적 도덕 기준을 제시하며, 묵가학파를 이끌어 전국시대에 유가와 양대 산맥을 이루었다.",
+    "keyWorks": [
+      {
+        "title": "묵자",
+        "year": -400,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "천하의 해로움은 서로 사랑하지 않는 데서 생긴다.",
+        "source": "묵자 겸애편"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "school": [
+      "묵가"
+    ],
+    "concepts": [
+      "겸애",
+      "비공",
+      "천지",
+      "상동",
+      "절용"
+    ],
+    "questions": [
+      "보편적 사랑은 실현 가능한가?",
+      "전쟁은 언제나 부당한가?"
     ]
   },
   {
@@ -1707,6 +1892,187 @@
     ]
   },
   {
+    "id": "chanakya",
+    "name": {
+      "ko": "차나키아",
+      "en": "Chanakya",
+      "original": "चाणक्य"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -375,
+      "end": -283
+    },
+    "location": {
+      "lat": 25.61,
+      "lng": 85.14,
+      "region": "인도 탁실라"
+    },
+    "category": "philosopher",
+    "subcategory": "indian",
+    "tags": [
+      "정치철학",
+      "경세론",
+      "실용주의",
+      "인도철학"
+    ],
+    "mvp": true,
+    "summary": "인도의 마키아벨리. 실용적 정치학과 통치론의 고전 『아르타샤스트라』를 저술한 고대 인도의 정치 사상가.",
+    "detailed": "차나키아(또는 카우틸리아)는 마우리아 왕조의 건국을 도운 전략가이자 정치 사상가이다. 『아르타샤스트라(실리론)』에서 국가의 통치, 외교, 군사, 경제에 관한 포괄적인 이론을 제시했다. 도덕보다 실리(아르타)를 중시하는 실용적 정치관을 전개하여, 서양의 마키아벨리와 비교되곤 한다. 동맹과 적을 분석하는 만달라(원환) 이론, 첩보 활용, 재정 관리 등 현실 정치의 구체적 방법론을 체계화했다.",
+    "keyWorks": [
+      {
+        "title": "아르타샤스트라",
+        "year": -300,
+        "type": "treatise"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "적의 적은 나의 친구이다.",
+        "source": "아르타샤스트라"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "school": [
+      "정치철학",
+      "실리론"
+    ],
+    "concepts": [
+      "아르타(실리)",
+      "만달라 이론",
+      "국가의 7요소",
+      "삼과 정벌"
+    ],
+    "questions": [
+      "정치에서 도덕과 실리는 양립 가능한가?",
+      "이상적 통치자의 자질은 무엇인가?"
+    ]
+  },
+  {
+    "id": "mencius",
+    "name": {
+      "ko": "맹자",
+      "en": "Mencius",
+      "original": "孟子"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -372,
+      "end": -289
+    },
+    "location": {
+      "lat": 35.41,
+      "lng": 116.97,
+      "region": "중국 추나라 (산동성)"
+    },
+    "category": "philosopher",
+    "subcategory": "chinese",
+    "tags": [
+      "유교",
+      "성선설",
+      "왕도정치",
+      "동양철학"
+    ],
+    "mvp": true,
+    "summary": "유교의 아성(亞聖). 성선설을 주장하며 인의(仁義)에 기반한 왕도정치를 옹호했다.",
+    "detailed": "맹자는 공자 사후 유교를 체계적으로 발전시킨 사상가로 '아성'(공자 다음가는 성인)으로 불린다. 인간의 본성이 선하다는 성선설(性善說)을 주장하며, 측은지심·수오지심·사양지심·시비지심의 사단(四端)이 인간에게 본래 갖추어져 있다고 보았다. 이에 기반하여 백성을 근본으로 삼는 민본주의와 왕도정치를 주장했으며, 부당한 군주에 대한 역성혁명의 정당성도 인정했다.",
+    "keyWorks": [
+      {
+        "title": "맹자",
+        "year": -300,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "사람이 차마 남에게 하지 못하는 마음이 있다.",
+        "source": "맹자"
+      }
+    ],
+    "influences": [
+      "confucius"
+    ],
+    "influenced": [
+      "zhu-xi",
+      "wang-yangming"
+    ],
+    "school": [
+      "유교"
+    ],
+    "concepts": [
+      "성선설",
+      "사단",
+      "왕도정치",
+      "민본주의",
+      "호연지기"
+    ],
+    "questions": [
+      "인간의 본성은 선한가?",
+      "정당한 통치의 기준은 무엇인가?"
+    ]
+  },
+  {
+    "id": "zhuangzi",
+    "name": {
+      "ko": "장자",
+      "en": "Zhuangzi",
+      "original": "莊子"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -369,
+      "end": -286
+    },
+    "location": {
+      "lat": 34.44,
+      "lng": 115.65,
+      "region": "중국 송나라 (하남성)"
+    },
+    "category": "philosopher",
+    "subcategory": "chinese",
+    "tags": [
+      "도가",
+      "자유",
+      "상대주의",
+      "동양철학"
+    ],
+    "mvp": true,
+    "summary": "노자의 도가 사상을 발전시켜 절대적 자유와 만물의 평등을 추구한 중국 고대 사상가.",
+    "detailed": "장자는 노자의 도가 사상을 독창적으로 발전시켜 절대적 정신적 자유인 소요유(逍遙遊)를 이상으로 제시했다. 호접지몽(나비의 꿈) 우화를 통해 실재와 꿈의 경계를 물으며, 인간 인식의 상대성을 보여주었다. 제물론(齊物論)에서 만물의 평등과 인위적 구분의 허구성을 주장했으며, 문학적 우화와 역설을 통해 언어로 포착할 수 없는 도의 세계를 표현했다. 동양적 자유 사상의 원천이다.",
+    "keyWorks": [
+      {
+        "title": "장자",
+        "year": -300,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "내가 나비 꿈을 꾸었는가, 나비가 나의 꿈을 꾸고 있는가.",
+        "source": "장자 제물론"
+      }
+    ],
+    "influences": [
+      "laozi"
+    ],
+    "influenced": [],
+    "school": [
+      "도가"
+    ],
+    "concepts": [
+      "소요유",
+      "제물론",
+      "호접지몽",
+      "좌망",
+      "무용지용"
+    ],
+    "questions": [
+      "절대적 자유는 가능한가?",
+      "실재와 꿈의 경계는 무엇인가?"
+    ]
+  },
+  {
     "id": "pyrrho",
     "name": {
       "ko": "피론",
@@ -1946,6 +2312,67 @@
     ],
     "questions": [
       "우주에는 섭리가 있는가?"
+    ]
+  },
+  {
+    "id": "xunzi",
+    "name": {
+      "ko": "순자",
+      "en": "Xunzi",
+      "original": "荀子"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -313,
+      "end": -238
+    },
+    "location": {
+      "lat": 35.8,
+      "lng": 116.6,
+      "region": "중국 조나라 (산서성)"
+    },
+    "category": "philosopher",
+    "subcategory": "chinese",
+    "tags": [
+      "유교",
+      "성악설",
+      "예치",
+      "동양철학"
+    ],
+    "mvp": true,
+    "summary": "성악설을 주장하며 예(禮)와 교육을 통한 인간 교화를 강조한 유가 사상가.",
+    "detailed": "순자는 맹자의 성선설에 반대하여 인간의 본성이 악하다는 성악설(性惡說)을 주장했다. 인간은 태어나면서 이기적 욕구를 가지지만, 예(禮)와 교육을 통해 선하게 될 수 있다고 보았다. 자연(天)을 인격적 존재가 아닌 자연법칙으로 이해하며, 인간이 자연을 이용할 수 있다는 제천명(制天命) 사상을 주장했다. 논리적이고 체계적인 논변으로 유명하며, 한비자와 이사 등 법가 사상가를 배출했다.",
+    "keyWorks": [
+      {
+        "title": "순자",
+        "year": -250,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "인간의 본성은 악하고 선한 것은 인위의 결과이다.",
+        "source": "순자 성악편"
+      }
+    ],
+    "influences": [
+      "confucius"
+    ],
+    "influenced": [
+      "han-fei"
+    ],
+    "school": [
+      "유교"
+    ],
+    "concepts": [
+      "성악설",
+      "예치",
+      "화성기위",
+      "제천명"
+    ],
+    "questions": [
+      "인간의 본성은 악한가?",
+      "사회 질서는 어떻게 유지되는가?"
     ]
   },
   {
@@ -2532,6 +2959,74 @@
       "그리스 철학은 기독교에 유용한가?"
     ],
     "religionId": "christianity"
+  },
+  {
+    "id": "nagarjuna",
+    "name": {
+      "ko": "나가르주나",
+      "en": "Nagarjuna",
+      "original": "नागार्जुन"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 150,
+      "end": 250
+    },
+    "location": {
+      "lat": 16.51,
+      "lng": 80.52,
+      "region": "인도 안드라프라데시"
+    },
+    "category": "philosopher",
+    "subcategory": "indian",
+    "tags": [
+      "불교",
+      "중관학파",
+      "공(空)",
+      "인도철학"
+    ],
+    "mvp": true,
+    "summary": "중관학파의 창시자. 공(空) 사상을 체계적으로 논증하여 대승불교 철학의 토대를 놓았다.",
+    "detailed": "나가르주나는 대승불교 철학의 가장 중요한 사상가로, 중론(中論)에서 공(空, śūnyatā) 사상을 체계적으로 전개했다. 모든 현상은 자성(自性, svabhāva)이 없이 상호 의존적으로 존재한다는 연기(緣起)와 공의 동일성을 논증했다. 사구부정(四句否定)의 방법으로 모든 독단적 견해를 해체하며, 세속제와 승의제의 이제설(二諦說)로 공의 진리와 일상적 현실의 관계를 설명했다. 티베트, 중국, 한국, 일본 불교에 지대한 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "중론",
+        "year": 200,
+        "type": "treatise"
+      },
+      {
+        "title": "십이문론",
+        "year": 200,
+        "type": "treatise"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "연기하는 것을 우리는 공이라고 부른다.",
+        "source": "중론"
+      }
+    ],
+    "influences": [
+      "buddha"
+    ],
+    "influenced": [
+      "shankara"
+    ],
+    "school": [
+      "중관학파",
+      "대승불교"
+    ],
+    "concepts": [
+      "공(空)",
+      "연기",
+      "이제설",
+      "사구부정",
+      "중도"
+    ],
+    "questions": [
+      "모든 것이 공하다면 무엇이 존재하는가?",
+      "언어로 진리를 표현할 수 있는가?"
+    ]
   },
   {
     "id": "tertullian",
@@ -3255,6 +3750,74 @@
     "religionId": "christianity"
   },
   {
+    "id": "shankara",
+    "name": {
+      "ko": "아디 샹카라",
+      "en": "Adi Shankara",
+      "original": "आदि शङ्कर"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 788,
+      "end": 820
+    },
+    "location": {
+      "lat": 10.22,
+      "lng": 76.23,
+      "region": "인도 케랄라 칼라디"
+    },
+    "category": "philosopher",
+    "subcategory": "indian",
+    "tags": [
+      "힌두교",
+      "아드바이타 베단타",
+      "불이일원론",
+      "인도철학"
+    ],
+    "mvp": true,
+    "summary": "아드바이타(불이일원) 베단타 철학을 체계화한 인도 철학의 거장. 브라만과 아트만의 궁극적 동일성을 논증했다.",
+    "detailed": "샹카라는 짧은 생애(32세) 동안 인도 철학사에서 가장 영향력 있는 체계를 수립했다. 우파니샤드, 브라마 수트라, 바가바드기타에 대한 주석을 통해 아드바이타(불이일원) 베단타를 체계화했다. 브라만만이 유일한 실재이고, 현상 세계는 마야(환상)이며, 개인의 자아(아트만)와 궁극적 실재(브라만)는 본질적으로 동일하다고 주장했다. 인도 아대륙 사방에 수도원을 설립하여 힌두교의 부흥에 기여했다.",
+    "keyWorks": [
+      {
+        "title": "브라마 수트라 주석",
+        "year": 810,
+        "type": "treatise"
+      },
+      {
+        "title": "우파데샤 사하스리",
+        "year": 815,
+        "type": "treatise"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "브라만은 실재이고, 세계는 환상이며, 자아는 브라만과 다르지 않다.",
+        "source": "비베카추다마니"
+      }
+    ],
+    "influences": [
+      "nagarjuna"
+    ],
+    "influenced": [
+      "ramanuja",
+      "vivekananda"
+    ],
+    "school": [
+      "아드바이타 베단타"
+    ],
+    "concepts": [
+      "불이일원론",
+      "브라만과 아트만",
+      "마야",
+      "무지(아비디아)",
+      "해탈(목샤)"
+    ],
+    "questions": [
+      "궁극적 실재는 하나인가?",
+      "현상 세계는 환상인가?"
+    ]
+  },
+  {
     "id": "al-kindi",
     "name": {
       "ko": "알킨디",
@@ -3558,6 +4121,70 @@
     ],
     "field": [
       "의학"
+    ]
+  },
+  {
+    "id": "ramanuja",
+    "name": {
+      "ko": "라마누자",
+      "en": "Ramanuja",
+      "original": "रामानुज"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1017,
+      "end": 1137
+    },
+    "location": {
+      "lat": 12.97,
+      "lng": 79.15,
+      "region": "인도 타밀나두 스리페룸부두르"
+    },
+    "category": "philosopher",
+    "subcategory": "indian",
+    "tags": [
+      "힌두교",
+      "비시슈타드바이타",
+      "제한불이론",
+      "박티"
+    ],
+    "mvp": true,
+    "summary": "비시슈타드바이타(제한적 불이론) 베단타를 수립하여 샹카라의 순수 불이론을 비판하고 신에 대한 헌신(박티)의 길을 제시했다.",
+    "detailed": "라마누자는 샹카라의 절대적 불이론이 세계의 실재성과 인격신을 부정한다고 비판하고, 브라만·자아·세계가 실재하되 브라만이 내적 통제자로서 전체를 관장한다는 제한적 불이론을 제시했다. 신에 대한 사랑과 헌신(박티)을 해탈의 핵심 방법으로 강조하며, 지식만으로는 구원에 이를 수 없다고 주장했다. 그의 사상은 비슈누파 힌두교의 철학적 토대가 되었으며, 인도 박티 운동에 깊은 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "쉬리바쉬야",
+        "year": 1100,
+        "type": "treatise"
+      },
+      {
+        "title": "기타바쉬야",
+        "year": 1100,
+        "type": "treatise"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "신에 대한 사랑이 해탈의 길이다.",
+        "source": "쉬리바쉬야"
+      }
+    ],
+    "influences": [
+      "shankara"
+    ],
+    "influenced": [],
+    "school": [
+      "비시슈타드바이타 베단타"
+    ],
+    "concepts": [
+      "제한적 불이론",
+      "박티",
+      "프라파티",
+      "샤라나가티"
+    ],
+    "questions": [
+      "궁극적 실재는 인격적인가 비인격적인가?",
+      "지식과 헌신 중 어느 것이 해탈로 이끄는가?"
     ]
   },
   {
@@ -4114,6 +4741,77 @@
     ],
     "questions": [
       "철학과 종교는 모순되는가?"
+    ]
+  },
+  {
+    "id": "zhu-xi",
+    "name": {
+      "ko": "주희",
+      "en": "Zhu Xi",
+      "original": "朱熹"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1130,
+      "end": 1200
+    },
+    "location": {
+      "lat": 27.77,
+      "lng": 118.32,
+      "region": "중국 복건성"
+    },
+    "category": "philosopher",
+    "subcategory": "chinese",
+    "tags": [
+      "성리학",
+      "이기론",
+      "격물치지",
+      "동양철학"
+    ],
+    "mvp": true,
+    "summary": "성리학을 집대성한 남송의 유학자. 이(理)와 기(氣)의 이원론으로 우주와 인간의 본질을 체계적으로 설명했다.",
+    "detailed": "주희는 북송의 유학적 혁신을 종합하여 성리학(주자학)을 체계적으로 완성했다. 이(理)와 기(氣)의 관계를 통해 우주 만물의 존재론을 설명하고, 격물치지(格物致知)를 통한 수양론을 제시했다. 사서(논어·맹자·대학·중용)에 대한 주석을 집대성하여 유교 경전 해석의 표준을 수립했다. 그의 성리학은 원·명·청 시대 관학으로 채택되었으며, 한국과 일본의 유학에도 결정적 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "사서집주",
+        "year": 1190,
+        "type": "book"
+      },
+      {
+        "title": "근사록",
+        "year": 1175,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "사물의 이치를 궁구하여 지식을 극진히 한다.",
+        "source": "대학장구"
+      }
+    ],
+    "influences": [
+      "confucius",
+      "mencius",
+      "laozi"
+    ],
+    "influenced": [
+      "wang-yangming",
+      "toegye",
+      "yulgok"
+    ],
+    "school": [
+      "성리학",
+      "주자학"
+    ],
+    "concepts": [
+      "이기론",
+      "격물치지",
+      "성즉리",
+      "사단칠정"
+    ],
+    "questions": [
+      "만물의 이치(理)란 무엇인가?",
+      "앎과 실천의 관계는 무엇인가?"
     ]
   },
   {
@@ -4983,6 +5681,69 @@
     "questions": [
       "정치에 도덕은 필요한가?",
       "권력을 어떻게 유지하는가?"
+    ]
+  },
+  {
+    "id": "wang-yangming",
+    "name": {
+      "ko": "왕양명",
+      "en": "Wang Yangming",
+      "original": "王陽明"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1472,
+      "end": 1529
+    },
+    "location": {
+      "lat": 29.87,
+      "lng": 121.55,
+      "region": "중국 절강성 여요"
+    },
+    "category": "philosopher",
+    "subcategory": "chinese",
+    "tags": [
+      "양명학",
+      "심즉리",
+      "치양지",
+      "동양철학"
+    ],
+    "mvp": true,
+    "summary": "양명학의 창시자. 심즉리(心卽理)와 지행합일(知行合一)을 주장하며 주자학의 이원론적 한계를 극복했다.",
+    "detailed": "왕양명은 주자학의 격물치지가 마음 밖에서 이치를 구하는 한계가 있다고 비판하고, 마음이 곧 이치라는 심즉리(心卽理)를 주장했다. 앎과 행함은 분리될 수 없다는 지행합일(知行合一)을 핵심 명제로 제시했으며, 모든 인간에게 본래 갖추어진 양지(良知)를 실현하는 치양지(致良知)를 수양의 목표로 삼았다. 그의 양명학은 일본 메이지 유신의 사상적 배경이 되었으며, 한국과 동아시아 전역에 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "전습록",
+        "year": 1518,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "마음 밖에 이치는 없고, 마음 밖에 사물은 없다.",
+        "source": "전습록"
+      }
+    ],
+    "influences": [
+      "confucius",
+      "mencius",
+      "zhu-xi"
+    ],
+    "influenced": [
+      "yulgok"
+    ],
+    "school": [
+      "양명학"
+    ],
+    "concepts": [
+      "심즉리",
+      "지행합일",
+      "치양지",
+      "양지"
+    ],
+    "questions": [
+      "앎과 실천은 하나인가?",
+      "도덕적 앎은 어디서 오는가?"
     ]
   },
   {
@@ -7609,6 +8370,167 @@
     ]
   },
   {
+    "id": "kierkegaard",
+    "name": {
+      "ko": "쇠렌 키르케고르",
+      "en": "Søren Kierkegaard",
+      "original": "Søren Aabye Kierkegaard"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1813,
+      "end": 1855
+    },
+    "location": {
+      "lat": 55.68,
+      "lng": 12.57,
+      "region": "덴마크 코펜하겐"
+    },
+    "category": "philosopher",
+    "subcategory": "existentialist",
+    "tags": [
+      "실존주의",
+      "기독교 실존주의",
+      "주체성",
+      "불안"
+    ],
+    "mvp": true,
+    "summary": "실존주의의 아버지. 헤겔의 체계적 철학에 반대하며 개인의 주체적 실존과 신앙의 도약을 강조했다.",
+    "detailed": "키르케고르는 헤겔의 객관적 체계 철학에 맞서 구체적 개인의 실존을 철학의 중심에 놓았다. 심미적·윤리적·종교적 실존의 세 단계를 제시하며, 각 단계 사이의 전환은 합리적 논증이 아닌 '도약'에 의해서만 가능하다고 보았다. 불안, 절망, 죽음에 이르는 병 등 인간 실존의 근본 감정을 분석했으며, 진정한 자기 됨은 신 앞에 선 단독자로서의 결단에 있다고 주장했다.",
+    "keyWorks": [
+      {
+        "title": "이것이냐 저것이냐",
+        "year": 1843,
+        "type": "book"
+      },
+      {
+        "title": "불안의 개념",
+        "year": 1844,
+        "type": "book"
+      },
+      {
+        "title": "죽음에 이르는 병",
+        "year": 1849,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "삶은 뒤돌아보면 이해되지만, 앞을 보며 살아야 한다.",
+        "source": "일기"
+      }
+    ],
+    "influences": [
+      "socrates",
+      "hegel"
+    ],
+    "influenced": [
+      "heidegger",
+      "sartre",
+      "jaspers",
+      "buber",
+      "tillich",
+      "marcel"
+    ],
+    "school": [
+      "실존주의",
+      "기독교 실존주의"
+    ],
+    "concepts": [
+      "실존의 3단계",
+      "불안",
+      "절망",
+      "신앙의 도약",
+      "단독자"
+    ],
+    "questions": [
+      "어떻게 진정한 자기 자신이 될 수 있는가?",
+      "신앙은 이성을 초월하는가?"
+    ]
+  },
+  {
+    "id": "marx",
+    "name": {
+      "ko": "카를 마르크스",
+      "en": "Karl Marx",
+      "original": "Karl Heinrich Marx"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1818,
+      "end": 1883
+    },
+    "location": {
+      "lat": 49.76,
+      "lng": 6.64,
+      "region": "독일 트리어"
+    },
+    "category": "philosopher",
+    "subcategory": "critical_theory",
+    "tags": [
+      "마르크스주의",
+      "유물론",
+      "정치경제학",
+      "사회주의"
+    ],
+    "mvp": true,
+    "summary": "역사적 유물론과 자본론으로 근대 사회과학과 정치사상에 혁명적 영향을 미친 사상가. 자본주의 체제의 구조적 모순을 분석했다.",
+    "detailed": "마르크스는 헤겔의 변증법을 유물론적으로 전환하여 역사적 유물론을 수립했다. 하부구조(경제적 생산양식)가 상부구조(법, 정치, 이데올로기)를 결정한다고 주장하며, 계급투쟁을 역사 발전의 동력으로 보았다. 『자본론』에서 잉여가치론을 통해 자본주의의 착취 구조를 분석했으며, 소외 개념으로 노동자의 비인간화를 비판했다. 그의 사상은 20세기 세계사를 근본적으로 변화시켰다.",
+    "keyWorks": [
+      {
+        "title": "자본론",
+        "year": 1867,
+        "type": "book"
+      },
+      {
+        "title": "공산당 선언",
+        "year": 1848,
+        "type": "book"
+      },
+      {
+        "title": "경제학-철학 수고",
+        "year": 1844,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "철학자들은 세계를 다양하게 해석해 왔을 뿐이다. 중요한 것은 세계를 변혁하는 것이다.",
+        "source": "포이어바흐에 관한 테제"
+      }
+    ],
+    "influences": [
+      "hegel",
+      "feuerbach",
+      "ricardo"
+    ],
+    "influenced": [
+      "engels",
+      "lenin",
+      "lukacs",
+      "gramsci",
+      "adorno",
+      "marcuse",
+      "benjamin",
+      "habermas"
+    ],
+    "school": [
+      "마르크스주의",
+      "역사적 유물론"
+    ],
+    "concepts": [
+      "역사적 유물론",
+      "잉여가치",
+      "소외",
+      "계급투쟁",
+      "이데올로기"
+    ],
+    "questions": [
+      "자본주의는 필연적으로 붕괴하는가?",
+      "경제가 의식을 결정하는가?"
+    ]
+  },
+  {
     "id": "spencer",
     "name": {
       "ko": "스펜서",
@@ -7658,6 +8580,78 @@
     ],
     "questions": [
       "사회에도 자연선택이 적용되는가?"
+    ]
+  },
+  {
+    "id": "engels",
+    "name": {
+      "ko": "프리드리히 엥겔스",
+      "en": "Friedrich Engels",
+      "original": "Friedrich Engels"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1820,
+      "end": 1895
+    },
+    "location": {
+      "lat": 51.36,
+      "lng": 7.47,
+      "region": "독일 부퍼탈"
+    },
+    "category": "philosopher",
+    "subcategory": "critical_theory",
+    "tags": [
+      "마르크스주의",
+      "변증법적 유물론",
+      "사회주의",
+      "정치경제학"
+    ],
+    "mvp": true,
+    "summary": "마르크스의 평생 동지이자 공동 작업자. 변증법적 유물론을 체계화하고 마르크스주의의 보급에 결정적 역할을 했다.",
+    "detailed": "엥겔스는 마르크스와 함께 『공산당 선언』을 공저하고, 마르크스의 경제적 지원자이자 사상적 동반자로서 마르크스주의의 형성에 핵심적 역할을 했다. 『영국 노동계급의 상태』에서 산업 자본주의의 비참한 실태를 고발했으며, 『자연 변증법』과 『반뒤링론』에서 변증법적 유물론을 자연과학으로 확장했다. 마르크스 사후 『자본론』 2, 3권을 편집하여 출간했다.",
+    "keyWorks": [
+      {
+        "title": "영국 노동계급의 상태",
+        "year": 1845,
+        "type": "book"
+      },
+      {
+        "title": "반뒤링론",
+        "year": 1878,
+        "type": "book"
+      },
+      {
+        "title": "자연 변증법",
+        "year": 1883,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자유란 필연의 인식이다.",
+        "source": "반뒤링론"
+      }
+    ],
+    "influences": [
+      "hegel",
+      "feuerbach"
+    ],
+    "influenced": [
+      "lenin"
+    ],
+    "school": [
+      "마르크스주의",
+      "변증법적 유물론"
+    ],
+    "concepts": [
+      "변증법적 유물론",
+      "자연 변증법",
+      "유물론적 역사관"
+    ],
+    "questions": [
+      "자연에도 변증법적 법칙이 적용되는가?",
+      "사회주의 혁명은 불가피한가?"
     ]
   },
   {
@@ -7800,6 +8794,515 @@
     ]
   },
   {
+    "id": "nietzsche",
+    "name": {
+      "ko": "프리드리히 니체",
+      "en": "Friedrich Nietzsche",
+      "original": "Friedrich Wilhelm Nietzsche"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1844,
+      "end": 1900
+    },
+    "location": {
+      "lat": 51.16,
+      "lng": 10.45,
+      "region": "독일 뢰켄"
+    },
+    "category": "philosopher",
+    "subcategory": "existentialist",
+    "tags": [
+      "실존주의",
+      "생철학",
+      "허무주의",
+      "권력의지"
+    ],
+    "mvp": true,
+    "summary": "신의 죽음을 선언하고 위버멘쉬 개념을 제시한 근대 철학의 혁명가. 기존 도덕과 형이상학을 근본적으로 비판하며 가치의 전환을 요구했다.",
+    "detailed": "니체는 전통적 형이상학과 기독교 도덕을 근본적으로 비판한 철학자이다. '신은 죽었다'는 선언을 통해 절대적 가치 체계의 붕괴를 진단했으며, 위버멘쉬(초인)와 영원회귀 사상을 통해 새로운 가치 창조의 가능성을 제시했다. 권력에의 의지 개념으로 삶의 근원적 동력을 설명했으며, 계보학적 방법론으로 도덕의 기원을 해부했다. 그의 사상은 실존주의, 포스트모더니즘, 해체주의에 지대한 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "차라투스트라는 이렇게 말했다",
+        "year": 1883,
+        "type": "book"
+      },
+      {
+        "title": "선악의 저편",
+        "year": 1886,
+        "type": "book"
+      },
+      {
+        "title": "도덕의 계보",
+        "year": 1887,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "괴물과 싸우는 자는 자신도 괴물이 되지 않도록 조심하라.",
+        "source": "선악의 저편"
+      }
+    ],
+    "influences": [
+      "schopenhauer",
+      "heraclitus"
+    ],
+    "influenced": [
+      "heidegger",
+      "sartre",
+      "camus",
+      "foucault",
+      "derrida",
+      "deleuze"
+    ],
+    "school": [
+      "생철학",
+      "실존주의"
+    ],
+    "concepts": [
+      "위버멘쉬",
+      "영원회귀",
+      "권력에의 의지",
+      "신의 죽음",
+      "가치의 전환"
+    ],
+    "questions": [
+      "절대적 가치가 붕괴한 후 인간은 어떻게 살아야 하는가?",
+      "도덕의 진정한 기원은 무엇인가?"
+    ]
+  },
+  {
+    "id": "frege",
+    "name": {
+      "ko": "고틀로프 프레게",
+      "en": "Gottlob Frege",
+      "original": "Friedrich Ludwig Gottlob Frege"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1848,
+      "end": 1925
+    },
+    "location": {
+      "lat": 53.88,
+      "lng": 13.38,
+      "region": "독일 비스마르"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "분석철학",
+      "논리학",
+      "수리철학",
+      "언어철학"
+    ],
+    "mvp": true,
+    "summary": "현대 논리학과 분석철학의 창시자. 개념 표기법을 발명하고 뜻(Sinn)과 지시체(Bedeutung)의 구분으로 언어철학의 토대를 놓았다.",
+    "detailed": "프레게는 산술의 논리적 기초를 확립하고자 개념 표기법(Begriffsschrift)을 고안하여 현대 기호논리학을 창시했다. 뜻과 지시체의 구분을 통해 동일성 진술의 인식적 가치를 설명했으며, 이는 언어철학의 근본 문제가 되었다. 논리주의 프로그램을 통해 산술을 논리학으로 환원하고자 했으나, 러셀의 역설에 의해 좌절되었다. 그럼에도 그의 논리학적 혁신은 러셀, 비트겐슈타인 등 분석철학 전통의 출발점이 되었다.",
+    "keyWorks": [
+      {
+        "title": "개념 표기법",
+        "year": 1879,
+        "type": "book"
+      },
+      {
+        "title": "산술의 기초",
+        "year": 1884,
+        "type": "book"
+      },
+      {
+        "title": "뜻과 지시체에 대하여",
+        "year": 1892,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "한 문장의 뜻은 그것의 진리조건이다.",
+        "source": "뜻과 지시체에 대하여"
+      }
+    ],
+    "influences": [
+      "leibniz"
+    ],
+    "influenced": [
+      "russell",
+      "wittgenstein",
+      "carnap",
+      "dummett"
+    ],
+    "school": [
+      "분석철학",
+      "논리주의"
+    ],
+    "concepts": [
+      "뜻과 지시체",
+      "개념 표기법",
+      "논리주의",
+      "합성성 원리"
+    ],
+    "questions": [
+      "수학적 진리는 논리적 진리인가?",
+      "이름의 의미는 무엇인가?"
+    ]
+  },
+  {
+    "id": "vivekananda",
+    "name": {
+      "ko": "스와미 비베카난다",
+      "en": "Swami Vivekananda",
+      "original": "स्वामी विवेकानन्द"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1863,
+      "end": 1902
+    },
+    "location": {
+      "lat": 22.57,
+      "lng": 88.36,
+      "region": "인도 콜카타"
+    },
+    "category": "philosopher",
+    "subcategory": "indian",
+    "tags": [
+      "힌두교",
+      "베단타",
+      "네오베단타",
+      "종교간대화"
+    ],
+    "mvp": true,
+    "summary": "힌두교를 세계에 소개하고 네오베단타 운동을 이끈 인도의 영적 지도자이자 철학자.",
+    "detailed": "비베카난다는 라마크리슈나의 제자로서 1893년 시카고 만국종교회의에서의 연설로 세계적 명성을 얻었다. 아드바이타 베단타를 현대적으로 재해석하여 모든 종교가 하나의 진리를 향한 다양한 길임을 주장했다. 영적 수행과 사회봉사를 결합하여 '카르마 요가'를 강조했으며, 인도의 정신적 유산을 현대적으로 활성화하는 데 기여했다. 라마크리슈나 미션을 설립하여 교육과 자선 사업을 전개했다.",
+    "keyWorks": [
+      {
+        "title": "라자 요가",
+        "year": 1896,
+        "type": "book"
+      },
+      {
+        "title": "카르마 요가",
+        "year": 1896,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "일어나라, 깨어라, 목표에 도달할 때까지 멈추지 마라.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "shankara"
+    ],
+    "influenced": [
+      "aurobindo"
+    ],
+    "school": [
+      "네오베단타",
+      "라마크리슈나 운동"
+    ],
+    "concepts": [
+      "네오베단타",
+      "종교의 보편성",
+      "카르마 요가",
+      "실천적 베단타"
+    ],
+    "questions": [
+      "모든 종교는 하나의 진리로 향하는가?",
+      "영적 깨달음과 사회봉사는 어떻게 연결되는가?"
+    ]
+  },
+  {
+    "id": "russell",
+    "name": {
+      "ko": "버트런드 러셀",
+      "en": "Bertrand Russell",
+      "original": "Bertrand Arthur William Russell"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1872,
+      "end": 1970
+    },
+    "location": {
+      "lat": 51.75,
+      "lng": -1.26,
+      "region": "영국 웨일스"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "분석철학",
+      "논리학",
+      "수리철학",
+      "노벨문학상"
+    ],
+    "mvp": true,
+    "summary": "20세기 분석철학의 거장. 논리적 원자론과 확정 기술 이론으로 철학적 분석의 모범을 제시했으며, 사회 운동가로도 활동했다.",
+    "detailed": "러셀은 화이트헤드와 함께 『수학 원리』를 저술하여 수학의 논리적 기초를 정립하고자 했다. 러셀의 역설 발견은 집합론의 근본적 문제를 드러냈다. 확정 기술 이론으로 언어의 표면 구조와 논리적 형식의 차이를 보여주었으며, 논리적 원자론을 통해 세계의 논리적 구조를 해명하고자 했다. 반전 운동과 핵무기 반대 운동에도 적극 참여했으며, 1950년 노벨문학상을 수상했다.",
+    "keyWorks": [
+      {
+        "title": "수학 원리",
+        "year": 1910,
+        "type": "book"
+      },
+      {
+        "title": "지시에 대하여",
+        "year": 1905,
+        "type": "paper"
+      },
+      {
+        "title": "서양 철학사",
+        "year": 1945,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "내가 죽은 뒤 사람들이 어리석어지는 것이 두렵다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "frege",
+      "leibniz",
+      "mill"
+    ],
+    "influenced": [
+      "wittgenstein",
+      "carnap",
+      "quine",
+      "ayer",
+      "popper"
+    ],
+    "school": [
+      "분석철학",
+      "논리적 원자론"
+    ],
+    "concepts": [
+      "확정 기술 이론",
+      "논리적 원자론",
+      "러셀의 역설",
+      "유형 이론"
+    ],
+    "questions": [
+      "수학은 논리학으로 환원 가능한가?",
+      "일상 언어는 논리적 형식을 숨기는가?"
+    ]
+  },
+  {
+    "id": "aurobindo",
+    "name": {
+      "ko": "스리 오로빈도",
+      "en": "Sri Aurobindo",
+      "original": "श्री अरविन्द"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1872,
+      "end": 1950
+    },
+    "location": {
+      "lat": 22.57,
+      "lng": 88.36,
+      "region": "인도 콜카타"
+    },
+    "category": "philosopher",
+    "subcategory": "indian",
+    "tags": [
+      "통합요가",
+      "진화론",
+      "영성",
+      "인도철학"
+    ],
+    "mvp": true,
+    "summary": "인도 독립운동가에서 영적 사상가로 전환하여 통합요가와 영적 진화론을 제시한 현대 인도 철학자.",
+    "detailed": "오로빈도는 초기에 인도 독립운동에 참여한 혁명가였으나, 감옥에서의 영적 체험 후 퐁디세리로 은거하여 영적 수행과 철학에 전념했다. 의식의 상승적 진화를 주장하며, 물질에서 생명, 정신을 거쳐 초정신(Supermind)에 이르는 우주적 진화론을 제시했다. 베다와 우파니샤드를 현대적으로 재해석하고, 동서양 사상의 종합을 시도했다. 퐁디세리 아슈람과 오로빌 국제공동체를 설립했다.",
+    "keyWorks": [
+      {
+        "title": "신적 삶",
+        "year": 1914,
+        "type": "book"
+      },
+      {
+        "title": "요가의 종합",
+        "year": 1914,
+        "type": "book"
+      },
+      {
+        "title": "사비트리",
+        "year": 1950,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "인간은 과도적 존재이다.",
+        "source": "신적 삶"
+      }
+    ],
+    "influences": [
+      "shankara",
+      "vivekananda"
+    ],
+    "influenced": [],
+    "school": [
+      "통합요가",
+      "통합 베단타"
+    ],
+    "concepts": [
+      "초정신",
+      "통합요가",
+      "영적 진화",
+      "의식의 상승"
+    ],
+    "questions": [
+      "인류의 의식은 더 높은 단계로 진화할 수 있는가?",
+      "물질과 영은 어떤 관계에 있는가?"
+    ]
+  },
+  {
+    "id": "moore",
+    "name": {
+      "ko": "조지 에드워드 무어",
+      "en": "G. E. Moore",
+      "original": "George Edward Moore"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1873,
+      "end": 1958
+    },
+    "location": {
+      "lat": 51.47,
+      "lng": -0.01,
+      "region": "영국 런던"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "분석철학",
+      "윤리학",
+      "상식철학",
+      "인식론"
+    ],
+    "mvp": true,
+    "summary": "상식의 옹호와 자연주의적 오류 개념으로 분석철학의 기초를 놓은 영국 철학자.",
+    "detailed": "무어는 관념론에 반대하여 상식적 실재론을 옹호하며 분석철학의 출발에 기여했다. 윤리학에서는 '선'(good)이 정의 불가능한 단순 속성임을 주장하며, 선을 자연적 속성으로 환원하려는 시도를 '자연주의적 오류'로 비판했다. '여기에 손이 있다'는 유명한 논증으로 외부 세계에 대한 회의주의에 반박했다. 개념 분석의 중요성을 강조한 그의 방법론은 분석철학의 표준이 되었다.",
+    "keyWorks": [
+      {
+        "title": "윤리학 원리",
+        "year": 1903,
+        "type": "book"
+      },
+      {
+        "title": "관념론 논박",
+        "year": 1903,
+        "type": "paper"
+      },
+      {
+        "title": "상식의 옹호",
+        "year": 1925,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "선은 선이다, 그것이 전부다.",
+        "source": "윤리학 원리"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "russell",
+      "wittgenstein"
+    ],
+    "school": [
+      "분석철학",
+      "상식철학"
+    ],
+    "concepts": [
+      "자연주의적 오류",
+      "상식의 옹호",
+      "열린 질문 논증"
+    ],
+    "questions": [
+      "'선'은 정의할 수 있는가?",
+      "상식은 철학적으로 신뢰할 수 있는가?"
+    ]
+  },
+  {
+    "id": "buber",
+    "name": {
+      "ko": "마르틴 부버",
+      "en": "Martin Buber",
+      "original": "מרטין בובר"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1878,
+      "end": 1965
+    },
+    "location": {
+      "lat": 48.21,
+      "lng": 16.37,
+      "region": "오스트리아 빈"
+    },
+    "category": "philosopher",
+    "subcategory": "existentialist",
+    "tags": [
+      "대화철학",
+      "유대교",
+      "실존주의",
+      "만남"
+    ],
+    "mvp": true,
+    "summary": "나-너 관계의 대화 철학을 수립한 유대 사상가. 인격적 만남을 통한 진정한 관계와 신과의 대화를 탐구했다.",
+    "detailed": "부버는 인간관계를 '나-너'(Ich-Du)와 '나-그것'(Ich-Es)의 두 근본 태도로 구분했다. '나-너' 관계에서 타자는 수단이 아닌 인격으로 만나지며, 이 만남 속에서 영원한 너인 신과의 관계도 열린다고 보았다. 하시디즘 전통을 현대에 소개하며 유대교 사상의 부흥에 기여했다. 교육, 정치, 종교 간 대화에서 그의 대화 철학은 폭넓게 적용되었다.",
+    "keyWorks": [
+      {
+        "title": "나와 너",
+        "year": 1923,
+        "type": "book"
+      },
+      {
+        "title": "하시디즘 이야기",
+        "year": 1947,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "모든 진정한 삶은 만남이다.",
+        "source": "나와 너"
+      }
+    ],
+    "influences": [
+      "kierkegaard",
+      "nietzsche"
+    ],
+    "influenced": [
+      "levinas",
+      "marcel"
+    ],
+    "school": [
+      "대화철학",
+      "유대 실존주의"
+    ],
+    "concepts": [
+      "나-너 관계",
+      "나-그것 관계",
+      "영원한 너",
+      "만남"
+    ],
+    "questions": [
+      "진정한 만남은 어떻게 가능한가?",
+      "신은 어떻게 만날 수 있는가?"
+    ]
+  },
+  {
     "id": "jaspers",
     "name": {
       "ko": "야스퍼스",
@@ -7864,6 +9367,2903 @@
     ],
     "questions": [
       "한계상황에서 인간은 무엇을 경험하는가?"
+    ]
+  },
+  {
+    "id": "lukacs",
+    "name": {
+      "ko": "게오르그 루카치",
+      "en": "György Lukács",
+      "original": "Lukács György Bernát"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1885,
+      "end": 1971
+    },
+    "location": {
+      "lat": 47.5,
+      "lng": 19.04,
+      "region": "헝가리 부다페스트"
+    },
+    "category": "philosopher",
+    "subcategory": "critical_theory",
+    "tags": [
+      "마르크스주의",
+      "서구 마르크스주의",
+      "물화",
+      "미학"
+    ],
+    "mvp": true,
+    "summary": "서구 마르크스주의의 창시자. 물화 개념과 총체성 회복을 통해 마르크스주의를 철학적으로 갱신했다.",
+    "detailed": "루카치는 『역사와 계급의식』에서 물화(Verdinglichung) 개념을 중심으로 자본주의 사회에서 인간관계가 사물 관계로 전환되는 메커니즘을 분석했다. 마르크스의 소외론을 헤겔적 총체성 개념으로 재구성하며, 프롤레타리아의 계급의식만이 물화를 극복할 수 있다고 주장했다. 미학에서도 사실주의 문학 이론을 발전시키며 문학과 사회의 관계를 탐구했다.",
+    "keyWorks": [
+      {
+        "title": "역사와 계급의식",
+        "year": 1923,
+        "type": "book"
+      },
+      {
+        "title": "소설의 이론",
+        "year": 1916,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "물화는 자본주의 사회의 근본 현상이다.",
+        "source": "역사와 계급의식"
+      }
+    ],
+    "influences": [
+      "marx",
+      "hegel",
+      "weber"
+    ],
+    "influenced": [
+      "adorno",
+      "horkheimer",
+      "benjamin"
+    ],
+    "school": [
+      "서구 마르크스주의"
+    ],
+    "concepts": [
+      "물화",
+      "총체성",
+      "계급의식",
+      "사실주의 미학"
+    ],
+    "questions": [
+      "자본주의에서 인간관계는 어떻게 왜곡되는가?",
+      "총체적 인식은 가능한가?"
+    ]
+  },
+  {
+    "id": "tillich",
+    "name": {
+      "ko": "파울 틸리히",
+      "en": "Paul Tillich",
+      "original": "Paul Johannes Tillich"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1886,
+      "end": 1965
+    },
+    "location": {
+      "lat": 51.43,
+      "lng": 13.03,
+      "region": "독일 슈타르체델"
+    },
+    "category": "philosopher",
+    "subcategory": "existentialist",
+    "tags": [
+      "신학",
+      "실존주의",
+      "문화신학",
+      "존재의 용기"
+    ],
+    "mvp": true,
+    "summary": "존재론적 신학을 수립한 개신교 신학자이자 철학자. 실존주의와 기독교 신학의 창조적 종합을 시도했다.",
+    "detailed": "틸리히는 실존주의적 물음과 기독교적 응답을 연결하는 '상관의 방법'을 통해 조직신학을 구성했다. 신을 '존재 자체'(Being-itself) 또는 '궁극적 관심'으로 정의하며, 전통적 유신론을 넘어서는 신 개념을 제시했다. 불안을 운명/죽음, 공허/무의미, 죄/정죄의 세 유형으로 분류하고, 이를 극복하는 '존재의 용기'를 탐구했다. 종교와 문화의 관계를 깊이 성찰한 문화신학도 독창적 기여이다.",
+    "keyWorks": [
+      {
+        "title": "조직신학",
+        "year": 1951,
+        "type": "book"
+      },
+      {
+        "title": "존재의 용기",
+        "year": 1952,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "신앙이란 궁극적 관심이다.",
+        "source": "신앙의 역학"
+      }
+    ],
+    "influences": [
+      "kierkegaard",
+      "heidegger",
+      "schelling"
+    ],
+    "influenced": [],
+    "school": [
+      "실존주의 신학",
+      "문화신학"
+    ],
+    "concepts": [
+      "존재 자체",
+      "궁극적 관심",
+      "존재의 용기",
+      "상관의 방법"
+    ],
+    "questions": [
+      "신은 존재하는가, 아니면 존재 자체인가?",
+      "불안을 극복하는 용기의 원천은 무엇인가?"
+    ]
+  },
+  {
+    "id": "heidegger",
+    "name": {
+      "ko": "마르틴 하이데거",
+      "en": "Martin Heidegger",
+      "original": "Martin Heidegger"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1889,
+      "end": 1976
+    },
+    "location": {
+      "lat": 47.88,
+      "lng": 9.69,
+      "region": "독일 메스키르히"
+    },
+    "category": "philosopher",
+    "subcategory": "existentialist",
+    "tags": [
+      "실존주의",
+      "현상학",
+      "존재론",
+      "해석학"
+    ],
+    "mvp": true,
+    "summary": "존재의 의미를 묻는 근본 존재론을 수립한 20세기 가장 영향력 있는 철학자 중 한 명. 현존재(Dasein) 분석을 통해 인간 실존의 구조를 해명했다.",
+    "detailed": "하이데거는 서양 형이상학의 역사를 '존재 망각'의 역사로 진단하고, 존재의 의미를 새롭게 묻고자 했다. 주저 『존재와 시간』에서 현존재 분석을 통해 세계-내-존재, 불안, 죽음을 향한 존재 등 실존 범주를 제시했다. 후기에는 언어, 기술, 예술에 대한 사유로 전환하며 존재의 진리를 탐구했다. 나치 협력 문제로 논란이 있으나, 현상학, 해석학, 해체주의에 결정적 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "존재와 시간",
+        "year": 1927,
+        "type": "book"
+      },
+      {
+        "title": "형이상학이란 무엇인가",
+        "year": 1929,
+        "type": "book"
+      },
+      {
+        "title": "기술에 대한 물음",
+        "year": 1954,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "언어는 존재의 집이다.",
+        "source": "휴머니즘 서간"
+      }
+    ],
+    "influences": [
+      "husserl",
+      "kierkegaard",
+      "nietzsche",
+      "aristotle"
+    ],
+    "influenced": [
+      "sartre",
+      "gadamer",
+      "derrida",
+      "foucault",
+      "levinas",
+      "arendt"
+    ],
+    "school": [
+      "현상학",
+      "실존주의",
+      "해석학"
+    ],
+    "concepts": [
+      "현존재",
+      "세계-내-존재",
+      "죽음을 향한 존재",
+      "존재 망각",
+      "기술의 본질"
+    ],
+    "questions": [
+      "존재란 무엇인가?",
+      "기술 시대에 인간은 어떻게 존재하는가?"
+    ]
+  },
+  {
+    "id": "marcel",
+    "name": {
+      "ko": "가브리엘 마르셀",
+      "en": "Gabriel Marcel",
+      "original": "Gabriel Honoré Marcel"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1889,
+      "end": 1973
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "existentialist",
+    "tags": [
+      "기독교 실존주의",
+      "현상학",
+      "신비",
+      "참여"
+    ],
+    "mvp": true,
+    "summary": "기독교 실존주의의 대표자. 존재의 신비와 인격적 관계를 강조하며 사르트르의 무신론적 실존주의에 대한 대안을 제시했다.",
+    "detailed": "마르셀은 사르트르와 달리 존재를 결핍이 아닌 충만으로 이해하는 기독교적 실존주의를 전개했다. 문제와 신비를 구분하여, 존재의 문제는 객관적으로 해결할 수 있는 문제가 아니라 참여를 통해 체험하는 신비라고 보았다. '소유'와 '존재'를 대비시키며, 기능화된 현대 사회에서 진정한 인격적 만남의 회복을 주장했다. 극작가로서도 활동하며 철학적 주제를 드라마로 표현했다.",
+    "keyWorks": [
+      {
+        "title": "존재와 소유",
+        "year": 1935,
+        "type": "book"
+      },
+      {
+        "title": "존재의 신비",
+        "year": 1951,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "존재의 질서에서 사랑이 최고의 인식이다.",
+        "source": "존재의 신비"
+      }
+    ],
+    "influences": [
+      "kierkegaard",
+      "augustine"
+    ],
+    "influenced": [],
+    "school": [
+      "기독교 실존주의",
+      "현상학"
+    ],
+    "concepts": [
+      "존재와 소유",
+      "문제와 신비",
+      "인격적 만남",
+      "참여"
+    ],
+    "questions": [
+      "존재는 소유될 수 있는가?",
+      "진정한 인격적 만남은 어떻게 가능한가?"
+    ]
+  },
+  {
+    "id": "wittgenstein",
+    "name": {
+      "ko": "루트비히 비트겐슈타인",
+      "en": "Ludwig Wittgenstein",
+      "original": "Ludwig Josef Johann Wittgenstein"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1889,
+      "end": 1951
+    },
+    "location": {
+      "lat": 48.21,
+      "lng": 16.37,
+      "region": "오스트리아 빈"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "분석철학",
+      "언어철학",
+      "논리학",
+      "언어게임"
+    ],
+    "mvp": true,
+    "summary": "전기 논리적 그림 이론과 후기 언어게임 이론으로 20세기 철학을 두 번 변혁시킨 천재 철학자.",
+    "detailed": "비트겐슈타인은 전기와 후기에 걸쳐 전혀 다른 두 철학을 전개했다. 전기 『논리-철학 논고』에서는 언어가 세계의 논리적 그림이라는 그림 이론을 제시하고, 말할 수 없는 것에 대해서는 침묵해야 한다고 선언했다. 후기 『철학적 탐구』에서는 언어의 의미를 사용으로 보는 언어게임 이론을 전개하며, 사적 언어의 불가능성을 논증했다. 두 시기 모두 분석철학의 핵심 방향을 결정지었다.",
+    "keyWorks": [
+      {
+        "title": "논리-철학 논고",
+        "year": 1921,
+        "type": "book"
+      },
+      {
+        "title": "철학적 탐구",
+        "year": 1953,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "말할 수 없는 것에 대해서는 침묵해야 한다.",
+        "source": "논리-철학 논고"
+      }
+    ],
+    "influences": [
+      "frege",
+      "russell",
+      "schopenhauer"
+    ],
+    "influenced": [
+      "anscombe",
+      "kripke",
+      "dummett",
+      "ayer",
+      "carnap"
+    ],
+    "school": [
+      "분석철학",
+      "일상언어학파"
+    ],
+    "concepts": [
+      "그림 이론",
+      "언어게임",
+      "가족유사성",
+      "사적 언어 논증",
+      "삶의 형식"
+    ],
+    "questions": [
+      "언어의 의미란 무엇인가?",
+      "철학적 문제는 언어의 혼란에서 비롯되는가?"
+    ]
+  },
+  {
+    "id": "carnap",
+    "name": {
+      "ko": "루돌프 카르납",
+      "en": "Rudolf Carnap",
+      "original": "Rudolf Carnap"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1891,
+      "end": 1970
+    },
+    "location": {
+      "lat": 50.12,
+      "lng": 8.68,
+      "region": "독일 론스도르프"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "논리실증주의",
+      "빈 학파",
+      "과학철학",
+      "언어철학"
+    ],
+    "mvp": true,
+    "summary": "논리실증주의의 핵심 인물. 검증 가능성 원리와 세계의 논리적 구성을 통해 형이상학을 비판하고 과학적 철학을 추구했다.",
+    "detailed": "카르납은 빈 학파의 중심 인물로서 논리실증주의를 체계적으로 발전시켰다. 의미의 검증 이론을 통해 형이상학적 명제를 무의미한 것으로 배격하고, 과학의 통일을 위한 논리적 틀을 구축하고자 했다. 언어적 틀의 개념을 도입하여 존재 문제를 내적 질문과 외적 질문으로 구분했으며, 귀납 논리학과 확률의 논리적 기초에도 기여했다. 후기에는 관용의 원리를 통해 다원적 논리 체계를 수용했다.",
+    "keyWorks": [
+      {
+        "title": "세계의 논리적 구성",
+        "year": 1928,
+        "type": "book"
+      },
+      {
+        "title": "언어의 논리적 구문론",
+        "year": 1934,
+        "type": "book"
+      },
+      {
+        "title": "경험주의, 의미론, 존재론",
+        "year": 1950,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "형이상학의 명제들은 사이비 명제이다.",
+        "source": "언어의 논리적 구문론"
+      }
+    ],
+    "influences": [
+      "frege",
+      "russell",
+      "wittgenstein"
+    ],
+    "influenced": [
+      "quine",
+      "goodman"
+    ],
+    "school": [
+      "논리실증주의",
+      "빈 학파"
+    ],
+    "concepts": [
+      "검증 가능성 원리",
+      "언어적 틀",
+      "관용의 원리",
+      "과학의 통일"
+    ],
+    "questions": [
+      "형이상학적 명제는 무의미한가?",
+      "분석적 진리와 종합적 진리는 구분되는가?"
+    ]
+  },
+  {
+    "id": "gramsci",
+    "name": {
+      "ko": "안토니오 그람시",
+      "en": "Antonio Gramsci",
+      "original": "Antonio Francesco Gramsci"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1891,
+      "end": 1937
+    },
+    "location": {
+      "lat": 39.93,
+      "lng": 8.86,
+      "region": "이탈리아 사르데냐"
+    },
+    "category": "philosopher",
+    "subcategory": "critical_theory",
+    "tags": [
+      "마르크스주의",
+      "헤게모니",
+      "문화이론",
+      "정치철학"
+    ],
+    "mvp": true,
+    "summary": "헤게모니 이론으로 문화적 지배의 메커니즘을 분석한 이탈리아 마르크스주의 사상가.",
+    "detailed": "그람시는 무솔리니 정권에 의해 투옥된 상태에서 『옥중수고』를 집필했다. 지배 계급이 물리적 강제뿐 아니라 문화적 헤게모니를 통해 지배를 유지한다는 이론을 발전시켰다. 유기적 지식인의 역할을 강조하며, 시민사회에서의 진지전을 통한 변혁을 주장했다. 그의 헤게모니 이론은 문화연구, 포스트마르크스주의, 포스트식민주의에 깊은 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "옥중수고",
+        "year": 1935,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "낡은 것은 죽어가고 새로운 것은 태어날 수 없다. 이 공백기에 다양한 병적 증상들이 나타난다.",
+        "source": "옥중수고"
+      }
+    ],
+    "influences": [
+      "marx",
+      "machiavelli",
+      "hegel"
+    ],
+    "influenced": [
+      "habermas"
+    ],
+    "school": [
+      "서구 마르크스주의"
+    ],
+    "concepts": [
+      "헤게모니",
+      "유기적 지식인",
+      "시민사회",
+      "진지전과 기동전"
+    ],
+    "questions": [
+      "문화적 지배는 어떻게 작동하는가?",
+      "지식인의 사회적 역할은 무엇인가?"
+    ]
+  },
+  {
+    "id": "benjamin",
+    "name": {
+      "ko": "발터 벤야민",
+      "en": "Walter Benjamin",
+      "original": "Walter Bendix Schoenflies Benjamin"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1892,
+      "end": 1940
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.41,
+      "region": "독일 베를린"
+    },
+    "category": "philosopher",
+    "subcategory": "critical_theory",
+    "tags": [
+      "비판이론",
+      "미학",
+      "역사철학",
+      "문화비평"
+    ],
+    "mvp": true,
+    "summary": "기술복제시대의 예술과 역사의 천사 개념으로 유명한 독창적 사상가. 마르크스주의와 유대 신비주의를 독특하게 결합했다.",
+    "detailed": "벤야민은 마르크스주의적 유물론과 유대교 메시아주의를 독창적으로 결합한 사상가이다. '기술복제시대의 예술작품'에서 복제 기술이 예술의 아우라를 해체하는 현상을 분석하며, 이를 민주화의 가능성으로 보았다. '역사의 개념에 대하여'에서는 진보의 역사관을 비판하고, 억압된 과거의 구원을 요구하는 메시아적 역사철학을 제시했다. 나치를 피해 망명하다 1940년 스페인 국경에서 자살했다.",
+    "keyWorks": [
+      {
+        "title": "기술복제시대의 예술작품",
+        "year": 1935,
+        "type": "paper"
+      },
+      {
+        "title": "역사의 개념에 대하여",
+        "year": 1940,
+        "type": "paper"
+      },
+      {
+        "title": "아케이드 프로젝트",
+        "year": 1940,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "진정한 비상사태를 초래하는 것이 우리의 과제이다.",
+        "source": "역사의 개념에 대하여"
+      }
+    ],
+    "influences": [
+      "marx",
+      "goethe"
+    ],
+    "influenced": [
+      "adorno",
+      "arendt"
+    ],
+    "school": [
+      "프랑크푸르트학파",
+      "비판이론"
+    ],
+    "concepts": [
+      "아우라",
+      "기술복제",
+      "역사의 천사",
+      "변증법적 이미지"
+    ],
+    "questions": [
+      "기술은 예술의 본질을 변화시키는가?",
+      "과거의 구원은 가능한가?"
+    ]
+  },
+  {
+    "id": "horkheimer",
+    "name": {
+      "ko": "막스 호르크하이머",
+      "en": "Max Horkheimer",
+      "original": "Max Horkheimer"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1895,
+      "end": 1973
+    },
+    "location": {
+      "lat": 48.65,
+      "lng": 9.45,
+      "region": "독일 슈투트가르트"
+    },
+    "category": "philosopher",
+    "subcategory": "critical_theory",
+    "tags": [
+      "비판이론",
+      "프랑크푸르트학파",
+      "계몽비판",
+      "도구적 이성"
+    ],
+    "mvp": true,
+    "summary": "프랑크푸르트학파의 창립자이자 비판이론의 수립자. 도구적 이성 비판과 계몽의 변증법을 통해 근대성을 비판했다.",
+    "detailed": "호르크하이머는 프랑크푸르트 사회연구소 소장으로서 비판이론의 프로그램을 수립했다. 전통적 이론과 비판적 이론을 구분하며, 사회적 해방을 지향하는 철학의 역할을 강조했다. 아도르노와 함께 저술한 『계몽의 변증법』에서 계몽적 이성이 오히려 야만으로 전락하는 역설을 분석했다. 도구적 이성의 지배가 자연 지배뿐 아니라 인간 지배로 이어진다고 경고했다.",
+    "keyWorks": [
+      {
+        "title": "계몽의 변증법",
+        "year": 1947,
+        "type": "book"
+      },
+      {
+        "title": "도구적 이성 비판",
+        "year": 1947,
+        "type": "book"
+      },
+      {
+        "title": "전통적 이론과 비판적 이론",
+        "year": 1937,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "계몽은 신화로 되돌아간다.",
+        "source": "계몽의 변증법"
+      }
+    ],
+    "influences": [
+      "marx",
+      "hegel",
+      "freud"
+    ],
+    "influenced": [
+      "habermas"
+    ],
+    "school": [
+      "프랑크푸르트학파",
+      "비판이론"
+    ],
+    "concepts": [
+      "비판이론",
+      "도구적 이성",
+      "계몽의 변증법"
+    ],
+    "questions": [
+      "이성은 해방의 도구인가 지배의 도구인가?",
+      "계몽은 왜 야만으로 전락하는가?"
+    ]
+  },
+  {
+    "id": "marcuse",
+    "name": {
+      "ko": "헤르베르트 마르쿠제",
+      "en": "Herbert Marcuse",
+      "original": "Herbert Marcuse"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1898,
+      "end": 1979
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.41,
+      "region": "독일 베를린"
+    },
+    "category": "philosopher",
+    "subcategory": "critical_theory",
+    "tags": [
+      "비판이론",
+      "프랑크푸르트학파",
+      "신좌파",
+      "해방"
+    ],
+    "mvp": true,
+    "summary": "1차원적 사회 비판과 에로스적 해방론으로 1960년대 학생운동에 사상적 영감을 준 비판이론가.",
+    "detailed": "마르쿠제는 마르크스와 프로이트를 종합하여 현대 산업사회의 억압 구조를 분석했다. 『일차원적 인간』에서 선진 산업사회가 소비와 기술을 통해 비판적 사유 자체를 무력화시키는 '억압적 탈승화'를 진단했다. 『에로스와 문명』에서는 프로이트의 문명론을 비판적으로 재구성하여 비억압적 문명의 가능성을 탐구했다. 1968년 학생운동의 정신적 지주로서 '3M'(마르크스, 마오, 마르쿠제)의 한 축을 이루었다.",
+    "keyWorks": [
+      {
+        "title": "일차원적 인간",
+        "year": 1964,
+        "type": "book"
+      },
+      {
+        "title": "에로스와 문명",
+        "year": 1955,
+        "type": "book"
+      },
+      {
+        "title": "이성과 혁명",
+        "year": 1941,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자유로운 사회에서는 상상력이 지배할 것이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "marx",
+      "hegel",
+      "freud",
+      "heidegger"
+    ],
+    "influenced": [],
+    "school": [
+      "프랑크푸르트학파",
+      "비판이론",
+      "신좌파"
+    ],
+    "concepts": [
+      "일차원적 인간",
+      "억압적 탈승화",
+      "위대한 거부",
+      "에로스적 해방"
+    ],
+    "questions": [
+      "풍요로운 사회가 왜 억압적인가?",
+      "기술 문명에서 해방은 가능한가?"
+    ]
+  },
+  {
+    "id": "popper",
+    "name": {
+      "ko": "칼 포퍼",
+      "en": "Karl Popper",
+      "original": "Karl Raimund Popper"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1902,
+      "end": 1994
+    },
+    "location": {
+      "lat": 48.21,
+      "lng": 16.37,
+      "region": "오스트리아 빈"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "과학철학",
+      "반증주의",
+      "비판적 합리주의",
+      "열린사회"
+    ],
+    "mvp": true,
+    "summary": "반증 가능성을 과학의 기준으로 제시한 과학철학자. 열린 사회와 비판적 합리주의를 옹호했다.",
+    "detailed": "포퍼는 과학과 비과학의 구획 기준으로 검증이 아닌 반증 가능성을 제시하며 논리실증주의를 비판했다. 과학적 이론은 경험적으로 반증될 수 있어야 하며, 반증 시도에 살아남는 이론이 더 강건한 것이라고 주장했다. 귀납의 문제에 대해서는 추측과 반박의 방법론을 대안으로 제시했다. 정치철학에서는 전체주의를 비판하고 열린 사회를 옹호했다.",
+    "keyWorks": [
+      {
+        "title": "과학적 발견의 논리",
+        "year": 1934,
+        "type": "book"
+      },
+      {
+        "title": "열린 사회와 그 적들",
+        "year": 1945,
+        "type": "book"
+      },
+      {
+        "title": "추측과 반박",
+        "year": 1963,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "반증 불가능한 이론은 과학이 아니다.",
+        "source": "추측과 반박"
+      }
+    ],
+    "influences": [
+      "hume",
+      "kant"
+    ],
+    "influenced": [
+      "kuhn",
+      "lakatos",
+      "feyerabend"
+    ],
+    "school": [
+      "비판적 합리주의"
+    ],
+    "concepts": [
+      "반증 가능성",
+      "추측과 반박",
+      "열린 사회",
+      "세계 3"
+    ],
+    "questions": [
+      "과학과 비과학을 구분하는 기준은 무엇인가?",
+      "귀납법은 정당화될 수 있는가?"
+    ]
+  },
+  {
+    "id": "adorno",
+    "name": {
+      "ko": "테오도어 아도르노",
+      "en": "Theodor W. Adorno",
+      "original": "Theodor Ludwig Wiesengrund Adorno"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1903,
+      "end": 1969
+    },
+    "location": {
+      "lat": 50.11,
+      "lng": 8.68,
+      "region": "독일 프랑크푸르트"
+    },
+    "category": "philosopher",
+    "subcategory": "critical_theory",
+    "tags": [
+      "비판이론",
+      "프랑크푸르트학파",
+      "미학",
+      "부정변증법"
+    ],
+    "mvp": true,
+    "summary": "부정변증법과 문화산업 비판으로 현대 사회의 총체적 지배를 분석한 프랑크푸르트학파의 핵심 사상가.",
+    "detailed": "아도르노는 헤겔의 변증법을 비판적으로 계승하여 종합을 거부하는 부정변증법을 전개했다. 동일성 사유가 비동일적인 것을 억압한다고 비판하며, 개념에 포착되지 않는 것에 대한 감수성을 주장했다. 호르크하이머와 함께 문화산업 개념을 통해 대중문화의 조작적 성격을 폭로했으며, '아우슈비츠 이후에 시를 쓰는 것은 야만이다'라는 선언으로 유명하다. 미학에서도 현대 예술의 진리 내용을 탐구했다.",
+    "keyWorks": [
+      {
+        "title": "부정변증법",
+        "year": 1966,
+        "type": "book"
+      },
+      {
+        "title": "계몽의 변증법",
+        "year": 1947,
+        "type": "book"
+      },
+      {
+        "title": "미학 이론",
+        "year": 1970,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "아우슈비츠 이후에 시를 쓰는 것은 야만이다.",
+        "source": "프리즘"
+      }
+    ],
+    "influences": [
+      "marx",
+      "hegel",
+      "benjamin",
+      "lukacs"
+    ],
+    "influenced": [
+      "habermas"
+    ],
+    "school": [
+      "프랑크푸르트학파",
+      "비판이론"
+    ],
+    "concepts": [
+      "부정변증법",
+      "문화산업",
+      "동일성 비판",
+      "비동일적인 것"
+    ],
+    "questions": [
+      "총체적 지배 사회에서 비판은 가능한가?",
+      "예술은 사회적 진리를 드러낼 수 있는가?"
+    ]
+  },
+  {
+    "id": "sartre",
+    "name": {
+      "ko": "장폴 사르트르",
+      "en": "Jean-Paul Sartre",
+      "original": "Jean-Paul Charles Aymard Sartre"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1905,
+      "end": 1980
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "existentialist",
+    "tags": [
+      "실존주의",
+      "현상학",
+      "자유",
+      "참여문학"
+    ],
+    "mvp": true,
+    "summary": "실존은 본질에 앞선다는 테제로 프랑스 실존주의를 대표한 철학자이자 작가. 인간의 절대적 자유와 책임을 강조했다.",
+    "detailed": "사르트르는 '실존은 본질에 앞선다'는 명제를 통해 인간은 미리 정해진 본성 없이 자신의 선택으로 스스로를 만들어간다고 주장했다. 즉자존재와 대자존재의 구분, 타자의 시선, 자기기만 등의 개념으로 인간 의식의 구조를 분석했다. 후기에는 마르크스주의와의 종합을 시도하며 사회적 실천을 강조했다. 소설, 희곡, 비평 등 문학적 활동도 활발히 했으며, 1964년 노벨문학상을 거부했다.",
+    "keyWorks": [
+      {
+        "title": "존재와 무",
+        "year": 1943,
+        "type": "book"
+      },
+      {
+        "title": "실존주의는 휴머니즘이다",
+        "year": 1946,
+        "type": "book"
+      },
+      {
+        "title": "변증법적 이성 비판",
+        "year": 1960,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "인간은 자유를 선고받았다.",
+        "source": "실존주의는 휴머니즘이다"
+      }
+    ],
+    "influences": [
+      "heidegger",
+      "husserl",
+      "kierkegaard",
+      "hegel",
+      "marx"
+    ],
+    "influenced": [
+      "de-beauvoir",
+      "camus",
+      "fanon"
+    ],
+    "school": [
+      "실존주의",
+      "현상학"
+    ],
+    "concepts": [
+      "실존은 본질에 앞선다",
+      "즉자존재와 대자존재",
+      "자기기만",
+      "앙가주망"
+    ],
+    "questions": [
+      "인간은 진정으로 자유로운가?",
+      "자유에 따르는 책임이란 무엇인가?"
+    ]
+  },
+  {
+    "id": "levinas",
+    "name": {
+      "ko": "에마뉘엘 레비나스",
+      "en": "Emmanuel Levinas",
+      "original": "Emmanuel Lévinas"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1906,
+      "end": 1995
+    },
+    "location": {
+      "lat": 54.69,
+      "lng": 25.28,
+      "region": "리투아니아 카우나스"
+    },
+    "category": "philosopher",
+    "subcategory": "existentialist",
+    "tags": [
+      "윤리학",
+      "현상학",
+      "타자",
+      "유대철학"
+    ],
+    "mvp": true,
+    "summary": "타자의 얼굴에서 윤리의 근원을 발견한 철학자. 존재론보다 윤리학이 제일철학이라고 주장했다.",
+    "detailed": "레비나스는 하이데거의 존재론을 비판하며 타자와의 윤리적 관계를 철학의 근본으로 삼았다. 타자의 '얼굴'은 무한의 흔적으로서 '살인하지 말라'는 윤리적 명령을 담고 있다고 보았다. 전체성을 해체하고 무한성으로 향하는 사유를 통해, 서양 철학의 동일자 중심주의를 비판했다. 유대교적 전통과 현상학을 결합한 독창적 윤리학은 데리다 등에게 깊은 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "전체성과 무한",
+        "year": 1961,
+        "type": "book"
+      },
+      {
+        "title": "존재와 달리 혹은 존재성을 넘어",
+        "year": 1974,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "타자의 얼굴은 나에게 '살인하지 말라'고 말한다.",
+        "source": "전체성과 무한"
+      }
+    ],
+    "influences": [
+      "husserl",
+      "heidegger",
+      "buber"
+    ],
+    "influenced": [
+      "derrida",
+      "butler"
+    ],
+    "school": [
+      "현상학",
+      "유대철학"
+    ],
+    "concepts": [
+      "타자의 얼굴",
+      "무한",
+      "윤리적 제일철학",
+      "책임"
+    ],
+    "questions": [
+      "타자에 대한 책임은 어디서 오는가?",
+      "윤리는 존재론에 선행하는가?"
+    ]
+  },
+  {
+    "id": "goodman",
+    "name": {
+      "ko": "넬슨 굿먼",
+      "en": "Nelson Goodman",
+      "original": "Henry Nelson Goodman"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1906,
+      "end": 1998
+    },
+    "location": {
+      "lat": 42.36,
+      "lng": -71.06,
+      "region": "미국 매사추세츠"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "분석철학",
+      "인식론",
+      "미학",
+      "귀납논리"
+    ],
+    "mvp": true,
+    "summary": "새로운 귀납의 수수께끼와 세계 만들기 개념으로 분석철학에 독창적 기여를 한 미국 철학자.",
+    "detailed": "굿먼은 '초록파랑'(grue) 역설을 통해 귀납의 새로운 수수께끼를 제기하며, 단순한 관찰의 반복이 왜 정당한 투사(projection)가 되는지의 문제를 드러냈다. 구성주의적 입장에서 우리가 살고 있는 세계는 하나가 아니라 다양한 상징 체계에 의해 '만들어진' 여러 세계들이라고 주장했다. 예술철학에서도 예술 작품의 상징적 기능을 분석하며 독자적 미학 이론을 전개했다.",
+    "keyWorks": [
+      {
+        "title": "사실, 허구, 예측",
+        "year": 1955,
+        "type": "book"
+      },
+      {
+        "title": "세계 만들기의 방법",
+        "year": 1978,
+        "type": "book"
+      },
+      {
+        "title": "예술의 언어",
+        "year": 1968,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "세계는 발견되는 것이 아니라 만들어지는 것이다.",
+        "source": "세계 만들기의 방법"
+      }
+    ],
+    "influences": [
+      "carnap",
+      "quine"
+    ],
+    "influenced": [],
+    "school": [
+      "분석철학",
+      "구성주의"
+    ],
+    "concepts": [
+      "귀납의 새 수수께끼",
+      "투사 가능성",
+      "세계 만들기",
+      "예술의 상징 기능"
+    ],
+    "questions": [
+      "귀납적 추론은 어떻게 정당화되는가?",
+      "세계는 하나인가 여럿인가?"
+    ]
+  },
+  {
+    "id": "de-beauvoir",
+    "name": {
+      "ko": "시몬 드 보부아르",
+      "en": "Simone de Beauvoir",
+      "original": "Simone Lucie Ernestine Marie Bertrand de Beauvoir"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1908,
+      "end": 1986
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "existentialist",
+    "tags": [
+      "실존주의",
+      "페미니즘",
+      "윤리학",
+      "자유"
+    ],
+    "mvp": true,
+    "summary": "실존주의적 페미니즘의 창시자. '여성은 태어나는 것이 아니라 만들어지는 것이다'라는 테제로 젠더 이론의 토대를 놓았다.",
+    "detailed": "보부아르는 실존주의 철학을 여성의 조건에 적용하여 『제2의 성』을 저술했다. 여성이 '타자'로 구성되는 사회적 메커니즘을 분석하고, 생물학적 결정론을 거부하며 여성성이 사회적으로 구성된다고 주장했다. 실존주의 윤리학에서는 자유의 실현이 타자의 자유와 불가분의 관계에 있음을 강조했다. 사르트르와의 관계로도 유명하나, 독자적인 철학적 기여를 인정받고 있다.",
+    "keyWorks": [
+      {
+        "title": "제2의 성",
+        "year": 1949,
+        "type": "book"
+      },
+      {
+        "title": "애매성의 윤리학",
+        "year": 1947,
+        "type": "book"
+      },
+      {
+        "title": "초대받은 여자",
+        "year": 1943,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "여성은 태어나는 것이 아니라 만들어지는 것이다.",
+        "source": "제2의 성"
+      }
+    ],
+    "influences": [
+      "sartre",
+      "hegel",
+      "husserl",
+      "marx"
+    ],
+    "influenced": [
+      "butler",
+      "irigaray",
+      "kristeva"
+    ],
+    "school": [
+      "실존주의",
+      "페미니즘"
+    ],
+    "concepts": [
+      "타자로서의 여성",
+      "상황 속의 자유",
+      "애매성의 윤리"
+    ],
+    "questions": [
+      "여성은 왜 타자로 규정되어 왔는가?",
+      "자유는 타자의 자유 없이 가능한가?"
+    ]
+  },
+  {
+    "id": "merleau-ponty",
+    "name": {
+      "ko": "모리스 메를로퐁티",
+      "en": "Maurice Merleau-Ponty",
+      "original": "Maurice Merleau-Ponty"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1908,
+      "end": 1961
+    },
+    "location": {
+      "lat": 46.58,
+      "lng": 0.34,
+      "region": "프랑스 로슈포르"
+    },
+    "category": "philosopher",
+    "subcategory": "existentialist",
+    "tags": [
+      "현상학",
+      "신체론",
+      "지각",
+      "실존주의"
+    ],
+    "mvp": true,
+    "summary": "지각의 현상학을 통해 몸과 세계의 근원적 관계를 탐구한 프랑스 현상학자. 데카르트적 심신이원론을 극복하고 체화된 주체성을 제시했다.",
+    "detailed": "메를로퐁티는 지각을 의식의 근본 양태로 파악하며, 몸(신체)이 세계와 맺는 선반성적 관계를 분석했다. 데카르트적 정신-신체 이원론을 거부하고, 인간은 살아있는 몸으로서 세계에 거주한다고 주장했다. 환상지 현상 등 심리학적 사례를 통해 몸의 도식 개념을 발전시켰다. 후기에는 '살'(chair) 개념을 통해 보이는 것과 보이지 않는 것의 얽힘을 탐구했다.",
+    "keyWorks": [
+      {
+        "title": "지각의 현상학",
+        "year": 1945,
+        "type": "book"
+      },
+      {
+        "title": "보이는 것과 보이지 않는 것",
+        "year": 1964,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "세계는 내가 생각하는 것이 아니라 내가 살아가는 것이다.",
+        "source": "지각의 현상학"
+      }
+    ],
+    "influences": [
+      "husserl",
+      "heidegger"
+    ],
+    "influenced": [
+      "deleuze",
+      "butler"
+    ],
+    "school": [
+      "현상학",
+      "실존주의"
+    ],
+    "concepts": [
+      "체화된 주체",
+      "지각의 우위",
+      "몸 도식",
+      "살"
+    ],
+    "questions": [
+      "몸은 정신과 어떤 관계에 있는가?",
+      "지각은 인식의 근본인가?"
+    ]
+  },
+  {
+    "id": "quine",
+    "name": {
+      "ko": "윌러드 밴 오먼 콰인",
+      "en": "W. V. O. Quine",
+      "original": "Willard Van Orman Quine"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1908,
+      "end": 2000
+    },
+    "location": {
+      "lat": 41.5,
+      "lng": -81.69,
+      "region": "미국 오하이오 애크런"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "분석철학",
+      "자연주의",
+      "인식론",
+      "논리학"
+    ],
+    "mvp": true,
+    "summary": "분석-종합 구분을 비판하고 인식론의 자연화를 주장한 20세기 미국 분석철학의 대표자.",
+    "detailed": "콰인은 '경험주의의 두 도그마'에서 분석-종합 구분과 환원주의를 비판하며 논리실증주의의 근본 전제를 해체했다. 전체론적 인식론을 제시하여 과학적 지식은 개별적으로가 아니라 전체로서 경험에 직면한다고 주장했다. 번역의 불확정성 테제를 통해 언어와 의미의 본성에 대한 근본적 문제를 제기했으며, 인식론의 자연화를 주장하여 철학과 과학의 경계를 허물었다.",
+    "keyWorks": [
+      {
+        "title": "경험주의의 두 도그마",
+        "year": 1951,
+        "type": "paper"
+      },
+      {
+        "title": "말과 대상",
+        "year": 1960,
+        "type": "book"
+      },
+      {
+        "title": "자연화된 인식론",
+        "year": 1969,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "존재한다는 것은 변항의 값이 되는 것이다.",
+        "source": "존재론적으로 있는 것에 대하여"
+      }
+    ],
+    "influences": [
+      "carnap",
+      "russell"
+    ],
+    "influenced": [
+      "davidson",
+      "putnam",
+      "kripke"
+    ],
+    "school": [
+      "분석철학",
+      "자연주의"
+    ],
+    "concepts": [
+      "분석-종합 구분 비판",
+      "전체론",
+      "번역의 불확정성",
+      "존재론적 상대성"
+    ],
+    "questions": [
+      "분석적 진리와 종합적 진리의 구분은 유효한가?",
+      "의미란 무엇인가?"
+    ]
+  },
+  {
+    "id": "ayer",
+    "name": {
+      "ko": "앨프레드 줄스 에이어",
+      "en": "A. J. Ayer",
+      "original": "Alfred Jules Ayer"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1910,
+      "end": 1989
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "논리실증주의",
+      "분석철학",
+      "인식론",
+      "윤리학"
+    ],
+    "mvp": true,
+    "summary": "영어권에 논리실증주의를 소개한 영국 철학자. 검증 원리를 통해 형이상학을 비판하고 윤리적 정서주의를 주장했다.",
+    "detailed": "에이어는 25세에 출간한 『언어, 진리, 논리』로 빈 학파의 논리실증주의를 영어권에 대중화했다. 검증 가능성 원리를 통해 형이상학적·신학적 명제를 무의미한 것으로 배격했다. 윤리적 명제는 사실을 진술하는 것이 아니라 감정을 표현하는 것이라는 정서주의(이모티비즘)를 주장했다. 후기에는 인식론에서 감각 자료 이론을 발전시켰다.",
+    "keyWorks": [
+      {
+        "title": "언어, 진리, 논리",
+        "year": 1936,
+        "type": "book"
+      },
+      {
+        "title": "지식의 문제",
+        "year": 1956,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "검증할 수 없는 명제는 무의미하다.",
+        "source": "언어, 진리, 논리"
+      }
+    ],
+    "influences": [
+      "russell",
+      "wittgenstein",
+      "carnap"
+    ],
+    "influenced": [],
+    "school": [
+      "논리실증주의",
+      "분석철학"
+    ],
+    "concepts": [
+      "검증 원리",
+      "정서주의",
+      "감각 자료"
+    ],
+    "questions": [
+      "형이상학적 명제는 무의미한가?",
+      "도덕적 판단은 사실을 진술하는가?"
+    ]
+  },
+  {
+    "id": "sellars",
+    "name": {
+      "ko": "윌프리드 셀러스",
+      "en": "Wilfrid Sellars",
+      "original": "Wilfrid Stalker Sellars"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1912,
+      "end": 1989
+    },
+    "location": {
+      "lat": 41.5,
+      "lng": -81.69,
+      "region": "미국 미시간"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "분석철학",
+      "인식론",
+      "심리철학",
+      "과학적 실재론"
+    ],
+    "mvp": true,
+    "summary": "소여의 신화를 비판하고 과학적 이미지와 일상적 이미지의 관계를 탐구한 미국 분석철학자.",
+    "detailed": "셀러스는 '경험주의와 심리철학'에서 '소여의 신화'를 비판하며, 감각 경험이 직접적으로 지식을 제공한다는 전통적 경험주의의 전제를 해체했다. 모든 인식은 개념적 틀 내에서 이루어진다는 추론주의적 인식론을 발전시켰다. 과학적 세계 이미지와 일상적(manifest) 세계 이미지의 관계를 철학의 핵심 문제로 제시했으며, 궁극적으로 과학적 이미지의 우선성을 주장했다.",
+    "keyWorks": [
+      {
+        "title": "경험주의와 심리철학",
+        "year": 1956,
+        "type": "paper"
+      },
+      {
+        "title": "철학과 인간의 과학적 이미지",
+        "year": 1962,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "소여의 신화는 경험주의의 토대를 허문다.",
+        "source": "경험주의와 심리철학"
+      }
+    ],
+    "influences": [
+      "kant",
+      "wittgenstein"
+    ],
+    "influenced": [
+      "putnam"
+    ],
+    "school": [
+      "분석철학",
+      "과학적 실재론"
+    ],
+    "concepts": [
+      "소여의 신화",
+      "이유의 공간",
+      "과학적 이미지와 일상적 이미지"
+    ],
+    "questions": [
+      "경험은 직접적으로 지식을 제공하는가?",
+      "과학적 세계관과 일상적 세계관은 어떻게 조화되는가?"
+    ]
+  },
+  {
+    "id": "camus",
+    "name": {
+      "ko": "알베르 카뮈",
+      "en": "Albert Camus",
+      "original": "Albert Camus"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1913,
+      "end": 1960
+    },
+    "location": {
+      "lat": 36.75,
+      "lng": 3.04,
+      "region": "프랑스령 알제리"
+    },
+    "category": "philosopher",
+    "subcategory": "existentialist",
+    "tags": [
+      "부조리",
+      "반항",
+      "실존주의",
+      "노벨문학상"
+    ],
+    "mvp": true,
+    "summary": "부조리의 철학자. 의미 없는 세계에서 반항하며 살아가는 인간의 조건을 탐구했다.",
+    "detailed": "카뮈는 인간의 의미 추구와 침묵하는 세계 사이의 부조리를 철학의 핵심 문제로 삼았다. 시시포스 신화를 통해 부조리한 삶에서도 자살이 아닌 반항을 선택해야 한다고 주장했다. 사르트르와의 논쟁을 통해 역사적 폭력과 혁명의 정당성에 의문을 제기했으며, 실존주의자라는 호칭을 거부하고 스스로를 부조리의 사상가로 규정했다. 1957년 노벨문학상을 수상했다.",
+    "keyWorks": [
+      {
+        "title": "이방인",
+        "year": 1942,
+        "type": "book"
+      },
+      {
+        "title": "시시포스 신화",
+        "year": 1942,
+        "type": "book"
+      },
+      {
+        "title": "반항하는 인간",
+        "year": 1951,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "시시포스가 행복하다고 상상해야 한다.",
+        "source": "시시포스 신화"
+      }
+    ],
+    "influences": [
+      "nietzsche",
+      "kierkegaard",
+      "dostoevsky"
+    ],
+    "influenced": [],
+    "school": [
+      "부조리주의"
+    ],
+    "concepts": [
+      "부조리",
+      "반항",
+      "시시포스적 영웅"
+    ],
+    "questions": [
+      "삶이 무의미하다면 자살은 정당한가?",
+      "부조리한 세계에서 어떻게 살아야 하는가?"
+    ]
+  },
+  {
+    "id": "barthes",
+    "name": {
+      "ko": "롤랑 바르트",
+      "en": "Roland Barthes",
+      "original": "Roland Gérard Barthes"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1915,
+      "end": 1980
+    },
+    "location": {
+      "lat": 43.6,
+      "lng": 1.44,
+      "region": "프랑스 셰르부르"
+    },
+    "category": "philosopher",
+    "subcategory": "poststructuralist",
+    "tags": [
+      "기호학",
+      "구조주의",
+      "후기구조주의",
+      "문학이론"
+    ],
+    "mvp": true,
+    "summary": "기호학과 문학 비평을 혁신하며 '저자의 죽음'을 선언한 프랑스 문화 비평가이자 사상가.",
+    "detailed": "바르트는 기호학을 대중문화 분석에 적용하여 『신화론』에서 부르주아 이데올로기의 자연화 메커니즘을 해부했다. '저자의 죽음'을 선언하며 텍스트의 의미가 저자의 의도가 아닌 독자의 해석에 의해 생산된다고 주장했다. 구조주의에서 후기구조주의로의 전환을 체현하며, 『텍스트의 즐거움』에서 읽기의 쾌락과 텍스트의 복수성을 탐구했다. 사진론인 『카메라 루시다』도 중요한 저작이다.",
+    "keyWorks": [
+      {
+        "title": "신화론",
+        "year": 1957,
+        "type": "book"
+      },
+      {
+        "title": "S/Z",
+        "year": 1970,
+        "type": "book"
+      },
+      {
+        "title": "카메라 루시다",
+        "year": 1980,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "저자의 죽음은 독자의 탄생이다.",
+        "source": "저자의 죽음"
+      }
+    ],
+    "influences": [
+      "saussure",
+      "marx"
+    ],
+    "influenced": [
+      "baudrillard"
+    ],
+    "school": [
+      "구조주의",
+      "후기구조주의",
+      "기호학"
+    ],
+    "concepts": [
+      "신화",
+      "저자의 죽음",
+      "텍스트의 즐거움",
+      "푼크툼과 스투디움"
+    ],
+    "questions": [
+      "텍스트의 의미는 누가 결정하는가?",
+      "대중문화는 어떻게 이데올로기를 자연화하는가?"
+    ]
+  },
+  {
+    "id": "davidson",
+    "name": {
+      "ko": "도널드 데이비슨",
+      "en": "Donald Davidson",
+      "original": "Donald Herbert Davidson"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1917,
+      "end": 2003
+    },
+    "location": {
+      "lat": 41.88,
+      "lng": -87.63,
+      "region": "미국 매사추세츠"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "분석철학",
+      "언어철학",
+      "행위철학",
+      "심리철학"
+    ],
+    "mvp": true,
+    "summary": "진리 조건 의미론, 무법칙적 일원론, 관대한 해석의 원리로 분석철학의 여러 영역을 혁신한 미국 철학자.",
+    "detailed": "데이비슨은 타르스키의 진리 이론을 자연 언어의 의미론에 적용하여 진리 조건 의미론을 발전시켰다. 행위철학에서는 이유가 원인이라는 테제를 옹호하고, 심리철학에서는 정신적 사건과 물리적 사건의 관계를 무법칙적 일원론으로 설명했다. '관대한 해석의 원리'를 통해 타자의 언어와 믿음을 해석하는 조건을 탐구했으며, 개념적 틀의 상대주의를 비판했다.",
+    "keyWorks": [
+      {
+        "title": "행위, 이유, 원인",
+        "year": 1963,
+        "type": "paper"
+      },
+      {
+        "title": "진리와 해석에 관한 탐구",
+        "year": 1984,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "세 번째 독단은 없다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "quine",
+      "tarski"
+    ],
+    "influenced": [],
+    "school": [
+      "분석철학"
+    ],
+    "concepts": [
+      "진리 조건 의미론",
+      "무법칙적 일원론",
+      "관대한 해석의 원리",
+      "개념 틀 비판"
+    ],
+    "questions": [
+      "의미의 이론은 어떤 형태를 취해야 하는가?",
+      "정신과 물리는 어떤 관계에 있는가?"
+    ]
+  },
+  {
+    "id": "anscombe",
+    "name": {
+      "ko": "엘리자베스 앤스콤",
+      "en": "G. E. M. Anscombe",
+      "original": "Gertrude Elizabeth Margaret Anscombe"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1919,
+      "end": 2001
+    },
+    "location": {
+      "lat": 53.38,
+      "lng": -1.47,
+      "region": "영국 리머릭"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "분석철학",
+      "행위철학",
+      "윤리학",
+      "비트겐슈타인"
+    ],
+    "mvp": true,
+    "summary": "비트겐슈타인의 제자이자 행위철학과 덕 윤리학 부활에 기여한 20세기 가장 영향력 있는 여성 철학자 중 한 명.",
+    "detailed": "앤스콤은 비트겐슈타인의 『철학적 탐구』를 영어로 번역하고 그의 사상을 해석하는 데 핵심적 역할을 했다. 『의도』에서 행위와 의도의 개념을 분석하여 현대 행위철학의 기초를 놓았다. '현대 도덕철학'(1958) 논문에서 의무 기반 윤리학을 비판하고 덕 윤리학으로의 복귀를 주장하여 윤리학의 방향 전환에 결정적 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "의도",
+        "year": 1957,
+        "type": "book"
+      },
+      {
+        "title": "현대 도덕철학",
+        "year": 1958,
+        "type": "paper"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "행위는 그 기술 아래에서만 의도적이다.",
+        "source": "의도"
+      }
+    ],
+    "influences": [
+      "wittgenstein",
+      "aristotle",
+      "aquinas"
+    ],
+    "influenced": [],
+    "school": [
+      "분석철학",
+      "덕 윤리학"
+    ],
+    "concepts": [
+      "의도",
+      "행위 기술",
+      "덕 윤리학 부활",
+      "결과주의 비판"
+    ],
+    "questions": [
+      "의도적 행위란 무엇인가?",
+      "현대 윤리학은 왜 덕으로 돌아가야 하는가?"
+    ]
+  },
+  {
+    "id": "kuhn",
+    "name": {
+      "ko": "토머스 쿤",
+      "en": "Thomas Kuhn",
+      "original": "Thomas Samuel Kuhn"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1922,
+      "end": 1996
+    },
+    "location": {
+      "lat": 39.95,
+      "lng": -75.17,
+      "region": "미국 오하이오 신시내티"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "과학철학",
+      "패러다임",
+      "과학혁명",
+      "공약불가능성"
+    ],
+    "mvp": true,
+    "summary": "패러다임과 과학혁명 개념으로 과학 발전에 대한 이해를 혁명적으로 변화시킨 과학철학자.",
+    "detailed": "쿤은 『과학혁명의 구조』에서 과학이 점진적 축적이 아닌 패러다임 전환을 통해 발전한다고 주장했다. 정상과학 시기에는 패러다임 내에서 퍼즐 풀기가 이루어지지만, 이상 현상이 축적되면 위기가 발생하고 새로운 패러다임으로의 혁명이 일어난다. 서로 다른 패러다임 사이의 공약불가능성 테제는 과학적 합리성과 진보에 대한 전통적 견해에 도전을 제기했다.",
+    "keyWorks": [
+      {
+        "title": "과학혁명의 구조",
+        "year": 1962,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "패러다임이 바뀌면 세계도 바뀐다.",
+        "source": "과학혁명의 구조"
+      }
+    ],
+    "influences": [
+      "popper"
+    ],
+    "influenced": [
+      "feyerabend",
+      "lakatos"
+    ],
+    "school": [
+      "과학철학"
+    ],
+    "concepts": [
+      "패러다임",
+      "정상과학",
+      "과학혁명",
+      "공약불가능성"
+    ],
+    "questions": [
+      "과학은 어떻게 발전하는가?",
+      "서로 다른 과학적 패러다임은 비교 가능한가?"
+    ]
+  },
+  {
+    "id": "lakatos",
+    "name": {
+      "ko": "임레 라카토슈",
+      "en": "Imre Lakatos",
+      "original": "Lakatos Imre"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1922,
+      "end": 1974
+    },
+    "location": {
+      "lat": 47.5,
+      "lng": 19.04,
+      "region": "헝가리 데브레첸"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "과학철학",
+      "수리철학",
+      "연구프로그램",
+      "비판적 합리주의"
+    ],
+    "mvp": true,
+    "summary": "과학적 연구프로그램 방법론을 제시하여 포퍼와 쿤을 종합하고자 한 헝가리 출신 과학철학자.",
+    "detailed": "라카토슈는 포퍼의 반증주의와 쿤의 패러다임론을 비판적으로 종합하여 과학적 연구프로그램 방법론을 제시했다. 개별 이론이 아닌 연구프로그램 전체가 평가 단위이며, 진보적 연구프로그램과 퇴행적 연구프로그램을 구분하는 기준을 제안했다. 수학철학에서도 『증명과 반박』을 통해 수학적 발견의 논리를 분석하며, 수학이 시행착오를 통해 발전한다는 준경험주의를 주장했다.",
+    "keyWorks": [
+      {
+        "title": "증명과 반박",
+        "year": 1976,
+        "type": "book"
+      },
+      {
+        "title": "과학적 연구프로그램의 방법론",
+        "year": 1978,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "과학의 역사 없는 과학철학은 공허하다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "popper",
+      "kuhn"
+    ],
+    "influenced": [],
+    "school": [
+      "과학철학",
+      "비판적 합리주의"
+    ],
+    "concepts": [
+      "과학적 연구프로그램",
+      "경성 핵과 보호대",
+      "진보적/퇴행적 전환"
+    ],
+    "questions": [
+      "과학 이론은 언제 포기되어야 하는가?",
+      "수학적 지식은 어떻게 성장하는가?"
+    ]
+  },
+  {
+    "id": "feyerabend",
+    "name": {
+      "ko": "파울 파이어아벤트",
+      "en": "Paul Feyerabend",
+      "original": "Paul Karl Feyerabend"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1924,
+      "end": 1994
+    },
+    "location": {
+      "lat": 48.21,
+      "lng": 16.37,
+      "region": "오스트리아 빈"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "과학철학",
+      "인식론적 무정부주의",
+      "방법론",
+      "다원주의"
+    ],
+    "mvp": true,
+    "summary": "'무엇이든 좋다'는 인식론적 무정부주의를 주장하며 과학적 방법론의 보편성을 부정한 급진적 과학철학자.",
+    "detailed": "파이어아벤트는 『방법에 반대한다』에서 보편적 과학 방법론은 존재하지 않으며, 과학의 발전은 종종 기존 방법론의 위반을 통해 이루어진다고 주장했다. 갈릴레오의 사례를 통해 과학 혁명이 합리적 방법론이 아닌 수사학, 선전, 심지어 속임수에 의존했음을 보여주었다. 과학을 특권적 지식 체계로 보는 견해를 비판하고, 전통 의학이나 민속 지식과 동등한 지위를 부여해야 한다는 다원주의를 옹호했다.",
+    "keyWorks": [
+      {
+        "title": "방법에 반대한다",
+        "year": 1975,
+        "type": "book"
+      },
+      {
+        "title": "자유 사회에서의 과학",
+        "year": 1978,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "무엇이든 좋다(Anything goes).",
+        "source": "방법에 반대한다"
+      }
+    ],
+    "influences": [
+      "popper",
+      "kuhn",
+      "mill"
+    ],
+    "influenced": [],
+    "school": [
+      "인식론적 무정부주의"
+    ],
+    "concepts": [
+      "인식론적 무정부주의",
+      "방법론적 다원주의",
+      "공약불가능성"
+    ],
+    "questions": [
+      "보편적 과학 방법론은 존재하는가?",
+      "과학은 다른 지식 체계보다 우월한가?"
+    ]
+  },
+  {
+    "id": "lyotard",
+    "name": {
+      "ko": "장프랑수아 리오타르",
+      "en": "Jean-François Lyotard",
+      "original": "Jean-François Lyotard"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1924,
+      "end": 1998
+    },
+    "location": {
+      "lat": 49.9,
+      "lng": 2.3,
+      "region": "프랑스 베르사유"
+    },
+    "category": "philosopher",
+    "subcategory": "poststructuralist",
+    "tags": [
+      "포스트모더니즘",
+      "후기구조주의",
+      "서사",
+      "숭고"
+    ],
+    "mvp": true,
+    "summary": "포스트모던의 조건을 진단하며 거대서사의 종말을 선언한 철학자. 포스트모더니즘 논쟁의 핵심 인물.",
+    "detailed": "리오타르는 『포스트모던의 조건』에서 과학, 계몽, 해방, 진보 등의 거대서사가 정당성을 상실한 시대를 '포스트모던'으로 규정했다. 보편적 합의 대신 '쟁론'(différend)의 불가피성을 강조하며, 서로 다른 담론 체계 사이의 충돌을 정의의 문제로 제기했다. 숭고의 미학을 통해 재현 불가능한 것에 대한 감수성을 주장했으며, 이는 아우슈비츠와 같은 역사적 사건의 증언 문제와도 연결된다.",
+    "keyWorks": [
+      {
+        "title": "포스트모던의 조건",
+        "year": 1979,
+        "type": "book"
+      },
+      {
+        "title": "쟁론",
+        "year": 1983,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "거대서사에 대한 불신이 포스트모던이다.",
+        "source": "포스트모던의 조건"
+      }
+    ],
+    "influences": [
+      "kant",
+      "wittgenstein"
+    ],
+    "influenced": [],
+    "school": [
+      "포스트모더니즘",
+      "후기구조주의"
+    ],
+    "concepts": [
+      "거대서사의 종말",
+      "쟁론",
+      "포스트모던의 조건",
+      "숭고"
+    ],
+    "questions": [
+      "보편적 서사 없이 정의는 가능한가?",
+      "포스트모던 시대의 지식은 어떤 형태를 취하는가?"
+    ]
+  },
+  {
+    "id": "dummett",
+    "name": {
+      "ko": "마이클 더밋",
+      "en": "Michael Dummett",
+      "original": "Michael Anthony Eardley Dummett"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1925,
+      "end": 2011
+    },
+    "location": {
+      "lat": 51.75,
+      "lng": -1.26,
+      "region": "영국 런던"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "분석철학",
+      "언어철학",
+      "수리철학",
+      "반실재론"
+    ],
+    "mvp": true,
+    "summary": "프레게 연구의 권위자이자 반실재론적 의미 이론을 발전시킨 영국 분석철학자.",
+    "detailed": "더밋은 프레게 철학에 대한 체계적 연구를 통해 분석철학의 역사적 기원을 조명했다. 실재론-반실재론 논쟁을 의미 이론의 문제로 재구성하여, 진리의 인식 초월적 개념에 반대하는 반실재론을 옹호했다. 의미의 이론은 화자의 언어 능력을 설명할 수 있어야 한다는 정당화주의적 의미론을 제시했다. 수학에서도 직관주의적 입장을 옹호하며 배중률의 보편적 적용에 의문을 제기했다.",
+    "keyWorks": [
+      {
+        "title": "프레게: 언어의 철학",
+        "year": 1973,
+        "type": "book"
+      },
+      {
+        "title": "진리와 기타 수수께끼",
+        "year": 1978,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "의미 이론은 분석철학의 토대이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "frege",
+      "wittgenstein"
+    ],
+    "influenced": [],
+    "school": [
+      "분석철학",
+      "반실재론"
+    ],
+    "concepts": [
+      "반실재론",
+      "정당화주의적 의미론",
+      "배중률 비판"
+    ],
+    "questions": [
+      "진리는 인식을 초월하는가?",
+      "실재론-반실재론 논쟁의 핵심은 무엇인가?"
+    ]
+  },
+  {
+    "id": "deleuze",
+    "name": {
+      "ko": "질 들뢰즈",
+      "en": "Gilles Deleuze",
+      "original": "Gilles Deleuze"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1925,
+      "end": 1995
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "poststructuralist",
+    "tags": [
+      "후기구조주의",
+      "차이의 철학",
+      "리좀",
+      "탈영토화"
+    ],
+    "mvp": true,
+    "summary": "차이와 반복, 리좀, 탈영토화 등의 개념으로 새로운 사유의 이미지를 창조한 프랑스 철학자.",
+    "detailed": "들뢰즈는 동일성 중심의 서양 철학 전통을 비판하고 차이 자체의 존재론을 수립했다. 『차이와 반복』에서 차이를 동일성에 종속시키지 않는 사유를 전개했으며, 과타리와의 공저 『천 개의 고원』에서 리좀, 탈영토화, 기관 없는 몸 등의 개념으로 수목적 사유에 대한 유목적 대안을 제시했다. 영화, 문학, 회화 등 다양한 예술 영역에도 독창적인 철학적 분석을 적용했다.",
+    "keyWorks": [
+      {
+        "title": "차이와 반복",
+        "year": 1968,
+        "type": "book"
+      },
+      {
+        "title": "안티 오이디푸스",
+        "year": 1972,
+        "type": "book"
+      },
+      {
+        "title": "천 개의 고원",
+        "year": 1980,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "철학은 개념의 창조이다.",
+        "source": "철학이란 무엇인가"
+      }
+    ],
+    "influences": [
+      "nietzsche",
+      "spinoza",
+      "bergson",
+      "hume"
+    ],
+    "influenced": [],
+    "school": [
+      "후기구조주의",
+      "차이의 철학"
+    ],
+    "concepts": [
+      "차이와 반복",
+      "리좀",
+      "탈영토화",
+      "기관 없는 몸",
+      "내재성의 평면"
+    ],
+    "questions": [
+      "동일성에 종속되지 않는 차이의 사유는 가능한가?",
+      "사유의 새로운 이미지란 무엇인가?"
+    ]
+  },
+  {
+    "id": "putnam",
+    "name": {
+      "ko": "힐러리 퍼트남",
+      "en": "Hilary Putnam",
+      "original": "Hilary Whitehall Putnam"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1926,
+      "end": 2016
+    },
+    "location": {
+      "lat": 41.31,
+      "lng": -72.92,
+      "region": "미국 시카고"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "분석철학",
+      "심리철학",
+      "언어철학",
+      "실재론"
+    ],
+    "mvp": true,
+    "summary": "기능주의, 의미론적 외재주의, 내적 실재론 등 다양한 영역에서 독창적 기여를 한 미국 철학자.",
+    "detailed": "퍼트남은 '통 속의 뇌' 사고실험과 '쌍둥이 지구' 논증으로 유명하다. 의미론적 외재주의를 주장하여 '의미는 머릿속에 있지 않다'고 선언했으며, 기능주의를 통해 심신 문제에 새로운 접근을 제시했다. 형이상학적 실재론을 비판하고 내적 실재론을 거쳐 자연적 실재론으로 입장을 발전시켰다. 수학철학, 양자역학의 논리, 윤리학 등 폭넓은 영역에 걸쳐 기여했다.",
+    "keyWorks": [
+      {
+        "title": "'의미'의 의미",
+        "year": 1975,
+        "type": "paper"
+      },
+      {
+        "title": "이성, 진리, 역사",
+        "year": 1981,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "의미는 머릿속에 있지 않다.",
+        "source": "'의미'의 의미"
+      }
+    ],
+    "influences": [
+      "quine",
+      "kripke",
+      "wittgenstein"
+    ],
+    "influenced": [],
+    "school": [
+      "분석철학",
+      "실용주의"
+    ],
+    "concepts": [
+      "의미론적 외재주의",
+      "기능주의",
+      "통 속의 뇌",
+      "쌍둥이 지구",
+      "내적 실재론"
+    ],
+    "questions": [
+      "의미는 어디에 있는가?",
+      "실재론과 반실재론 논쟁의 해결은 가능한가?"
+    ]
+  },
+  {
+    "id": "foucault",
+    "name": {
+      "ko": "미셸 푸코",
+      "en": "Michel Foucault",
+      "original": "Paul-Michel Foucault"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1926,
+      "end": 1984
+    },
+    "location": {
+      "lat": 46.58,
+      "lng": 0.34,
+      "region": "프랑스 푸아티에"
+    },
+    "category": "philosopher",
+    "subcategory": "poststructuralist",
+    "tags": [
+      "후기구조주의",
+      "권력",
+      "담론",
+      "계보학"
+    ],
+    "mvp": true,
+    "summary": "지식-권력의 관계를 분석하고 근대적 주체의 구성을 해부한 20세기 후반 가장 영향력 있는 사상가 중 한 명.",
+    "detailed": "푸코는 고고학과 계보학이라는 독자적 방법론으로 지식, 권력, 주체의 관계를 분석했다. 『광기의 역사』, 『감시와 처벌』 등에서 정신병원, 감옥, 병원 같은 제도를 통해 근대적 규율 권력이 어떻게 주체를 구성하는지 보여주었다. 권력을 억압이 아닌 생산적인 것으로 재정의하며, 생명권력과 통치성 개념을 발전시켰다. 후기에는 고대 그리스·로마의 자기 배려를 통한 주체화의 윤리학으로 전환했다.",
+    "keyWorks": [
+      {
+        "title": "감시와 처벌",
+        "year": 1975,
+        "type": "book"
+      },
+      {
+        "title": "성의 역사",
+        "year": 1976,
+        "type": "book"
+      },
+      {
+        "title": "광기의 역사",
+        "year": 1961,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "권력이 있는 곳에 저항이 있다.",
+        "source": "성의 역사"
+      }
+    ],
+    "influences": [
+      "nietzsche",
+      "heidegger",
+      "canguilhem"
+    ],
+    "influenced": [
+      "butler",
+      "agamben"
+    ],
+    "school": [
+      "후기구조주의",
+      "계보학"
+    ],
+    "concepts": [
+      "지식-권력",
+      "담론",
+      "규율 권력",
+      "생명권력",
+      "통치성",
+      "자기 배려"
+    ],
+    "questions": [
+      "권력은 어떻게 주체를 구성하는가?",
+      "지식과 권력은 어떤 관계에 있는가?"
+    ]
+  },
+  {
+    "id": "habermas",
+    "name": {
+      "ko": "위르겐 하버마스",
+      "en": "Jürgen Habermas",
+      "original": "Jürgen Habermas"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1929,
+      "end": 2025
+    },
+    "location": {
+      "lat": 50.94,
+      "lng": 6.96,
+      "region": "독일 뒤셀도르프"
+    },
+    "category": "philosopher",
+    "subcategory": "critical_theory",
+    "tags": [
+      "비판이론",
+      "의사소통이론",
+      "공론장",
+      "민주주의"
+    ],
+    "mvp": true,
+    "summary": "의사소통적 합리성과 담론 윤리학으로 비판이론을 재구성한 프랑크푸르트학파 2세대의 대표자.",
+    "detailed": "하버마스는 도구적 이성 비판에 머물렀던 1세대 비판이론을 넘어서, 의사소통적 합리성에서 해방의 가능성을 발견했다. 『의사소통 행위 이론』에서 생활세계의 의사소통적 합리성이 체계(경제·행정)의 식민화에 저항할 수 있다고 주장했다. 담론 윤리학을 통해 도덕적 규범의 합의적 정당화를 제시했으며, 공론장 개념으로 민주주의 이론에 기여했다. 숙의 민주주의의 이론적 토대를 놓았다.",
+    "keyWorks": [
+      {
+        "title": "의사소통 행위 이론",
+        "year": 1981,
+        "type": "book"
+      },
+      {
+        "title": "공론장의 구조변동",
+        "year": 1962,
+        "type": "book"
+      },
+      {
+        "title": "사실성과 타당성",
+        "year": 1992,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "담론에서 오직 더 나은 논증의 힘만이 작용해야 한다.",
+        "source": "의사소통 행위 이론"
+      }
+    ],
+    "influences": [
+      "marx",
+      "kant",
+      "horkheimer",
+      "adorno"
+    ],
+    "influenced": [],
+    "school": [
+      "프랑크푸르트학파",
+      "비판이론"
+    ],
+    "concepts": [
+      "의사소통적 합리성",
+      "생활세계와 체계",
+      "공론장",
+      "담론 윤리학",
+      "숙의 민주주의"
+    ],
+    "questions": [
+      "합리적 의사소통은 사회적 해방의 토대가 될 수 있는가?",
+      "민주주의의 정당성의 원천은 무엇인가?"
+    ]
+  },
+  {
+    "id": "baudrillard",
+    "name": {
+      "ko": "장 보드리야르",
+      "en": "Jean Baudrillard",
+      "original": "Jean Baudrillard"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1929,
+      "end": 2007
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스 랭스"
+    },
+    "category": "philosopher",
+    "subcategory": "poststructuralist",
+    "tags": [
+      "포스트모더니즘",
+      "시뮬라크르",
+      "소비사회",
+      "미디어"
+    ],
+    "mvp": true,
+    "summary": "시뮬라크르와 초과실재 개념으로 현대 미디어 사회의 실재 소멸을 분석한 프랑스 사회이론가.",
+    "detailed": "보드리야르는 기호와 소비를 중심으로 현대 사회를 분석했다. 시뮬라크르(simulacre) 개념을 통해 현대 사회에서는 원본 없는 복제, 즉 시뮬라크르가 실재를 대체하여 '초과실재'(hyperréalité)를 형성한다고 주장했다. 걸프전은 일어나지 않았다는 도발적 주장으로 미디어에 의해 구성되는 현실의 문제를 제기했다. 소비사회 분석에서 마르크스적 사용가치-교환가치 모델을 넘어 기호가치의 지배를 진단했다.",
+    "keyWorks": [
+      {
+        "title": "시뮬라크르와 시뮬라시옹",
+        "year": 1981,
+        "type": "book"
+      },
+      {
+        "title": "소비의 사회",
+        "year": 1970,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "사막이 더 이상 사막이 아니듯, 실재도 더 이상 실재가 아니다.",
+        "source": "시뮬라크르와 시뮬라시옹"
+      }
+    ],
+    "influences": [
+      "marx",
+      "barthes"
+    ],
+    "influenced": [],
+    "school": [
+      "포스트모더니즘",
+      "후기구조주의"
+    ],
+    "concepts": [
+      "시뮬라크르",
+      "초과실재",
+      "기호가치",
+      "소비사회",
+      "내파"
+    ],
+    "questions": [
+      "실재와 시뮬라크르의 구분은 가능한가?",
+      "미디어는 현실을 반영하는가 창조하는가?"
+    ]
+  },
+  {
+    "id": "derrida",
+    "name": {
+      "ko": "자크 데리다",
+      "en": "Jacques Derrida",
+      "original": "Jacques Derrida"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1930,
+      "end": 2004
+    },
+    "location": {
+      "lat": 36.75,
+      "lng": 3.04,
+      "region": "프랑스령 알제리 엘비아르"
+    },
+    "category": "philosopher",
+    "subcategory": "poststructuralist",
+    "tags": [
+      "해체주의",
+      "후기구조주의",
+      "언어철학",
+      "윤리학"
+    ],
+    "mvp": true,
+    "summary": "해체(déconstruction) 개념으로 서양 형이상학의 이항대립 구조를 해체한 20세기 후반 철학의 핵심 인물.",
+    "detailed": "데리다는 서양 형이상학이 음성/문자, 현전/부재, 자연/문화 등의 이항대립에 기초하며, 항상 한쪽이 특권적 지위를 차지한다고 비판했다. 차연(différance) 개념을 통해 의미의 현전은 항상 지연되고 차이 속에서만 성립함을 보였다. 텍스트의 의미는 결코 완전히 고정될 수 없다는 '텍스트 밖에는 아무것도 없다'는 테제로 논쟁을 불러일으켰다. 후기에는 환대, 용서, 정의 등 윤리·정치적 주제로 전환했다.",
+    "keyWorks": [
+      {
+        "title": "그라마톨로지에 대하여",
+        "year": 1967,
+        "type": "book"
+      },
+      {
+        "title": "글쓰기와 차이",
+        "year": 1967,
+        "type": "book"
+      },
+      {
+        "title": "법의 힘",
+        "year": 1994,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "텍스트 밖에는 아무것도 없다.",
+        "source": "그라마톨로지에 대하여"
+      }
+    ],
+    "influences": [
+      "heidegger",
+      "nietzsche",
+      "husserl",
+      "levinas"
+    ],
+    "influenced": [
+      "butler"
+    ],
+    "school": [
+      "해체주의",
+      "후기구조주의"
+    ],
+    "concepts": [
+      "해체",
+      "차연",
+      "흔적",
+      "로고스중심주의 비판",
+      "보충"
+    ],
+    "questions": [
+      "의미는 고정될 수 있는가?",
+      "서양 형이상학의 근본 전제는 무엇인가?"
+    ]
+  },
+  {
+    "id": "guattari",
+    "name": {
+      "ko": "펠릭스 과타리",
+      "en": "Félix Guattari",
+      "original": "Pierre-Félix Guattari"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1930,
+      "end": 1992
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "philosopher",
+    "subcategory": "poststructuralist",
+    "tags": [
+      "후기구조주의",
+      "분열분석",
+      "정신분석",
+      "생태학"
+    ],
+    "mvp": true,
+    "summary": "들뢰즈와 함께 분열분석과 리좀적 사유를 발전시킨 정신분석가이자 사상가.",
+    "detailed": "과타리는 정신분석가로서 라 보르드 정신병원에서 실험적 치료를 실천하며, 전통적 정신분석학의 한계를 비판했다. 들뢰즈와의 공동 작업을 통해 오이디푸스 콤플렉스 중심의 정신분석학을 비판하고, 욕망을 사회적·정치적 차원에서 분석하는 분열분석(schizoanalysis)을 제시했다. 세 가지 생태학(환경, 사회, 정신)의 통합을 주장하며, 횡단성 개념으로 제도와 집단의 변혁을 모색했다.",
+    "keyWorks": [
+      {
+        "title": "안티 오이디푸스",
+        "year": 1972,
+        "type": "book"
+      },
+      {
+        "title": "천 개의 고원",
+        "year": 1980,
+        "type": "book"
+      },
+      {
+        "title": "세 가지 생태학",
+        "year": 1989,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "욕망은 결핍이 아니라 생산이다.",
+        "source": "안티 오이디푸스"
+      }
+    ],
+    "influences": [
+      "lacan",
+      "marx"
+    ],
+    "influenced": [],
+    "school": [
+      "후기구조주의",
+      "분열분석"
+    ],
+    "concepts": [
+      "분열분석",
+      "횡단성",
+      "기계적 무의식",
+      "세 가지 생태학"
+    ],
+    "questions": [
+      "욕망은 사회적으로 어떻게 생산되는가?",
+      "정신과 사회와 환경은 어떻게 연결되는가?"
+    ]
+  },
+  {
+    "id": "irigaray",
+    "name": {
+      "ko": "뤼스 이리가라이",
+      "en": "Luce Irigaray",
+      "original": "Luce Irigaray"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1930,
+      "end": 2025
+    },
+    "location": {
+      "lat": 50.45,
+      "lng": 3.95,
+      "region": "벨기에 블라탕"
+    },
+    "category": "philosopher",
+    "subcategory": "poststructuralist",
+    "tags": [
+      "페미니즘",
+      "후기구조주의",
+      "정신분석",
+      "성차"
+    ],
+    "mvp": true,
+    "summary": "성적 차이의 철학을 통해 서양 철학의 남근로고스중심주의를 비판한 페미니스트 철학자.",
+    "detailed": "이리가라이는 서양 철학이 남성적 주체를 보편으로 설정하고 여성을 동일자의 결핍으로 규정해왔다고 비판했다. 『하나가 아닌 성』에서 여성적 쾌락의 복수성을 통해 남근중심적 성 담론을 해체했다. 여성성을 단순히 남성성의 부정이 아닌 독자적 차이로 긍정하는 성차의 윤리학을 제시했다. 언어 자체에 내재된 성별화의 문제를 분석하며, 여성적 글쓰기와 사유의 가능성을 탐구했다.",
+    "keyWorks": [
+      {
+        "title": "사변의 거울",
+        "year": 1974,
+        "type": "book"
+      },
+      {
+        "title": "하나가 아닌 성",
+        "year": 1977,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "여성적인 것은 하나가 아니다.",
+        "source": "하나가 아닌 성"
+      }
+    ],
+    "influences": [
+      "lacan",
+      "de-beauvoir",
+      "heidegger"
+    ],
+    "influenced": [
+      "butler"
+    ],
+    "school": [
+      "페미니즘",
+      "후기구조주의"
+    ],
+    "concepts": [
+      "성적 차이",
+      "남근로고스중심주의",
+      "여성적 글쓰기",
+      "두 입술의 논리"
+    ],
+    "questions": [
+      "서양 철학은 성 중립적인가?",
+      "여성적 주체는 어떻게 가능한가?"
+    ]
+  },
+  {
+    "id": "kripke",
+    "name": {
+      "ko": "솔 크립키",
+      "en": "Saul Kripke",
+      "original": "Saul Aaron Kripke"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1940,
+      "end": 2022
+    },
+    "location": {
+      "lat": 40.5,
+      "lng": -74.25,
+      "region": "미국 뉴욕"
+    },
+    "category": "philosopher",
+    "subcategory": "analytic",
+    "tags": [
+      "분석철학",
+      "양상논리",
+      "언어철학",
+      "형이상학"
+    ],
+    "mvp": true,
+    "summary": "양상논리학의 의미론을 완성하고 이름의 인과적 지시 이론을 제시한 현대 분석철학의 핵심 인물.",
+    "detailed": "크립키는 10대에 양상논리학의 완전한 의미론(가능세계 의미론)을 제시하여 논리학에 혁명을 일으켰다. 『이름과 필연』에서 고유 이름은 확정 기술이 아니라 인과적 연쇄를 통해 대상을 지시하는 고정 지시어라고 주장하며, 기술주의를 논박했다. 필연적 사후 진리의 존재를 보임으로써 필연성과 선험성의 전통적 동일시를 해체했다. 비트겐슈타인의 규칙 따르기에 대한 해석도 큰 논쟁을 불러일으켰다.",
+    "keyWorks": [
+      {
+        "title": "이름과 필연",
+        "year": 1980,
+        "type": "book"
+      },
+      {
+        "title": "비트겐슈타인: 규칙과 사적 언어",
+        "year": 1982,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "필연적 진리가 곧 선험적 진리는 아니다.",
+        "source": "이름과 필연"
+      }
+    ],
+    "influences": [
+      "frege",
+      "russell",
+      "wittgenstein"
+    ],
+    "influenced": [
+      "putnam"
+    ],
+    "school": [
+      "분석철학"
+    ],
+    "concepts": [
+      "고정 지시어",
+      "가능세계 의미론",
+      "필연적 사후 진리",
+      "인과적 지시 이론"
+    ],
+    "questions": [
+      "이름은 어떻게 대상을 지시하는가?",
+      "필연성과 선험성은 같은 것인가?"
+    ]
+  },
+  {
+    "id": "kristeva",
+    "name": {
+      "ko": "줄리아 크리스테바",
+      "en": "Julia Kristeva",
+      "original": "Юлия Кръстева"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1941,
+      "end": 2025
+    },
+    "location": {
+      "lat": 42.7,
+      "lng": 23.32,
+      "region": "불가리아 슬리벤"
+    },
+    "category": "philosopher",
+    "subcategory": "poststructuralist",
+    "tags": [
+      "후기구조주의",
+      "정신분석",
+      "기호학",
+      "페미니즘"
+    ],
+    "mvp": true,
+    "summary": "기호계와 상징계 개념, 아브젝시옹 이론으로 언어, 주체성, 여성성의 문제를 탐구한 불가리아 출신 프랑스 사상가.",
+    "detailed": "크리스테바는 상징계 이전의 기호계(sémiotique) 개념을 도입하여 언어 속에 작동하는 전-언어적, 신체적 차원을 조명했다. 상호텍스트성 개념을 처음 도입하여 모든 텍스트가 다른 텍스트의 모자이크임을 보였다. 『공포의 권력』에서 아브젝시옹(비체) 이론을 통해 주체 형성에서 배제의 역할을 분석했다. 정신분석, 언어학, 문학이론, 페미니즘을 횡단하며 독자적 사유를 전개했다.",
+    "keyWorks": [
+      {
+        "title": "시적 언어의 혁명",
+        "year": 1974,
+        "type": "book"
+      },
+      {
+        "title": "공포의 권력",
+        "year": 1980,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "모든 텍스트는 인용의 모자이크이다.",
+        "source": "세미오티케"
+      }
+    ],
+    "influences": [
+      "lacan",
+      "barthes",
+      "de-beauvoir"
+    ],
+    "influenced": [
+      "butler"
+    ],
+    "school": [
+      "후기구조주의",
+      "정신분석 페미니즘"
+    ],
+    "concepts": [
+      "기호계와 상징계",
+      "상호텍스트성",
+      "아브젝시옹",
+      "코라"
+    ],
+    "questions": [
+      "언어 이전의 차원이 주체를 어떻게 구성하는가?",
+      "텍스트는 어떻게 서로를 참조하는가?"
+    ]
+  },
+  {
+    "id": "zizek",
+    "name": {
+      "ko": "슬라보예 지젝",
+      "en": "Slavoj Žižek",
+      "original": "Slavoj Žižek"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1949,
+      "end": 2025
+    },
+    "location": {
+      "lat": 46.06,
+      "lng": 14.51,
+      "region": "슬로베니아 류블랴나"
+    },
+    "category": "philosopher",
+    "subcategory": "critical_theory",
+    "tags": [
+      "라캉주의",
+      "마르크스주의",
+      "이데올로기 비판",
+      "문화비평"
+    ],
+    "mvp": true,
+    "summary": "라캉 정신분석학과 마르크스주의, 헤겔 철학을 결합하여 현대 이데올로기와 문화를 분석하는 슬로베니아 철학자.",
+    "detailed": "지젝은 라캉의 정신분석학을 이데올로기 비판의 도구로 활용하며 독창적인 문화·정치 분석을 전개한다. 이데올로기가 허위의식이 아니라 이미 알면서도 행하는 '시니컬 이성'의 형태로 작동한다고 분석했다. 헤겔의 변증법을 라캉적으로 재독해하며, 대중문화(영화, 오페라 등)를 철학적으로 분석하는 독특한 방법론을 구사한다. 21세기 가장 활발히 활동하는 비판적 지식인 중 한 명이다.",
+    "keyWorks": [
+      {
+        "title": "이데올로기라는 숭고한 대상",
+        "year": 1989,
+        "type": "book"
+      },
+      {
+        "title": "삐딱하게 보기",
+        "year": 1991,
+        "type": "book"
+      },
+      {
+        "title": "폭력이란 무엇인가",
+        "year": 2008,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "이데올로기는 그들이 모르지만 그렇게 행하는 곳에 있다.",
+        "source": "이데올로기라는 숭고한 대상"
+      }
+    ],
+    "influences": [
+      "lacan",
+      "hegel",
+      "marx"
+    ],
+    "influenced": [],
+    "school": [
+      "라캉주의",
+      "포스트마르크스주의"
+    ],
+    "concepts": [
+      "시니컬 이성",
+      "숭고한 대상",
+      "실재의 사막",
+      "이데올로기적 환상"
+    ],
+    "questions": [
+      "이데올로기는 어떻게 작동하는가?",
+      "현대 자본주의에서 진정한 비판은 가능한가?"
+    ]
+  },
+  {
+    "id": "butler",
+    "name": {
+      "ko": "주디스 버틀러",
+      "en": "Judith Butler",
+      "original": "Judith Pamela Butler"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1956,
+      "end": 2025
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -74.01,
+      "region": "미국 클리블랜드"
+    },
+    "category": "philosopher",
+    "subcategory": "poststructuralist",
+    "tags": [
+      "젠더이론",
+      "퀴어이론",
+      "후기구조주의",
+      "수행성"
+    ],
+    "mvp": true,
+    "summary": "젠더 수행성 이론으로 성별의 자연성을 해체하고 퀴어 이론의 토대를 놓은 현대 페미니즘의 핵심 사상가.",
+    "detailed": "버틀러는 『젠더 트러블』에서 생물학적 성(sex)과 사회적 성(gender)의 구분 자체를 문제 삼으며, 젠더는 고정된 정체성이 아니라 반복적 수행을 통해 구성된다는 수행성 이론을 제시했다. 이를 통해 이성애 규범주의를 비판하고 퀴어 이론의 철학적 기반을 마련했다. 후기에는 취약성, 슬픔, 폭력의 문제를 다루며 윤리·정치 철학으로 관심을 확장했다. 비폭력의 윤리학과 집회의 수행적 정치학을 탐구하고 있다.",
+    "keyWorks": [
+      {
+        "title": "젠더 트러블",
+        "year": 1990,
+        "type": "book"
+      },
+      {
+        "title": "의미를 체현하는 몸",
+        "year": 1993,
+        "type": "book"
+      },
+      {
+        "title": "불확실한 삶",
+        "year": 2004,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "젠더는 반복적 수행의 효과이다.",
+        "source": "젠더 트러블"
+      }
+    ],
+    "influences": [
+      "de-beauvoir",
+      "foucault",
+      "derrida",
+      "lacan"
+    ],
+    "influenced": [],
+    "school": [
+      "후기구조주의",
+      "페미니즘",
+      "퀴어 이론"
+    ],
+    "concepts": [
+      "젠더 수행성",
+      "이성애 규범 비판",
+      "취약성",
+      "비폭력의 윤리"
+    ],
+    "questions": [
+      "성별은 자연적인가 구성된 것인가?",
+      "취약성은 정치적 연대의 기반이 될 수 있는가?"
     ]
   }
 ]

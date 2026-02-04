@@ -1,5 +1,1625 @@
 [
   {
+    "id": "hippocrates",
+    "name": {
+      "ko": "히포크라테스",
+      "en": "Hippocrates"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -460,
+      "end": -370
+    },
+    "location": {
+      "lat": 36.89,
+      "lng": 26.95,
+      "region": "그리스 코스"
+    },
+    "category": "scientist",
+    "subcategory": "ancient_medieval",
+    "tags": [
+      "의학",
+      "임상의학",
+      "의학윤리"
+    ],
+    "mvp": true,
+    "summary": "서양 의학의 아버지로 불리며, 질병의 원인을 초자연적 현상이 아닌 자연적 원인에서 찾았다. 히포크라테스 선서는 오늘날까지 의료 윤리의 기초가 된다.",
+    "detailed": "체액설을 기반으로 질병을 체계적으로 분류하고 임상 관찰을 중시했다. 환경과 식이가 건강에 미치는 영향을 연구했으며, 의학을 철학과 미신에서 분리시켰다. 히포크라테스 전집은 고대 의학의 가장 중요한 문헌이다.",
+    "keyWorks": [
+      {
+        "title": "히포크라테스 전집",
+        "year": -400,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "첫째, 해를 끼치지 말라.",
+        "source": "히포크라테스 선서"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "galen"
+    ],
+    "field": [
+      "의학",
+      "임상의학"
+    ],
+    "discoveries": [
+      "체액설",
+      "임상 관찰법",
+      "히포크라테스 선서"
+    ]
+  },
+  {
+    "id": "euclid",
+    "name": {
+      "ko": "유클리드",
+      "en": "Euclid"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -325,
+      "end": -265
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.9,
+      "region": "이집트 알렉산드리아"
+    },
+    "category": "scientist",
+    "subcategory": "ancient_medieval",
+    "tags": [
+      "수학",
+      "기하학",
+      "공리체계"
+    ],
+    "mvp": true,
+    "summary": "고대 그리스의 수학자로, '기하학 원론'을 저술하여 유클리드 기하학의 기초를 세웠다. 공리적 방법론의 원형을 확립하여 2천 년간 수학 교육의 표준이 되었다.",
+    "detailed": "'원론'은 정의, 공리, 정리의 연역적 체계로 수학적 증명의 모범을 제시했다. 평행선 공준은 이후 비유클리드 기하학의 탄생을 이끌었다. 알렉산드리아 도서관에서 활동하며 광학과 원뿔곡선에 대한 저술도 남겼다.",
+    "keyWorks": [
+      {
+        "title": "기하학 원론",
+        "year": -300,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "기하학에 왕도는 없다.",
+        "source": "프톨레마이오스 1세에게"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "archimedes"
+    ],
+    "field": [
+      "기하학",
+      "수론"
+    ],
+    "discoveries": [
+      "유클리드 기하학",
+      "유클리드 호제법",
+      "공리적 방법"
+    ]
+  },
+  {
+    "id": "archimedes",
+    "name": {
+      "ko": "아르키메데스",
+      "en": "Archimedes"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -287,
+      "end": -212
+    },
+    "location": {
+      "lat": 37.07,
+      "lng": 15.28,
+      "region": "이탈리아 시라쿠사"
+    },
+    "category": "scientist",
+    "subcategory": "ancient_medieval",
+    "tags": [
+      "수학",
+      "물리학",
+      "공학",
+      "부력"
+    ],
+    "mvp": true,
+    "summary": "고대 그리스 최고의 수학자이자 물리학자. 부력의 원리, 지렛대의 법칙을 발견하고 원주율 근사값을 계산했다.",
+    "detailed": "적분법의 선구적 형태인 소진법을 사용하여 곡면의 넓이와 부피를 계산했다. 아르키메데스의 나사 등 실용적 기계도 발명했다. 로마군의 시라쿠사 공격 시 방어 무기를 설계한 것으로도 유명하다.",
+    "keyWorks": [
+      {
+        "title": "부체에 관하여",
+        "year": -250,
+        "type": "book"
+      },
+      {
+        "title": "원의 측정",
+        "year": -250,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "유레카!",
+        "source": "부력의 원리 발견 시"
+      }
+    ],
+    "influences": [
+      "euclid"
+    ],
+    "influenced": [],
+    "field": [
+      "수학",
+      "물리학",
+      "공학"
+    ],
+    "discoveries": [
+      "부력의 원리",
+      "지렛대의 법칙",
+      "원주율 근사",
+      "소진법"
+    ]
+  },
+  {
+    "id": "zhang-heng",
+    "name": {
+      "ko": "장형",
+      "en": "Zhang Heng"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 78,
+      "end": 139
+    },
+    "location": {
+      "lat": 34.63,
+      "lng": 112.45,
+      "region": "중국 낙양"
+    },
+    "category": "scientist",
+    "subcategory": "ancient_medieval",
+    "tags": [
+      "천문학",
+      "지진학",
+      "발명"
+    ],
+    "mvp": true,
+    "summary": "후한 시대의 천문학자이자 발명가. 세계 최초의 지진계(후풍지동의)를 발명하고 혼천의를 제작했다.",
+    "detailed": "수력으로 작동하는 혼천의를 제작하여 천체의 운행을 정밀하게 관측했다. 원주율을 약 3.1466으로 계산했으며, 달의 빛이 태양의 반사임을 밝혔다. 문학과 회화에도 뛰어나 다방면의 천재로 평가받는다.",
+    "keyWorks": [
+      {
+        "title": "혼천의도주",
+        "year": 117,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "하늘은 달걀과 같고 땅은 달걀 노른자와 같다.",
+        "source": "혼천의도주"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "field": [
+      "천문학",
+      "지진학",
+      "수학"
+    ],
+    "discoveries": [
+      "후풍지동의(지진계)",
+      "수력 혼천의",
+      "원주율 계산"
+    ]
+  },
+  {
+    "id": "ptolemy",
+    "name": {
+      "ko": "프톨레마이오스",
+      "en": "Ptolemy"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 100,
+      "end": 170
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.9,
+      "region": "이집트 알렉산드리아"
+    },
+    "category": "scientist",
+    "subcategory": "ancient_medieval",
+    "tags": [
+      "천문학",
+      "지리학",
+      "천동설"
+    ],
+    "mvp": true,
+    "summary": "고대 그리스의 천문학자이자 지리학자. 천동설 체계를 정립한 '알마게스트'는 1400년간 천문학의 표준이었다.",
+    "detailed": "주전원과 이심원을 사용하여 행성 운동을 정밀하게 예측하는 수학적 모델을 구축했다. '지리학'에서는 경위도 좌표계를 사용한 세계지도를 제작했다. 광학에 관한 연구도 수행하여 굴절 현상을 기술했다.",
+    "keyWorks": [
+      {
+        "title": "알마게스트",
+        "year": 150,
+        "type": "book"
+      },
+      {
+        "title": "지리학",
+        "year": 150,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 내가 필멸의 존재임을 알지만, 별들의 궤도를 추적할 때 나는 신과 함께 한다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "hippocrates"
+    ],
+    "influenced": [
+      "copernicus"
+    ],
+    "field": [
+      "천문학",
+      "지리학",
+      "광학"
+    ],
+    "discoveries": [
+      "천동설 수학적 체계",
+      "경위도 좌표계",
+      "프톨레마이오스 세계지도"
+    ]
+  },
+  {
+    "id": "galen",
+    "name": {
+      "ko": "갈레노스",
+      "en": "Galen"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 129,
+      "end": 216
+    },
+    "location": {
+      "lat": 39.12,
+      "lng": 27.18,
+      "region": "소아시아 페르가몬"
+    },
+    "category": "scientist",
+    "subcategory": "ancient_medieval",
+    "tags": [
+      "의학",
+      "해부학",
+      "생리학"
+    ],
+    "mvp": true,
+    "summary": "로마 시대의 의학자로, 해부학과 생리학의 기초를 세웠다. 그의 의학 체계는 1500년간 서양 의학의 표준이었다.",
+    "detailed": "동물 해부를 통해 인체 구조와 기능을 체계적으로 기술했다. 혈액순환에 대한 이론을 제시하고, 신경계와 근육의 관계를 연구했다. 히포크라테스의 체액설을 발전시켜 질병 치료의 체계를 정립했다.",
+    "keyWorks": [
+      {
+        "title": "해부학적 방법에 관하여",
+        "year": 170,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "최고의 의사는 철학자이기도 하다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "hippocrates"
+    ],
+    "influenced": [],
+    "field": [
+      "해부학",
+      "생리학",
+      "의학"
+    ],
+    "discoveries": [
+      "체계적 해부학",
+      "신경-근육 관계",
+      "맥박 진단법"
+    ]
+  },
+  {
+    "id": "brahmagupta",
+    "name": {
+      "ko": "브라마굽타",
+      "en": "Brahmagupta"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 598,
+      "end": 668
+    },
+    "location": {
+      "lat": 26.45,
+      "lng": 74.64,
+      "region": "인도 라자스탄"
+    },
+    "category": "scientist",
+    "subcategory": "ancient_medieval",
+    "tags": [
+      "수학",
+      "천문학",
+      "영(0)"
+    ],
+    "mvp": true,
+    "summary": "인도의 수학자이자 천문학자. 0을 수로서 정의하고 음수의 연산 규칙을 최초로 체계화했다.",
+    "detailed": "저서 '브라마스푸타싯단타'에서 0의 사칙연산 규칙과 음수의 연산을 정립했다. 이차방정식의 일반 해법을 제시하고 펠 방정식의 풀이법도 발견했다. 그의 수학적 성과는 아랍을 거쳐 유럽에 전해져 현대 수 체계의 기초가 되었다.",
+    "keyWorks": [
+      {
+        "title": "브라마스푸타싯단타",
+        "year": 628,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "0에서 0을 빼면 0이다.",
+        "source": "브라마스푸타싯단타"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "al-khwarizmi"
+    ],
+    "field": [
+      "수학",
+      "천문학"
+    ],
+    "discoveries": [
+      "0의 연산 규칙",
+      "음수 연산 체계",
+      "이차방정식 일반 해법"
+    ]
+  },
+  {
+    "id": "al-khwarizmi",
+    "name": {
+      "ko": "알-콰리즈미",
+      "en": "Al-Khwarizmi"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 780,
+      "end": 850
+    },
+    "location": {
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "이라크 바그다드"
+    },
+    "category": "scientist",
+    "subcategory": "ancient_medieval",
+    "tags": [
+      "수학",
+      "대수학",
+      "알고리즘"
+    ],
+    "mvp": true,
+    "summary": "이슬람 황금시대의 수학자로, 대수학(algebra)의 창시자이다. '알고리즘'이라는 용어가 그의 이름에서 유래했다.",
+    "detailed": "저서 '알자브르'에서 일차·이차방정식의 체계적 풀이법을 제시하여 대수학을 독립된 학문으로 확립했다. 인도의 십진법을 아랍 세계에 소개하여 현대 숫자 체계의 보급에 기여했다. 바그다드의 지혜의 집에서 활동했다.",
+    "keyWorks": [
+      {
+        "title": "알자브르 왈무카발라",
+        "year": 820,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "수학은 모든 학문의 문이자 열쇠이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "euclid"
+    ],
+    "influenced": [],
+    "field": [
+      "대수학",
+      "수학",
+      "천문학"
+    ],
+    "discoveries": [
+      "대수학 체계화",
+      "알고리즘 개념",
+      "십진법 보급"
+    ]
+  },
+  {
+    "id": "ibn-al-haytham",
+    "name": {
+      "ko": "이븐 알-하이삼",
+      "en": "Ibn al-Haytham"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 965,
+      "end": 1040
+    },
+    "location": {
+      "lat": 30.59,
+      "lng": 47.54,
+      "region": "이라크 바스라/이집트 카이로"
+    },
+    "category": "scientist",
+    "subcategory": "ancient_medieval",
+    "tags": [
+      "광학",
+      "물리학",
+      "과학적 방법"
+    ],
+    "mvp": true,
+    "summary": "이슬람 황금시대의 물리학자로, 근대 광학의 아버지로 불린다. 실험적 방법론을 체계화하여 과학혁명의 선구자가 되었다.",
+    "detailed": "빛이 물체에서 눈으로 들어온다는 시각 이론을 확립하여 고대의 방출설을 뒤집었다. 카메라 옵스쿠라의 원리를 설명하고 렌즈의 굴절을 연구했다. 가설과 실험을 통한 과학적 방법론은 로저 베이컨과 근대 과학에 큰 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "광학의 서",
+        "year": 1011,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "진리의 탐구자는 권위가 아닌 증거를 따르는 자이다.",
+        "source": "광학의 서"
+      }
+    ],
+    "influences": [
+      "ptolemy"
+    ],
+    "influenced": [
+      "roger-bacon"
+    ],
+    "field": [
+      "광학",
+      "물리학",
+      "수학"
+    ],
+    "discoveries": [
+      "근대 시각 이론",
+      "카메라 옵스쿠라 원리",
+      "실험적 과학 방법론"
+    ]
+  },
+  {
+    "id": "roger-bacon",
+    "name": {
+      "ko": "로저 베이컨",
+      "en": "Roger Bacon"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1214,
+      "end": 1294
+    },
+    "location": {
+      "lat": 51.75,
+      "lng": -1.26,
+      "region": "영국 옥스퍼드"
+    },
+    "category": "scientist",
+    "subcategory": "ancient_medieval",
+    "tags": [
+      "광학",
+      "실험과학",
+      "프란치스코회"
+    ],
+    "mvp": true,
+    "summary": "중세 영국의 수도사이자 과학자. 실험과 관찰을 통한 지식 획득을 주장하여 경험적 과학의 선구자가 되었다.",
+    "detailed": "광학, 연금술, 천문학을 연구하며 실험적 방법의 중요성을 강조했다. 렌즈와 거울의 광학적 성질을 연구하고 화약의 성분을 기록했다. 프란치스코 수도회 소속으로 교회와 갈등을 빚기도 했다.",
+    "keyWorks": [
+      {
+        "title": "대저작",
+        "year": 1267,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "실험 없이는 아무것도 충분히 알 수 없다.",
+        "source": "대저작"
+      }
+    ],
+    "influences": [
+      "ibn-al-haytham"
+    ],
+    "influenced": [],
+    "field": [
+      "광학",
+      "자연철학"
+    ],
+    "discoveries": [
+      "실험적 과학 방법론 주장",
+      "렌즈 광학 연구",
+      "화약 성분 기록"
+    ]
+  },
+  {
+    "id": "copernicus",
+    "name": {
+      "ko": "코페르니쿠스",
+      "en": "Nicolaus Copernicus"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1473,
+      "end": 1543
+    },
+    "location": {
+      "lat": 53.01,
+      "lng": 18.61,
+      "region": "폴란드 토루니"
+    },
+    "category": "scientist",
+    "subcategory": "scientific_revolution",
+    "tags": [
+      "천문학",
+      "지동설",
+      "과학혁명"
+    ],
+    "mvp": true,
+    "summary": "폴란드의 천문학자로, 태양 중심설(지동설)을 제안하여 과학혁명의 서막을 열었다. 그의 이론은 근대 과학의 출발점이 되었다.",
+    "detailed": "저서 '천구의 회전에 관하여'에서 지구가 태양 주위를 공전한다는 모델을 제시했다. 프톨레마이오스의 천동설을 대체하여 천문학의 패러다임을 전환시켰다. 성직자이자 의사이기도 했으며, 사망 직전에야 저서가 출판되었다.",
+    "keyWorks": [
+      {
+        "title": "천구의 회전에 관하여",
+        "year": 1543,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "태양이 만물의 중심에 놓인다.",
+        "source": "천구의 회전에 관하여"
+      }
+    ],
+    "influences": [
+      "ptolemy"
+    ],
+    "influenced": [
+      "galileo",
+      "kepler"
+    ],
+    "field": [
+      "천문학"
+    ],
+    "discoveries": [
+      "태양 중심설(지동설)"
+    ]
+  },
+  {
+    "id": "vesalius",
+    "name": {
+      "ko": "베살리우스",
+      "en": "Andreas Vesalius"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1514,
+      "end": 1564
+    },
+    "location": {
+      "lat": 50.85,
+      "lng": 4.35,
+      "region": "벨기에 브뤼셀"
+    },
+    "category": "scientist",
+    "subcategory": "scientific_revolution",
+    "tags": [
+      "해부학",
+      "의학",
+      "인체"
+    ],
+    "mvp": true,
+    "summary": "근대 해부학의 창시자. '인체의 구조에 관하여'를 저술하여 갈레노스의 오류를 바로잡고 인체 해부학을 혁신했다.",
+    "detailed": "직접 인체를 해부하여 갈레노스의 동물 해부에 기반한 오류들을 수정했다. 정밀한 해부도를 포함한 저서는 의학 교육의 혁명을 가져왔다. 파도바 대학에서 해부학을 가르치며 경험적 관찰의 중요성을 강조했다.",
+    "keyWorks": [
+      {
+        "title": "인체의 구조에 관하여",
+        "year": 1543,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 인간의 구조를 인간의 몸에서 직접 배웠다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "galen"
+    ],
+    "influenced": [
+      "harvey"
+    ],
+    "field": [
+      "해부학",
+      "의학"
+    ],
+    "discoveries": [
+      "근대 인체 해부학",
+      "갈레노스 해부학 오류 수정"
+    ]
+  },
+  {
+    "id": "tycho-brahe",
+    "name": {
+      "ko": "티코 브라헤",
+      "en": "Tycho Brahe"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1546,
+      "end": 1601
+    },
+    "location": {
+      "lat": 55.91,
+      "lng": 12.69,
+      "region": "덴마크 벤 섬"
+    },
+    "category": "scientist",
+    "subcategory": "scientific_revolution",
+    "tags": [
+      "천문학",
+      "관측천문학",
+      "천체측정"
+    ],
+    "mvp": true,
+    "summary": "덴마크의 천문학자로, 망원경 발명 이전 가장 정밀한 천체 관측을 수행했다. 그의 데이터는 케플러의 법칙 발견의 토대가 되었다.",
+    "detailed": "우라니보르 천문대를 건설하여 20년간 행성과 항성의 위치를 정밀하게 관측했다. 절충적인 티코 체계를 제안하여 지구 중심에 태양이 돌고 다른 행성은 태양 주위를 도는 모델을 주장했다. 1572년 신성(초신성) 관측으로 유명하다.",
+    "keyWorks": [
+      {
+        "title": "새로운 천문학에 관하여",
+        "year": 1573,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "관측하지 않으면 알 수 없다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "copernicus"
+    ],
+    "influenced": [
+      "kepler"
+    ],
+    "field": [
+      "천문학",
+      "관측천문학"
+    ],
+    "discoveries": [
+      "정밀 천체 관측 데이터",
+      "1572년 초신성 관측",
+      "티코 체계"
+    ]
+  },
+  {
+    "id": "galileo",
+    "name": {
+      "ko": "갈릴레오 갈릴레이",
+      "en": "Galileo Galilei"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1564,
+      "end": 1642
+    },
+    "location": {
+      "lat": 43.72,
+      "lng": 10.4,
+      "region": "이탈리아 피사"
+    },
+    "category": "scientist",
+    "subcategory": "scientific_revolution",
+    "tags": [
+      "물리학",
+      "천문학",
+      "과학혁명",
+      "망원경"
+    ],
+    "mvp": true,
+    "summary": "근대 과학의 아버지. 망원경을 통한 천체 관측으로 지동설을 입증하고, 낙체 법칙을 발견하여 실험물리학의 기초를 세웠다.",
+    "detailed": "목성의 위성, 금성의 위상 변화, 달의 분화구를 관측하여 코페르니쿠스 체계를 지지했다. 피사의 사탑에서의 낙하 실험(전설), 빗면 실험으로 가속도 법칙을 도출했다. 종교재판에서 유죄 판결을 받고 가택연금 생활을 했다.",
+    "keyWorks": [
+      {
+        "title": "별의 전령",
+        "year": 1610,
+        "type": "book"
+      },
+      {
+        "title": "두 가지 주요 세계 체계에 관한 대화",
+        "year": 1632,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "그래도 지구는 돈다.",
+        "source": "전설"
+      }
+    ],
+    "influences": [
+      "copernicus",
+      "archimedes"
+    ],
+    "influenced": [
+      "newton"
+    ],
+    "field": [
+      "물리학",
+      "천문학"
+    ],
+    "discoveries": [
+      "목성의 위성 발견",
+      "낙체 법칙",
+      "관성의 원리",
+      "망원경 천체 관측"
+    ]
+  },
+  {
+    "id": "kepler",
+    "name": {
+      "ko": "요하네스 케플러",
+      "en": "Johannes Kepler"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1571,
+      "end": 1630
+    },
+    "location": {
+      "lat": 48.78,
+      "lng": 9.18,
+      "region": "독일 슈투트가르트"
+    },
+    "category": "scientist",
+    "subcategory": "scientific_revolution",
+    "tags": [
+      "천문학",
+      "행성운동법칙",
+      "수학"
+    ],
+    "mvp": true,
+    "summary": "독일의 천문학자로, 행성운동의 세 가지 법칙을 발견하여 천체역학의 기초를 놓았다. 티코 브라헤의 관측 데이터를 분석하여 타원궤도를 밝혀냈다.",
+    "detailed": "행성의 궤도가 원이 아닌 타원임을 증명하고, 면적속도 일정의 법칙과 조화의 법칙을 발견했다. 광학에서도 중요한 업적을 남겨 근대 광학의 기초를 세웠다. 신플라톤주의적 우주관과 수학적 조화를 추구했다.",
+    "keyWorks": [
+      {
+        "title": "신천문학",
+        "year": 1609,
+        "type": "book"
+      },
+      {
+        "title": "세계의 조화",
+        "year": 1619,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자연은 단순함과 통일성을 사랑한다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "copernicus",
+      "tycho-brahe"
+    ],
+    "influenced": [
+      "newton"
+    ],
+    "field": [
+      "천문학",
+      "광학",
+      "수학"
+    ],
+    "discoveries": [
+      "케플러의 행성운동 3법칙",
+      "타원궤도 발견"
+    ]
+  },
+  {
+    "id": "harvey",
+    "name": {
+      "ko": "윌리엄 하비",
+      "en": "William Harvey"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1578,
+      "end": 1657
+    },
+    "location": {
+      "lat": 51.28,
+      "lng": 1.08,
+      "region": "영국 켄트"
+    },
+    "category": "scientist",
+    "subcategory": "scientific_revolution",
+    "tags": [
+      "의학",
+      "생리학",
+      "혈액순환"
+    ],
+    "mvp": true,
+    "summary": "영국의 의학자로, 혈액이 심장을 중심으로 온몸을 순환한다는 혈액순환론을 발견하여 근대 생리학의 기초를 세웠다.",
+    "detailed": "실험과 관찰을 통해 심장이 펌프 역할을 하여 혈액을 동맥과 정맥을 통해 순환시킨다는 것을 증명했다. 갈레노스의 혈액 생성-소모 이론을 뒤집었다. 발생학에도 기여하여 모든 생명체는 알에서 비롯된다고 주장했다.",
+    "keyWorks": [
+      {
+        "title": "동물의 심장과 혈액의 운동에 관한 해부학적 연구",
+        "year": 1628,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "모든 생명체는 알에서 비롯된다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "vesalius",
+      "galen"
+    ],
+    "influenced": [],
+    "field": [
+      "생리학",
+      "의학"
+    ],
+    "discoveries": [
+      "혈액순환론",
+      "심장 펌프 기능"
+    ]
+  },
+  {
+    "id": "pascal-scientist",
+    "name": {
+      "ko": "블레즈 파스칼",
+      "en": "Blaise Pascal"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1623,
+      "end": 1662
+    },
+    "location": {
+      "lat": 45.78,
+      "lng": 3.08,
+      "region": "프랑스 클레르몽페랑"
+    },
+    "category": "scientist",
+    "subcategory": "scientific_revolution",
+    "tags": [
+      "수학",
+      "물리학",
+      "확률론",
+      "계산기"
+    ],
+    "mvp": true,
+    "summary": "프랑스의 수학자이자 물리학자, 철학자. 확률론을 창시하고, 파스칼의 원리를 발견하며, 최초의 기계식 계산기를 발명했다.",
+    "detailed": "페르마와의 서신 교환으로 확률론의 기초를 세웠다. 유체역학에서 파스칼의 원리를 발견하고, 기압과 진공에 관한 실험을 수행했다. 19세에 기계식 계산기 파스칼린을 발명했으며, 파스칼의 삼각형도 유명하다.",
+    "keyWorks": [
+      {
+        "title": "진공에 관한 새로운 실험",
+        "year": 1647,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "인간은 생각하는 갈대이다.",
+        "source": "팡세"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "leibniz"
+    ],
+    "field": [
+      "수학",
+      "물리학",
+      "철학"
+    ],
+    "discoveries": [
+      "확률론 창시",
+      "파스칼의 원리",
+      "기계식 계산기 발명",
+      "파스칼의 삼각형"
+    ]
+  },
+  {
+    "id": "boyle",
+    "name": {
+      "ko": "로버트 보일",
+      "en": "Robert Boyle"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1627,
+      "end": 1691
+    },
+    "location": {
+      "lat": 52.15,
+      "lng": -7.15,
+      "region": "아일랜드 워터포드"
+    },
+    "category": "scientist",
+    "subcategory": "scientific_revolution",
+    "tags": [
+      "화학",
+      "물리학",
+      "기체법칙"
+    ],
+    "mvp": true,
+    "summary": "근대 화학의 아버지로 불리는 아일랜드 출신의 자연철학자. 보일의 법칙을 발견하고 원소의 현대적 정의를 제시했다.",
+    "detailed": "기체의 부피와 압력이 반비례한다는 보일의 법칙을 발견했다. 저서 '회의적 화학자'에서 아리스토텔레스의 4원소설을 비판하고 화학 원소의 현대적 개념을 제시했다. 실험적 방법을 화학에 도입하여 연금술에서 근대 화학으로의 전환에 기여했다.",
+    "keyWorks": [
+      {
+        "title": "회의적 화학자",
+        "year": 1661,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자연의 책은 실험을 통해 읽어야 한다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "lavoisier"
+    ],
+    "field": [
+      "화학",
+      "물리학"
+    ],
+    "discoveries": [
+      "보일의 법칙",
+      "화학 원소의 현대적 정의"
+    ]
+  },
+  {
+    "id": "huygens",
+    "name": {
+      "ko": "크리스티안 하위헌스",
+      "en": "Christiaan Huygens"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1629,
+      "end": 1695
+    },
+    "location": {
+      "lat": 52.08,
+      "lng": 4.3,
+      "region": "네덜란드 헤이그"
+    },
+    "category": "scientist",
+    "subcategory": "scientific_revolution",
+    "tags": [
+      "물리학",
+      "천문학",
+      "광학",
+      "파동이론"
+    ],
+    "mvp": true,
+    "summary": "네덜란드의 수학자이자 물리학자. 빛의 파동이론을 제안하고, 진자시계를 발명했으며, 토성의 고리와 위성 타이탄을 발견했다.",
+    "detailed": "빛이 파동으로 전파된다는 이론을 체계화하여 반사와 굴절 현상을 설명했다. 진자의 등시성을 이용한 정밀시계를 발명하여 항해와 과학에 혁명을 가져왔다. 자체 제작한 망원경으로 토성의 고리 구조를 밝혔다.",
+    "keyWorks": [
+      {
+        "title": "빛에 관한 논고",
+        "year": 1690,
+        "type": "book"
+      },
+      {
+        "title": "진자시계",
+        "year": 1673,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "세계는 나의 조국이고, 과학은 나의 종교이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "galileo"
+    ],
+    "influenced": [
+      "newton"
+    ],
+    "field": [
+      "물리학",
+      "천문학",
+      "수학"
+    ],
+    "discoveries": [
+      "빛의 파동이론",
+      "진자시계 발명",
+      "토성의 위성 타이탄 발견"
+    ]
+  },
+  {
+    "id": "leeuwenhoek",
+    "name": {
+      "ko": "안토니 판 레이우엔훅",
+      "en": "Antonie van Leeuwenhoek"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1632,
+      "end": 1723
+    },
+    "location": {
+      "lat": 52.01,
+      "lng": 4.36,
+      "region": "네덜란드 델프트"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "현미경",
+      "미생물학"
+    ],
+    "mvp": true,
+    "summary": "네덜란드의 미생물학 선구자. 자체 제작한 현미경으로 세균, 원생생물, 정자 등을 최초로 관찰하여 '미생물학의 아버지'로 불린다.",
+    "detailed": "300배 이상의 배율을 가진 현미경을 직접 제작하여 미생물의 세계를 처음으로 열었다. 세균, 원생동물, 정자세포, 적혈구, 근섬유 등을 관찰하고 왕립학회에 보고했다. 독학으로 과학의 새 분야를 개척한 인물이다.",
+    "keyWorks": [
+      {
+        "title": "왕립학회 보고 서한",
+        "year": 1676,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "물 한 방울에도 수천의 작은 생명체가 있다.",
+        "source": "왕립학회 서한"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "pasteur",
+      "koch"
+    ],
+    "field": [
+      "미생물학",
+      "현미경학"
+    ],
+    "discoveries": [
+      "세균 최초 관찰",
+      "원생생물 발견",
+      "정자세포 관찰"
+    ]
+  },
+  {
+    "id": "hooke",
+    "name": {
+      "ko": "로버트 훅",
+      "en": "Robert Hooke"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1635,
+      "end": 1703
+    },
+    "location": {
+      "lat": 50.66,
+      "lng": -1.15,
+      "region": "영국 와이트 섬"
+    },
+    "category": "scientist",
+    "subcategory": "scientific_revolution",
+    "tags": [
+      "물리학",
+      "생물학",
+      "현미경",
+      "세포"
+    ],
+    "mvp": true,
+    "summary": "영국의 자연철학자. 현미경으로 세포를 최초로 관찰하고 명명했으며, 훅의 법칙(탄성 법칙)을 발견했다.",
+    "detailed": "저서 '마이크로그라피아'에서 현미경 관찰 결과를 상세히 기록하여 코르크의 격벽 구조에 '세포(cell)'라는 이름을 붙였다. 탄성체의 변형과 힘의 관계를 나타내는 훅의 법칙을 발견했다. 뉴턴과 중력 이론의 선취권을 놓고 논쟁했다.",
+    "keyWorks": [
+      {
+        "title": "마이크로그라피아",
+        "year": 1665,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "ut tensio, sic vis (변형은 힘에 비례한다).",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "field": [
+      "물리학",
+      "생물학",
+      "건축"
+    ],
+    "discoveries": [
+      "세포 발견 및 명명",
+      "훅의 법칙(탄성 법칙)"
+    ]
+  },
+  {
+    "id": "newton",
+    "name": {
+      "ko": "아이작 뉴턴",
+      "en": "Isaac Newton"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1643,
+      "end": 1727
+    },
+    "location": {
+      "lat": 52.95,
+      "lng": -0.55,
+      "region": "영국 링컨셔"
+    },
+    "category": "scientist",
+    "subcategory": "scientific_revolution",
+    "tags": [
+      "물리학",
+      "수학",
+      "만유인력",
+      "미적분학"
+    ],
+    "mvp": true,
+    "summary": "역사상 가장 위대한 과학자 중 하나. 만유인력의 법칙과 운동의 3법칙을 정립하고 미적분학을 발명하여 근대 물리학과 수학의 기초를 세웠다.",
+    "detailed": "프린키피아에서 만유인력 법칙과 운동법칙을 수학적으로 정립하여 천체와 지상의 역학을 통합했다. 빛의 분산을 프리즘으로 증명하고 반사 망원경을 발명했다. 라이프니츠와 독립적으로 미적분학을 개발했다.",
+    "keyWorks": [
+      {
+        "title": "자연철학의 수학적 원리(프린키피아)",
+        "year": 1687,
+        "type": "book"
+      },
+      {
+        "title": "광학",
+        "year": 1704,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "내가 더 멀리 보았다면, 그것은 거인들의 어깨 위에 서 있었기 때문이다.",
+        "source": "로버트 훅에게 보낸 서신"
+      }
+    ],
+    "influences": [
+      "galileo",
+      "kepler"
+    ],
+    "influenced": [
+      "euler",
+      "maxwell",
+      "einstein"
+    ],
+    "field": [
+      "물리학",
+      "수학",
+      "광학"
+    ],
+    "discoveries": [
+      "만유인력의 법칙",
+      "뉴턴 운동법칙 3개",
+      "미적분학",
+      "빛의 분산"
+    ]
+  },
+  {
+    "id": "leibniz",
+    "name": {
+      "ko": "고트프리트 라이프니츠",
+      "en": "Gottfried Wilhelm Leibniz"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1646,
+      "end": 1716
+    },
+    "location": {
+      "lat": 52.37,
+      "lng": 9.73,
+      "region": "독일 하노버"
+    },
+    "category": "scientist",
+    "subcategory": "scientific_revolution",
+    "tags": [
+      "수학",
+      "철학",
+      "미적분학",
+      "이진법"
+    ],
+    "mvp": true,
+    "summary": "독일의 수학자이자 철학자. 뉴턴과 독립적으로 미적분학을 개발하고, 이진법을 고안하여 현대 컴퓨터 과학의 기초를 놓았다.",
+    "detailed": "오늘날 사용되는 미적분 표기법(dx, ∫)은 라이프니츠가 개발한 것이다. 이진법 체계를 정립하고 기계식 계산기를 개량했다. 모나드론을 비롯한 철학적 업적으로도 중요하며, 뉴턴과의 미적분 선취권 논쟁은 과학사의 유명한 사건이다.",
+    "keyWorks": [
+      {
+        "title": "미적분에 관한 새로운 방법",
+        "year": 1684,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "이것은 가능한 모든 세계 중 최선의 세계이다.",
+        "source": "변신론"
+      }
+    ],
+    "influences": [
+      "pascal"
+    ],
+    "influenced": [
+      "euler"
+    ],
+    "field": [
+      "수학",
+      "철학",
+      "논리학"
+    ],
+    "discoveries": [
+      "미적분학(독립적 발견)",
+      "미적분 표기법",
+      "이진법",
+      "기계식 계산기 개량"
+    ]
+  },
+  {
+    "id": "halley",
+    "name": {
+      "ko": "에드먼드 핼리",
+      "en": "Edmond Halley"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1656,
+      "end": 1742
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "scientist",
+    "subcategory": "astronomy",
+    "tags": [
+      "천문학",
+      "혜성",
+      "핼리혜성",
+      "지구물리학"
+    ],
+    "mvp": true,
+    "summary": "영국의 천문학자. 혜성의 주기적 귀환을 예측하여 핼리혜성으로 명명되었으며, 뉴턴의 프린키피아 출판을 후원하고 독려했다.",
+    "detailed": "1682년에 관측한 혜성이 과거 기록의 혜성과 동일하며 약 76년 주기로 돌아옴을 예측했다. 이 예측은 그의 사후 1758년에 입증되었다. 뉴턴에게 프린키피아의 저술을 독려하고 출판 비용을 부담한 것으로도 유명하다.",
+    "keyWorks": [
+      {
+        "title": "혜성 천문학 개론",
+        "year": 1705,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "혜성은 다시 돌아올 것이다.",
+        "source": "혜성 천문학 개론"
+      }
+    ],
+    "influences": [
+      "newton"
+    ],
+    "influenced": [],
+    "field": [
+      "천문학",
+      "지구물리학"
+    ],
+    "discoveries": [
+      "핼리혜성 주기 예측",
+      "항성 고유운동 발견",
+      "뉴턴 프린키피아 출판 지원"
+    ]
+  },
+  {
+    "id": "linnaeus",
+    "name": {
+      "ko": "칼 린네",
+      "en": "Carl Linnaeus"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1707,
+      "end": 1778
+    },
+    "location": {
+      "lat": 59.86,
+      "lng": 17.64,
+      "region": "스웨덴 웁살라"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "분류학",
+      "이명법"
+    ],
+    "mvp": true,
+    "summary": "스웨덴의 생물학자로, 이명법(二名法)을 고안하여 생물 분류 체계의 기초를 세웠다. '분류학의 아버지'로 불린다.",
+    "detailed": "속명과 종명으로 구성된 이명법을 도입하여 모든 생물을 체계적으로 명명할 수 있게 했다. '자연의 체계'에서 동물, 식물, 광물을 계-강-목-과-속-종의 위계로 분류했다. 인간을 호모 사피엔스로 명명한 것도 린네의 업적이다.",
+    "keyWorks": [
+      {
+        "title": "자연의 체계",
+        "year": 1735,
+        "type": "book"
+      },
+      {
+        "title": "식물의 종",
+        "year": 1753,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자연은 비약하지 않는다.",
+        "source": "자연철학"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "darwin",
+      "lamarck"
+    ],
+    "field": [
+      "분류학",
+      "식물학",
+      "생물학"
+    ],
+    "discoveries": [
+      "이명법",
+      "생물 분류 체계",
+      "호모 사피엔스 명명"
+    ]
+  },
+  {
+    "id": "priestley",
+    "name": {
+      "ko": "조지프 프리스틀리",
+      "en": "Joseph Priestley"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1733,
+      "end": 1804
+    },
+    "location": {
+      "lat": 53.8,
+      "lng": -1.55,
+      "region": "영국 요크셔"
+    },
+    "category": "scientist",
+    "subcategory": "chemistry",
+    "tags": [
+      "화학",
+      "산소",
+      "기체화학"
+    ],
+    "mvp": true,
+    "summary": "영국의 화학자이자 신학자. 산소를 독립적으로 발견하고 여러 기체를 분리하여 근대 기체화학의 선구자가 되었다.",
+    "detailed": "산소(탈플로지스톤 공기)를 발견하고 이산화탄소, 암모니아, 아산화질소 등 여러 기체를 분리했다. 탄산수를 발명하기도 했다. 프랑스 혁명을 지지하여 영국에서 박해를 받고 미국으로 이주했다.",
+    "keyWorks": [
+      {
+        "title": "여러 종류의 공기에 관한 실험과 관찰",
+        "year": 1774,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "가장 행복한 발견은 예상하지 못한 것에서 온다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "lavoisier"
+    ],
+    "field": [
+      "화학"
+    ],
+    "discoveries": [
+      "산소 발견",
+      "여러 기체 분리",
+      "탄산수 발명"
+    ]
+  },
+  {
+    "id": "herschel",
+    "name": {
+      "ko": "윌리엄 허셜",
+      "en": "William Herschel"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1738,
+      "end": 1822
+    },
+    "location": {
+      "lat": 52.38,
+      "lng": 9.72,
+      "region": "독일 하노버/영국 바스"
+    },
+    "category": "scientist",
+    "subcategory": "astronomy",
+    "tags": [
+      "천문학",
+      "천왕성",
+      "적외선",
+      "망원경"
+    ],
+    "mvp": true,
+    "summary": "독일 출신의 영국 천문학자. 천왕성을 발견하고 적외선 복사를 발견하여 태양계와 우주에 대한 이해를 혁명적으로 확장했다.",
+    "detailed": "1781년 천왕성을 발견하여 고대 이래 알려진 행성의 수를 늘렸다. 자체 제작한 대형 반사 망원경으로 수천 개의 성운과 성단을 관측하여 목록화했다. 태양 빛을 프리즘으로 분해하여 가시광선 너머의 적외선을 발견했다.",
+    "keyWorks": [
+      {
+        "title": "성운과 성단 목록",
+        "year": 1786,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "보는 법을 배워야 한다. 관측은 기술이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "hubble"
+    ],
+    "field": [
+      "천문학",
+      "광학"
+    ],
+    "discoveries": [
+      "천왕성 발견",
+      "적외선 발견",
+      "은하 구조 연구"
+    ]
+  },
+  {
+    "id": "lavoisier",
+    "name": {
+      "ko": "앙투안 라부아지에",
+      "en": "Antoine Lavoisier"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1743,
+      "end": 1794
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "scientist",
+    "subcategory": "chemistry",
+    "tags": [
+      "화학",
+      "산소",
+      "질량보존법칙"
+    ],
+    "mvp": true,
+    "summary": "근대 화학의 아버지. 연소의 산소 이론을 확립하고 질량보존의 법칙을 정립하여 화학을 근대 과학으로 전환시켰다.",
+    "detailed": "플로지스톤 이론을 반박하고 산소의 역할을 규명하여 연소와 호흡의 본질을 밝혔다. 화학 원소의 체계적 명명법을 도입하고 최초의 근대적 화학 교과서를 저술했다. 프랑스 혁명 중 세금 징수관이었던 이유로 단두대에서 처형되었다.",
+    "keyWorks": [
+      {
+        "title": "화학 원론",
+        "year": 1789,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자연에서는 아무것도 창조되지 않고, 아무것도 소멸하지 않는다.",
+        "source": "화학 원론"
+      }
+    ],
+    "influences": [
+      "boyle",
+      "priestley"
+    ],
+    "influenced": [
+      "dalton"
+    ],
+    "field": [
+      "화학"
+    ],
+    "discoveries": [
+      "산소 연소 이론",
+      "질량보존의 법칙",
+      "근대 화학 명명법"
+    ]
+  },
+  {
+    "id": "lamarck",
+    "name": {
+      "ko": "장바티스트 라마르크",
+      "en": "Jean-Baptiste Lamarck"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1744,
+      "end": 1829
+    },
+    "location": {
+      "lat": 49.87,
+      "lng": 2.3,
+      "region": "프랑스 피카르디"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "진화론",
+      "용불용설"
+    ],
+    "mvp": true,
+    "summary": "프랑스의 생물학자로, 최초로 체계적인 진화론(용불용설)을 제시했다. 다윈 이전 진화 사상의 가장 중요한 선구자이다.",
+    "detailed": "생물이 환경에 적응하며 획득한 형질이 자손에게 유전된다는 용불용설을 제시했다. 이 이론은 이후 부정되었으나, 진화의 개념을 학계에 도입한 공로는 크다. 무척추동물학을 창시하고 '생물학'이라는 용어를 처음 사용했다.",
+    "keyWorks": [
+      {
+        "title": "동물 철학",
+        "year": 1809,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자주 사용하는 기관은 발달하고, 사용하지 않는 기관은 퇴화한다.",
+        "source": "동물 철학"
+      }
+    ],
+    "influences": [
+      "linnaeus"
+    ],
+    "influenced": [
+      "darwin"
+    ],
+    "field": [
+      "생물학",
+      "진화론",
+      "무척추동물학"
+    ],
+    "discoveries": [
+      "용불용설",
+      "무척추동물학 창시",
+      "생물학 용어 도입"
+    ]
+  },
+  {
     "id": "edward-jenner",
     "name": {
       "ko": "에드워드 제너",
@@ -51,6 +1671,341 @@
     ],
     "discoveries": [
       "천연두 백신(종두법)"
+    ]
+  },
+  {
+    "id": "dalton",
+    "name": {
+      "ko": "존 돌턴",
+      "en": "John Dalton"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1766,
+      "end": 1844
+    },
+    "location": {
+      "lat": 54.6,
+      "lng": -2.75,
+      "region": "영국 컴벌랜드"
+    },
+    "category": "scientist",
+    "subcategory": "chemistry",
+    "tags": [
+      "화학",
+      "원자론",
+      "기상학"
+    ],
+    "mvp": true,
+    "summary": "영국의 화학자이자 물리학자. 근대 원자론을 제창하여 물질의 구성을 원자 단위로 설명하는 체계를 확립했다.",
+    "detailed": "모든 물질이 더 이상 쪼갤 수 없는 원자로 이루어져 있다는 근대 원자론을 제시했다. 배수비례의 법칙을 발견하고 원소별 원자량을 최초로 측정했다. 색맹에 대한 최초의 과학적 기술을 남겨 색맹을 '돌터니즘'이라고도 부른다.",
+    "keyWorks": [
+      {
+        "title": "화학철학의 새 체계",
+        "year": 1808,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "물질은 더 이상 나눌 수 없는 원자로 이루어져 있다.",
+        "source": "화학철학의 새 체계"
+      }
+    ],
+    "influences": [
+      "lavoisier"
+    ],
+    "influenced": [
+      "mendeleev"
+    ],
+    "field": [
+      "화학",
+      "물리학"
+    ],
+    "discoveries": [
+      "근대 원자론",
+      "배수비례의 법칙",
+      "원자량 측정"
+    ]
+  },
+  {
+    "id": "humboldt",
+    "name": {
+      "ko": "알렉산더 폰 훔볼트",
+      "en": "Alexander von Humboldt"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1769,
+      "end": 1859
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.4,
+      "region": "독일 베를린"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "자연과학",
+      "지리학",
+      "생태학",
+      "탐험"
+    ],
+    "mvp": true,
+    "summary": "독일의 자연과학자이자 탐험가. 남미 탐사를 통해 생물지리학을 창시하고 자연을 하나의 유기적 체계로 파악하는 통합적 자연관을 제시했다.",
+    "detailed": "남미를 5년간 탐험하며 방대한 자연 관측 데이터를 수집했다. 기후, 식생, 지형의 관계를 종합하여 생물지리학과 생태학의 기초를 놓았다. '코스모스'에서 자연 전체를 통합적으로 서술하는 야심작을 남겼다. 다윈에게 큰 영향을 주었다.",
+    "keyWorks": [
+      {
+        "title": "코스모스",
+        "year": 1845,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자연에서 가장 위험한 세계관은 아직 세계를 보지 못한 사람의 것이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "darwin"
+    ],
+    "field": [
+      "자연과학",
+      "지리학",
+      "생태학"
+    ],
+    "discoveries": [
+      "생물지리학 창시",
+      "등온선 개념",
+      "식생대 이론"
+    ]
+  },
+  {
+    "id": "berzelius",
+    "name": {
+      "ko": "옌스 베르셀리우스",
+      "en": "Jöns Jacob Berzelius"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1779,
+      "end": 1848
+    },
+    "location": {
+      "lat": 59.33,
+      "lng": 18.07,
+      "region": "스웨덴 스톡홀름"
+    },
+    "category": "scientist",
+    "subcategory": "chemistry",
+    "tags": [
+      "화학",
+      "원소기호",
+      "원자량"
+    ],
+    "mvp": true,
+    "summary": "스웨덴의 화학자로, 현대 화학 기호 체계를 고안하고 정밀한 원자량을 측정하여 19세기 화학의 발전에 크게 기여했다.",
+    "detailed": "오늘날 사용되는 원소 기호(H, O, C 등)를 고안했다. 수천 개의 화합물을 분석하여 정밀한 원자량 표를 작성했다. 세륨, 셀레늄, 토륨 등 여러 원소를 발견하고, '촉매', '이성질체', '단백질' 등의 화학 용어를 도입했다.",
+    "keyWorks": [
+      {
+        "title": "화학 교과서",
+        "year": 1808,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "화학의 언어는 정밀해야 한다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "dalton",
+      "lavoisier"
+    ],
+    "influenced": [],
+    "field": [
+      "화학"
+    ],
+    "discoveries": [
+      "현대 화학 기호 체계",
+      "정밀 원자량 측정",
+      "세륨·셀레늄·토륨 발견"
+    ]
+  },
+  {
+    "id": "faraday",
+    "name": {
+      "ko": "마이클 패러데이",
+      "en": "Michael Faraday"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1791,
+      "end": 1867
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "scientist",
+    "subcategory": "chemistry",
+    "tags": [
+      "물리학",
+      "화학",
+      "전자기학",
+      "전기분해"
+    ],
+    "mvp": true,
+    "summary": "영국의 실험물리학자이자 화학자. 전자기 유도를 발견하고 전기분해 법칙을 정립하여 전기 시대의 기초를 놓았다.",
+    "detailed": "자기장의 변화가 전류를 유도한다는 전자기 유도 법칙을 발견하여 발전기와 변압기의 원리를 제공했다. 전기분해의 정량적 법칙을 확립하고 벤젠을 발견했다. 독학으로 과학자가 된 입지전적 인물로, 장(field) 개념을 처음 도입했다.",
+    "keyWorks": [
+      {
+        "title": "전기학의 실험적 연구",
+        "year": 1839,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자연에 관한 모든 것은 아름다운 통일성을 이룬다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "maxwell"
+    ],
+    "field": [
+      "물리학",
+      "화학"
+    ],
+    "discoveries": [
+      "전자기 유도",
+      "패러데이 전기분해 법칙",
+      "벤젠 발견",
+      "장(field) 개념"
+    ]
+  },
+  {
+    "id": "carnot",
+    "name": {
+      "ko": "사디 카르노",
+      "en": "Sadi Carnot"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1796,
+      "end": 1832
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "scientist",
+    "subcategory": "classical_physics",
+    "tags": [
+      "물리학",
+      "열역학",
+      "열기관"
+    ],
+    "mvp": true,
+    "summary": "프랑스의 물리학자이자 공학자. 열기관의 효율에 관한 카르노 정리를 발표하여 열역학의 기초를 세웠다.",
+    "detailed": "이상적 열기관(카르노 기관)의 최대 효율을 이론적으로 도출하여 열역학 제2법칙의 기초를 놓았다. 36세에 콜레라로 요절했으나 그의 업적은 이후 클라우지우스와 켈빈에 의해 발전되었다.",
+    "keyWorks": [
+      {
+        "title": "불의 동력에 관한 고찰",
+        "year": 1824,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "열에서 동력을 얻을 수 있는 곳에는 항상 온도차가 있다.",
+        "source": "불의 동력에 관한 고찰"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "kelvin",
+      "boltzmann"
+    ],
+    "field": [
+      "열역학"
+    ],
+    "discoveries": [
+      "카르노 정리",
+      "카르노 순환",
+      "열기관 효율 이론"
+    ]
+  },
+  {
+    "id": "darwin",
+    "name": {
+      "ko": "찰스 다윈",
+      "en": "Charles Darwin"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1809,
+      "end": 1882
+    },
+    "location": {
+      "lat": 52.71,
+      "lng": -2.49,
+      "region": "영국 슈루즈베리"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "진화론",
+      "자연선택",
+      "종의 기원"
+    ],
+    "mvp": true,
+    "summary": "영국의 생물학자로, 자연선택에 의한 진화론을 제창하여 생물학의 패러다임을 완전히 바꾸었다. '종의 기원'은 과학사에서 가장 영향력 있는 저서 중 하나이다.",
+    "detailed": "비글호 항해에서의 관찰을 바탕으로 자연선택 이론을 발전시켰다. 갈라파고스 제도의 핀치새 변이가 중요한 증거가 되었다. 생물의 다양성이 공통 조상에서 자연선택을 통해 분화되었다는 이론은 생물학의 통합 원리가 되었다.",
+    "keyWorks": [
+      {
+        "title": "종의 기원",
+        "year": 1859,
+        "type": "book"
+      },
+      {
+        "title": "인간의 유래",
+        "year": 1871,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "살아남는 것은 가장 강한 종이 아니라 변화에 가장 잘 적응하는 종이다.",
+        "source": "종의 기원(의역)"
+      }
+    ],
+    "influences": [
+      "lamarck",
+      "linnaeus"
+    ],
+    "influenced": [
+      "mendel",
+      "richard-dawkins",
+      "stephen-jay-gould"
+    ],
+    "field": [
+      "생물학",
+      "진화론"
+    ],
+    "discoveries": [
+      "자연선택 이론",
+      "공통 조상 이론",
+      "성선택 이론"
     ]
   },
   {
@@ -110,6 +2065,501 @@
     ]
   },
   {
+    "id": "helmholtz",
+    "name": {
+      "ko": "헤르만 폰 헬름홀츠",
+      "en": "Hermann von Helmholtz"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1821,
+      "end": 1894
+    },
+    "location": {
+      "lat": 52.4,
+      "lng": 13.06,
+      "region": "독일 포츠담"
+    },
+    "category": "scientist",
+    "subcategory": "classical_physics",
+    "tags": [
+      "물리학",
+      "생리학",
+      "에너지보존"
+    ],
+    "mvp": true,
+    "summary": "독일의 물리학자이자 생리학자. 에너지 보존 법칙을 수학적으로 정식화하고, 시각과 청각의 생리학에 혁명적 업적을 남겼다.",
+    "detailed": "에너지 보존 법칙을 엄밀하게 수학적으로 정립했다. 검안경을 발명하여 안과학을 혁신하고, 음색과 화음에 대한 청각 이론을 제시했다. 물리학, 생리학, 수학, 철학을 넘나드는 범학문적 업적을 남겼다.",
+    "keyWorks": [
+      {
+        "title": "힘의 보존에 관하여",
+        "year": 1847,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "자연의 모든 힘은 보존된다.",
+        "source": "힘의 보존에 관하여"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "hertz",
+      "boltzmann"
+    ],
+    "field": [
+      "물리학",
+      "생리학"
+    ],
+    "discoveries": [
+      "에너지 보존 법칙 정식화",
+      "검안경 발명",
+      "청각 공명 이론"
+    ]
+  },
+  {
+    "id": "pasteur",
+    "name": {
+      "ko": "루이 파스퇴르",
+      "en": "Louis Pasteur"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1822,
+      "end": 1895
+    },
+    "location": {
+      "lat": 47.08,
+      "lng": 5.49,
+      "region": "프랑스 돌"
+    },
+    "category": "scientist",
+    "subcategory": "chemistry",
+    "tags": [
+      "미생물학",
+      "화학",
+      "백신",
+      "저온살균"
+    ],
+    "mvp": true,
+    "summary": "프랑스의 화학자이자 미생물학자. 세균설을 확립하고 광견병 백신을 개발하여 근대 미생물학과 면역학의 기초를 세웠다.",
+    "detailed": "자연발생설을 실험으로 반박하고 질병의 세균 원인설을 확립했다. 저온살균법(파스퇴라이제이션)을 개발하여 식품 안전에 혁명을 가져왔다. 탄저병과 광견병 백신을 개발하여 수많은 생명을 구했다.",
+    "keyWorks": [
+      {
+        "title": "자연발생설 비판 연구",
+        "year": 1861,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "준비된 마음만이 기회를 잡는다.",
+        "source": "릴 대학 강연"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "koch"
+    ],
+    "field": [
+      "미생물학",
+      "화학",
+      "면역학"
+    ],
+    "discoveries": [
+      "세균설 확립",
+      "저온살균법",
+      "광견병 백신",
+      "자연발생설 반박"
+    ]
+  },
+  {
+    "id": "mendel",
+    "name": {
+      "ko": "그레고르 멘델",
+      "en": "Gregor Mendel"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1822,
+      "end": 1884
+    },
+    "location": {
+      "lat": 49.2,
+      "lng": 16.61,
+      "region": "오스트리아(현 체코) 브르노"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "생물학",
+      "유전학",
+      "유전법칙"
+    ],
+    "mvp": true,
+    "summary": "오스트리아의 수도사이자 생물학자. 완두콩 실험으로 유전의 기본 법칙을 발견하여 '유전학의 아버지'로 불린다.",
+    "detailed": "완두콩의 교배 실험을 통해 우열의 법칙, 분리의 법칙, 독립의 법칙을 발견했다. 생전에는 인정받지 못했으나 1900년에 재발견되어 근대 유전학의 출발점이 되었다. 통계적 방법을 생물학에 적용한 선구자이기도 했다.",
+    "keyWorks": [
+      {
+        "title": "식물 잡종에 관한 실험",
+        "year": 1866,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나의 시대가 올 것이다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "darwin"
+    ],
+    "influenced": [
+      "morgan"
+    ],
+    "field": [
+      "유전학",
+      "생물학"
+    ],
+    "discoveries": [
+      "멘델의 유전법칙 3가지",
+      "유전자 개념의 기초"
+    ]
+  },
+  {
+    "id": "kelvin",
+    "name": {
+      "ko": "윌리엄 톰슨 켈빈",
+      "en": "Lord Kelvin"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1824,
+      "end": 1907
+    },
+    "location": {
+      "lat": 54.6,
+      "lng": -5.93,
+      "region": "아일랜드 벨파스트"
+    },
+    "category": "scientist",
+    "subcategory": "classical_physics",
+    "tags": [
+      "물리학",
+      "열역학",
+      "절대온도"
+    ],
+    "mvp": true,
+    "summary": "아일랜드 출신의 물리학자. 절대온도 체계(켈빈 온도)를 도입하고 열역학 제2법칙을 정립하여 열역학의 발전에 크게 기여했다.",
+    "detailed": "절대 영도의 존재를 이론적으로 도출하고 절대온도 척도를 확립했다. 열역학 제2법칙의 켈빈 표현을 제시하고, 대서양 횡단 전신 케이블 설치에 핵심적 역할을 했다. 지구의 나이를 열역학적으로 계산하기도 했다.",
+    "keyWorks": [
+      {
+        "title": "열의 동역학적 이론에 관하여",
+        "year": 1851,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "측정할 수 없는 것은 개선할 수 없다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "carnot"
+    ],
+    "influenced": [],
+    "field": [
+      "열역학",
+      "전기공학"
+    ],
+    "discoveries": [
+      "절대온도 척도",
+      "열역학 제2법칙 정립",
+      "대서양 전신 케이블"
+    ]
+  },
+  {
+    "id": "maxwell",
+    "name": {
+      "ko": "제임스 클러크 맥스웰",
+      "en": "James Clerk Maxwell"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1831,
+      "end": 1879
+    },
+    "location": {
+      "lat": 55.95,
+      "lng": -3.19,
+      "region": "스코틀랜드 에든버러"
+    },
+    "category": "scientist",
+    "subcategory": "classical_physics",
+    "tags": [
+      "물리학",
+      "전자기학",
+      "통계역학",
+      "광학"
+    ],
+    "mvp": true,
+    "summary": "스코틀랜드의 물리학자로, 전자기장 이론을 통합하여 맥스웰 방정식을 정립했다. 아인슈타인이 뉴턴 이래 가장 위대한 물리학자로 꼽은 인물이다.",
+    "detailed": "전기와 자기를 하나의 전자기장 이론으로 통합하고 빛이 전자기파임을 예측했다. 기체의 속도 분포를 기술하는 맥스웰-볼츠만 분포를 도출하여 통계역학의 기초를 세웠다. 최초의 컬러 사진 실험도 수행했다.",
+    "keyWorks": [
+      {
+        "title": "전자기학 논고",
+        "year": 1873,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "빛 자체가 전자기적 교란이다.",
+        "source": "전자기학 논고"
+      }
+    ],
+    "influences": [
+      "faraday",
+      "newton"
+    ],
+    "influenced": [
+      "hertz",
+      "einstein",
+      "boltzmann"
+    ],
+    "field": [
+      "전자기학",
+      "통계역학",
+      "광학"
+    ],
+    "discoveries": [
+      "맥스웰 방정식",
+      "빛의 전자기파 성질 예측",
+      "맥스웰-볼츠만 분포"
+    ]
+  },
+  {
+    "id": "mendeleev",
+    "name": {
+      "ko": "드미트리 멘델레예프",
+      "en": "Dmitri Mendeleev"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1834,
+      "end": 1907
+    },
+    "location": {
+      "lat": 57.15,
+      "lng": 65.53,
+      "region": "러시아 토볼스크"
+    },
+    "category": "scientist",
+    "subcategory": "chemistry",
+    "tags": [
+      "화학",
+      "주기율표",
+      "원소"
+    ],
+    "mvp": true,
+    "summary": "러시아의 화학자로, 원소 주기율표를 고안하여 화학 원소의 체계적 분류를 확립했다. 미발견 원소의 성질을 정확히 예측했다.",
+    "detailed": "원소를 원자량 순으로 배열하면 성질이 주기적으로 반복된다는 주기율을 발견했다. 당시 알려지지 않은 원소들의 존재와 성질을 예측하여 이후 실제로 확인되었다. 63개 원소를 체계화한 주기율표는 화학의 가장 중요한 도구가 되었다.",
+    "keyWorks": [
+      {
+        "title": "화학의 원리",
+        "year": 1869,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "미래의 원소들을 위한 자리를 비워두어야 한다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "dalton"
+    ],
+    "influenced": [],
+    "field": [
+      "화학"
+    ],
+    "discoveries": [
+      "원소 주기율표",
+      "미발견 원소 예측"
+    ]
+  },
+  {
+    "id": "rayleigh",
+    "name": {
+      "ko": "존 레일리",
+      "en": "Lord Rayleigh"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1842,
+      "end": 1919
+    },
+    "location": {
+      "lat": 51.87,
+      "lng": 0.42,
+      "region": "영국 에식스"
+    },
+    "category": "scientist",
+    "subcategory": "classical_physics",
+    "tags": [
+      "물리학",
+      "음향학",
+      "광학",
+      "아르곤"
+    ],
+    "mvp": true,
+    "summary": "영국의 물리학자. 하늘이 파란 이유를 설명하는 레일리 산란 이론을 제시하고, 아르곤을 발견하여 노벨 물리학상을 수상했다.",
+    "detailed": "빛이 대기 분자에 의해 산란되는 레일리 산란 현상을 수학적으로 설명했다. 대기 중 질소의 밀도 이상을 추적하여 비활성 기체 아르곤을 발견했다. 음향학에서도 중요한 업적을 남겨 '음향학의 이론'은 고전이 되었다.",
+    "keyWorks": [
+      {
+        "title": "음향학의 이론",
+        "year": 1877,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "과학에서 가장 흥미로운 발견은 예상과 다른 결과에서 시작된다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "maxwell"
+    ],
+    "influenced": [],
+    "field": [
+      "물리학",
+      "음향학",
+      "광학"
+    ],
+    "discoveries": [
+      "레일리 산란",
+      "아르곤 발견",
+      "레일리-진스 법칙"
+    ]
+  },
+  {
+    "id": "koch",
+    "name": {
+      "ko": "로베르트 코흐",
+      "en": "Robert Koch"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1843,
+      "end": 1910
+    },
+    "location": {
+      "lat": 51.77,
+      "lng": 10.23,
+      "region": "독일 하르츠"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "미생물학",
+      "세균학",
+      "결핵",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "독일의 의사이자 미생물학자. 결핵균과 콜레라균을 발견하고, 특정 병원체가 특정 질병을 일으킴을 증명하는 코흐의 원칙을 확립했다.",
+    "detailed": "탄저병, 결핵, 콜레라의 원인균을 분리하고 동정하여 세균학의 방법론을 확립했다. 코흐의 원칙(Koch's postulates)은 감염병 연구의 표준 방법론이 되었다. 1905년 결핵 연구로 노벨 생리의학상을 수상했다.",
+    "keyWorks": [
+      {
+        "title": "결핵의 병인론",
+        "year": 1882,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "세균이 질병을 일으킨다는 것을 증명하려면 네 가지 조건이 필요하다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "pasteur"
+    ],
+    "influenced": [],
+    "field": [
+      "미생물학",
+      "세균학",
+      "의학"
+    ],
+    "discoveries": [
+      "결핵균 발견",
+      "콜레라균 발견",
+      "코흐의 원칙"
+    ]
+  },
+  {
+    "id": "boltzmann",
+    "name": {
+      "ko": "루트비히 볼츠만",
+      "en": "Ludwig Boltzmann"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1844,
+      "end": 1906
+    },
+    "location": {
+      "lat": 48.21,
+      "lng": 16.37,
+      "region": "오스트리아 빈"
+    },
+    "category": "scientist",
+    "subcategory": "classical_physics",
+    "tags": [
+      "물리학",
+      "통계역학",
+      "열역학",
+      "엔트로피"
+    ],
+    "mvp": true,
+    "summary": "오스트리아의 물리학자로, 통계역학의 창시자. 엔트로피를 미시적 상태의 수로 정의하는 볼츠만 공식(S=k log W)을 확립했다.",
+    "detailed": "기체의 거시적 성질을 원자의 통계적 행동으로 설명하는 이론을 개발했다. 엔트로피와 확률의 관계를 나타내는 볼츠만 공식은 통계역학의 핵심이다. 원자의 실재를 둘러싼 논쟁에서 고립되어 비극적으로 생을 마감했다.",
+    "keyWorks": [
+      {
+        "title": "기체론 강의",
+        "year": 1896,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "S = k log W",
+        "source": "볼츠만 묘비"
+      }
+    ],
+    "influences": [
+      "maxwell"
+    ],
+    "influenced": [
+      "planck",
+      "einstein"
+    ],
+    "field": [
+      "통계역학",
+      "열역학"
+    ],
+    "discoveries": [
+      "볼츠만 엔트로피 공식",
+      "통계역학 체계화",
+      "볼츠만 수송 방정식"
+    ]
+  },
+  {
     "id": "ramon-y-cajal",
     "name": {
       "ko": "산티아고 라몬 이 카할",
@@ -164,6 +2614,61 @@
       "뉴런 독립체설",
       "신경 가소성 개념",
       "축삭 성장 원뿔"
+    ]
+  },
+  {
+    "id": "lorentz",
+    "name": {
+      "ko": "헨드릭 로런츠",
+      "en": "Hendrik Lorentz"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1853,
+      "end": 1928
+    },
+    "location": {
+      "lat": 52.16,
+      "lng": 4.49,
+      "region": "네덜란드 레이던"
+    },
+    "category": "scientist",
+    "subcategory": "classical_physics",
+    "tags": [
+      "물리학",
+      "전자기학",
+      "로런츠 변환"
+    ],
+    "mvp": true,
+    "summary": "네덜란드의 물리학자. 로런츠 변환을 도출하여 아인슈타인의 특수상대성이론에 수학적 토대를 제공했다.",
+    "detailed": "전자론을 발전시켜 물질과 전자기장의 상호작용을 설명했다. 로런츠 변환은 특수상대성이론의 핵심 수학적 틀이 되었다. 제만 효과의 이론적 설명으로 1902년 노벨 물리학상을 수상했다.",
+    "keyWorks": [
+      {
+        "title": "전자론",
+        "year": 1909,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "아인슈타인은 물리학의 새로운 시대를 열었다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "maxwell"
+    ],
+    "influenced": [
+      "einstein"
+    ],
+    "field": [
+      "이론물리학",
+      "전자기학"
+    ],
+    "discoveries": [
+      "로런츠 변환",
+      "전자론",
+      "제만 효과 설명"
     ]
   },
   {
@@ -285,6 +2790,61 @@
       "시냅스 개념",
       "흥분-억제 신경 메커니즘",
       "고유감각"
+    ]
+  },
+  {
+    "id": "hertz",
+    "name": {
+      "ko": "하인리히 헤르츠",
+      "en": "Heinrich Hertz"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1857,
+      "end": 1894
+    },
+    "location": {
+      "lat": 53.55,
+      "lng": 10.0,
+      "region": "독일 함부르크"
+    },
+    "category": "scientist",
+    "subcategory": "classical_physics",
+    "tags": [
+      "물리학",
+      "전자기파",
+      "무선통신"
+    ],
+    "mvp": true,
+    "summary": "독일의 물리학자로, 전자기파의 존재를 실험적으로 증명하여 맥스웰의 이론을 입증했다. 주파수 단위 헤르츠(Hz)는 그의 이름에서 유래했다.",
+    "detailed": "전자기파를 실험실에서 생성하고 감지하는 데 최초로 성공하여 맥스웰의 예측을 실증했다. 전자기파의 반사, 굴절, 간섭 현상을 확인했다. 광전효과도 최초로 관찰하여 이후 아인슈타인의 연구에 단초를 제공했다.",
+    "keyWorks": [
+      {
+        "title": "전기력의 전파 속도에 관하여",
+        "year": 1888,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "이 무선파는 아무 실용적 가치가 없을 것이다.",
+        "source": "실험 시연 중"
+      }
+    ],
+    "influences": [
+      "maxwell",
+      "helmholtz"
+    ],
+    "influenced": [
+      "einstein"
+    ],
+    "field": [
+      "물리학",
+      "전자기학"
+    ],
+    "discoveries": [
+      "전자기파 실험적 증명",
+      "광전효과 최초 관찰"
     ]
   },
   {
@@ -421,6 +2981,64 @@
     ]
   },
   {
+    "id": "morgan",
+    "name": {
+      "ko": "토머스 헌트 모건",
+      "en": "Thomas Hunt Morgan"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1866,
+      "end": 1945
+    },
+    "location": {
+      "lat": 38.05,
+      "lng": -84.5,
+      "region": "미국 켄터키"
+    },
+    "category": "scientist",
+    "subcategory": "biology",
+    "tags": [
+      "유전학",
+      "생물학",
+      "초파리",
+      "염색체"
+    ],
+    "mvp": true,
+    "summary": "미국의 유전학자. 초파리 실험으로 유전자가 염색체 위에 있음을 증명하고 연관과 교차 현상을 밝혀 근대 유전학을 확립했다.",
+    "detailed": "초파리(Drosophila)를 모델 생물로 사용하여 성연관 유전, 유전자 연관, 염색체 교차를 발견했다. 유전자가 염색체의 특정 위치에 존재한다는 것을 증명하여 1933년 노벨 생리의학상을 수상했다. 최초의 유전자 지도를 작성했다.",
+    "keyWorks": [
+      {
+        "title": "유전자론",
+        "year": 1926,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "유전자는 염색체의 구슬처럼 일렬로 배열되어 있다.",
+        "source": ""
+      }
+    ],
+    "influences": [
+      "mendel",
+      "darwin"
+    ],
+    "influenced": [
+      "crick",
+      "watson"
+    ],
+    "field": [
+      "유전학",
+      "발생학"
+    ],
+    "discoveries": [
+      "성연관 유전 발견",
+      "유전자 연관과 교차",
+      "최초의 유전자 지도"
+    ]
+  },
+  {
     "id": "marie-curie",
     "name": {
       "ko": "마리 퀴리",
@@ -478,6 +3096,56 @@
       "폴로늄 발견",
       "라듐 발견",
       "방사능 연구"
+    ]
+  },
+  {
+    "id": "fritz-haber",
+    "name": {
+      "ko": "프리츠 하버",
+      "en": "Fritz Haber"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1868,
+      "end": 1934
+    },
+    "location": {
+      "lat": 51.11,
+      "lng": 17.04,
+      "region": "독일 브레슬라우"
+    },
+    "category": "scientist",
+    "subcategory": "chemistry",
+    "tags": [
+      "화학",
+      "합성암모니아",
+      "화학무기"
+    ],
+    "mvp": true,
+    "summary": "독일의 화학자로, 공기 중 질소를 암모니아로 합성하는 하버법을 개발하여 식량 생산을 혁명적으로 증대시켰다. 동시에 화학무기 개발의 책임자이기도 했다.",
+    "detailed": "하버-보슈법으로 공기 중 질소를 고정하여 비료 대량생산을 가능하게 했고, 이는 인류 인구 폭발의 핵심 요인이 되었다. 1차 세계대전 중 독가스 사용을 주도하여 '화학전의 아버지'라는 오명도 가지고 있다. 과학의 이중성을 상징하는 인물이다.",
+    "keyWorks": [
+      {
+        "title": "하버-보슈 암모니아 합성법",
+        "year": 1909,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "평화 시에 과학자는 세계에 속하지만, 전시에는 조국에 속한다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "field": [
+      "화학",
+      "물리화학"
+    ],
+    "discoveries": [
+      "하버-보슈 암모니아 합성법",
+      "화학무기 개발"
     ]
   },
   {
@@ -874,6 +3542,60 @@
     ]
   },
   {
+    "id": "hubble",
+    "name": {
+      "ko": "에드윈 허블",
+      "en": "Edwin Hubble"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1889,
+      "end": 1953
+    },
+    "location": {
+      "lat": 38.17,
+      "lng": -86.26,
+      "region": "미국 미주리"
+    },
+    "category": "scientist",
+    "subcategory": "astronomy",
+    "tags": [
+      "천문학",
+      "우주팽창",
+      "은하",
+      "허블법칙"
+    ],
+    "mvp": true,
+    "summary": "미국의 천문학자로, 우주가 팽창하고 있음을 발견하여 현대 우주론의 기초를 세웠다. 은하 외부의 은하 존재도 최초로 증명했다.",
+    "detailed": "안드로메다 성운이 우리 은하 밖의 독립된 은하임을 증명하여 우주의 크기에 대한 인식을 혁명적으로 변화시켰다. 은하의 적색편이가 거리에 비례한다는 허블의 법칙을 발견하여 우주팽창을 입증했다. 허블 우주망원경은 그의 이름을 따서 명명되었다.",
+    "keyWorks": [
+      {
+        "title": "성운의 세계",
+        "year": 1936,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "관측된 사실 앞에서 이론은 겸손해야 한다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "hawking"
+    ],
+    "field": [
+      "천문학",
+      "관측우주론"
+    ],
+    "discoveries": [
+      "우주 팽창 발견",
+      "외부 은하 존재 증명",
+      "허블의 법칙"
+    ]
+  },
+  {
     "id": "norbert-wiener",
     "name": {
       "ko": "노버트 위너",
@@ -933,6 +3655,56 @@
       "사이버네틱스",
       "위너 과정",
       "위너 필터"
+    ]
+  },
+  {
+    "id": "cecilia-payne",
+    "name": {
+      "ko": "세실리아 페인",
+      "en": "Cecilia Payne-Gaposchkin"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1900,
+      "end": 1979
+    },
+    "location": {
+      "lat": 52.21,
+      "lng": 0.12,
+      "region": "영국 웬도버/미국 하버드"
+    },
+    "category": "scientist",
+    "subcategory": "astronomy",
+    "tags": [
+      "천체물리학",
+      "항성분광학",
+      "수소"
+    ],
+    "mvp": true,
+    "summary": "영국 출신의 천문학자. 별이 주로 수소와 헬륨으로 구성되어 있음을 밝혀 항성 물리학의 근본적 발견을 이루었다.",
+    "detailed": "1925년 박사논문에서 항성 스펙트럼 분석을 통해 별의 주성분이 수소임을 밝혔다. 이 발견은 당시 학계의 통설에 반하여 처음에는 인정받지 못했으나 이후 '천문학 역사상 가장 훌륭한 박사논문'으로 평가받았다. 하버드 최초의 여성 정교수가 되었다.",
+    "keyWorks": [
+      {
+        "title": "항성 대기",
+        "year": 1925,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "연구자의 보상은 최초로 무언가를 발견하는 감격이다.",
+        "source": "자서전"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "field": [
+      "천체물리학",
+      "분광학"
+    ],
+    "discoveries": [
+      "별의 수소 주성분 발견",
+      "항성 분광 분류"
     ]
   },
   {
@@ -1060,6 +3832,59 @@
       "페르미-디랙 통계",
       "베타 붕괴 이론",
       "중성자 감속 효과"
+    ]
+  },
+  {
+    "id": "linus-pauling",
+    "name": {
+      "ko": "라이너스 폴링",
+      "en": "Linus Pauling"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1901,
+      "end": 1994
+    },
+    "location": {
+      "lat": 45.52,
+      "lng": -122.68,
+      "region": "미국 오리건"
+    },
+    "category": "scientist",
+    "subcategory": "chemistry",
+    "tags": [
+      "화학",
+      "양자화학",
+      "분자생물학",
+      "노벨상",
+      "평화운동"
+    ],
+    "mvp": true,
+    "summary": "미국의 화학자로, 화학결합의 본질을 양자역학으로 설명하여 분자화학을 혁신했다. 노벨 화학상과 노벨 평화상을 동시에 수상한 유일한 인물이다.",
+    "detailed": "전기음성도 개념과 혼성 궤도 이론으로 화학결합의 본질을 밝혔다. 단백질의 알파 나선 구조를 예측하여 분자생물학에도 기여했다. 핵실험 반대 운동을 주도하여 노벨 평화상을 수상했다.",
+    "keyWorks": [
+      {
+        "title": "화학결합의 본질",
+        "year": 1939,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "최선의 방법은 많은 아이디어를 갖는 것이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "field": [
+      "양자화학",
+      "분자생물학"
+    ],
+    "discoveries": [
+      "전기음성도 개념",
+      "혼성 궤도 이론",
+      "단백질 알파 나선 구조 예측"
     ]
   },
   {
@@ -1481,6 +4306,61 @@
       "란다우 감쇠",
       "란다우 상전이 이론",
       "페르미 액체 이론"
+    ]
+  },
+  {
+    "id": "chandrasekhar",
+    "name": {
+      "ko": "수브라마니안 찬드라세카르",
+      "en": "Subrahmanyan Chandrasekhar"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1910,
+      "end": 1995
+    },
+    "location": {
+      "lat": 13.08,
+      "lng": 80.27,
+      "region": "인도 라호르/미국 시카고"
+    },
+    "category": "scientist",
+    "subcategory": "astronomy",
+    "tags": [
+      "천체물리학",
+      "백색왜성",
+      "찬드라세카르 한계",
+      "노벨상"
+    ],
+    "mvp": true,
+    "summary": "인도 출신의 천체물리학자. 백색왜성의 질량 상한(찬드라세카르 한계)을 계산하여 별의 진화와 블랙홀 이론에 기여했다.",
+    "detailed": "백색왜성의 질량이 태양의 약 1.4배를 넘으면 중력 붕괴한다는 찬드라세카르 한계를 19세에 도출했다. 이 발견은 초신성과 블랙홀 형성의 이론적 기초가 되었다. 1983년 노벨 물리학상을 수상했으며 찬드라 X선 우주망원경은 그의 이름을 따랐다.",
+    "keyWorks": [
+      {
+        "title": "항성 구조 입문",
+        "year": 1939,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "과학에서의 아름다움은 진리에 가까워지는 것이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "hawking",
+      "penrose"
+    ],
+    "field": [
+      "천체물리학",
+      "수리물리학"
+    ],
+    "discoveries": [
+      "찬드라세카르 한계",
+      "백색왜성 이론",
+      "복사 전달 이론"
     ]
   },
   {
@@ -2045,6 +4925,56 @@
     ]
   },
   {
+    "id": "vera-rubin",
+    "name": {
+      "ko": "베라 루빈",
+      "en": "Vera Rubin"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1928,
+      "end": 2016
+    },
+    "location": {
+      "lat": 38.91,
+      "lng": -77.04,
+      "region": "미국 워싱턴 D.C."
+    },
+    "category": "scientist",
+    "subcategory": "astronomy",
+    "tags": [
+      "천문학",
+      "암흑물질",
+      "은하회전"
+    ],
+    "mvp": true,
+    "summary": "미국의 천문학자. 은하의 회전 속도 관측을 통해 암흑물질의 존재를 입증하여 현대 우주론에 혁명적 기여를 했다.",
+    "detailed": "은하 외곽의 별들이 예상보다 빠르게 회전한다는 관측 결과를 발표하여, 보이지 않는 암흑물질의 존재를 강력히 시사했다. 우주 질량의 대부분이 암흑물질임을 밝히는 데 결정적 역할을 했다. 여성 천문학자로서 많은 차별을 극복한 선구자이기도 했다.",
+    "keyWorks": [
+      {
+        "title": "은하 회전과 암흑물질에 관한 논문",
+        "year": 1978,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "과학에서 여성의 수가 적은 것은 여성의 능력 탓이 아니라 기회의 부족 탓이다.",
+        "source": ""
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "field": [
+      "천문학",
+      "관측우주론"
+    ],
+    "discoveries": [
+      "은하 회전 곡선 측정",
+      "암흑물질 존재 증거"
+    ]
+  },
+  {
     "id": "gell-mann",
     "name": {
       "ko": "머리 겔만",
@@ -2298,6 +5228,64 @@
     ]
   },
   {
+    "id": "sagan",
+    "name": {
+      "ko": "칼 세이건",
+      "en": "Carl Sagan"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1934,
+      "end": 1996
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -73.95,
+      "region": "미국 뉴욕"
+    },
+    "category": "scientist",
+    "subcategory": "astronomy",
+    "tags": [
+      "천문학",
+      "행성과학",
+      "과학대중화",
+      "외계생명"
+    ],
+    "mvp": true,
+    "summary": "미국의 천문학자이자 과학 저술가. 행성 탐사 프로그램에 기여하고 TV 시리즈 '코스모스'로 과학 대중화에 혁명적 역할을 했다.",
+    "detailed": "금성의 온실효과와 타이탄의 대기를 연구하고 NASA 행성 탐사에 참여했다. TV 시리즈 '코스모스'는 전 세계 수억 명이 시청한 과학 다큐멘터리의 금자탑이다. 보이저 탐사선에 금빛 음반을 실어 외계 문명에 보내는 프로젝트를 주도했다.",
+    "keyWorks": [
+      {
+        "title": "코스모스",
+        "year": 1980,
+        "type": "book"
+      },
+      {
+        "title": "창백한 푸른 점",
+        "year": 1994,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "우리는 모두 별의 먼지로 만들어졌다.",
+        "source": "코스모스"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "field": [
+      "행성과학",
+      "천문학",
+      "과학커뮤니케이션"
+    ],
+    "discoveries": [
+      "금성 온실효과 규명",
+      "보이저 금빛 음반 프로젝트",
+      "과학 대중화"
+    ]
+  },
+  {
     "id": "lynn-margulis",
     "name": {
       "ko": "린 마굴리스",
@@ -2539,6 +5527,56 @@
       "특이점 정리",
       "블랙홀 열역학",
       "무경계 가설"
+    ]
+  },
+  {
+    "id": "jocelyn-bell-burnell",
+    "name": {
+      "ko": "조슬린 벨 버넬",
+      "en": "Jocelyn Bell Burnell"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1943,
+      "end": 2026
+    },
+    "location": {
+      "lat": 54.6,
+      "lng": -5.93,
+      "region": "영국 북아일랜드 벨파스트"
+    },
+    "category": "scientist",
+    "subcategory": "astronomy",
+    "tags": [
+      "천체물리학",
+      "펄서",
+      "중성자별",
+      "전파천문학"
+    ],
+    "mvp": true,
+    "summary": "영국의 천체물리학자. 대학원생 시절 최초로 펄서(맥동하는 중성자별)를 발견하여 천체물리학의 새 분야를 열었다.",
+    "detailed": "1967년 전파망원경 데이터에서 규칙적인 전파 펄스를 발견하여 펄서의 존재를 밝혔다. 노벨상은 지도교수에게 수여되어 논란이 되었으나, 이후 과학계에서 광범위한 인정을 받았다. 여성 과학자의 권익 향상에도 크게 기여했다.",
+    "keyWorks": [
+      {
+        "title": "펄서 발견 논문",
+        "year": 1968,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "나는 쓰레기 신호라고 생각한 것이 역사상 가장 중요한 발견이 될 줄 몰랐다.",
+        "source": "강연"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "field": [
+      "천체물리학",
+      "전파천문학"
+    ],
+    "discoveries": [
+      "펄서(맥동 중성자별) 최초 발견"
     ]
   },
   {
