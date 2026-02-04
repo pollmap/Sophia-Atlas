@@ -196,7 +196,7 @@ export default function SearchPage() {
                   {results.persons.map((item) => (
                     <Link
                       key={item.id}
-                      href={`/persons/${item.id}/`}
+                      href={`/persons/${item.id}`}
                       className="flex items-start gap-3 p-4 rounded-xl border border-border bg-background-secondary/20 hover:bg-background-secondary/40 transition-colors group"
                     >
                       <BookOpen className="w-4 h-4 text-blue-400 flex-shrink-0 mt-1" />
@@ -245,7 +245,7 @@ export default function SearchPage() {
                   {results.religions.map((item) => (
                     <Link
                       key={item.id}
-                      href={`/religion/${item.id}/`}
+                      href={`/religion/${item.id}`}
                       className="flex items-start gap-3 p-4 rounded-xl border border-border bg-background-secondary/20 hover:bg-background-secondary/40 transition-colors group"
                     >
                       {item.type === "religion" ? (

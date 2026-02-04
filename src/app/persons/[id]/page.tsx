@@ -95,7 +95,7 @@ export default async function PersonPage({
       <div className="min-h-screen bg-[#0F172A] flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-white mb-4">인물을 찾을 수 없습니다</h1>
-          <Link href="/persons/" className="text-indigo-400 hover:text-indigo-300 transition-colors">
+          <Link href="/persons" className="text-indigo-400 hover:text-indigo-300 transition-colors">
             인물 목록으로 돌아가기
           </Link>
         </div>
@@ -111,7 +111,7 @@ export default async function PersonPage({
       {/* Back Navigation */}
       <div className="max-w-4xl mx-auto px-4 pt-8">
         <Link
-          href="/persons/"
+          href="/persons"
           className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors"
         >
           <ArrowLeft className="w-4 h-4" />
@@ -305,7 +305,7 @@ export default async function PersonPage({
                     {person.influences.map((infId) => {
                       const cat = getPersonCategory(infId);
                       return (
-                        <Link key={infId} href={`/persons/${infId}/`} className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-700/30 transition-colors group">
+                        <Link key={infId} href={`/persons/${infId}`} className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-700/30 transition-colors group">
                           <div className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{ backgroundColor: cat ? getCategoryHexColor(cat) : '#64748B' }} />
                           <span className="text-slate-300 group-hover:text-white transition-colors">{getPersonName(infId)}</span>
                         </Link>
@@ -323,7 +323,7 @@ export default async function PersonPage({
                     {person.influenced.map((infId) => {
                       const cat = getPersonCategory(infId);
                       return (
-                        <Link key={infId} href={`/persons/${infId}/`} className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-700/30 transition-colors group">
+                        <Link key={infId} href={`/persons/${infId}`} className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-700/30 transition-colors group">
                           <div className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{ backgroundColor: cat ? getCategoryHexColor(cat) : '#64748B' }} />
                           <span className="text-slate-300 group-hover:text-white transition-colors">{getPersonName(infId)}</span>
                         </Link>

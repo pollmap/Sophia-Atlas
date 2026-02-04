@@ -519,7 +519,7 @@ export default function TimelinePage() {
                           return (
                             <Link
                               key={p.id}
-                              href={`/philosophy/${p.id}/`}
+                              href={`/philosophy/${p.id}`}
                               className="absolute group cursor-pointer"
                               style={{
                                 left: x1,
@@ -670,7 +670,7 @@ export default function TimelinePage() {
           {filteredPhilosophers.map((p) => (
             <Link
               key={p.id}
-              href={`/philosophy/${p.id}/`}
+              href={`/philosophy/${p.id}`}
               className={cn(
                 'group rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200 border-l-4',
                 getEraBorderClass(p.era)

@@ -124,7 +124,7 @@ export default function SciencePage() {
           {/* Quick Navigation */}
           <div className="flex items-center gap-3 mt-6">
             <Link
-              href="/science/timeline/"
+              href="/science/timeline"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-600/20 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-600/30 transition-colors text-sm font-medium"
             >
               <Calendar className="w-4 h-4" />
@@ -132,7 +132,7 @@ export default function SciencePage() {
               <ChevronRight className="w-3.5 h-3.5" />
             </Link>
             <Link
-              href="/science/fields/"
+              href="/science/fields"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-600/20 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-600/30 transition-colors text-sm font-medium"
             >
               <Microscope className="w-4 h-4" />
@@ -156,7 +156,7 @@ export default function SciencePage() {
             return (
               <Link
                 key={field.key}
-                href="/science/fields/"
+                href="/science/fields"
                 className="group rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200"
               >
                 <div className="flex items-center gap-3 mb-3">
@@ -208,7 +208,7 @@ export default function SciencePage() {
           {featuredScientists.map((s) => (
             <Link
               key={s.id}
-              href={`/persons/${s.id}/`}
+              href={`/persons/${s.id}`}
               className={cn(
                 'group rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200 border-l-4',
                 getEraBorderClass(s.era)

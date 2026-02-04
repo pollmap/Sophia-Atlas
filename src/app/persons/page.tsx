@@ -156,7 +156,7 @@ export default function PersonsPage() {
             {filteredPersons.map((person) => (
               <a
                 key={person.id}
-                href={`/Sophia-Atlas/persons/${person.id}/`}
+                href={`/persons/${person.id}`}
                 className="flex items-center gap-4 p-3 rounded-lg border border-slate-700/50 bg-slate-800/20 hover:bg-slate-800/40 transition-colors"
               >
                 <div

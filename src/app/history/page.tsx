@@ -183,7 +183,7 @@ export default function HistoryPage() {
           {topEvents.map((event) => (
             <Link
               key={event.id}
-              href={`/entities/${event.id}/`}
+              href={`/entities/${event.id}`}
               className={cn(
                 'group rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200 border-l-4',
                 getEraBorderClass(event.era)
@@ -250,7 +250,7 @@ export default function HistoryPage() {
           {politicalLeaders.map((person) => (
             <Link
               key={person.id}
-              href={`/persons/${person.id}/`}
+              href={`/persons/${person.id}`}
               className={cn(
                 'group rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200 border-l-4',
                 getEraBorderClass(person.era)
@@ -294,7 +294,7 @@ export default function HistoryPage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link
-            href="/history/timeline/"
+            href="/history/timeline"
             className="group rounded-xl border border-slate-700/50 bg-slate-800/20 p-6 hover:bg-slate-800/40 transition-all flex items-center gap-4"
           >
             <div className="w-12 h-12 rounded-xl bg-red-500/20 flex items-center justify-center shrink-0">
@@ -311,7 +311,7 @@ export default function HistoryPage() {
             <ChevronRight className="w-5 h-5 text-slate-600 group-hover:text-red-400 transition-colors" />
           </Link>
           <Link
-            href="/history/civilizations/"
+            href="/history/civilizations"
             className="group rounded-xl border border-slate-700/50 bg-slate-800/20 p-6 hover:bg-slate-800/40 transition-all flex items-center gap-4"
           >
             <div className="w-12 h-12 rounded-xl bg-red-500/20 flex items-center justify-center shrink-0">

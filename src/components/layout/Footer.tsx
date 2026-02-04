@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 const footerLinks = [
   { label: "About", href: "/about" },
   { label: "인물 탐색", href: "/persons" },
-  { label: "학습경로", href: "/learn" },
+  { label: "인드라망", href: "/connections" },
 ];
 
 const sectionLinks = [

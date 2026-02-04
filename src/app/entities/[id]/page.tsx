@@ -93,7 +93,7 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
       <div className="min-h-screen bg-[#0F172A] flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-white mb-4">엔터티를 찾을 수 없습니다</h1>
-          <Link href="/entities/" className="text-purple-400 hover:text-purple-300">엔터티 목록으로</Link>
+          <Link href="/entities" className="text-purple-400 hover:text-purple-300">엔터티 목록으로</Link>
         </div>
       </div>
     );
@@ -102,7 +102,7 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
   return (
     <div className="min-h-screen bg-[#0F172A]">
       <div className="max-w-4xl mx-auto px-4 pt-8">
-        <Link href="/entities/" className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors">
+        <Link href="/entities" className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors">
           <ArrowLeft className="w-4 h-4" />
           엔터티 목록으로
         </Link>
@@ -209,7 +209,7 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
               {entity.relatedPersons.map((pid) => {
                 const p = allPersons.find((person) => person.id === pid);
                 return (
-                  <Link key={pid} href={`/persons/${pid}/`}
+                  <Link key={pid} href={`/persons/${pid}`}
                     className="text-sm px-3 py-1.5 rounded-full border border-slate-600/30 text-slate-300 bg-slate-700/30 hover:bg-slate-700/50 transition-colors">
                     {p ? p.name.ko : pid}
                   </Link>
@@ -229,7 +229,7 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
             </h2>
             <div className="flex flex-wrap gap-2">
               {entity.relatedEntities.map((eid) => (
-                <Link key={eid} href={`/entities/${eid}/`}
+                <Link key={eid} href={`/entities/${eid}`}
                   className="text-sm px-3 py-1.5 rounded-full border border-slate-600/30 text-slate-300 bg-slate-700/30 hover:bg-slate-700/50 transition-colors">
                   {getEntityName(eid)}
                 </Link>

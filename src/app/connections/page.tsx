@@ -1213,7 +1213,7 @@ export default function ConnectionsPage() {
                     {selectedPerson.summary}
                   </p>
                   <Link
-                    href={`/persons/${selectedPerson.id}/`}
+                    href={`/persons/${selectedPerson.id}`}
                     className="text-sm text-cyan-400 hover:text-cyan-300 transition-colors"
                   >
                     상세 페이지 &rarr;

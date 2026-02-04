@@ -1,12 +1,11 @@
 'use client';
 
-import { useMemo, useState, useEffect } from 'react';
+import { useMemo, useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import {
   BookOpen,
   Clock,
   Copy,
-  Globe,
   Share2,
   Sparkles,
   Users,
@@ -55,7 +54,6 @@ const eraDescriptions: Record<string, string> = {
   contemporary: 'AD 1900 ~ 현재',
 };
 
-// Category configuration
 const categories = [
   {
     key: 'philosopher',
@@ -66,7 +64,7 @@ const categories = [
     bgClass: 'from-indigo-500/20 to-indigo-600/5',
     borderClass: 'border-indigo-500/30 hover:border-indigo-400/50',
     textClass: 'text-indigo-400',
-    href: '/philosophy/timeline/',
+    href: '/philosophy/timeline',
     description: '소크라테스에서 들뢰즈까지, 인류의 근본 질문을 탐구합니다',
     data: philosophersData,
   },
@@ -79,7 +77,7 @@ const categories = [
     bgClass: 'from-amber-500/20 to-amber-600/5',
     borderClass: 'border-amber-500/30 hover:border-amber-400/50',
     textClass: 'text-amber-400',
-    href: '/religion/map/',
+    href: '/religion/map',
     description: '신앙과 영성의 다양한 전통을 비교하고 탐색합니다',
     data: religiousFiguresData,
   },
@@ -92,7 +90,7 @@ const categories = [
     bgClass: 'from-emerald-500/20 to-emerald-600/5',
     borderClass: 'border-emerald-500/30 hover:border-emerald-400/50',
     textClass: 'text-emerald-400',
-    href: '/science/',
+    href: '/science',
     description: '자연의 법칙을 밝혀낸 발견과 혁신의 역사입니다',
     data: scientistsData,
   },
@@ -105,7 +103,7 @@ const categories = [
     bgClass: 'from-red-500/20 to-red-600/5',
     borderClass: 'border-red-500/30 hover:border-red-400/50',
     textClass: 'text-red-400',
-    href: '/history/',
+    href: '/history',
     description: '문명의 흥망과 인류 역사의 대전환점을 따라갑니다',
     data: (historicalFiguresData as any[]).filter((p: any) => p.category === 'historical_figure'),
   },
@@ -118,13 +116,12 @@ const categories = [
     bgClass: 'from-pink-500/20 to-pink-600/5',
     borderClass: 'border-pink-500/30 hover:border-pink-400/50',
     textClass: 'text-pink-400',
-    href: '/culture/',
+    href: '/culture',
     description: '문학, 예술, 음악 — 인류 창의성의 결정체를 만납니다',
     data: (historicalFiguresData as any[]).filter((p: any) => p.category === 'cultural_figure'),
   },
 ];
 
-// Key milestones for mini-timeline
 const milestones = [
   { year: -600, label: '탈레스 — 철학의 탄생', category: 'philosopher' },
   { year: -500, label: '석가모니 — 불교의 시작', category: 'religious_figure' },
@@ -145,40 +142,110 @@ const milestones = [
   { year: 1953, label: 'DNA 이중나선 발견', category: 'scientist' },
 ];
 
-// Constellation node positions (fixed for consistency)
-const constellationNodes = [
-  { x: 15, y: 20, category: 'philosopher', size: 3 },
-  { x: 85, y: 15, category: 'scientist', size: 2.5 },
-  { x: 50, y: 10, category: 'religious_figure', size: 2 },
-  { x: 25, y: 70, category: 'historical_figure', size: 2.5 },
-  { x: 75, y: 75, category: 'cultural_figure', size: 3 },
-  { x: 40, y: 35, category: 'philosopher', size: 1.5 },
-  { x: 60, y: 45, category: 'scientist', size: 1.5 },
-  { x: 30, y: 50, category: 'religious_figure', size: 1.5 },
-  { x: 70, y: 30, category: 'historical_figure', size: 1.5 },
-  { x: 10, y: 45, category: 'cultural_figure', size: 1.5 },
-  { x: 90, y: 50, category: 'philosopher', size: 1.5 },
-  { x: 55, y: 65, category: 'scientist', size: 1.5 },
-  { x: 20, y: 85, category: 'philosopher', size: 1.5 },
-  { x: 80, y: 85, category: 'religious_figure', size: 1.5 },
-  { x: 45, y: 80, category: 'historical_figure', size: 1.5 },
-];
+// Indra's Net nodes — a cosmic web
+const netNodes = Array.from({ length: 40 }, (_, i) => ({
+  x: 10 + Math.random() * 80,
+  y: 10 + Math.random() * 80,
+  size: 0.8 + Math.random() * 2.2,
+  category: ['philosopher', 'religious_figure', 'scientist', 'historical_figure', 'cultural_figure'][i % 5],
+  speed: 2 + Math.random() * 4,
+  phase: Math.random() * Math.PI * 2,
+}));
 
-const constellationEdges = [
-  [0, 5], [5, 2], [2, 8], [8, 1], [1, 6], [6, 7], [7, 3], [3, 9],
-  [9, 0], [5, 6], [6, 11], [11, 14], [14, 4], [4, 13], [0, 12],
-  [12, 3], [3, 14], [7, 12], [10, 1], [10, 8],
-];
+// Pre-compute edges (connect nearby nodes)
+const netEdges: [number, number][] = [];
+for (let i = 0; i < netNodes.length; i++) {
+  for (let j = i + 1; j < netNodes.length; j++) {
+    const dx = netNodes[i].x - netNodes[j].x;
+    const dy = netNodes[i].y - netNodes[j].y;
+    const dist = Math.sqrt(dx * dx + dy * dy);
+    if (dist < 25) {
+      netEdges.push([i, j]);
+    }
+  }
+}
 
 export default function HomePage() {
   const [copied, setCopied] = useState(false);
-  const [animOffset, setAnimOffset] = useState(0);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const animRef = useRef<number>(0);
 
+  // Animated Indra's Net background using canvas
   useEffect(() => {
-    const interval = setInterval(() => {
-      setAnimOffset((prev) => (prev + 0.5) % 360);
-    }, 100);
-    return () => clearInterval(interval);
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    const resize = () => {
+      const dpr = window.devicePixelRatio || 1;
+      const rect = canvas.parentElement?.getBoundingClientRect();
+      if (!rect) return;
+      canvas.width = rect.width * dpr;
+      canvas.height = rect.height * dpr;
+      canvas.style.width = `${rect.width}px`;
+      canvas.style.height = `${rect.height}px`;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    };
+    resize();
+    window.addEventListener('resize', resize);
+
+    const categoryColors: Record<string, string> = {
+      philosopher: '#6366F1',
+      religious_figure: '#F59E0B',
+      scientist: '#10B981',
+      historical_figure: '#EF4444',
+      cultural_figure: '#EC4899',
+    };
+
+    let time = 0;
+    function draw() {
+      if (!ctx || !canvas) return;
+      const w = canvas.clientWidth;
+      const h = canvas.clientHeight;
+      time += 0.008;
+
+      ctx.clearRect(0, 0, w, h);
+
+      // Draw edges
+      netEdges.forEach(([i, j]) => {
+        const a = netNodes[i];
+        const b = netNodes[j];
+        const ax = (a.x + Math.sin(time * a.speed * 0.1 + a.phase) * 1.5) * w / 100;
+        const ay = (a.y + Math.cos(time * a.speed * 0.1 + a.phase) * 1) * h / 100;
+        const bx = (b.x + Math.sin(time * b.speed * 0.1 + b.phase) * 1.5) * w / 100;
+        const by = (b.y + Math.cos(time * b.speed * 0.1 + b.phase) * 1) * h / 100;
+
+        ctx.beginPath();
+        ctx.moveTo(ax, ay);
+        ctx.lineTo(bx, by);
+        ctx.strokeStyle = 'rgba(148, 163, 184, 0.06)';
+        ctx.lineWidth = 0.5;
+        ctx.stroke();
+      });
+
+      // Draw nodes
+      netNodes.forEach((node) => {
+        const nx = (node.x + Math.sin(time * node.speed * 0.1 + node.phase) * 1.5) * w / 100;
+        const ny = (node.y + Math.cos(time * node.speed * 0.1 + node.phase) * 1) * h / 100;
+        const pulse = 0.5 + 0.5 * Math.sin(time * 2 + node.phase);
+
+        ctx.beginPath();
+        ctx.arc(nx, ny, node.size * 1.5, 0, Math.PI * 2);
+        ctx.fillStyle = categoryColors[node.category] || '#64748B';
+        ctx.globalAlpha = 0.15 + pulse * 0.2;
+        ctx.fill();
+        ctx.globalAlpha = 1;
+      });
+
+      animRef.current = requestAnimationFrame(draw);
+    }
+
+    animRef.current = requestAnimationFrame(draw);
+    return () => {
+      cancelAnimationFrame(animRef.current);
+      window.removeEventListener('resize', resize);
+    };
   }, []);
 
   const todayQuote = useMemo(() => {
@@ -229,74 +296,63 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-[#0F172A]">
-      {/* Hero Section with Constellation */}
-      <section className="relative overflow-hidden py-24 md:py-32 px-4">
-        {/* Constellation Background SVG */}
-        <div className="absolute inset-0 opacity-30">
-          <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-            {/* Edges */}
-            {constellationEdges.map(([from, to], i) => (
-              <line
-                key={`edge-${i}`}
-                x1={constellationNodes[from].x}
-                y1={constellationNodes[from].y}
-                x2={constellationNodes[to].x}
-                y2={constellationNodes[to].y}
-                stroke="rgba(148, 163, 184, 0.15)"
-                strokeWidth="0.15"
-              />
-            ))}
-            {/* Nodes */}
-            {constellationNodes.map((node, i) => (
-              <circle
-                key={`node-${i}`}
-                cx={node.x + Math.sin((animOffset + i * 40) * Math.PI / 180) * 0.5}
-                cy={node.y + Math.cos((animOffset + i * 60) * Math.PI / 180) * 0.3}
-                r={node.size * 0.3}
-                fill={getCategoryHexColor(node.category)}
-                opacity={0.6}
-              >
-                <animate
-                  attributeName="opacity"
-                  values="0.3;0.8;0.3"
-                  dur={`${3 + i * 0.5}s`}
-                  repeatCount="indefinite"
-                />
-              </circle>
-            ))}
-          </svg>
+      {/* Hero Section with Indra's Net Canvas */}
+      <section className="relative overflow-hidden py-28 md:py-40 px-4">
+        <div className="absolute inset-0">
+          <canvas ref={canvasRef} className="w-full h-full" />
         </div>
-
-        {/* Radial gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-radial from-transparent via-[#0F172A]/50 to-[#0F172A]" />
+        <div className="absolute inset-0 bg-gradient-radial from-transparent via-[#0F172A]/60 to-[#0F172A]" />
 
         <div className="relative max-w-5xl mx-auto text-center">
-          <p className="text-amber-400/70 text-sm font-light tracking-[0.4em] mb-6 uppercase">
-            Σοφία &middot; Atlas
+          <p className="text-amber-400/60 text-xs font-light tracking-[0.5em] mb-8 uppercase">
+            一卽多 &middot; 多卽一 &mdash; 하나가 곧 전체이고, 전체가 곧 하나
           </p>
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
-            인류 사상의<br className="md:hidden" /> 시공간 지도
+
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-[1.1]">
+            <span className="bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 bg-clip-text text-transparent">Sophia</span>
+            {' '}
+            <span className="text-white/90">Atlas</span>
           </h1>
-          <p className="text-lg md:text-xl text-slate-400 font-light max-w-2xl mx-auto leading-relaxed">
-            철학 · 종교 · 과학 · 역사 · 문화<br className="sm:hidden" />
-            — 모든 지성의 연결을 탐험하세요
+
+          <p className="text-lg md:text-2xl text-slate-300 font-light max-w-3xl mx-auto leading-relaxed mb-2">
+            인류 지성의 인드라망
           </p>
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <p className="text-sm md:text-base text-slate-500 font-light max-w-2xl mx-auto leading-relaxed">
+            신화에서 AI까지 — 철학 · 종교 · 과학 · 역사 · 문화
+            <br className="sm:hidden" />
+            {' '}모든 사상의 연결을 탐험하세요
+          </p>
+
+          <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/persons/"
-              className="flex items-center gap-2 px-6 py-3 rounded-xl bg-indigo-500/20 border border-indigo-500/30 text-indigo-300 hover:bg-indigo-500/30 hover:border-indigo-400/50 transition-all text-sm font-medium"
+              href="/connections"
+              className="group flex items-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500/20 to-amber-600/10 border border-amber-500/30 text-amber-300 hover:from-amber-500/30 hover:to-amber-600/20 hover:border-amber-400/50 transition-all text-sm font-medium shadow-lg shadow-amber-900/20"
+            >
+              <Network className="w-5 h-5" />
+              인드라망 탐험하기
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </Link>
+            <Link
+              href="/persons"
+              className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-slate-800/50 border border-slate-600/30 text-slate-300 hover:bg-slate-700/50 hover:border-slate-500/50 transition-all text-sm font-medium"
             >
               <Users className="w-4 h-4" />
               {allPersons.length}명의 인물 탐색
-              <ArrowRight className="w-4 h-4" />
             </Link>
-            <Link
-              href="/connections/"
-              className="flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-700/30 border border-slate-600/30 text-slate-300 hover:bg-slate-700/50 hover:border-slate-500/50 transition-all text-sm font-medium"
-            >
-              <Network className="w-4 h-4" />
-              인드라망 시각화
-            </Link>
+          </div>
+
+          <div className="mt-14 flex items-center justify-center gap-8 md:gap-12 text-center">
+            {[
+              { value: allPersons.length, label: '인물' },
+              { value: totalEntities, label: '엔터티' },
+              { value: totalRelationships, label: '연결' },
+              { value: religionsData.length, label: '종교·신화' },
+            ].map((stat) => (
+              <div key={stat.label}>
+                <p className="text-2xl md:text-3xl font-bold text-white/90">{stat.value}</p>
+                <p className="text-xs text-slate-500 mt-1">{stat.label}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -330,10 +386,7 @@ export default function HomePage() {
                   >
                     <Icon className="w-6 h-6" style={{ color: cat.color }} />
                   </div>
-                  <span
-                    className="text-2xl font-bold"
-                    style={{ color: cat.color }}
-                  >
+                  <span className="text-2xl font-bold" style={{ color: cat.color }}>
                     {cat.data.length}
                   </span>
                 </div>
@@ -342,9 +395,7 @@ export default function HomePage() {
                     {cat.label}
                     <span className="ml-2 text-xs font-normal text-slate-500">{cat.labelEn}</span>
                   </h3>
-                  <p className="text-sm text-slate-400 mt-1 leading-relaxed">
-                    {cat.description}
-                  </p>
+                  <p className="text-sm text-slate-400 mt-1 leading-relaxed">{cat.description}</p>
                 </div>
                 <div className="flex items-center gap-2 text-xs text-slate-500">
                   {topPersons.map((p: any) => (
@@ -362,7 +413,7 @@ export default function HomePage() {
 
           {/* Indra Net Card */}
           <Link
-            href="/connections/"
+            href="/connections"
             className="group relative rounded-2xl border border-slate-600/30 hover:border-slate-500/50 p-6 transition-all duration-300 bg-gradient-to-br from-slate-700/20 to-slate-800/5 hover:shadow-lg hover:shadow-black/20 hover:-translate-y-1 sm:col-span-2 lg:col-span-1"
           >
             <div className="flex items-start justify-between mb-4">
@@ -393,10 +444,7 @@ export default function HomePage() {
         </h2>
         <div className="relative overflow-x-auto scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-slate-900 pb-4">
           <div className="relative min-w-[1200px] h-32">
-            {/* Timeline axis */}
             <div className="absolute top-1/2 left-0 right-0 h-px bg-slate-700" />
-
-            {/* Year markers */}
             {[-600, -300, 0, 300, 600, 900, 1200, 1500, 1700, 1900, 2000].map((year) => {
               const pos = ((year + 600) / 2625) * 100;
               return (
@@ -408,8 +456,6 @@ export default function HomePage() {
                 </div>
               );
             })}
-
-            {/* Milestone dots */}
             {milestones.map((m, i) => {
               const pos = ((m.year + 600) / 2625) * 100;
               const isTop = i % 2 === 0;
@@ -447,7 +493,6 @@ export default function HomePage() {
             <Sparkles className="w-3.5 h-3.5 text-amber-400" />
             오늘의 명언
           </div>
-
           <div className="mt-6">
             <Quote className="w-8 h-8 text-amber-400/30 mb-4" />
             <blockquote className="text-xl md:text-2xl text-white font-light leading-relaxed mb-6">
@@ -456,14 +501,12 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
               <div>
                 <Link
-                  href={`/persons/${todayQuote.philosopherId}/`}
+                  href={`/persons/${todayQuote.philosopherId}`}
                   className="text-amber-400 hover:text-amber-300 font-medium transition-colors"
                 >
                   {todayQuote.philosopher}
                 </Link>
-                <span className="text-slate-500 ml-2">
-                  &mdash; {todayQuote.source}
-                </span>
+                <span className="text-slate-500 ml-2">&mdash; {todayQuote.source}</span>
               </div>
               <div className="flex items-center gap-2">
                 <button
@@ -486,7 +529,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 시대별 Overview - Enhanced */}
+      {/* 시대별 Overview */}
       <section className="max-w-6xl mx-auto px-4 pb-16">
         <h2 className="text-lg font-semibold text-white mb-6 flex items-center gap-2">
           <Clock className="w-5 h-5 text-slate-400" />
@@ -496,13 +539,11 @@ export default function HomePage() {
           {eras.map((era) => (
             <Link
               key={era}
-              href={`/persons/?era=${era}`}
+              href={`/persons?era=${era}`}
               className="group relative rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200"
             >
               <div className={cn('w-3 h-3 rounded-full mb-3', getEraBgColor(era))} />
-              <h3 className={cn('text-lg font-bold', getEraColor(era))}>
-                {getEraLabel(era)}
-              </h3>
+              <h3 className={cn('text-lg font-bold', getEraColor(era))}>{getEraLabel(era)}</h3>
               <p className="text-xs text-slate-500 mt-1 mb-3">{eraDescriptions[era]}</p>
               <div className="space-y-1">
                 <div className="flex items-center gap-2 text-xs">
@@ -531,11 +572,26 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Indra's Net philosophy quote */}
+      <section className="max-w-4xl mx-auto px-4 pb-16">
+        <div className="text-center py-12 border-t border-b border-slate-800/50">
+          <p className="text-sm text-slate-600 tracking-widest uppercase mb-4">因陀羅網 &middot; Indra&apos;s Net</p>
+          <p className="text-base md:text-lg text-slate-400 font-light leading-relaxed italic max-w-2xl mx-auto">
+            &ldquo;제석천의 궁전에는 무한한 그물이 펼쳐져 있고,<br />
+            그물의 각 매듭마다 보석이 달려 있다.<br />
+            각 보석은 다른 모든 보석을 비추고,<br />
+            그 반영 속에는 또다시 모든 보석의 반영이 담긴다.&rdquo;
+          </p>
+          <p className="text-xs text-slate-600 mt-4">— 화엄경 (華嚴經)</p>
+        </div>
+      </section>
+
       {/* Stats Dashboard */}
       <section className="max-w-6xl mx-auto px-4 pb-20">
         <div className="rounded-2xl border border-slate-700/50 bg-gradient-to-r from-slate-800/30 via-slate-800/20 to-slate-800/30 p-8">
           <div className="text-center mb-6">
             <h2 className="text-lg font-semibold text-white">Sophia Atlas 데이터베이스</h2>
+            <p className="text-xs text-slate-500 mt-1">인류 지성사의 디지털 아카이브</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
             <div>

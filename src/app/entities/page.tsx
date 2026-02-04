@@ -138,7 +138,7 @@ export default function EntitiesPage() {
           {filteredEntities.map((entity) => (
             <Link
               key={entity.id}
-              href={`/entities/${entity.id}/`}
+              href={`/entities/${entity.id}`}
               className="group block rounded-xl border border-slate-700/50 bg-slate-800/20 hover:bg-slate-800/40 transition-all overflow-hidden"
             >
               <div className="h-1 w-full" style={{ backgroundColor: typeHexColors[entity.type] || '#64748B' }} />

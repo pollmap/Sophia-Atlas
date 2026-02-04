@@ -95,7 +95,7 @@ export default function CulturalMovementsPage() {
         <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 via-transparent to-violet-500/10" />
         <div className="max-w-5xl mx-auto px-4 pt-8 pb-10 relative">
           <Link
-            href="/culture/"
+            href="/culture"
             className="inline-flex items-center text-slate-400 hover:text-pink-400 transition-colors mb-6"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -352,7 +352,7 @@ function MovementCard({
       </div>
 
       {/* Title */}
-      <Link href={`/entities/${movementId}/`}>
+      <Link href={`/entities/${movementId}`}>
         <h3 className="text-lg font-bold text-white group-hover:text-pink-400 transition-colors">
           {name.ko}
         </h3>
@@ -448,7 +448,7 @@ function MovementCard({
               (person: { id: string; name: { ko: string; en: string } }) => (
                 <Link
                   key={person.id}
-                  href={`/persons/${person.id}/`}
+                  href={`/persons/${person.id}`}
                   className="inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-lg bg-slate-700/50 text-slate-300 hover:text-pink-400 hover:bg-pink-500/10 transition-all border border-transparent hover:border-pink-500/20"
                 >
                   <ChevronRight className="w-3 h-3" />

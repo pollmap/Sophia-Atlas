@@ -304,7 +304,7 @@ export default function WorldMap({
                 {r.summary}
               </p>
               <Link
-                href={`/religion/${r.id}/`}
+                href={`/religion/${r.id}`}
                 className="text-xs font-medium text-purple-600 hover:text-purple-800"
               >
                 상세 보기 &rarr;

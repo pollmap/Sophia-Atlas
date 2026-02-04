@@ -64,7 +64,7 @@ export default async function ReligionDetailPage({
           페이지를 찾을 수 없습니다
         </h1>
         <Link
-          href={`/religion/map/`}
+          href={`/religion/map`}
           className="text-purple-400 hover:text-purple-300 transition-colors"
         >
           종교/신화 지도로 돌아가기
@@ -79,7 +79,7 @@ export default async function ReligionDetailPage({
     <div className="section-container py-8 md:py-12">
       {/* Back Button */}
       <Link
-        href={`/religion/map/`}
+        href={`/religion/map`}
         className="inline-flex items-center gap-2 text-sm text-foreground-secondary hover:text-foreground transition-colors mb-6"
       >
         <ArrowLeft className="w-4 h-4" />
@@ -222,7 +222,7 @@ export default async function ReligionDetailPage({
             </div>
             <div className="mt-4 pt-3 border-t border-border">
               <Link
-                href={`/religion/tree/`}
+                href={`/religion/tree`}
                 className="inline-flex items-center gap-1.5 text-xs font-medium text-purple-400 hover:text-purple-300 transition-colors"
               >
                 <GitBranch className="w-3 h-3" />
@@ -269,14 +269,14 @@ export default async function ReligionDetailPage({
       {/* Navigation */}
       <div className="flex flex-wrap gap-3 pt-4 border-t border-border">
         <Link
-          href={`/religion/map/`}
+          href={`/religion/map`}
           className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-background-secondary text-sm text-foreground-secondary hover:text-foreground transition-colors border border-border"
         >
           <Globe className="w-4 h-4" />
           세계 지도
         </Link>
         <Link
-          href={`/religion/compare/`}
+          href={`/religion/compare`}
           className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-background-secondary text-sm text-foreground-secondary hover:text-foreground transition-colors border border-border"
         >
           <Scale className="w-4 h-4" />
