@@ -34,7 +34,7 @@ import movementsData from '@/data/entities/movements.json';
 import institutionsData from '@/data/entities/institutions.json';
 import textsData from '@/data/entities/texts.json';
 import conceptsData from '@/data/entities/concepts.json';
-import { cn, getEraColor, getEraBgColor, getEraLabel, formatYear, getCategoryHexColor } from '@/lib/utils';
+import { formatYear, getCategoryHexColor } from '@/lib/utils';
 
 const allPersons = [
   ...philosophersData,
@@ -47,11 +47,34 @@ const totalRelationships = ppRelData.length + peRelData.length + eeRelData.lengt
 
 const eras = ['ancient', 'medieval', 'modern', 'contemporary'] as const;
 
+const eraLabels: Record<string, string> = {
+  ancient: '고대',
+  medieval: '중세',
+  modern: '근대',
+  contemporary: '현대',
+};
+
 const eraDescriptions: Record<string, string> = {
   ancient: 'BC 600 ~ AD 300',
   medieval: 'AD 300 ~ AD 1500',
   modern: 'AD 1500 ~ AD 1900',
   contemporary: 'AD 1900 ~ 현재',
+};
+
+const eraColors: Record<string, string> = {
+  ancient: '#B8860B',
+  medieval: '#6B4E8A',
+  modern: '#4A7A6B',
+  contemporary: '#6B6358',
+};
+
+// Fresco category colors (warm-shifted pigments)
+const categoryColors: Record<string, string> = {
+  philosopher: '#4A5D8A',
+  religious_figure: '#B8860B',
+  scientist: '#5B7355',
+  historical_figure: '#8B4040',
+  cultural_figure: '#7A5478',
 };
 
 const categories = [
@@ -60,10 +83,7 @@ const categories = [
     label: '철학',
     labelEn: 'Philosophy',
     icon: BookOpen,
-    color: '#6366F1',
-    bgClass: 'from-indigo-500/20 to-indigo-600/5',
-    borderClass: 'border-indigo-500/30 hover:border-indigo-400/50',
-    textClass: 'text-indigo-400',
+    color: categoryColors.philosopher,
     href: '/philosophy/timeline',
     description: '소크라테스에서 들뢰즈까지, 인류의 근본 질문을 탐구합니다',
     data: philosophersData,
@@ -73,10 +93,7 @@ const categories = [
     label: '종교',
     labelEn: 'Religion',
     icon: Scroll,
-    color: '#F59E0B',
-    bgClass: 'from-amber-500/20 to-amber-600/5',
-    borderClass: 'border-amber-500/30 hover:border-amber-400/50',
-    textClass: 'text-amber-400',
+    color: categoryColors.religious_figure,
     href: '/religion/map',
     description: '신앙과 영성의 다양한 전통을 비교하고 탐색합니다',
     data: religiousFiguresData,
@@ -86,10 +103,7 @@ const categories = [
     label: '과학',
     labelEn: 'Science',
     icon: Atom,
-    color: '#10B981',
-    bgClass: 'from-emerald-500/20 to-emerald-600/5',
-    borderClass: 'border-emerald-500/30 hover:border-emerald-400/50',
-    textClass: 'text-emerald-400',
+    color: categoryColors.scientist,
     href: '/science',
     description: '자연의 법칙을 밝혀낸 발견과 혁신의 역사입니다',
     data: scientistsData,
@@ -99,10 +113,7 @@ const categories = [
     label: '역사',
     labelEn: 'History',
     icon: Crown,
-    color: '#EF4444',
-    bgClass: 'from-red-500/20 to-red-600/5',
-    borderClass: 'border-red-500/30 hover:border-red-400/50',
-    textClass: 'text-red-400',
+    color: categoryColors.historical_figure,
     href: '/history',
     description: '문명의 흥망과 인류 역사의 대전환점을 따라갑니다',
     data: (historicalFiguresData as any[]).filter((p: any) => p.category === 'historical_figure'),
@@ -112,10 +123,7 @@ const categories = [
     label: '문화',
     labelEn: 'Culture',
     icon: Palette,
-    color: '#EC4899',
-    bgClass: 'from-pink-500/20 to-pink-600/5',
-    borderClass: 'border-pink-500/30 hover:border-pink-400/50',
-    textClass: 'text-pink-400',
+    color: categoryColors.cultural_figure,
     href: '/culture',
     description: '문학, 예술, 음악 — 인류 창의성의 결정체를 만납니다',
     data: (historicalFiguresData as any[]).filter((p: any) => p.category === 'cultural_figure'),
@@ -142,7 +150,7 @@ const milestones = [
   { year: 1953, label: 'DNA 이중나선 발견', category: 'scientist' },
 ];
 
-// Indra's Net nodes — a cosmic web
+// Indra's Net nodes
 const netNodes = Array.from({ length: 40 }, (_, i) => ({
   x: 10 + Math.random() * 80,
   y: 10 + Math.random() * 80,
@@ -152,16 +160,13 @@ const netNodes = Array.from({ length: 40 }, (_, i) => ({
   phase: Math.random() * Math.PI * 2,
 }));
 
-// Pre-compute edges (connect nearby nodes)
 const netEdges: [number, number][] = [];
 for (let i = 0; i < netNodes.length; i++) {
   for (let j = i + 1; j < netNodes.length; j++) {
     const dx = netNodes[i].x - netNodes[j].x;
     const dy = netNodes[i].y - netNodes[j].y;
     const dist = Math.sqrt(dx * dx + dy * dy);
-    if (dist < 25) {
-      netEdges.push([i, j]);
-    }
+    if (dist < 25) netEdges.push([i, j]);
   }
 }
 
@@ -170,7 +175,7 @@ export default function HomePage() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const animRef = useRef<number>(0);
 
-  // Animated Indra's Net background using canvas
+  // Animated Indra's Net background — warm fresco style
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -190,24 +195,16 @@ export default function HomePage() {
     resize();
     window.addEventListener('resize', resize);
 
-    const categoryColors: Record<string, string> = {
-      philosopher: '#6366F1',
-      religious_figure: '#F59E0B',
-      scientist: '#10B981',
-      historical_figure: '#EF4444',
-      cultural_figure: '#EC4899',
-    };
-
     let time = 0;
     function draw() {
       if (!ctx || !canvas) return;
       const w = canvas.clientWidth;
       const h = canvas.clientHeight;
-      time += 0.008;
+      time += 0.006;
 
       ctx.clearRect(0, 0, w, h);
 
-      // Draw edges
+      // Draw edges — warm sepia tone
       netEdges.forEach(([i, j]) => {
         const a = netNodes[i];
         const b = netNodes[j];
@@ -219,12 +216,12 @@ export default function HomePage() {
         ctx.beginPath();
         ctx.moveTo(ax, ay);
         ctx.lineTo(bx, by);
-        ctx.strokeStyle = 'rgba(148, 163, 184, 0.06)';
+        ctx.strokeStyle = 'rgba(184, 134, 11, 0.06)';
         ctx.lineWidth = 0.5;
         ctx.stroke();
       });
 
-      // Draw nodes
+      // Draw nodes — tradition pigment colors
       netNodes.forEach((node) => {
         const nx = (node.x + Math.sin(time * node.speed * 0.1 + node.phase) * 1.5) * w / 100;
         const ny = (node.y + Math.cos(time * node.speed * 0.1 + node.phase) * 1) * h / 100;
@@ -232,8 +229,8 @@ export default function HomePage() {
 
         ctx.beginPath();
         ctx.arc(nx, ny, node.size * 1.5, 0, Math.PI * 2);
-        ctx.fillStyle = categoryColors[node.category] || '#64748B';
-        ctx.globalAlpha = 0.15 + pulse * 0.2;
+        ctx.fillStyle = categoryColors[node.category] || '#6B6358';
+        ctx.globalAlpha = 0.12 + pulse * 0.15;
         ctx.fill();
         ctx.globalAlpha = 1;
       });
@@ -284,9 +281,7 @@ export default function HomePage() {
       await navigator.clipboard.writeText(text);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
-    } catch {
-      // fallback
-    }
+    } catch { /* fallback */ }
   };
 
   const handleTwitterShare = () => {
@@ -295,52 +290,68 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0F172A]">
-      {/* Hero Section with Indra's Net Canvas */}
-      <section className="relative overflow-hidden py-28 md:py-40 px-4">
+    <div className="min-h-screen" style={{ background: 'var(--fresco-ivory)' }}>
+      {/* ═══════════════════ Hero Section ═══════════════════ */}
+      <section className="relative overflow-hidden px-4" style={{ paddingTop: '6rem', paddingBottom: '5rem' }}>
+        {/* Subtle parchment texture + canvas */}
+        <div className="absolute inset-0 parchment-texture" />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(184,134,11,0.06) 0%, rgba(184,134,11,0.01) 100%)' }} />
         <div className="absolute inset-0">
           <canvas ref={canvasRef} className="w-full h-full" />
         </div>
-        <div className="absolute inset-0 bg-gradient-radial from-transparent via-[#0F172A]/60 to-[#0F172A]" />
 
         <div className="relative max-w-5xl mx-auto text-center">
-          <p className="text-amber-400/60 text-xs font-light tracking-[0.5em] mb-8 uppercase">
+          {/* Ornamental subtitle */}
+          <p
+            className="text-xs tracking-[0.5em] mb-8 uppercase"
+            style={{ fontFamily: "'Pretendard', sans-serif", color: 'var(--ink-faded)' }}
+          >
             一卽多 &middot; 多卽一 &mdash; 하나가 곧 전체이고, 전체가 곧 하나
           </p>
 
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-[1.1]">
-            <span className="bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 bg-clip-text text-transparent">Sophia</span>
+          {/* Title — Cormorant Garamond */}
+          <h1
+            className="mb-6 tracking-[0.06em] uppercase leading-[1.1]"
+            style={{
+              fontFamily: "'Cormorant Garamond', Georgia, serif",
+              fontSize: 'clamp(2.5rem, 6vw, 5rem)',
+              fontWeight: 700,
+            }}
+          >
+            <span className="gradient-text">Sophia</span>
             {' '}
-            <span className="text-white/90">Atlas</span>
+            <span style={{ color: 'var(--ink-dark)' }}>Atlas</span>
           </h1>
 
-          <p className="text-lg md:text-2xl text-slate-300 font-light max-w-3xl mx-auto leading-relaxed mb-2">
+          <p
+            className="text-xl md:text-2xl font-light max-w-3xl mx-auto leading-relaxed mb-2"
+            style={{ fontFamily: "'Noto Serif KR', Georgia, serif", color: 'var(--ink-medium)' }}
+          >
             인류 지성의 인드라망
           </p>
-          <p className="text-sm md:text-base text-slate-500 font-light max-w-2xl mx-auto leading-relaxed">
+          <p
+            className="text-sm md:text-base font-light max-w-2xl mx-auto leading-relaxed"
+            style={{ fontFamily: "'Noto Serif KR', Georgia, serif", color: 'var(--ink-light)' }}
+          >
             신화에서 AI까지 — 철학 · 종교 · 과학 · 역사 · 문화
             <br className="sm:hidden" />
             {' '}모든 사상의 연결을 탐험하세요
           </p>
 
+          {/* CTA Buttons */}
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              href="/connections"
-              className="group flex items-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500/20 to-amber-600/10 border border-amber-500/30 text-amber-300 hover:from-amber-500/30 hover:to-amber-600/20 hover:border-amber-400/50 transition-all text-sm font-medium shadow-lg shadow-amber-900/20"
-            >
+            <Link href="/connections" className="btn-primary group">
               <Network className="w-5 h-5" />
               인드라망 탐험하기
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
-            <Link
-              href="/persons"
-              className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-slate-800/50 border border-slate-600/30 text-slate-300 hover:bg-slate-700/50 hover:border-slate-500/50 transition-all text-sm font-medium"
-            >
+            <Link href="/persons" className="btn-secondary">
               <Users className="w-4 h-4" />
               {allPersons.length}명의 인물 탐색
             </Link>
           </div>
 
+          {/* Stats */}
           <div className="mt-14 flex items-center justify-center gap-8 md:gap-12 text-center">
             {[
               { value: allPersons.length, label: '인물' },
@@ -349,19 +360,36 @@ export default function HomePage() {
               { value: religionsData.length, label: '종교·신화' },
             ].map((stat) => (
               <div key={stat.label}>
-                <p className="text-2xl md:text-3xl font-bold text-white/90">{stat.value}</p>
-                <p className="text-xs text-slate-500 mt-1">{stat.label}</p>
+                <p
+                  className="text-2xl md:text-3xl font-bold"
+                  style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}
+                >
+                  {stat.value}
+                </p>
+                <p className="text-xs mt-1" style={{ fontFamily: "'Pretendard', sans-serif", color: 'var(--ink-faded)' }}>
+                  {stat.label}
+                </p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* 5 Category Cards */}
+      {/* Ornament divider */}
+      <div className="ornament-divider max-w-lg mx-auto px-4 mb-12">
+        <span style={{ color: 'var(--gold)', fontSize: '18px' }}>&#9674;</span>
+      </div>
+
+      {/* ═══════════════════ 5 Category Cards ═══════════════════ */}
       <section className="max-w-6xl mx-auto px-4 pb-16">
         <div className="text-center mb-10">
-          <h2 className="text-2xl font-bold text-white mb-2">다섯 개의 영역</h2>
-          <p className="text-slate-500">인류 지성사의 다섯 기둥을 탐험합니다</p>
+          <h2
+            className="text-2xl mb-2"
+            style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", color: 'var(--ink-dark)' }}
+          >
+            다섯 개의 영역
+          </h2>
+          <p className="text-sm" style={{ color: 'var(--ink-light)' }}>인류 지성사의 다섯 기둥을 탐험합니다</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {categories.map((cat) => {
@@ -371,40 +399,54 @@ export default function HomePage() {
               <Link
                 key={cat.key}
                 href={cat.href}
-                className={cn(
-                  'group relative rounded-2xl border p-6 transition-all duration-300',
-                  'bg-gradient-to-br backdrop-blur-sm',
-                  cat.bgClass,
-                  cat.borderClass,
-                  'hover:shadow-lg hover:shadow-black/20 hover:-translate-y-1'
-                )}
+                className="group fresco-card p-6"
               >
                 <div className="flex items-start justify-between mb-4">
                   <div
-                    className="w-12 h-12 rounded-xl flex items-center justify-center"
-                    style={{ backgroundColor: `${cat.color}20` }}
+                    className="w-12 h-12 rounded flex items-center justify-center"
+                    style={{ backgroundColor: `${cat.color}15` }}
                   >
                     <Icon className="w-6 h-6" style={{ color: cat.color }} />
                   </div>
-                  <span className="text-2xl font-bold" style={{ color: cat.color }}>
+                  <span
+                    className="text-2xl font-bold"
+                    style={{ fontFamily: "'Cormorant Garamond', serif", color: cat.color }}
+                  >
                     {cat.data.length}
                   </span>
                 </div>
                 <div className="mb-3">
-                  <h3 className="text-lg font-bold text-white group-hover:text-white/90">
+                  <h3
+                    className="text-lg font-semibold"
+                    style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", color: 'var(--ink-dark)' }}
+                  >
                     {cat.label}
-                    <span className="ml-2 text-xs font-normal text-slate-500">{cat.labelEn}</span>
+                    <span className="ml-2 text-xs font-normal" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>
+                      {cat.labelEn}
+                    </span>
                   </h3>
-                  <p className="text-sm text-slate-400 mt-1 leading-relaxed">{cat.description}</p>
+                  <p className="text-sm mt-1 leading-relaxed" style={{ color: 'var(--ink-light)' }}>{cat.description}</p>
                 </div>
-                <div className="flex items-center gap-2 text-xs text-slate-500">
+                <div className="flex items-center gap-2 text-xs" style={{ color: 'var(--ink-faded)' }}>
                   {topPersons.map((p: any) => (
-                    <span key={p.id} className="px-2 py-0.5 rounded-full bg-slate-700/40">
+                    <span
+                      key={p.id}
+                      className="px-2 py-0.5 rounded"
+                      style={{
+                        backgroundColor: `${cat.color}10`,
+                        color: cat.color,
+                        fontFamily: "'Pretendard', sans-serif",
+                        fontSize: '11px',
+                      }}
+                    >
                       {p.name.ko}
                     </span>
                   ))}
                 </div>
-                <div className="mt-4 flex items-center text-xs group-hover:translate-x-1 transition-transform" style={{ color: cat.color }}>
+                <div
+                  className="mt-4 flex items-center text-xs font-medium group-hover:translate-x-1 transition-transform"
+                  style={{ color: cat.color, fontFamily: "'Pretendard', sans-serif" }}
+                >
                   탐색하기 <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
                 </div>
               </Link>
@@ -414,43 +456,62 @@ export default function HomePage() {
           {/* Indra Net Card */}
           <Link
             href="/connections"
-            className="group relative rounded-2xl border border-slate-600/30 hover:border-slate-500/50 p-6 transition-all duration-300 bg-gradient-to-br from-slate-700/20 to-slate-800/5 hover:shadow-lg hover:shadow-black/20 hover:-translate-y-1 sm:col-span-2 lg:col-span-1"
+            className="group fresco-card p-6 sm:col-span-2 lg:col-span-1"
           >
             <div className="flex items-start justify-between mb-4">
-              <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center">
-                <Network className="w-6 h-6 text-cyan-400" />
+              <div
+                className="w-12 h-12 rounded flex items-center justify-center"
+                style={{ backgroundColor: 'rgba(184, 134, 11, 0.1)' }}
+              >
+                <Network className="w-6 h-6" style={{ color: 'var(--gold)' }} />
               </div>
-              <span className="text-2xl font-bold text-cyan-400">{totalRelationships}</span>
+              <span
+                className="text-2xl font-bold"
+                style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--gold)' }}
+              >
+                {totalRelationships}
+              </span>
             </div>
-            <h3 className="text-lg font-bold text-white mb-1">
+            <h3
+              className="text-lg font-semibold mb-1"
+              style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", color: 'var(--ink-dark)' }}
+            >
               인드라망
-              <span className="ml-2 text-xs font-normal text-slate-500">Indra&apos;s Net</span>
+              <span className="ml-2 text-xs font-normal" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>
+                Indra&apos;s Net
+              </span>
             </h3>
-            <p className="text-sm text-slate-400 leading-relaxed">
+            <p className="text-sm leading-relaxed" style={{ color: 'var(--ink-light)' }}>
               모든 사상과 인물이 서로를 비추는 관계의 그물을 시각화합니다
             </p>
-            <div className="mt-4 flex items-center text-xs text-cyan-400 group-hover:translate-x-1 transition-transform">
+            <div
+              className="mt-4 flex items-center text-xs font-medium group-hover:translate-x-1 transition-transform"
+              style={{ color: 'var(--gold)', fontFamily: "'Pretendard', sans-serif" }}
+            >
               시각화 보기 <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
             </div>
           </Link>
         </div>
       </section>
 
-      {/* Mini Timeline */}
+      {/* ═══════════════════ Mini Timeline ═══════════════════ */}
       <section className="max-w-6xl mx-auto px-4 pb-16">
-        <h2 className="text-lg font-semibold text-white mb-6 flex items-center gap-2">
-          <Zap className="w-5 h-5 text-amber-400" />
+        <h2
+          className="text-lg font-semibold mb-6 flex items-center gap-2"
+          style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", color: 'var(--ink-dark)' }}
+        >
+          <Zap className="w-5 h-5" style={{ color: 'var(--gold)' }} />
           인류 지성사의 이정표
         </h2>
-        <div className="relative overflow-x-auto scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-slate-900 pb-4">
+        <div className="relative overflow-x-auto pb-4" style={{ scrollbarColor: 'var(--fresco-shadow) var(--fresco-parchment)' }}>
           <div className="relative min-w-[1200px] h-32">
-            <div className="absolute top-1/2 left-0 right-0 h-px bg-slate-700" />
+            <div className="absolute top-1/2 left-0 right-0 h-px" style={{ background: 'var(--fresco-shadow)' }} />
             {[-600, -300, 0, 300, 600, 900, 1200, 1500, 1700, 1900, 2000].map((year) => {
               const pos = ((year + 600) / 2625) * 100;
               return (
                 <div key={year} className="absolute top-1/2 -translate-y-1/2" style={{ left: `${pos}%` }}>
-                  <div className="w-px h-3 bg-slate-600 -translate-x-1/2" />
-                  <p className="text-[9px] text-slate-600 mt-1 -translate-x-1/2 whitespace-nowrap">
+                  <div className="w-px h-3 -translate-x-1/2" style={{ background: 'var(--fresco-shadow)' }} />
+                  <p className="text-[9px] mt-1 -translate-x-1/2 whitespace-nowrap" style={{ color: 'var(--ink-faded)' }}>
                     {formatYear(year)}
                   </p>
                 </div>
@@ -459,6 +520,7 @@ export default function HomePage() {
             {milestones.map((m, i) => {
               const pos = ((m.year + 600) / 2625) * 100;
               const isTop = i % 2 === 0;
+              const catColor = categoryColors[m.category] || '#6B6358';
               return (
                 <div
                   key={`${m.year}-${i}`}
@@ -467,14 +529,25 @@ export default function HomePage() {
                 >
                   <div className="flex flex-col items-center">
                     <div
-                      className="w-2.5 h-2.5 rounded-full border-2 border-[#0F172A] group-hover:scale-150 transition-transform"
-                      style={{ backgroundColor: getCategoryHexColor(m.category) }}
+                      className="w-2.5 h-2.5 rounded-full group-hover:scale-150 transition-transform"
+                      style={{
+                        backgroundColor: catColor,
+                        border: '2px solid var(--fresco-ivory)',
+                        boxShadow: `0 0 0 1px ${catColor}40`,
+                      }}
                     />
-                    <div className="mt-1 px-2 py-1 rounded bg-slate-800/90 border border-slate-700/50 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap absolute z-10"
-                      style={{ top: isTop ? '100%' : 'auto', bottom: isTop ? 'auto' : '100%' }}
+                    <div
+                      className="mt-1 px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap absolute z-10"
+                      style={{
+                        top: isTop ? '100%' : 'auto',
+                        bottom: isTop ? 'auto' : '100%',
+                        background: 'var(--fresco-parchment)',
+                        border: '1px solid var(--fresco-shadow)',
+                        boxShadow: '0 4px 12px rgba(44, 36, 22, 0.1)',
+                      }}
                     >
-                      <p className="text-[10px] font-medium text-white">{m.label}</p>
-                      <p className="text-[8px]" style={{ color: getCategoryHexColor(m.category) }}>
+                      <p className="text-[10px] font-medium" style={{ color: 'var(--ink-dark)' }}>{m.label}</p>
+                      <p className="text-[8px]" style={{ color: catColor }}>
                         {formatYear(m.year)}
                       </p>
                     </div>
@@ -486,39 +559,52 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 오늘의 명언 */}
+      {/* ═══════════════════ Today's Quote ═══════════════════ */}
       <section className="max-w-4xl mx-auto px-4 pb-16">
-        <div className="relative rounded-2xl border border-slate-700/50 bg-gradient-to-br from-slate-800/40 to-slate-900/20 backdrop-blur-sm p-8 md:p-10">
-          <div className="absolute top-4 left-4 flex items-center gap-2 text-xs text-slate-500 uppercase tracking-wider">
-            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+        <div className="fresco-card p-8 md:p-10 relative">
+          <div className="absolute top-4 left-4 flex items-center gap-2 text-xs uppercase tracking-wider" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>
+            <Sparkles className="w-3.5 h-3.5" style={{ color: 'var(--gold)' }} />
             오늘의 명언
           </div>
+
+          {/* Decorative quote mark */}
+          <div
+            className="absolute top-2 right-6 leading-none pointer-events-none select-none"
+            style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '80px', color: 'var(--gold)', opacity: 0.12 }}
+          >
+            &ldquo;
+          </div>
+
           <div className="mt-6">
-            <Quote className="w-8 h-8 text-amber-400/30 mb-4" />
-            <blockquote className="text-xl md:text-2xl text-white font-light leading-relaxed mb-6">
+            <Quote className="w-8 h-8 mb-4" style={{ color: 'rgba(184, 134, 11, 0.25)' }} />
+            <blockquote
+              className="text-xl md:text-2xl font-light leading-relaxed mb-6 italic"
+              style={{ fontFamily: "'Noto Serif KR', Georgia, serif", color: 'var(--ink-dark)' }}
+            >
               &ldquo;{todayQuote.text}&rdquo;
             </blockquote>
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
               <div>
                 <Link
                   href={`/persons/${todayQuote.philosopherId}`}
-                  className="text-amber-400 hover:text-amber-300 font-medium transition-colors"
+                  className="font-medium transition-colors"
+                  style={{ color: 'var(--gold)' }}
                 >
                   {todayQuote.philosopher}
                 </Link>
-                <span className="text-slate-500 ml-2">&mdash; {todayQuote.source}</span>
+                <span style={{ color: 'var(--ink-faded)' }}> &mdash; {todayQuote.source}</span>
               </div>
               <div className="flex items-center gap-2">
                 <button
                   onClick={handleCopy}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm text-slate-400 hover:text-white hover:bg-slate-700/50 transition-colors"
+                  className="btn-ghost text-sm"
                 >
                   <Copy className="w-3.5 h-3.5" />
                   {copied ? '복사됨!' : '복사'}
                 </button>
                 <button
                   onClick={handleTwitterShare}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm text-slate-400 hover:text-white hover:bg-slate-700/50 transition-colors"
+                  className="btn-ghost text-sm"
                 >
                   <Share2 className="w-3.5 h-3.5" />
                   공유
@@ -529,10 +615,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 시대별 Overview */}
+      {/* ═══════════════════ Era Overview ═══════════════════ */}
       <section className="max-w-6xl mx-auto px-4 pb-16">
-        <h2 className="text-lg font-semibold text-white mb-6 flex items-center gap-2">
-          <Clock className="w-5 h-5 text-slate-400" />
+        <h2
+          className="text-lg font-semibold mb-6 flex items-center gap-2"
+          style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", color: 'var(--ink-dark)' }}
+        >
+          <Clock className="w-5 h-5" style={{ color: 'var(--ink-light)' }} />
           시대별 탐색
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -540,31 +629,44 @@ export default function HomePage() {
             <Link
               key={era}
               href={`/persons?era=${era}`}
-              className="group relative rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200"
+              className="group fresco-card p-5"
             >
-              <div className={cn('w-3 h-3 rounded-full mb-3', getEraBgColor(era))} />
-              <h3 className={cn('text-lg font-bold', getEraColor(era))}>{getEraLabel(era)}</h3>
-              <p className="text-xs text-slate-500 mt-1 mb-3">{eraDescriptions[era]}</p>
+              <div className="w-3 h-3 rounded-full mb-3" style={{ backgroundColor: eraColors[era] }} />
+              <h3
+                className="text-lg font-bold"
+                style={{ fontFamily: "'Cormorant Garamond', serif", color: eraColors[era] }}
+              >
+                {eraLabels[era]}
+              </h3>
+              <p className="text-xs mt-1 mb-3" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>
+                {eraDescriptions[era]}
+              </p>
               <div className="space-y-1">
                 <div className="flex items-center gap-2 text-xs">
-                  <Users className="w-3 h-3 text-slate-500" />
-                  <span className="text-slate-400 font-medium">{eraCounts[era]}명</span>
+                  <Users className="w-3 h-3" style={{ color: 'var(--ink-faded)' }} />
+                  <span className="font-medium" style={{ color: 'var(--ink-medium)', fontFamily: "'Pretendard', sans-serif" }}>
+                    {eraCounts[era]}명
+                  </span>
                 </div>
                 <div className="flex flex-wrap gap-1 mt-2">
                   {Object.entries(categoryCounts[era] || {})
                     .filter(([, count]) => count > 0)
-                    .map(([cat, count]) => (
-                      <span
-                        key={cat}
-                        className="text-[10px] px-1.5 py-0.5 rounded"
-                        style={{
-                          backgroundColor: `${getCategoryHexColor(cat)}15`,
-                          color: getCategoryHexColor(cat),
-                        }}
-                      >
-                        {count}
-                      </span>
-                    ))}
+                    .map(([cat, count]) => {
+                      const catColor = categoryColors[cat] || '#6B6358';
+                      return (
+                        <span
+                          key={cat}
+                          className="text-[10px] px-1.5 py-0.5 rounded"
+                          style={{
+                            backgroundColor: `${catColor}12`,
+                            color: catColor,
+                            fontFamily: "'Pretendard', sans-serif",
+                          }}
+                        >
+                          {count}
+                        </span>
+                      );
+                    })}
                 </div>
               </div>
             </Link>
@@ -572,31 +674,47 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Indra's Net philosophy quote */}
+      {/* ═══════════════════ Indra's Net Quote ═══════════════════ */}
       <section className="max-w-4xl mx-auto px-4 pb-16">
-        <div className="text-center py-12 border-t border-b border-slate-800/50">
-          <p className="text-sm text-slate-600 tracking-widest uppercase mb-4">因陀羅網 &middot; Indra&apos;s Net</p>
-          <p className="text-base md:text-lg text-slate-400 font-light leading-relaxed italic max-w-2xl mx-auto">
+        <div className="text-center py-12" style={{ borderTop: '1px solid var(--fresco-shadow)', borderBottom: '1px solid var(--fresco-shadow)' }}>
+          <p className="text-sm tracking-widest uppercase mb-4" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>
+            因陀羅網 &middot; Indra&apos;s Net
+          </p>
+          <p
+            className="text-base md:text-lg font-light leading-relaxed italic max-w-2xl mx-auto"
+            style={{ fontFamily: "'Noto Serif KR', Georgia, serif", color: 'var(--ink-light)' }}
+          >
             &ldquo;제석천의 궁전에는 무한한 그물이 펼쳐져 있고,<br />
             그물의 각 매듭마다 보석이 달려 있다.<br />
             각 보석은 다른 모든 보석을 비추고,<br />
             그 반영 속에는 또다시 모든 보석의 반영이 담긴다.&rdquo;
           </p>
-          <p className="text-xs text-slate-600 mt-4">— 화엄경 (華嚴經)</p>
+          <p className="text-xs mt-4" style={{ color: 'var(--gold)' }}>— 화엄경 (華嚴經)</p>
         </div>
       </section>
 
-      {/* Stats Dashboard */}
+      {/* ═══════════════════ Stats Dashboard ═══════════════════ */}
       <section className="max-w-6xl mx-auto px-4 pb-20">
-        <div className="rounded-2xl border border-slate-700/50 bg-gradient-to-r from-slate-800/30 via-slate-800/20 to-slate-800/30 p-8">
+        <div
+          className="fresco-card p-8"
+          style={{
+            background: 'linear-gradient(135deg, var(--fresco-parchment), var(--fresco-aged))',
+          }}
+        >
           <div className="text-center mb-6">
-            <h2 className="text-lg font-semibold text-white">Sophia Atlas 데이터베이스</h2>
-            <p className="text-xs text-slate-500 mt-1">인류 지성사의 디지털 아카이브</p>
+            <h2 className="text-lg font-semibold" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
+              Sophia Atlas 데이터베이스
+            </h2>
+            <p className="text-xs mt-1" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>
+              인류 지성사의 디지털 아카이브
+            </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
             <div>
-              <p className="text-3xl font-bold text-white">{allPersons.length}</p>
-              <p className="text-sm text-slate-500 mt-1">인물</p>
+              <p className="text-3xl font-bold" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
+                {allPersons.length}
+              </p>
+              <p className="text-sm mt-1" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>인물</p>
               <div className="flex justify-center gap-1 mt-2">
                 {categories.map((cat) => (
                   <div
@@ -609,20 +727,28 @@ export default function HomePage() {
               </div>
             </div>
             <div>
-              <p className="text-3xl font-bold text-white">{totalEntities}</p>
-              <p className="text-sm text-slate-500 mt-1">엔터티</p>
+              <p className="text-3xl font-bold" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
+                {totalEntities}
+              </p>
+              <p className="text-sm mt-1" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>엔터티</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-white">{totalRelationships}</p>
-              <p className="text-sm text-slate-500 mt-1">관계</p>
+              <p className="text-3xl font-bold" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
+                {totalRelationships}
+              </p>
+              <p className="text-sm mt-1" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>관계</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-white">{religionsData.length}</p>
-              <p className="text-sm text-slate-500 mt-1">종교 &middot; 신화</p>
+              <p className="text-3xl font-bold" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
+                {religionsData.length}
+              </p>
+              <p className="text-sm mt-1" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>종교 &middot; 신화</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-white">{quotesData.length}</p>
-              <p className="text-sm text-slate-500 mt-1">명언</p>
+              <p className="text-3xl font-bold" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
+                {quotesData.length}
+              </p>
+              <p className="text-sm mt-1" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>명언</p>
             </div>
           </div>
         </div>
