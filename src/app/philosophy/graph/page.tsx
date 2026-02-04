@@ -416,7 +416,7 @@ export default function GraphPage() {
                 )}
 
                 <Link
-                  href={`/persons/${selectedPhilosopher.id}/`}
+                  href={`/persons/${selectedPhilosopher.id}`}
                   className="flex items-center justify-center gap-2 w-full mt-4 px-4 py-2.5 rounded-lg bg-slate-700/50 text-white text-sm font-medium hover:bg-slate-700 transition-colors"
                 >
                   상세 페이지

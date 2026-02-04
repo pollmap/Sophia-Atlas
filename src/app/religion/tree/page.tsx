@@ -346,7 +346,7 @@ export default function ReligionTreePage() {
           {/* Link to detail */}
           <div className="mt-6 pt-4 border-t border-border">
             <Link
-              href={`/religion/${selectedReligion.id}/`}
+              href={`/religion/${selectedReligion.id}`}
               className={cn(
                 "inline-flex items-center gap-2 text-sm font-medium transition-colors",
                 colors.text,

@@ -199,7 +199,7 @@ export default function CulturePage() {
                         return (
                           <Link
                             key={figure.id as string}
-                            href={`/persons/${figure.id as string}/`}
+                            href={`/persons/${figure.id as string}`}
                             className="flex items-center justify-between p-3 rounded-lg hover:bg-slate-700/50 transition-colors group"
                           >
                             <div className="flex items-center gap-3">
@@ -261,7 +261,7 @@ export default function CulturePage() {
               문화 사조와 운동
             </h2>
             <Link
-              href="/culture/movements/"
+              href="/culture/movements"
               className="inline-flex items-center gap-1 text-pink-400 hover:text-pink-300 transition-colors text-sm font-medium"
             >
               전체 보기
@@ -283,7 +283,7 @@ export default function CulturePage() {
               return (
                 <Link
                   key={movement.id as string}
-                  href={`/entities/${movement.id as string}/`}
+                  href={`/entities/${movement.id as string}`}
                   className="bg-slate-800/50 rounded-xl border border-slate-700/50 p-5 hover:border-pink-500/30 transition-all group"
                 >
                   <div className="flex items-center gap-2 mb-2">
@@ -353,7 +353,7 @@ export default function CulturePage() {
               return (
                 <Link
                   key={figure.id as string}
-                  href={`/persons/${figure.id as string}/`}
+                  href={`/persons/${figure.id as string}`}
                   className="bg-slate-800/50 rounded-xl border border-slate-700/50 p-5 hover:border-pink-500/30 transition-all group"
                 >
                   <div className="flex items-center justify-between mb-3">
@@ -431,7 +431,7 @@ export default function CulturePage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <Link
-                href="/culture/movements/"
+                href="/culture/movements"
                 className="flex items-center gap-3 p-4 rounded-lg bg-slate-700/30 hover:bg-slate-700/50 transition-colors group"
               >
                 <div className="w-10 h-10 rounded-lg bg-pink-500/20 flex items-center justify-center">
@@ -448,7 +448,7 @@ export default function CulturePage() {
                 <ChevronRight className="w-4 h-4 text-slate-500 ml-auto" />
               </Link>
               <Link
-                href="/persons/"
+                href="/persons"
                 className="flex items-center gap-3 p-4 rounded-lg bg-slate-700/30 hover:bg-slate-700/50 transition-colors group"
               >
                 <div className="w-10 h-10 rounded-lg bg-indigo-500/20 flex items-center justify-center">
@@ -465,7 +465,7 @@ export default function CulturePage() {
                 <ChevronRight className="w-4 h-4 text-slate-500 ml-auto" />
               </Link>
               <Link
-                href="/connections/"
+                href="/connections"
                 className="flex items-center gap-3 p-4 rounded-lg bg-slate-700/30 hover:bg-slate-700/50 transition-colors group"
               >
                 <div className="w-10 h-10 rounded-lg bg-violet-500/20 flex items-center justify-center">

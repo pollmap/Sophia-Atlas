@@ -145,7 +145,7 @@ export default function CivilizationsPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-red-900/20 to-transparent" />
         <div className="max-w-7xl mx-auto px-4 pt-8 pb-10 relative">
           <Link
-            href="/history/"
+            href="/history"
             className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors mb-6"
           >
             <ArrowLeft className="w-4 h-4" />
@@ -255,7 +255,7 @@ export default function CivilizationsPage() {
                     {keyEvents.map((event) => (
                       <Link
                         key={event.id}
-                        href={`/entities/${event.id}/`}
+                        href={`/entities/${event.id}`}
                         className="text-xs px-2 py-1 rounded-full bg-slate-700/30 text-amber-300 hover:bg-slate-700/60 transition-colors"
                       >
                         <Flag className="w-2.5 h-2.5 inline mr-1" />
@@ -279,7 +279,7 @@ export default function CivilizationsPage() {
                           {regionEvents.map((event) => (
                             <Link
                               key={event.id}
-                              href={`/entities/${event.id}/`}
+                              href={`/entities/${event.id}`}
                               className="group rounded-lg border border-slate-700/50 bg-slate-800/20 p-4 hover:bg-slate-800/40 transition-all"
                             >
                               <h5 className="text-sm font-medium text-amber-200 group-hover:text-amber-300 transition-colors">
@@ -318,7 +318,7 @@ export default function CivilizationsPage() {
                           {regionPersons.map((p) => (
                             <Link
                               key={p.id}
-                              href={`/persons/${p.id}/`}
+                              href={`/persons/${p.id}`}
                               className={cn(
                                 'group rounded-lg border border-slate-700/50 bg-slate-800/20 p-4 hover:bg-slate-800/40 transition-all border-l-4',
                                 getEraBorderClass(p.era)

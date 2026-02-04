@@ -38,7 +38,7 @@ export default function PersonCard({
 }: PersonCardProps) {
   return (
     <Link
-      href={`/persons/${id}/`}
+      href={`/persons/${id}`}
       className="group block rounded-xl border border-slate-700/50 bg-slate-800/20 hover:bg-slate-800/40 hover:border-slate-600/50 transition-all duration-200 overflow-hidden"
     >
       {/* Era accent bar */}

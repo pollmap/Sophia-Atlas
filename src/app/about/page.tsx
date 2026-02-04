@@ -277,7 +277,7 @@ export default function AboutPage() {
       {/* GitHub Link */}
       <section className="mb-12">
         <a
-          href="https://github.com/ChanHyeok-Choi/Sophia-Atlas"
+          href="https://github.com/pollmap/Sophia-Atlas"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-4 p-5 rounded-xl border border-border bg-background-secondary/20 hover:bg-background-secondary/40 transition-colors group"
@@ -290,7 +290,7 @@ export default function AboutPage() {
               GitHub Repository
             </h3>
             <p className="text-sm text-foreground-muted">
-              ChanHyeok-Choi/Sophia-Atlas
+              pollmap/Sophia-Atlas
             </p>
           </div>
           <ExternalLink className="w-4 h-4 text-foreground-muted group-hover:text-blue-400 transition-colors" />

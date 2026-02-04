@@ -237,7 +237,7 @@ export default function QuestionsPage() {
                   {selectedPhilosophers.map((p) => (
                     <Link
                       key={p.id}
-                      href={`/persons/${p.id}/`}
+                      href={`/persons/${p.id}`}
                       className={cn(
                         'group block rounded-xl border bg-slate-800/20 hover:bg-slate-800/40 transition-all duration-200 border-l-4 overflow-hidden',
                         getEraBorderClass(p.era)

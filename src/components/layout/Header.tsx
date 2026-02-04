@@ -55,9 +55,9 @@ const navEntries: NavEntry[] = [
     icon: <BookOpen className="w-4 h-4" />,
     basePath: "/philosophy",
     children: [
-      { label: "타임라인", description: "시대별 철학사 흐름", href: "/philosophy/timeline/" },
-      { label: "영향관계", description: "사상가 간 영향 그래프", href: "/philosophy/graph/" },
-      { label: "근본질문", description: "철학의 핵심 물음들", href: "/philosophy/questions/" },
+      { label: "타임라인", description: "시대별 철학사 흐름", href: "/philosophy/timeline" },
+      { label: "영향관계", description: "사상가 간 영향 그래프", href: "/philosophy/graph" },
+      { label: "근본질문", description: "철학의 핵심 물음들", href: "/philosophy/questions" },
     ],
   },
   {
@@ -66,9 +66,9 @@ const navEntries: NavEntry[] = [
     icon: <Scroll className="w-4 h-4" />,
     basePath: "/religion",
     children: [
-      { label: "세계지도", description: "종교 분포 지도", href: "/religion/map/" },
-      { label: "분파트리", description: "종교 분파 계보", href: "/religion/tree/" },
-      { label: "비교표", description: "종교 간 비교 매트릭스", href: "/religion/compare/" },
+      { label: "세계지도", description: "종교 분포 지도", href: "/religion/map" },
+      { label: "분파트리", description: "종교 분파 계보", href: "/religion/tree" },
+      { label: "비교표", description: "종교 간 비교 매트릭스", href: "/religion/compare" },
     ],
   },
   {
@@ -77,9 +77,9 @@ const navEntries: NavEntry[] = [
     icon: <Atom className="w-4 h-4" />,
     basePath: "/science",
     children: [
-      { label: "과학 허브", description: "과학사 종합 탐색", href: "/science/" },
-      { label: "발견 타임라인", description: "주요 발견과 발명", href: "/science/timeline/" },
-      { label: "분야별 탐색", description: "물리, 화학, 생물 등", href: "/science/fields/" },
+      { label: "과학 허브", description: "과학사 종합 탐색", href: "/science" },
+      { label: "발견 타임라인", description: "주요 발견과 발명", href: "/science/timeline" },
+      { label: "분야별 탐색", description: "물리, 화학, 생물 등", href: "/science/fields" },
     ],
   },
   {
@@ -88,9 +88,9 @@ const navEntries: NavEntry[] = [
     icon: <Crown className="w-4 h-4" />,
     basePath: "/history",
     children: [
-      { label: "역사 허브", description: "역사 종합 탐색", href: "/history/" },
-      { label: "사건 타임라인", description: "주요 역사적 사건", href: "/history/timeline/" },
-      { label: "문명", description: "세계 문명 탐색", href: "/history/civilizations/" },
+      { label: "역사 허브", description: "역사 종합 탐색", href: "/history" },
+      { label: "사건 타임라인", description: "주요 역사적 사건", href: "/history/timeline" },
+      { label: "문명", description: "세계 문명 탐색", href: "/history/civilizations" },
     ],
   },
   {
@@ -99,27 +99,27 @@ const navEntries: NavEntry[] = [
     icon: <Palette className="w-4 h-4" />,
     basePath: "/culture",
     children: [
-      { label: "문화 허브", description: "문화/예술 종합", href: "/culture/" },
-      { label: "사조", description: "예술 및 문화 사조", href: "/culture/movements/" },
+      { label: "문화 허브", description: "문화/예술 종합", href: "/culture" },
+      { label: "사조", description: "예술 및 문화 사조", href: "/culture/movements" },
     ],
   },
   {
     kind: "link",
     label: "인물",
     icon: <Users className="w-4 h-4" />,
-    href: "/persons/",
+    href: "/persons",
   },
   {
     kind: "link",
     label: "인드라망",
     icon: <Network className="w-4 h-4" />,
-    href: "/connections/",
+    href: "/connections",
   },
   {
     kind: "link",
     label: "검색",
     icon: <Search className="w-4 h-4" />,
-    href: "/search/",
+    href: "/search",
   },
 ];
 
@@ -220,7 +220,7 @@ export default function Header() {
                   Sophia Atlas
                 </span>
                 <span className="text-[10px] text-foreground-muted leading-none tracking-wider uppercase hidden sm:block">
-                  인류 사상의 지도
+                  인류 지성의 인드라망
                 </span>
               </div>
             </Link>

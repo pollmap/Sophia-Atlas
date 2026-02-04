@@ -176,7 +176,7 @@ export default function HistoryTimelinePage() {
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         <Link
-          href="/history/"
+          href="/history"
           className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors mb-6"
         >
           <ArrowLeft className="w-4 h-4" />
@@ -375,7 +375,7 @@ export default function HistoryTimelinePage() {
                         return (
                           <Link
                             key={p.id}
-                            href={`/persons/${p.id}/`}
+                            href={`/persons/${p.id}`}
                             className="absolute group"
                             style={{
                               left: `${left}%`,
@@ -485,7 +485,7 @@ export default function HistoryTimelinePage() {
                   return (
                     <Link
                       key={event.id}
-                      href={`/entities/${event.id}/`}
+                      href={`/entities/${event.id}`}
                       className="absolute group"
                       style={{
                         left: `${left}%`,
@@ -558,7 +558,7 @@ export default function HistoryTimelinePage() {
                 return (
                   <Link
                     key={p.id}
-                    href={`/persons/${p.id}/`}
+                    href={`/persons/${p.id}`}
                     className={cn(
                       'group rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200 border-l-4',
                       getEraBorderClass(p.era)
@@ -644,7 +644,7 @@ export default function HistoryTimelinePage() {
               {filteredEvents.map((event) => (
                 <Link
                   key={event.id}
-                  href={`/entities/${event.id}/`}
+                  href={`/entities/${event.id}`}
                   className={cn(
                     'group rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200 border-l-4 border-l-amber-600/50',
                     getEraBorderClass(event.era)

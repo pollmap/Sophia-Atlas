@@ -4,9 +4,9 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Sophia Atlas - 인류 사상의 지도",
+  title: "Sophia Atlas — 인류 지성의 인드라망",
   description:
-    "인류의 위대한 사상과 지혜를 탐험하는 인터랙티브 플랫폼. 철학, 신화, 종교의 연결고리를 시각적으로 발견하고, 시대와 문화를 넘나드는 사상의 흐름을 이해하세요.",
+    "신화에서 AI까지, 인류 지성의 그물을 시각화하는 인터랙티브 플랫폼. 철학·종교·과학·역사·문화 — 모든 사상의 연결을 탐험하세요.",
   keywords: [
     "철학",
     "신화",
@@ -24,18 +24,18 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Sophia Atlas" }],
   openGraph: {
-    title: "Sophia Atlas - 인류 사상의 지도",
+    title: "Sophia Atlas — 인류 지성의 인드라망",
     description:
-      "철학, 신화, 종교의 연결고리를 시각적으로 발견하는 인터랙티브 플랫폼",
+      "신화에서 AI까지, 인류 지성의 그물을 시각화하는 인터랙티브 플랫폼",
     type: "website",
     locale: "ko_KR",
     siteName: "Sophia Atlas",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sophia Atlas - 인류 사상의 지도",
+    title: "Sophia Atlas — 인류 지성의 인드라망",
     description:
-      "철학, 신화, 종교의 연결고리를 시각적으로 발견하는 인터랙티브 플랫폼",
+      "신화에서 AI까지, 인류 지성의 그물을 시각화하는 인터랙티브 플랫폼",
   },
   robots: {
     index: true,
@@ -51,7 +51,7 @@ export default function RootLayout({
   return (
     <html lang="ko" className="dark" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/Sophia-Atlas/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="theme-color" content="#0F172A" />
       </head>
       <body className="min-h-screen flex flex-col bg-background text-foreground antialiased">
