@@ -13,6 +13,9 @@ import {
   Tag,
 } from 'lucide-react';
 import rawPhilosophers from '@/data/persons/philosophers.json';
+import religiousFiguresData from '@/data/persons/religious-figures.json';
+import scientistsData from '@/data/persons/scientists.json';
+import historicalFiguresData from '@/data/persons/historical-figures.json';
 
 const philosophersData = (rawPhilosophers as any[]).map((p) => ({
   ...p,
@@ -39,6 +42,13 @@ const philosophersData = (rawPhilosophers as any[]).map((p) => ({
   concepts: string[];
   questions: string[];
 }[];
+
+const allPersonsForLookup: { id: string; name: { ko: string; en: string }; era: string; category: string }[] = [
+  ...(rawPhilosophers as any[]),
+  ...(religiousFiguresData as any[]),
+  ...(scientistsData as any[]),
+  ...(historicalFiguresData as any[]),
+];
 import {
   cn,
   getEraColor,
@@ -56,9 +66,14 @@ export function generateStaticParams() {
   }));
 }
 
-function getPhilosopherName(id: string): string {
-  const p = philosophersData.find((ph) => ph.id === id);
+function getPersonNameById(id: string): string {
+  const p = allPersonsForLookup.find((ph) => ph.id === id);
   return p ? p.name.ko : id;
+}
+
+function getPersonEraById(id: string): string | undefined {
+  const p = allPersonsForLookup.find((ph) => ph.id === id);
+  return p?.era;
 }
 
 export default async function PhilosopherPage({
@@ -180,10 +195,13 @@ export default async function PhilosopherPage({
         <ExpandableSection
           title="상세 해설"
           icon={<BookOpen className="w-5 h-5 text-medieval" />}
+          defaultOpen
         >
-          <p className="leading-relaxed whitespace-pre-line">
-            {philosopher.detailed}
-          </p>
+          <div className="leading-relaxed text-slate-300 space-y-3">
+            {philosopher.detailed.split('\n').filter(Boolean).map((para, i) => (
+              <p key={i}>{para}</p>
+            ))}
+          </div>
         </ExpandableSection>
       </section>
 
@@ -264,11 +282,11 @@ export default async function PhilosopherPage({
               {philosopher.influences.length > 0 ? (
                 <div className="space-y-2">
                   {philosopher.influences.map((infId) => {
-                    const inf = philosophersData.find((p) => p.id === infId);
+                    const inf = allPersonsForLookup.find((p) => p.id === infId);
                     return (
                       <Link
                         key={infId}
-                        href={`/philosophy/${infId}/`}
+                        href={`/persons/${infId}/`}
                         className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-700/30 transition-colors group"
                       >
                         {inf && (
@@ -281,7 +299,7 @@ export default async function PhilosopherPage({
                           />
                         )}
                         <span className="text-slate-300 group-hover:text-white transition-colors">
-                          {getPhilosopherName(infId)}
+                          {getPersonNameById(infId)}
                         </span>
                       </Link>
                     );
@@ -302,11 +320,11 @@ export default async function PhilosopherPage({
               {philosopher.influenced.length > 0 ? (
                 <div className="space-y-2">
                   {philosopher.influenced.map((infId) => {
-                    const inf = philosophersData.find((p) => p.id === infId);
+                    const inf = allPersonsForLookup.find((p) => p.id === infId);
                     return (
                       <Link
                         key={infId}
-                        href={`/philosophy/${infId}/`}
+                        href={`/persons/${infId}/`}
                         className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-700/30 transition-colors group"
                       >
                         {inf && (
@@ -316,7 +334,7 @@ export default async function PhilosopherPage({
                           />
                         )}
                         <span className="text-slate-300 group-hover:text-white transition-colors">
-                          {getPhilosopherName(infId)}
+                          {getPersonNameById(infId)}
                         </span>
                       </Link>
                     );

@@ -53,7 +53,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["Pretendard", "Inter", "system-ui", "sans-serif"],
-        display: ["Inter", "Pretendard", "system-ui", "sans-serif"],
+        display: ["Gmarket Sans", "Pretendard", "system-ui", "sans-serif"],
         mono: ["JetBrains Mono", "monospace"],
       },
       animation: {
