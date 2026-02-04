@@ -57,17 +57,17 @@ const typeLabels: Record<string, string> = {
   event: '역사적 사건', ideology: '사상/이념', movement: '운동/학파',
   institution: '기관/조직', text: '경전/문헌', concept: '핵심 개념',
 };
-const typeColors: Record<string, string> = {
-  event: 'bg-red-500/20 text-red-300 border-red-500/30',
-  ideology: 'bg-purple-500/20 text-purple-300 border-purple-500/30',
-  movement: 'bg-blue-500/20 text-blue-300 border-blue-500/30',
-  institution: 'bg-amber-500/20 text-amber-300 border-amber-500/30',
-  text: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30',
-  concept: 'bg-cyan-500/20 text-cyan-300 border-cyan-500/30',
+const typeColors: Record<string, { bg: string; text: string; border: string }> = {
+  event: { bg: 'rgba(139, 64, 64, 0.1)', text: '#8B4040', border: 'rgba(139, 64, 64, 0.3)' },
+  ideology: { bg: 'rgba(107, 78, 138, 0.1)', text: '#6B4E8A', border: 'rgba(107, 78, 138, 0.3)' },
+  movement: { bg: 'rgba(74, 93, 138, 0.1)', text: '#4A5D8A', border: 'rgba(74, 93, 138, 0.3)' },
+  institution: { bg: 'rgba(184, 134, 11, 0.1)', text: '#B8860B', border: 'rgba(184, 134, 11, 0.3)' },
+  text: { bg: 'rgba(91, 115, 85, 0.1)', text: '#5B7355', border: 'rgba(91, 115, 85, 0.3)' },
+  concept: { bg: 'rgba(74, 122, 107, 0.1)', text: '#4A7A6B', border: 'rgba(74, 122, 107, 0.3)' },
 };
 const typeHex: Record<string, string> = {
-  event: '#EF4444', ideology: '#A855F7', movement: '#3B82F6',
-  institution: '#F59E0B', text: '#10B981', concept: '#06B6D4',
+  event: '#8B4040', ideology: '#6B4E8A', movement: '#4A5D8A',
+  institution: '#B8860B', text: '#5B7355', concept: '#4A7A6B',
 };
 
 export function generateStaticParams() {
@@ -90,19 +90,21 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
 
   if (!entity) {
     return (
-      <div className="min-h-screen bg-[#0F172A] flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center" style={{ background: 'var(--fresco-ivory)' }}>
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-white mb-4">엔터티를 찾을 수 없습니다</h1>
-          <Link href="/entities" className="text-purple-400 hover:text-purple-300">엔터티 목록으로</Link>
+          <h1 className="text-2xl font-bold mb-4" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>엔터티를 찾을 수 없습니다</h1>
+          <Link href="/entities" className="hover:opacity-80" style={{ color: '#6B4E8A' }}>엔터티 목록으로</Link>
         </div>
       </div>
     );
   }
 
+  const tc = typeColors[entity.type];
+
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen" style={{ background: 'var(--fresco-ivory)' }}>
       <div className="max-w-4xl mx-auto px-4 pt-8">
-        <Link href="/entities" className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors">
+        <Link href="/entities" className="inline-flex items-center gap-1.5 text-sm hover:opacity-80 transition-colors" style={{ color: 'var(--ink-light)' }}>
           <ArrowLeft className="w-4 h-4" />
           엔터티 목록으로
         </Link>
@@ -110,43 +112,46 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
 
       {/* Hero */}
       <section className="max-w-4xl mx-auto px-4 py-8">
-        <div className="relative rounded-2xl border border-slate-700/50 bg-slate-800/20 overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-1" style={{ backgroundColor: typeHex[entity.type] || '#64748B' }} />
+        <div className="relative rounded border overflow-hidden" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+          <div className="absolute top-0 left-0 right-0 h-1" style={{ backgroundColor: typeHex[entity.type] || '#6B6358' }} />
           <div className="p-6 md:p-8 pt-8">
             <div className="flex flex-wrap gap-2 mb-4">
-              <span className={cn('text-xs px-2.5 py-1 rounded-full border font-medium', typeColors[entity.type])}>
+              <span
+                className="text-xs px-2.5 py-1 rounded-full border font-medium"
+                style={{ background: tc?.bg, color: tc?.text, borderColor: tc?.border, fontFamily: "'Pretendard', sans-serif" }}
+              >
                 {typeLabels[entity.type]}
               </span>
               {entity.era && (
-                <span className={cn('text-xs px-2.5 py-1 rounded-full font-medium', getEraColorClass(entity.era))}>
+                <span className={cn('text-xs px-2.5 py-1 rounded-full font-medium', getEraColorClass(entity.era))} style={{ fontFamily: "'Pretendard', sans-serif" }}>
                   {getEraLabel(entity.era)}
                 </span>
               )}
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-1">{entity.name.ko}</h1>
-            <p className="text-lg text-slate-400">{entity.name.en}</p>
+            <h1 className="text-3xl md:text-4xl font-bold mb-1" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>{entity.name.ko}</h1>
+            <p className="text-lg" style={{ color: 'var(--ink-light)' }}>{entity.name.en}</p>
             {entity.name.original && entity.name.original !== entity.name.en && (
-              <p className="text-sm text-slate-500 italic">{entity.name.original}</p>
+              <p className="text-sm italic" style={{ color: 'var(--ink-light)' }}>{entity.name.original}</p>
             )}
-            <div className="flex flex-wrap items-center gap-4 mt-4 text-sm text-slate-400">
+            <div className="flex flex-wrap items-center gap-4 mt-4 text-sm" style={{ color: 'var(--ink-light)' }}>
               {entity.period && (
                 <span className="flex items-center gap-1.5">
-                  <Calendar className="w-4 h-4 text-slate-500" />
+                  <Calendar className="w-4 h-4" style={{ color: 'var(--ink-light)' }} />
                   {formatYear(entity.period.start)}
                   {entity.period.end !== entity.period.start && ` ~ ${formatYear(entity.period.end)}`}
                 </span>
               )}
               {entity.location && (
                 <span className="flex items-center gap-1.5">
-                  <MapPin className="w-4 h-4 text-slate-500" />
+                  <MapPin className="w-4 h-4" style={{ color: 'var(--ink-light)' }} />
                   {entity.location.region}
                 </span>
               )}
-              {entity.domain && <span className="text-cyan-400">{entity.domain}</span>}
+              {entity.domain && <span style={{ color: '#4A7A6B' }}>{entity.domain}</span>}
             </div>
             <div className="flex flex-wrap gap-2 mt-4">
               {entity.tags.map((t) => (
-                <span key={t} className="text-xs px-2.5 py-1 rounded-full bg-slate-700/50 text-slate-300 border border-slate-600/30">{t}</span>
+                <span key={t} className="text-xs px-2.5 py-1 rounded-full border" style={{ background: 'var(--fresco-aged)', color: 'var(--ink-medium)', borderColor: 'var(--fresco-shadow)' }}>{t}</span>
               ))}
             </div>
           </div>
@@ -155,19 +160,19 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
 
       {/* Summary */}
       <section className="max-w-4xl mx-auto px-4 pb-6">
-        <div className="rounded-xl border border-slate-700/50 bg-slate-800/20 p-6">
-          <h2 className="text-base font-semibold text-white mb-3 flex items-center gap-2">
-            <Lightbulb className="w-5 h-5 text-ancient" />요약
+        <div className="rounded-xl border p-6" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+          <h2 className="text-base font-semibold mb-3 flex items-center gap-2" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
+            <Lightbulb className="w-5 h-5" style={{ color: '#B8860B' }} />요약
           </h2>
-          <p className="text-slate-300 leading-relaxed">{entity.summary}</p>
+          <p className="leading-relaxed" style={{ color: 'var(--ink-medium)' }}>{entity.summary}</p>
         </div>
       </section>
 
       {/* Detailed */}
       {entity.detailed && (
         <section className="max-w-4xl mx-auto px-4 pb-6">
-          <ExpandableSection title="상세 설명" icon={<BookOpen className="w-5 h-5 text-medieval" />}>
-            <p className="leading-relaxed whitespace-pre-line">{entity.detailed}</p>
+          <ExpandableSection title="상세 설명" icon={<BookOpen className="w-5 h-5" style={{ color: '#6B4E8A' }} />}>
+            <p className="leading-relaxed whitespace-pre-line" style={{ color: 'var(--ink-medium)' }}>{entity.detailed}</p>
           </ExpandableSection>
         </section>
       )}
@@ -175,9 +180,9 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
       {/* Significance (events) */}
       {entity.significance && (
         <section className="max-w-4xl mx-auto px-4 pb-6">
-          <div className="rounded-xl border border-slate-700/50 bg-slate-800/20 p-6">
-            <h2 className="text-base font-semibold text-white mb-3">역사적 의의</h2>
-            <p className="text-slate-300 leading-relaxed">{entity.significance}</p>
+          <div className="rounded-xl border p-6" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+            <h2 className="text-base font-semibold mb-3" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>역사적 의의</h2>
+            <p className="leading-relaxed" style={{ color: 'var(--ink-medium)' }}>{entity.significance}</p>
           </div>
         </section>
       )}
@@ -185,12 +190,12 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
       {/* Key Principles (ideology/movement) */}
       {entity.keyPrinciples && entity.keyPrinciples.length > 0 && (
         <section className="max-w-4xl mx-auto px-4 pb-6">
-          <div className="rounded-xl border border-slate-700/50 bg-slate-800/20 p-6">
-            <h2 className="text-base font-semibold text-white mb-4">핵심 원리</h2>
+          <div className="rounded-xl border p-6" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+            <h2 className="text-base font-semibold mb-4" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>핵심 원리</h2>
             <ul className="space-y-2">
               {entity.keyPrinciples.map((p, i) => (
-                <li key={i} className="flex items-start gap-2 text-slate-300">
-                  <span className="text-purple-400 mt-0.5">•</span>{p}
+                <li key={i} className="flex items-start gap-2" style={{ color: 'var(--ink-medium)' }}>
+                  <span style={{ color: '#6B4E8A' }} className="mt-0.5">&#8226;</span>{p}
                 </li>
               ))}
             </ul>
@@ -201,16 +206,17 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
       {/* Related Persons */}
       {entity.relatedPersons && entity.relatedPersons.length > 0 && (
         <section className="max-w-4xl mx-auto px-4 pb-6">
-          <div className="rounded-xl border border-slate-700/50 bg-slate-800/20 p-6">
-            <h2 className="text-base font-semibold text-white mb-4 flex items-center gap-2">
-              <Users className="w-5 h-5 text-indigo-400" />관련 인물
+          <div className="rounded-xl border p-6" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+            <h2 className="text-base font-semibold mb-4 flex items-center gap-2" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
+              <Users className="w-5 h-5" style={{ color: '#4A5D8A' }} />관련 인물
             </h2>
             <div className="flex flex-wrap gap-2">
               {entity.relatedPersons.map((pid) => {
                 const p = allPersons.find((person) => person.id === pid);
                 return (
                   <Link key={pid} href={`/persons/${pid}`}
-                    className="text-sm px-3 py-1.5 rounded-full border border-slate-600/30 text-slate-300 bg-slate-700/30 hover:bg-slate-700/50 transition-colors">
+                    className="text-sm px-3 py-1.5 rounded-full border hover:opacity-80 transition-colors"
+                    style={{ borderColor: 'var(--fresco-shadow)', color: 'var(--ink-medium)', background: 'var(--fresco-aged)' }}>
                     {p ? p.name.ko : pid}
                   </Link>
                 );
@@ -223,14 +229,15 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
       {/* Related Entities */}
       {entity.relatedEntities && entity.relatedEntities.length > 0 && (
         <section className="max-w-4xl mx-auto px-4 pb-20">
-          <div className="rounded-xl border border-slate-700/50 bg-slate-800/20 p-6">
-            <h2 className="text-base font-semibold text-white mb-4 flex items-center gap-2">
-              <Layers className="w-5 h-5 text-purple-400" />관련 엔터티
+          <div className="rounded-xl border p-6" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+            <h2 className="text-base font-semibold mb-4 flex items-center gap-2" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
+              <Layers className="w-5 h-5" style={{ color: '#6B4E8A' }} />관련 엔터티
             </h2>
             <div className="flex flex-wrap gap-2">
               {entity.relatedEntities.map((eid) => (
                 <Link key={eid} href={`/entities/${eid}`}
-                  className="text-sm px-3 py-1.5 rounded-full border border-slate-600/30 text-slate-300 bg-slate-700/30 hover:bg-slate-700/50 transition-colors">
+                  className="text-sm px-3 py-1.5 rounded-full border hover:opacity-80 transition-colors"
+                  style={{ borderColor: 'var(--fresco-shadow)', color: 'var(--ink-medium)', background: 'var(--fresco-aged)' }}>
                   {getEntityName(eid)}
                 </Link>
               ))}

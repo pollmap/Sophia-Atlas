@@ -3146,5 +3146,1025 @@
     "description": "쇼펜하우어는 의지의 부정을 통한 해탈을 불교의 열반과 유사한 것으로 이해했다",
     "strength": 1,
     "direction": "directed"
+  },
+  {
+    "source": "ashoka",
+    "target": "four-noble-truths",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아쇼카 대왕은 불교에 귀의하여 사성제를 바탕으로 평화로운 통치를 실현했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ashoka",
+    "target": "karma",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아쇼카는 업(카르마) 사상에 기반한 도덕적 통치를 실시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "marcus-aurelius",
+    "target": "stoicism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "마르쿠스 아우렐리우스는 명상록에서 스토아 철학을 실천적으로 옹호했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "cicero",
+    "target": "stoicism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "키케로는 스토아 윤리학을 라틴 세계에 전파하고 수용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "lucretius",
+    "target": "materialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "루크레티우스는 사물의 본성에 관하여에서 에피쿠로스적 유물론을 시적으로 옹호했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "philo-of-alexandria",
+    "target": "library-alexandria",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "알렉산드리아의 필론은 알렉산드리아의 학문 전통 속에서 유대-그리스 철학을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-aquinas",
+    "target": "metaphysics-aristotle",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "토마스 아퀴나스는 아리스토텔레스의 형이상학을 기독교 신학과 종합했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-rushd",
+    "target": "metaphysics-aristotle",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "이븐 루시드는 아리스토텔레스의 형이상학에 대한 체계적 주석으로 유명하다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "alexander-the-great",
+    "target": "library-alexandria",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "알렉산드로스의 정복은 알렉산드리아 건설과 도서관 설립의 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "napoleon",
+    "target": "french-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "나폴레옹은 프랑스 혁명이 가져온 사회적 격변 속에서 권력에 올랐다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "darwin",
+    "target": "naturalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "다윈의 진화론은 자연주의적 세계관의 과학적 기반을 제공했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "giordano-bruno",
+    "target": "renaissance",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "브루노는 르네상스의 무한 우주론을 주장하다 이단으로 화형당했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "francis-assisi",
+    "target": "crusades",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "프란체스코는 5차 십자군 전쟁 중 술탄을 방문하여 평화적 대화를 시도했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "joan-of-arc",
+    "target": "nationalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "잔 다르크는 프랑스 민족주의의 상징으로 영국에 맞서 프랑스를 지켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "meiji-emperor",
+    "target": "nationalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "메이지 천황은 일본 민족주의를 기반으로 근대화와 국력 강화를 추진했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "russell",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "러셀은 왕립학회 회원으로 수학과 철학에서 활동했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "darwin",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "다윈은 왕립학회 회원으로 진화론을 과학 공동체에 제시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "faraday",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "패러데이는 왕립학회에서 전자기학 연구를 수행했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "feynman",
+    "target": "mit",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "파인만은 MIT에서 초기 경력을 쌓았다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hilbert",
+    "target": "prussian-academy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "힐베르트는 괴팅겐과 프로이센 학술원에서 수학의 기초론을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "martin-luther",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "루터는 성경을 독일어로 번역하여 종교개혁과 독일어 통일에 기여했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "rashi",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "라시는 성경과 탈무드에 대한 가장 영향력 있는 유대교 주석을 저술했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "abraham-heschel",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "헤셸은 성경의 예언자적 전통을 현대적으로 재해석하여 사회정의와 연결시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nietzsche",
+    "target": "romanticism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "니체는 낭만주의의 감성적 과잉과 약자의 도덕을 비판했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "spinoza",
+    "target": "determinism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "스피노자는 자연의 필연성에 기반한 결정론적 세계관을 옹호했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hume",
+    "target": "determinism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "흄은 인과적 결정론의 합리적 기반을 회의론적으로 비판했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kant",
+    "target": "idealism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "칸트는 초월적 관념론을 통해 경험의 선험적 조건을 밝혔다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "naturalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "아리스토텔레스의 자연학적 관찰 방법은 자연주의의 고대적 기초를 놓았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cicero",
+    "target": "republic-plato",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "키케로는 플라톤의 국가론을 라틴 세계에서 수용하고 자신의 공화국론을 저술했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "julius-caesar",
+    "target": "republic-plato",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "공화정의 이상은 카이사르의 독재에 맞선 브루투스의 저항의 이론적 배경이었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hobbes",
+    "target": "materialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "홉스는 근대 유물론의 대표자로 물체의 운동으로 모든 것을 설명하려 했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "holbach",
+    "target": "materialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "돌바크는 자연의 체계에서 체계적 유물론과 무신론을 전개했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "fichte",
+    "target": "idealism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "피히테는 자아 철학으로 독일 관념론을 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "schelling",
+    "target": "idealism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "셸링은 자연철학과 예술철학으로 독일 관념론을 확장했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "vivekananda",
+    "target": "vedas",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "비베카난다는 시카고 만국종교회의에서 베다의 보편적 가르침을 세계에 소개했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "augustine",
+    "target": "council-of-nicaea",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "니케아 공의회의 정통 교리는 아우구스티누스의 신학적 전제가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "heidegger",
+    "target": "phenomenology-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "하이데거는 후설의 현상학을 존재론적 방향으로 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "carnap",
+    "target": "positivism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "카르납은 논리실증주의로 실증주의를 현대적 형태로 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "spencer",
+    "target": "positivism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "스펜서는 실증주의적 세계관을 사회적 진화론에 적용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nietzsche",
+    "target": "humanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "니체는 기존 인문주의의 도덕관을 비판하고 위버멘쉬적 가치 전환을 요구했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "heidegger",
+    "target": "humanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "하이데거는 인문주의에 대한 서한에서 전통적 휴머니즘을 존재론적으로 비판했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "innocent-iii",
+    "target": "crusades",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "인노첸시오 3세는 4차 십자군 원정을 촉발시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "karl-barth",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "바르트는 성경의 말씀 중심 신학으로 신정통주의를 확립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "plato",
+    "target": "academy-plato",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "플라톤은 아카데메이아에서 수십 년간 교육과 연구를 이끌었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "augustine",
+    "target": "idealism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "아우구스티누스는 신플라톤적 관념론을 기독교 신학에 종합했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "einstein",
+    "target": "scientific-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "아인슈타인의 상대성이론은 20세기 물리학 혁명의 핵심이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hawking",
+    "target": "quantum-mechanics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "호킹은 양자역학과 일반상대성이론의 결합을 시도하여 블랙홀 복사를 발견했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "guattari",
+    "target": "postmodernism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "가타리는 들뢰즈와 함께 포스트모더니즘의 핵심 사유를 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zizek",
+    "target": "frankfurt-school",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "지젝은 프랑크푸르트 학파의 비판이론 전통을 라캉적으로 재해석했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "montaigne",
+    "target": "humanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "몽테뉴는 르네상스 인문주의를 개인적 에세이의 형식으로 독창적으로 표현했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-more",
+    "target": "humanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "토머스 모어는 유토피아를 통해 인문주의적 이상 사회를 그렸다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "leonardo-da-vinci",
+    "target": "humanism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "레오나르도는 르네상스 인문주의의 만능인(uomo universale) 이상을 실현했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "michelangelo",
+    "target": "humanism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "미켈란젤로는 르네상스 인문주의의 예술적 정수를 시스티나 성당 천장화로 표현했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mandela",
+    "target": "liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "만델라는 자유와 평등의 자유주의적 이상을 남아프리카에서 실현하기 위해 투쟁했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aung-san-suu-kyi",
+    "target": "liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아웅산 수치는 미얀마의 민주화를 위해 자유주의적 가치를 옹호했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "malala-yousafzai",
+    "target": "feminism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "말랄라는 여성 교육권을 위한 투쟁으로 현대 페미니즘의 상징이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nehru",
+    "target": "socialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "네루는 사회주의적 경제 정책으로 독립 인도의 발전을 추구했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "heisenberg",
+    "target": "quantum-mechanics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "하이젠베르크는 행렬역학을 통해 양자역학의 기초를 세웠다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "schrodinger",
+    "target": "quantum-mechanics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "슈뢰딩거는 파동방정식을 통해 양자역학의 수학적 기초를 확립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "maxwell",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "맥스웰은 왕립학회 회원으로 전자기학 연구를 발표했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "lavoisier",
+    "target": "french-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "라부아지에는 프랑스 혁명 중 징세관 경력으로 인해 처형되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "sartre",
+    "target": "existentialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "사르트르는 '실존은 본질에 앞선다'는 명제로 실존주의를 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "camus",
+    "target": "existentialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "카뮈는 부조리 철학을 통해 실존주의적 문제의식을 공유했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hobbes",
+    "target": "social-contract",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "홉스는 리바이어던에서 절대주권에 기반한 사회계약론을 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "rousseau",
+    "target": "social-contract",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "루소는 일반의지 개념을 통해 사회계약론을 민주주의적으로 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "origen",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "오리게네스는 성경의 체계적 해석학인 헥사플라를 편찬했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nagarjuna",
+    "target": "sunyata",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "나가르주나는 중론을 통해 공(空) 사상을 체계적으로 확립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "bohr",
+    "target": "quantum-mechanics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "보어는 원자 모형과 상보성 원리를 통해 양자역학의 기초를 세웠다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "planck",
+    "target": "quantum-mechanics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "플랑크는 에너지 양자 가설로 양자역학의 시대를 열었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hawking",
+    "target": "cern",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "호킹은 CERN과 협력하며 입자물리학과 우주론의 접점을 연구했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "lavoisier",
+    "target": "industrial-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "라부아지에의 근대 화학 체계는 산업혁명의 화학공업 발전에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "turing",
+    "target": "world-war-ii",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "튜링은 에니그마 암호 해독으로 제2차 세계대전의 연합군 승리에 기여했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "von-neumann",
+    "target": "world-war-ii",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "폰 노이만은 맨해튼 프로젝트에 참여하여 원자폭탄의 내폭 설계를 계산했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "martin-luther-king",
+    "target": "american-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "마틴 루터 킹은 미국 독립혁명의 자유와 평등 이념을 민권운동에 적용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-smith",
+    "target": "industrial-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "애덤 스미스의 자유시장 경제학은 산업혁명의 경제적 맥락에서 형성되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-smith",
+    "target": "liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "애덤 스미스는 경제적 자유주의의 이론적 기초를 놓았다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "voltaire",
+    "target": "enlightenment-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "볼테르는 관용과 이성을 옹호하며 프랑스 계몽주의를 이끌었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "diderot",
+    "target": "enlightenment-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "디드로는 백과전서 편찬을 통해 계몽주의의 지식 보급에 기여했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "montesquieu",
+    "target": "enlightenment-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "몽테스키외는 삼권분립론으로 계몽주의 정치사상에 기여했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "sun-tzu",
+    "target": "the-prince",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "손자의 전략 사상은 마키아벨리의 군주론에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "de-beauvoir",
+    "target": "feminism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "보부아르는 페미니즘의 이론적 기초를 놓은 핵심 사상가이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "de-beauvoir",
+    "target": "existentialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "보부아르는 실존주의적 관점에서 여성의 조건과 자유를 분석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "shankara",
+    "target": "atman",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "샹카라는 아드바이타 베단타에서 아트만과 브라만의 동일성을 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "shankara",
+    "target": "brahman",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "샹카라는 브라만을 유일한 궁극적 실재로 규정하며 불이론을 완성했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hubble",
+    "target": "cern",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "허블의 우주 팽창 발견은 현대 입자물리학과 우주론의 연결고리가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "maxwell",
+    "target": "scientific-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "맥스웰의 전자기 이론 통합은 과학혁명의 연장선에서 물리학을 혁신했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mendeleev",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "멘델레예프는 왕립학회 외국인 회원으로 주기율표의 업적을 인정받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "pasteur",
+    "target": "industrial-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "파스퇴르의 세균학은 산업혁명 시대 공중보건과 식품산업을 혁신했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "foucault",
+    "target": "structuralism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "푸코는 초기에 구조주의적 방법론을 활용하여 권력과 지식의 관계를 분석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "foucault",
+    "target": "postmodernism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "푸코는 포스트모더니즘의 핵심 사상가로 근대적 주체와 권력을 해체했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "derrida",
+    "target": "postmodernism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "데리다의 해체주의는 포스트모더니즘의 핵심적 철학적 기반이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "rumi",
+    "target": "quran",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "루미는 꾸란의 가르침을 수피 시와 명상을 통해 신비적으로 해석했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-arabi",
+    "target": "quran",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "이븐 아라비는 꾸란의 신비적 해석을 통해 존재일성론을 전개했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "al-ghazali",
+    "target": "quran",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "알-가잘리는 꾸란의 정통 해석을 옹호하며 철학적 회의주의를 비판했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "shakespeare",
+    "target": "renaissance",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "셰익스피어는 르네상스 시대 영문학의 최고봉으로 인간 본성을 탐구했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "watson",
+    "target": "dna-discovery",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "왓슨은 크릭과 함께 DNA 이중나선 구조를 발견했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "crick",
+    "target": "dna-discovery",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "크릭은 왓슨과 함께 DNA 이중나선 구조를 규명했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "william-james",
+    "target": "pragmatism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "윌리엄 제임스는 실용주의를 심리학과 종교 경험에 적용하며 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "alexander-the-great",
+    "target": "age-of-exploration",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "알렉산드로스의 동방원정은 고대 세계의 문명 교류를 촉진한 대탐험이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "leonardo-da-vinci",
+    "target": "humanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "다 빈치는 인간의 가능성에 대한 르네상스 인문주의를 체현했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "erasmus",
+    "target": "humanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "에라스무스는 기독교 인문주의의 핵심 인물로 종교개혁의 지적 기반을 마련했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "xunzi",
+    "target": "ren-confucius",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "순자는 성악설의 관점에서 예(禮)를 통한 인(仁)의 실현을 강조했다",
+    "strength": 2,
+    "direction": "directed"
   }
 ]

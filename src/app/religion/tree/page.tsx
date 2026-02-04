@@ -27,50 +27,51 @@ interface Religion {
   origin: { year: number; location: string };
 }
 
+/* Fresco tradition pigment colors for each religion */
 const religionColors: Record<string, { bg: string; border: string; text: string; line: string }> = {
   christianity: {
-    bg: "bg-blue-500/10",
-    border: "border-blue-500/30",
-    text: "text-blue-400",
-    line: "bg-blue-500/30",
+    bg: "bg-[#3D5A80]/10",
+    border: "border-[#3D5A80]/30",
+    text: "text-[#3D5A80]",
+    line: "bg-[#3D5A80]/30",
   },
   islam: {
-    bg: "bg-emerald-500/10",
-    border: "border-emerald-500/30",
-    text: "text-emerald-400",
-    line: "bg-emerald-500/30",
+    bg: "bg-[#5D4E6D]/10",
+    border: "border-[#5D4E6D]/30",
+    text: "text-[#5D4E6D]",
+    line: "bg-[#5D4E6D]/30",
   },
   buddhism: {
-    bg: "bg-amber-500/10",
-    border: "border-amber-500/30",
-    text: "text-amber-400",
-    line: "bg-amber-500/30",
+    bg: "bg-[#5B7355]/10",
+    border: "border-[#5B7355]/30",
+    text: "text-[#5B7355]",
+    line: "bg-[#5B7355]/30",
   },
   hinduism: {
-    bg: "bg-orange-500/10",
-    border: "border-orange-500/30",
-    text: "text-orange-400",
-    line: "bg-orange-500/30",
+    bg: "bg-[#C2703E]/10",
+    border: "border-[#C2703E]/30",
+    text: "text-[#C2703E]",
+    line: "bg-[#C2703E]/30",
   },
   judaism: {
-    bg: "bg-indigo-500/10",
-    border: "border-indigo-500/30",
-    text: "text-indigo-400",
-    line: "bg-indigo-500/30",
+    bg: "bg-[#B8860B]/10",
+    border: "border-[#B8860B]/30",
+    text: "text-[#B8860B]",
+    line: "bg-[#B8860B]/30",
   },
   confucianism: {
-    bg: "bg-red-500/10",
-    border: "border-red-500/30",
-    text: "text-red-400",
-    line: "bg-red-500/30",
+    bg: "bg-[#8B4513]/10",
+    border: "border-[#8B4513]/30",
+    text: "text-[#8B4513]",
+    line: "bg-[#8B4513]/30",
   },
 };
 
 const defaultColor = {
-  bg: "bg-purple-500/10",
-  border: "border-purple-500/30",
-  text: "text-purple-400",
-  line: "bg-purple-500/30",
+  bg: "bg-[#CC7722]/10",
+  border: "border-[#CC7722]/30",
+  text: "text-[#CC7722]",
+  line: "bg-[#CC7722]/30",
 };
 
 function BranchNode({
@@ -125,7 +126,7 @@ function BranchNode({
           "border rounded-xl p-4 mb-3 transition-all duration-200",
           colors.bg,
           colors.border,
-          hasChildren && "cursor-pointer hover:shadow-md"
+          hasChildren && "cursor-pointer hover:shadow-sepia"
         )}
         onClick={() => hasChildren && toggleNode(nodePath)}
       >
@@ -229,7 +230,7 @@ export default function ReligionTreePage() {
       {/* Header */}
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-4">
-          <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-teal-500/10 text-teal-400">
+          <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gold/10 text-gold">
             <GitBranch className="w-5 h-5" />
           </div>
           <h1 className="text-2xl md:text-3xl font-bold text-foreground">
@@ -258,7 +259,7 @@ export default function ReligionTreePage() {
                 "px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 border",
                 isActive
                   ? cn(rColors.bg, rColors.border, rColors.text)
-                  : "bg-background-secondary text-foreground-secondary border-transparent hover:text-foreground hover:bg-background-secondary/80"
+                  : "bg-fresco-parchment text-foreground-secondary border-transparent hover:text-foreground hover:bg-fresco-aged/50"
               )}
             >
               {religion.name.ko}
@@ -271,13 +272,13 @@ export default function ReligionTreePage() {
       <div className="flex items-center gap-2 mb-6">
         <button
           onClick={expandAll}
-          className="px-3 py-1.5 text-xs rounded-lg bg-background-secondary text-foreground-secondary hover:text-foreground transition-colors border border-border"
+          className="px-3 py-1.5 text-xs rounded-lg bg-fresco-parchment text-foreground-secondary hover:text-foreground hover:bg-fresco-aged/50 transition-colors border border-border"
         >
           전체 펼치기
         </button>
         <button
           onClick={collapseAll}
-          className="px-3 py-1.5 text-xs rounded-lg bg-background-secondary text-foreground-secondary hover:text-foreground transition-colors border border-border"
+          className="px-3 py-1.5 text-xs rounded-lg bg-fresco-parchment text-foreground-secondary hover:text-foreground hover:bg-fresco-aged/50 transition-colors border border-border"
         >
           전체 접기
         </button>
@@ -285,7 +286,7 @@ export default function ReligionTreePage() {
 
       {/* Tree View */}
       {selectedReligion && (
-        <div className="border border-border rounded-2xl bg-background-secondary/20 p-6 overflow-x-auto">
+        <div className="border border-border rounded-2xl bg-fresco-parchment/30 p-6 overflow-x-auto shadow-sepia">
           {/* Root Node */}
           <div
             className={cn(

@@ -123,21 +123,22 @@ export default function GraphPage() {
   const svgHeight = 500;
 
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen" style={{ background: 'var(--fresco-ivory)' }}>
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors mb-6"
+          className="inline-flex items-center gap-1.5 text-sm hover:opacity-80 transition-colors mb-6"
+          style={{ color: 'var(--ink-light)' }}
         >
           <ArrowLeft className="w-4 h-4" />
           홈으로
         </Link>
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-2 flex items-center gap-3">
-          <GitBranch className="w-8 h-8 text-medieval" />
+        <h1 className="text-3xl md:text-4xl font-bold mb-2 flex items-center gap-3" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
+          <GitBranch className="w-8 h-8" style={{ color: '#6B4E8A' }} />
           영향 관계 그래프
         </h1>
-        <p className="text-slate-400">
+        <p style={{ color: 'var(--ink-light)' }}>
           사상가들 사이의 영향 관계를 시각적으로 탐색하세요
         </p>
       </div>
@@ -145,15 +146,15 @@ export default function GraphPage() {
       {/* Era Filters */}
       <div className="max-w-7xl mx-auto px-4 pb-6">
         <div className="flex items-center gap-2 flex-wrap">
-          <Filter className="w-4 h-4 text-slate-500 mr-1" />
+          <Filter className="w-4 h-4 mr-1" style={{ color: 'var(--ink-light)' }} />
           <button
             onClick={() => { setSelectedEra('all'); setSelectedNode(null); }}
-            className={cn(
-              'px-4 py-2 rounded-lg text-sm font-medium transition-all',
-              selectedEra === 'all'
-                ? 'bg-slate-600 text-white'
-                : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50'
-            )}
+            className="px-4 py-2 rounded-lg text-sm font-medium transition-all"
+            style={{
+              background: selectedEra === 'all' ? 'var(--fresco-aged)' : 'var(--fresco-parchment)',
+              color: selectedEra === 'all' ? 'var(--ink-dark)' : 'var(--ink-light)',
+              fontFamily: "'Pretendard', sans-serif",
+            }}
           >
             전체
           </button>
@@ -165,8 +166,13 @@ export default function GraphPage() {
                 'px-4 py-2 rounded-lg text-sm font-medium transition-all',
                 selectedEra === era
                   ? getEraColorClass(era)
-                  : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50'
+                  : ''
               )}
+              style={selectedEra !== era ? {
+                background: 'var(--fresco-parchment)',
+                color: 'var(--ink-light)',
+                fontFamily: "'Pretendard', sans-serif",
+              } : { fontFamily: "'Pretendard', sans-serif" }}
             >
               {getEraLabel(era)}
             </button>
@@ -178,12 +184,12 @@ export default function GraphPage() {
       <div className="max-w-7xl mx-auto px-4 pb-20">
         <div className="flex flex-col lg:flex-row gap-6">
           {/* SVG Graph */}
-          <div className="flex-1 rounded-xl border border-slate-700/50 bg-slate-800/20 overflow-hidden">
+          <div className="flex-1 rounded border overflow-hidden" style={{ borderColor: 'var(--fresco-shadow)', background: '#FAF6E9' }}>
             <div className="overflow-auto">
               <svg
                 viewBox={`0 0 ${svgWidth} ${svgHeight}`}
                 className="w-full min-w-[600px]"
-                style={{ minHeight: 400 }}
+                style={{ minHeight: 400, background: '#FAF6E9' }}
               >
                 {/* Era column labels */}
                 {eras.map((era) => {
@@ -203,6 +209,7 @@ export default function GraphPage() {
                       fill={getEraHexColor(era)}
                       fontSize={12}
                       fontWeight={600}
+                      fontFamily="'Pretendard', sans-serif"
                     >
                       {getEraLabel(era)}
                     </text>
@@ -226,7 +233,7 @@ export default function GraphPage() {
                       <path
                         d={`M ${from.x} ${from.y} Q ${midX} ${midY} ${to.x} ${to.y}`}
                         fill="none"
-                        stroke={isHighlighted ? '#D4AF37' : '#334155'}
+                        stroke={isHighlighted ? '#B8860B' : 'rgba(184,134,11,0.25)'}
                         strokeWidth={isHighlighted ? 2 : 1}
                         strokeOpacity={isHighlighted ? 0.8 : 0.4}
                         markerEnd="url(#arrowhead)"
@@ -247,8 +254,7 @@ export default function GraphPage() {
                   >
                     <polygon
                       points="0 0, 8 3, 0 6"
-                      fill="#64748B"
-                      fillOpacity={0.5}
+                      fill="rgba(184,134,11,0.5)"
                     />
                   </marker>
                 </defs>
@@ -278,22 +284,43 @@ export default function GraphPage() {
                       }
                       opacity={dimmed ? 0.3 : 1}
                     >
+                      {/* Selected glow */}
+                      {isSelected && (
+                        <circle
+                          cx={pos.x}
+                          cy={pos.y}
+                          r={22}
+                          fill="none"
+                          stroke="rgba(184,134,11,0.3)"
+                          strokeWidth={3}
+                        />
+                      )}
                       <circle
                         cx={pos.x}
                         cy={pos.y}
                         r={isSelected ? 18 : 14}
                         fill={getEraHexColor(p.era)}
                         fillOpacity={isSelected ? 0.9 : 0.7}
-                        stroke={isSelected ? '#fff' : 'transparent'}
+                        stroke={isSelected ? '#B8860B' : 'transparent'}
                         strokeWidth={2}
+                      />
+                      {/* Label background */}
+                      <rect
+                        x={pos.x - 30}
+                        y={pos.y + 20}
+                        width={60}
+                        height={16}
+                        rx={3}
+                        fill="rgba(240,230,211,0.9)"
                       />
                       <text
                         x={pos.x}
-                        y={pos.y + 28}
+                        y={pos.y + 31}
                         textAnchor="middle"
-                        fill={isSelected ? '#ffffff' : '#94a3b8'}
+                        fill="#2C2416"
                         fontSize={11}
                         fontWeight={isSelected ? 600 : 400}
+                        fontFamily="'Pretendard', sans-serif"
                       >
                         {p.name.ko}
                       </text>
@@ -308,21 +335,22 @@ export default function GraphPage() {
           <div className="w-full lg:w-80 flex-shrink-0">
             {selectedPhilosopher ? (
               <div className={cn(
-                'rounded-xl border bg-slate-800/30 p-6',
+                'rounded border p-6',
                 getEraBorderClass(selectedPhilosopher.era)
-              )}>
+              )} style={{ background: 'var(--fresco-parchment)' }}>
                 <div className="flex items-start justify-between mb-4">
                   <div>
-                    <h3 className="text-xl font-bold text-white">
+                    <h3 className="text-xl font-bold" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
                       {selectedPhilosopher.name.ko}
                     </h3>
-                    <p className="text-sm text-slate-400">
+                    <p className="text-sm" style={{ color: 'var(--ink-light)' }}>
                       {selectedPhilosopher.name.en}
                     </p>
                   </div>
                   <button
                     onClick={() => setSelectedNode(null)}
-                    className="text-slate-500 hover:text-white transition-colors"
+                    className="hover:opacity-80 transition-colors"
+                    style={{ color: 'var(--ink-light)' }}
                   >
                     <X className="w-5 h-5" />
                   </button>
@@ -333,11 +361,12 @@ export default function GraphPage() {
                     'inline-block text-xs px-2.5 py-1 rounded-full font-medium mb-4',
                     getEraColorClass(selectedPhilosopher.era)
                   )}
+                  style={{ fontFamily: "'Pretendard', sans-serif" }}
                 >
                   {getEraLabel(selectedPhilosopher.era as Era)}
                 </span>
 
-                <p className="text-xs text-slate-500 mb-1">
+                <p className="text-xs mb-1" style={{ color: 'var(--ink-light)' }}>
                   {formatYear(selectedPhilosopher.period.start)} ~{' '}
                   {formatYear(selectedPhilosopher.period.end)}
                 </p>
@@ -346,7 +375,8 @@ export default function GraphPage() {
                   {selectedPhilosopher.school.map((s) => (
                     <span
                       key={s}
-                      className="text-[11px] px-2 py-0.5 rounded-full bg-slate-700/50 text-slate-400"
+                      className="text-[11px] px-2 py-0.5 rounded-full"
+                      style={{ background: 'var(--fresco-aged)', color: 'var(--ink-light)' }}
                     >
                       {s}
                     </span>
@@ -356,7 +386,7 @@ export default function GraphPage() {
                 {/* Influenced by */}
                 {selectedRelationships.incoming.length > 0 && (
                   <div className="mb-4">
-                    <h4 className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">
+                    <h4 className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
                       영향 받은 사상가
                     </h4>
                     <div className="space-y-1">
@@ -364,7 +394,7 @@ export default function GraphPage() {
                         <button
                           key={i}
                           onClick={() => setSelectedNode(r.source)}
-                          className="flex items-center gap-2 w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-700/30 transition-colors"
+                          className="flex items-center gap-2 w-full text-left px-2 py-1.5 rounded-lg hover:bg-[#E8DCCA] transition-colors"
                         >
                           <div
                             className={cn(
@@ -375,7 +405,7 @@ export default function GraphPage() {
                               )
                             )}
                           />
-                          <span className="text-sm text-slate-300">
+                          <span className="text-sm" style={{ color: 'var(--ink-medium)' }}>
                             {getPhilosopherName(r.source)}
                           </span>
                         </button>
@@ -387,7 +417,7 @@ export default function GraphPage() {
                 {/* Influenced */}
                 {selectedRelationships.outgoing.length > 0 && (
                   <div className="mb-4">
-                    <h4 className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">
+                    <h4 className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
                       영향을 준 사상가
                     </h4>
                     <div className="space-y-1">
@@ -395,7 +425,7 @@ export default function GraphPage() {
                         <button
                           key={i}
                           onClick={() => setSelectedNode(r.target)}
-                          className="flex items-center gap-2 w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-700/30 transition-colors"
+                          className="flex items-center gap-2 w-full text-left px-2 py-1.5 rounded-lg hover:bg-[#E8DCCA] transition-colors"
                         >
                           <div
                             className={cn(
@@ -406,7 +436,7 @@ export default function GraphPage() {
                               )
                             )}
                           />
-                          <span className="text-sm text-slate-300">
+                          <span className="text-sm" style={{ color: 'var(--ink-medium)' }}>
                             {getPhilosopherName(r.target)}
                           </span>
                         </button>
@@ -417,16 +447,17 @@ export default function GraphPage() {
 
                 <Link
                   href={`/persons/${selectedPhilosopher.id}`}
-                  className="flex items-center justify-center gap-2 w-full mt-4 px-4 py-2.5 rounded-lg bg-slate-700/50 text-white text-sm font-medium hover:bg-slate-700 transition-colors"
+                  className="flex items-center justify-center gap-2 w-full mt-4 px-4 py-2.5 rounded-lg text-sm font-medium hover:opacity-90 transition-colors"
+                  style={{ background: 'var(--fresco-aged)', color: 'var(--ink-dark)', fontFamily: "'Pretendard', sans-serif" }}
                 >
                   상세 페이지
                   <ExternalLink className="w-4 h-4" />
                 </Link>
               </div>
             ) : (
-              <div className="rounded-xl border border-slate-700/50 bg-slate-800/20 p-6 text-center">
-                <GitBranch className="w-10 h-10 text-slate-600 mx-auto mb-3" />
-                <p className="text-slate-500 text-sm">
+              <div className="rounded border p-6 text-center" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+                <GitBranch className="w-10 h-10 mx-auto mb-3" style={{ color: 'var(--ink-faded)' }} />
+                <p className="text-sm" style={{ color: 'var(--ink-light)' }}>
                   그래프에서 사상가 노드를 클릭하면
                   <br />
                   상세 정보가 여기에 표시됩니다.

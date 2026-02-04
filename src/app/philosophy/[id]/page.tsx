@@ -86,14 +86,15 @@ export default async function PhilosopherPage({
 
   if (!philosopher) {
     return (
-      <div className="min-h-screen bg-[#0F172A] flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center" style={{ background: 'var(--fresco-ivory)' }}>
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-white mb-4">
+          <h1 className="text-2xl font-bold mb-4" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
             사상가를 찾을 수 없습니다
           </h1>
           <Link
             href="/philosophy/timeline"
-            className="text-ancient hover:text-ancient/80 transition-colors"
+            className="hover:opacity-80 transition-colors"
+            style={{ color: '#B8860B' }}
           >
             타임라인으로 돌아가기
           </Link>
@@ -105,12 +106,13 @@ export default async function PhilosopherPage({
   const era = philosopher.era as Era;
 
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen" style={{ background: 'var(--fresco-ivory)' }}>
       {/* Back Navigation */}
       <div className="max-w-4xl mx-auto px-4 pt-8">
         <Link
           href="/philosophy/timeline"
-          className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors"
+          className="inline-flex items-center gap-1.5 text-sm hover:opacity-80 transition-colors"
+          style={{ color: 'var(--ink-light)' }}
         >
           <ArrowLeft className="w-4 h-4" />
           타임라인으로
@@ -119,7 +121,7 @@ export default async function PhilosopherPage({
 
       {/* Hero Section */}
       <section className="max-w-4xl mx-auto px-4 py-8">
-        <div className="relative rounded-2xl border border-slate-700/50 bg-slate-800/20 overflow-hidden">
+        <div className="relative rounded border overflow-hidden" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
           {/* Era color accent bar */}
           <div
             className="absolute top-0 left-0 right-0 h-1"
@@ -129,15 +131,15 @@ export default async function PhilosopherPage({
           <div className="p-6 md:p-8 pt-8">
             <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
               <div>
-                <h1 className="text-3xl md:text-4xl font-bold text-white mb-1">
+                <h1 className="text-3xl md:text-4xl font-bold mb-1" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
                   {philosopher.name.ko}
                 </h1>
-                <p className="text-lg text-slate-400 mb-1">
+                <p className="text-lg mb-1" style={{ color: 'var(--ink-light)' }}>
                   {philosopher.name.en}
                 </p>
                 {philosopher.name.original &&
                   philosopher.name.original !== philosopher.name.en && (
-                    <p className="text-sm text-slate-500 italic">
+                    <p className="text-sm italic" style={{ color: 'var(--ink-light)' }}>
                       {philosopher.name.original}
                     </p>
                   )}
@@ -148,19 +150,20 @@ export default async function PhilosopherPage({
                   'inline-block text-sm px-3 py-1.5 rounded-full font-medium self-start',
                   getEraColorClass(era)
                 )}
+                style={{ fontFamily: "'Pretendard', sans-serif" }}
               >
                 {getEraLabel(era)}
               </span>
             </div>
 
-            <div className="flex flex-wrap items-center gap-4 mt-5 text-sm text-slate-400">
+            <div className="flex flex-wrap items-center gap-4 mt-5 text-sm" style={{ color: 'var(--ink-light)' }}>
               <span className="flex items-center gap-1.5">
-                <Calendar className="w-4 h-4 text-slate-500" />
+                <Calendar className="w-4 h-4" style={{ color: 'var(--ink-light)' }} />
                 {formatYear(philosopher.period.start)} ~{' '}
                 {formatYear(philosopher.period.end)}
               </span>
               <span className="flex items-center gap-1.5">
-                <MapPin className="w-4 h-4 text-slate-500" />
+                <MapPin className="w-4 h-4" style={{ color: 'var(--ink-light)' }} />
                 {philosopher.location.region}
               </span>
             </div>
@@ -169,7 +172,8 @@ export default async function PhilosopherPage({
               {philosopher.school.map((s) => (
                 <span
                   key={s}
-                  className="text-xs px-2.5 py-1 rounded-full bg-slate-700/50 text-slate-300 border border-slate-600/30"
+                  className="text-xs px-2.5 py-1 rounded-full border"
+                  style={{ background: 'var(--fresco-aged)', color: 'var(--ink-medium)', borderColor: 'var(--fresco-shadow)' }}
                 >
                   {s}
                 </span>
@@ -181,12 +185,12 @@ export default async function PhilosopherPage({
 
       {/* Summary (always visible) */}
       <section className="max-w-4xl mx-auto px-4 pb-6">
-        <div className="rounded-xl border border-slate-700/50 bg-slate-800/20 p-6">
-          <h2 className="text-base font-semibold text-white mb-3 flex items-center gap-2">
-            <Lightbulb className="w-5 h-5 text-ancient" />
+        <div className="rounded-xl border p-6" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+          <h2 className="text-base font-semibold mb-3 flex items-center gap-2" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
+            <Lightbulb className="w-5 h-5" style={{ color: '#B8860B' }} />
             요약
           </h2>
-          <p className="text-slate-300 leading-relaxed">{philosopher.summary}</p>
+          <p className="leading-relaxed" style={{ color: 'var(--ink-medium)' }}>{philosopher.summary}</p>
         </div>
       </section>
 
@@ -194,10 +198,10 @@ export default async function PhilosopherPage({
       <section className="max-w-4xl mx-auto px-4 pb-6">
         <ExpandableSection
           title="상세 해설"
-          icon={<BookOpen className="w-5 h-5 text-medieval" />}
+          icon={<BookOpen className="w-5 h-5" style={{ color: '#6B4E8A' }} />}
           defaultOpen
         >
-          <div className="leading-relaxed text-slate-300 space-y-3">
+          <div className="leading-relaxed space-y-3" style={{ color: 'var(--ink-medium)' }}>
             {philosopher.detailed.split('\n').filter(Boolean).map((para, i) => (
               <p key={i}>{para}</p>
             ))}
@@ -210,20 +214,21 @@ export default async function PhilosopherPage({
         <section className="max-w-4xl mx-auto px-4 pb-6">
           <ExpandableSection
             title="핵심 저작"
-            icon={<Scroll className="w-5 h-5 text-modern" />}
+            icon={<Scroll className="w-5 h-5" style={{ color: '#4A7A6B' }} />}
             defaultOpen
           >
             <ul className="space-y-3">
               {philosopher.keyWorks.map((work, idx) => (
                 <li
                   key={idx}
-                  className="flex items-start gap-3 p-3 rounded-lg bg-slate-900/30"
+                  className="flex items-start gap-3 p-3 rounded-lg"
+                  style={{ background: 'var(--fresco-aged)' }}
                 >
-                  <BookOpen className="w-4 h-4 text-slate-500 mt-0.5 flex-shrink-0" />
+                  <BookOpen className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: 'var(--ink-light)' }} />
                   <div>
-                    <p className="text-white font-medium">{work.title}</p>
+                    <p className="font-medium" style={{ color: 'var(--ink-dark)' }}>{work.title}</p>
                     {work.year && (
-                      <p className="text-xs text-slate-500 mt-0.5">
+                      <p className="text-xs mt-0.5" style={{ color: 'var(--ink-light)' }}>
                         {formatYear(work.year)}
                       </p>
                     )}
@@ -240,7 +245,7 @@ export default async function PhilosopherPage({
         <section className="max-w-4xl mx-auto px-4 pb-6">
           <ExpandableSection
             title="명언"
-            icon={<MessageSquareQuote className="w-5 h-5 text-ancient" />}
+            icon={<MessageSquareQuote className="w-5 h-5" style={{ color: '#B8860B' }} />}
             defaultOpen
           >
             <div className="space-y-4">
@@ -253,10 +258,10 @@ export default async function PhilosopherPage({
                   )}
                   style={{ borderLeftWidth: 3 }}
                 >
-                  <p className="text-white text-lg font-light italic leading-relaxed">
+                  <p className="text-lg font-light italic leading-relaxed" style={{ color: 'var(--ink-dark)' }}>
                     &ldquo;{quote.text}&rdquo;
                   </p>
-                  <footer className="mt-2 text-sm text-slate-500">
+                  <footer className="mt-2 text-sm" style={{ color: 'var(--ink-light)' }}>
                     &mdash; {quote.source}
                   </footer>
                 </blockquote>
@@ -270,13 +275,13 @@ export default async function PhilosopherPage({
       <section className="max-w-4xl mx-auto px-4 pb-6">
         <ExpandableSection
           title="영향 관계"
-          icon={<GitBranch className="w-5 h-5 text-contemporary" />}
+          icon={<GitBranch className="w-5 h-5" style={{ color: '#6B6358' }} />}
           defaultOpen
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Influenced by */}
             <div>
-              <h4 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
+              <h4 className="text-sm font-semibold uppercase tracking-wider mb-3" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
                 영향 받은 사상가
               </h4>
               {philosopher.influences.length > 0 ? (
@@ -287,18 +292,15 @@ export default async function PhilosopherPage({
                       <Link
                         key={infId}
                         href={`/persons/${infId}`}
-                        className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-700/30 transition-colors group"
+                        className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-[#E8DCCA] transition-colors group"
                       >
                         {inf && (
                           <div
-                            className={cn(
-                              'w-2.5 h-2.5 rounded-full flex-shrink-0',
-                              `bg-${inf.era === 'ancient' ? 'ancient' : inf.era === 'medieval' ? 'medieval' : inf.era === 'modern' ? 'modern' : 'contemporary'}`
-                            )}
+                            className="w-2.5 h-2.5 rounded-full flex-shrink-0"
                             style={{ backgroundColor: getEraHexColor(inf.era) }}
                           />
                         )}
-                        <span className="text-slate-300 group-hover:text-white transition-colors">
+                        <span className="group-hover:opacity-80 transition-colors" style={{ color: 'var(--ink-medium)' }}>
                           {getPersonNameById(infId)}
                         </span>
                       </Link>
@@ -306,7 +308,7 @@ export default async function PhilosopherPage({
                   })}
                 </div>
               ) : (
-                <p className="text-sm text-slate-600 italic">
+                <p className="text-sm italic" style={{ color: 'var(--ink-faded)' }}>
                   기록된 영향 관계 없음
                 </p>
               )}
@@ -314,7 +316,7 @@ export default async function PhilosopherPage({
 
             {/* Influenced others */}
             <div>
-              <h4 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
+              <h4 className="text-sm font-semibold uppercase tracking-wider mb-3" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
                 영향을 준 사상가
               </h4>
               {philosopher.influenced.length > 0 ? (
@@ -325,7 +327,7 @@ export default async function PhilosopherPage({
                       <Link
                         key={infId}
                         href={`/persons/${infId}`}
-                        className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-700/30 transition-colors group"
+                        className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-[#E8DCCA] transition-colors group"
                       >
                         {inf && (
                           <div
@@ -333,7 +335,7 @@ export default async function PhilosopherPage({
                             style={{ backgroundColor: getEraHexColor(inf.era) }}
                           />
                         )}
-                        <span className="text-slate-300 group-hover:text-white transition-colors">
+                        <span className="group-hover:opacity-80 transition-colors" style={{ color: 'var(--ink-medium)' }}>
                           {getPersonNameById(infId)}
                         </span>
                       </Link>
@@ -341,7 +343,7 @@ export default async function PhilosopherPage({
                   })}
                 </div>
               ) : (
-                <p className="text-sm text-slate-600 italic">
+                <p className="text-sm italic" style={{ color: 'var(--ink-faded)' }}>
                   기록된 영향 관계 없음
                 </p>
               )}
@@ -353,9 +355,9 @@ export default async function PhilosopherPage({
       {/* Concepts */}
       {philosopher.concepts.length > 0 && (
         <section className="max-w-4xl mx-auto px-4 pb-6">
-          <div className="rounded-xl border border-slate-700/50 bg-slate-800/20 p-6">
-            <h2 className="text-base font-semibold text-white mb-4 flex items-center gap-2">
-              <Tag className="w-5 h-5 text-modern" />
+          <div className="rounded-xl border p-6" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+            <h2 className="text-base font-semibold mb-4 flex items-center gap-2" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
+              <Tag className="w-5 h-5" style={{ color: '#4A7A6B' }} />
               관련 개념
             </h2>
             <div className="flex flex-wrap gap-2">
@@ -366,8 +368,8 @@ export default async function PhilosopherPage({
                     'text-sm px-3 py-1.5 rounded-full border',
                     getEraBorderClass(era),
                     getEraColor(era),
-                    'bg-slate-900/30'
                   )}
+                  style={{ background: 'var(--fresco-aged)' }}
                 >
                   {concept}
                 </span>
@@ -380,9 +382,9 @@ export default async function PhilosopherPage({
       {/* Questions */}
       {philosopher.questions.length > 0 && (
         <section className="max-w-4xl mx-auto px-4 pb-20">
-          <div className="rounded-xl border border-slate-700/50 bg-slate-800/20 p-6">
-            <h2 className="text-base font-semibold text-white mb-4 flex items-center gap-2">
-              <HelpCircle className="w-5 h-5 text-medieval" />
+          <div className="rounded-xl border p-6" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+            <h2 className="text-base font-semibold mb-4 flex items-center gap-2" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
+              <HelpCircle className="w-5 h-5" style={{ color: '#6B4E8A' }} />
               다룬 질문
             </h2>
             <div className="space-y-2">
@@ -390,10 +392,10 @@ export default async function PhilosopherPage({
                 <Link
                   key={question}
                   href="/philosophy/questions"
-                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-700/30 transition-colors group"
+                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-[#E8DCCA] transition-colors group"
                 >
-                  <HelpCircle className="w-4 h-4 text-slate-500 flex-shrink-0" />
-                  <span className="text-slate-300 group-hover:text-white transition-colors">
+                  <HelpCircle className="w-4 h-4 flex-shrink-0" style={{ color: 'var(--ink-light)' }} />
+                  <span className="group-hover:opacity-80 transition-colors" style={{ color: 'var(--ink-medium)' }}>
                     {question}
                   </span>
                 </Link>

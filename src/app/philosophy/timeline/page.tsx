@@ -38,6 +38,14 @@ const eraRanges: Record<Era, { start: number; end: number }> = {
   contemporary: { start: 1900, end: 2030 },
 };
 
+// Fresco era colors
+const frescoEraColors: Record<string, string> = {
+  ancient: '#B8860B',
+  medieval: '#6B4E8A',
+  modern: '#4A7A6B',
+  contemporary: '#6B6358',
+};
+
 // Subcategory display order and Korean labels
 const subcategoryConfig: { key: string; label: string }[] = [
   { key: 'presocratic', label: '소크라테스 이전 / 자연철학' },
@@ -80,6 +88,11 @@ const ZOOM_STEP = 0.5;
 
 // Events track height
 const EVENTS_TRACK_HEIGHT = 90;
+
+// Helper to get fresco era color
+function getFrescoEraColor(era: string): string {
+  return frescoEraColors[era] || '#6B6358';
+}
 
 interface Philosopher {
   id: string;
@@ -293,23 +306,29 @@ export default function TimelinePage() {
   }, [swimlanes, laneHeights]);
 
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen" style={{ backgroundColor: '#FAF6E9' }}>
       {/* Header */}
       <div className="max-w-[1400px] mx-auto px-4 pt-8 pb-4">
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors mb-6"
+          className="inline-flex items-center gap-1.5 text-sm transition-colors mb-6"
+          style={{ color: '#7A6B55' }}
+          onMouseEnter={(e) => (e.currentTarget.style.color = '#4A3C2A')}
+          onMouseLeave={(e) => (e.currentTarget.style.color = '#7A6B55')}
         >
           <ArrowLeft className="w-4 h-4" />
           홈으로
         </Link>
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+        <h1
+          className="text-3xl md:text-4xl font-bold mb-2"
+          style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+        >
           철학의 타임라인
         </h1>
-        <p className="text-slate-400 mb-1">
+        <p className="mb-1" style={{ color: '#7A6B55' }}>
           BC 624 ~ 현재 | {filteredPhilosophers.length}명의 사상가
         </p>
-        <p className="text-sm text-slate-500">
+        <p className="text-sm" style={{ color: '#9C8B73' }}>
           학파별 수영 레인으로 정리한 철학사 연대표. 줌 인하여 세부를 탐색하세요.
         </p>
       </div>
@@ -319,15 +338,32 @@ export default function TimelinePage() {
         <div className="flex flex-wrap items-center justify-between gap-4">
           {/* Era Filters */}
           <div className="flex items-center gap-2 flex-wrap">
-            <Filter className="w-4 h-4 text-slate-500 mr-1" />
+            <Filter className="w-4 h-4 mr-1" style={{ color: '#9C8B73' }} />
             <button
               onClick={() => setSelectedEra('all')}
               className={cn(
-                'px-3 py-1.5 rounded-lg text-sm font-medium transition-all',
+                'px-3 py-1.5 rounded text-sm font-medium transition-all',
                 selectedEra === 'all'
-                  ? 'bg-slate-600 text-white'
-                  : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50 hover:text-slate-300'
+                  ? ''
+                  : ''
               )}
+              style={
+                selectedEra === 'all'
+                  ? { backgroundColor: '#E8DCCA', color: '#2C2416' }
+                  : { backgroundColor: 'rgba(240,230,211,0.5)', color: '#7A6B55' }
+              }
+              onMouseEnter={(e) => {
+                if (selectedEra !== 'all') {
+                  e.currentTarget.style.backgroundColor = 'rgba(232,220,202,0.7)';
+                  e.currentTarget.style.color = '#4A3C2A';
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (selectedEra !== 'all') {
+                  e.currentTarget.style.backgroundColor = 'rgba(240,230,211,0.5)';
+                  e.currentTarget.style.color = '#7A6B55';
+                }
+              }}
             >
               전체
             </button>
@@ -335,12 +371,24 @@ export default function TimelinePage() {
               <button
                 key={era}
                 onClick={() => setSelectedEra(era)}
-                className={cn(
-                  'px-3 py-1.5 rounded-lg text-sm font-medium transition-all',
+                className="px-3 py-1.5 rounded text-sm font-medium transition-all"
+                style={
                   selectedEra === era
-                    ? getEraColorClass(era)
-                    : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50 hover:text-slate-300'
-                )}
+                    ? { backgroundColor: frescoEraColors[era] + '20', color: frescoEraColors[era], border: `1px solid ${frescoEraColors[era]}40` }
+                    : { backgroundColor: 'rgba(240,230,211,0.5)', color: '#7A6B55' }
+                }
+                onMouseEnter={(e) => {
+                  if (selectedEra !== era) {
+                    e.currentTarget.style.backgroundColor = 'rgba(232,220,202,0.7)';
+                    e.currentTarget.style.color = '#4A3C2A';
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (selectedEra !== era) {
+                    e.currentTarget.style.backgroundColor = 'rgba(240,230,211,0.5)';
+                    e.currentTarget.style.color = '#7A6B55';
+                  }
+                }}
               >
                 {getEraLabel(era)}
               </button>
@@ -351,39 +399,48 @@ export default function TimelinePage() {
           <div className="flex items-center gap-4">
             <button
               onClick={() => setShowEvents(!showEvents)}
-              className={cn(
-                'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-all',
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded text-sm font-medium transition-all"
+              style={
                 showEvents
-                  ? 'bg-amber-600/20 text-amber-400 border border-amber-600/30'
-                  : 'bg-slate-800/50 text-slate-500 hover:bg-slate-700/50 hover:text-slate-400'
-              )}
+                  ? { backgroundColor: 'rgba(184,134,11,0.12)', color: '#B8860B', border: '1px solid rgba(184,134,11,0.25)' }
+                  : { backgroundColor: 'rgba(240,230,211,0.5)', color: '#9C8B73' }
+              }
             >
               <Flag className="w-3.5 h-3.5" />
               역사 사건
             </button>
 
             <div className="flex items-center gap-2">
-            <span className="text-xs text-slate-500 mr-1">줌</span>
+            <span className="text-xs mr-1" style={{ color: '#9C8B73', fontFamily: "'Pretendard', sans-serif" }}>줌</span>
             <button
               onClick={handleZoomOut}
               disabled={zoom <= MIN_ZOOM}
-              className="w-7 h-7 rounded-md bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+              className="w-7 h-7 rounded flex items-center justify-center transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+              style={{ backgroundColor: '#F0E6D3', border: '1px solid #D4C4AB', color: '#7A6B55' }}
+              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#E8DCCA'; e.currentTarget.style.color = '#2C2416'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#F0E6D3'; e.currentTarget.style.color = '#7A6B55'; }}
             >
               <ZoomOut className="w-3.5 h-3.5" />
             </button>
-            <div className="w-16 text-center text-xs text-slate-400 font-mono">
+            <div className="w-16 text-center text-xs font-mono" style={{ color: '#7A6B55' }}>
               {zoom.toFixed(1)}x
             </div>
             <button
               onClick={handleZoomIn}
               disabled={zoom >= MAX_ZOOM}
-              className="w-7 h-7 rounded-md bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+              className="w-7 h-7 rounded flex items-center justify-center transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+              style={{ backgroundColor: '#F0E6D3', border: '1px solid #D4C4AB', color: '#7A6B55' }}
+              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#E8DCCA'; e.currentTarget.style.color = '#2C2416'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#F0E6D3'; e.currentTarget.style.color = '#7A6B55'; }}
             >
               <ZoomIn className="w-3.5 h-3.5" />
             </button>
             <button
               onClick={handleZoomReset}
-              className="w-7 h-7 rounded-md bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
+              className="w-7 h-7 rounded flex items-center justify-center transition-colors"
+              style={{ backgroundColor: '#F0E6D3', border: '1px solid #D4C4AB', color: '#7A6B55' }}
+              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#E8DCCA'; e.currentTarget.style.color = '#2C2416'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#F0E6D3'; e.currentTarget.style.color = '#7A6B55'; }}
               title="줌 초기화"
             >
               <RotateCcw className="w-3.5 h-3.5" />
@@ -395,20 +452,23 @@ export default function TimelinePage() {
 
       {/* Swimlane Timeline */}
       <div className="max-w-[1400px] mx-auto px-4 pb-8">
-        <div className="relative rounded-xl border border-slate-700/50 bg-slate-900/50 overflow-hidden">
+        <div
+          className="relative rounded overflow-hidden"
+          style={{ border: '1px solid #D4C4AB', backgroundColor: 'rgba(240,230,211,0.4)' }}
+        >
           {/* Fixed lane labels on the left + scrollable content */}
           <div className="flex">
             {/* Fixed Left Column: Lane Labels */}
             <div
-              className="flex-shrink-0 bg-slate-900/90 border-r border-slate-700/50 z-10"
-              style={{ width: LANE_LABEL_WIDTH }}
+              className="flex-shrink-0 z-10"
+              style={{ width: LANE_LABEL_WIDTH, backgroundColor: 'rgba(240,230,211,0.9)', borderRight: '1px solid rgba(212,196,171,0.5)' }}
             >
               {/* Axis header */}
               <div
-                className="flex items-end px-3 pb-1 border-b border-slate-700/30"
-                style={{ height: AXIS_HEIGHT }}
+                className="flex items-end px-3 pb-1"
+                style={{ height: AXIS_HEIGHT, borderBottom: '1px solid rgba(212,196,171,0.3)' }}
               >
-                <span className="text-[10px] text-slate-500 font-medium uppercase tracking-wider">
+                <span className="text-[10px] font-medium uppercase tracking-wider" style={{ color: '#9C8B73' }}>
                   학파 / 전통
                 </span>
               </div>
@@ -424,10 +484,10 @@ export default function TimelinePage() {
                   return (
                     <div
                       key={key}
-                      className="flex items-center px-3 border-b border-slate-700/20"
-                      style={{ height: h }}
+                      className="flex items-center px-3"
+                      style={{ height: h, borderBottom: '1px solid rgba(212,196,171,0.2)' }}
                     >
-                      <span className="text-xs text-slate-300 font-medium leading-tight">
+                      <span className="text-xs font-medium leading-tight" style={{ color: '#4A3C2A' }}>
                         {getSubcategoryLabel(key)}
                       </span>
                     </div>
@@ -461,8 +521,8 @@ export default function TimelinePage() {
                         left: x1,
                         width: x2 - x1,
                         height: totalHeight,
-                        backgroundColor: getEraHexColor(era),
-                        opacity: 0.05,
+                        backgroundColor: frescoEraColors[era],
+                        opacity: 0.06,
                       }}
                     />
                   );
@@ -477,18 +537,19 @@ export default function TimelinePage() {
                       left: yearToX(year),
                       width: 1,
                       height: totalHeight,
-                      backgroundColor: 'rgba(100,116,139,0.2)',
+                      backgroundColor: 'rgba(212,196,171,0.35)',
                     }}
                   />
                 ))}
 
                 {/* Time Axis (top) */}
                 <div
-                  className="sticky top-0 z-[5] border-b border-slate-700/30"
+                  className="sticky top-0 z-[5]"
                   style={{
                     height: AXIS_HEIGHT,
+                    borderBottom: '1px solid rgba(212,196,171,0.3)',
                     background:
-                      'linear-gradient(to bottom, rgba(15,23,42,0.95), rgba(15,23,42,0.8))',
+                      'linear-gradient(to bottom, rgba(250,246,233,0.95), rgba(250,246,233,0.8))',
                   }}
                 >
                   {axisTicks.map((tick) => {
@@ -500,12 +561,12 @@ export default function TimelinePage() {
                         style={{ left: x, top: 0, height: AXIS_HEIGHT }}
                       >
                         <div
-                          className="absolute bottom-0 w-px bg-slate-700/40"
-                          style={{ height: totalHeight }}
+                          className="absolute bottom-0 w-px"
+                          style={{ height: totalHeight, backgroundColor: 'rgba(212,196,171,0.3)' }}
                         />
                         <div
-                          className="absolute bottom-2 text-[10px] text-slate-500 font-mono whitespace-nowrap"
-                          style={{ transform: 'translateX(-50%)' }}
+                          className="absolute bottom-2 text-[10px] font-mono whitespace-nowrap"
+                          style={{ transform: 'translateX(-50%)', color: '#9C8B73' }}
                         >
                           {tick.label}
                         </div>
@@ -534,8 +595,8 @@ export default function TimelinePage() {
                       <div key={key}>
                         {/* Lane separator */}
                         <div
-                          className="absolute w-full border-b border-slate-700/20"
-                          style={{ top: laneY + laneH, left: 0 }}
+                          className="absolute w-full"
+                          style={{ top: laneY + laneH, left: 0, borderBottom: '1px solid rgba(212,196,171,0.2)' }}
                         />
 
                         {/* Bars */}
@@ -547,7 +608,7 @@ export default function TimelinePage() {
                             laneY +
                             LANE_PADDING_Y +
                             row * (BAR_HEIGHT + BAR_GAP);
-                          const eraHex = getEraHexColor(p.era);
+                          const eraHex = getFrescoEraColor(p.era);
 
                           return (
                             <Link
@@ -567,17 +628,17 @@ export default function TimelinePage() {
                             >
                               {/* Bar background */}
                               <div
-                                className="absolute inset-0 rounded-sm transition-all duration-150 group-hover:brightness-125 group-hover:shadow-lg"
+                                className="absolute inset-0 rounded-sm transition-all duration-150 group-hover:brightness-110 group-hover:shadow-lg"
                                 style={{
                                   backgroundColor: eraHex,
-                                  opacity: 0.7,
+                                  opacity: 0.75,
                                   boxShadow: `0 0 0 0px ${eraHex}`,
                                 }}
                               />
                               <div
                                 className="absolute inset-0 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-150"
                                 style={{
-                                  boxShadow: `0 0 8px ${eraHex}80`,
+                                  boxShadow: `0 0 8px ${eraHex}60`,
                                 }}
                               />
                               {/* Bar left accent */}
@@ -585,15 +646,16 @@ export default function TimelinePage() {
                                 className="absolute left-0 top-0 bottom-0 w-[3px] rounded-l-sm"
                                 style={{
                                   backgroundColor: eraHex,
-                                  filter: 'brightness(1.3)',
+                                  filter: 'brightness(1.2)',
                                 }}
                               />
                               {/* Name label */}
                               <div className="absolute inset-0 flex items-center px-2 overflow-hidden">
                                 <span
-                                  className="text-[11px] font-medium text-white truncate leading-none drop-shadow-sm"
+                                  className="text-[11px] font-medium truncate leading-none"
                                   style={{
-                                    textShadow: '0 1px 2px rgba(0,0,0,0.5)',
+                                    color: '#FAF6E9',
+                                    textShadow: '0 1px 2px rgba(44,36,22,0.4)',
                                   }}
                                 >
                                   {p.name.ko}
@@ -613,13 +675,13 @@ export default function TimelinePage() {
                     <div>
                       {/* Events track separator */}
                       <div
-                        className="absolute w-full border-t border-amber-700/30"
-                        style={{ top: eventsTrackTop, left: 0 }}
+                        className="absolute w-full"
+                        style={{ top: eventsTrackTop, left: 0, borderTop: '1px solid rgba(184,134,11,0.25)' }}
                       />
                       {/* Events track label */}
                       <div
-                        className="absolute z-10 text-[10px] text-amber-400 font-medium flex items-center gap-1 bg-slate-900/80 px-2 py-0.5 rounded"
-                        style={{ top: eventsTrackTop + 4, left: 8 }}
+                        className="absolute z-10 text-[10px] font-medium flex items-center gap-1 px-2 py-0.5 rounded"
+                        style={{ top: eventsTrackTop + 4, left: 8, color: '#B8860B', backgroundColor: 'rgba(250,246,233,0.85)' }}
                       >
                         <Flag className="w-3 h-3" />
                         역사 사건 ({filteredEvents.length})
@@ -641,14 +703,17 @@ export default function TimelinePage() {
                           >
                             <div className="flex flex-col items-center">
                               <div
-                                className="w-2.5 h-2.5 rotate-45 border border-amber-600/50 transition-transform group-hover:scale-150"
-                                style={{ backgroundColor: getEraHexColor(event.era) }}
+                                className="w-2.5 h-2.5 rotate-45 transition-transform group-hover:scale-150"
+                                style={{ backgroundColor: getFrescoEraColor(event.era), border: '1px solid rgba(184,134,11,0.4)' }}
                               />
-                              <div className="mt-0.5 px-1.5 py-0.5 rounded bg-slate-800/80 border border-amber-700/20 opacity-60 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                                <p className="text-[8px] font-medium text-amber-200">
+                              <div
+                                className="mt-0.5 px-1.5 py-0.5 rounded opacity-60 group-hover:opacity-100 transition-opacity whitespace-nowrap"
+                                style={{ backgroundColor: 'rgba(240,230,211,0.85)', border: '1px solid rgba(184,134,11,0.15)' }}
+                              >
+                                <p className="text-[8px] font-medium" style={{ color: '#8B6914' }}>
                                   {event.name.ko}
                                 </p>
-                                <p className="text-[7px] text-slate-500">
+                                <p className="text-[7px]" style={{ color: '#9C8B73' }}>
                                   {formatYear(event.period.start)}
                                 </p>
                               </div>
@@ -677,34 +742,45 @@ export default function TimelinePage() {
                 top: Math.max(tooltip.y - 10, 8),
               }}
             >
-              <div className="bg-slate-800 border border-slate-600 rounded-lg shadow-2xl p-3 w-64">
+              <div
+                className="rounded p-3 w-64"
+                style={{
+                  backgroundColor: '#F0E6D3',
+                  border: '1px solid #D4C4AB',
+                  boxShadow: '0 4px 16px rgba(44,36,22,0.12)',
+                }}
+              >
                 <div className="flex items-start justify-between mb-1.5">
                   <div>
-                    <h4 className="text-sm font-semibold text-white">
+                    <h4
+                      className="text-sm font-semibold"
+                      style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+                    >
                       {tooltip.philosopher.name.ko}
                     </h4>
-                    <p className="text-xs text-slate-400">
+                    <p className="text-xs" style={{ color: '#7A6B55' }}>
                       {tooltip.philosopher.name.en}
                     </p>
                   </div>
                   <span
-                    className={cn(
-                      'text-[10px] px-1.5 py-0.5 rounded-full font-medium flex-shrink-0 ml-2',
-                      getEraColorClass(tooltip.philosopher.era)
-                    )}
+                    className="text-[10px] px-1.5 py-0.5 rounded font-medium flex-shrink-0 ml-2"
+                    style={{
+                      backgroundColor: getFrescoEraColor(tooltip.philosopher.era) + '18',
+                      color: getFrescoEraColor(tooltip.philosopher.era),
+                    }}
                   >
                     {getEraLabel(tooltip.philosopher.era)}
                   </span>
                 </div>
-                <div className="flex items-center gap-2 text-[11px] text-slate-500 mb-2">
+                <div className="flex items-center gap-2 text-[11px] mb-2" style={{ color: '#9C8B73' }}>
                   <span>
                     {formatYear(tooltip.philosopher.period.start)} ~{' '}
                     {formatYear(tooltip.philosopher.period.end)}
                   </span>
-                  <span className="text-slate-600">|</span>
+                  <span style={{ color: '#D4C4AB' }}>|</span>
                   <span>{tooltip.philosopher.location.region}</span>
                 </div>
-                <p className="text-xs text-slate-400 leading-relaxed line-clamp-3">
+                <p className="text-xs leading-relaxed line-clamp-3" style={{ color: '#7A6B55' }}>
                   {tooltip.philosopher.summary}
                 </p>
                 <div className="mt-2 flex flex-wrap gap-1">
@@ -713,13 +789,14 @@ export default function TimelinePage() {
                     .map((s: string) => (
                       <span
                         key={s}
-                        className="text-[10px] px-1.5 py-0.5 rounded-full bg-slate-700/60 text-slate-400"
+                        className="text-[10px] px-1.5 py-0.5 rounded"
+                        style={{ backgroundColor: 'rgba(212,196,171,0.5)', color: '#7A6B55' }}
                       >
                         {s}
                       </span>
                     ))}
                 </div>
-                <p className="text-[10px] text-slate-500 mt-2">
+                <p className="text-[10px] mt-2" style={{ color: '#9C8B73' }}>
                   클릭하여 상세 페이지로 이동
                 </p>
               </div>
@@ -729,14 +806,14 @@ export default function TimelinePage() {
 
         {/* Legend */}
         <div className="mt-3 flex flex-wrap items-center gap-4 px-1">
-          <span className="text-[11px] text-slate-500">시대 색상:</span>
+          <span className="text-[11px]" style={{ color: '#9C8B73' }}>시대 색상:</span>
           {eras.map((era) => (
             <div key={era} className="flex items-center gap-1.5">
               <div
                 className="w-3 h-3 rounded-sm"
-                style={{ backgroundColor: getEraHexColor(era), opacity: 0.8 }}
+                style={{ backgroundColor: frescoEraColors[era], opacity: 0.8 }}
               />
-              <span className="text-[11px] text-slate-400">
+              <span className="text-[11px]" style={{ color: '#7A6B55' }}>
                 {getEraLabel(era)}
               </span>
             </div>
@@ -746,73 +823,88 @@ export default function TimelinePage() {
 
       {/* Philosopher Cards List */}
       <div className="max-w-[1400px] mx-auto px-4 pb-20">
-        <h2 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
-          <Calendar className="w-5 h-5 text-slate-400" />
+        <h2
+          className="text-lg font-semibold mb-4 flex items-center gap-2"
+          style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+        >
+          <Calendar className="w-5 h-5" style={{ color: '#7A6B55' }} />
           사상가 목록
-          <span className="text-sm font-normal text-slate-500">
+          <span className="text-sm font-normal" style={{ color: '#9C8B73' }}>
             ({filteredPhilosophers.length}명)
           </span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filteredPhilosophers.map((p) => (
-            <Link
-              key={p.id}
-              href={`/philosophy/${p.id}`}
-              className={cn(
-                'group rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200 border-l-4',
-                getEraBorderClass(p.era)
-              )}
-            >
-              <div className="flex items-start justify-between mb-3">
-                <div>
-                  <h3 className="text-white font-semibold group-hover:text-ancient transition-colors">
-                    {p.name.ko}
-                  </h3>
-                  <p className="text-sm text-slate-500">{p.name.en}</p>
-                </div>
-                <span
-                  className={cn(
-                    'text-xs px-2 py-1 rounded-full font-medium',
-                    getEraColorClass(p.era)
-                  )}
-                >
-                  {getEraLabel(p.era as Era)}
-                </span>
-              </div>
-
-              <div className="flex items-center gap-3 text-xs text-slate-500 mb-3">
-                <span className="flex items-center gap-1">
-                  <Calendar className="w-3 h-3" />
-                  {formatYear(p.period.start)} ~ {formatYear(p.period.end)}
-                </span>
-                <span className="flex items-center gap-1">
-                  <MapPin className="w-3 h-3" />
-                  {p.location.region}
-                </span>
-              </div>
-
-              <div className="flex flex-wrap gap-1.5 mb-3">
-                {p.school.map((s: string) => (
+          {filteredPhilosophers.map((p) => {
+            const cardEraColor = getFrescoEraColor(p.era);
+            return (
+              <Link
+                key={p.id}
+                href={`/philosophy/${p.id}`}
+                className="group rounded p-5 transition-all duration-200"
+                style={{
+                  border: '1px solid rgba(212,196,171,0.5)',
+                  borderLeft: `4px solid ${cardEraColor}`,
+                  backgroundColor: 'rgba(240,230,211,0.2)',
+                }}
+                onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(240,230,211,0.45)'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'rgba(240,230,211,0.2)'; }}
+              >
+                <div className="flex items-start justify-between mb-3">
+                  <div>
+                    <h3
+                      className="font-semibold transition-colors"
+                      style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+                    >
+                      {p.name.ko}
+                    </h3>
+                    <p className="text-sm" style={{ color: '#9C8B73' }}>{p.name.en}</p>
+                  </div>
                   <span
-                    key={s}
-                    className="text-[11px] px-2 py-0.5 rounded-full bg-slate-700/50 text-slate-400"
+                    className="text-xs px-2 py-1 rounded font-medium"
+                    style={{
+                      backgroundColor: cardEraColor + '18',
+                      color: cardEraColor,
+                    }}
                   >
-                    <Tag className="w-2.5 h-2.5 inline mr-0.5" />
-                    {s}
+                    {getEraLabel(p.era as Era)}
                   </span>
-                ))}
-              </div>
+                </div>
 
-              <p className="text-sm text-slate-400 line-clamp-2 leading-relaxed">
-                {p.summary}
-              </p>
+                <div className="flex items-center gap-3 text-xs mb-3" style={{ color: '#9C8B73' }}>
+                  <span className="flex items-center gap-1">
+                    <Calendar className="w-3 h-3" />
+                    {formatYear(p.period.start)} ~ {formatYear(p.period.end)}
+                  </span>
+                  <span className="flex items-center gap-1">
+                    <MapPin className="w-3 h-3" />
+                    {p.location.region}
+                  </span>
+                </div>
 
-              <div className="mt-3 flex items-center text-xs text-slate-500 group-hover:text-ancient transition-colors">
-                자세히 보기
-                <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
-              </div>
-            </Link>
-          ))}
+                <div className="flex flex-wrap gap-1.5 mb-3">
+                  {p.school.map((s: string) => (
+                    <span
+                      key={s}
+                      className="text-[11px] px-2 py-0.5 rounded"
+                      style={{ backgroundColor: 'rgba(212,196,171,0.4)', color: '#7A6B55' }}
+                    >
+                      <Tag className="w-2.5 h-2.5 inline mr-0.5" />
+                      {s}
+                    </span>
+                  ))}
+                </div>
+
+                <p className="text-sm line-clamp-2 leading-relaxed" style={{ color: '#7A6B55' }}>
+                  {p.summary}
+                </p>
+
+                <div className="mt-3 flex items-center text-xs transition-colors" style={{ color: '#9C8B73' }}>
+                  자세히 보기
+                  <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </div>

@@ -30,22 +30,22 @@ const themeConfig: Record<
   creation: {
     label: "창조신화",
     icon: <Sparkles className="w-5 h-5" />,
-    color: "text-amber-400",
+    color: "text-gold",
   },
   afterlife: {
     label: "사후세계",
     icon: <Skull className="w-5 h-5" />,
-    color: "text-purple-400",
+    color: "text-medieval",
   },
   heroMyth: {
     label: "영웅서사",
     icon: <Sword className="w-5 h-5" />,
-    color: "text-red-400",
+    color: "text-cat-historical",
   },
   ethics: {
     label: "윤리/계율",
     icon: <Scale className="w-5 h-5" />,
-    color: "text-teal-400",
+    color: "text-modern",
   },
 };
 
@@ -65,7 +65,7 @@ export default async function ReligionDetailPage({
         </h1>
         <Link
           href={`/religion/map`}
-          className="text-purple-400 hover:text-purple-300 transition-colors"
+          className="text-gold hover:text-gold-hover transition-colors"
         >
           종교/신화 지도로 돌아가기
         </Link>
@@ -87,14 +87,14 @@ export default async function ReligionDetailPage({
       </Link>
 
       {/* Hero Section */}
-      <div className="border border-border rounded-2xl bg-background-secondary/30 p-6 md:p-8 mb-8">
+      <div className="border border-border rounded-2xl bg-fresco-parchment/50 p-6 md:p-8 mb-8 shadow-sepia">
         <div className="flex items-start gap-4 mb-4">
           <div
             className={cn(
               "flex items-center justify-center w-12 h-12 rounded-xl flex-shrink-0",
               isReligion
-                ? "bg-amber-500/10 text-amber-400"
-                : "bg-emerald-500/10 text-emerald-400"
+                ? "bg-gold/10 text-gold"
+                : "bg-pigment-buddhism/10 text-pigment-buddhism"
             )}
           >
             {isReligion ? (
@@ -116,8 +116,8 @@ export default async function ReligionDetailPage({
               className={cn(
                 "inline-block mt-2 px-3 py-1 rounded-full text-xs font-medium",
                 isReligion
-                  ? "bg-amber-500/15 text-amber-400"
-                  : "bg-emerald-500/15 text-emerald-400"
+                  ? "bg-gold/15 text-gold"
+                  : "bg-pigment-buddhism/15 text-pigment-buddhism"
               )}
             >
               {isReligion ? "종교" : "신화"}
@@ -141,7 +141,7 @@ export default async function ReligionDetailPage({
       {/* Origin & Region */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
         {/* Origin */}
-        <div className="border border-border rounded-xl p-5 bg-background-secondary/20">
+        <div className="border border-border rounded-xl p-5 bg-fresco-parchment/30 shadow-sepia-sm">
           <h2 className="flex items-center gap-2 text-sm font-semibold text-foreground mb-3">
             <Calendar className="w-4 h-4 text-foreground-muted" />
             기원
@@ -163,7 +163,7 @@ export default async function ReligionDetailPage({
         </div>
 
         {/* Regions */}
-        <div className="border border-border rounded-xl p-5 bg-background-secondary/20">
+        <div className="border border-border rounded-xl p-5 bg-fresco-parchment/30 shadow-sepia-sm">
           <h2 className="flex items-center gap-2 text-sm font-semibold text-foreground mb-3">
             <Globe className="w-4 h-4 text-foreground-muted" />
             지역
@@ -172,7 +172,7 @@ export default async function ReligionDetailPage({
             {religion.region.map((reg) => (
               <span
                 key={reg}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-background-secondary text-sm text-foreground-secondary border border-border"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-fresco-aged/50 text-sm text-foreground-secondary border border-border"
               >
                 <MapPin className="w-3 h-3" />
                 {reg}
@@ -185,7 +185,7 @@ export default async function ReligionDetailPage({
       {/* Branches Mini-Tree */}
       {religion.branches && religion.branches.length > 0 && (
         <div className="mb-8">
-          <div className="border border-border rounded-xl p-5 bg-background-secondary/20">
+          <div className="border border-border rounded-xl p-5 bg-fresco-parchment/30 shadow-sepia-sm">
             <h2 className="flex items-center gap-2 text-base font-semibold text-foreground mb-4">
               <GitBranch className="w-4 h-4 text-foreground-muted" />
               주요 분파
@@ -197,10 +197,10 @@ export default async function ReligionDetailPage({
               {religion.branches.map((branch, idx) => (
                 <div
                   key={branch.name}
-                  className="flex items-start gap-3 p-3 rounded-lg bg-background-secondary/50 border border-border/50"
+                  className="flex items-start gap-3 p-3 rounded-lg bg-fresco-aged/30 border border-border/50"
                 >
                   <div className="flex-shrink-0 mt-1">
-                    <div className="w-2 h-2 rounded-full bg-purple-400" />
+                    <div className="w-2 h-2 rounded-full bg-gold" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1 flex-wrap">
@@ -223,7 +223,7 @@ export default async function ReligionDetailPage({
             <div className="mt-4 pt-3 border-t border-border">
               <Link
                 href={`/religion/tree`}
-                className="inline-flex items-center gap-1.5 text-xs font-medium text-purple-400 hover:text-purple-300 transition-colors"
+                className="inline-flex items-center gap-1.5 text-xs font-medium text-gold hover:text-gold-hover transition-colors"
               >
                 <GitBranch className="w-3 h-3" />
                 분파 트리에서 자세히 보기
@@ -248,7 +248,7 @@ export default async function ReligionDetailPage({
               return (
                 <div
                   key={key}
-                  className="border border-border rounded-xl p-5 bg-background-secondary/20 hover:bg-background-secondary/30 transition-colors"
+                  className="border border-border rounded-xl p-5 bg-fresco-parchment/30 hover:bg-fresco-aged/40 transition-colors shadow-sepia-sm"
                 >
                   <div className="flex items-center gap-2 mb-3">
                     <span className={config.color}>{config.icon}</span>
@@ -270,14 +270,14 @@ export default async function ReligionDetailPage({
       <div className="flex flex-wrap gap-3 pt-4 border-t border-border">
         <Link
           href={`/religion/map`}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-background-secondary text-sm text-foreground-secondary hover:text-foreground transition-colors border border-border"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-fresco-parchment text-sm text-foreground-secondary hover:text-foreground hover:bg-fresco-aged/50 transition-colors border border-border"
         >
           <Globe className="w-4 h-4" />
           세계 지도
         </Link>
         <Link
           href={`/religion/compare`}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-background-secondary text-sm text-foreground-secondary hover:text-foreground transition-colors border border-border"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-fresco-parchment text-sm text-foreground-secondary hover:text-foreground hover:bg-fresco-aged/50 transition-colors border border-border"
         >
           <Scale className="w-4 h-4" />
           비교 매트릭스

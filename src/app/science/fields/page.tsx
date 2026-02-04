@@ -89,20 +89,21 @@ export default function FieldsPage() {
   }, [selectedField]);
 
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen" style={{ background: 'var(--fresco-ivory)' }}>
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         <Link
           href="/science"
-          className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors mb-6"
+          className="inline-flex items-center gap-1.5 text-sm transition-colors mb-6"
+          style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}
         >
           <ArrowLeft className="w-4 h-4" />
           과학의 역사
         </Link>
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+        <h1 className="text-3xl md:text-4xl font-bold mb-2" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
           분야별 과학자 탐색
         </h1>
-        <p className="text-slate-400">
+        <p style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
           {scientistsData.length}명의 과학자를 분야별로 탐색하세요
         </p>
       </div>
@@ -110,15 +111,17 @@ export default function FieldsPage() {
       {/* Filter Bar */}
       <div className="max-w-7xl mx-auto px-4 pb-6">
         <div className="flex items-center gap-2 flex-wrap">
-          <Filter className="w-4 h-4 text-slate-500 mr-1" />
+          <Filter className="w-4 h-4 mr-1" style={{ color: 'var(--ink-light)' }} />
           <button
             onClick={() => setSelectedField('all')}
             className={cn(
-              'px-4 py-2 rounded-lg text-sm font-medium transition-all',
-              selectedField === 'all'
-                ? 'bg-emerald-600 text-white'
-                : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50 hover:text-slate-300'
+              'px-4 py-2 rounded text-sm font-medium transition-all',
             )}
+            style={{
+              backgroundColor: selectedField === 'all' ? '#5B7355' : 'var(--fresco-parchment)',
+              color: selectedField === 'all' ? '#FAF6F0' : 'var(--ink-light)',
+              fontFamily: "'Pretendard', sans-serif",
+            }}
           >
             전체
           </button>
@@ -128,17 +131,12 @@ export default function FieldsPage() {
               <button
                 key={field.key}
                 onClick={() => setSelectedField(selectedField === field.key ? 'all' : field.key)}
-                className={cn(
-                  'px-4 py-2 rounded-lg text-sm font-medium transition-all inline-flex items-center gap-1.5',
-                  selectedField === field.key
-                    ? 'text-white'
-                    : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50 hover:text-slate-300'
-                )}
-                style={
-                  selectedField === field.key
-                    ? { backgroundColor: field.color }
-                    : undefined
-                }
+                className="px-4 py-2 rounded text-sm font-medium transition-all inline-flex items-center gap-1.5"
+                style={{
+                  backgroundColor: selectedField === field.key ? field.color : 'var(--fresco-parchment)',
+                  color: selectedField === field.key ? '#FAF6F0' : 'var(--ink-light)',
+                  fontFamily: "'Pretendard', sans-serif",
+                }}
               >
                 {field.label}
                 <span className="text-xs opacity-70">({count})</span>
@@ -157,34 +155,37 @@ export default function FieldsPage() {
           return (
             <div
               key={field.key}
-              className="rounded-xl border border-slate-700/50 bg-slate-800/10 overflow-hidden"
+              className="rounded overflow-hidden"
+              style={{ border: '1px solid var(--fresco-shadow)', backgroundColor: 'rgba(240,230,211,0.3)' }}
             >
               {/* Field Header */}
               <button
                 onClick={() => toggleField(field.key)}
-                className="w-full flex items-center justify-between p-5 hover:bg-slate-800/30 transition-colors"
+                className="w-full flex items-center justify-between p-5 transition-colors"
+                style={{ fontFamily: "'Pretendard', sans-serif" }}
               >
                 <div className="flex items-center gap-3">
                   <div
-                    className="w-10 h-10 rounded-lg flex items-center justify-center"
+                    className="w-10 h-10 rounded flex items-center justify-center"
                     style={{ backgroundColor: `${field.color}20`, color: field.color }}
                   >
                     {field.icon}
                   </div>
                   <div className="text-left">
-                    <h2 className="text-lg font-semibold text-white">
+                    <h2 className="text-lg font-semibold" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
                       {field.label}
                     </h2>
-                    <p className="text-sm text-slate-500">
+                    <p className="text-sm" style={{ color: 'var(--ink-light)' }}>
                       {scientists.length}명의 과학자
                     </p>
                   </div>
                 </div>
                 <ChevronDown
                   className={cn(
-                    'w-5 h-5 text-slate-500 transition-transform',
+                    'w-5 h-5 transition-transform',
                     isExpanded && 'rotate-180'
                   )}
+                  style={{ color: 'var(--ink-light)' }}
                 />
               </button>
 
@@ -197,16 +198,17 @@ export default function FieldsPage() {
                         key={s.id}
                         href={`/persons/${s.id}`}
                         className={cn(
-                          'group rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200 border-l-4',
+                          'group rounded p-5 transition-all duration-200 border-l-4',
                           getEraBorderClass(s.era)
                         )}
+                        style={{ border: '1px solid var(--fresco-shadow)', backgroundColor: 'var(--fresco-parchment)' }}
                       >
                         <div className="flex items-start justify-between mb-3">
                           <div>
-                            <h3 className="text-white font-semibold group-hover:text-emerald-400 transition-colors">
+                            <h3 className="font-semibold transition-colors" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
                               {s.name.ko}
                             </h3>
-                            <p className="text-sm text-slate-500">{s.name.en}</p>
+                            <p className="text-sm" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>{s.name.en}</p>
                           </div>
                           <span
                             className={cn(
@@ -218,7 +220,7 @@ export default function FieldsPage() {
                           </span>
                         </div>
 
-                        <div className="flex items-center gap-3 text-xs text-slate-500 mb-3">
+                        <div className="flex items-center gap-3 text-xs mb-3" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
                           <span className="flex items-center gap-1">
                             <Calendar className="w-3 h-3" />
                             {formatYear(s.period.start)} ~ {formatYear(s.period.end)}
@@ -229,7 +231,7 @@ export default function FieldsPage() {
                           </span>
                         </div>
 
-                        <p className="text-sm text-slate-400 line-clamp-2 leading-relaxed mb-3">
+                        <p className="text-sm line-clamp-2 leading-relaxed mb-3" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
                           {s.summary}
                         </p>
 
@@ -238,21 +240,22 @@ export default function FieldsPage() {
                             {s.discoveries.slice(0, 3).map((d) => (
                               <span
                                 key={d}
-                                className="text-[11px] px-2 py-0.5 rounded-full bg-slate-700/50 text-slate-400"
+                                className="text-[11px] px-2 py-0.5 rounded-full"
+                                style={{ backgroundColor: 'var(--fresco-aged)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}
                               >
                                 <Tag className="w-2.5 h-2.5 inline mr-0.5" />
                                 {d}
                               </span>
                             ))}
                             {s.discoveries.length > 3 && (
-                              <span className="text-[11px] px-2 py-0.5 rounded-full bg-slate-700/30 text-slate-500">
+                              <span className="text-[11px] px-2 py-0.5 rounded-full" style={{ backgroundColor: 'rgba(232,220,202,0.6)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
                                 +{s.discoveries.length - 3}
                               </span>
                             )}
                           </div>
                         )}
 
-                        <div className="mt-3 flex items-center text-xs text-slate-500 group-hover:text-emerald-400 transition-colors">
+                        <div className="mt-3 flex items-center text-xs transition-colors" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
                           자세히 보기
                           <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
                         </div>

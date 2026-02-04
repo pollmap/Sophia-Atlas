@@ -42,22 +42,30 @@ const eraRanges: Record<Era, { start: number; end: number; label: string }> = {
   contemporary: { start: 1900, end: 2025, label: 'AD 1900 ~ 현재' },
 };
 
+// Fresco era colors
+const frescoEraColors: Record<Era, string> = {
+  ancient: '#B8860B',
+  medieval: '#6B4E8A',
+  modern: '#4A7A6B',
+  contemporary: '#6B6358',
+};
+
 // Field swimlane grouping based on subcategory
 const fieldGroups: Record<string, { label: string; color: string }> = {
-  physics: { label: '물리학', color: '#3B82F6' },
-  classical_physics: { label: '고전 물리학', color: '#60A5FA' },
-  astronomy: { label: '천문학', color: '#8B5CF6' },
-  mathematics: { label: '수학', color: '#F59E0B' },
-  chemistry: { label: '화학', color: '#EF4444' },
-  biology: { label: '생물학', color: '#10B981' },
-  medicine: { label: '의학', color: '#EC4899' },
-  computer_science: { label: '컴퓨터 과학', color: '#06B6D4' },
-  scientific_revolution: { label: '과학혁명', color: '#F97316' },
-  ancient_medieval: { label: '고대/중세', color: '#D4AF37' },
+  physics: { label: '물리학', color: '#4A5D8A' },
+  classical_physics: { label: '고전 물리학', color: '#5B6E9A' },
+  astronomy: { label: '천문학', color: '#6B4E8A' },
+  mathematics: { label: '수학', color: '#B8860B' },
+  chemistry: { label: '화학', color: '#8B4040' },
+  biology: { label: '생물학', color: '#5B7355' },
+  medicine: { label: '의학', color: '#7A5478' },
+  computer_science: { label: '컴퓨터 과학', color: '#4A7A6B' },
+  scientific_revolution: { label: '과학혁명', color: '#8B6914' },
+  ancient_medieval: { label: '고대/중세', color: '#B8860B' },
 };
 
 function getFieldInfo(subcategory: string) {
-  return fieldGroups[subcategory] || { label: '기타', color: '#64748B' };
+  return fieldGroups[subcategory] || { label: '기타', color: '#6B6358' };
 }
 
 const EVENTS_TRACK_HEIGHT = 90;
@@ -185,36 +193,43 @@ export default function ScienceTimelinePage() {
   const totalTimelineHeight = totalLanesHeight + AXIS_HEIGHT + (showEvents ? EVENTS_TRACK_HEIGHT : 0);
 
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen" style={{ backgroundColor: '#FAF6E9' }}>
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         <Link
           href="/science"
-          className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-300 transition-colors mb-6"
+          className="inline-flex items-center gap-1.5 text-sm transition-colors mb-6"
+          style={{ color: '#7A6B55' }}
         >
           <ArrowLeft className="w-4 h-4" />
           과학의 역사
         </Link>
 
         <div className="flex items-center gap-3 mb-2">
-          <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center">
-            <Atom className="w-5 h-5 text-emerald-400" />
+          <div
+            className="w-10 h-10 rounded flex items-center justify-center"
+            style={{ backgroundColor: 'rgba(91, 115, 85, 0.15)' }}
+          >
+            <Atom className="w-5 h-5" style={{ color: '#5B7355' }} />
           </div>
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-white">
+            <h1
+              className="text-3xl md:text-4xl font-bold"
+              style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+            >
               과학 발견의 타임라인
             </h1>
-            <p className="text-slate-400 mt-1">BC 500 ~ 현재 | 분야별 과학자와 발견</p>
+            <p style={{ color: '#7A6B55' }} className="mt-1">BC 500 ~ 현재 | 분야별 과학자와 발견</p>
           </div>
         </div>
 
-        <div className="flex gap-4 mt-4 text-sm text-slate-400">
+        <div className="flex gap-4 mt-4 text-sm" style={{ color: '#7A6B55' }}>
           <span className="flex items-center gap-1">
-            <Atom className="w-4 h-4 text-emerald-400" />
+            <Atom className="w-4 h-4" style={{ color: '#5B7355' }} />
             과학자 {filteredScientists.length}명
           </span>
           <span className="flex items-center gap-1">
-            <FlaskConical className="w-4 h-4 text-emerald-400" />
+            <FlaskConical className="w-4 h-4" style={{ color: '#5B7355' }} />
             {scientistsByField.length}개 분야
           </span>
         </div>
@@ -224,15 +239,15 @@ export default function ScienceTimelinePage() {
       <div className="max-w-7xl mx-auto px-4 pb-4">
         <div className="flex items-center justify-between flex-wrap gap-4">
           <div className="flex items-center gap-2 flex-wrap">
-            <Filter className="w-4 h-4 text-slate-500 mr-1" />
+            <Filter className="w-4 h-4 mr-1" style={{ color: '#7A6B55' }} />
             <button
               onClick={() => setSelectedEra('all')}
-              className={cn(
-                'px-4 py-2 rounded-lg text-sm font-medium transition-all',
+              className="px-4 py-2 rounded text-sm font-medium transition-all"
+              style={
                 selectedEra === 'all'
-                  ? 'bg-emerald-600 text-white'
-                  : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50 hover:text-slate-300'
-              )}
+                  ? { backgroundColor: '#5B7355', color: '#FAF6E9', fontFamily: "'Pretendard', sans-serif" }
+                  : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: '#7A6B55', fontFamily: "'Pretendard', sans-serif" }
+              }
             >
               전체 시대
             </button>
@@ -240,12 +255,12 @@ export default function ScienceTimelinePage() {
               <button
                 key={era}
                 onClick={() => setSelectedEra(era)}
-                className={cn(
-                  'px-4 py-2 rounded-lg text-sm font-medium transition-all',
+                className="px-4 py-2 rounded text-sm font-medium transition-all"
+                style={
                   selectedEra === era
-                    ? cn(getEraColorClass(era))
-                    : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50 hover:text-slate-300'
-                )}
+                    ? { backgroundColor: frescoEraColors[era], color: '#FAF6E9', fontFamily: "'Pretendard', sans-serif" }
+                    : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: '#7A6B55', fontFamily: "'Pretendard', sans-serif" }
+                }
               >
                 {getEraLabel(era)}
               </button>
@@ -256,28 +271,30 @@ export default function ScienceTimelinePage() {
           <div className="flex items-center gap-4">
             <button
               onClick={() => setShowEvents(!showEvents)}
-              className={cn(
-                'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-all',
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded text-sm font-medium transition-all"
+              style={
                 showEvents
-                  ? 'bg-amber-600/20 text-amber-400 border border-amber-600/30'
-                  : 'bg-slate-800/50 text-slate-500 hover:bg-slate-700/50 hover:text-slate-400'
-              )}
+                  ? { backgroundColor: 'rgba(184, 134, 11, 0.15)', color: '#B8860B', border: '1px solid rgba(184, 134, 11, 0.3)' }
+                  : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: '#7A6B55' }
+              }
             >
               <Flag className="w-3.5 h-3.5" />
               역사 사건
             </button>
             <div className="flex items-center gap-2">
-              <span className="text-xs text-slate-500">줌</span>
+              <span className="text-xs" style={{ color: '#7A6B55' }}>줌</span>
               <button
                 onClick={handleZoomOut}
-                className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
+                className="w-8 h-8 rounded flex items-center justify-center transition-colors"
+                style={{ backgroundColor: '#F0E6D3', border: '1px solid #D4C4AB', color: '#4A3C2A' }}
               >
                 <Minus className="w-3.5 h-3.5" />
               </button>
-              <span className="text-xs text-slate-400 w-10 text-center">{zoom}x</span>
+              <span className="text-xs w-10 text-center" style={{ color: '#4A3C2A' }}>{zoom}x</span>
               <button
                 onClick={handleZoomIn}
-                className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
+                className="w-8 h-8 rounded flex items-center justify-center transition-colors"
+                style={{ backgroundColor: '#F0E6D3', border: '1px solid #D4C4AB', color: '#4A3C2A' }}
               >
                 <Plus className="w-3.5 h-3.5" />
               </button>
@@ -289,15 +306,15 @@ export default function ScienceTimelinePage() {
       {/* Field Filters */}
       <div className="max-w-7xl mx-auto px-4 pb-4">
         <div className="flex items-center gap-2 flex-wrap">
-          <span className="text-xs text-slate-500 mr-1">분야:</span>
+          <span className="text-xs mr-1" style={{ color: '#7A6B55' }}>분야:</span>
           <button
             onClick={() => setSelectedField('all')}
-            className={cn(
-              'px-3 py-1.5 rounded-lg text-xs font-medium transition-all',
+            className="px-3 py-1.5 rounded text-xs font-medium transition-all"
+            style={
               selectedField === 'all'
-                ? 'bg-emerald-600 text-white'
-                : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50'
-            )}
+                ? { backgroundColor: '#5B7355', color: '#FAF6E9' }
+                : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: '#7A6B55' }
+            }
           >
             전체
           </button>
@@ -307,16 +324,11 @@ export default function ScienceTimelinePage() {
               <button
                 key={field}
                 onClick={() => setSelectedField(field)}
-                className={cn(
-                  'px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-1',
-                  selectedField === field
-                    ? 'text-white'
-                    : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50'
-                )}
+                className="px-3 py-1.5 rounded text-xs font-medium transition-all flex items-center gap-1"
                 style={
                   selectedField === field
-                    ? { backgroundColor: info.color }
-                    : undefined
+                    ? { backgroundColor: info.color, color: '#FAF6E9' }
+                    : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: '#7A6B55' }
                 }
               >
                 <span
@@ -333,43 +345,49 @@ export default function ScienceTimelinePage() {
       {/* Field legend */}
       <div className="max-w-7xl mx-auto px-4 pb-4">
         <div className="flex items-center gap-3 flex-wrap text-xs">
-          <span className="text-slate-500">범례:</span>
+          <span style={{ color: '#7A6B55' }}>범례:</span>
           {Object.entries(fieldGroups).map(([key, { label, color }]) => (
             <span key={key} className="flex items-center gap-1">
               <span
                 className="w-2.5 h-2.5 rounded-sm"
                 style={{ backgroundColor: color }}
               />
-              <span className="text-slate-400">{label}</span>
+              <span style={{ color: '#4A3C2A' }}>{label}</span>
             </span>
           ))}
-          <span className="flex items-center gap-1 ml-2 text-slate-500 border-l border-slate-700 pl-3">
-            <Sparkles className="w-3 h-3 text-yellow-400" />
-            <span className="text-slate-400">= 주요 발견</span>
+          <span className="flex items-center gap-1 ml-2 pl-3" style={{ borderLeft: '1px solid #D4C4AB', color: '#7A6B55' }}>
+            <Sparkles className="w-3 h-3" style={{ color: '#B8860B' }} />
+            <span style={{ color: '#4A3C2A' }}>= 주요 발견</span>
           </span>
         </div>
       </div>
 
       {/* Swimlane Timeline */}
       <div className="max-w-7xl mx-auto px-4 pb-8">
-        <div className="relative rounded-xl border border-slate-700/50 bg-slate-900/50 overflow-hidden">
+        <div
+          className="relative rounded overflow-hidden"
+          style={{ border: '1px solid rgba(212, 196, 171, 0.5)', backgroundColor: 'rgba(240, 230, 211, 0.5)' }}
+        >
           {/* Scroll buttons */}
           <button
             onClick={() => scrollTimeline('left')}
-            className="absolute left-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-slate-800/90 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
+            className="absolute left-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full flex items-center justify-center transition-colors"
+            style={{ backgroundColor: 'rgba(240, 230, 211, 0.9)', border: '1px solid #D4C4AB', color: '#4A3C2A' }}
           >
             <ArrowLeft className="w-4 h-4" />
           </button>
           <button
             onClick={() => scrollTimeline('right')}
-            className="absolute right-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-slate-800/90 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
+            className="absolute right-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full flex items-center justify-center transition-colors"
+            style={{ backgroundColor: 'rgba(240, 230, 211, 0.9)', border: '1px solid #D4C4AB', color: '#4A3C2A' }}
           >
             <ArrowRight className="w-4 h-4" />
           </button>
 
           <div
             ref={timelineRef}
-            className="overflow-x-auto scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-slate-900"
+            className="overflow-x-auto"
+            style={{ scrollbarWidth: 'thin', scrollbarColor: '#D4C4AB #F0E6D3' }}
           >
             <div
               className="relative"
@@ -386,11 +404,11 @@ export default function ScienceTimelinePage() {
                 return (
                   <div
                     key={era}
-                    className="absolute top-0 bottom-0 opacity-[0.06]"
+                    className="absolute top-0 bottom-0 opacity-[0.08]"
                     style={{
                       left: `${left}%`,
                       width: `${width}%`,
-                      backgroundColor: getEraHexColor(era),
+                      backgroundColor: frescoEraColors[era],
                     }}
                   />
                 );
@@ -407,10 +425,10 @@ export default function ScienceTimelinePage() {
                     style={{ left: `${left}%` }}
                   >
                     <div
-                      className={cn(
-                        'w-px h-full',
-                        isMajor ? 'bg-slate-700/60' : 'bg-slate-800/40'
-                      )}
+                      className="w-px h-full"
+                      style={{
+                        backgroundColor: isMajor ? 'rgba(212, 196, 171, 0.6)' : 'rgba(212, 196, 171, 0.3)',
+                      }}
                     />
                   </div>
                 );
@@ -424,17 +442,19 @@ export default function ScienceTimelinePage() {
                     {/* Lane separator */}
                     {laneIdx > 0 && (
                       <div
-                        className="absolute left-0 right-0 h-px bg-slate-800/50"
-                        style={{ top: `${y - 2}px` }}
+                        className="absolute left-0 right-0 h-px"
+                        style={{ top: `${y - 2}px`, backgroundColor: 'rgba(212, 196, 171, 0.4)' }}
                       />
                     )}
 
                     {/* Field label */}
                     <div
-                      className="absolute left-3 z-10 text-[9px] font-medium bg-slate-900/90 px-1.5 py-0.5 rounded"
+                      className="absolute left-3 z-10 text-[9px] font-medium px-1.5 py-0.5 rounded"
                       style={{
                         top: `${y + 5}px`,
                         color: group.info.color,
+                        backgroundColor: 'rgba(250, 246, 233, 0.9)',
+                        fontFamily: "'Pretendard', sans-serif",
                       }}
                     >
                       {group.info.label} ({group.scientists.length})
@@ -460,30 +480,41 @@ export default function ScienceTimelinePage() {
                         >
                           {/* Lifespan bar */}
                           <div
-                            className="h-full rounded-sm flex items-center px-1 overflow-hidden transition-all group-hover:brightness-125 group-hover:ring-1 group-hover:ring-white/30 relative"
+                            className="h-full rounded-sm flex items-center px-1 overflow-hidden transition-all group-hover:brightness-110 relative"
                             style={{
                               backgroundColor: group.info.color,
-                              opacity: 0.7,
+                              opacity: 0.8,
+                              boxShadow: '0 1px 2px rgba(44, 36, 22, 0.1)',
                             }}
                           >
-                            <span className="text-[9px] font-medium text-white whitespace-nowrap truncate relative z-10">
+                            <span
+                              className="text-[9px] font-medium whitespace-nowrap truncate relative z-10"
+                              style={{ color: '#FAF6E9' }}
+                            >
                               {s.name.ko}
                             </span>
 
                             {/* Discovery markers on the bar */}
                             {discoveries.length > 0 && (
                               <span className="absolute right-0.5 top-0.5">
-                                <Sparkles className="w-2.5 h-2.5 text-yellow-300" />
+                                <Sparkles className="w-2.5 h-2.5" style={{ color: '#B8860B' }} />
                               </span>
                             )}
                           </div>
 
                           {/* Tooltip */}
                           <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-1 hidden group-hover:block z-30">
-                            <div className="bg-slate-800 border border-slate-600 rounded-lg px-3 py-2 shadow-xl whitespace-nowrap max-w-xs">
-                              <p className="text-[11px] font-semibold text-white">{s.name.ko}</p>
-                              <p className="text-[10px] text-slate-400">{s.name.en}</p>
-                              <p className="text-[9px] text-slate-500 mt-0.5">
+                            <div
+                              className="rounded px-3 py-2 whitespace-nowrap max-w-xs"
+                              style={{
+                                backgroundColor: '#F0E6D3',
+                                border: '1px solid #D4C4AB',
+                                boxShadow: '0 4px 12px rgba(44, 36, 22, 0.15)',
+                              }}
+                            >
+                              <p className="text-[11px] font-semibold" style={{ color: '#2C2416' }}>{s.name.ko}</p>
+                              <p className="text-[10px]" style={{ color: '#7A6B55' }}>{s.name.en}</p>
+                              <p className="text-[9px] mt-0.5" style={{ color: '#9C8B73' }}>
                                 {formatYear(s.period.start)} ~ {formatYear(s.period.end)}
                               </p>
                               {s.field && s.field.length > 0 && (
@@ -493,7 +524,7 @@ export default function ScienceTimelinePage() {
                                       key={f}
                                       className="text-[8px] px-1 py-0 rounded"
                                       style={{
-                                        backgroundColor: group.info.color + '30',
+                                        backgroundColor: group.info.color + '20',
                                         color: group.info.color,
                                       }}
                                     >
@@ -503,18 +534,18 @@ export default function ScienceTimelinePage() {
                                 </div>
                               )}
                               {discoveries.length > 0 && (
-                                <div className="mt-1 border-t border-slate-700 pt-1">
-                                  <p className="text-[8px] text-yellow-400 flex items-center gap-0.5">
+                                <div className="mt-1 pt-1" style={{ borderTop: '1px solid #D4C4AB' }}>
+                                  <p className="text-[8px] flex items-center gap-0.5" style={{ color: '#B8860B' }}>
                                     <Sparkles className="w-2 h-2" />
                                     주요 발견
                                   </p>
                                   {discoveries.slice(0, 3).map((d) => (
-                                    <p key={d} className="text-[8px] text-slate-400">
+                                    <p key={d} className="text-[8px]" style={{ color: '#4A3C2A' }}>
                                       - {d}
                                     </p>
                                   ))}
                                   {discoveries.length > 3 && (
-                                    <p className="text-[8px] text-slate-500">
+                                    <p className="text-[8px]" style={{ color: '#9C8B73' }}>
                                       +{discoveries.length - 3}개 더
                                     </p>
                                   )}
@@ -534,7 +565,7 @@ export default function ScienceTimelinePage() {
                 className="absolute left-0 right-0"
                 style={{ top: `${totalLanesHeight}px`, height: `${AXIS_HEIGHT}px` }}
               >
-                <div className="absolute top-0 left-0 right-0 h-px bg-slate-600" />
+                <div className="absolute top-0 left-0 right-0 h-px" style={{ backgroundColor: '#D4C4AB' }} />
                 {centuryMarkers
                   .filter((y) => y % (zoom >= 2 ? 100 : 500) === 0)
                   .map((year) => {
@@ -549,7 +580,10 @@ export default function ScienceTimelinePage() {
                           transform: 'translate(-50%, -50%)',
                         }}
                       >
-                        <span className="text-[10px] font-medium text-slate-400 bg-slate-900/90 px-1.5 py-0.5 rounded">
+                        <span
+                          className="text-[10px] font-medium px-1.5 py-0.5 rounded"
+                          style={{ color: '#4A3C2A', backgroundColor: 'rgba(250, 246, 233, 0.9)' }}
+                        >
                           {formatYear(year)}
                         </span>
                       </div>
@@ -571,10 +605,11 @@ export default function ScienceTimelinePage() {
                       }}
                     >
                       <span
-                        className={cn(
-                          'text-[9px] font-medium px-1.5 py-0.5 rounded',
-                          getEraColor(era)
-                        )}
+                        className="text-[9px] font-medium px-1.5 py-0.5 rounded"
+                        style={{
+                          backgroundColor: frescoEraColors[era] + '20',
+                          color: frescoEraColors[era],
+                        }}
                       >
                         {getEraLabel(era)}
                       </span>
@@ -593,12 +628,15 @@ export default function ScienceTimelinePage() {
                   }}
                 >
                   {/* Section label */}
-                  <div className="absolute top-2 left-3 z-10 text-[10px] text-amber-400 font-medium flex items-center gap-1 bg-slate-900/80 px-2 py-0.5 rounded">
+                  <div
+                    className="absolute top-2 left-3 z-10 text-[10px] font-medium flex items-center gap-1 px-2 py-0.5 rounded"
+                    style={{ color: '#B8860B', backgroundColor: 'rgba(250, 246, 233, 0.8)', fontFamily: "'Pretendard', sans-serif" }}
+                  >
                     <Flag className="w-3 h-3" />
                     역사 사건 ({filteredEvents.length})
                   </div>
                   {/* Separator line */}
-                  <div className="absolute top-0 left-0 right-0 h-px bg-amber-700/30" />
+                  <div className="absolute top-0 left-0 right-0 h-px" style={{ backgroundColor: 'rgba(184, 134, 11, 0.3)' }} />
 
                   {filteredEvents.map((event: any, idx: number) => {
                     const left = getTimelinePosition(event.period.start);
@@ -616,14 +654,23 @@ export default function ScienceTimelinePage() {
                       >
                         <div className="flex flex-col items-center">
                           <div
-                            className="w-2.5 h-2.5 rotate-45 border border-amber-600/50 transition-transform group-hover:scale-150"
-                            style={{ backgroundColor: getEraHexColor(event.era) }}
+                            className="w-2.5 h-2.5 rotate-45 transition-transform group-hover:scale-150"
+                            style={{
+                              backgroundColor: frescoEraColors[event.era as Era] || '#6B6358',
+                              border: '1px solid rgba(184, 134, 11, 0.5)',
+                            }}
                           />
-                          <div className="mt-0.5 px-1.5 py-0.5 rounded bg-slate-800/80 border border-amber-700/20 opacity-60 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                            <p className="text-[8px] font-medium text-amber-200">
+                          <div
+                            className="mt-0.5 px-1.5 py-0.5 rounded opacity-60 group-hover:opacity-100 transition-opacity whitespace-nowrap"
+                            style={{
+                              backgroundColor: 'rgba(240, 230, 211, 0.8)',
+                              border: '1px solid rgba(184, 134, 11, 0.2)',
+                            }}
+                          >
+                            <p className="text-[8px] font-medium" style={{ color: '#8B6914' }}>
                               {event.name.ko}
                             </p>
-                            <p className="text-[7px] text-slate-500">
+                            <p className="text-[7px]" style={{ color: '#9C8B73' }}>
                               {formatYear(event.period.start)}
                             </p>
                           </div>
@@ -640,10 +687,13 @@ export default function ScienceTimelinePage() {
 
       {/* Scientist Cards List */}
       <div className="max-w-7xl mx-auto px-4 pb-20">
-        <h2 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
-          <Atom className="w-5 h-5 text-emerald-400" />
+        <h2
+          className="text-lg font-semibold mb-4 flex items-center gap-2"
+          style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+        >
+          <Atom className="w-5 h-5" style={{ color: '#5B7355' }} />
           과학자 목록
-          <span className="text-sm font-normal text-slate-500">
+          <span className="text-sm font-normal" style={{ color: '#7A6B55' }}>
             ({filteredScientists.length}명)
           </span>
         </h2>
@@ -654,17 +704,29 @@ export default function ScienceTimelinePage() {
               <Link
                 key={s.id}
                 href={`/persons/${s.id}`}
-                className={cn(
-                  'group rounded-xl border border-slate-700/50 bg-slate-800/20 p-5 hover:bg-slate-800/40 transition-all duration-200 border-l-4',
-                  getEraBorderClass(s.era)
-                )}
+                className="group p-5 transition-all duration-200"
+                style={{
+                  borderRadius: '4px',
+                  border: '1px solid rgba(212, 196, 171, 0.5)',
+                  borderLeft: `4px solid ${frescoEraColors[s.era as Era] || '#6B6358'}`,
+                  backgroundColor: 'rgba(240, 230, 211, 0.2)',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = 'rgba(240, 230, 211, 0.4)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = 'rgba(240, 230, 211, 0.2)';
+                }}
               >
                 <div className="flex items-start justify-between mb-3">
                   <div>
-                    <h3 className="text-white font-semibold group-hover:text-emerald-400 transition-colors">
+                    <h3
+                      className="font-semibold transition-colors"
+                      style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+                    >
                       {s.name.ko}
                     </h3>
-                    <p className="text-sm text-slate-500">{s.name.en}</p>
+                    <p className="text-sm" style={{ color: '#7A6B55' }}>{s.name.en}</p>
                   </div>
                   <div className="flex items-center gap-1.5 shrink-0 ml-2">
                     <span
@@ -677,17 +739,18 @@ export default function ScienceTimelinePage() {
                       {fieldInfo.label}
                     </span>
                     <span
-                      className={cn(
-                        'text-xs px-2 py-1 rounded-full font-medium',
-                        getEraColorClass(s.era)
-                      )}
+                      className="text-xs px-2 py-1 rounded-full font-medium"
+                      style={{
+                        backgroundColor: frescoEraColors[s.era as Era] + '20',
+                        color: frescoEraColors[s.era as Era],
+                      }}
                     >
                       {getEraLabel(s.era as Era)}
                     </span>
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3 text-xs text-slate-500 mb-3">
+                <div className="flex items-center gap-3 text-xs mb-3" style={{ color: '#7A6B55' }}>
                   <span className="flex items-center gap-1">
                     <Calendar className="w-3 h-3" />
                     {formatYear(s.period.start)} ~ {formatYear(s.period.end)}
@@ -721,25 +784,33 @@ export default function ScienceTimelinePage() {
                     {s.discoveries.slice(0, 3).map((d) => (
                       <span
                         key={d}
-                        className="text-[11px] px-2 py-0.5 rounded-full bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 flex items-center gap-0.5"
+                        className="text-[11px] px-2 py-0.5 rounded-full flex items-center gap-0.5"
+                        style={{
+                          backgroundColor: 'rgba(184, 134, 11, 0.1)',
+                          color: '#B8860B',
+                          border: '1px solid rgba(184, 134, 11, 0.2)',
+                        }}
                       >
                         <Sparkles className="w-2.5 h-2.5" />
                         {d}
                       </span>
                     ))}
                     {s.discoveries.length > 3 && (
-                      <span className="text-[11px] px-2 py-0.5 rounded-full bg-slate-700/30 text-slate-500">
+                      <span
+                        className="text-[11px] px-2 py-0.5 rounded-full"
+                        style={{ backgroundColor: 'rgba(212, 196, 171, 0.3)', color: '#7A6B55' }}
+                      >
                         +{s.discoveries.length - 3}
                       </span>
                     )}
                   </div>
                 )}
 
-                <p className="text-sm text-slate-400 line-clamp-2 leading-relaxed">
+                <p className="text-sm line-clamp-2 leading-relaxed" style={{ color: '#4A3C2A' }}>
                   {s.summary}
                 </p>
 
-                <div className="mt-3 flex items-center text-xs text-slate-500 group-hover:text-emerald-400 transition-colors">
+                <div className="mt-3 flex items-center text-xs transition-colors" style={{ color: '#7A6B55' }}>
                   자세히 보기
                   <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
                 </div>
