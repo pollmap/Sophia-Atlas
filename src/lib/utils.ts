@@ -29,7 +29,7 @@ export function getEraBgColor(era: string): string {
 
 export function getEraColorClass(era: string): string {
   const classes: Record<string, string> = {
-    ancient: "bg-ancient text-black",
+    ancient: "bg-ancient text-white",
     medieval: "bg-medieval text-white",
     modern: "bg-modern text-white",
     contemporary: "bg-contemporary text-white",
@@ -59,12 +59,12 @@ export function getEraTextClass(era: string): string {
 
 export function getEraHexColor(era: string): string {
   const colors: Record<string, string> = {
-    ancient: "#D4AF37",
-    medieval: "#7C3AED",
-    modern: "#14B8A6",
-    contemporary: "#64748B",
+    ancient: "#B8860B",
+    medieval: "#6B4E8A",
+    modern: "#4A7A6B",
+    contemporary: "#6B6358",
   };
-  return colors[era] || "#64748B";
+  return colors[era] || "#6B6358";
 }
 
 export function getEraLabel(era: string): string {
@@ -96,41 +96,41 @@ export function formatPeriod(start: number, end: number): string {
   return `${formatYear(start)} ~ ${formatYear(end)}`;
 }
 
-// ── Category Utilities ──
+// ── Category Utilities (Fresco pigment colors) ──
 
 export type PersonCategory = "philosopher" | "religious_figure" | "scientist" | "historical_figure" | "cultural_figure";
 
 export function getCategoryColor(category: string): string {
   const colors: Record<string, string> = {
-    philosopher: "text-indigo-400",
-    religious_figure: "text-amber-400",
-    scientist: "text-emerald-400",
-    historical_figure: "text-red-400",
-    cultural_figure: "text-pink-400",
+    philosopher: "text-cat-philosopher",
+    religious_figure: "text-cat-religious",
+    scientist: "text-cat-scientist",
+    historical_figure: "text-cat-historical",
+    cultural_figure: "text-cat-cultural",
   };
-  return colors[category] || "text-slate-400";
+  return colors[category] || "text-ink-light";
 }
 
 export function getCategoryBgColor(category: string): string {
   const colors: Record<string, string> = {
-    philosopher: "bg-indigo-500/20",
-    religious_figure: "bg-amber-500/20",
-    scientist: "bg-emerald-500/20",
-    historical_figure: "bg-red-500/20",
-    cultural_figure: "bg-pink-500/20",
+    philosopher: "bg-cat-philosopher/15",
+    religious_figure: "bg-cat-religious/15",
+    scientist: "bg-cat-scientist/15",
+    historical_figure: "bg-cat-historical/15",
+    cultural_figure: "bg-cat-cultural/15",
   };
-  return colors[category] || "bg-slate-500/20";
+  return colors[category] || "bg-ink-faded/15";
 }
 
 export function getCategoryHexColor(category: string): string {
   const colors: Record<string, string> = {
-    philosopher: "#6366F1",
-    religious_figure: "#F59E0B",
-    scientist: "#10B981",
-    historical_figure: "#EF4444",
-    cultural_figure: "#EC4899",
+    philosopher: "#4A5D8A",
+    religious_figure: "#B8860B",
+    scientist: "#5B7355",
+    historical_figure: "#8B4040",
+    cultural_figure: "#7A5478",
   };
-  return colors[category] || "#64748B";
+  return colors[category] || "#6B6358";
 }
 
 export function getCategoryLabel(category: string): string {
@@ -146,11 +146,11 @@ export function getCategoryLabel(category: string): string {
 
 export function getCategoryBadgeClass(category: string): string {
   const classes: Record<string, string> = {
-    philosopher: "bg-indigo-500/20 text-indigo-300 border-indigo-500/30",
-    religious_figure: "bg-amber-500/20 text-amber-300 border-amber-500/30",
-    scientist: "bg-emerald-500/20 text-emerald-300 border-emerald-500/30",
-    historical_figure: "bg-red-500/20 text-red-300 border-red-500/30",
-    cultural_figure: "bg-pink-500/20 text-pink-300 border-pink-500/30",
+    philosopher: "bg-cat-philosopher/12 text-cat-philosopher border-cat-philosopher/30",
+    religious_figure: "bg-cat-religious/12 text-cat-religious border-cat-religious/30",
+    scientist: "bg-cat-scientist/12 text-cat-scientist border-cat-scientist/30",
+    historical_figure: "bg-cat-historical/12 text-cat-historical border-cat-historical/30",
+    cultural_figure: "bg-cat-cultural/12 text-cat-cultural border-cat-cultural/30",
   };
-  return classes[category] || "bg-slate-500/20 text-slate-300 border-slate-500/30";
+  return classes[category] || "bg-ink-faded/12 text-ink-light border-ink-faded/30";
 }

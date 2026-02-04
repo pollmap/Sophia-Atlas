@@ -10,63 +10,112 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Era colors
+        // Fresco backgrounds
+        fresco: {
+          ivory: "#FAF6E9",
+          parchment: "#F0E6D3",
+          aged: "#E8DCCA",
+          shadow: "#D4C4AB",
+        },
+        // Sepia inks
+        ink: {
+          dark: "#2C2416",
+          medium: "#4A3C2A",
+          light: "#7A6B55",
+          faded: "#9C8B73",
+        },
+        // Gold accent
+        gold: {
+          DEFAULT: "#B8860B",
+          hover: "#D4A84B",
+          light: "#E8C874",
+          dark: "#8B6914",
+        },
+        // Tradition pigments
+        pigment: {
+          western: "#3D5A80",
+          buddhism: "#5B7355",
+          confucianism: "#8B4513",
+          daoism: "#CC7722",
+          indian: "#C2703E",
+          islam: "#5D4E6D",
+          science: "#2E6B62",
+          art: "#8B3A62",
+        },
+        // Era colors (warm-shifted for fresco)
         ancient: {
-          DEFAULT: "#D4AF37",
-          light: "#F0D060",
-          dark: "#A08520",
+          DEFAULT: "#B8860B",
+          light: "#D4A84B",
+          dark: "#8B6914",
         },
         medieval: {
-          DEFAULT: "#7C3AED",
-          light: "#A78BFA",
-          dark: "#5B21B6",
+          DEFAULT: "#6B4E8A",
+          light: "#9B7BBD",
+          dark: "#4E3468",
         },
         modern: {
-          DEFAULT: "#14B8A6",
-          light: "#5EEAD4",
-          dark: "#0D9488",
+          DEFAULT: "#4A7A6B",
+          light: "#6BA394",
+          dark: "#345A4D",
         },
         contemporary: {
-          DEFAULT: "#64748B",
-          light: "#94A3B8",
-          dark: "#475569",
+          DEFAULT: "#6B6358",
+          light: "#8A8176",
+          dark: "#4A4339",
         },
-        // App colors
+        // Category colors (warm-shifted)
+        cat: {
+          philosopher: "#4A5D8A",
+          religious: "#B8860B",
+          scientist: "#5B7355",
+          historical: "#8B4040",
+          cultural: "#7A5478",
+        },
+        // Semantic app colors (mapped to fresco)
         background: {
-          DEFAULT: "#0F172A",
-          secondary: "#1E293B",
-          tertiary: "#334155",
+          DEFAULT: "#FAF6E9",
+          secondary: "#F0E6D3",
+          tertiary: "#E8DCCA",
         },
         foreground: {
-          DEFAULT: "#F8FAFC",
-          secondary: "#CBD5E1",
-          muted: "#94A3B8",
+          DEFAULT: "#2C2416",
+          secondary: "#4A3C2A",
+          muted: "#7A6B55",
         },
         accent: {
-          DEFAULT: "#D4AF37",
-          hover: "#F0D060",
+          DEFAULT: "#B8860B",
+          hover: "#D4A84B",
         },
         border: {
-          DEFAULT: "#334155",
-          light: "#475569",
+          DEFAULT: "#D4C4AB",
+          light: "#E8DCCA",
         },
       },
       fontFamily: {
-        sans: ["Pretendard", "Inter", "system-ui", "sans-serif"],
-        display: ["Gmarket Sans", "Pretendard", "system-ui", "sans-serif"],
+        sans: ["Pretendard", "Noto Serif KR", "system-ui", "sans-serif"],
+        serif: ["Noto Serif KR", "Georgia", "Times New Roman", "serif"],
+        display: ["Cormorant Garamond", "Noto Serif KR", "Georgia", "serif"],
+        ui: ["Pretendard", "system-ui", "sans-serif"],
         mono: ["JetBrains Mono", "monospace"],
       },
       animation: {
         "fade-in": "fadeIn 0.5s ease-in-out",
+        "fade-slide-in": "fadeSlideIn 0.5s ease-out forwards",
         "slide-up": "slideUp 0.5s ease-out",
         "slide-down": "slideDown 0.3s ease-out",
         "scale-in": "scaleIn 0.3s ease-out",
-        "glow": "glow 2s ease-in-out infinite alternate",
+        "glow-gold": "glowGold 2s ease-in-out infinite alternate",
+        "float": "float 3s ease-in-out infinite",
+        "pulse-gold": "pulseGold 2s ease-in-out infinite",
       },
       keyframes: {
         fadeIn: {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
+        },
+        fadeSlideIn: {
+          "0%": { opacity: "0", transform: "translateY(12px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
         },
         slideUp: {
           "0%": { transform: "translateY(20px)", opacity: "0" },
@@ -80,10 +129,24 @@ const config: Config = {
           "0%": { transform: "scale(0.95)", opacity: "0" },
           "100%": { transform: "scale(1)", opacity: "1" },
         },
-        glow: {
-          "0%": { boxShadow: "0 0 5px rgba(212, 175, 55, 0.2)" },
-          "100%": { boxShadow: "0 0 20px rgba(212, 175, 55, 0.4)" },
+        glowGold: {
+          "0%": { boxShadow: "0 0 5px rgba(184, 134, 11, 0.15)" },
+          "100%": { boxShadow: "0 0 20px rgba(184, 134, 11, 0.3)" },
         },
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-4px)" },
+        },
+        pulseGold: {
+          "0%, 100%": { boxShadow: "0 0 4px rgba(184, 134, 11, 0.3)" },
+          "50%": { boxShadow: "0 0 16px rgba(184, 134, 11, 0.5)" },
+        },
+      },
+      boxShadow: {
+        "sepia-sm": "0 1px 3px rgba(44, 36, 22, 0.08)",
+        "sepia": "0 4px 12px rgba(44, 36, 22, 0.1)",
+        "sepia-lg": "0 8px 24px rgba(44, 36, 22, 0.12)",
+        "gold": "0 4px 16px rgba(184, 134, 11, 0.2)",
       },
     },
   },

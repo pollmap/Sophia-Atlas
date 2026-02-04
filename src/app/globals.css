@@ -1,80 +1,85 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
-@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff2');
-
-@font-face {
-  font-family: 'Gmarket Sans';
-  font-weight: 300;
-  font-style: normal;
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Gmarket Sans';
-  font-weight: 500;
-  font-style: normal;
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Gmarket Sans';
-  font-weight: 700;
-  font-style: normal;
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff2') format('woff2');
-}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* ============================================
-   CSS Custom Properties - Dark Theme (Default)
+   Fresco Design System v1.0
+   Renaissance Fresco / Parchment Aesthetic
    ============================================ */
+
 :root {
-  --color-background: #0F172A;
-  --color-background-secondary: #1E293B;
-  --color-background-tertiary: #334155;
-  --color-foreground: #F8FAFC;
-  --color-foreground-secondary: #CBD5E1;
-  --color-foreground-muted: #94A3B8;
-  --color-accent: #D4AF37;
-  --color-accent-hover: #F0D060;
-  --color-border: #334155;
-  --color-border-light: #475569;
-  --color-ancient: #D4AF37;
-  --color-medieval: #7C3AED;
-  --color-modern: #14B8A6;
-  --color-contemporary: #64748B;
-  --color-selection-bg: rgba(212, 175, 55, 0.3);
-  --color-selection-text: #F8FAFC;
-  --color-scrollbar-track: #1E293B;
-  --color-scrollbar-thumb: #475569;
-  --color-scrollbar-thumb-hover: #64748B;
+  /* ── Fresco Backgrounds ── */
+  --fresco-ivory: #FAF6E9;
+  --fresco-parchment: #F0E6D3;
+  --fresco-aged: #E8DCCA;
+  --fresco-shadow: #D4C4AB;
+
+  /* ── Sepia Inks ── */
+  --ink-dark: #2C2416;
+  --ink-medium: #4A3C2A;
+  --ink-light: #7A6B55;
+  --ink-faded: #9C8B73;
+
+  /* ── Gold Accent ── */
+  --gold: #B8860B;
+  --gold-hover: #D4A84B;
+  --gold-light: #E8C874;
+  --gold-muted: rgba(184, 134, 11, 0.15);
+
+  /* ── Tradition Pigments ── */
+  --pigment-western: #3D5A80;
+  --pigment-buddhism: #5B7355;
+  --pigment-confucianism: #8B4513;
+  --pigment-daoism: #CC7722;
+  --pigment-indian: #C2703E;
+  --pigment-islam: #5D4E6D;
+
+  /* ── Category Colors (warm-shifted) ── */
+  --cat-philosopher: #4A5D8A;
+  --cat-religious: #B8860B;
+  --cat-scientist: #5B7355;
+  --cat-historical: #8B4040;
+  --cat-cultural: #7A5478;
+
+  /* ── Era Colors (fresco-warm) ── */
+  --era-ancient: #B8860B;
+  --era-medieval: #6B4E8A;
+  --era-modern: #4A7A6B;
+  --era-contemporary: #6B6358;
+
+  /* ── Semantic Mappings ── */
+  --color-background: var(--fresco-ivory);
+  --color-background-secondary: var(--fresco-parchment);
+  --color-background-tertiary: var(--fresco-aged);
+  --color-foreground: var(--ink-dark);
+  --color-foreground-secondary: var(--ink-medium);
+  --color-foreground-muted: var(--ink-light);
+  --color-accent: var(--gold);
+  --color-accent-hover: var(--gold-hover);
+  --color-border: var(--fresco-shadow);
+  --color-border-light: var(--fresco-aged);
+  --color-ancient: var(--era-ancient);
+  --color-medieval: var(--era-medieval);
+  --color-modern: var(--era-modern);
+  --color-contemporary: var(--era-contemporary);
+  --color-selection-bg: rgba(184, 134, 11, 0.25);
+  --color-selection-text: var(--ink-dark);
+  --color-scrollbar-track: var(--fresco-parchment);
+  --color-scrollbar-thumb: var(--fresco-shadow);
+  --color-scrollbar-thumb-hover: var(--ink-faded);
+
+  /* ── Layout ── */
   --header-height: 4rem;
-  --sidebar-width: 16rem;
+  --sidebar-width: 20rem;
   --sidebar-collapsed-width: 4rem;
 }
 
-/* Light Theme Override */
-.light {
-  --color-background: #F8FAFC;
-  --color-background-secondary: #F1F5F9;
-  --color-background-tertiary: #E2E8F0;
-  --color-foreground: #0F172A;
-  --color-foreground-secondary: #475569;
-  --color-foreground-muted: #64748B;
-  --color-accent: #B8960F;
-  --color-accent-hover: #A07D0A;
-  --color-border: #CBD5E1;
-  --color-border-light: #E2E8F0;
-  --color-selection-bg: rgba(212, 175, 55, 0.25);
-  --color-selection-text: #0F172A;
-  --color-scrollbar-track: #F1F5F9;
-  --color-scrollbar-thumb: #CBD5E1;
-  --color-scrollbar-thumb-hover: #94A3B8;
-}
-
 /* ============================================
-   Base Styles
+   Base Styles — Fresco Theme
    ============================================ */
 @layer base {
   *,
@@ -90,18 +95,16 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1, "liga" 1;
   }
 
   body {
-    font-family: "Pretendard Variable", Pretendard, Inter, -apple-system,
-      BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
-      "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
-      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-    background-color: var(--color-background);
-    color: var(--color-foreground);
-    line-height: 1.7;
-    letter-spacing: -0.01em;
+    font-family: "Noto Serif KR", "Pretendard Variable", Pretendard,
+      Georgia, "Times New Roman", serif;
+    background-color: var(--fresco-ivory);
+    color: var(--ink-dark);
+    line-height: 1.8;
+    letter-spacing: 0.01em;
     min-height: 100vh;
     overflow-x: hidden;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -120,34 +123,34 @@
 
   /* Focus Styles */
   :focus-visible {
-    outline: 2px solid var(--color-accent);
+    outline: 2px solid var(--gold);
     outline-offset: 2px;
     border-radius: 4px;
   }
 
-  /* Headings */
+  /* Headings — Cormorant Garamond for display */
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Gmarket Sans", "Pretendard Variable", Pretendard, system-ui, sans-serif;
-    font-weight: 500;
-    line-height: 1.35;
+    font-family: "Cormorant Garamond", "Noto Serif KR", Georgia, serif;
+    font-weight: 600;
+    line-height: 1.3;
     letter-spacing: -0.01em;
-    color: var(--color-foreground);
+    color: var(--ink-dark);
   }
 
-  h1 { font-size: 2.5rem; }
+  h1 { font-size: 2.75rem; font-weight: 700; }
   h2 { font-size: 2rem; }
   h3 { font-size: 1.5rem; }
   h4 { font-size: 1.25rem; }
 
   /* Links */
   a {
-    color: var(--color-accent);
+    color: var(--gold);
     text-decoration: none;
     transition: color 0.2s ease;
   }
 
   a:hover {
-    color: var(--color-accent-hover);
+    color: var(--gold-hover);
   }
 
   /* Code */
@@ -156,17 +159,17 @@
   }
 
   pre {
-    background-color: var(--color-background-secondary);
-    border: 1px solid var(--color-border);
-    border-radius: 0.5rem;
+    background-color: var(--fresco-parchment);
+    border: 1px solid var(--fresco-shadow);
+    border-radius: 4px;
     padding: 1rem;
     overflow-x: auto;
   }
 
   code {
-    background-color: var(--color-background-tertiary);
+    background-color: var(--fresco-aged);
     padding: 0.125rem 0.375rem;
-    border-radius: 0.25rem;
+    border-radius: 2px;
     font-size: 0.875em;
   }
 
@@ -184,7 +187,7 @@
 }
 
 /* ============================================
-   Custom Scrollbar
+   Scrollbar — Parchment style
    ============================================ */
 ::-webkit-scrollbar {
   width: 8px;
@@ -209,76 +212,101 @@
   background: var(--color-scrollbar-track);
 }
 
-/* Firefox scrollbar */
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--color-scrollbar-thumb) var(--color-scrollbar-track);
 }
 
 /* ============================================
-   Component Utilities
+   Fresco Component Styles
    ============================================ */
 @layer components {
-  /* Glassmorphism Card */
+  /* Parchment Card */
+  .fresco-card {
+    background: var(--fresco-parchment);
+    border: 1px solid var(--fresco-shadow);
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(44, 36, 22, 0.08);
+    transition: all 0.3s ease;
+  }
+
+  .fresco-card:hover {
+    box-shadow: 0 4px 16px rgba(44, 36, 22, 0.12);
+    border-color: var(--gold);
+    transform: translateY(-2px);
+  }
+
+  /* Fresco Header */
+  .fresco-header {
+    background: rgba(250, 246, 233, 0.92);
+    backdrop-filter: blur(12px) saturate(120%);
+    -webkit-backdrop-filter: blur(12px) saturate(120%);
+    border-bottom: 1px solid var(--fresco-shadow);
+  }
+
+  /* Glass — deprecated but kept for backwards compat */
   .glass {
-    background: rgba(30, 41, 59, 0.6);
+    background: rgba(240, 230, 211, 0.7);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(71, 85, 105, 0.4);
+    border: 1px solid var(--fresco-shadow);
   }
 
-  .light .glass {
-    background: rgba(248, 250, 252, 0.7);
-    border: 1px solid rgba(203, 213, 225, 0.5);
-  }
-
-  /* Glass Header */
   .glass-header {
-    background: rgba(15, 23, 42, 0.8);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    border-bottom: 1px solid rgba(71, 85, 105, 0.3);
-  }
-
-  .light .glass-header {
-    background: rgba(248, 250, 252, 0.85);
-    border-bottom: 1px solid rgba(203, 213, 225, 0.5);
+    background: rgba(250, 246, 233, 0.92);
+    backdrop-filter: blur(20px) saturate(120%);
+    -webkit-backdrop-filter: blur(20px) saturate(120%);
+    border-bottom: 1px solid var(--fresco-shadow);
   }
 
   /* Era Indicator Pill */
   .era-pill {
-    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium;
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded text-xs font-medium;
     @apply border transition-all duration-200;
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
   }
 
   .era-pill-ancient {
-    @apply bg-ancient/10 text-ancient border-ancient/30;
+    background: rgba(184, 134, 11, 0.1);
+    color: var(--era-ancient);
+    border-color: rgba(184, 134, 11, 0.3);
   }
 
   .era-pill-medieval {
-    @apply bg-medieval/10 text-medieval border-medieval/30;
+    background: rgba(107, 78, 138, 0.1);
+    color: var(--era-medieval);
+    border-color: rgba(107, 78, 138, 0.3);
   }
 
   .era-pill-modern {
-    @apply bg-modern/10 text-modern border-modern/30;
+    background: rgba(74, 122, 107, 0.1);
+    color: var(--era-modern);
+    border-color: rgba(74, 122, 107, 0.3);
   }
 
   .era-pill-contemporary {
-    @apply bg-contemporary/10 text-contemporary border-contemporary/30;
+    background: rgba(107, 99, 88, 0.1);
+    color: var(--era-contemporary);
+    border-color: rgba(107, 99, 88, 0.3);
   }
 
   /* Card hover effects */
   .card-hover {
     @apply transition-all duration-300 ease-out;
-    @apply hover:shadow-lg hover:shadow-black/20;
     @apply hover:-translate-y-0.5;
-    @apply hover:border-border-light;
   }
 
-  /* Gradient text */
+  .card-hover:hover {
+    box-shadow: 0 4px 16px rgba(44, 36, 22, 0.12);
+    border-color: var(--gold);
+  }
+
+  /* Gold gradient text */
   .gradient-text {
-    @apply bg-clip-text text-transparent;
-    @apply bg-gradient-to-r from-accent via-accent-hover to-accent;
+    background: linear-gradient(135deg, var(--gold), var(--gold-hover), var(--gold-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   /* Section container */
@@ -293,7 +321,8 @@
 
   .hover-underline::after {
     content: "";
-    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-accent;
+    @apply absolute bottom-0 left-0 w-0 h-0.5;
+    background: var(--gold);
     @apply transition-all duration-300 ease-out;
   }
 
@@ -301,14 +330,119 @@
     @apply w-full;
   }
 
+  /* Quote Block — gold left border */
+  .fresco-quote {
+    border-left: 3px solid var(--gold);
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, var(--fresco-parchment), var(--fresco-aged));
+    border-radius: 0 4px 4px 0;
+    font-style: italic;
+    color: var(--ink-medium);
+  }
+
+  .fresco-quote cite {
+    display: block;
+    margin-top: 0.75rem;
+    font-style: normal;
+    font-size: 0.875rem;
+    color: var(--gold);
+  }
+
+  /* TL;DR / Summary Box */
+  .fresco-summary {
+    border-left: 3px solid var(--gold);
+    padding: 1rem 1.25rem;
+    background: var(--fresco-parchment);
+    border-radius: 0 4px 4px 0;
+  }
+
+  /* Tag (tradition-colored) */
+  .fresco-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 2px;
+    font-size: 0.75rem;
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+  }
+
+  /* Button — Primary (Gold) */
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.5rem;
+    background: var(--gold);
+    color: var(--fresco-ivory);
+    border: none;
+    border-radius: 4px;
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .btn-primary:hover {
+    background: var(--gold-hover);
+    box-shadow: 0 2px 8px rgba(184, 134, 11, 0.3);
+  }
+
+  /* Button — Secondary (Outline) */
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.5rem;
+    background: transparent;
+    color: var(--ink-medium);
+    border: 1px solid var(--fresco-shadow);
+    border-radius: 4px;
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--gold);
+    color: var(--gold);
+    background: var(--gold-muted);
+  }
+
+  /* Button — Ghost */
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    color: var(--ink-light);
+    border: none;
+    border-radius: 4px;
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .btn-ghost:hover {
+    color: var(--gold);
+    background: var(--gold-muted);
+  }
+
   /* Loading skeleton */
   .skeleton {
     @apply animate-pulse rounded;
     background: linear-gradient(
       90deg,
-      var(--color-background-secondary) 25%,
-      var(--color-background-tertiary) 50%,
-      var(--color-background-secondary) 75%
+      var(--fresco-parchment) 25%,
+      var(--fresco-aged) 50%,
+      var(--fresco-parchment) 75%
     );
     background-size: 200% 100%;
     animation: skeleton-shimmer 1.5s ease-in-out infinite;
@@ -321,13 +455,31 @@
 
   /* Divider with centered text */
   .divider-text {
-    @apply flex items-center gap-4 text-foreground-muted text-sm;
+    @apply flex items-center gap-4 text-sm;
+    color: var(--ink-faded);
   }
 
   .divider-text::before,
   .divider-text::after {
     content: "";
-    @apply flex-1 h-px bg-border;
+    @apply flex-1 h-px;
+    background: var(--fresco-shadow);
+  }
+
+  /* Decorative ornament divider */
+  .ornament-divider {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--ink-faded);
+  }
+
+  .ornament-divider::before,
+  .ornament-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--fresco-shadow), transparent);
   }
 }
 
@@ -353,35 +505,58 @@
     display: none;
   }
 
-  /* Gradient border */
-  .gradient-border {
-    border-image: linear-gradient(
-      135deg,
-      var(--color-ancient),
-      var(--color-medieval),
-      var(--color-modern)
-    ) 1;
+  /* Parchment texture overlay */
+  .parchment-texture {
+    background-image:
+      radial-gradient(ellipse at 20% 50%, rgba(232, 220, 202, 0.3) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 20%, rgba(212, 196, 171, 0.2) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 80%, rgba(240, 230, 211, 0.3) 0%, transparent 50%);
+  }
+
+  /* Sepia shadow utility */
+  .shadow-sepia {
+    box-shadow: 0 2px 8px rgba(44, 36, 22, 0.08);
+  }
+
+  .shadow-sepia-lg {
+    box-shadow: 0 4px 24px rgba(44, 36, 22, 0.12);
+  }
+
+  /* Gold glow */
+  .glow-gold {
+    box-shadow: 0 0 12px rgba(184, 134, 11, 0.2);
   }
 }
 
 /* ============================================
-   Typography Plugin Overrides
+   Typography — Prose Overrides
    ============================================ */
 .prose {
-  --tw-prose-body: var(--color-foreground-secondary);
-  --tw-prose-headings: var(--color-foreground);
-  --tw-prose-links: var(--color-accent);
-  --tw-prose-bold: var(--color-foreground);
-  --tw-prose-quotes: var(--color-foreground-muted);
-  --tw-prose-quote-borders: var(--color-accent);
-  --tw-prose-code: var(--color-accent);
-  --tw-prose-pre-bg: var(--color-background-secondary);
-  --tw-prose-hr: var(--color-border);
+  --tw-prose-body: var(--ink-medium);
+  --tw-prose-headings: var(--ink-dark);
+  --tw-prose-links: var(--gold);
+  --tw-prose-bold: var(--ink-dark);
+  --tw-prose-quotes: var(--ink-light);
+  --tw-prose-quote-borders: var(--gold);
+  --tw-prose-code: var(--gold);
+  --tw-prose-pre-bg: var(--fresco-parchment);
+  --tw-prose-hr: var(--fresco-shadow);
 }
 
 /* ============================================
-   Page Transitions
+   Animations — Fresco
    ============================================ */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @keyframes page-enter {
   from {
     opacity: 0;
@@ -393,15 +568,33 @@
   }
 }
 
+@keyframes shimmer-gold {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
 .page-enter {
   animation: page-enter 0.4s ease-out;
+}
+
+.animate-fade-slide-in {
+  animation: fadeSlideIn 0.5s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
 }
 
 /* ============================================
    Responsive Breakpoint Helpers
    ============================================ */
 @media (max-width: 768px) {
-  h1 { font-size: 1.875rem; }
+  h1 { font-size: 2rem; }
   h2 { font-size: 1.5rem; }
   h3 { font-size: 1.25rem; }
 }

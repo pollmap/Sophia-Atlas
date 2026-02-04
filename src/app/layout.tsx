@@ -49,12 +49,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ko" className="dark" suppressHydrationWarning>
+    <html lang="ko" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <meta name="theme-color" content="#0F172A" />
+        <meta name="theme-color" content="#FAF6E9" />
       </head>
-      <body className="min-h-screen flex flex-col bg-background text-foreground antialiased">
+      <body className="min-h-screen flex flex-col antialiased">
         <Header />
         <main className="flex-1 page-enter">{children}</main>
         <Footer />
