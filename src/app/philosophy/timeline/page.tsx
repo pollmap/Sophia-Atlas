@@ -7,6 +7,7 @@ import {
   Calendar,
   ChevronRight,
   Filter,
+  Flag,
   MapPin,
   Tag,
   ZoomIn,
@@ -14,6 +15,7 @@ import {
   RotateCcw,
 } from 'lucide-react';
 import philosophersData from '@/data/persons/philosophers.json';
+import eventsData from '@/data/entities/events.json';
 import {
   cn,
   getEraColor,
@@ -76,6 +78,9 @@ const MIN_ZOOM = 1;
 const MAX_ZOOM = 8;
 const ZOOM_STEP = 0.5;
 
+// Events track height
+const EVENTS_TRACK_HEIGHT = 90;
+
 interface Philosopher {
   id: string;
   name: { ko: string; en: string; original?: string };
@@ -92,6 +97,7 @@ interface Philosopher {
 export default function TimelinePage() {
   const [selectedEra, setSelectedEra] = useState<Era | 'all'>('all');
   const [zoom, setZoom] = useState(1);
+  const [showEvents, setShowEvents] = useState(true);
   const [tooltip, setTooltip] = useState<{
     philosopher: Philosopher;
     x: number;
@@ -99,6 +105,17 @@ export default function TimelinePage() {
   } | null>(null);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
+
+  // Filter events relevant to philosophy
+  const filteredEvents = useMemo(() => {
+    const philosophyRelatedTags = ['철학', '사상', '계몽주의', '혁명', '인쇄', '대학', '학문', '종교개혁', '르네상스', '과학혁명'];
+    const all = (eventsData as any[]).filter((e) => {
+      const start = e.period?.start ?? 0;
+      return start >= GLOBAL_START && start <= GLOBAL_END;
+    });
+    if (selectedEra === 'all') return all;
+    return all.filter((e) => e.era === selectedEra);
+  }, [selectedEra]);
 
   const filteredPhilosophers = useMemo(() => {
     const list =
@@ -187,8 +204,9 @@ export default function TimelinePage() {
     laneHeights.forEach((v) => {
       h += v.height;
     });
+    if (showEvents) h += EVENTS_TRACK_HEIGHT;
     return h;
-  }, [laneHeights]);
+  }, [laneHeights, showEvents]);
 
   // Total content width based on zoom
   const baseWidth = 2400;
@@ -329,8 +347,22 @@ export default function TimelinePage() {
             ))}
           </div>
 
-          {/* Zoom Controls */}
-          <div className="flex items-center gap-2">
+          {/* Events Toggle + Zoom Controls */}
+          <div className="flex items-center gap-4">
+            <button
+              onClick={() => setShowEvents(!showEvents)}
+              className={cn(
+                'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-all',
+                showEvents
+                  ? 'bg-amber-600/20 text-amber-400 border border-amber-600/30'
+                  : 'bg-slate-800/50 text-slate-500 hover:bg-slate-700/50 hover:text-slate-400'
+              )}
+            >
+              <Flag className="w-3.5 h-3.5" />
+              역사 사건
+            </button>
+
+            <div className="flex items-center gap-2">
             <span className="text-xs text-slate-500 mr-1">줌</span>
             <button
               onClick={handleZoomOut}
@@ -356,6 +388,7 @@ export default function TimelinePage() {
             >
               <RotateCcw className="w-3.5 h-3.5" />
             </button>
+            </div>
           </div>
         </div>
       </div>
@@ -572,6 +605,60 @@ export default function TimelinePage() {
                       </div>
                     );
                   })}
+
+                {/* Events Track Overlay */}
+                {showEvents && filteredEvents.length > 0 && (() => {
+                  const eventsTrackTop = totalHeight - EVENTS_TRACK_HEIGHT;
+                  return (
+                    <div>
+                      {/* Events track separator */}
+                      <div
+                        className="absolute w-full border-t border-amber-700/30"
+                        style={{ top: eventsTrackTop, left: 0 }}
+                      />
+                      {/* Events track label */}
+                      <div
+                        className="absolute z-10 text-[10px] text-amber-400 font-medium flex items-center gap-1 bg-slate-900/80 px-2 py-0.5 rounded"
+                        style={{ top: eventsTrackTop + 4, left: 8 }}
+                      >
+                        <Flag className="w-3 h-3" />
+                        역사 사건 ({filteredEvents.length})
+                      </div>
+                      {/* Event diamond markers */}
+                      {filteredEvents.map((event: any, idx: number) => {
+                        const x = yearToX(event.period.start);
+                        const verticalOffset = (idx % 3) * 24 + 20;
+                        return (
+                          <Link
+                            key={event.id}
+                            href={`/entities/${event.id}`}
+                            className="absolute group"
+                            style={{
+                              left: x,
+                              top: eventsTrackTop + verticalOffset,
+                              transform: 'translateX(-50%)',
+                            }}
+                          >
+                            <div className="flex flex-col items-center">
+                              <div
+                                className="w-2.5 h-2.5 rotate-45 border border-amber-600/50 transition-transform group-hover:scale-150"
+                                style={{ backgroundColor: getEraHexColor(event.era) }}
+                              />
+                              <div className="mt-0.5 px-1.5 py-0.5 rounded bg-slate-800/80 border border-amber-700/20 opacity-60 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                                <p className="text-[8px] font-medium text-amber-200">
+                                  {event.name.ko}
+                                </p>
+                                <p className="text-[7px] text-slate-500">
+                                  {formatYear(event.period.start)}
+                                </p>
+                              </div>
+                            </div>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  );
+                })()}
               </div>
             </div>
           </div>

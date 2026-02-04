@@ -9,6 +9,7 @@ import {
   Calendar,
   ChevronRight,
   Filter,
+  Flag,
   FlaskConical,
   MapPin,
   Minus,
@@ -18,6 +19,7 @@ import {
   Zap,
 } from 'lucide-react';
 import scientistsData from '@/data/persons/scientists.json';
+import eventsData from '@/data/entities/events.json';
 import {
   cn,
   getEraColor,
@@ -58,9 +60,12 @@ function getFieldInfo(subcategory: string) {
   return fieldGroups[subcategory] || { label: '기타', color: '#64748B' };
 }
 
+const EVENTS_TRACK_HEIGHT = 90;
+
 export default function ScienceTimelinePage() {
   const [selectedEra, setSelectedEra] = useState<Era | 'all'>('all');
   const [selectedField, setSelectedField] = useState<string | 'all'>('all');
+  const [showEvents, setShowEvents] = useState(true);
   const [zoom, setZoom] = useState(1);
   const timelineRef = useRef<HTMLDivElement>(null);
 
@@ -79,6 +84,16 @@ export default function ScienceTimelinePage() {
     }
     return list;
   }, [selectedEra, selectedField, allScientists]);
+
+  // Filter events for display
+  const filteredEvents = useMemo(() => {
+    const all = (eventsData as any[]).filter((e) => {
+      const start = e.period?.start ?? 0;
+      return start >= -500 && start <= 2025;
+    });
+    if (selectedEra === 'all') return all;
+    return all.filter((e) => e.era === selectedEra);
+  }, [selectedEra]);
 
   // Group scientists by field for swim lanes
   const scientistsByField = useMemo(() => {
@@ -167,7 +182,7 @@ export default function ScienceTimelinePage() {
   const LANE_HEIGHT = 34;
   const AXIS_HEIGHT = 30;
   const totalLanesHeight = Math.max(scientistsByField.length * LANE_HEIGHT + 30, 100);
-  const totalTimelineHeight = totalLanesHeight + AXIS_HEIGHT;
+  const totalTimelineHeight = totalLanesHeight + AXIS_HEIGHT + (showEvents ? EVENTS_TRACK_HEIGHT : 0);
 
   return (
     <div className="min-h-screen bg-[#0F172A]">
@@ -237,22 +252,36 @@ export default function ScienceTimelinePage() {
             ))}
           </div>
 
-          {/* Zoom controls */}
-          <div className="flex items-center gap-2">
-            <span className="text-xs text-slate-500">줌</span>
+          {/* Events Toggle + Zoom controls */}
+          <div className="flex items-center gap-4">
             <button
-              onClick={handleZoomOut}
-              className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
+              onClick={() => setShowEvents(!showEvents)}
+              className={cn(
+                'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-all',
+                showEvents
+                  ? 'bg-amber-600/20 text-amber-400 border border-amber-600/30'
+                  : 'bg-slate-800/50 text-slate-500 hover:bg-slate-700/50 hover:text-slate-400'
+              )}
             >
-              <Minus className="w-3.5 h-3.5" />
+              <Flag className="w-3.5 h-3.5" />
+              역사 사건
             </button>
-            <span className="text-xs text-slate-400 w-10 text-center">{zoom}x</span>
-            <button
-              onClick={handleZoomIn}
-              className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
-            >
-              <Plus className="w-3.5 h-3.5" />
-            </button>
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-slate-500">줌</span>
+              <button
+                onClick={handleZoomOut}
+                className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
+              >
+                <Minus className="w-3.5 h-3.5" />
+              </button>
+              <span className="text-xs text-slate-400 w-10 text-center">{zoom}x</span>
+              <button
+                onClick={handleZoomIn}
+                className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
+              >
+                <Plus className="w-3.5 h-3.5" />
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -553,6 +582,57 @@ export default function ScienceTimelinePage() {
                   );
                 })}
               </div>
+
+              {/* ── EVENTS TRACK ── */}
+              {showEvents && filteredEvents.length > 0 && (
+                <div
+                  className="absolute left-0 right-0"
+                  style={{
+                    top: `${totalLanesHeight + AXIS_HEIGHT}px`,
+                    height: `${EVENTS_TRACK_HEIGHT}px`,
+                  }}
+                >
+                  {/* Section label */}
+                  <div className="absolute top-2 left-3 z-10 text-[10px] text-amber-400 font-medium flex items-center gap-1 bg-slate-900/80 px-2 py-0.5 rounded">
+                    <Flag className="w-3 h-3" />
+                    역사 사건 ({filteredEvents.length})
+                  </div>
+                  {/* Separator line */}
+                  <div className="absolute top-0 left-0 right-0 h-px bg-amber-700/30" />
+
+                  {filteredEvents.map((event: any, idx: number) => {
+                    const left = getTimelinePosition(event.period.start);
+                    const verticalOffset = (idx % 3) * 24 + 22;
+                    return (
+                      <Link
+                        key={event.id}
+                        href={`/entities/${event.id}`}
+                        className="absolute group"
+                        style={{
+                          left: `${left}%`,
+                          top: `${verticalOffset}px`,
+                          transform: 'translateX(-50%)',
+                        }}
+                      >
+                        <div className="flex flex-col items-center">
+                          <div
+                            className="w-2.5 h-2.5 rotate-45 border border-amber-600/50 transition-transform group-hover:scale-150"
+                            style={{ backgroundColor: getEraHexColor(event.era) }}
+                          />
+                          <div className="mt-0.5 px-1.5 py-0.5 rounded bg-slate-800/80 border border-amber-700/20 opacity-60 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                            <p className="text-[8px] font-medium text-amber-200">
+                              {event.name.ko}
+                            </p>
+                            <p className="text-[7px] text-slate-500">
+                              {formatYear(event.period.start)}
+                            </p>
+                          </div>
+                        </div>
+                      </Link>
+                    );
+                  })}
+                </div>
+              )}
             </div>
           </div>
         </div>

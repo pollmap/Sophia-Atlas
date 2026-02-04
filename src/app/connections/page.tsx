@@ -16,13 +16,24 @@ import {
   Search,
   X,
   RotateCcw,
+  Zap,
+  Diamond,
+  ToggleLeft,
+  ToggleRight,
 } from "lucide-react";
 import philosophersData from "@/data/persons/philosophers.json";
 import religiousFiguresData from "@/data/persons/religious-figures.json";
 import scientistsData from "@/data/persons/scientists.json";
 import historicalFiguresData from "@/data/persons/historical-figures.json";
+import eventsData from "@/data/entities/events.json";
+import ideologiesData from "@/data/entities/ideologies.json";
+import movementsData from "@/data/entities/movements.json";
+import institutionsData from "@/data/entities/institutions.json";
+import textsData from "@/data/entities/texts.json";
+import conceptsData from "@/data/entities/concepts.json";
 import ppRelData from "@/data/relationships/person-person.json";
 import peRelData from "@/data/relationships/person-entity.json";
+import eeRelData from "@/data/relationships/entity-entity.json";
 import { cn, getCategoryHexColor, getCategoryLabel } from "@/lib/utils";
 
 // ── Data ──
@@ -34,13 +45,32 @@ const allPersons = [
   ...historicalFiguresData,
 ] as any[];
 
+const allEntities = [
+  ...eventsData,
+  ...ideologiesData,
+  ...movementsData,
+  ...institutionsData,
+  ...textsData,
+  ...conceptsData,
+] as any[];
+
 const personMap = new Map<string, any>();
 allPersons.forEach((p) => personMap.set(p.id, p));
 
-// Only keep relationships where both source and target are known persons
-const allRelationships = [...ppRelData, ...peRelData].filter(
-  (r: any) => personMap.has(r.source) && personMap.has(r.target)
-) as any[];
+const entityMap = new Map<string, any>();
+allEntities.forEach((e) => entityMap.set(e.id, e));
+
+// Combined lookup: both persons and entities
+const nodeDataMap = new Map<string, any>();
+allPersons.forEach((p) => nodeDataMap.set(p.id, { ...p, nodeType: "person" }));
+allEntities.forEach((e) => nodeDataMap.set(e.id, { ...e, nodeType: "entity" }));
+
+// All relationships - only keep where both ends exist
+const allRelationships = [
+  ...ppRelData,
+  ...peRelData,
+  ...eeRelData,
+].filter((r: any) => nodeDataMap.has(r.source) && nodeDataMap.has(r.target)) as any[];
 
 // ── Constants ──
 
@@ -59,6 +89,26 @@ const CATEGORY_COLORS: Record<string, string> = {
   scientist: "#10B981",
   historical_figure: "#EF4444",
   cultural_figure: "#EC4899",
+};
+
+const ENTITY_TYPE_COLORS: Record<string, string> = {
+  event: "#F97316",
+  ideology: "#A855F7",
+  movement: "#3B82F6",
+  institution: "#06B6D4",
+  text: "#84CC16",
+  concept: "#E879F9",
+  nation: "#F43F5E",
+};
+
+const ENTITY_TYPE_LABELS: Record<string, string> = {
+  event: "사건",
+  ideology: "사상",
+  movement: "운동/학파",
+  institution: "기관",
+  text: "경전/문헌",
+  concept: "개념",
+  nation: "국가",
 };
 
 const ERA_LABELS: Record<string, string> = {
@@ -93,6 +143,10 @@ const RELATIONSHIP_TYPE_COLORS: Record<string, string> = {
   caused: "rgba(239,68,68,{a})",
   affected_by: "rgba(148,163,184,{a})",
   belongs_to: "rgba(168,85,247,{a})",
+  preceded: "rgba(251,191,36,{a})",
+  part_of: "rgba(168,85,247,{a})",
+  opposed_to: "rgba(248,113,113,{a})",
+  evolved_into: "rgba(74,222,128,{a})",
 };
 
 const RELATIONSHIP_LABELS: Record<string, string> = {
@@ -113,6 +167,10 @@ const RELATIONSHIP_LABELS: Record<string, string> = {
   caused: "원인",
   affected_by: "영향받음",
   belongs_to: "소속",
+  preceded: "선행",
+  part_of: "일부",
+  opposed_to: "대립",
+  evolved_into: "발전",
 };
 
 const REL_TYPE_FILTERS = [
@@ -123,7 +181,9 @@ const REL_TYPE_FILTERS = [
   { key: "developed", label: "발전" },
   { key: "parallel", label: "유사" },
   { key: "collaborated", label: "협력" },
-  { key: "contemporary", label: "동시대" },
+  { key: "founded", label: "창설" },
+  { key: "authored", label: "저술" },
+  { key: "caused", label: "원인" },
 ];
 
 // ── Helpers ──
@@ -133,6 +193,20 @@ function getRelColor(type: string, alpha: number): string {
   return template.replace("{a}", String(alpha));
 }
 
+function getNodeColor(node: SimNode): string {
+  if (node.nodeType === "entity") {
+    return ENTITY_TYPE_COLORS[node.entityType || "concept"] || "#94A3B8";
+  }
+  return CATEGORY_COLORS[node.category] || "#64748B";
+}
+
+function getNodeLabel(node: SimNode): string {
+  if (node.nodeType === "entity") {
+    return ENTITY_TYPE_LABELS[node.entityType || "concept"] || "엔터티";
+  }
+  return getCategoryLabel(node.category);
+}
+
 // Category cluster positions (normalized -1 to 1)
 const CATEGORY_ANCHORS: Record<string, { x: number; y: number }> = {
   philosopher: { x: -0.6, y: -0.4 },
@@ -140,17 +214,27 @@ const CATEGORY_ANCHORS: Record<string, { x: number; y: number }> = {
   scientist: { x: -0.6, y: 0.5 },
   historical_figure: { x: 0.6, y: 0.5 },
   cultural_figure: { x: 0.0, y: 0.7 },
+  // Entity types cluster in the center area
+  event: { x: 0.0, y: 0.0 },
+  ideology: { x: -0.2, y: -0.1 },
+  movement: { x: 0.2, y: -0.1 },
+  institution: { x: -0.2, y: 0.15 },
+  text: { x: 0.2, y: 0.15 },
+  concept: { x: 0.0, y: -0.2 },
 };
 
 // ── Types for simulation ──
 
 interface SimNode extends d3.SimulationNodeDatum {
   id: string;
-  person: any;
+  data: any;
+  nodeType: "person" | "entity";
   category: string;
+  entityType?: string;
   era: string;
   connections: number;
   radius: number;
+  name: { ko: string; en: string };
 }
 
 interface SimLink extends d3.SimulationLinkDatum<SimNode> {
@@ -177,6 +261,7 @@ export default function ConnectionsPage() {
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [showInfo, setShowInfo] = useState(false);
+  const [showEntities, setShowEntities] = useState(true);
   const [canvasSize, setCanvasSize] = useState({ width: 800, height: 600 });
   const [isSimReady, setIsSimReady] = useState(false);
 
@@ -191,7 +276,8 @@ export default function ConnectionsPage() {
   }, []);
 
   // ── Filtered data ──
-  const { filteredPersonIds, filteredNodes, filteredLinks } = useMemo(() => {
+  const { filteredNodes, filteredLinks } = useMemo(() => {
+    // Build person set
     let persons = allPersons;
     if (selectedCategory !== "all") {
       persons = persons.filter((p: any) => p.category === selectedCategory);
@@ -202,6 +288,16 @@ export default function ConnectionsPage() {
 
     const idSet = new Set(persons.map((p: any) => p.id));
 
+    // Add entities if enabled
+    if (showEntities) {
+      let entities = allEntities;
+      if (selectedEra !== "all") {
+        entities = entities.filter((e: any) => e.era === selectedEra);
+      }
+      entities.forEach((e: any) => idSet.add(e.id));
+    }
+
+    // Filter relationships
     let rels = allRelationships.filter(
       (r: any) => idSet.has(r.source) && idSet.has(r.target)
     );
@@ -209,17 +305,43 @@ export default function ConnectionsPage() {
       rels = rels.filter((r: any) => r.type === selectedRelType);
     }
 
-    const nodes: SimNode[] = persons.map((p: any) => {
+    // Build nodes
+    const nodes: SimNode[] = [];
+
+    persons.forEach((p: any) => {
       const conn = connectionCounts[p.id] || 0;
-      return {
+      nodes.push({
         id: p.id,
-        person: p,
+        data: p,
+        nodeType: "person",
         category: p.category,
-        era: p.era,
+        era: p.era || "contemporary",
         connections: conn,
         radius: Math.max(4, Math.min(16, 3 + Math.sqrt(conn) * 2.5)),
-      };
+        name: p.name,
+      });
     });
+
+    if (showEntities) {
+      let entities = allEntities;
+      if (selectedEra !== "all") {
+        entities = entities.filter((e: any) => e.era === selectedEra);
+      }
+      entities.forEach((e: any) => {
+        const conn = connectionCounts[e.id] || 0;
+        nodes.push({
+          id: e.id,
+          data: e,
+          nodeType: "entity",
+          category: e.type,
+          entityType: e.type,
+          era: e.era || "contemporary",
+          connections: conn,
+          radius: Math.max(5, Math.min(14, 4 + Math.sqrt(conn) * 2)),
+          name: e.name,
+        });
+      });
+    }
 
     const nodeIdSet = new Set(nodes.map((n) => n.id));
     const links: SimLink[] = rels
@@ -232,12 +354,8 @@ export default function ConnectionsPage() {
         description: r.description || "",
       }));
 
-    return {
-      filteredPersonIds: idSet,
-      filteredNodes: nodes,
-      filteredLinks: links,
-    };
-  }, [selectedCategory, selectedEra, selectedRelType, connectionCounts]);
+    return { filteredNodes: nodes, filteredLinks: links };
+  }, [selectedCategory, selectedEra, selectedRelType, showEntities, connectionCounts]);
 
   // ── Ego network (1st + 2nd degree) ──
   const egoData = useMemo(() => {
@@ -273,7 +391,6 @@ export default function ConnectionsPage() {
       }
     });
 
-    // Also include links between 1st degree nodes
     const interFirstLinks: any[] = [];
     allRelationships.forEach((r: any) => {
       if (selectedRelType !== "all" && r.type !== selectedRelType) return;
@@ -284,8 +401,8 @@ export default function ConnectionsPage() {
 
     return {
       center: selectedNode,
-      first: Array.from(first).filter((id) => personMap.has(id)),
-      second: Array.from(second).filter((id) => personMap.has(id)),
+      first: Array.from(first).filter((id) => nodeDataMap.has(id)),
+      second: Array.from(second).filter((id) => nodeDataMap.has(id)),
       firstLinks,
       secondLinks,
       interFirstLinks,
@@ -304,17 +421,24 @@ export default function ConnectionsPage() {
       }));
   }, [selectedNode]);
 
-  // ── Search ──
+  // ── Search (persons + entities) ──
   const searchResults = useMemo(() => {
     if (!searchQuery.trim()) return [];
     const q = searchQuery.toLowerCase();
-    return allPersons
-      .filter(
-        (p: any) =>
-          p.name.ko.toLowerCase().includes(q) ||
-          p.name.en.toLowerCase().includes(q)
-      )
-      .slice(0, 10);
+    const results: any[] = [];
+
+    allPersons.forEach((p: any) => {
+      if (p.name.ko.toLowerCase().includes(q) || p.name.en.toLowerCase().includes(q)) {
+        results.push({ ...p, nodeType: "person" });
+      }
+    });
+    allEntities.forEach((e: any) => {
+      if (e.name.ko.toLowerCase().includes(q) || e.name.en.toLowerCase().includes(q)) {
+        results.push({ ...e, nodeType: "entity" });
+      }
+    });
+
+    return results.slice(0, 12);
   }, [searchQuery]);
 
   // ── Canvas resize ──
@@ -339,7 +463,6 @@ export default function ConnectionsPage() {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    // Set canvas pixel ratio
     const dpr = window.devicePixelRatio || 1;
     canvas.width = width * dpr;
     canvas.height = height * dpr;
@@ -347,12 +470,16 @@ export default function ConnectionsPage() {
     canvas.style.height = `${height}px`;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-    // Build nodes - deep copy to avoid mutation issues
-    const nodes: SimNode[] = filteredNodes.map((n) => ({
-      ...n,
-      x: (CATEGORY_ANCHORS[n.category]?.x || 0) * width * 0.3 + width / 2 + (Math.random() - 0.5) * 100,
-      y: (CATEGORY_ANCHORS[n.category]?.y || 0) * height * 0.3 + height / 2 + (Math.random() - 0.5) * 100,
-    }));
+    // Build nodes
+    const nodes: SimNode[] = filteredNodes.map((n) => {
+      const anchorKey = n.nodeType === "entity" ? (n.entityType || "concept") : n.category;
+      const anchor = CATEGORY_ANCHORS[anchorKey] || { x: 0, y: 0 };
+      return {
+        ...n,
+        x: anchor.x * width * 0.3 + width / 2 + (Math.random() - 0.5) * 100,
+        y: anchor.y * height * 0.3 + height / 2 + (Math.random() - 0.5) * 100,
+      };
+    });
 
     const nodeMap = new Map<string, SimNode>();
     nodes.forEach((n) => nodeMap.set(n.id, n));
@@ -364,12 +491,10 @@ export default function ConnectionsPage() {
     nodesRef.current = nodes;
     linksRef.current = links;
 
-    // Stop previous
     if (simulationRef.current) {
       simulationRef.current.stop();
     }
 
-    // Build simulation
     const simulation = d3
       .forceSimulation<SimNode>(nodes)
       .force(
@@ -392,14 +517,16 @@ export default function ConnectionsPage() {
       .force(
         "x",
         d3.forceX<SimNode>().x((d) => {
-          const anchor = CATEGORY_ANCHORS[d.category];
+          const anchorKey = d.nodeType === "entity" ? (d.entityType || "concept") : d.category;
+          const anchor = CATEGORY_ANCHORS[anchorKey];
           return anchor ? width / 2 + anchor.x * width * 0.3 : width / 2;
         }).strength(0.07)
       )
       .force(
         "y",
         d3.forceY<SimNode>().y((d) => {
-          const anchor = CATEGORY_ANCHORS[d.category];
+          const anchorKey = d.nodeType === "entity" ? (d.entityType || "concept") : d.category;
+          const anchor = CATEGORY_ANCHORS[anchorKey];
           return anchor ? height / 2 + anchor.y * height * 0.3 : height / 2;
         }).strength(0.07)
       )
@@ -409,7 +536,7 @@ export default function ConnectionsPage() {
     simulationRef.current = simulation;
     setIsSimReady(true);
 
-    // ── Ego-centric: pin selected node to center, boost connections ──
+    // Pin selected node
     if (selectedNode && egoData) {
       const centerNode = nodeMap.get(selectedNode);
       if (centerNode) {
@@ -422,6 +549,15 @@ export default function ConnectionsPage() {
     const egoFirstSet = egoData ? new Set(egoData.first) : null;
     const egoSecondSet = egoData ? new Set(egoData.second) : null;
 
+    function drawDiamond(ctx: CanvasRenderingContext2D, x: number, y: number, r: number) {
+      ctx.beginPath();
+      ctx.moveTo(x, y - r);
+      ctx.lineTo(x + r, y);
+      ctx.lineTo(x, y + r);
+      ctx.lineTo(x - r, y);
+      ctx.closePath();
+    }
+
     function draw() {
       if (!ctx) return;
       const transform = transformRef.current;
@@ -429,8 +565,7 @@ export default function ConnectionsPage() {
       ctx.save();
       ctx.clearRect(0, 0, width, height);
 
-      // Background
-      ctx.fillStyle = "#1E293B";
+      ctx.fillStyle = "#0F172A";
       ctx.fillRect(0, 0, width, height);
 
       ctx.translate(transform.x, transform.y);
@@ -439,7 +574,7 @@ export default function ConnectionsPage() {
       const currentHover = hoveredNodeRef.current;
       const currentSelected = selectedNodeRef.current;
 
-      // Determine which nodes/links to highlight
+      // Highlight set
       const highlightIds = new Set<string>();
       const highlightLinkSet = new Set<number>();
 
@@ -505,7 +640,7 @@ export default function ConnectionsPage() {
         ctx.strokeStyle = getRelColor(l.type, alpha);
         ctx.lineWidth = lineWidth;
 
-        if (l.type === "parallel" || l.type === "contextual") {
+        if (l.type === "parallel" || l.type === "contextual" || l.type === "opposed_to") {
           ctx.setLineDash([4, 3]);
         } else {
           ctx.setLineDash([]);
@@ -562,27 +697,42 @@ export default function ConnectionsPage() {
           }
         }
 
-        const color = CATEGORY_COLORS[node.category] || "#64748B";
+        const color = getNodeColor(node);
 
-        // Node circle
-        ctx.beginPath();
-        ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2);
         ctx.globalAlpha = nodeAlpha;
-        ctx.fillStyle = color;
-        ctx.fill();
 
-        if (strokeWidth > 0) {
-          ctx.strokeStyle = strokeColor;
-          ctx.lineWidth = strokeWidth;
-          ctx.stroke();
+        // Draw shape: circle for persons, diamond for entities
+        if (node.nodeType === "entity") {
+          drawDiamond(ctx, node.x, node.y, node.radius);
+          ctx.fillStyle = color;
+          ctx.fill();
+          if (strokeWidth > 0) {
+            ctx.strokeStyle = strokeColor;
+            ctx.lineWidth = strokeWidth;
+            ctx.stroke();
+          }
+        } else {
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2);
+          ctx.fillStyle = color;
+          ctx.fill();
+          if (strokeWidth > 0) {
+            ctx.strokeStyle = strokeColor;
+            ctx.lineWidth = strokeWidth;
+            ctx.stroke();
+          }
         }
 
         ctx.globalAlpha = 1;
 
         // Glow for selected center node
         if (currentSelected && node.id === currentSelected) {
-          ctx.beginPath();
-          ctx.arc(node.x, node.y, node.radius + 6, 0, Math.PI * 2);
+          if (node.nodeType === "entity") {
+            drawDiamond(ctx, node.x, node.y, node.radius + 6);
+          } else {
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, node.radius + 6, 0, Math.PI * 2);
+          }
           ctx.strokeStyle = color;
           ctx.globalAlpha = 0.3;
           ctx.lineWidth = 2;
@@ -592,14 +742,13 @@ export default function ConnectionsPage() {
 
         // Label
         if (drawLabel) {
-          const label = node.person.name.ko;
+          const label = node.name.ko;
           const fontSize = node.id === currentSelected ? 12 : node.radius >= 10 ? 10 : 9;
           ctx.font = `${node.id === currentSelected ? "bold " : ""}${fontSize}px -apple-system, "Pretendard", sans-serif`;
           ctx.textAlign = "center";
           ctx.textBaseline = "top";
           ctx.globalAlpha = labelAlpha;
 
-          // Text shadow for readability
           ctx.fillStyle = "rgba(15,23,42,0.8)";
           ctx.fillText(label, node.x + 0.5, node.y + node.radius + 3.5);
           ctx.fillText(label, node.x - 0.5, node.y + node.radius + 3.5);
@@ -617,19 +766,21 @@ export default function ConnectionsPage() {
       if (currentHover && !currentSelected) {
         const hNode = nodeMap.get(currentHover);
         if (hNode && hNode.x != null && hNode.y != null) {
-          const name = hNode.person.name.ko;
-          const en = hNode.person.name.en;
+          const name = hNode.name.ko;
+          const en = hNode.name.en;
           const label = `${name} (${en})`;
+          const typeLabel = hNode.nodeType === "entity"
+            ? ENTITY_TYPE_LABELS[hNode.entityType || ""] || "엔터티"
+            : getCategoryLabel(hNode.category);
           const connText = `${hNode.connections} 연결`;
 
           ctx.font = 'bold 12px -apple-system, "Pretendard", sans-serif';
-          const textW = Math.max(ctx.measureText(label).width, ctx.measureText(connText).width);
+          const textW = Math.max(ctx.measureText(label).width, ctx.measureText(connText).width + 60);
           const boxW = textW + 20;
           const boxH = 44;
           const bx = hNode.x - boxW / 2;
           const by = hNode.y - hNode.radius - boxH - 8;
 
-          // Tooltip background
           ctx.fillStyle = "rgba(15,23,42,0.95)";
           ctx.beginPath();
           ctx.roundRect(bx, by, boxW, boxH, 6);
@@ -638,17 +789,16 @@ export default function ConnectionsPage() {
           ctx.lineWidth = 1;
           ctx.stroke();
 
-          // Tooltip text
           ctx.fillStyle = "#ffffff";
           ctx.font = 'bold 11px -apple-system, "Pretendard", sans-serif';
           ctx.textAlign = "center";
           ctx.textBaseline = "middle";
           ctx.fillText(label, hNode.x, by + 16);
 
-          ctx.fillStyle = CATEGORY_COLORS[hNode.category] || "#94a3b8";
+          ctx.fillStyle = getNodeColor(hNode);
           ctx.font = '10px -apple-system, "Pretendard", sans-serif';
           ctx.fillText(
-            `${getCategoryLabel(hNode.category)} | ${ERA_LABELS[hNode.era] || hNode.era} | ${connText}`,
+            `${typeLabel} | ${ERA_LABELS[hNode.era] || hNode.era} | ${connText}`,
             hNode.x,
             by + 32
           );
@@ -658,10 +808,12 @@ export default function ConnectionsPage() {
       // Category anchor labels (faint)
       if (!currentSelected && !currentHover) {
         Object.entries(CATEGORY_ANCHORS).forEach(([cat, anchor]) => {
-          const ax = width / 2 + anchor.x * width * 0.35;
-          const ay = height / 2 + anchor.y * height * 0.35;
+          // Only show person category labels
           const info = CATEGORY_FILTERS.find((c) => c.key === cat);
           if (!info) return;
+
+          const ax = width / 2 + anchor.x * width * 0.35;
+          const ay = height / 2 + anchor.y * height * 0.35;
 
           ctx.font = 'bold 11px -apple-system, "Pretendard", sans-serif';
           ctx.textAlign = "center";
@@ -678,13 +830,9 @@ export default function ConnectionsPage() {
       animFrameRef.current = requestAnimationFrame(draw);
     }
 
-    // Start rendering loop
     animFrameRef.current = requestAnimationFrame(draw);
 
-    // Tick handler to request redraw
-    simulation.on("tick", () => {
-      // draw is called via rAF loop
-    });
+    simulation.on("tick", () => {});
 
     // ── Zoom behavior ──
     const zoomBehavior = d3
@@ -703,7 +851,6 @@ export default function ConnectionsPage() {
       const x = (mx - transform.x) / transform.k;
       const y = (my - transform.y) / transform.k;
 
-      // Reverse iterate so topmost drawn nodes are found first
       for (let i = nodes.length - 1; i >= 0; i--) {
         const n = nodes[i];
         if (n.x == null || n.y == null) continue;
@@ -738,7 +885,6 @@ export default function ConnectionsPage() {
       hoveredNodeRef.current = hit ? hit.id : null;
       canvas.style.cursor = hit ? "pointer" : "grab";
 
-      // Update React state sparingly for tooltip
       if (hit?.id !== hoveredNode) {
         setHoveredNode(hit ? hit.id : null);
       }
@@ -755,14 +901,12 @@ export default function ConnectionsPage() {
         dragNode.fx = dragNode.x;
         dragNode.fy = dragNode.y;
         simulation.alphaTarget(0.1).restart();
-        // Prevent zoom while dragging nodes
         canvasSelection.on(".zoom", null);
       }
     });
 
     canvas.addEventListener("mouseup", () => {
       if (isDragging && dragNode) {
-        // If selected, keep pinned. Otherwise release.
         if (dragNode.id !== selectedNodeRef.current) {
           dragNode.fx = null;
           dragNode.fy = null;
@@ -770,7 +914,6 @@ export default function ConnectionsPage() {
         isDragging = false;
         dragNode = null;
         simulation.alphaTarget(0);
-        // Re-enable zoom
         canvasSelection.call(zoomBehavior);
       }
     });
@@ -791,7 +934,7 @@ export default function ConnectionsPage() {
       setHoveredNode(null);
     });
 
-    // ── Touch events for mobile ──
+    // ── Touch events ──
     canvas.addEventListener("touchstart", (e) => {
       if (e.touches.length === 1) {
         const rect = canvas.getBoundingClientRect();
@@ -844,12 +987,11 @@ export default function ConnectionsPage() {
     return () => {
       simulation.stop();
       cancelAnimationFrame(animFrameRef.current);
-      // Clean up event listeners via canvas replacement not needed since component unmounts
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filteredNodes, filteredLinks, canvasSize, egoData]);
 
-  // Refs to avoid stale closures in canvas event handlers
+  // Refs to avoid stale closures
   const hoveredNodeRef = useRef<string | null>(null);
   const selectedNodeRef = useRef<string | null>(selectedNode);
 
@@ -867,7 +1009,6 @@ export default function ConnectionsPage() {
       setSelectedNode(id);
       setSearchQuery("");
 
-      // Animate zoom to the node
       const canvas = canvasRef.current;
       if (!canvas) return;
       const node = nodesRef.current.find((n) => n.id === id);
@@ -912,7 +1053,6 @@ export default function ConnectionsPage() {
       );
     transformRef.current = transform;
 
-    // Release all pinned nodes
     nodesRef.current.forEach((n) => {
       n.fx = null;
       n.fy = null;
@@ -921,7 +1061,10 @@ export default function ConnectionsPage() {
   }, []);
 
   // ── Detail panel content ──
-  const selectedPerson = selectedNode ? personMap.get(selectedNode) : null;
+  const selectedData = selectedNode ? nodeDataMap.get(selectedNode) : null;
+
+  // Stats
+  const totalNodes = allPersons.length + (showEntities ? allEntities.length : 0);
 
   return (
     <div className="min-h-screen bg-[#0F172A]">
@@ -935,19 +1078,44 @@ export default function ConnectionsPage() {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-white">
-                  인드라망 -- 인류 사상의 연결 지도
+                  인드라망 &mdash; 인류 지성의 연결 지도
                 </h1>
                 <p className="text-sm text-gray-400">
-                  {allPersons.length}명의 인물, {allRelationships.length}개의 관계
-                  {selectedNode && selectedPerson && (
+                  {filteredNodes.length}개 노드, {filteredLinks.length}개 관계
+                  {showEntities && (
+                    <span className="text-purple-400 ml-1">
+                      (인물 {allPersons.length} + 엔터티 {allEntities.length})
+                    </span>
+                  )}
+                  {selectedNode && selectedData && (
                     <span className="text-cyan-400 ml-2">
-                      | {selectedPerson.name.ko} 중심 보기
+                      | {selectedData.name.ko} 중심 보기
                     </span>
                   )}
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-2">
+              {/* Entity Toggle */}
+              <button
+                onClick={() => setShowEntities(!showEntities)}
+                className={cn(
+                  "flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-medium transition-all",
+                  showEntities
+                    ? "bg-purple-500/20 text-purple-400 ring-1 ring-purple-500/30"
+                    : "bg-white/5 text-gray-400 hover:bg-white/10"
+                )}
+                title="엔터티(사건/사상/기관 등) 표시"
+              >
+                <Diamond className="w-3.5 h-3.5" />
+                엔터티
+                {showEntities ? (
+                  <ToggleRight className="w-4 h-4" />
+                ) : (
+                  <ToggleLeft className="w-4 h-4" />
+                )}
+              </button>
+
               {/* Search */}
               <div className="relative hidden md:block">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" />
@@ -955,32 +1123,46 @@ export default function ConnectionsPage() {
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="인물 검색..."
+                  placeholder="인물/엔터티 검색..."
                   className="pl-9 pr-4 py-2 rounded-lg bg-white/5 border border-white/10 text-sm text-white placeholder-gray-500 w-48 focus:w-64 transition-all focus:outline-none focus:ring-1 focus:ring-cyan-500/50"
                 />
                 {searchQuery && searchResults.length > 0 && (
                   <div className="absolute top-full mt-1 left-0 right-0 bg-[#1E293B] border border-white/10 rounded-lg overflow-hidden z-50 max-h-64 overflow-y-auto">
-                    {searchResults.map((p: any) => (
-                      <button
-                        key={p.id}
-                        onClick={() => focusOnNode(p.id)}
-                        className="w-full px-4 py-2 text-left hover:bg-white/5 flex items-center gap-2"
-                      >
-                        <div
-                          className="w-5 h-5 rounded-full flex items-center justify-center text-[8px] font-bold"
-                          style={{
-                            backgroundColor: getCategoryHexColor(p.category) + "30",
-                            color: getCategoryHexColor(p.category),
-                          }}
+                    {searchResults.map((item: any) => {
+                      const isEntity = item.nodeType === "entity";
+                      const color = isEntity
+                        ? ENTITY_TYPE_COLORS[item.type] || "#94A3B8"
+                        : getCategoryHexColor(item.category);
+                      const typeLabel = isEntity
+                        ? ENTITY_TYPE_LABELS[item.type] || "엔터티"
+                        : getCategoryLabel(item.category);
+                      return (
+                        <button
+                          key={item.id}
+                          onClick={() => focusOnNode(item.id)}
+                          className="w-full px-4 py-2 text-left hover:bg-white/5 flex items-center gap-2"
                         >
-                          {p.name.ko[0]}
-                        </div>
-                        <span className="text-sm text-white">{p.name.ko}</span>
-                        <span className="text-xs text-gray-500 ml-auto">
-                          {getCategoryLabel(p.category)}
-                        </span>
-                      </button>
-                    ))}
+                          <div
+                            className={cn(
+                              "w-5 h-5 flex items-center justify-center text-[8px] font-bold",
+                              isEntity ? "rotate-45 rounded-sm" : "rounded-full"
+                            )}
+                            style={{
+                              backgroundColor: color + "30",
+                              color: color,
+                            }}
+                          >
+                            <span className={isEntity ? "-rotate-45" : ""}>
+                              {item.name.ko[0]}
+                            </span>
+                          </div>
+                          <span className="text-sm text-white">{item.name.ko}</span>
+                          <span className="text-xs text-gray-500 ml-auto">
+                            {typeLabel}
+                          </span>
+                        </button>
+                      );
+                    })}
                   </div>
                 )}
               </div>
@@ -1011,8 +1193,8 @@ export default function ConnectionsPage() {
                 인류의 모든 사상은 서로 연결되어 있으며, 하나를 이해하면 전체의 빛이 보입니다.
               </p>
               <p className="text-xs text-gray-400">
-                노드를 클릭하면 해당 인물 중심의 1-2차 관계망을 볼 수 있습니다.
-                마우스 드래그로 노드를 이동하고, 휠로 확대/축소할 수 있습니다.
+                <span className="text-cyan-400">●</span> 원형 = 인물 | <span className="text-purple-400">◆</span> 다이아몬드 = 엔터티(사건·사상·경전 등) |
+                노드 클릭 = 1-2차 관계망 탐색 | 휠 = 확대/축소 | 드래그 = 이동
               </p>
             </div>
           )}
@@ -1111,20 +1293,28 @@ export default function ConnectionsPage() {
           {/* Canvas Area */}
           <div className="lg:col-span-3" ref={containerRef}>
             <div className="relative bg-[#1E293B] rounded-xl border border-white/10 overflow-hidden">
-              {/* Category Legend */}
+              {/* Category + Entity Legend */}
               <div className="absolute top-3 left-3 z-10 flex flex-wrap gap-2 pointer-events-none">
                 {CATEGORY_FILTERS.slice(1).map((c) => (
-                  <div
-                    key={c.key}
-                    className="flex items-center gap-1 text-[9px] text-gray-400"
-                  >
-                    <div
-                      className="w-2 h-2 rounded-full"
-                      style={{ backgroundColor: c.color }}
-                    />
+                  <div key={c.key} className="flex items-center gap-1 text-[9px] text-gray-400">
+                    <div className="w-2 h-2 rounded-full" style={{ backgroundColor: c.color }} />
                     {c.label}
                   </div>
                 ))}
+                {showEntities && (
+                  <>
+                    <div className="w-px h-3 bg-gray-600 mx-1" />
+                    {Object.entries(ENTITY_TYPE_LABELS).map(([type, label]) => (
+                      <div key={type} className="flex items-center gap-1 text-[9px] text-gray-400">
+                        <div
+                          className="w-2 h-2 rotate-45 rounded-[1px]"
+                          style={{ backgroundColor: ENTITY_TYPE_COLORS[type] }}
+                        />
+                        {label}
+                      </div>
+                    ))}
+                  </>
+                )}
               </div>
 
               {/* Canvas */}
@@ -1140,12 +1330,8 @@ export default function ConnectionsPage() {
 
               {/* Stats overlay */}
               <div className="absolute bottom-3 left-3 flex gap-3 text-[10px] text-gray-500 pointer-events-none">
-                <span>
-                  인물: {filteredNodes.length}
-                </span>
-                <span>
-                  연결: {filteredLinks.length}
-                </span>
+                <span>노드: {filteredNodes.length}</span>
+                <span>연결: {filteredLinks.length}</span>
                 {selectedNode && egoData && (
                   <>
                     <span>1차: {egoData.first.length}</span>
@@ -1154,7 +1340,6 @@ export default function ConnectionsPage() {
                 )}
               </div>
 
-              {/* Keyboard shortcut hint */}
               <div className="absolute bottom-3 right-3 text-[10px] text-gray-600 pointer-events-none">
                 스크롤: 확대/축소 | 드래그: 이동 | 클릭: 선택
               </div>
@@ -1163,26 +1348,38 @@ export default function ConnectionsPage() {
 
           {/* Detail Panel */}
           <div className="lg:col-span-1 space-y-4">
-            {selectedNode && selectedPerson ? (
+            {selectedNode && selectedData ? (
               <>
-                {/* Selected Person Info */}
+                {/* Selected Node Info */}
                 <div className="bg-[#1E293B] rounded-xl border border-white/10 p-5">
                   <div className="flex items-center gap-3 mb-3">
-                    <div
-                      className="w-12 h-12 rounded-full flex items-center justify-center text-lg font-bold"
-                      style={{
-                        backgroundColor: getCategoryHexColor(selectedPerson.category) + "30",
-                        color: getCategoryHexColor(selectedPerson.category),
-                      }}
-                    >
-                      {selectedPerson.name.ko[0]}
-                    </div>
+                    {selectedData.nodeType === "entity" ? (
+                      <div
+                        className="w-12 h-12 rotate-45 rounded-md flex items-center justify-center text-lg font-bold"
+                        style={{
+                          backgroundColor: (ENTITY_TYPE_COLORS[selectedData.type] || "#94A3B8") + "30",
+                          color: ENTITY_TYPE_COLORS[selectedData.type] || "#94A3B8",
+                        }}
+                      >
+                        <span className="-rotate-45">{selectedData.name.ko[0]}</span>
+                      </div>
+                    ) : (
+                      <div
+                        className="w-12 h-12 rounded-full flex items-center justify-center text-lg font-bold"
+                        style={{
+                          backgroundColor: getCategoryHexColor(selectedData.category) + "30",
+                          color: getCategoryHexColor(selectedData.category),
+                        }}
+                      >
+                        {selectedData.name.ko[0]}
+                      </div>
+                    )}
                     <div>
                       <h2 className="text-lg font-bold text-white">
-                        {selectedPerson.name.ko}
+                        {selectedData.name.ko}
                       </h2>
                       <p className="text-sm text-gray-400">
-                        {selectedPerson.name.en}
+                        {selectedData.name.en}
                       </p>
                     </div>
                   </div>
@@ -1190,30 +1387,44 @@ export default function ConnectionsPage() {
                     <span
                       className="px-2 py-0.5 rounded text-xs font-medium"
                       style={{
-                        backgroundColor: getCategoryHexColor(selectedPerson.category) + "20",
-                        color: getCategoryHexColor(selectedPerson.category),
+                        backgroundColor:
+                          selectedData.nodeType === "entity"
+                            ? (ENTITY_TYPE_COLORS[selectedData.type] || "#94A3B8") + "20"
+                            : getCategoryHexColor(selectedData.category) + "20",
+                        color:
+                          selectedData.nodeType === "entity"
+                            ? ENTITY_TYPE_COLORS[selectedData.type] || "#94A3B8"
+                            : getCategoryHexColor(selectedData.category),
                       }}
                     >
-                      {getCategoryLabel(selectedPerson.category)}
+                      {selectedData.nodeType === "entity"
+                        ? ENTITY_TYPE_LABELS[selectedData.type] || "엔터티"
+                        : getCategoryLabel(selectedData.category)}
                     </span>
-                    <span
-                      className="px-2 py-0.5 rounded text-xs font-medium"
-                      style={{
-                        backgroundColor: ERA_COLORS[selectedPerson.era] + "20",
-                        color: ERA_COLORS[selectedPerson.era],
-                      }}
-                    >
-                      {ERA_LABELS[selectedPerson.era]}
-                    </span>
+                    {selectedData.era && (
+                      <span
+                        className="px-2 py-0.5 rounded text-xs font-medium"
+                        style={{
+                          backgroundColor: ERA_COLORS[selectedData.era] + "20",
+                          color: ERA_COLORS[selectedData.era],
+                        }}
+                      >
+                        {ERA_LABELS[selectedData.era]}
+                      </span>
+                    )}
                     <span className="px-2 py-0.5 rounded text-xs bg-white/5 text-gray-400">
-                      {connectionCounts[selectedPerson.id] || 0} 연결
+                      {connectionCounts[selectedData.id] || 0} 연결
                     </span>
                   </div>
-                  <p className="text-sm text-gray-300 leading-relaxed mb-3">
-                    {selectedPerson.summary}
+                  <p className="text-sm text-gray-300 leading-relaxed mb-3 line-clamp-4">
+                    {selectedData.summary}
                   </p>
                   <Link
-                    href={`/persons/${selectedPerson.id}`}
+                    href={
+                      selectedData.nodeType === "entity"
+                        ? `/entities/${selectedData.id}`
+                        : `/persons/${selectedData.id}`
+                    }
                     className="text-sm text-cyan-400 hover:text-cyan-300 transition-colors"
                   >
                     상세 페이지 &rarr;
@@ -1228,26 +1439,28 @@ export default function ConnectionsPage() {
                   </h3>
                   <div className="space-y-2 max-h-[400px] overflow-y-auto">
                     {nodeRelationships.map((rel: any, i: number) => {
-                      const other = personMap.get(rel.other);
+                      const other = nodeDataMap.get(rel.other);
                       if (!other) return null;
-                      const typeLabel =
-                        RELATIONSHIP_LABELS[rel.type] || rel.type;
+                      const typeLabel = RELATIONSHIP_LABELS[rel.type] || rel.type;
+                      const isEntity = other.nodeType === "entity";
+                      const otherColor = isEntity
+                        ? ENTITY_TYPE_COLORS[other.type] || "#94A3B8"
+                        : getCategoryHexColor(other.category);
                       return (
                         <div
                           key={i}
                           className="p-3 rounded-lg bg-white/5 border-l-2 cursor-pointer hover:bg-white/10 transition-colors"
-                          style={{
-                            borderLeftColor: getRelColor(rel.type, 0.6),
-                          }}
+                          style={{ borderLeftColor: getRelColor(rel.type, 0.6) }}
                           onClick={() => focusOnNode(rel.other)}
                         >
                           <div className="flex items-center justify-between mb-1">
                             <div className="flex items-center gap-2">
                               <div
-                                className="w-4 h-4 rounded-full"
-                                style={{
-                                  backgroundColor: getCategoryHexColor(other.category),
-                                }}
+                                className={cn(
+                                  "w-4 h-4",
+                                  isEntity ? "rotate-45 rounded-sm" : "rounded-full"
+                                )}
+                                style={{ backgroundColor: otherColor }}
                               />
                               <span className="text-sm font-medium text-white">
                                 {rel.direction === "outgoing" ? "\u2192 " : "\u2190 "}
@@ -1264,7 +1477,7 @@ export default function ConnectionsPage() {
                               {typeLabel}
                             </span>
                           </div>
-                          <p className="text-xs text-gray-400">
+                          <p className="text-xs text-gray-400 line-clamp-2">
                             {rel.description}
                           </p>
                         </div>
@@ -1299,6 +1512,14 @@ export default function ConnectionsPage() {
                       </div>
                       <div className="text-xs text-gray-400">연결</div>
                     </div>
+                    {showEntities && (
+                      <div className="p-3 rounded-lg bg-purple-500/10 text-center col-span-2">
+                        <div className="text-2xl font-bold text-purple-400">
+                          {allEntities.length}
+                        </div>
+                        <div className="text-xs text-gray-400">엔터티 (사건·사상·경전 등)</div>
+                      </div>
+                    )}
                     {CATEGORY_FILTERS.slice(1).map((c) => {
                       const count = allPersons.filter(
                         (p: any) => p.category === c.key
@@ -1309,15 +1530,10 @@ export default function ConnectionsPage() {
                           className="p-2 rounded-lg text-center"
                           style={{ backgroundColor: c.color + "15" }}
                         >
-                          <div
-                            className="text-lg font-bold"
-                            style={{ color: c.color }}
-                          >
+                          <div className="text-lg font-bold" style={{ color: c.color }}>
                             {count}
                           </div>
-                          <div className="text-[10px] text-gray-400">
-                            {c.label}
-                          </div>
+                          <div className="text-[10px] text-gray-400">{c.label}</div>
                         </div>
                       );
                     })}
@@ -1327,48 +1543,62 @@ export default function ConnectionsPage() {
                 {/* Most Connected */}
                 <div className="bg-[#1E293B] rounded-xl border border-white/10 p-5">
                   <h3 className="text-sm font-bold text-white mb-3">
-                    가장 많이 연결된 인물
+                    가장 많이 연결된 노드
                   </h3>
                   <div className="space-y-2">
-                    {allPersons
-                      .map((p: any) => ({
-                        ...p,
-                        connections: connectionCounts[p.id] || 0,
+                    {[...allPersons.map((p: any) => ({ ...p, nodeType: "person" })),
+                      ...(showEntities ? allEntities.map((e: any) => ({ ...e, nodeType: "entity" })) : [])]
+                      .map((item: any) => ({
+                        ...item,
+                        connections: connectionCounts[item.id] || 0,
                       }))
                       .sort((a: any, b: any) => b.connections - a.connections)
                       .slice(0, 15)
-                      .map((p: any) => (
-                        <div
-                          key={p.id}
-                          className="flex items-center justify-between p-2 rounded hover:bg-white/5 cursor-pointer transition-colors"
-                          onClick={() => focusOnNode(p.id)}
-                        >
-                          <div className="flex items-center gap-2">
-                            <div
-                              className="w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold"
-                              style={{
-                                backgroundColor:
-                                  getCategoryHexColor(p.category) + "30",
-                                color: getCategoryHexColor(p.category),
-                              }}
-                            >
-                              {p.name.ko[0]}
+                      .map((item: any) => {
+                        const isEntity = item.nodeType === "entity";
+                        const color = isEntity
+                          ? ENTITY_TYPE_COLORS[item.type] || "#94A3B8"
+                          : getCategoryHexColor(item.category);
+                        const typeLabel = isEntity
+                          ? ENTITY_TYPE_LABELS[item.type] || "엔터티"
+                          : getCategoryLabel(item.category);
+                        return (
+                          <div
+                            key={item.id}
+                            className="flex items-center justify-between p-2 rounded hover:bg-white/5 cursor-pointer transition-colors"
+                            onClick={() => focusOnNode(item.id)}
+                          >
+                            <div className="flex items-center gap-2">
+                              <div
+                                className={cn(
+                                  "w-6 h-6 flex items-center justify-center text-[10px] font-bold",
+                                  isEntity ? "rotate-45 rounded-sm" : "rounded-full"
+                                )}
+                                style={{
+                                  backgroundColor: color + "30",
+                                  color: color,
+                                }}
+                              >
+                                <span className={isEntity ? "-rotate-45" : ""}>
+                                  {item.name.ko[0]}
+                                </span>
+                              </div>
+                              <span className="text-sm text-gray-300">
+                                {item.name.ko}
+                              </span>
+                              <span className="text-[10px] text-gray-600">
+                                {typeLabel}
+                              </span>
                             </div>
-                            <span className="text-sm text-gray-300">
-                              {p.name.ko}
-                            </span>
-                            <span className="text-[10px] text-gray-600">
-                              {getCategoryLabel(p.category)}
-                            </span>
+                            <div className="flex items-center gap-1">
+                              <span className="text-xs text-gray-500">
+                                {item.connections}
+                              </span>
+                              <Network className="w-3 h-3 text-gray-600" />
+                            </div>
                           </div>
-                          <div className="flex items-center gap-1">
-                            <span className="text-xs text-gray-500">
-                              {p.connections}
-                            </span>
-                            <Network className="w-3 h-3 text-gray-600" />
-                          </div>
-                        </div>
-                      ))}
+                        );
+                      })}
                   </div>
                 </div>
 
@@ -1378,27 +1608,14 @@ export default function ConnectionsPage() {
                     사용 가이드
                   </h3>
                   <ul className="text-xs text-gray-400 space-y-1.5">
-                    <li>
-                      - 노드를 클릭하면 해당 인물의 1, 2차 관계망이 강조됩니다
-                    </li>
-                    <li>
-                      - 마우스 휠로 확대/축소, 드래그로 화면을 이동합니다
-                    </li>
-                    <li>
-                      - 노드를 드래그하여 위치를 직접 조정할 수 있습니다
-                    </li>
-                    <li>
-                      - 카테고리/시대/관계 필터로 특정 영역만 볼 수 있습니다
-                    </li>
-                    <li>
-                      - 검색으로 특정 인물을 바로 찾아 포커스할 수 있습니다
-                    </li>
-                    <li>
-                      - 노드 색상은 카테고리를, 크기는 연결 수를 나타냅니다
-                    </li>
-                    <li>
-                      - 선의 색상은 관계 유형(영향, 대립, 사제 등)을 나타냅니다
-                    </li>
+                    <li>- <span className="text-cyan-300">●</span> 원형 = 인물, <span className="text-purple-300">◆</span> 다이아몬드 = 엔터티</li>
+                    <li>- 노드 클릭 시 1, 2차 관계망이 강조됩니다</li>
+                    <li>- 마우스 휠로 확대/축소, 드래그로 이동</li>
+                    <li>- 노드를 드래그하여 위치 조정 가능</li>
+                    <li>- 카테고리/시대/관계 필터로 원하는 영역만 탐색</li>
+                    <li>- 노드 색상 = 카테고리/유형, 크기 = 연결 수</li>
+                    <li>- 선 색상 = 관계 유형 (영향/대립/사제/창설 등)</li>
+                    <li>- 엔터티 토글로 사건·사상·경전 노드 표시/숨기기</li>
                   </ul>
                 </div>
               </div>
