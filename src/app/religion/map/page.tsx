@@ -25,7 +25,7 @@ const WorldMap = dynamic(
   {
     ssr: false,
     loading: () => (
-      <div className="w-full h-full flex items-center justify-center bg-[#1a1a2e] rounded-xl">
+      <div className="w-full h-full flex items-center justify-center bg-fresco-parchment rounded-xl">
         <div className="flex flex-col items-center gap-3 text-foreground-muted">
           <Loader2 className="w-8 h-8 animate-spin" />
           <span className="text-sm">지도를 불러오는 중...</span>
@@ -57,15 +57,15 @@ const allPersons: PersonData[] = [
   ...(historicalData as PersonData[]),
 ];
 
-// ── Category / Era options ──
+// ── Category / Era options (Fresco palette) ──
 
 const CATEGORY_OPTIONS = [
-  { key: "all", label: "전체", color: "#8B5CF6" },
-  { key: "philosopher", label: "철학자", color: "#6366F1" },
-  { key: "religious_figure", label: "종교 인물", color: "#F59E0B" },
-  { key: "scientist", label: "과학자", color: "#10B981" },
-  { key: "historical_figure", label: "역사 인물", color: "#EF4444" },
-  { key: "cultural_figure", label: "문화/예술", color: "#EC4899" },
+  { key: "all", label: "전체", color: "#B8860B" },
+  { key: "philosopher", label: "철학자", color: "#4A5D8A" },
+  { key: "religious_figure", label: "종교 인물", color: "#B8860B" },
+  { key: "scientist", label: "과학자", color: "#5B7355" },
+  { key: "historical_figure", label: "역사 인물", color: "#8B4040" },
+  { key: "cultural_figure", label: "문화/예술", color: "#7A5478" },
 ];
 
 const ERA_OPTIONS = [
@@ -107,10 +107,10 @@ export default function ReligionMapPage() {
   return (
     <div className="flex flex-col h-[calc(100vh-4rem)]">
       {/* Header */}
-      <div className="flex-shrink-0 px-4 md:px-6 py-4 border-b border-border bg-background/80 backdrop-blur-sm">
+      <div className="flex-shrink-0 px-4 md:px-6 py-4 border-b border-border bg-fresco-ivory/90 backdrop-blur-sm">
         <div className="flex items-center justify-between flex-wrap gap-3">
           <div className="flex items-center gap-3">
-            <div className="flex items-center justify-center w-9 h-9 rounded-xl bg-purple-500/10 text-purple-400">
+            <div className="flex items-center justify-center w-9 h-9 rounded-xl bg-gold/10 text-gold">
               <Globe className="w-5 h-5" />
             </div>
             <div>
@@ -136,12 +136,12 @@ export default function ReligionMapPage() {
                   className={cn(
                     "px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-200 border",
                     categoryFilter === opt.key
-                      ? "border-purple-500/40 text-white"
-                      : "border-transparent bg-background-secondary text-foreground-secondary hover:text-foreground hover:bg-background-secondary/80"
+                      ? "border-gold/40 text-ink-dark"
+                      : "border-transparent bg-fresco-parchment text-foreground-secondary hover:text-foreground hover:bg-fresco-aged/60"
                   )}
                   style={
                     categoryFilter === opt.key
-                      ? { backgroundColor: opt.color + "33" }
+                      ? { backgroundColor: opt.color + "20" }
                       : undefined
                   }
                 >
@@ -162,7 +162,7 @@ export default function ReligionMapPage() {
             <select
               value={eraFilter}
               onChange={(e) => setEraFilter(e.target.value)}
-              className="px-3 py-1.5 rounded-lg text-xs font-medium bg-background-secondary text-foreground-secondary border border-border hover:border-purple-500/30 focus:outline-none focus:border-purple-500/50 transition-colors"
+              className="px-3 py-1.5 rounded-lg text-xs font-medium bg-fresco-parchment text-foreground-secondary border border-border hover:border-gold/30 focus:outline-none focus:border-gold/50 transition-colors"
             >
               {ERA_OPTIONS.map((opt) => (
                 <option key={opt.key} value={opt.key}>
@@ -191,7 +191,7 @@ export default function ReligionMapPage() {
           />
 
           {/* Legend overlay */}
-          <div className="absolute bottom-4 left-4 z-[1000] bg-background/90 backdrop-blur-sm rounded-xl border border-border p-3">
+          <div className="absolute bottom-4 left-4 z-[1000] bg-fresco-ivory/90 backdrop-blur-sm rounded-xl border border-border p-3 shadow-sepia">
             <p className="text-[10px] text-foreground-muted mb-2 font-medium uppercase tracking-wider">
               범례
             </p>
@@ -210,7 +210,7 @@ export default function ReligionMapPage() {
               <div className="flex items-center gap-1.5">
                 <span
                   className="w-2.5 h-2.5 rounded-full border border-dashed"
-                  style={{ borderColor: "#F59E0B" }}
+                  style={{ borderColor: "#B8860B" }}
                 />
                 <span className="text-[10px] text-foreground-secondary">
                   종교
@@ -219,7 +219,7 @@ export default function ReligionMapPage() {
               <div className="flex items-center gap-1.5">
                 <span
                   className="w-2.5 h-2.5 rounded-full border border-dashed"
-                  style={{ borderColor: "#10B981" }}
+                  style={{ borderColor: "#5B7355" }}
                 />
                 <span className="text-[10px] text-foreground-secondary">
                   신화
@@ -231,7 +231,7 @@ export default function ReligionMapPage() {
           {/* Sidebar toggle button */}
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
-            className="absolute top-4 right-4 z-[1000] flex items-center gap-1.5 px-3 py-2 rounded-lg bg-background/90 backdrop-blur-sm border border-border text-foreground-secondary hover:text-foreground transition-colors md:hidden"
+            className="absolute top-4 right-4 z-[1000] flex items-center gap-1.5 px-3 py-2 rounded-lg bg-fresco-ivory/90 backdrop-blur-sm border border-border text-foreground-secondary hover:text-foreground transition-colors md:hidden shadow-sepia-sm"
           >
             <Users className="w-4 h-4" />
             <span className="text-xs font-medium">{viewportPersons.length}</span>
@@ -241,7 +241,7 @@ export default function ReligionMapPage() {
         {/* Sidebar */}
         <div
           className={cn(
-            "flex-shrink-0 border-l border-border bg-background overflow-hidden transition-all duration-300",
+            "flex-shrink-0 border-l border-border bg-fresco-ivory overflow-hidden transition-all duration-300",
             sidebarOpen ? "w-80" : "w-0",
             "hidden md:block"
           )}
@@ -251,12 +251,12 @@ export default function ReligionMapPage() {
             <div className="flex-shrink-0 px-4 py-3 border-b border-border">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <MapPin className="w-4 h-4 text-purple-400" />
+                  <MapPin className="w-4 h-4 text-gold" />
                   <span className="text-sm font-semibold text-foreground">
                     현재 화면의 인물
                   </span>
                 </div>
-                <span className="text-xs text-foreground-muted bg-background-secondary px-2 py-0.5 rounded-full">
+                <span className="text-xs text-foreground-muted bg-fresco-parchment px-2 py-0.5 rounded-full">
                   {viewportPersons.length}명
                 </span>
               </div>
@@ -277,7 +277,7 @@ export default function ReligionMapPage() {
                     <Link
                       key={p.id}
                       href={getPersonLink(p)}
-                      className="flex items-start gap-3 px-4 py-3 hover:bg-background-secondary/50 transition-colors group"
+                      className="flex items-start gap-3 px-4 py-3 hover:bg-fresco-aged/40 transition-colors group"
                     >
                       <span
                         className="inline-block w-2.5 h-2.5 rounded-full mt-1.5 flex-shrink-0"
@@ -287,11 +287,11 @@ export default function ReligionMapPage() {
                       />
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2">
-                          <h3 className="text-sm font-semibold text-foreground group-hover:text-purple-300 transition-colors truncate">
+                          <h3 className="text-sm font-semibold text-foreground group-hover:text-gold transition-colors truncate">
                             {p.name.ko}
                           </h3>
                           {p.mvp && (
-                            <span className="text-[10px] text-amber-400">
+                            <span className="text-[10px] text-gold">
                               MVP
                             </span>
                           )}
@@ -314,7 +314,7 @@ export default function ReligionMapPage() {
                           </span>
                         </div>
                       </div>
-                      <ChevronRight className="w-3.5 h-3.5 text-foreground-muted flex-shrink-0 mt-1 group-hover:text-purple-400 transition-colors" />
+                      <ChevronRight className="w-3.5 h-3.5 text-foreground-muted flex-shrink-0 mt-1 group-hover:text-gold transition-colors" />
                     </Link>
                   ))}
                 </div>

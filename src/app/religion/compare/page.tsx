@@ -61,7 +61,7 @@ export default function ReligionComparePage() {
       {/* Header */}
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-4">
-          <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400">
+          <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gold/10 text-gold">
             <Table2 className="w-5 h-5" />
           </div>
           <h1 className="text-2xl md:text-3xl font-bold text-foreground">
@@ -91,8 +91,8 @@ export default function ReligionComparePage() {
             className={cn(
               "px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200",
               filter === item.key
-                ? "bg-amber-500/20 text-amber-300 border border-amber-500/30"
-                : "bg-background-secondary text-foreground-secondary hover:text-foreground border border-transparent"
+                ? "bg-gold/15 text-gold border border-gold/30"
+                : "bg-fresco-parchment text-foreground-secondary hover:text-foreground border border-transparent"
             )}
           >
             {item.label}
@@ -101,11 +101,11 @@ export default function ReligionComparePage() {
       </div>
 
       {/* Desktop Table */}
-      <div className="hidden md:block border border-border rounded-2xl overflow-hidden">
+      <div className="hidden md:block border border-border rounded-2xl overflow-hidden shadow-sepia">
         <div className="overflow-x-auto">
           <table className="w-full">
             <thead>
-              <tr className="bg-background-secondary/80">
+              <tr className="bg-fresco-parchment">
                 <th className="text-left px-5 py-4 text-sm font-semibold text-foreground border-b border-border min-w-[160px]">
                   종교/신화
                 </th>
@@ -127,7 +127,7 @@ export default function ReligionComparePage() {
                 <tr
                   key={religion.id}
                   className={cn(
-                    "hover:bg-background-secondary/30 transition-colors",
+                    "hover:bg-fresco-aged/30 transition-colors",
                     idx < filteredReligions.length - 1 && "border-b border-border"
                   )}
                 >
@@ -137,11 +137,11 @@ export default function ReligionComparePage() {
                       className="flex items-center gap-2 group"
                     >
                       {religion.type === "religion" ? (
-                        <Landmark className="w-4 h-4 text-amber-400 flex-shrink-0" />
+                        <Landmark className="w-4 h-4 text-gold flex-shrink-0" />
                       ) : (
-                        <Scroll className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                        <Scroll className="w-4 h-4 text-pigment-buddhism flex-shrink-0" />
                       )}
-                      <span className="font-medium text-sm text-foreground group-hover:text-amber-300 transition-colors">
+                      <span className="font-medium text-sm text-foreground group-hover:text-gold transition-colors">
                         {religion.name.ko}
                       </span>
                     </Link>
@@ -162,7 +162,7 @@ export default function ReligionComparePage() {
                                 content
                               )
                             }
-                            className="text-left text-xs text-foreground-secondary hover:text-foreground transition-colors leading-relaxed line-clamp-3 cursor-pointer hover:bg-background-secondary/50 rounded-lg p-1.5 -m-1.5"
+                            className="text-left text-xs text-foreground-secondary hover:text-foreground transition-colors leading-relaxed line-clamp-3 cursor-pointer hover:bg-fresco-aged/40 rounded-lg p-1.5 -m-1.5"
                           >
                             {content}
                           </button>
@@ -186,28 +186,28 @@ export default function ReligionComparePage() {
         {filteredReligions.map((religion) => (
           <div
             key={religion.id}
-            className="border border-border rounded-xl overflow-hidden bg-background-secondary/20"
+            className="border border-border rounded-xl overflow-hidden bg-fresco-parchment/30 shadow-sepia-sm"
           >
             {/* Card Header */}
             <Link
               href={`/religion/${religion.id}`}
-              className="flex items-center justify-between px-4 py-3 bg-background-secondary/50 border-b border-border group"
+              className="flex items-center justify-between px-4 py-3 bg-fresco-parchment/60 border-b border-border group"
             >
               <div className="flex items-center gap-2">
                 {religion.type === "religion" ? (
-                  <Landmark className="w-4 h-4 text-amber-400" />
+                  <Landmark className="w-4 h-4 text-gold" />
                 ) : (
-                  <Scroll className="w-4 h-4 text-emerald-400" />
+                  <Scroll className="w-4 h-4 text-pigment-buddhism" />
                 )}
-                <span className="font-semibold text-sm text-foreground group-hover:text-amber-300 transition-colors">
+                <span className="font-semibold text-sm text-foreground group-hover:text-gold transition-colors">
                   {religion.name.ko}
                 </span>
                 <span
                   className={cn(
                     "px-2 py-0.5 rounded-full text-[10px] font-medium",
                     religion.type === "religion"
-                      ? "bg-amber-500/15 text-amber-400"
-                      : "bg-emerald-500/15 text-emerald-400"
+                      ? "bg-gold/15 text-gold"
+                      : "bg-pigment-buddhism/15 text-pigment-buddhism"
                   )}
                 >
                   {religion.type === "religion" ? "종교" : "신화"}
@@ -234,7 +234,7 @@ export default function ReligionComparePage() {
                         content
                       )
                     }
-                    className="w-full text-left px-4 py-3 hover:bg-background-secondary/30 transition-colors"
+                    className="w-full text-left px-4 py-3 hover:bg-fresco-aged/30 transition-colors"
                   >
                     <div className="flex items-center gap-2 mb-1">
                       <span className="text-foreground-muted">{col.icon}</span>
@@ -260,15 +260,15 @@ export default function ReligionComparePage() {
           onClick={() => setSelectedCell(null)}
         >
           {/* Backdrop */}
-          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
+          <div className="absolute inset-0 bg-ink-dark/40 backdrop-blur-sm" />
 
           {/* Modal Content */}
           <div
-            className="relative w-full max-w-lg max-h-[80vh] overflow-y-auto bg-background-secondary border border-border rounded-2xl shadow-2xl"
+            className="relative w-full max-w-lg max-h-[80vh] overflow-y-auto bg-fresco-ivory border border-border rounded-2xl shadow-sepia-lg"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Header */}
-            <div className="sticky top-0 flex items-center justify-between px-6 py-4 border-b border-border bg-background-secondary z-10">
+            <div className="sticky top-0 flex items-center justify-between px-6 py-4 border-b border-border bg-fresco-ivory z-10">
               <div>
                 <h3 className="font-semibold text-foreground">
                   {selectedCell.religionName}
@@ -279,7 +279,7 @@ export default function ReligionComparePage() {
               </div>
               <button
                 onClick={() => setSelectedCell(null)}
-                className="flex items-center justify-center w-8 h-8 rounded-lg hover:bg-background-tertiary/50 text-foreground-muted hover:text-foreground transition-colors"
+                className="flex items-center justify-center w-8 h-8 rounded-lg hover:bg-fresco-aged/50 text-foreground-muted hover:text-foreground transition-colors"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -296,7 +296,7 @@ export default function ReligionComparePage() {
             <div className="px-6 py-4 border-t border-border">
               <Link
                 href={`/religion/${selectedCell.religionId}`}
-                className="inline-flex items-center gap-2 text-sm font-medium text-amber-400 hover:text-amber-300 transition-colors"
+                className="inline-flex items-center gap-2 text-sm font-medium text-gold hover:text-gold-hover transition-colors"
                 onClick={() => setSelectedCell(null)}
               >
                 {selectedCell.religionName} 상세 페이지

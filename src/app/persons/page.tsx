@@ -33,6 +33,18 @@ const allPersons: PersonData[] = [
   ...(historicalFiguresData as PersonData[]),
 ].sort((a, b) => a.period.start - b.period.start);
 
+const categoryColorMap: Record<string, string> = {
+  philosopher: '#4A5D8A',
+  religious_figure: '#B8860B',
+  scientist: '#5B7355',
+  historical_figure: '#8B4040',
+  cultural_figure: '#7A5478',
+};
+
+function getCategoryDotColor(category: string): string {
+  return categoryColorMap[category] || '#7A6B55';
+}
+
 export default function PersonsPage() {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedEra, setSelectedEra] = useState('all');
@@ -80,35 +92,49 @@ export default function PersonsPage() {
   }, [selectedCategory, selectedEra, searchQuery]);
 
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen" style={{ background: 'var(--fresco-ivory)' }}>
       {/* Header */}
       <section className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         <div className="flex items-center justify-between mb-6">
           <div>
-            <h1 className="text-3xl font-bold text-white flex items-center gap-3">
-              <Users className="w-8 h-8 text-indigo-400" />
+            <h1
+              className="text-3xl font-bold flex items-center gap-3"
+              style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
+            >
+              <Users className="w-8 h-8" style={{ color: '#4A5D8A' }} />
               인물 탐색기
             </h1>
-            <p className="text-slate-400 mt-1">
+            <p style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }} className="mt-1">
               인류 사상사의 핵심 인물 {allPersons.length}명을 탐색하세요
             </p>
           </div>
-          <div className="flex items-center gap-1 bg-slate-800/50 rounded-lg p-1">
+          <div
+            className="flex items-center gap-1 p-1"
+            style={{
+              background: 'var(--fresco-parchment)',
+              borderRadius: '4px',
+              border: '1px solid var(--fresco-shadow)',
+            }}
+          >
             <button
               onClick={() => setViewMode('grid')}
-              className={cn(
-                'p-2 rounded-md transition-colors',
-                viewMode === 'grid' ? 'bg-slate-700 text-white' : 'text-slate-500 hover:text-slate-300'
-              )}
+              className="p-2 transition-colors"
+              style={{
+                borderRadius: '4px',
+                background: viewMode === 'grid' ? 'var(--fresco-aged)' : 'transparent',
+                color: viewMode === 'grid' ? 'var(--ink-dark)' : 'var(--ink-light)',
+              }}
             >
               <LayoutGrid className="w-4 h-4" />
             </button>
             <button
               onClick={() => setViewMode('list')}
-              className={cn(
-                'p-2 rounded-md transition-colors',
-                viewMode === 'list' ? 'bg-slate-700 text-white' : 'text-slate-500 hover:text-slate-300'
-              )}
+              className="p-2 transition-colors"
+              style={{
+                borderRadius: '4px',
+                background: viewMode === 'list' ? 'var(--fresco-aged)' : 'transparent',
+                color: viewMode === 'list' ? 'var(--ink-dark)' : 'var(--ink-light)',
+              }}
             >
               <List className="w-4 h-4" />
             </button>
@@ -129,7 +155,7 @@ export default function PersonsPage() {
 
       {/* Results */}
       <section className="max-w-7xl mx-auto px-4 pb-20">
-        <p className="text-sm text-slate-500 mb-4">
+        <p className="text-sm mb-4" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
           {filteredPersons.length}명의 인물
         </p>
 
@@ -157,20 +183,31 @@ export default function PersonsPage() {
               <a
                 key={person.id}
                 href={`/persons/${person.id}`}
-                className="flex items-center gap-4 p-3 rounded-lg border border-slate-700/50 bg-slate-800/20 hover:bg-slate-800/40 transition-colors"
+                className="flex items-center gap-4 p-3 transition-colors"
+                style={{
+                  borderRadius: '4px',
+                  border: '1px solid var(--fresco-shadow)',
+                  background: 'var(--fresco-parchment)',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = 'var(--fresco-aged)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = 'var(--fresco-parchment)';
+                }}
               >
                 <div
                   className="w-2 h-2 rounded-full flex-shrink-0"
-                  style={{ backgroundColor: getCategoryLabel(person.category) === '철학자' ? '#6366F1' : getCategoryLabel(person.category) === '종교 인물' ? '#F59E0B' : getCategoryLabel(person.category) === '과학자' ? '#10B981' : getCategoryLabel(person.category) === '역사 인물' ? '#EF4444' : '#EC4899' }}
+                  style={{ backgroundColor: getCategoryDotColor(person.category) }}
                 />
                 <div className="flex-1 min-w-0">
-                  <span className="text-white font-medium">{person.name.ko}</span>
-                  <span className="text-slate-500 ml-2 text-sm">{person.name.en}</span>
+                  <span className="font-medium" style={{ color: 'var(--ink-dark)' }}>{person.name.ko}</span>
+                  <span className="ml-2 text-sm" style={{ color: 'var(--ink-light)' }}>{person.name.en}</span>
                 </div>
-                <span className="text-xs text-slate-500 flex-shrink-0">
+                <span className="text-xs flex-shrink-0" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
                   {getEraLabel(person.era)}
                 </span>
-                <span className="text-xs text-slate-600 flex-shrink-0">
+                <span className="text-xs flex-shrink-0" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>
                   {person.location.region}
                 </span>
               </a>

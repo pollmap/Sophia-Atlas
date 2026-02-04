@@ -1432,5 +1432,395 @@
     "description": "지혜의 집의 이슬람 과학은 유럽 과학혁명의 간접적 기반이 되었다",
     "strength": 2,
     "direction": "directed"
+  },
+  {
+    "source": "printing-press",
+    "target": "scientific-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "인쇄술은 과학 지식의 축적과 확산을 가능하게 하여 과학혁명을 촉진했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "black-death",
+    "target": "protestant-reformation",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "흑사병의 사회적 격변은 교회 권위에 대한 회의를 심화시켜 종교개혁의 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "rationalism",
+    "target": "positivism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "합리론의 이성 중심 사유는 실증주의의 과학적 방법론에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "empiricism",
+    "target": "pragmatism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "경험론의 경험 중심 인식론은 프래그머티즘의 실천적 검증 원리에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "determinism",
+    "target": "quantum-mechanics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "결정론적 세계관은 양자역학의 확률론적 해석에 의해 도전받았다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "materialism",
+    "target": "naturalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "유물론은 자연주의적 세계관의 형이상학적 배경이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "humanism",
+    "target": "feminism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "인문주의의 인간 존엄 사상은 페미니즘의 평등 요구에 철학적 기반을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "analects",
+    "target": "ren-confucius",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "논어에서 인(仁)은 가장 핵심적인 윤리 개념으로 다뤄진다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ethics-spinoza",
+    "target": "rationalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "스피노자의 에티카는 합리론의 대표적 철학 텍스트이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "the-prince",
+    "target": "nationalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "군주론의 현실주의적 정치관은 근대 민족주의의 선행적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "phenomenology-of-spirit",
+    "target": "dialectic",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "정신현상학에서 변증법이 의식의 발전 과정으로 체계적으로 전개된다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "critique-pure-reason",
+    "target": "rationalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "순수이성비판은 합리론과 경험론의 종합을 시도한 핵심 텍스트이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "critique-pure-reason",
+    "target": "empiricism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "순수이성비판은 경험론의 한계를 비판적으로 수용하여 비판철학을 정립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "academy-plato",
+    "target": "academy-institution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "플라톤의 아카데메이아 운동은 아카데메이아 기관의 지적 기반이다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "quran",
+    "target": "bible",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "꾸란은 성경의 인물과 이야기를 이슬람적 맥락에서 재해석하고 있다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bible",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "성경의 해석 문제가 니케아 공의회의 핵심 의제가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "world-war-ii",
+    "target": "existentialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "2차 대전의 참화와 인간 존재의 위기는 실존주의의 대중적 확산을 촉진했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "industrial-revolution",
+    "target": "feminism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "산업혁명의 여성 노동 참여 확대는 페미니즘 운동의 사회적 기반이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "world-war-i",
+    "target": "feminism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "1차 대전 중 여성의 전시 노동 참여는 여성 참정권 확보에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "world-war-ii",
+    "target": "cold-war",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "2차 대전의 결과는 냉전 체제의 직접적 배경이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "nihilism",
+    "target": "postmodernism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "허무주의의 가치 해체는 포스트모더니즘의 탈근대 사유에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "phenomenology-movement",
+    "target": "deconstructionism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "현상학적 방법론은 데리다의 해체주의에 비판적으로 계승되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "metaphysics-aristotle",
+    "target": "critique-pure-reason",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아리스토텔레스의 형이상학은 칸트가 비판적으로 극복하려 한 전통 형이상학의 대표작이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "origin-of-species",
+    "target": "environmentalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "진화론은 생태계 상호의존성 인식을 통해 환경주의 사상에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cold-war",
+    "target": "internet-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "냉전의 군사 기술 연구는 인터넷 혁명의 기술적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "enlightenment-movement",
+    "target": "humanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "계몽주의는 인문주의를 이성 중심의 보편적 인권 사상으로 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "romanticism-movement",
+    "target": "environmentalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "낭만주의의 자연 숭배 사상은 현대 환경주의의 정서적 뿌리이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "liberalism",
+    "target": "cold-war",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "자유주의와 공산주의의 이데올로기적 대립은 냉전의 근본 원인 중 하나이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anarchism",
+    "target": "russian-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "무정부주의는 러시아 혁명 초기에 볼셰비즘과 경쟁하는 혁명 이론이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "age-of-exploration",
+    "target": "renaissance",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "대항해시대의 새로운 세계 발견은 르네상스의 세계관 확대에 기여했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "french-revolution",
+    "target": "liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "프랑스 혁명의 자유·평등·박애 이념은 자유주의의 역사적 발전에 기여했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "russian-revolution",
+    "target": "cold-war",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "러시아 혁명으로 수립된 소련 체제는 냉전의 한 축이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "dna-discovery",
+    "target": "internet-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "DNA 발견은 생명공학 혁명을 열어 디지털 혁명과 병행하는 현대 과학의 양축이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "idealism",
+    "target": "phenomenology-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "독일 관념론의 의식 분석 전통은 현상학 운동의 철학적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "utilitarianism",
+    "target": "pragmatism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "공리주의의 결과주의적 사유는 프래그머티즘의 실천적 검증 원리에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bible",
+    "target": "protestant-reformation",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "성경의 원전 연구는 종교개혁의 솔라 스크립투라(오직 성경) 원리의 기반이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "quran",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이슬람과 기독교의 경전적 대립은 십자군 전쟁의 종교적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "eternal-recurrence",
+    "target": "existentialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "니체의 영원회귀 사상은 실존주의에서 존재 긍정의 핵심 주제가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "logos",
+    "target": "bible",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "로고스 개념은 요한복음에서 '태초에 말씀이 계시니라'로 기독교 신학에 수용되었다",
+    "strength": 3,
+    "direction": "directed"
   }
 ]

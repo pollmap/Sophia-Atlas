@@ -140,33 +140,33 @@ export default function SearchPage() {
       {/* Header */}
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-4">
-          <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400">
+          <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gold/10 text-gold">
             <Search className="w-5 h-5" />
           </div>
-          <h1 className="text-2xl md:text-3xl font-bold text-foreground">
+          <h1 className="text-2xl md:text-3xl font-bold text-ink-dark font-display">
             통합 검색
           </h1>
         </div>
-        <p className="text-foreground-secondary">
+        <p className="text-ink-medium">
           인물, 종교/신화, 용어를 한 곳에서 검색하세요. ({allPersonsData.length}명의 인물)
         </p>
       </div>
 
       {/* Search Input */}
       <div className="relative mb-8">
-        <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-foreground-muted" />
+        <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-ink-faded" />
         <input
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="검색어를 입력하세요..."
-          className="w-full pl-12 pr-10 py-4 rounded-xl bg-background-secondary border border-border text-foreground placeholder:text-foreground-muted focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 text-base transition-all duration-200"
+          className="w-full pl-12 pr-10 py-4 rounded-xl bg-fresco-parchment border border-fresco-shadow text-ink-dark placeholder:text-ink-faded focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold/50 text-base transition-all duration-200"
           autoFocus
         />
         {query && (
           <button
             onClick={() => setQuery("")}
-            className="absolute right-4 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full flex items-center justify-center hover:bg-background-tertiary/50 text-foreground-muted hover:text-foreground transition-colors"
+            className="absolute right-4 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full flex items-center justify-center hover:bg-fresco-aged/50 text-ink-faded hover:text-ink-dark transition-colors"
           >
             <X className="w-4 h-4" />
           </button>
@@ -178,17 +178,17 @@ export default function SearchPage() {
         totalResults > 0 ? (
           <div className="space-y-8">
             {/* Result count */}
-            <p className="text-sm text-foreground-muted">
-              총 <span className="text-foreground font-medium">{totalResults}</span>개의 결과
+            <p className="text-sm text-ink-faded">
+              총 <span className="text-ink-dark font-medium">{totalResults}</span>개의 결과
             </p>
 
             {/* Persons */}
             {results.persons.length > 0 && (
               <div>
-                <h2 className="flex items-center gap-2 text-base font-semibold text-foreground mb-3">
-                  <BookOpen className="w-4 h-4 text-blue-400" />
+                <h2 className="flex items-center gap-2 text-base font-semibold text-ink-dark mb-3 font-display">
+                  <BookOpen className="w-4 h-4 text-cat-philosopher" />
                   인물
-                  <span className="text-xs text-foreground-muted font-normal">
+                  <span className="text-xs text-ink-faded font-normal font-ui">
                     ({results.persons.length})
                   </span>
                 </h2>
@@ -197,34 +197,34 @@ export default function SearchPage() {
                     <Link
                       key={item.id}
                       href={`/persons/${item.id}`}
-                      className="flex items-start gap-3 p-4 rounded-xl border border-border bg-background-secondary/20 hover:bg-background-secondary/40 transition-colors group"
+                      className="flex items-start gap-3 p-4 rounded-xl border border-fresco-shadow bg-fresco-parchment/40 hover:bg-fresco-aged/50 transition-colors group"
                     >
-                      <BookOpen className="w-4 h-4 text-blue-400 flex-shrink-0 mt-1" />
+                      <BookOpen className="w-4 h-4 text-cat-philosopher flex-shrink-0 mt-1" />
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 mb-1 flex-wrap">
-                          <span className="font-medium text-sm text-foreground group-hover:text-blue-300 transition-colors">
+                          <span className="font-medium text-sm text-ink-dark group-hover:text-gold transition-colors">
                             {item.name}
                           </span>
-                          <span className="text-xs text-foreground-muted">
+                          <span className="text-xs text-ink-faded">
                             {item.nameEn}
                           </span>
                           <span
                             className={cn(
-                              "px-2 py-0.5 rounded-full text-[10px] font-medium",
+                              "px-2 py-0.5 rounded-full text-[10px] font-medium font-ui",
                               getEraColorClass(item.era)
                             )}
                           >
                             {getEraLabel(item.era)}
                           </span>
-                          <span className="px-2 py-0.5 rounded-full text-[10px] font-medium bg-slate-500/15 text-slate-400">
+                          <span className="px-2 py-0.5 rounded-full text-[10px] font-medium font-ui bg-fresco-shadow/30 text-ink-light">
                             {getCategoryLabel(item.category)}
                           </span>
                         </div>
-                        <p className="text-xs text-foreground-secondary line-clamp-2">
+                        <p className="text-xs text-ink-medium line-clamp-2">
                           {item.preview}
                         </p>
                       </div>
-                      <ChevronRight className="w-4 h-4 text-foreground-muted flex-shrink-0 mt-1 group-hover:text-blue-400 transition-colors" />
+                      <ChevronRight className="w-4 h-4 text-ink-faded flex-shrink-0 mt-1 group-hover:text-gold transition-colors" />
                     </Link>
                   ))}
                 </div>
@@ -234,10 +234,10 @@ export default function SearchPage() {
             {/* Religions */}
             {results.religions.length > 0 && (
               <div>
-                <h2 className="flex items-center gap-2 text-base font-semibold text-foreground mb-3">
-                  <Landmark className="w-4 h-4 text-amber-400" />
+                <h2 className="flex items-center gap-2 text-base font-semibold text-ink-dark mb-3 font-display">
+                  <Landmark className="w-4 h-4 text-gold" />
                   종교/신화
-                  <span className="text-xs text-foreground-muted font-normal">
+                  <span className="text-xs text-ink-faded font-normal font-ui">
                     ({results.religions.length})
                   </span>
                 </h2>
@@ -246,37 +246,37 @@ export default function SearchPage() {
                     <Link
                       key={item.id}
                       href={`/religion/${item.id}`}
-                      className="flex items-start gap-3 p-4 rounded-xl border border-border bg-background-secondary/20 hover:bg-background-secondary/40 transition-colors group"
+                      className="flex items-start gap-3 p-4 rounded-xl border border-fresco-shadow bg-fresco-parchment/40 hover:bg-fresco-aged/50 transition-colors group"
                     >
                       {item.type === "religion" ? (
-                        <Landmark className="w-4 h-4 text-amber-400 flex-shrink-0 mt-1" />
+                        <Landmark className="w-4 h-4 text-gold flex-shrink-0 mt-1" />
                       ) : (
-                        <Scroll className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-1" />
+                        <Scroll className="w-4 h-4 text-cat-scientist flex-shrink-0 mt-1" />
                       )}
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 mb-1 flex-wrap">
-                          <span className="font-medium text-sm text-foreground group-hover:text-amber-300 transition-colors">
+                          <span className="font-medium text-sm text-ink-dark group-hover:text-gold transition-colors">
                             {item.name}
                           </span>
-                          <span className="text-xs text-foreground-muted">
+                          <span className="text-xs text-ink-faded">
                             {item.nameEn}
                           </span>
                           <span
                             className={cn(
-                              "px-2 py-0.5 rounded-full text-[10px] font-medium",
+                              "px-2 py-0.5 rounded-full text-[10px] font-medium font-ui",
                               item.type === "religion"
-                                ? "bg-amber-500/15 text-amber-400"
-                                : "bg-emerald-500/15 text-emerald-400"
+                                ? "bg-gold/15 text-gold"
+                                : "bg-cat-scientist/15 text-cat-scientist"
                             )}
                           >
                             {item.category}
                           </span>
                         </div>
-                        <p className="text-xs text-foreground-secondary line-clamp-2">
+                        <p className="text-xs text-ink-medium line-clamp-2">
                           {item.preview}
                         </p>
                       </div>
-                      <ChevronRight className="w-4 h-4 text-foreground-muted flex-shrink-0 mt-1 group-hover:text-amber-400 transition-colors" />
+                      <ChevronRight className="w-4 h-4 text-ink-faded flex-shrink-0 mt-1 group-hover:text-gold transition-colors" />
                     </Link>
                   ))}
                 </div>
@@ -286,10 +286,10 @@ export default function SearchPage() {
             {/* Glossary */}
             {results.glossary.length > 0 && (
               <div>
-                <h2 className="flex items-center gap-2 text-base font-semibold text-foreground mb-3">
-                  <BookMarked className="w-4 h-4 text-teal-400" />
+                <h2 className="flex items-center gap-2 text-base font-semibold text-ink-dark mb-3 font-display">
+                  <BookMarked className="w-4 h-4 text-modern" />
                   용어사전
-                  <span className="text-xs text-foreground-muted font-normal">
+                  <span className="text-xs text-ink-faded font-normal font-ui">
                     ({results.glossary.length})
                   </span>
                 </h2>
@@ -297,20 +297,20 @@ export default function SearchPage() {
                   {results.glossary.map((item) => (
                     <div
                       key={item.id}
-                      className="p-4 rounded-xl border border-border bg-background-secondary/20"
+                      className="p-4 rounded-xl border border-fresco-shadow bg-fresco-parchment/40"
                     >
                       <div className="flex items-center gap-2 mb-1 flex-wrap">
-                        <span className="font-medium text-sm text-foreground">
+                        <span className="font-medium text-sm text-ink-dark">
                           {item.term}
                         </span>
-                        <span className="text-xs text-foreground-muted">
+                        <span className="text-xs text-ink-faded">
                           {item.termEn}
                         </span>
-                        <span className="px-2 py-0.5 rounded-full text-[10px] font-medium bg-teal-500/15 text-teal-400">
+                        <span className="px-2 py-0.5 rounded-full text-[10px] font-medium font-ui bg-modern/15 text-modern">
                           {item.category}
                         </span>
                       </div>
-                      <p className="text-xs text-foreground-secondary leading-relaxed">
+                      <p className="text-xs text-ink-medium leading-relaxed">
                         {item.definition}
                       </p>
                     </div>
@@ -321,11 +321,11 @@ export default function SearchPage() {
           </div>
         ) : (
           <div className="text-center py-16">
-            <Search className="w-12 h-12 text-foreground-muted mx-auto mb-4 opacity-50" />
-            <p className="text-foreground-muted text-lg">
+            <Search className="w-12 h-12 text-ink-faded mx-auto mb-4 opacity-50" />
+            <p className="text-ink-light text-lg">
               검색 결과가 없습니다
             </p>
-            <p className="text-foreground-muted text-sm mt-1">
+            <p className="text-ink-faded text-sm mt-1">
               다른 검색어를 시도해보세요.
             </p>
           </div>
@@ -334,14 +334,14 @@ export default function SearchPage() {
         <div>
           {/* Empty state */}
           <div className="text-center py-12 mb-12">
-            <Search className="w-12 h-12 text-foreground-muted mx-auto mb-4 opacity-30" />
-            <p className="text-foreground-muted">검색어를 입력하세요</p>
+            <Search className="w-12 h-12 text-ink-faded mx-auto mb-4 opacity-30" />
+            <p className="text-ink-faded">검색어를 입력하세요</p>
           </div>
 
           {/* Glossary Section */}
           <div>
-            <h2 className="flex items-center gap-2 text-lg font-semibold text-foreground mb-4">
-              <BookMarked className="w-5 h-5 text-teal-400" />
+            <h2 className="flex items-center gap-2 text-lg font-semibold text-ink-dark mb-4 font-display">
+              <BookMarked className="w-5 h-5 text-modern" />
               용어사전
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -350,35 +350,35 @@ export default function SearchPage() {
                 return (
                   <div
                     key={term.id}
-                    className="border border-border rounded-xl overflow-hidden bg-background-secondary/20"
+                    className="border border-fresco-shadow rounded-xl overflow-hidden bg-fresco-parchment/40"
                   >
                     <button
                       onClick={() => toggleGlossaryExpand(term.id)}
-                      className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-background-secondary/40 transition-colors"
+                      className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-fresco-aged/50 transition-colors"
                     >
                       <div className="flex items-center gap-2">
-                        <span className="font-medium text-sm text-foreground">
+                        <span className="font-medium text-sm text-ink-dark">
                           {term.term.ko}
                         </span>
-                        <span className="text-xs text-foreground-muted">
+                        <span className="text-xs text-ink-faded">
                           {term.term.en}
                         </span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <span className="px-2 py-0.5 rounded-full text-[10px] font-medium bg-teal-500/10 text-teal-400">
+                        <span className="px-2 py-0.5 rounded-full text-[10px] font-medium font-ui bg-modern/10 text-modern">
                           {term.category}
                         </span>
                         <ChevronDown
                           className={cn(
-                            "w-4 h-4 text-foreground-muted transition-transform duration-200",
+                            "w-4 h-4 text-ink-faded transition-transform duration-200",
                             isExpanded && "rotate-180"
                           )}
                         />
                       </div>
                     </button>
                     {isExpanded && (
-                      <div className="px-4 pb-3 border-t border-border/50">
-                        <p className="text-xs text-foreground-secondary leading-relaxed pt-3">
+                      <div className="px-4 pb-3 border-t border-fresco-shadow/50">
+                        <p className="text-xs text-ink-medium leading-relaxed pt-3">
                           {term.definition}
                         </p>
                       </div>

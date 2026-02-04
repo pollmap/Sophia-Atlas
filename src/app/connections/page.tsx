@@ -75,20 +75,20 @@ const allRelationships = [
 // ── Constants ──
 
 const CATEGORY_FILTERS = [
-  { key: "all", label: "전체", color: "#ffffff", icon: Network },
-  { key: "philosopher", label: "철학자", color: "#6366F1", icon: BookOpen },
-  { key: "religious_figure", label: "종교", color: "#F59E0B", icon: Scroll },
-  { key: "scientist", label: "과학자", color: "#10B981", icon: Atom },
-  { key: "historical_figure", label: "역사", color: "#EF4444", icon: Crown },
-  { key: "cultural_figure", label: "문화", color: "#EC4899", icon: Palette },
+  { key: "all", label: "\uC804\uCCB4", color: "#2C2416", icon: Network },
+  { key: "philosopher", label: "\uCCA0\uD559\uC790", color: "#4A5D8A", icon: BookOpen },
+  { key: "religious_figure", label: "\uC885\uAD50", color: "#B8860B", icon: Scroll },
+  { key: "scientist", label: "\uACFC\uD559\uC790", color: "#5B7355", icon: Atom },
+  { key: "historical_figure", label: "\uC5ED\uC0AC", color: "#8B4040", icon: Crown },
+  { key: "cultural_figure", label: "\uBB38\uD654", color: "#7A5478", icon: Palette },
 ];
 
 const CATEGORY_COLORS: Record<string, string> = {
-  philosopher: "#6366F1",
-  religious_figure: "#F59E0B",
-  scientist: "#10B981",
-  historical_figure: "#EF4444",
-  cultural_figure: "#EC4899",
+  philosopher: "#4A5D8A",
+  religious_figure: "#B8860B",
+  scientist: "#5B7355",
+  historical_figure: "#8B4040",
+  cultural_figure: "#7A5478",
 };
 
 const ENTITY_TYPE_COLORS: Record<string, string> = {
@@ -102,20 +102,20 @@ const ENTITY_TYPE_COLORS: Record<string, string> = {
 };
 
 const ENTITY_TYPE_LABELS: Record<string, string> = {
-  event: "사건",
-  ideology: "사상",
-  movement: "운동/학파",
-  institution: "기관",
-  text: "경전/문헌",
-  concept: "개념",
-  nation: "국가",
+  event: "\uC0AC\uAC74",
+  ideology: "\uC0AC\uC0C1",
+  movement: "\uC6B4\uB3D9/\uD559\uD30C",
+  institution: "\uAE30\uAD00",
+  text: "\uACBD\uC804/\uBB38\uD5CC",
+  concept: "\uAC1C\uB150",
+  nation: "\uAD6D\uAC00",
 };
 
 const ERA_LABELS: Record<string, string> = {
-  ancient: "고대",
-  medieval: "중세",
-  modern: "근대",
-  contemporary: "현대",
+  ancient: "\uACE0\uB300",
+  medieval: "\uC911\uC138",
+  modern: "\uADFC\uB300",
+  contemporary: "\uD604\uB300",
 };
 
 const ERA_COLORS: Record<string, string> = {
@@ -150,59 +150,59 @@ const RELATIONSHIP_TYPE_COLORS: Record<string, string> = {
 };
 
 const RELATIONSHIP_LABELS: Record<string, string> = {
-  influenced: "영향",
-  teacher_student: "사제",
-  opposed: "대립",
-  criticized: "비판",
-  developed: "발전",
-  parallel: "유사",
-  contextual: "맥락",
-  contemporary: "동시대",
-  collaborated: "협력",
-  founded: "창설",
-  advocated: "주창",
-  authored: "저술",
-  member_of: "소속",
-  participated: "참여",
-  caused: "원인",
-  affected_by: "영향받음",
-  belongs_to: "소속",
-  preceded: "선행",
-  part_of: "일부",
-  opposed_to: "대립",
-  evolved_into: "발전",
+  influenced: "\uC601\uD5A5",
+  teacher_student: "\uC0AC\uC81C",
+  opposed: "\uB300\uB9BD",
+  criticized: "\uBE44\uD310",
+  developed: "\uBC1C\uC804",
+  parallel: "\uC720\uC0AC",
+  contextual: "\uB9E5\uB77D",
+  contemporary: "\uB3D9\uC2DC\uB300",
+  collaborated: "\uD611\uB825",
+  founded: "\uCC3D\uC124",
+  advocated: "\uC8FC\uCC3D",
+  authored: "\uC800\uC220",
+  member_of: "\uC18C\uC18D",
+  participated: "\uCC38\uC5EC",
+  caused: "\uC6D0\uC778",
+  affected_by: "\uC601\uD5A5\uBC1B\uC74C",
+  belongs_to: "\uC18C\uC18D",
+  preceded: "\uC120\uD589",
+  part_of: "\uC77C\uBD80",
+  opposed_to: "\uB300\uB9BD",
+  evolved_into: "\uBC1C\uC804",
 };
 
 const REL_TYPE_FILTERS = [
-  { key: "all", label: "전체" },
-  { key: "influenced", label: "영향" },
-  { key: "teacher_student", label: "사제" },
-  { key: "opposed", label: "대립" },
-  { key: "developed", label: "발전" },
-  { key: "parallel", label: "유사" },
-  { key: "collaborated", label: "협력" },
-  { key: "founded", label: "창설" },
-  { key: "authored", label: "저술" },
-  { key: "caused", label: "원인" },
+  { key: "all", label: "\uC804\uCCB4" },
+  { key: "influenced", label: "\uC601\uD5A5" },
+  { key: "teacher_student", label: "\uC0AC\uC81C" },
+  { key: "opposed", label: "\uB300\uB9BD" },
+  { key: "developed", label: "\uBC1C\uC804" },
+  { key: "parallel", label: "\uC720\uC0AC" },
+  { key: "collaborated", label: "\uD611\uB825" },
+  { key: "founded", label: "\uCC3D\uC124" },
+  { key: "authored", label: "\uC800\uC220" },
+  { key: "caused", label: "\uC6D0\uC778" },
 ];
 
 // ── Helpers ──
 
 function getRelColor(type: string, alpha: number): string {
-  const template = RELATIONSHIP_TYPE_COLORS[type] || "rgba(148,163,184,{a})";
+  const template = RELATIONSHIP_TYPE_COLORS[type] || "rgba(184,134,11,{a})";
   return template.replace("{a}", String(alpha));
 }
 
 function getNodeColor(node: SimNode): string {
   if (node.nodeType === "entity") {
-    return ENTITY_TYPE_COLORS[node.entityType || "concept"] || "#94A3B8";
+    return ENTITY_TYPE_COLORS[node.entityType || "concept"] || "#9C8B73";
   }
-  return CATEGORY_COLORS[node.category] || "#64748B";
+  return CATEGORY_COLORS[node.category] || "#7A6B55";
 }
 
 function getNodeLabel(node: SimNode): string {
   if (node.nodeType === "entity") {
-    return ENTITY_TYPE_LABELS[node.entityType || "concept"] || "엔터티";
+    return ENTITY_TYPE_LABELS[node.entityType || "concept"] || "\uC5D4\uD130\uD2F0";
   }
   return getCategoryLabel(node.category);
 }
@@ -565,7 +565,8 @@ export default function ConnectionsPage() {
       ctx.save();
       ctx.clearRect(0, 0, width, height);
 
-      ctx.fillStyle = "#0F172A";
+      // Fresco ivory background
+      ctx.fillStyle = "#FAF6E9";
       ctx.fillRect(0, 0, width, height);
 
       ctx.translate(transform.x, transform.y);
@@ -655,7 +656,7 @@ export default function ConnectionsPage() {
         if (node.x == null || node.y == null) return;
 
         let nodeAlpha = 0.85;
-        let strokeColor = "rgba(255,255,255,0.08)";
+        let strokeColor = "rgba(250,246,233,0.08)";
         let strokeWidth = 0.5;
         let drawLabel = node.radius >= 8;
         let labelAlpha = 0.7;
@@ -663,19 +664,19 @@ export default function ConnectionsPage() {
         if (currentSelected && egoFirstSet) {
           if (node.id === currentSelected) {
             nodeAlpha = 1;
-            strokeColor = "rgba(255,255,255,0.8)";
+            strokeColor = "rgba(250,246,233,0.8)";
             strokeWidth = 2;
             drawLabel = true;
             labelAlpha = 1;
           } else if (egoFirstSet.has(node.id)) {
             nodeAlpha = 0.9;
-            strokeColor = "rgba(255,255,255,0.3)";
+            strokeColor = "rgba(250,246,233,0.3)";
             strokeWidth = 1;
             drawLabel = true;
             labelAlpha = 0.85;
           } else if (egoSecondSet?.has(node.id)) {
             nodeAlpha = 0.4;
-            strokeColor = "rgba(255,255,255,0.1)";
+            strokeColor = "rgba(250,246,233,0.1)";
             strokeWidth = 0.5;
             drawLabel = node.radius >= 7;
             labelAlpha = 0.4;
@@ -687,7 +688,7 @@ export default function ConnectionsPage() {
         } else if (currentHover) {
           if (highlightIds.has(node.id)) {
             nodeAlpha = 1;
-            strokeColor = "rgba(255,255,255,0.5)";
+            strokeColor = "rgba(250,246,233,0.5)";
             strokeWidth = 1.5;
             drawLabel = true;
             labelAlpha = 1;
@@ -725,7 +726,7 @@ export default function ConnectionsPage() {
 
         ctx.globalAlpha = 1;
 
-        // Glow for selected center node
+        // Glow for selected center node (gold glow)
         if (currentSelected && node.id === currentSelected) {
           if (node.nodeType === "entity") {
             drawDiamond(ctx, node.x, node.y, node.radius + 6);
@@ -733,7 +734,7 @@ export default function ConnectionsPage() {
             ctx.beginPath();
             ctx.arc(node.x, node.y, node.radius + 6, 0, Math.PI * 2);
           }
-          ctx.strokeStyle = color;
+          ctx.strokeStyle = "rgba(184,134,11,0.5)";
           ctx.globalAlpha = 0.3;
           ctx.lineWidth = 2;
           ctx.stroke();
@@ -744,18 +745,20 @@ export default function ConnectionsPage() {
         if (drawLabel) {
           const label = node.name.ko;
           const fontSize = node.id === currentSelected ? 12 : node.radius >= 10 ? 10 : 9;
-          ctx.font = `${node.id === currentSelected ? "bold " : ""}${fontSize}px -apple-system, "Pretendard", sans-serif`;
+          ctx.font = `${node.id === currentSelected ? "bold " : ""}${fontSize}px "Pretendard", -apple-system, sans-serif`;
           ctx.textAlign = "center";
           ctx.textBaseline = "top";
           ctx.globalAlpha = labelAlpha;
 
-          ctx.fillStyle = "rgba(15,23,42,0.8)";
+          // Label text outline (parchment background for readability)
+          ctx.fillStyle = "rgba(240,230,211,0.9)";
           ctx.fillText(label, node.x + 0.5, node.y + node.radius + 3.5);
           ctx.fillText(label, node.x - 0.5, node.y + node.radius + 3.5);
           ctx.fillText(label, node.x, node.y + node.radius + 4.5);
           ctx.fillText(label, node.x, node.y + node.radius + 2.5);
 
-          ctx.fillStyle = `rgba(255,255,255,${labelAlpha})`;
+          // Label text (ink-dark)
+          ctx.fillStyle = `rgba(44,36,22,${labelAlpha})`;
           ctx.fillText(label, node.x, node.y + node.radius + 3);
 
           ctx.globalAlpha = 1;
@@ -770,33 +773,35 @@ export default function ConnectionsPage() {
           const en = hNode.name.en;
           const label = `${name} (${en})`;
           const typeLabel = hNode.nodeType === "entity"
-            ? ENTITY_TYPE_LABELS[hNode.entityType || ""] || "엔터티"
+            ? ENTITY_TYPE_LABELS[hNode.entityType || ""] || "\uC5D4\uD130\uD2F0"
             : getCategoryLabel(hNode.category);
-          const connText = `${hNode.connections} 연결`;
+          const connText = `${hNode.connections} \uC5F0\uACB0`;
 
-          ctx.font = 'bold 12px -apple-system, "Pretendard", sans-serif';
+          ctx.font = 'bold 12px "Pretendard", -apple-system, sans-serif';
           const textW = Math.max(ctx.measureText(label).width, ctx.measureText(connText).width + 60);
           const boxW = textW + 20;
           const boxH = 44;
           const bx = hNode.x - boxW / 2;
           const by = hNode.y - hNode.radius - boxH - 8;
 
-          ctx.fillStyle = "rgba(15,23,42,0.95)";
+          // Tooltip background (parchment)
+          ctx.fillStyle = "rgba(240,230,211,0.95)";
           ctx.beginPath();
-          ctx.roundRect(bx, by, boxW, boxH, 6);
+          ctx.roundRect(bx, by, boxW, boxH, 4);
           ctx.fill();
-          ctx.strokeStyle = "rgba(255,255,255,0.15)";
+          ctx.strokeStyle = "rgba(212,196,171,0.6)";
           ctx.lineWidth = 1;
           ctx.stroke();
 
-          ctx.fillStyle = "#ffffff";
-          ctx.font = 'bold 11px -apple-system, "Pretendard", sans-serif';
+          // Tooltip text (ink-dark)
+          ctx.fillStyle = "#2C2416";
+          ctx.font = 'bold 11px "Pretendard", -apple-system, sans-serif';
           ctx.textAlign = "center";
           ctx.textBaseline = "middle";
           ctx.fillText(label, hNode.x, by + 16);
 
           ctx.fillStyle = getNodeColor(hNode);
-          ctx.font = '10px -apple-system, "Pretendard", sans-serif';
+          ctx.font = '10px "Pretendard", -apple-system, sans-serif';
           ctx.fillText(
             `${typeLabel} | ${ERA_LABELS[hNode.era] || hNode.era} | ${connText}`,
             hNode.x,
@@ -815,10 +820,10 @@ export default function ConnectionsPage() {
           const ax = width / 2 + anchor.x * width * 0.35;
           const ay = height / 2 + anchor.y * height * 0.35;
 
-          ctx.font = 'bold 11px -apple-system, "Pretendard", sans-serif';
+          ctx.font = 'bold 11px "Pretendard", -apple-system, sans-serif';
           ctx.textAlign = "center";
           ctx.textBaseline = "middle";
-          ctx.globalAlpha = 0.15;
+          ctx.globalAlpha = 0.2;
           ctx.fillStyle = info.color;
           ctx.fillText(info.label, ax, ay);
           ctx.globalAlpha = 1;
@@ -1067,28 +1072,28 @@ export default function ConnectionsPage() {
   const totalNodes = allPersons.length + (showEntities ? allEntities.length : 0);
 
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen bg-[#FAF6E9]">
       {/* Header */}
-      <div className="border-b border-white/10 bg-[#0F172A]/80 backdrop-blur-md sticky top-16 z-30">
+      <div className="border-b border-[#D4C4AB] bg-[#FAF6E9]/80 backdrop-blur-md sticky top-16 z-30">
         <div className="max-w-[1600px] mx-auto px-4 py-4">
           <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-500/20 to-purple-500/20 flex items-center justify-center">
-                <Network className="w-5 h-5 text-cyan-400" />
+              <div className="w-10 h-10 rounded bg-gradient-to-br from-[#B8860B]/20 to-[#D4A84B]/20 flex items-center justify-center">
+                <Network className="w-5 h-5 text-[#B8860B]" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-white">
+                <h1 className="text-xl font-bold text-[#2C2416]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                   인드라망 &mdash; 인류 지성의 연결 지도
                 </h1>
-                <p className="text-sm text-gray-400">
+                <p className="text-sm text-[#7A6B55]" style={{ fontFamily: "'Pretendard', sans-serif" }}>
                   {filteredNodes.length}개 노드, {filteredLinks.length}개 관계
                   {showEntities && (
-                    <span className="text-purple-400 ml-1">
+                    <span className="text-[#7A5478] ml-1">
                       (인물 {allPersons.length} + 엔터티 {allEntities.length})
                     </span>
                   )}
                   {selectedNode && selectedData && (
-                    <span className="text-cyan-400 ml-2">
+                    <span className="text-[#B8860B] ml-2">
                       | {selectedData.name.ko} 중심 보기
                     </span>
                   )}
@@ -1100,10 +1105,10 @@ export default function ConnectionsPage() {
               <button
                 onClick={() => setShowEntities(!showEntities)}
                 className={cn(
-                  "flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-medium transition-all",
+                  "flex items-center gap-1.5 px-3 py-2 rounded text-xs font-medium transition-all",
                   showEntities
-                    ? "bg-purple-500/20 text-purple-400 ring-1 ring-purple-500/30"
-                    : "bg-white/5 text-gray-400 hover:bg-white/10"
+                    ? "bg-[#7A5478]/15 text-[#7A5478] ring-1 ring-[#7A5478]/30"
+                    : "bg-[#E8DCCA]/50 text-[#7A6B55] hover:bg-[#E8DCCA]"
                 )}
                 title="엔터티(사건/사상/기관 등) 표시"
               >
@@ -1118,20 +1123,21 @@ export default function ConnectionsPage() {
 
               {/* Search */}
               <div className="relative hidden md:block">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" />
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#9C8B73]" />
                 <input
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   placeholder="인물/엔터티 검색..."
-                  className="pl-9 pr-4 py-2 rounded-lg bg-white/5 border border-white/10 text-sm text-white placeholder-gray-500 w-48 focus:w-64 transition-all focus:outline-none focus:ring-1 focus:ring-cyan-500/50"
+                  className="pl-9 pr-4 py-2 rounded bg-[#E8DCCA]/50 border border-[#D4C4AB] text-sm text-[#2C2416] placeholder-[#9C8B73] w-48 focus:w-64 transition-all focus:outline-none focus:ring-1 focus:ring-[#B8860B]/50"
+                  style={{ fontFamily: "'Pretendard', sans-serif" }}
                 />
                 {searchQuery && searchResults.length > 0 && (
-                  <div className="absolute top-full mt-1 left-0 right-0 bg-[#1E293B] border border-white/10 rounded-lg overflow-hidden z-50 max-h-64 overflow-y-auto">
+                  <div className="absolute top-full mt-1 left-0 right-0 bg-[#F0E6D3] border border-[#D4C4AB] rounded overflow-hidden z-50 max-h-64 overflow-y-auto">
                     {searchResults.map((item: any) => {
                       const isEntity = item.nodeType === "entity";
                       const color = isEntity
-                        ? ENTITY_TYPE_COLORS[item.type] || "#94A3B8"
+                        ? ENTITY_TYPE_COLORS[item.type] || "#9C8B73"
                         : getCategoryHexColor(item.category);
                       const typeLabel = isEntity
                         ? ENTITY_TYPE_LABELS[item.type] || "엔터티"
@@ -1140,7 +1146,7 @@ export default function ConnectionsPage() {
                         <button
                           key={item.id}
                           onClick={() => focusOnNode(item.id)}
-                          className="w-full px-4 py-2 text-left hover:bg-white/5 flex items-center gap-2"
+                          className="w-full px-4 py-2 text-left hover:bg-[#E8DCCA]/50 flex items-center gap-2"
                         >
                           <div
                             className={cn(
@@ -1156,8 +1162,8 @@ export default function ConnectionsPage() {
                               {item.name.ko[0]}
                             </span>
                           </div>
-                          <span className="text-sm text-white">{item.name.ko}</span>
-                          <span className="text-xs text-gray-500 ml-auto">
+                          <span className="text-sm text-[#2C2416]">{item.name.ko}</span>
+                          <span className="text-xs text-[#9C8B73] ml-auto">
                             {typeLabel}
                           </span>
                         </button>
@@ -1168,32 +1174,32 @@ export default function ConnectionsPage() {
               </div>
               <button
                 onClick={resetView}
-                className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
+                className="p-2 rounded bg-[#E8DCCA]/50 hover:bg-[#E8DCCA] transition-colors"
                 title="초기화"
               >
-                <RotateCcw className="w-5 h-5 text-gray-400" />
+                <RotateCcw className="w-5 h-5 text-[#7A6B55]" />
               </button>
               <button
                 onClick={() => setShowInfo(!showInfo)}
-                className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
+                className="p-2 rounded bg-[#E8DCCA]/50 hover:bg-[#E8DCCA] transition-colors"
               >
-                <Info className="w-5 h-5 text-gray-400" />
+                <Info className="w-5 h-5 text-[#7A6B55]" />
               </button>
             </div>
           </div>
 
           {showInfo && (
-            <div className="mb-3 p-4 rounded-lg bg-white/5 border border-white/10">
-              <h3 className="text-sm font-bold text-cyan-400 mb-2 flex items-center gap-2">
+            <div className="mb-3 p-4 rounded bg-[#E8DCCA]/50 border border-[#D4C4AB]">
+              <h3 className="text-sm font-bold text-[#B8860B] mb-2 flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                 <Sparkles className="w-4 h-4" />
                 인드라망(Indra&apos;s Net)이란?
               </h3>
-              <p className="text-sm text-gray-300 mb-2">
+              <p className="text-sm text-[#4A3C2A] mb-2" style={{ fontFamily: "'Pretendard', sans-serif" }}>
                 불교 화엄경의 개념으로, 모든 존재가 서로를 비추는 무한한 그물입니다.
                 인류의 모든 사상은 서로 연결되어 있으며, 하나를 이해하면 전체의 빛이 보입니다.
               </p>
-              <p className="text-xs text-gray-400">
-                <span className="text-cyan-400">●</span> 원형 = 인물 | <span className="text-purple-400">◆</span> 다이아몬드 = 엔터티(사건·사상·경전 등) |
+              <p className="text-xs text-[#7A6B55]" style={{ fontFamily: "'Pretendard', sans-serif" }}>
+                <span className="text-[#B8860B]">&#9679;</span> 원형 = 인물 | <span className="text-[#7A5478]">&#9670;</span> 다이아몬드 = 엔터티(사건·사상·경전 등) |
                 노드 클릭 = 1-2차 관계망 탐색 | 휠 = 확대/축소 | 드래그 = 이동
               </p>
             </div>
@@ -1201,7 +1207,7 @@ export default function ConnectionsPage() {
 
           {/* Filters */}
           <div className="flex flex-wrap gap-2 items-center">
-            <span className="text-xs text-gray-500 mr-1">카테고리:</span>
+            <span className="text-xs text-[#9C8B73] mr-1" style={{ fontFamily: "'Pretendard', sans-serif" }}>카테고리:</span>
             {CATEGORY_FILTERS.map((c) => (
               <button
                 key={c.key}
@@ -1213,7 +1219,7 @@ export default function ConnectionsPage() {
                   "px-3 py-1.5 rounded-full text-xs font-medium transition-all",
                   selectedCategory === c.key
                     ? "ring-1 ring-current"
-                    : "bg-white/5 text-gray-400 hover:bg-white/10"
+                    : "bg-[#E8DCCA]/50 text-[#7A6B55] hover:bg-[#E8DCCA]"
                 )}
                 style={
                   selectedCategory === c.key
@@ -1225,15 +1231,15 @@ export default function ConnectionsPage() {
               </button>
             ))}
 
-            <span className="text-gray-600 mx-1">|</span>
-            <span className="text-xs text-gray-500 mr-1">시대:</span>
+            <span className="text-[#D4C4AB] mx-1">|</span>
+            <span className="text-xs text-[#9C8B73] mr-1" style={{ fontFamily: "'Pretendard', sans-serif" }}>시대:</span>
             <button
               onClick={() => setSelectedEra("all")}
               className={cn(
                 "px-3 py-1.5 rounded-full text-xs font-medium transition-all",
                 selectedEra === "all"
-                  ? "bg-white/20 text-white ring-1 ring-white/30"
-                  : "bg-white/5 text-gray-400 hover:bg-white/10"
+                  ? "bg-[#D4C4AB] text-[#2C2416] ring-1 ring-[#D4C4AB]"
+                  : "bg-[#E8DCCA]/50 text-[#7A6B55] hover:bg-[#E8DCCA]"
               )}
             >
               전체
@@ -1246,7 +1252,7 @@ export default function ConnectionsPage() {
                   "px-3 py-1.5 rounded-full text-xs font-medium transition-all",
                   selectedEra === era
                     ? "ring-1 ring-current"
-                    : "bg-white/5 text-gray-400 hover:bg-white/10"
+                    : "bg-[#E8DCCA]/50 text-[#7A6B55] hover:bg-[#E8DCCA]"
                 )}
                 style={
                   selectedEra === era
@@ -1258,8 +1264,8 @@ export default function ConnectionsPage() {
               </button>
             ))}
 
-            <span className="text-gray-600 mx-1">|</span>
-            <span className="text-xs text-gray-500 mr-1">관계:</span>
+            <span className="text-[#D4C4AB] mx-1">|</span>
+            <span className="text-xs text-[#9C8B73] mr-1" style={{ fontFamily: "'Pretendard', sans-serif" }}>관계:</span>
             {REL_TYPE_FILTERS.map((t) => (
               <button
                 key={t.key}
@@ -1267,8 +1273,8 @@ export default function ConnectionsPage() {
                 className={cn(
                   "px-3 py-1.5 rounded-full text-xs font-medium transition-all",
                   selectedRelType === t.key
-                    ? "bg-cyan-500/20 text-cyan-400 ring-1 ring-cyan-500/50"
-                    : "bg-white/5 text-gray-400 hover:bg-white/10"
+                    ? "bg-[#B8860B]/20 text-[#B8860B] ring-1 ring-[#B8860B]/50"
+                    : "bg-[#E8DCCA]/50 text-[#7A6B55] hover:bg-[#E8DCCA]"
                 )}
               >
                 {t.label}
@@ -1278,7 +1284,7 @@ export default function ConnectionsPage() {
             {selectedNode && (
               <button
                 onClick={() => setSelectedNode(null)}
-                className="px-3 py-1.5 rounded-full text-xs bg-red-500/20 text-red-400 hover:bg-red-500/30 flex items-center gap-1"
+                className="px-3 py-1.5 rounded-full text-xs bg-[#8B4040]/15 text-[#8B4040] hover:bg-[#8B4040]/25 flex items-center gap-1"
               >
                 <X className="w-3 h-3" /> 선택 해제
               </button>
@@ -1292,20 +1298,20 @@ export default function ConnectionsPage() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
           {/* Canvas Area */}
           <div className="lg:col-span-3" ref={containerRef}>
-            <div className="relative bg-[#1E293B] rounded-xl border border-white/10 overflow-hidden">
+            <div className="relative bg-[#F0E6D3] rounded border border-[#D4C4AB] overflow-hidden">
               {/* Category + Entity Legend */}
               <div className="absolute top-3 left-3 z-10 flex flex-wrap gap-2 pointer-events-none">
                 {CATEGORY_FILTERS.slice(1).map((c) => (
-                  <div key={c.key} className="flex items-center gap-1 text-[9px] text-gray-400">
+                  <div key={c.key} className="flex items-center gap-1 text-[9px] text-[#7A6B55]">
                     <div className="w-2 h-2 rounded-full" style={{ backgroundColor: c.color }} />
                     {c.label}
                   </div>
                 ))}
                 {showEntities && (
                   <>
-                    <div className="w-px h-3 bg-gray-600 mx-1" />
+                    <div className="w-px h-3 bg-[#D4C4AB] mx-1" />
                     {Object.entries(ENTITY_TYPE_LABELS).map(([type, label]) => (
-                      <div key={type} className="flex items-center gap-1 text-[9px] text-gray-400">
+                      <div key={type} className="flex items-center gap-1 text-[9px] text-[#7A6B55]">
                         <div
                           className="w-2 h-2 rotate-45 rounded-[1px]"
                           style={{ backgroundColor: ENTITY_TYPE_COLORS[type] }}
@@ -1329,7 +1335,7 @@ export default function ConnectionsPage() {
               />
 
               {/* Stats overlay */}
-              <div className="absolute bottom-3 left-3 flex gap-3 text-[10px] text-gray-500 pointer-events-none">
+              <div className="absolute bottom-3 left-3 flex gap-3 text-[10px] text-[#9C8B73] pointer-events-none">
                 <span>노드: {filteredNodes.length}</span>
                 <span>연결: {filteredLinks.length}</span>
                 {selectedNode && egoData && (
@@ -1340,7 +1346,7 @@ export default function ConnectionsPage() {
                 )}
               </div>
 
-              <div className="absolute bottom-3 right-3 text-[10px] text-gray-600 pointer-events-none">
+              <div className="absolute bottom-3 right-3 text-[10px] text-[#9C8B73] pointer-events-none">
                 스크롤: 확대/축소 | 드래그: 이동 | 클릭: 선택
               </div>
             </div>
@@ -1351,14 +1357,14 @@ export default function ConnectionsPage() {
             {selectedNode && selectedData ? (
               <>
                 {/* Selected Node Info */}
-                <div className="bg-[#1E293B] rounded-xl border border-white/10 p-5">
+                <div className="bg-[#F0E6D3] rounded border border-[#D4C4AB] p-5">
                   <div className="flex items-center gap-3 mb-3">
                     {selectedData.nodeType === "entity" ? (
                       <div
                         className="w-12 h-12 rotate-45 rounded-md flex items-center justify-center text-lg font-bold"
                         style={{
-                          backgroundColor: (ENTITY_TYPE_COLORS[selectedData.type] || "#94A3B8") + "30",
-                          color: ENTITY_TYPE_COLORS[selectedData.type] || "#94A3B8",
+                          backgroundColor: (ENTITY_TYPE_COLORS[selectedData.type] || "#9C8B73") + "30",
+                          color: ENTITY_TYPE_COLORS[selectedData.type] || "#9C8B73",
                         }}
                       >
                         <span className="-rotate-45">{selectedData.name.ko[0]}</span>
@@ -1375,10 +1381,10 @@ export default function ConnectionsPage() {
                       </div>
                     )}
                     <div>
-                      <h2 className="text-lg font-bold text-white">
+                      <h2 className="text-lg font-bold text-[#2C2416]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                         {selectedData.name.ko}
                       </h2>
-                      <p className="text-sm text-gray-400">
+                      <p className="text-sm text-[#7A6B55]" style={{ fontFamily: "'Pretendard', sans-serif" }}>
                         {selectedData.name.en}
                       </p>
                     </div>
@@ -1389,11 +1395,11 @@ export default function ConnectionsPage() {
                       style={{
                         backgroundColor:
                           selectedData.nodeType === "entity"
-                            ? (ENTITY_TYPE_COLORS[selectedData.type] || "#94A3B8") + "20"
+                            ? (ENTITY_TYPE_COLORS[selectedData.type] || "#9C8B73") + "20"
                             : getCategoryHexColor(selectedData.category) + "20",
                         color:
                           selectedData.nodeType === "entity"
-                            ? ENTITY_TYPE_COLORS[selectedData.type] || "#94A3B8"
+                            ? ENTITY_TYPE_COLORS[selectedData.type] || "#9C8B73"
                             : getCategoryHexColor(selectedData.category),
                       }}
                     >
@@ -1412,11 +1418,11 @@ export default function ConnectionsPage() {
                         {ERA_LABELS[selectedData.era]}
                       </span>
                     )}
-                    <span className="px-2 py-0.5 rounded text-xs bg-white/5 text-gray-400">
+                    <span className="px-2 py-0.5 rounded text-xs bg-[#E8DCCA]/50 text-[#7A6B55]">
                       {connectionCounts[selectedData.id] || 0} 연결
                     </span>
                   </div>
-                  <p className="text-sm text-gray-300 leading-relaxed mb-3 line-clamp-4">
+                  <p className="text-sm text-[#4A3C2A] leading-relaxed mb-3 line-clamp-4" style={{ fontFamily: "'Pretendard', sans-serif" }}>
                     {selectedData.summary}
                   </p>
                   <Link
@@ -1425,16 +1431,16 @@ export default function ConnectionsPage() {
                         ? `/entities/${selectedData.id}`
                         : `/persons/${selectedData.id}`
                     }
-                    className="text-sm text-cyan-400 hover:text-cyan-300 transition-colors"
+                    className="text-sm text-[#B8860B] hover:text-[#D4A84B] transition-colors"
                   >
                     상세 페이지 &rarr;
                   </Link>
                 </div>
 
                 {/* Connections List */}
-                <div className="bg-[#1E293B] rounded-xl border border-white/10 p-5">
-                  <h3 className="text-sm font-bold text-white mb-3 flex items-center gap-2">
-                    <Layers className="w-4 h-4 text-cyan-400" />
+                <div className="bg-[#F0E6D3] rounded border border-[#D4C4AB] p-5">
+                  <h3 className="text-sm font-bold text-[#2C2416] mb-3 flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                    <Layers className="w-4 h-4 text-[#B8860B]" />
                     연결 관계 ({nodeRelationships.length})
                   </h3>
                   <div className="space-y-2 max-h-[400px] overflow-y-auto">
@@ -1444,12 +1450,12 @@ export default function ConnectionsPage() {
                       const typeLabel = RELATIONSHIP_LABELS[rel.type] || rel.type;
                       const isEntity = other.nodeType === "entity";
                       const otherColor = isEntity
-                        ? ENTITY_TYPE_COLORS[other.type] || "#94A3B8"
+                        ? ENTITY_TYPE_COLORS[other.type] || "#9C8B73"
                         : getCategoryHexColor(other.category);
                       return (
                         <div
                           key={i}
-                          className="p-3 rounded-lg bg-white/5 border-l-2 cursor-pointer hover:bg-white/10 transition-colors"
+                          className="p-3 rounded bg-[#E8DCCA]/50 border-l-2 cursor-pointer hover:bg-[#E8DCCA] transition-colors"
                           style={{ borderLeftColor: getRelColor(rel.type, 0.6) }}
                           onClick={() => focusOnNode(rel.other)}
                         >
@@ -1462,7 +1468,7 @@ export default function ConnectionsPage() {
                                 )}
                                 style={{ backgroundColor: otherColor }}
                               />
-                              <span className="text-sm font-medium text-white">
+                              <span className="text-sm font-medium text-[#2C2416]">
                                 {rel.direction === "outgoing" ? "\u2192 " : "\u2190 "}
                                 {other.name.ko}
                               </span>
@@ -1477,14 +1483,14 @@ export default function ConnectionsPage() {
                               {typeLabel}
                             </span>
                           </div>
-                          <p className="text-xs text-gray-400 line-clamp-2">
+                          <p className="text-xs text-[#7A6B55] line-clamp-2" style={{ fontFamily: "'Pretendard', sans-serif" }}>
                             {rel.description}
                           </p>
                         </div>
                       );
                     })}
                     {nodeRelationships.length === 0 && (
-                      <p className="text-xs text-gray-500 text-center py-4">
+                      <p className="text-xs text-[#9C8B73] text-center py-4">
                         연결된 관계가 없습니다
                       </p>
                     )}
@@ -1494,30 +1500,30 @@ export default function ConnectionsPage() {
             ) : (
               <div className="space-y-4">
                 {/* Stats */}
-                <div className="bg-[#1E293B] rounded-xl border border-white/10 p-5">
-                  <h3 className="text-sm font-bold text-white mb-3 flex items-center gap-2">
-                    <Sparkles className="w-4 h-4 text-cyan-400" />
+                <div className="bg-[#F0E6D3] rounded border border-[#D4C4AB] p-5">
+                  <h3 className="text-sm font-bold text-[#2C2416] mb-3 flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                    <Sparkles className="w-4 h-4 text-[#B8860B]" />
                     인드라망 통계
                   </h3>
                   <div className="grid grid-cols-2 gap-3">
-                    <div className="p-3 rounded-lg bg-white/5 text-center">
-                      <div className="text-2xl font-bold text-white">
+                    <div className="p-3 rounded bg-[#E8DCCA]/50 text-center">
+                      <div className="text-2xl font-bold text-[#2C2416]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                         {allPersons.length}
                       </div>
-                      <div className="text-xs text-gray-400">인물</div>
+                      <div className="text-xs text-[#7A6B55]">인물</div>
                     </div>
-                    <div className="p-3 rounded-lg bg-white/5 text-center">
-                      <div className="text-2xl font-bold text-white">
+                    <div className="p-3 rounded bg-[#E8DCCA]/50 text-center">
+                      <div className="text-2xl font-bold text-[#2C2416]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                         {allRelationships.length}
                       </div>
-                      <div className="text-xs text-gray-400">연결</div>
+                      <div className="text-xs text-[#7A6B55]">연결</div>
                     </div>
                     {showEntities && (
-                      <div className="p-3 rounded-lg bg-purple-500/10 text-center col-span-2">
-                        <div className="text-2xl font-bold text-purple-400">
+                      <div className="p-3 rounded bg-[#7A5478]/10 text-center col-span-2">
+                        <div className="text-2xl font-bold text-[#7A5478]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                           {allEntities.length}
                         </div>
-                        <div className="text-xs text-gray-400">엔터티 (사건·사상·경전 등)</div>
+                        <div className="text-xs text-[#7A6B55]">엔터티 (사건·사상·경전 등)</div>
                       </div>
                     )}
                     {CATEGORY_FILTERS.slice(1).map((c) => {
@@ -1527,13 +1533,13 @@ export default function ConnectionsPage() {
                       return (
                         <div
                           key={c.key}
-                          className="p-2 rounded-lg text-center"
+                          className="p-2 rounded text-center"
                           style={{ backgroundColor: c.color + "15" }}
                         >
-                          <div className="text-lg font-bold" style={{ color: c.color }}>
+                          <div className="text-lg font-bold" style={{ color: c.color, fontFamily: "'Cormorant Garamond', serif" }}>
                             {count}
                           </div>
-                          <div className="text-[10px] text-gray-400">{c.label}</div>
+                          <div className="text-[10px] text-[#7A6B55]">{c.label}</div>
                         </div>
                       );
                     })}
@@ -1541,8 +1547,8 @@ export default function ConnectionsPage() {
                 </div>
 
                 {/* Most Connected */}
-                <div className="bg-[#1E293B] rounded-xl border border-white/10 p-5">
-                  <h3 className="text-sm font-bold text-white mb-3">
+                <div className="bg-[#F0E6D3] rounded border border-[#D4C4AB] p-5">
+                  <h3 className="text-sm font-bold text-[#2C2416] mb-3" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                     가장 많이 연결된 노드
                   </h3>
                   <div className="space-y-2">
@@ -1557,7 +1563,7 @@ export default function ConnectionsPage() {
                       .map((item: any) => {
                         const isEntity = item.nodeType === "entity";
                         const color = isEntity
-                          ? ENTITY_TYPE_COLORS[item.type] || "#94A3B8"
+                          ? ENTITY_TYPE_COLORS[item.type] || "#9C8B73"
                           : getCategoryHexColor(item.category);
                         const typeLabel = isEntity
                           ? ENTITY_TYPE_LABELS[item.type] || "엔터티"
@@ -1565,7 +1571,7 @@ export default function ConnectionsPage() {
                         return (
                           <div
                             key={item.id}
-                            className="flex items-center justify-between p-2 rounded hover:bg-white/5 cursor-pointer transition-colors"
+                            className="flex items-center justify-between p-2 rounded hover:bg-[#E8DCCA]/50 cursor-pointer transition-colors"
                             onClick={() => focusOnNode(item.id)}
                           >
                             <div className="flex items-center gap-2">
@@ -1583,18 +1589,18 @@ export default function ConnectionsPage() {
                                   {item.name.ko[0]}
                                 </span>
                               </div>
-                              <span className="text-sm text-gray-300">
+                              <span className="text-sm text-[#4A3C2A]">
                                 {item.name.ko}
                               </span>
-                              <span className="text-[10px] text-gray-600">
+                              <span className="text-[10px] text-[#9C8B73]">
                                 {typeLabel}
                               </span>
                             </div>
                             <div className="flex items-center gap-1">
-                              <span className="text-xs text-gray-500">
+                              <span className="text-xs text-[#9C8B73]">
                                 {item.connections}
                               </span>
-                              <Network className="w-3 h-3 text-gray-600" />
+                              <Network className="w-3 h-3 text-[#9C8B73]" />
                             </div>
                           </div>
                         );
@@ -1603,12 +1609,12 @@ export default function ConnectionsPage() {
                 </div>
 
                 {/* Guide */}
-                <div className="bg-[#1E293B] rounded-xl border border-white/10 p-5">
-                  <h3 className="text-sm font-bold text-white mb-2">
+                <div className="bg-[#F0E6D3] rounded border border-[#D4C4AB] p-5">
+                  <h3 className="text-sm font-bold text-[#2C2416] mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                     사용 가이드
                   </h3>
-                  <ul className="text-xs text-gray-400 space-y-1.5">
-                    <li>- <span className="text-cyan-300">●</span> 원형 = 인물, <span className="text-purple-300">◆</span> 다이아몬드 = 엔터티</li>
+                  <ul className="text-xs text-[#7A6B55] space-y-1.5" style={{ fontFamily: "'Pretendard', sans-serif" }}>
+                    <li>- <span className="text-[#B8860B]">&#9679;</span> 원형 = 인물, <span className="text-[#7A5478]">&#9670;</span> 다이아몬드 = 엔터티</li>
                     <li>- 노드 클릭 시 1, 2차 관계망이 강조됩니다</li>
                     <li>- 마우스 휠로 확대/축소, 드래그로 이동</li>
                     <li>- 노드를 드래그하여 위치 조정 가능</li>
