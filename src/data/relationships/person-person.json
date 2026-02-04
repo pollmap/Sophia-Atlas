@@ -8,7 +8,10 @@
     "description": "탈레스는 아낙시만드로스의 스승으로, 밀레토스 학파의 자연철학 전통을 전수했다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["밀레토스학파", "자연철학"]
+    "tags": [
+      "밀레토스학파",
+      "자연철학"
+    ]
   },
   {
     "source": "anaximander",
@@ -19,7 +22,10 @@
     "description": "아낙시만드로스는 아낙시메네스의 스승으로, 아르케 탐구의 전통을 이어갔다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["밀레토스학파", "자연철학"]
+    "tags": [
+      "밀레토스학파",
+      "자연철학"
+    ]
   },
   {
     "source": "socrates",
@@ -30,7 +36,10 @@
     "description": "소크라테스는 플라톤의 스승으로, 대화법과 산파술은 플라톤 철학의 출발점이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["아테네철학", "문답법"]
+    "tags": [
+      "아테네철학",
+      "문답법"
+    ]
   },
   {
     "source": "plato",
@@ -41,7 +50,10 @@
     "description": "플라톤은 아리스토텔레스의 스승으로, 아카데메이아에서 20년간 가르쳤다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["아테네철학", "아카데메이아"]
+    "tags": [
+      "아테네철학",
+      "아카데메이아"
+    ]
   },
   {
     "source": "aristotle",
@@ -52,7 +64,10 @@
     "description": "아리스토텔레스는 알렉산드로스 대왕의 가정교사로, 철학과 과학을 가르쳤다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["교육", "헬레니즘"]
+    "tags": [
+      "교육",
+      "헬레니즘"
+    ]
   },
   {
     "source": "parmenides",
@@ -63,7 +78,10 @@
     "description": "파르메니데스는 엘레아의 제논의 스승으로, 존재론적 일원론을 전수했다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["엘레아학파", "존재론"]
+    "tags": [
+      "엘레아학파",
+      "존재론"
+    ]
   },
   {
     "source": "plato",
@@ -74,7 +92,10 @@
     "description": "플라톤의 이데아론은 플로티노스의 신플라톤주의 형성에 결정적 영향을 주었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["이데아론", "신플라톤주의"]
+    "tags": [
+      "이데아론",
+      "신플라톤주의"
+    ]
   },
   {
     "source": "plotinus",
@@ -85,7 +106,10 @@
     "description": "플로티노스의 신플라톤주의는 아우구스티누스의 기독교 신학 형성에 핵심적 영향을 미쳤다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["신플라톤주의", "교부철학"]
+    "tags": [
+      "신플라톤주의",
+      "교부철학"
+    ]
   },
   {
     "source": "democritus",
@@ -96,7 +120,10 @@
     "description": "데모크리토스의 원자론은 에피쿠로스 자연학의 기초가 되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["원자론", "유물론"]
+    "tags": [
+      "원자론",
+      "유물론"
+    ]
   },
   {
     "source": "heraclitus",
@@ -107,7 +134,10 @@
     "description": "헤라클레이토스의 만물유전과 대립의 통일 사상은 헤겔 변증법의 고대적 원형이 되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["변증법", "생성"]
+    "tags": [
+      "변증법",
+      "생성"
+    ]
   },
   {
     "source": "zeno-of-citium",
@@ -118,7 +148,9 @@
     "description": "키티온의 제논은 클레안테스의 스승으로, 스토아 철학의 기초를 전수했다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["스토아학파"]
+    "tags": [
+      "스토아학파"
+    ]
   },
   {
     "source": "cleanthes",
@@ -129,7 +161,9 @@
     "description": "클레안테스는 크리시포스의 스승으로, 스토아 논리학의 체계화를 이끌었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["스토아학파"]
+    "tags": [
+      "스토아학파"
+    ]
   },
   {
     "source": "epicurus",
@@ -140,7 +174,10 @@
     "description": "에피쿠로스의 자연철학과 윤리학은 루크레티우스의 『사물의 본성에 관하여』에 충실히 계승되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["에피쿠로스학파", "원자론"]
+    "tags": [
+      "에피쿠로스학파",
+      "원자론"
+    ]
   },
   {
     "source": "augustine",
@@ -151,7 +188,10 @@
     "description": "아우구스티누스의 신학적 전통은 토마스 아퀴나스의 스콜라 철학에 중요한 토대를 제공했다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["교부철학", "스콜라철학"]
+    "tags": [
+      "교부철학",
+      "스콜라철학"
+    ]
   },
   {
     "source": "aristotle",
@@ -162,7 +202,10 @@
     "description": "아리스토텔레스의 철학은 토마스 아퀴나스에 의해 기독교 신학과 종합되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["스콜라철학", "형이상학"]
+    "tags": [
+      "스콜라철학",
+      "형이상학"
+    ]
   },
   {
     "source": "aristotle",
@@ -173,7 +216,10 @@
     "description": "아리스토텔레스의 철학은 이븐 루시드(아베로에스)에 의해 이슬람 세계에서 주석되고 발전되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["이슬람철학", "아리스토텔레스주의"]
+    "tags": [
+      "이슬람철학",
+      "아리스토텔레스주의"
+    ]
   },
   {
     "source": "ibn-rushd",
@@ -184,7 +230,10 @@
     "description": "이븐 루시드의 아리스토텔레스 주석은 토마스 아퀴나스의 철학적 방법론에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["이슬람철학", "스콜라철학"]
+    "tags": [
+      "이슬람철학",
+      "스콜라철학"
+    ]
   },
   {
     "source": "ibn-sina",
@@ -195,7 +244,9 @@
     "description": "이븐 시나의 철학은 알 가잘리가 비판적으로 검토한 주요 대상이었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["이슬람철학"]
+    "tags": [
+      "이슬람철학"
+    ]
   },
   {
     "source": "al-ghazali",
@@ -206,7 +257,10 @@
     "description": "알 가잘리의 철학 비판에 대해 이븐 루시드는 『반박의 반박』으로 반론했다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["이슬람철학", "철학-신학논쟁"]
+    "tags": [
+      "이슬람철학",
+      "철학-신학논쟁"
+    ]
   },
   {
     "source": "plato",
@@ -217,7 +271,10 @@
     "description": "플라톤의 이원론과 선의 이데아는 아우구스티누스의 기독교 플라톤주의의 기반이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["플라톤주의", "교부철학"]
+    "tags": [
+      "플라톤주의",
+      "교부철학"
+    ]
   },
   {
     "source": "anselm",
@@ -228,7 +285,10 @@
     "description": "안셀무스의 신 존재 증명은 토마스 아퀴나스의 다섯 가지 길에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["스콜라철학", "신존재증명"]
+    "tags": [
+      "스콜라철학",
+      "신존재증명"
+    ]
   },
   {
     "source": "albertus-magnus",
@@ -239,7 +299,10 @@
     "description": "알베르투스 마그누스는 토마스 아퀴나스의 스승으로, 아리스토텔레스 철학의 수용을 이끌었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["스콜라철학", "도미니코회"]
+    "tags": [
+      "스콜라철학",
+      "도미니코회"
+    ]
   },
   {
     "source": "al-farabi",
@@ -250,7 +313,9 @@
     "description": "알 파라비의 형이상학과 정치철학은 이븐 시나의 철학 체계 형성에 결정적 영향을 주었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["이슬람철학"]
+    "tags": [
+      "이슬람철학"
+    ]
   },
   {
     "source": "ibn-sina",
@@ -261,7 +326,9 @@
     "description": "이븐 시나의 철학적 전통은 이븐 루시드의 아리스토텔레스 해석에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["이슬람철학"]
+    "tags": [
+      "이슬람철학"
+    ]
   },
   {
     "source": "aristotle",
@@ -272,7 +339,10 @@
     "description": "아리스토텔레스의 철학은 마이모니데스가 유대교 신학을 체계화하는 데 핵심 틀을 제공했다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["유대철학", "아리스토텔레스주의"]
+    "tags": [
+      "유대철학",
+      "아리스토텔레스주의"
+    ]
   },
   {
     "source": "maimonides",
@@ -283,7 +353,10 @@
     "description": "마이모니데스의 신앙과 이성의 조화 시도는 토마스 아퀴나스에게 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["유대철학", "스콜라철학"]
+    "tags": [
+      "유대철학",
+      "스콜라철학"
+    ]
   },
   {
     "source": "descartes",
@@ -294,7 +367,10 @@
     "description": "데카르트의 합리론과 실체 개념은 스피노자의 범신론적 일원론의 출발점이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["합리론", "실체론"]
+    "tags": [
+      "합리론",
+      "실체론"
+    ]
   },
   {
     "source": "descartes",
@@ -305,7 +381,9 @@
     "description": "데카르트의 합리주의 방법론은 라이프니츠의 모나드론 형성에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["합리론"]
+    "tags": [
+      "합리론"
+    ]
   },
   {
     "source": "descartes",
@@ -316,7 +394,10 @@
     "description": "데카르트의 심신이원론은 말브랑슈의 기회원인론의 직접적 출발점이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["합리론", "기회원인론"]
+    "tags": [
+      "합리론",
+      "기회원인론"
+    ]
   },
   {
     "source": "locke",
@@ -327,7 +408,9 @@
     "description": "로크의 경험론은 버클리의 관념론적 경험론으로 발전하는 토대를 제공했다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["경험론"]
+    "tags": [
+      "경험론"
+    ]
   },
   {
     "source": "berkeley",
@@ -338,7 +421,10 @@
     "description": "버클리의 관념론적 경험론은 흄의 급진적 회의주의로 이어졌다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["경험론", "회의주의"]
+    "tags": [
+      "경험론",
+      "회의주의"
+    ]
   },
   {
     "source": "hume",
@@ -349,7 +435,10 @@
     "description": "흄의 회의주의는 칸트를 '독단의 잠'에서 깨워 비판철학을 탄생시켰다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["경험론", "비판철학"]
+    "tags": [
+      "경험론",
+      "비판철학"
+    ]
   },
   {
     "source": "kant",
@@ -360,7 +449,10 @@
     "description": "칸트의 선험철학은 피히테의 자아 철학과 독일 관념론의 출발점이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["독일관념론", "비판철학"]
+    "tags": [
+      "독일관념론",
+      "비판철학"
+    ]
   },
   {
     "source": "fichte",
@@ -371,7 +463,9 @@
     "description": "피히테의 자아 철학은 셸링의 자연철학과 동일철학으로 발전되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["독일관념론"]
+    "tags": [
+      "독일관념론"
+    ]
   },
   {
     "source": "schelling",
@@ -382,7 +476,9 @@
     "description": "셸링의 동일철학은 헤겔의 절대적 관념론 체계의 발전에 영향을 주었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["독일관념론"]
+    "tags": [
+      "독일관념론"
+    ]
   },
   {
     "source": "hegel",
@@ -393,7 +489,10 @@
     "description": "헤겔의 변증법은 마르크스에 의해 유물론적으로 전도되어 역사유물론의 기초가 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["변증법", "유물론"]
+    "tags": [
+      "변증법",
+      "유물론"
+    ]
   },
   {
     "source": "hegel",
@@ -404,7 +503,10 @@
     "description": "키르케고르는 헤겔의 체계적 관념론에 반대하여 개인의 실존을 강조했다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["실존주의", "반헤겔"]
+    "tags": [
+      "실존주의",
+      "반헤겔"
+    ]
   },
   {
     "source": "schopenhauer",
@@ -415,7 +517,10 @@
     "description": "쇼펜하우어의 의지 철학은 니체의 힘에의 의지 개념 형성에 결정적 영향을 미쳤다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["의지철학", "생철학"]
+    "tags": [
+      "의지철학",
+      "생철학"
+    ]
   },
   {
     "source": "kant",
@@ -426,7 +531,10 @@
     "description": "칸트의 물자체 개념은 쇼펜하우어의 의지 형이상학의 출발점이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["비판철학", "의지철학"]
+    "tags": [
+      "비판철학",
+      "의지철학"
+    ]
   },
   {
     "source": "rousseau",
@@ -437,7 +545,10 @@
     "description": "루소의 자유와 도덕에 대한 사상은 칸트의 윤리학 형성에 깊은 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["계몽주의", "윤리학"]
+    "tags": [
+      "계몽주의",
+      "윤리학"
+    ]
   },
   {
     "source": "montesquieu",
@@ -448,7 +559,10 @@
     "description": "몽테스키외의 법의 정신은 루소의 사회계약론에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["계몽주의", "정치철학"]
+    "tags": [
+      "계몽주의",
+      "정치철학"
+    ]
   },
   {
     "source": "hobbes",
@@ -459,7 +573,10 @@
     "description": "홉스의 사회계약론은 로크가 비판적으로 계승하여 자유주의 정치철학을 발전시켰다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["사회계약론", "정치철학"]
+    "tags": [
+      "사회계약론",
+      "정치철학"
+    ]
   },
   {
     "source": "locke",
@@ -470,7 +587,10 @@
     "description": "로크의 자연권 사상은 루소의 사회계약론 형성에 기초를 제공했다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["사회계약론", "계몽주의"]
+    "tags": [
+      "사회계약론",
+      "계몽주의"
+    ]
   },
   {
     "source": "bacon",
@@ -481,7 +601,10 @@
     "description": "베이컨의 경험주의적 방법론은 홉스의 기계론적 자연관에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["경험주의", "기계론"]
+    "tags": [
+      "경험주의",
+      "기계론"
+    ]
   },
   {
     "source": "machiavelli",
@@ -492,7 +615,10 @@
     "description": "마키아벨리의 현실주의 정치관은 홉스의 권력 이론에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["정치철학", "현실주의"]
+    "tags": [
+      "정치철학",
+      "현실주의"
+    ]
   },
   {
     "source": "kierkegaard",
@@ -503,7 +629,9 @@
     "description": "키르케고르의 실존 개념은 하이데거의 현존재 분석에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["실존주의"]
+    "tags": [
+      "실존주의"
+    ]
   },
   {
     "source": "husserl",
@@ -514,7 +642,9 @@
     "description": "후설은 하이데거의 스승으로, 현상학적 방법론을 전수했으나 하이데거는 이를 독자적으로 변형했다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["현상학"]
+    "tags": [
+      "현상학"
+    ]
   },
   {
     "source": "heidegger",
@@ -525,7 +655,10 @@
     "description": "하이데거의 존재론은 사르트르의 실존주의 철학 형성에 결정적 영향을 미쳤다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["실존주의", "현상학"]
+    "tags": [
+      "실존주의",
+      "현상학"
+    ]
   },
   {
     "source": "heidegger",
@@ -536,7 +669,10 @@
     "description": "하이데거의 해석학적 현상학은 가다머의 철학적 해석학의 토대가 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["해석학", "현상학"]
+    "tags": [
+      "해석학",
+      "현상학"
+    ]
   },
   {
     "source": "sartre",
@@ -547,7 +683,10 @@
     "description": "사르트르와 보부아르는 평생의 지적 동반자로서 실존주의 철학을 함께 발전시켰다",
     "strength": 3,
     "direction": "bidirectional",
-    "tags": ["실존주의", "페미니즘"]
+    "tags": [
+      "실존주의",
+      "페미니즘"
+    ]
   },
   {
     "source": "sartre",
@@ -558,7 +697,10 @@
     "description": "사르트르와 카뮈는 전후 파리에서 실존주의 운동을 함께 이끌었으나 이후 결별했다",
     "strength": 2,
     "direction": "bidirectional",
-    "tags": ["실존주의", "전후파리"]
+    "tags": [
+      "실존주의",
+      "전후파리"
+    ]
   },
   {
     "source": "nietzsche",
@@ -569,7 +711,10 @@
     "description": "니체의 허무주의 진단과 존재 물음은 하이데거의 형이상학 해체에 깊은 영향을 주었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["허무주의", "존재론"]
+    "tags": [
+      "허무주의",
+      "존재론"
+    ]
   },
   {
     "source": "nietzsche",
@@ -580,7 +725,10 @@
     "description": "니체의 신의 죽음과 가치 전도는 사르트르의 무신론적 실존주의에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["실존주의", "허무주의"]
+    "tags": [
+      "실존주의",
+      "허무주의"
+    ]
   },
   {
     "source": "husserl",
@@ -591,7 +739,9 @@
     "description": "후설의 현상학은 메를로-퐁티의 신체 현상학의 방법론적 기초가 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["현상학"]
+    "tags": [
+      "현상학"
+    ]
   },
   {
     "source": "husserl",
@@ -602,7 +752,10 @@
     "description": "후설의 현상학은 레비나스의 타자 윤리학의 방법론적 출발점이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["현상학", "타자윤리"]
+    "tags": [
+      "현상학",
+      "타자윤리"
+    ]
   },
   {
     "source": "frege",
@@ -613,7 +766,10 @@
     "description": "프레게의 수리논리학은 러셀의 논리주의 프로그램에 결정적 영향을 미쳤다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["분석철학", "논리학"]
+    "tags": [
+      "분석철학",
+      "논리학"
+    ]
   },
   {
     "source": "russell",
@@ -624,7 +780,10 @@
     "description": "러셀은 비트겐슈타인의 스승이자 후원자로, 논리-철학 논고의 출간을 도왔다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["분석철학", "논리학"]
+    "tags": [
+      "분석철학",
+      "논리학"
+    ]
   },
   {
     "source": "frege",
@@ -635,7 +794,10 @@
     "description": "프레게의 의미론은 비트겐슈타인의 초기 언어철학에 중요한 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["분석철학", "의미론"]
+    "tags": [
+      "분석철학",
+      "의미론"
+    ]
   },
   {
     "source": "wittgenstein",
@@ -646,7 +808,10 @@
     "description": "비트겐슈타인의 후기 철학은 라일의 일상언어철학에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["분석철학", "일상언어철학"]
+    "tags": [
+      "분석철학",
+      "일상언어철학"
+    ]
   },
   {
     "source": "russell",
@@ -657,7 +822,10 @@
     "description": "러셀의 논리주의는 콰인의 자연주의적 인식론 형성에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["분석철학", "논리학"]
+    "tags": [
+      "분석철학",
+      "논리학"
+    ]
   },
   {
     "source": "quine",
@@ -668,7 +836,10 @@
     "description": "콰인의 전체론과 번역의 불확정성은 데이비슨의 의미론에 핵심적 영향을 미쳤다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["분석철학", "의미론"]
+    "tags": [
+      "분석철학",
+      "의미론"
+    ]
   },
   {
     "source": "kripke",
@@ -679,7 +850,10 @@
     "description": "크립키와 퍼트남은 동시대에 본질주의와 의미의 외재주의를 각각 독립적으로 발전시켰다",
     "strength": 2,
     "direction": "bidirectional",
-    "tags": ["분석철학", "의미론"]
+    "tags": [
+      "분석철학",
+      "의미론"
+    ]
   },
   {
     "source": "wittgenstein",
@@ -690,7 +864,10 @@
     "description": "비트겐슈타인의 언어게임 이론은 설의 화행이론에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["분석철학", "화행이론"]
+    "tags": [
+      "분석철학",
+      "화행이론"
+    ]
   },
   {
     "source": "marx",
@@ -701,7 +878,10 @@
     "description": "마르크스와 엥겔스는 공산당 선언과 자본론 등을 함께 저술하며 과학적 사회주의를 창시했다",
     "strength": 3,
     "direction": "bidirectional",
-    "tags": ["마르크스주의", "사회주의"]
+    "tags": [
+      "마르크스주의",
+      "사회주의"
+    ]
   },
   {
     "source": "marx",
@@ -712,7 +892,10 @@
     "description": "마르크스의 혁명 이론은 레닌의 볼셰비즘과 러시아 혁명의 이론적 토대가 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["마르크스주의", "혁명"]
+    "tags": [
+      "마르크스주의",
+      "혁명"
+    ]
   },
   {
     "source": "marx",
@@ -723,7 +906,10 @@
     "description": "마르크스의 사상은 그람시의 헤게모니 이론과 문화적 마르크스주의로 발전되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["마르크스주의", "헤게모니"]
+    "tags": [
+      "마르크스주의",
+      "헤게모니"
+    ]
   },
   {
     "source": "marx",
@@ -734,7 +920,10 @@
     "description": "마르크스의 소외론과 변증법은 루카치의 물화 이론의 핵심적 원천이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["마르크스주의", "물화"]
+    "tags": [
+      "마르크스주의",
+      "물화"
+    ]
   },
   {
     "source": "lukacs",
@@ -745,7 +934,10 @@
     "description": "루카치의 물화 개념은 아도르노의 비판이론에 중요한 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["비판이론", "물화"]
+    "tags": [
+      "비판이론",
+      "물화"
+    ]
   },
   {
     "source": "horkheimer",
@@ -756,7 +948,10 @@
     "description": "호르크하이머와 아도르노는 『계몽의 변증법』을 공저하며 비판이론을 정립했다",
     "strength": 3,
     "direction": "bidirectional",
-    "tags": ["프랑크푸르트학파", "비판이론"]
+    "tags": [
+      "프랑크푸르트학파",
+      "비판이론"
+    ]
   },
   {
     "source": "adorno",
@@ -767,7 +962,10 @@
     "description": "아도르노의 비판이론은 하버마스의 의사소통 합리성 이론으로 계승·발전되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["프랑크푸르트학파", "비판이론"]
+    "tags": [
+      "프랑크푸르트학파",
+      "비판이론"
+    ]
   },
   {
     "source": "habermas",
@@ -778,7 +976,10 @@
     "description": "하버마스는 호네트의 스승으로, 인정 이론을 통한 비판이론의 새로운 방향을 이끌었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["프랑크푸르트학파", "인정이론"]
+    "tags": [
+      "프랑크푸르트학파",
+      "인정이론"
+    ]
   },
   {
     "source": "marx",
@@ -789,7 +990,10 @@
     "description": "마르크스의 역사유물론은 벤야민의 역사철학과 문화비평에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["마르크스주의", "문화비평"]
+    "tags": [
+      "마르크스주의",
+      "문화비평"
+    ]
   },
   {
     "source": "saussure",
@@ -800,7 +1004,10 @@
     "description": "소쉬르의 구조언어학은 레비-스트로스의 구조인류학 방법론의 기초가 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["구조주의", "언어학"]
+    "tags": [
+      "구조주의",
+      "언어학"
+    ]
   },
   {
     "source": "saussure",
@@ -811,7 +1018,10 @@
     "description": "소쉬르의 기호학은 라캉의 구조주의적 정신분석학에 핵심적 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["구조주의", "정신분석"]
+    "tags": [
+      "구조주의",
+      "정신분석"
+    ]
   },
   {
     "source": "levi-strauss",
@@ -822,7 +1032,10 @@
     "description": "레비-스트로스의 구조주의 방법론은 바르트의 문화 기호학에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["구조주의", "기호학"]
+    "tags": [
+      "구조주의",
+      "기호학"
+    ]
   },
   {
     "source": "heidegger",
@@ -833,7 +1046,10 @@
     "description": "하이데거의 해체(Destruktion) 개념은 데리다의 해체(déconstruction)의 직접적 원천이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["해체주의", "현상학"]
+    "tags": [
+      "해체주의",
+      "현상학"
+    ]
   },
   {
     "source": "nietzsche",
@@ -844,7 +1060,10 @@
     "description": "니체의 계보학과 권력 분석은 푸코의 지식-권력 이론의 핵심적 영감이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["계보학", "권력이론"]
+    "tags": [
+      "계보학",
+      "권력이론"
+    ]
   },
   {
     "source": "nietzsche",
@@ -855,7 +1074,10 @@
     "description": "니체의 영원회귀와 힘에의 의지는 들뢰즈의 차이의 철학에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["차이철학", "생철학"]
+    "tags": [
+      "차이철학",
+      "생철학"
+    ]
   },
   {
     "source": "foucault",
@@ -866,7 +1088,9 @@
     "description": "푸코와 데리다는 동시대 프랑스 후기구조주의의 핵심 사상가로 서로 논쟁했다",
     "strength": 2,
     "direction": "bidirectional",
-    "tags": ["후기구조주의"]
+    "tags": [
+      "후기구조주의"
+    ]
   },
   {
     "source": "deleuze",
@@ -877,7 +1101,10 @@
     "description": "들뢰즈와 가타리는 『안티 오이디푸스』와 『천개의 고원』을 공저하며 리좀 철학을 창시했다",
     "strength": 3,
     "direction": "bidirectional",
-    "tags": ["리좀", "후기구조주의"]
+    "tags": [
+      "리좀",
+      "후기구조주의"
+    ]
   },
   {
     "source": "lacan",
@@ -888,7 +1115,10 @@
     "description": "라캉의 정신분석학은 들뢰즈가 비판적으로 계승하여 분열분석으로 발전시켰다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["정신분석", "분열분석"]
+    "tags": [
+      "정신분석",
+      "분열분석"
+    ]
   },
   {
     "source": "rawls",
@@ -899,7 +1129,10 @@
     "description": "롤스의 정의론은 샌델이 공동체주의 관점에서 비판하는 핵심 대상이 되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["정치철학", "정의론"]
+    "tags": [
+      "정치철학",
+      "정의론"
+    ]
   },
   {
     "source": "rawls",
@@ -910,7 +1143,10 @@
     "description": "노직은 자유지상주의 관점에서 롤스의 분배적 정의론에 반론을 제기했다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["정치철학", "자유지상주의"]
+    "tags": [
+      "정치철학",
+      "자유지상주의"
+    ]
   },
   {
     "source": "arendt",
@@ -921,7 +1157,9 @@
     "description": "아렌트와 롤스는 20세기 후반 정치철학의 부흥을 이끈 동시대 사상가였다",
     "strength": 2,
     "direction": "bidirectional",
-    "tags": ["정치철학"]
+    "tags": [
+      "정치철학"
+    ]
   },
   {
     "source": "kant",
@@ -932,7 +1170,10 @@
     "description": "칸트의 도덕법칙과 자율성 개념은 롤스의 정의론의 핵심 철학적 기반이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["윤리학", "정치철학"]
+    "tags": [
+      "윤리학",
+      "정치철학"
+    ]
   },
   {
     "source": "marx",
@@ -943,7 +1184,10 @@
     "description": "마르크스의 노동 개념은 아렌트가 비판적으로 검토한 핵심 주제였다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["정치철학", "노동론"]
+    "tags": [
+      "정치철학",
+      "노동론"
+    ]
   },
   {
     "source": "confucius",
@@ -954,7 +1198,10 @@
     "description": "공자의 인(仁) 사상은 맹자에 의해 성선설과 왕도정치로 체계화되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["유교", "성선설"]
+    "tags": [
+      "유교",
+      "성선설"
+    ]
   },
   {
     "source": "confucius",
@@ -965,7 +1212,10 @@
     "description": "공자의 예(禮) 사상은 순자에 의해 성악설과 예치론으로 발전되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["유교", "성악설"]
+    "tags": [
+      "유교",
+      "성악설"
+    ]
   },
   {
     "source": "laozi",
@@ -976,7 +1226,10 @@
     "description": "노자의 도(道) 사상은 장자에 의해 자유와 소요유의 철학으로 확장되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["도가", "무위자연"]
+    "tags": [
+      "도가",
+      "무위자연"
+    ]
   },
   {
     "source": "xunzi",
@@ -987,7 +1240,10 @@
     "description": "순자는 한비자의 스승으로, 인간 본성에 대한 현실적 관점을 법가 사상으로 발전시켰다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["법가", "유교"]
+    "tags": [
+      "법가",
+      "유교"
+    ]
   },
   {
     "source": "zhu-xi",
@@ -998,7 +1254,10 @@
     "description": "주희의 성리학은 왕양명이 비판적으로 계승하여 양명학(심학)으로 발전시켰다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["신유학", "심학"]
+    "tags": [
+      "신유학",
+      "심학"
+    ]
   },
   {
     "source": "confucius",
@@ -1009,7 +1268,10 @@
     "description": "공자의 유교 전통은 주희에 의해 성리학으로 체계화되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["유교", "성리학"]
+    "tags": [
+      "유교",
+      "성리학"
+    ]
   },
   {
     "source": "mencius",
@@ -1020,7 +1282,10 @@
     "description": "맹자의 사단칠정론은 주희 성리학의 심성론 형성에 핵심적 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["유교", "성리학"]
+    "tags": [
+      "유교",
+      "성리학"
+    ]
   },
   {
     "source": "buddha",
@@ -1031,7 +1296,10 @@
     "description": "붓다의 연기(緣起) 사상은 나가르주나의 공(空) 철학으로 심화·체계화되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["불교", "중관학파"]
+    "tags": [
+      "불교",
+      "중관학파"
+    ]
   },
   {
     "source": "nagarjuna",
@@ -1042,7 +1310,10 @@
     "description": "나가르주나의 공 사상은 바수반두의 유식학에 철학적 기반을 제공했다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["불교", "유식학"]
+    "tags": [
+      "불교",
+      "유식학"
+    ]
   },
   {
     "source": "shankara",
@@ -1053,7 +1324,10 @@
     "description": "샹카라의 불이일원론은 라마누자가 제한적 불이론으로 비판적으로 계승했다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["힌두철학", "베단타"]
+    "tags": [
+      "힌두철학",
+      "베단타"
+    ]
   },
   {
     "source": "patanjali",
@@ -1064,7 +1338,10 @@
     "description": "파탄잘리의 요가 체계는 샹카라의 해탈론에 실천적 영향을 미쳤다",
     "strength": 1,
     "direction": "directed",
-    "tags": ["힌두철학", "요가"]
+    "tags": [
+      "힌두철학",
+      "요가"
+    ]
   },
   {
     "source": "wonhyo",
@@ -1075,7 +1352,10 @@
     "description": "원효의 화쟁(和諍) 사상은 지눌의 선교일치(禪敎一致) 사상에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["한국불교", "화쟁"]
+    "tags": [
+      "한국불교",
+      "화쟁"
+    ]
   },
   {
     "source": "zhu-xi",
@@ -1086,7 +1366,10 @@
     "description": "주희의 성리학은 퇴계 이황에 의해 조선에서 독창적으로 심화·발전되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["성리학", "조선유학"]
+    "tags": [
+      "성리학",
+      "조선유학"
+    ]
   },
   {
     "source": "yi-hwang",
@@ -1097,7 +1380,10 @@
     "description": "퇴계 이황의 이기론은 율곡 이이가 비판적으로 계승하여 기발이승일도설을 제시했다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["성리학", "사칠논변"]
+    "tags": [
+      "성리학",
+      "사칠논변"
+    ]
   },
   {
     "source": "confucius",
@@ -1108,7 +1394,10 @@
     "description": "공자의 원시 유교 정신은 다산 정약용의 실학적 유교 개혁의 원천이 되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["실학", "유교개혁"]
+    "tags": [
+      "실학",
+      "유교개혁"
+    ]
   },
   {
     "source": "aristotle",
@@ -1119,7 +1408,10 @@
     "description": "아리스토텔레스의 형이상학과 자연학은 이븐 시나의 철학 체계의 핵심 원천이었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["이슬람철학", "아리스토텔레스주의"]
+    "tags": [
+      "이슬람철학",
+      "아리스토텔레스주의"
+    ]
   },
   {
     "source": "buddha",
@@ -1130,7 +1422,10 @@
     "description": "붓다와 소크라테스는 동시대에 각각 동양과 서양에서 독립적으로 인간 내면의 탐구를 시작했다",
     "strength": 1,
     "direction": "bidirectional",
-    "tags": ["축의시대", "동서비교"]
+    "tags": [
+      "축의시대",
+      "동서비교"
+    ]
   },
   {
     "source": "confucius",
@@ -1141,7 +1436,10 @@
     "description": "공자와 소크라테스는 축의 시대에 각각 예와 덕을 통한 교육의 이상을 추구했다",
     "strength": 1,
     "direction": "bidirectional",
-    "tags": ["축의시대", "동서비교"]
+    "tags": [
+      "축의시대",
+      "동서비교"
+    ]
   },
   {
     "source": "zeno-of-citium",
@@ -1152,7 +1450,10 @@
     "description": "스토아의 제논과 붓다는 독립적으로 욕망 제어와 내면의 평정을 추구하는 윤리를 발전시켰다",
     "strength": 1,
     "direction": "bidirectional",
-    "tags": ["동서비교", "금욕주의"]
+    "tags": [
+      "동서비교",
+      "금욕주의"
+    ]
   },
   {
     "source": "kant",
@@ -1163,7 +1464,10 @@
     "description": "칸트의 정언명령과 공자의 인(仁)은 보편적 도덕법칙의 동서양적 표현으로 비교된다",
     "strength": 1,
     "direction": "bidirectional",
-    "tags": ["동서비교", "윤리학"]
+    "tags": [
+      "동서비교",
+      "윤리학"
+    ]
   },
   {
     "source": "buddha",
@@ -1174,7 +1478,10 @@
     "description": "불교의 고(苦)와 해탈 사상은 쇼펜하우어의 의지 부정과 금욕주의에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["동서비교", "의지철학"]
+    "tags": [
+      "동서비교",
+      "의지철학"
+    ]
   },
   {
     "source": "newton",
@@ -1185,7 +1492,10 @@
     "description": "뉴턴과 라이프니츠는 독립적으로 미적분학을 발견하여 우선권 논쟁을 벌였다",
     "strength": 3,
     "direction": "bidirectional",
-    "tags": ["수학", "미적분논쟁"]
+    "tags": [
+      "수학",
+      "미적분논쟁"
+    ]
   },
   {
     "source": "copernicus",
@@ -1196,7 +1506,10 @@
     "description": "코페르니쿠스의 지동설은 갈릴레오가 관측을 통해 입증하고 옹호한 핵심 이론이었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["과학혁명", "천문학"]
+    "tags": [
+      "과학혁명",
+      "천문학"
+    ]
   },
   {
     "source": "galileo",
@@ -1207,7 +1520,10 @@
     "description": "갈릴레오의 역학과 관성 개념은 뉴턴의 운동법칙의 직접적 토대가 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["과학혁명", "역학"]
+    "tags": [
+      "과학혁명",
+      "역학"
+    ]
   },
   {
     "source": "kepler",
@@ -1218,7 +1534,10 @@
     "description": "케플러의 행성 운동 법칙은 뉴턴의 만유인력 법칙 도출의 핵심 기초가 되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["과학혁명", "천문학"]
+    "tags": [
+      "과학혁명",
+      "천문학"
+    ]
   },
   {
     "source": "faraday",
@@ -1229,7 +1548,10 @@
     "description": "패러데이의 전자기 실험은 맥스웰이 전자기장 이론으로 수학적으로 체계화했다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["물리학", "전자기학"]
+    "tags": [
+      "물리학",
+      "전자기학"
+    ]
   },
   {
     "source": "maxwell",
@@ -1240,7 +1562,10 @@
     "description": "맥스웰 방정식의 빛의 속도 불변은 아인슈타인의 특수 상대성이론의 출발점이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["물리학", "상대성이론"]
+    "tags": [
+      "물리학",
+      "상대성이론"
+    ]
   },
   {
     "source": "einstein",
@@ -1251,7 +1576,10 @@
     "description": "아인슈타인과 보어는 양자역학의 해석을 둘러싸고 역사적인 논쟁을 벌였다",
     "strength": 3,
     "direction": "bidirectional",
-    "tags": ["양자역학", "물리학논쟁"]
+    "tags": [
+      "양자역학",
+      "물리학논쟁"
+    ]
   },
   {
     "source": "bohr",
@@ -1262,7 +1590,10 @@
     "description": "보어는 하이젠베르크의 스승으로, 코펜하겐에서 양자역학의 기초를 함께 발전시켰다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["양자역학", "코펜하겐해석"]
+    "tags": [
+      "양자역학",
+      "코펜하겐해석"
+    ]
   },
   {
     "source": "planck",
@@ -1273,7 +1604,10 @@
     "description": "플랑크의 양자 가설은 아인슈타인의 광전효과 설명과 양자론 발전에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["양자역학", "물리학"]
+    "tags": [
+      "양자역학",
+      "물리학"
+    ]
   },
   {
     "source": "darwin",
@@ -1284,7 +1618,10 @@
     "description": "다윈과 월리스는 독립적으로 자연선택에 의한 진화론을 발견했다",
     "strength": 3,
     "direction": "bidirectional",
-    "tags": ["진화론", "생물학"]
+    "tags": [
+      "진화론",
+      "생물학"
+    ]
   },
   {
     "source": "darwin",
@@ -1295,7 +1632,10 @@
     "description": "다윈의 진화론은 토머스 헉슬리(다윈의 불독)에 의해 열렬히 옹호되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["진화론", "생물학"]
+    "tags": [
+      "진화론",
+      "생물학"
+    ]
   },
   {
     "source": "mendel",
@@ -1306,7 +1646,10 @@
     "description": "멘델과 다윈은 동시대에 각각 유전법칙과 진화론을 독립적으로 발전시켰다",
     "strength": 1,
     "direction": "bidirectional",
-    "tags": ["생물학", "유전학"]
+    "tags": [
+      "생물학",
+      "유전학"
+    ]
   },
   {
     "source": "crick",
@@ -1317,7 +1660,10 @@
     "description": "크릭과 왓슨은 DNA 이중나선 구조를 공동으로 발견했다",
     "strength": 3,
     "direction": "bidirectional",
-    "tags": ["생물학", "분자생물학"]
+    "tags": [
+      "생물학",
+      "분자생물학"
+    ]
   },
   {
     "source": "hilbert",
@@ -1328,7 +1674,10 @@
     "description": "힐베르트의 형식주의 프로그램은 괴델의 불완전성 정리에 의해 결정적 도전을 받았다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["수학", "논리학"]
+    "tags": [
+      "수학",
+      "논리학"
+    ]
   },
   {
     "source": "godel",
@@ -1339,7 +1688,10 @@
     "description": "괴델의 불완전성 정리는 튜링의 계산 가능성 이론과 튜링 기계 개념에 영감을 주었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["수학", "컴퓨터과학"]
+    "tags": [
+      "수학",
+      "컴퓨터과학"
+    ]
   },
   {
     "source": "turing",
@@ -1350,7 +1702,10 @@
     "description": "튜링의 계산 이론은 섀넌의 정보이론 발전에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["컴퓨터과학", "정보이론"]
+    "tags": [
+      "컴퓨터과학",
+      "정보이론"
+    ]
   },
   {
     "source": "euler",
@@ -1361,7 +1716,9 @@
     "description": "오일러의 방대한 수학적 업적은 가우스의 수론과 해석학 발전에 토대를 제공했다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["수학"]
+    "tags": [
+      "수학"
+    ]
   },
   {
     "source": "euclid",
@@ -1372,7 +1729,10 @@
     "description": "유클리드의 기하학적 방법은 뉴턴이 프린키피아를 기하학적으로 서술하는 모범이 되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["수학", "물리학"]
+    "tags": [
+      "수학",
+      "물리학"
+    ]
   },
   {
     "source": "archimedes",
@@ -1383,7 +1743,10 @@
     "description": "아르키메데스의 역학과 수학적 방법은 갈릴레오의 실험 과학에 영감을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["물리학", "수학"]
+    "tags": [
+      "물리학",
+      "수학"
+    ]
   },
   {
     "source": "lavoisier",
@@ -1394,7 +1757,9 @@
     "description": "라부아지에의 화학 혁명과 원소 개념은 돌턴의 원자론 형성에 기초를 제공했다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["화학"]
+    "tags": [
+      "화학"
+    ]
   },
   {
     "source": "dalton",
@@ -1405,7 +1770,10 @@
     "description": "돌턴의 원자론과 원자량 개념은 멘델레예프의 주기율표 작성의 토대가 되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["화학", "주기율표"]
+    "tags": [
+      "화학",
+      "주기율표"
+    ]
   },
   {
     "source": "pasteur",
@@ -1416,7 +1784,10 @@
     "description": "파스퇴르와 코흐는 동시대에 세균학을 발전시키며 경쟁적으로 연구했다",
     "strength": 2,
     "direction": "bidirectional",
-    "tags": ["미생물학", "의학"]
+    "tags": [
+      "미생물학",
+      "의학"
+    ]
   },
   {
     "source": "hippocrates",
@@ -1427,7 +1798,9 @@
     "description": "히포크라테스의 의학적 전통은 갈레노스에 의해 체계적으로 종합·발전되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["의학"]
+    "tags": [
+      "의학"
+    ]
   },
   {
     "source": "al-khwarizmi",
@@ -1438,7 +1811,10 @@
     "description": "알-콰리즈미의 대수학은 피보나치를 통해 유럽에 전파되어 근대 수학의 기초가 되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["수학", "이슬람황금시대"]
+    "tags": [
+      "수학",
+      "이슬람황금시대"
+    ]
   },
   {
     "source": "jesus",
@@ -1449,7 +1825,10 @@
     "description": "예수의 가르침은 바울에 의해 이방인 세계로 전파되어 기독교 신학의 기초가 형성되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["기독교", "선교"]
+    "tags": [
+      "기독교",
+      "선교"
+    ]
   },
   {
     "source": "paul",
@@ -1460,7 +1839,10 @@
     "description": "바울의 은총론과 원죄 개념은 아우구스티누스 신학의 핵심 토대가 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["기독교", "교부철학"]
+    "tags": [
+      "기독교",
+      "교부철학"
+    ]
   },
   {
     "source": "jesus",
@@ -1471,7 +1853,9 @@
     "description": "예수는 베드로의 스승으로, 초대 교회의 지도자로 세웠다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["기독교"]
+    "tags": [
+      "기독교"
+    ]
   },
   {
     "source": "martin-luther",
@@ -1482,7 +1866,10 @@
     "description": "루터의 종교개혁은 칼뱅의 개혁신학과 제네바 신정정치에 직접적 영감을 주었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["종교개혁", "개신교"]
+    "tags": [
+      "종교개혁",
+      "개신교"
+    ]
   },
   {
     "source": "augustine",
@@ -1493,7 +1880,10 @@
     "description": "아우구스티누스의 은총론은 루터의 이신칭의(오직 믿음) 교리의 핵심 원천이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["기독교", "종교개혁"]
+    "tags": [
+      "기독교",
+      "종교개혁"
+    ]
   },
   {
     "source": "thomas-aquinas",
@@ -1504,7 +1894,10 @@
     "description": "토마스 아퀴나스의 스콜라 신학은 이그나티우스 로욜라의 예수회 교육 전통에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["기독교", "예수회"]
+    "tags": [
+      "기독교",
+      "예수회"
+    ]
   },
   {
     "source": "muhammad",
@@ -1515,7 +1908,10 @@
     "description": "무함마드는 아부 바크르의 스승이자 장인으로, 초대 칼리프로서 이슬람 공동체를 이끌게 했다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["이슬람", "칼리프"]
+    "tags": [
+      "이슬람",
+      "칼리프"
+    ]
   },
   {
     "source": "muhammad",
@@ -1526,7 +1922,10 @@
     "description": "무함마드는 알리의 스승이자 장인으로, 시아파 이슬람의 시조가 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["이슬람", "시아파"]
+    "tags": [
+      "이슬람",
+      "시아파"
+    ]
   },
   {
     "source": "al-ghazali",
@@ -1537,7 +1936,10 @@
     "description": "알 가잘리의 수피즘 수용은 루미의 신비주의 시와 사상에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["이슬람", "수피즘"]
+    "tags": [
+      "이슬람",
+      "수피즘"
+    ]
   },
   {
     "source": "ibn-arabi",
@@ -1548,7 +1950,10 @@
     "description": "이븐 아라비의 존재일성론은 루미의 신비주의적 세계관에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["이슬람", "수피즘"]
+    "tags": [
+      "이슬람",
+      "수피즘"
+    ]
   },
   {
     "source": "bodhidharma",
@@ -1559,7 +1964,10 @@
     "description": "달마의 선(禪) 전통은 혜능에 의해 남종선으로 발전하여 동아시아 불교를 변혁시켰다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["불교", "선종"]
+    "tags": [
+      "불교",
+      "선종"
+    ]
   },
   {
     "source": "buddha",
@@ -1570,7 +1978,10 @@
     "description": "붓다의 가르침은 아쇼카 대왕에 의해 국가적으로 수용되어 아시아 전역으로 전파되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["불교", "인도역사"]
+    "tags": [
+      "불교",
+      "인도역사"
+    ]
   },
   {
     "source": "moses",
@@ -1581,7 +1992,10 @@
     "description": "모세의 율법은 예수가 완성하고자 한 유대 전통의 핵심이었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["유대교", "기독교"]
+    "tags": [
+      "유대교",
+      "기독교"
+    ]
   },
   {
     "source": "moses",
@@ -1592,7 +2006,10 @@
     "description": "모세는 이슬람에서 가장 중요한 선지자 중 하나로, 꾸란에 가장 많이 언급된다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["유대교", "이슬람"]
+    "tags": [
+      "유대교",
+      "이슬람"
+    ]
   },
   {
     "source": "hillel",
@@ -1603,7 +2020,10 @@
     "description": "힐렐과 예수는 동시대에 사랑과 자비를 강조하는 유사한 윤리적 가르침을 펼쳤다",
     "strength": 1,
     "direction": "bidirectional",
-    "tags": ["유대교", "기독교"]
+    "tags": [
+      "유대교",
+      "기독교"
+    ]
   },
   {
     "source": "gandhi",
@@ -1614,7 +2034,10 @@
     "description": "간디의 비폭력 저항(사티아그라하)은 킹 목사의 미국 민권운동의 핵심 전략이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["비폭력", "민권운동"]
+    "tags": [
+      "비폭력",
+      "민권운동"
+    ]
   },
   {
     "source": "tolstoy",
@@ -1625,7 +2048,10 @@
     "description": "톨스토이의 비폭력 사상과 기독교적 아나키즘은 간디의 비폭력 철학에 깊은 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["비폭력", "평화주의"]
+    "tags": [
+      "비폭력",
+      "평화주의"
+    ]
   },
   {
     "source": "descartes",
@@ -1636,7 +2062,10 @@
     "description": "데카르트의 기계론적 자연관과 수학적 방법론은 뉴턴의 물리학에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["과학혁명", "합리론"]
+    "tags": [
+      "과학혁명",
+      "합리론"
+    ]
   },
   {
     "source": "newton",
@@ -1647,7 +2076,10 @@
     "description": "뉴턴의 물리학은 칸트가 선험적 종합판단의 가능성을 설명하려는 동기가 되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["과학혁명", "비판철학"]
+    "tags": [
+      "과학혁명",
+      "비판철학"
+    ]
   },
   {
     "source": "darwin",
@@ -1658,7 +2090,10 @@
     "description": "다윈의 진화론은 니체의 초인 사상과 자연주의적 가치관에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["진화론", "생철학"]
+    "tags": [
+      "진화론",
+      "생철학"
+    ]
   },
   {
     "source": "darwin",
@@ -1669,7 +2104,10 @@
     "description": "다윈과 마르크스는 각각 자연과 사회의 역사적 발전 법칙을 독립적으로 탐구했다",
     "strength": 1,
     "direction": "bidirectional",
-    "tags": ["유물론", "진화"]
+    "tags": [
+      "유물론",
+      "진화"
+    ]
   },
   {
     "source": "einstein",
@@ -1680,7 +2118,10 @@
     "description": "아인슈타인과 러셀은 핵무기 반대와 평화운동에서 함께 활동했다 (러셀-아인슈타인 선언)",
     "strength": 1,
     "direction": "bidirectional",
-    "tags": ["평화운동", "핵무기"]
+    "tags": [
+      "평화운동",
+      "핵무기"
+    ]
   },
   {
     "source": "wittgenstein",
@@ -1691,7 +2132,10 @@
     "description": "비트겐슈타인의 수학의 기초에 대한 강의는 튜링에게 철학적 영감을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["수학철학", "논리학"]
+    "tags": [
+      "수학철학",
+      "논리학"
+    ]
   },
   {
     "source": "marx",
@@ -1702,7 +2146,10 @@
     "description": "마르크스의 혁명 이론은 마오쩌둥에 의해 중국식 농민혁명 노선으로 변형·적용되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["마르크스주의", "중국혁명"]
+    "tags": [
+      "마르크스주의",
+      "중국혁명"
+    ]
   },
   {
     "source": "rousseau",
@@ -1713,7 +2160,10 @@
     "description": "루소의 일반의지와 사회계약 사상은 나폴레옹의 법전과 정치 이념에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["계몽주의", "프랑스혁명"]
+    "tags": [
+      "계몽주의",
+      "프랑스혁명"
+    ]
   },
   {
     "source": "voltaire",
@@ -1724,7 +2174,9 @@
     "description": "볼테르의 계몽주의 사상은 나폴레옹의 종교적 관용과 법적 개혁에 간접적 영향을 주었다",
     "strength": 1,
     "direction": "directed",
-    "tags": ["계몽주의"]
+    "tags": [
+      "계몽주의"
+    ]
   },
   {
     "source": "confucius",
@@ -1735,7 +2187,10 @@
     "description": "공자의 유교적 이상은 세종대왕의 민본정치와 문화 정책의 근본 이념이 되었다",
     "strength": 1,
     "direction": "directed",
-    "tags": ["유교", "조선"]
+    "tags": [
+      "유교",
+      "조선"
+    ]
   },
   {
     "source": "aristotle",
@@ -1746,7 +2201,10 @@
     "description": "아리스토텔레스의 논리학과 정치학은 '제2의 스승' 알 파라비의 철학에 핵심적 영향을 미쳤다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["이슬람철학", "아리스토텔레스주의"]
+    "tags": [
+      "이슬람철학",
+      "아리스토텔레스주의"
+    ]
   },
   {
     "source": "socrates",
@@ -1757,7 +2215,10 @@
     "description": "소크라테스는 안티스테네스의 스승으로, 견유학파의 금욕적 덕 윤리의 원천이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["견유학파", "윤리학"]
+    "tags": [
+      "견유학파",
+      "윤리학"
+    ]
   },
   {
     "source": "antisthenes",
@@ -1768,7 +2229,9 @@
     "description": "안티스테네스의 금욕주의는 디오게네스의 급진적 견유주의 실천으로 발전했다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["견유학파"]
+    "tags": [
+      "견유학파"
+    ]
   },
   {
     "source": "chrysippus",
@@ -1779,7 +2242,9 @@
     "description": "크리시포스의 스토아 윤리학은 세네카의 실천적 스토아주의에 이론적 토대를 제공했다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["스토아학파"]
+    "tags": [
+      "스토아학파"
+    ]
   },
   {
     "source": "seneca",
@@ -1790,7 +2255,10 @@
     "description": "세네카의 실천적 스토아주의는 에픽테토스의 금욕적 윤리학에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["스토아학파", "로마철학"]
+    "tags": [
+      "스토아학파",
+      "로마철학"
+    ]
   },
   {
     "source": "epictetus",
@@ -1801,7 +2269,10 @@
     "description": "에픽테토스의 스토아 윤리학은 마르쿠스 아우렐리우스의 『명상록』에 깊은 영향을 주었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["스토아학파", "로마철학"]
+    "tags": [
+      "스토아학파",
+      "로마철학"
+    ]
   },
   {
     "source": "pythagoras",
@@ -1812,7 +2283,10 @@
     "description": "피타고라스의 수학적 신비주의와 영혼 불멸설은 플라톤의 이데아론에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["수학", "형이상학"]
+    "tags": [
+      "수학",
+      "형이상학"
+    ]
   },
   {
     "source": "heraclitus",
@@ -1823,7 +2297,10 @@
     "description": "헤라클레이토스의 로고스와 불 개념은 스토아학파의 자연학에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["자연철학", "스토아학파"]
+    "tags": [
+      "자연철학",
+      "스토아학파"
+    ]
   },
   {
     "source": "aristotle",
@@ -1834,7 +2311,9 @@
     "description": "아리스토텔레스의 논리학과 형이상학은 아비센나(이븐 시나)의 철학 체계에 핵심적 원천이었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["이슬람철학"]
+    "tags": [
+      "이슬람철학"
+    ]
   },
   {
     "source": "duns-scotus",
@@ -1845,7 +2324,10 @@
     "description": "둔스 스코투스의 형이상학은 오컴이 비판적으로 검토하여 유명론을 발전시킨 배경이 되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["스콜라철학", "유명론"]
+    "tags": [
+      "스콜라철학",
+      "유명론"
+    ]
   },
   {
     "source": "spinoza",
@@ -1856,7 +2338,10 @@
     "description": "스피노자의 일원론적 실체 개념은 라이프니츠가 다원론적 모나드론으로 대응한 출발점이었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["합리론", "형이상학"]
+    "tags": [
+      "합리론",
+      "형이상학"
+    ]
   },
   {
     "source": "hegel",
@@ -1867,7 +2352,10 @@
     "description": "헤겔의 관념론은 포이어바흐에 의해 유물론적으로 전도되어 마르크스에게 전해졌다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["독일관념론", "유물론"]
+    "tags": [
+      "독일관념론",
+      "유물론"
+    ]
   },
   {
     "source": "feuerbach",
@@ -1878,7 +2366,10 @@
     "description": "포이어바흐의 유물론적 종교비판은 마르크스의 역사유물론의 직접적 선행자였다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["유물론", "종교비판"]
+    "tags": [
+      "유물론",
+      "종교비판"
+    ]
   },
   {
     "source": "bentham",
@@ -1889,7 +2380,10 @@
     "description": "벤담의 양적 공리주의는 밀에 의해 질적 공리주의로 발전·정교화되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["공리주의", "윤리학"]
+    "tags": [
+      "공리주의",
+      "윤리학"
+    ]
   },
   {
     "source": "hegel",
@@ -1900,7 +2394,10 @@
     "description": "헤겔의 절대적 관념론은 브래들리의 영국 관념론에 핵심적 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["관념론", "영국철학"]
+    "tags": [
+      "관념론",
+      "영국철학"
+    ]
   },
   {
     "source": "peirce",
@@ -1911,7 +2408,9 @@
     "description": "퍼스의 실용주의 격률은 윌리엄 제임스에 의해 대중적 실용주의로 발전되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["실용주의"]
+    "tags": [
+      "실용주의"
+    ]
   },
   {
     "source": "william-james",
@@ -1922,7 +2421,10 @@
     "description": "윌리엄 제임스의 실용주의는 듀이의 도구주의와 교육철학에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["실용주의", "교육철학"]
+    "tags": [
+      "실용주의",
+      "교육철학"
+    ]
   },
   {
     "source": "freud",
@@ -1933,7 +2435,10 @@
     "description": "프로이트의 정신분석학은 융이 분석심리학으로 독자적 발전시킨 출발점이었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["정신분석", "심리학"]
+    "tags": [
+      "정신분석",
+      "심리학"
+    ]
   },
   {
     "source": "freud",
@@ -1944,7 +2449,10 @@
     "description": "프로이트의 정신분석은 라캉에 의해 구조주의적으로 재해석되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["정신분석", "구조주의"]
+    "tags": [
+      "정신분석",
+      "구조주의"
+    ]
   },
   {
     "source": "hegel",
@@ -1955,7 +2463,10 @@
     "description": "헤겔의 정신현상학은 딜타이의 정신과학 방법론에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["해석학", "정신과학"]
+    "tags": [
+      "해석학",
+      "정신과학"
+    ]
   },
   {
     "source": "dilthey",
@@ -1966,7 +2477,10 @@
     "description": "딜타이의 체험 개념은 후설의 현상학적 방법론 형성에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["현상학", "해석학"]
+    "tags": [
+      "현상학",
+      "해석학"
+    ]
   },
   {
     "source": "nietzsche",
@@ -1977,7 +2491,9 @@
     "description": "니체의 실존적 사유는 야스퍼스의 실존철학에 중요한 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["실존주의"]
+    "tags": [
+      "실존주의"
+    ]
   },
   {
     "source": "kierkegaard",
@@ -1988,7 +2504,9 @@
     "description": "키르케고르의 실존 개념은 야스퍼스의 한계상황 이론에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["실존주의"]
+    "tags": [
+      "실존주의"
+    ]
   },
   {
     "source": "heidegger",
@@ -1999,7 +2517,10 @@
     "description": "하이데거의 존재론은 아렌트의 정치철학적 사유에 방법론적 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["현상학", "정치철학"]
+    "tags": [
+      "현상학",
+      "정치철학"
+    ]
   },
   {
     "source": "heidegger",
@@ -2010,7 +2531,10 @@
     "description": "하이데거의 존재론은 레비나스가 타자의 윤리학으로 비판적으로 전환한 출발점이었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["현상학", "타자윤리"]
+    "tags": [
+      "현상학",
+      "타자윤리"
+    ]
   },
   {
     "source": "barthes",
@@ -2021,7 +2545,10 @@
     "description": "바르트와 푸코는 '저자의 죽음'과 담론 분석에서 유사한 구조주의적 전환을 이루었다",
     "strength": 2,
     "direction": "bidirectional",
-    "tags": ["후기구조주의", "담론이론"]
+    "tags": [
+      "후기구조주의",
+      "담론이론"
+    ]
   },
   {
     "source": "adam-smith",
@@ -2032,7 +2559,9 @@
     "description": "애덤 스미스의 정치경제학은 마르크스가 비판적으로 계승한 핵심 대상이었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["정치경제학"]
+    "tags": [
+      "정치경제학"
+    ]
   },
   {
     "source": "adam-smith",
@@ -2043,7 +2572,9 @@
     "description": "애덤 스미스의 경제학은 리카도의 비교우위론과 노동가치설로 발전되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["고전경제학"]
+    "tags": [
+      "고전경제학"
+    ]
   },
   {
     "source": "ricardo",
@@ -2054,7 +2585,10 @@
     "description": "리카도의 노동가치설은 마르크스의 잉여가치론의 직접적 이론적 원천이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["정치경제학", "노동가치설"]
+    "tags": [
+      "정치경제학",
+      "노동가치설"
+    ]
   },
   {
     "source": "bohr",
@@ -2065,7 +2599,9 @@
     "description": "보어와 슈뢰딩거는 양자역학의 해석을 두고 논쟁하며 양자물리학을 발전시켰다",
     "strength": 2,
     "direction": "bidirectional",
-    "tags": ["양자역학"]
+    "tags": [
+      "양자역학"
+    ]
   },
   {
     "source": "heisenberg",
@@ -2076,7 +2612,9 @@
     "description": "하이젠베르크의 행렬역학과 슈뢰딩거의 파동역학은 동시대에 독립적으로 양자역학을 수학화했다",
     "strength": 3,
     "direction": "bidirectional",
-    "tags": ["양자역학"]
+    "tags": [
+      "양자역학"
+    ]
   },
   {
     "source": "dirac",
@@ -2087,7 +2625,10 @@
     "description": "디랙의 양자전기역학은 파인만의 경로적분과 파인만 다이어그램 개발에 토대를 제공했다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["양자역학", "양자전기역학"]
+    "tags": [
+      "양자역학",
+      "양자전기역학"
+    ]
   },
   {
     "source": "rutherford",
@@ -2098,7 +2639,9 @@
     "description": "러더퍼드의 원자핵 모형은 보어의 양자화된 원자 모형의 출발점이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["원자물리학"]
+    "tags": [
+      "원자물리학"
+    ]
   },
   {
     "source": "homer",
@@ -2109,7 +2652,10 @@
     "description": "호메로스의 서사시는 플라톤이 시와 예술의 본질에 대해 성찰한 핵심 대상이었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["문학", "철학"]
+    "tags": [
+      "문학",
+      "철학"
+    ]
   },
   {
     "source": "dostoyevsky",
@@ -2120,7 +2666,10 @@
     "description": "도스토예프스키의 실존적 문학은 니체의 인간 본성에 대한 통찰에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["문학", "실존주의"]
+    "tags": [
+      "문학",
+      "실존주의"
+    ]
   },
   {
     "source": "dostoyevsky",
@@ -2131,7 +2680,10 @@
     "description": "도스토예프스키와 키르케고르는 동시대에 독립적으로 실존적 불안과 신앙의 역설을 탐구했다",
     "strength": 2,
     "direction": "bidirectional",
-    "tags": ["실존주의", "문학"]
+    "tags": [
+      "실존주의",
+      "문학"
+    ]
   },
   {
     "source": "shakespeare",
@@ -2142,7 +2694,10 @@
     "description": "셰익스피어의 인간 심리 묘사는 프로이트의 정신분석 이론에 문학적 영감을 주었다",
     "strength": 1,
     "direction": "directed",
-    "tags": ["문학", "정신분석"]
+    "tags": [
+      "문학",
+      "정신분석"
+    ]
   },
   {
     "source": "da-vinci",
@@ -2153,7 +2708,10 @@
     "description": "다 빈치의 경험적 관찰과 실험 정신은 갈릴레오의 과학적 방법론에 간접적 영향을 주었다",
     "strength": 1,
     "direction": "directed",
-    "tags": ["르네상스", "과학혁명"]
+    "tags": [
+      "르네상스",
+      "과학혁명"
+    ]
   },
   {
     "source": "bohr",
@@ -2164,7 +2722,9 @@
     "description": "보어의 원자 모형은 파울리의 배타원리와 양자역학적 원자론 발전에 영향을 주었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["양자역학"]
+    "tags": [
+      "양자역학"
+    ]
   },
   {
     "source": "gauss",
@@ -2175,7 +2735,10 @@
     "description": "가우스는 리만의 스승으로, 리만 기하학의 발전에 결정적 영향을 미쳤다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["수학", "기하학"]
+    "tags": [
+      "수학",
+      "기하학"
+    ]
   },
   {
     "source": "riemann",
@@ -2186,7 +2749,10 @@
     "description": "리만의 비유클리드 기하학은 아인슈타인의 일반 상대성이론의 수학적 기초가 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["수학", "상대성이론"]
+    "tags": [
+      "수학",
+      "상대성이론"
+    ]
   },
   {
     "source": "locke",
@@ -2197,7 +2763,10 @@
     "description": "로크의 관용론과 자유주의는 볼테르에 의해 프랑스 계몽주의에 전파되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["계몽주의", "자유주의"]
+    "tags": [
+      "계몽주의",
+      "자유주의"
+    ]
   },
   {
     "source": "voltaire",
@@ -2208,7 +2777,10 @@
     "description": "볼테르와 디드로는 프랑스 계몽주의의 핵심 사상가로 백과전서파를 이끌었다",
     "strength": 2,
     "direction": "bidirectional",
-    "tags": ["계몽주의", "백과전서"]
+    "tags": [
+      "계몽주의",
+      "백과전서"
+    ]
   },
   {
     "source": "comte",
@@ -2219,7 +2791,10 @@
     "description": "콩트의 실증주의와 사회학적 방법론은 뒤르켐의 사회학 체계의 기초가 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["실증주의", "사회학"]
+    "tags": [
+      "실증주의",
+      "사회학"
+    ]
   },
   {
     "source": "weber",
@@ -2230,7 +2805,10 @@
     "description": "베버의 합리화 이론은 하버마스의 의사소통적 합리성 이론의 비판적 출발점이 되었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["사회학", "비판이론"]
+    "tags": [
+      "사회학",
+      "비판이론"
+    ]
   },
   {
     "source": "foucault",
@@ -2241,7 +2819,10 @@
     "description": "푸코의 권력-지식 이론과 성의 역사는 버틀러의 젠더 수행성 이론에 영향을 미쳤다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["후기구조주의", "젠더이론"]
+    "tags": [
+      "후기구조주의",
+      "젠더이론"
+    ]
   },
   {
     "source": "beauvoir",
@@ -2252,7 +2833,9 @@
     "description": "보부아르의 '제2의 성'은 버틀러의 페미니즘 이론의 핵심적 선행 텍스트였다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["페미니즘"]
+    "tags": [
+      "페미니즘"
+    ]
   },
   {
     "source": "hume",
@@ -2263,7 +2846,10 @@
     "description": "흄의 도덕감정론은 친구 애덤 스미스의 도덕감정론과 경제학에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["경험론", "도덕감정"]
+    "tags": [
+      "경험론",
+      "도덕감정"
+    ]
   },
   {
     "source": "thomas-aquinas",
@@ -2274,7 +2860,9 @@
     "description": "토마스 아퀴나스의 스콜라 체계는 둔스 스코투스가 비판적으로 계승한 핵심 대상이었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["스콜라철학"]
+    "tags": [
+      "스콜라철학"
+    ]
   },
   {
     "source": "boethius",
@@ -2285,7 +2873,10 @@
     "description": "보에티우스의 논리학 번역과 철학적 위안은 중세 스콜라 철학의 중요한 원천이었다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["스콜라철학", "논리학"]
+    "tags": [
+      "스콜라철학",
+      "논리학"
+    ]
   },
   {
     "source": "mozi",
@@ -2296,7 +2887,10 @@
     "description": "묵자는 공자의 차별적 인(仁)에 반대하여 겸애(兼愛)를 주장했다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["묵가", "유교비판"]
+    "tags": [
+      "묵가",
+      "유교비판"
+    ]
   },
   {
     "source": "mencius",
@@ -2307,7 +2901,10 @@
     "description": "맹자의 성선설과 순자의 성악설은 인간 본성에 대한 유교 내부의 대립적 입장이었다",
     "strength": 3,
     "direction": "bidirectional",
-    "tags": ["유교", "인성론"]
+    "tags": [
+      "유교",
+      "인성론"
+    ]
   },
   {
     "source": "copernicus",
@@ -2318,7 +2915,10 @@
     "description": "코페르니쿠스의 태양중심설은 케플러의 행성 운동 법칙 발견의 이론적 기반이 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["천문학", "과학혁명"]
+    "tags": [
+      "천문학",
+      "과학혁명"
+    ]
   },
   {
     "source": "francis-of-assisi",
@@ -2329,7 +2929,10 @@
     "description": "아시시의 프란체스코의 영성은 보나벤투라의 프란체스코회 신학의 토대가 되었다",
     "strength": 3,
     "direction": "directed",
-    "tags": ["기독교", "프란체스코회"]
+    "tags": [
+      "기독교",
+      "프란체스코회"
+    ]
   },
   {
     "source": "meister-eckhart",
@@ -2340,7 +2943,10 @@
     "description": "에크하르트의 신비주의는 쿠사의 니콜라우스의 무지의 학식에 영향을 미쳤다",
     "strength": 2,
     "direction": "directed",
-    "tags": ["신비주의", "기독교"]
+    "tags": [
+      "신비주의",
+      "기독교"
+    ]
   },
   {
     "source": "erasmus",
@@ -2351,6 +2957,1209 @@
     "description": "에라스무스와 루터는 초기 동조에서 자유의지 논쟁을 거치며 결별했다",
     "strength": 2,
     "direction": "bidirectional",
-    "tags": ["르네상스", "종교개혁"]
+    "tags": [
+      "르네상스",
+      "종교개혁"
+    ]
+  },
+  {
+    "source": "kierkegaard",
+    "target": "sartre",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "키르케고르의 불안과 선택 개념이 사르트르의 실존주의에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nietzsche",
+    "target": "camus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "니체의 부조리 인식이 카뮈의 부조리 철학에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nietzsche",
+    "target": "derrida",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "니체의 형이상학 해체가 데리다의 해체주의에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sartre",
+    "target": "de-beauvoir",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "사르트르와 보부아르는 평생의 지적 동반자",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "de-beauvoir",
+    "target": "butler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보부아르의 제2의 성이 버틀러의 젠더 이론에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "merleau-ponty",
+    "target": "sartre",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "메를로-퐁티와 사르트르는 현상학적 실존주의의 동시대인",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "russell",
+    "target": "carnap",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "러셀의 논리주의가 카르납의 논리실증주의에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "russell",
+    "target": "ayer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "러셀의 경험주의가 에이어의 논리실증주의에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wittgenstein",
+    "target": "carnap",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "전기 비트겐슈타인이 빈 학파에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wittgenstein",
+    "target": "anscombe",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "비트겐슈타인이 앤스컴의 스승",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wittgenstein",
+    "target": "kripke",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "비트겐슈타인의 규칙 따르기가 크립키의 해석에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "carnap",
+    "target": "quine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "카르납과 콰인의 분석-종합 구분 논쟁",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "quine",
+    "target": "putnam",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "콰인의 전체론이 퍼트남에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "popper",
+    "target": "kuhn",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "포퍼의 반증주의와 쿤의 패러다임 전환 논쟁",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "popper",
+    "target": "lakatos",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "포퍼의 과학철학이 라카토슈의 연구 프로그램론에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "popper",
+    "target": "feyerabend",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "포퍼의 제자 파이어아벤트가 스승의 이론을 비판적으로 발전",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kuhn",
+    "target": "feyerabend",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "쿤과 파이어아벤트는 과학혁명의 동시대 이론가",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "moore",
+    "target": "russell",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "무어와 러셀은 캠브리지에서 관념론 비판을 함께 시작",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marx",
+    "target": "horkheimer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 비판이론이 호르크하이머에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "marx",
+    "target": "adorno",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 상품 물신 분석이 아도르노의 문화산업 비판에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "marx",
+    "target": "habermas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 비판이론이 하버마스의 의사소통 이론에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hegel",
+    "target": "lukacs",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤겔의 변증법이 루카치의 총체성 개념에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "benjamin",
+    "target": "adorno",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "벤야민과 아도르노는 프랑크푸르트 학파의 동시대인",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marcuse",
+    "target": "habermas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르쿠제의 비판이론이 하버마스에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "foucault",
+    "target": "deleuze",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "푸코와 들뢰즈는 68혁명 이후 프랑스 사상의 동시대인",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "derrida",
+    "target": "butler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "데리다의 해체가 버틀러의 정체성 비판에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nagarjuna",
+    "target": "shankara-hindu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "나가르주나의 공 사상이 샹카라의 마야론에 간접적 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "shankara-hindu",
+    "target": "ramanuja-hindu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "샹카라의 불이론을 라마누자가 비판하며 제한적 불이론 확립",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-sina",
+    "target": "thomas-aquinas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "이븐 시나의 존재론이 아퀴나스의 신학에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "euclid",
+    "target": "archimedes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "유클리드의 기하학이 아르키메데스의 수학에 기초 제공",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "ptolemy",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 천체론이 프톨레마이오스의 천동설에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "euclid",
+    "target": "al-khwarizmi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "유클리드의 수학이 알-콰리즈미의 대수학에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "ibn-al-haytham",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 광학을 이븐 알-하이삼이 실험적으로 발전",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-al-haytham",
+    "target": "roger-bacon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "이븐 알-하이삼의 광학이 로저 베이컨에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tycho-brahe",
+    "target": "kepler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "티코 브라헤의 관측 데이터를 케플러가 분석하여 법칙 발견",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "galileo",
+    "target": "huygens",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "갈릴레오의 역학이 하위헌스의 진자 연구에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hooke",
+    "target": "newton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "훅과 뉴턴의 광학·중력 이론 우선권 논쟁",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "boyle",
+    "target": "newton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "보일과 뉴턴은 왕립학회의 동시대 과학자",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pascal",
+    "target": "leibniz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "파스칼의 계산기가 라이프니츠의 계산기에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vesalius",
+    "target": "harvey",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베살리우스의 해부학이 하비의 혈액순환 발견에 기초",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "priestley",
+    "target": "lavoisier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프리스틀리의 산소 발견을 라부아지에가 화학혁명으로 발전",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "berzelius",
+    "target": "mendeleev",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베르셀리우스의 화학 기호 체계가 멘델레예프에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "maxwell",
+    "target": "hertz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "맥스웰의 전자기파 이론을 헤르츠가 실험으로 증명",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "maxwell",
+    "target": "boltzmann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "맥스웰과 볼츠만은 통계역학의 공동 창시자",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lorentz",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "로런츠 변환이 아인슈타인의 특수상대성이론에 영향",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "boltzmann",
+    "target": "planck",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "볼츠만의 통계역학이 플랑크의 양자 가설에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "planck",
+    "target": "bohr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플랑크의 양자론이 보어의 원자모형에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "schrodinger",
+    "target": "dirac",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "슈뢰딩거와 디랙은 양자역학의 수학적 정식화에 기여",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "feynman",
+    "target": "gell-mann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "파인만과 겔-만은 칼텍의 동시대 물리학자",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "fermi",
+    "target": "oppenheimer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "페르미와 오펜하이머는 맨해튼 프로젝트에서 협력",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "einstein",
+    "target": "hawking",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아인슈타인의 일반상대성이론이 호킹의 블랙홀 연구에 기초",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "penrose",
+    "target": "hawking",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "펜로즈와 호킹은 특이점 정리를 함께 증명",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "leeuwenhoek",
+    "target": "linnaeus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "레이우엔훅의 현미경 관찰이 린네의 분류에 간접 영향",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "linnaeus",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "린네의 분류 체계가 다윈의 종 연구에 기초",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "lamarck",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "라마르크의 진화론이 다윈의 자연선택 이론에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mendel",
+    "target": "morgan",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "멘델의 유전법칙이 모건의 유전자 이론에 영향",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "darwin",
+    "target": "koch",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "다윈의 자연선택이 코흐의 세균학에 간접적 영향",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "morgan",
+    "target": "crick",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "모건의 유전학이 크릭의 DNA 연구에 기초",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rosalind-franklin",
+    "target": "crick",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프랭클린의 X선 사진이 크릭의 DNA 구조 발견에 결정적",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hilbert",
+    "target": "von-neumann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "힐베르트가 폰 노이만에게 수학적 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "turing",
+    "target": "von-neumann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "튜링의 보편기계가 폰 노이만의 컴퓨터 설계에 영향",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "von-neumann",
+    "target": "alonzo-church",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "폰 노이만과 처치는 계산이론의 동시대 기여자",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "alonzo-church",
+    "target": "turing",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "처치가 튜링의 박사 지도교수",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ptolemy",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프톨레마이오스의 천동설을 코페르니쿠스가 뒤집음",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "herschel",
+    "target": "hubble",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "허셜의 관측천문학이 허블에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "halley",
+    "target": "newton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "핼리가 뉴턴의 프린키피아 출판을 지원",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hubble",
+    "target": "sagan",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "허블의 팽창우주가 세이건의 우주론에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "chandrasekhar",
+    "target": "hawking",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "찬드라세카르의 한계가 호킹의 블랙홀 연구에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "emmy-noether",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "뇌터의 정리가 아인슈타인의 상대성이론에 수학적 기반",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-aquinas",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아퀴나스의 스콜라 신학에 대한 루터의 비판",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "martin-luther",
+    "target": "zwingli",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루터의 종교개혁이 츠빙글리에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-calvin",
+    "target": "john-knox",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칼뱅의 신학이 녹스의 스코틀랜드 개혁에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-calvin",
+    "target": "jonathan-edwards",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칼뱅주의가 에드워즈의 대각성 운동에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ignatius-loyola",
+    "target": "francis-xavier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "이그나시우스의 예수회에서 하비에르가 선교사로 활동",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "teresa-avila",
+    "target": "john-of-cross",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "아빌라의 테레사와 십자가의 요한은 가르멜 수도회 개혁",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "francis-assisi",
+    "target": "bonhoeffer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프란치스코의 청빈 정신이 본회퍼의 제자도에 영향",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "karl-barth",
+    "target": "bonhoeffer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "바르트의 신정통주의가 본회퍼에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kierkegaard",
+    "target": "karl-barth",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "키르케고르의 실존적 신앙이 바르트의 변증법 신학에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad",
+    "target": "ali-ibn-abi-talib",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "무함마드의 사촌이자 사위",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "al-ghazali",
+    "target": "ibn-arabi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "가잘리의 수피즘 정당화가 이븐 아라비에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rabia-al-adawiyya",
+    "target": "al-hallaj",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "라비아의 신적 사랑이 할라즈의 신비주의에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "imam-shafii",
+    "target": "al-ghazali",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "샤피이의 법학이 가잘리의 사상적 기초",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "huineng",
+    "target": "dogen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "혜능의 남종선이 도겐의 조동종에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tsongkhapa",
+    "target": "dalai-lama-14",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "총카파의 겔룩파 전통이 달라이 라마에게 계승",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "milarepa",
+    "target": "tsongkhapa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "밀라레파의 수행 전통이 총카파에게 간접 영향",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ramakrishna",
+    "target": "vivekananda-hindu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "라마크리슈나가 비베카난다의 스승",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "moses",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "아리스토텔레스와 모세는 서양 사상의 이성과 신앙의 두 원천",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "augustine",
+    "target": "al-ghazali",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "아우구스티누스와 가잘리는 신앙과 이성의 종합이라는 유사한 과제에 직면",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "martin-luther-king",
+    "target": "desmond-tutu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "킹 목사의 시민권 운동이 투투 대주교에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "alexander-the-great",
+    "target": "julius-caesar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "알렉산드로스가 카이사르의 정복 모델",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "julius-caesar",
+    "target": "augustus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카이사르의 양자 아우구스투스가 로마 제정 수립",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "napoleon",
+    "target": "bismarck",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "나폴레옹 전쟁이 비스마르크의 유럽 전략에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "napoleon",
+    "target": "simon-bolivar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "나폴레옹의 유럽 정복이 볼리바르의 독립 운동에 자극",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "george-washington",
+    "target": "abraham-lincoln",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "워싱턴의 공화주의가 링컨의 연방 수호에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sun-tzu",
+    "target": "napoleon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "손자병법이 나폴레옹의 전략에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "qin-shi-huang",
+    "target": "genghis-khan",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "진시황과 칭기즈 칸은 대제국의 통일자",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "homer",
+    "target": "virgil",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "호메로스의 서사시가 베르길리우스의 아이네이스에 영향",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "virgil",
+    "target": "dante",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베르길리우스가 단테의 신곡에서 안내자 역할",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "shakespeare",
+    "target": "goethe",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "셰익스피어의 극작이 괴테에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "goethe",
+    "target": "dostoevsky",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "괴테의 파우스트가 도스토예프스키에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dostoevsky",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "도스토예프스키의 심리 탐구가 니체에게 영향",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "dostoevsky",
+    "target": "kafka",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "도스토예프스키의 소외된 인간이 카프카에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dostoevsky",
+    "target": "sartre",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "도스토예프스키의 자유 주제가 사르트르에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cervantes",
+    "target": "dostoevsky",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "세르반테스의 소설 형식이 도스토예프스키에게 영향",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "leonardo-da-vinci",
+    "target": "michelangelo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "다 빈치와 미켈란젤로는 르네상스의 라이벌",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "michelangelo",
+    "target": "rodin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "미켈란젤로의 조각이 로댕에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "monet",
+    "target": "van-gogh",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "모네의 인상주의가 반 고흐에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "van-gogh",
+    "target": "picasso",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "반 고흐의 표현적 붓터치가 피카소에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hokusai",
+    "target": "monet",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "호쿠사이의 우키요에가 모네의 인상주의에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hokusai",
+    "target": "van-gogh",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "호쿠사이의 판화가 반 고흐에게 깊은 영감",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kandinsky",
+    "target": "picasso",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "칸딘스키와 피카소는 20세기 미술혁명의 동시대인",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bach",
+    "target": "mozart",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "바흐의 대위법이 모차르트에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mozart",
+    "target": "beethoven",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "모차르트의 고전주의가 베토벤에게 영향",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "beethoven",
+    "target": "chopin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베토벤의 소나타가 쇼팽에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "beethoven",
+    "target": "wagner",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베토벤의 교향곡이 바그너에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wagner",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "바그너와 니체는 열렬한 우정에서 결별",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "debussy",
+    "target": "stravinsky",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "드뷔시의 음색이 스트라빈스키에게 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "galileo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 자연학을 갈릴레오가 실험적으로 반박",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "locke",
+    "target": "newton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "로크와 뉴턴은 17세기 영국 경험주의-과학의 동시대인",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kant",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칸트의 시공간론이 아인슈타인의 상대성이론에 철학적 배경",
+    "strength": 1,
+    "direction": "directed"
   }
 ]
