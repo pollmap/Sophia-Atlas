@@ -13,17 +13,28 @@ import {
   X,
 } from "lucide-react";
 import Fuse from "fuse.js";
-import philosophersData from "@/data/philosophers.json";
+import philosophersData from "@/data/persons/philosophers.json";
+import religiousFiguresData from "@/data/persons/religious-figures.json";
+import scientistsData from "@/data/persons/scientists.json";
+import historicalFiguresData from "@/data/persons/historical-figures.json";
 import religionsData from "@/data/religions.json";
 import glossaryData from "@/data/glossary.json";
-import { cn, getEraColorClass, getEraLabel } from "@/lib/utils";
+import { cn, getEraColorClass, getEraLabel, getCategoryLabel } from "@/lib/utils";
 
-interface PhilosopherResult {
-  type: "philosopher";
+const allPersonsData = [
+  ...philosophersData,
+  ...religiousFiguresData,
+  ...scientistsData,
+  ...historicalFiguresData,
+] as any[];
+
+interface PersonResult {
+  type: "person";
   id: string;
   name: string;
   nameEn: string;
   era: string;
+  category: string;
   preview: string;
 }
 
@@ -45,11 +56,11 @@ interface GlossaryResult {
   definition: string;
 }
 
-type SearchResult = PhilosopherResult | ReligionResult | GlossaryResult;
+type SearchResult = PersonResult | ReligionResult | GlossaryResult;
 
 // Build search indices
-const philosopherIndex = new Fuse(philosophersData, {
-  keys: ["name.ko", "name.en", "summary", "concepts"],
+const personIndex = new Fuse(allPersonsData, {
+  keys: ["name.ko", "name.en", "summary", "tags", "concepts", "field", "school"],
   threshold: 0.4,
   includeScore: true,
 });
@@ -73,14 +84,15 @@ export default function SearchPage() {
   );
 
   const results = useMemo(() => {
-    if (!query.trim()) return { philosophers: [], religions: [], glossary: [] };
+    if (!query.trim()) return { persons: [], religions: [], glossary: [] };
 
-    const philResults = philosopherIndex.search(query).map((r) => ({
-      type: "philosopher" as const,
+    const personResults = personIndex.search(query).map((r) => ({
+      type: "person" as const,
       id: r.item.id,
       name: r.item.name.ko,
       nameEn: r.item.name.en,
       era: r.item.era,
+      category: r.item.category || "philosopher",
       preview: r.item.summary,
     }));
 
@@ -103,14 +115,14 @@ export default function SearchPage() {
     }));
 
     return {
-      philosophers: philResults,
+      persons: personResults,
       religions: relResults,
       glossary: glosResults,
     };
   }, [query]);
 
   const totalResults =
-    results.philosophers.length +
+    results.persons.length +
     results.religions.length +
     results.glossary.length;
 
@@ -136,7 +148,7 @@ export default function SearchPage() {
           </h1>
         </div>
         <p className="text-foreground-secondary">
-          철학자, 종교/신화, 용어를 한 곳에서 검색하세요.
+          인물, 종교/신화, 용어를 한 곳에서 검색하세요. ({allPersonsData.length}명의 인물)
         </p>
       </div>
 
@@ -170,21 +182,21 @@ export default function SearchPage() {
               총 <span className="text-foreground font-medium">{totalResults}</span>개의 결과
             </p>
 
-            {/* Philosophers */}
-            {results.philosophers.length > 0 && (
+            {/* Persons */}
+            {results.persons.length > 0 && (
               <div>
                 <h2 className="flex items-center gap-2 text-base font-semibold text-foreground mb-3">
                   <BookOpen className="w-4 h-4 text-blue-400" />
-                  철학자
+                  인물
                   <span className="text-xs text-foreground-muted font-normal">
-                    ({results.philosophers.length})
+                    ({results.persons.length})
                   </span>
                 </h2>
                 <div className="space-y-2">
-                  {results.philosophers.map((item) => (
+                  {results.persons.map((item) => (
                     <Link
                       key={item.id}
-                      href={`/philosophy/${item.id}/`}
+                      href={`/persons/${item.id}/`}
                       className="flex items-start gap-3 p-4 rounded-xl border border-border bg-background-secondary/20 hover:bg-background-secondary/40 transition-colors group"
                     >
                       <BookOpen className="w-4 h-4 text-blue-400 flex-shrink-0 mt-1" />
@@ -203,6 +215,9 @@ export default function SearchPage() {
                             )}
                           >
                             {getEraLabel(item.era)}
+                          </span>
+                          <span className="px-2 py-0.5 rounded-full text-[10px] font-medium bg-slate-500/15 text-slate-400">
+                            {getCategoryLabel(item.category)}
                           </span>
                         </div>
                         <p className="text-xs text-foreground-secondary line-clamp-2">

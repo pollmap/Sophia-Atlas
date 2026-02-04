@@ -12,9 +12,18 @@ import {
   Scroll,
   Tag,
 } from 'lucide-react';
-import rawPhilosophers from '@/data/philosophers.json';
+import rawPhilosophers from '@/data/persons/philosophers.json';
 
-const philosophersData = rawPhilosophers as {
+const philosophersData = (rawPhilosophers as any[]).map((p) => ({
+  ...p,
+  school: p.school || [],
+  keyWorks: p.keyWorks || [],
+  quotes: p.quotes || [],
+  influences: p.influences || [],
+  influenced: p.influenced || [],
+  concepts: p.concepts || [],
+  questions: p.questions || [],
+})) as {
   id: string;
   name: { ko: string; en: string; original?: string };
   era: string;

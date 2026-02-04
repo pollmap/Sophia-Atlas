@@ -17,10 +17,31 @@ import {
   TreePine,
   Users,
 } from 'lucide-react';
-import philosophersData from '@/data/philosophers.json';
+import philosophersData from '@/data/persons/philosophers.json';
+import religiousFiguresData from '@/data/persons/religious-figures.json';
+import scientistsData from '@/data/persons/scientists.json';
+import historicalFiguresData from '@/data/persons/historical-figures.json';
 import quotesData from '@/data/quotes.json';
 import religionsData from '@/data/religions.json';
+import ppRelData from '@/data/relationships/person-person.json';
+import peRelData from '@/data/relationships/person-entity.json';
+import eeRelData from '@/data/relationships/entity-entity.json';
+import eventsData from '@/data/entities/events.json';
+import ideologiesData from '@/data/entities/ideologies.json';
+import movementsData from '@/data/entities/movements.json';
+import institutionsData from '@/data/entities/institutions.json';
+import textsData from '@/data/entities/texts.json';
+import conceptsData from '@/data/entities/concepts.json';
 import { cn, getEraColor, getEraBgColor, getEraLabel, formatYear } from '@/lib/utils';
+
+const allPersons = [
+  ...philosophersData,
+  ...religiousFiguresData,
+  ...scientistsData,
+  ...historicalFiguresData,
+] as any[];
+const totalEntities = eventsData.length + ideologiesData.length + movementsData.length + institutionsData.length + textsData.length + conceptsData.length;
+const totalRelationships = ppRelData.length + peRelData.length + eeRelData.length;
 
 const eras = ['ancient', 'medieval', 'modern', 'contemporary'] as const;
 
@@ -32,6 +53,8 @@ const eraDescriptions: Record<string, string> = {
 };
 
 const navItems = [
+  { title: '인물 탐색기', description: '471명의 사상가·과학자·종교인물 탐색', href: '/persons/', icon: Users },
+  { title: '엔터티', description: '사건·사상·기관·경전 탐색', href: '/entities/', icon: Grid3X3 },
   { title: '타임라인', description: '철학의 역사를 시간순으로 탐색', href: '/philosophy/timeline/', icon: Clock },
   { title: '영향 관계 그래프', description: '사상가들의 연결 관계', href: '/philosophy/graph/', icon: GitBranch },
   { title: '근본 질문', description: '질문으로 철학 탐색하기', href: '/philosophy/questions/', icon: HelpCircle },
@@ -54,7 +77,7 @@ export default function HomePage() {
 
   const eraCounts = useMemo(() => {
     const counts: Record<string, number> = { ancient: 0, medieval: 0, modern: 0, contemporary: 0 };
-    philosophersData.forEach((p) => {
+    allPersons.forEach((p) => {
       if (counts[p.era] !== undefined) counts[p.era]++;
     });
     return counts;
@@ -208,10 +231,18 @@ export default function HomePage() {
       {/* Stats Bar */}
       <section className="max-w-5xl mx-auto px-4 pb-20">
         <div className="rounded-xl border border-slate-700/50 bg-slate-800/20 p-6">
-          <div className="grid grid-cols-3 gap-6 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
             <div>
-              <p className="text-3xl font-bold text-white">{philosophersData.length}</p>
-              <p className="text-sm text-slate-500 mt-1">사상가</p>
+              <p className="text-3xl font-bold text-white">{allPersons.length}</p>
+              <p className="text-sm text-slate-500 mt-1">인물</p>
+            </div>
+            <div>
+              <p className="text-3xl font-bold text-white">{totalEntities}</p>
+              <p className="text-sm text-slate-500 mt-1">엔터티</p>
+            </div>
+            <div>
+              <p className="text-3xl font-bold text-white">{totalRelationships}</p>
+              <p className="text-sm text-slate-500 mt-1">관계</p>
             </div>
             <div>
               <p className="text-3xl font-bold text-white">{religionsData.length}</p>
