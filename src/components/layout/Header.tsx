@@ -10,34 +10,126 @@ import {
   Sun,
   Moon,
   Search,
-  Home,
   BookOpen,
   Scroll,
-  Network,
+  Atom,
+  Crown,
+  Palette,
   Users,
+  Network,
+  ChevronDown,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-interface NavItem {
+// ── Types ──
+
+interface DropdownChild {
   label: string;
+  description: string;
   href: string;
-  icon: React.ReactNode;
 }
 
-const navItems: NavItem[] = [
-  { label: "홈", href: "/", icon: <Home className="w-4 h-4" /> },
-  { label: "인물", href: "/persons", icon: <Users className="w-4 h-4" /> },
-  { label: "엔터티", href: "/entities", icon: <Landmark className="w-4 h-4" /> },
-  { label: "철학", href: "/philosophy/timeline", icon: <BookOpen className="w-4 h-4" /> },
-  { label: "신화/종교", href: "/religion/map", icon: <Scroll className="w-4 h-4" /> },
-  { label: "인드라망", href: "/connections", icon: <Network className="w-4 h-4" /> },
-  { label: "검색", href: "/search", icon: <Search className="w-4 h-4" /> },
+interface NavGroup {
+  kind: "group";
+  label: string;
+  icon: React.ReactNode;
+  basePath: string;
+  children: DropdownChild[];
+}
+
+interface NavLink {
+  kind: "link";
+  label: string;
+  icon: React.ReactNode;
+  href: string;
+}
+
+type NavEntry = NavGroup | NavLink;
+
+// ── Navigation Data ──
+
+const navEntries: NavEntry[] = [
+  {
+    kind: "group",
+    label: "철학",
+    icon: <BookOpen className="w-4 h-4" />,
+    basePath: "/philosophy",
+    children: [
+      { label: "타임라인", description: "시대별 철학사 흐름", href: "/philosophy/timeline/" },
+      { label: "영향관계", description: "사상가 간 영향 그래프", href: "/philosophy/graph/" },
+      { label: "근본질문", description: "철학의 핵심 물음들", href: "/philosophy/questions/" },
+    ],
+  },
+  {
+    kind: "group",
+    label: "종교",
+    icon: <Scroll className="w-4 h-4" />,
+    basePath: "/religion",
+    children: [
+      { label: "세계지도", description: "종교 분포 지도", href: "/religion/map/" },
+      { label: "분파트리", description: "종교 분파 계보", href: "/religion/tree/" },
+      { label: "비교표", description: "종교 간 비교 매트릭스", href: "/religion/compare/" },
+    ],
+  },
+  {
+    kind: "group",
+    label: "과학",
+    icon: <Atom className="w-4 h-4" />,
+    basePath: "/science",
+    children: [
+      { label: "과학 허브", description: "과학사 종합 탐색", href: "/science/" },
+      { label: "발견 타임라인", description: "주요 발견과 발명", href: "/science/timeline/" },
+      { label: "분야별 탐색", description: "물리, 화학, 생물 등", href: "/science/fields/" },
+    ],
+  },
+  {
+    kind: "group",
+    label: "역사",
+    icon: <Crown className="w-4 h-4" />,
+    basePath: "/history",
+    children: [
+      { label: "역사 허브", description: "역사 종합 탐색", href: "/history/" },
+      { label: "사건 타임라인", description: "주요 역사적 사건", href: "/history/timeline/" },
+      { label: "문명", description: "세계 문명 탐색", href: "/history/civilizations/" },
+    ],
+  },
+  {
+    kind: "group",
+    label: "문화",
+    icon: <Palette className="w-4 h-4" />,
+    basePath: "/culture",
+    children: [
+      { label: "문화 허브", description: "문화/예술 종합", href: "/culture/" },
+      { label: "사조", description: "예술 및 문화 사조", href: "/culture/movements/" },
+    ],
+  },
+  {
+    kind: "link",
+    label: "인물",
+    icon: <Users className="w-4 h-4" />,
+    href: "/persons/",
+  },
+  {
+    kind: "link",
+    label: "인드라망",
+    icon: <Network className="w-4 h-4" />,
+    href: "/connections/",
+  },
+  {
+    kind: "link",
+    label: "검색",
+    icon: <Search className="w-4 h-4" />,
+    href: "/search/",
+  },
 ];
+
+// ── Component ──
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isDark, setIsDark] = useState(true);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [expandedGroup, setExpandedGroup] = useState<string | null>(null);
   const pathname = usePathname();
 
   // Track scroll position for header shadow
@@ -52,6 +144,7 @@ export default function Header() {
   // Close mobile menu on route change
   useEffect(() => {
     setIsMobileMenuOpen(false);
+    setExpandedGroup(null);
   }, [pathname]);
 
   // Lock body scroll when mobile menu is open
@@ -83,9 +176,16 @@ export default function Header() {
     if (href === "/") {
       return pathname === "/" || pathname === "";
     }
-    // Match parent paths (e.g., /philosophy/timeline matches /philosophy/*)
-    const parentPath = href.split("/").slice(0, 2).join("/");
-    return pathname?.startsWith(parentPath);
+    const normalized = href.replace(/\/+$/, "");
+    return pathname?.startsWith(normalized);
+  };
+
+  const isGroupActive = (basePath: string) => {
+    return pathname?.startsWith(basePath);
+  };
+
+  const toggleMobileGroup = (label: string) => {
+    setExpandedGroup((prev) => (prev === label ? null : label));
   };
 
   return (
@@ -127,31 +227,97 @@ export default function Header() {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-1">
-              {navItems.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={cn(
-                    "flex items-center gap-2 px-3.5 py-2 rounded-lg",
-                    "text-sm font-medium transition-all duration-200",
-                    isActive(item.href)
-                      ? "bg-accent/15 text-accent shadow-sm"
-                      : "text-foreground-secondary hover:text-foreground hover:bg-background-tertiary/50"
-                  )}
-                >
-                  <span
-                    className={cn(
-                      "transition-colors duration-200",
-                      isActive(item.href)
-                        ? "text-accent"
-                        : "text-foreground-muted"
-                    )}
-                  >
-                    {item.icon}
-                  </span>
-                  {item.label}
-                </Link>
-              ))}
+              {navEntries.map((entry) => {
+                if (entry.kind === "link") {
+                  return (
+                    <Link
+                      key={entry.href}
+                      href={entry.href}
+                      className={cn(
+                        "flex items-center gap-2 px-3.5 py-2 rounded-lg",
+                        "text-sm font-medium transition-all duration-200",
+                        isActive(entry.href)
+                          ? "bg-accent/15 text-accent shadow-sm"
+                          : "text-foreground-secondary hover:text-foreground hover:bg-background-tertiary/50"
+                      )}
+                    >
+                      <span
+                        className={cn(
+                          "transition-colors duration-200",
+                          isActive(entry.href)
+                            ? "text-accent"
+                            : "text-foreground-muted"
+                        )}
+                      >
+                        {entry.icon}
+                      </span>
+                      {entry.label}
+                    </Link>
+                  );
+                }
+
+                // Dropdown group
+                const groupActive = isGroupActive(entry.basePath);
+                return (
+                  <div key={entry.label} className="relative group">
+                    <button
+                      className={cn(
+                        "flex items-center gap-2 px-3.5 py-2 rounded-lg",
+                        "text-sm font-medium transition-all duration-200",
+                        groupActive
+                          ? "bg-accent/15 text-accent shadow-sm"
+                          : "text-foreground-secondary hover:text-foreground hover:bg-background-tertiary/50"
+                      )}
+                    >
+                      <span
+                        className={cn(
+                          "transition-colors duration-200",
+                          groupActive ? "text-accent" : "text-foreground-muted"
+                        )}
+                      >
+                        {entry.icon}
+                      </span>
+                      {entry.label}
+                      <ChevronDown className="w-3 h-3 transition-transform duration-200 group-hover:rotate-180" />
+                    </button>
+
+                    {/* Dropdown Panel */}
+                    <div
+                      className={cn(
+                        "absolute top-full left-0 pt-2",
+                        "opacity-0 invisible translate-y-1",
+                        "group-hover:opacity-100 group-hover:visible group-hover:translate-y-0",
+                        "transition-all duration-200"
+                      )}
+                    >
+                      <div
+                        className={cn(
+                          "w-56 rounded-xl border border-border",
+                          "bg-background-secondary shadow-xl shadow-black/20",
+                          "py-1.5"
+                        )}
+                      >
+                        {entry.children.map((child) => (
+                          <Link
+                            key={child.href}
+                            href={child.href}
+                            className={cn(
+                              "flex flex-col gap-0.5 px-4 py-2.5",
+                              "transition-colors duration-150",
+                              isActive(child.href)
+                                ? "bg-accent/10 text-accent"
+                                : "text-foreground-secondary hover:text-foreground hover:bg-background-tertiary/50"
+                            )}
+                          >
+                            <span className="text-sm font-medium">{child.label}</span>
+                            <span className="text-xs text-foreground-muted">{child.description}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
             </nav>
 
             {/* Right Actions */}
@@ -242,35 +408,104 @@ export default function Header() {
           {/* Navigation Links */}
           <nav className="flex-1 overflow-y-auto py-4 px-3">
             <div className="space-y-1">
-              {navItems.map((item, index) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={cn(
-                    "flex items-center gap-3 px-4 py-3 rounded-lg",
-                    "text-sm font-medium transition-all duration-200",
-                    "animate-slide-down",
-                    isActive(item.href)
-                      ? "bg-accent/15 text-accent"
-                      : "text-foreground-secondary hover:text-foreground hover:bg-background-tertiary/50"
-                  )}
-                  style={{ animationDelay: `${index * 50}ms` }}
-                >
-                  <span
-                    className={cn(
-                      isActive(item.href)
-                        ? "text-accent"
-                        : "text-foreground-muted"
-                    )}
+              {navEntries.map((entry, index) => {
+                if (entry.kind === "link") {
+                  return (
+                    <Link
+                      key={entry.href}
+                      href={entry.href}
+                      className={cn(
+                        "flex items-center gap-3 px-4 py-3 rounded-lg",
+                        "text-sm font-medium transition-all duration-200",
+                        "animate-slide-down",
+                        isActive(entry.href)
+                          ? "bg-accent/15 text-accent"
+                          : "text-foreground-secondary hover:text-foreground hover:bg-background-tertiary/50"
+                      )}
+                      style={{ animationDelay: `${index * 50}ms` }}
+                    >
+                      <span
+                        className={cn(
+                          isActive(entry.href)
+                            ? "text-accent"
+                            : "text-foreground-muted"
+                        )}
+                      >
+                        {entry.icon}
+                      </span>
+                      {entry.label}
+                      {isActive(entry.href) && (
+                        <span className="ml-auto w-1.5 h-1.5 rounded-full bg-accent" />
+                      )}
+                    </Link>
+                  );
+                }
+
+                // Mobile accordion group
+                const groupActive = isGroupActive(entry.basePath);
+                const isExpanded = expandedGroup === entry.label;
+
+                return (
+                  <div
+                    key={entry.label}
+                    className="animate-slide-down"
+                    style={{ animationDelay: `${index * 50}ms` }}
                   >
-                    {item.icon}
-                  </span>
-                  {item.label}
-                  {isActive(item.href) && (
-                    <span className="ml-auto w-1.5 h-1.5 rounded-full bg-accent" />
-                  )}
-                </Link>
-              ))}
+                    <button
+                      onClick={() => toggleMobileGroup(entry.label)}
+                      className={cn(
+                        "flex items-center gap-3 w-full px-4 py-3 rounded-lg",
+                        "text-sm font-medium transition-all duration-200",
+                        groupActive
+                          ? "bg-accent/15 text-accent"
+                          : "text-foreground-secondary hover:text-foreground hover:bg-background-tertiary/50"
+                      )}
+                    >
+                      <span
+                        className={cn(
+                          groupActive ? "text-accent" : "text-foreground-muted"
+                        )}
+                      >
+                        {entry.icon}
+                      </span>
+                      {entry.label}
+                      <ChevronDown
+                        className={cn(
+                          "w-4 h-4 ml-auto transition-transform duration-200",
+                          isExpanded && "rotate-180"
+                        )}
+                      />
+                    </button>
+
+                    {/* Accordion children */}
+                    <div
+                      className={cn(
+                        "overflow-hidden transition-all duration-200",
+                        isExpanded ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                      )}
+                    >
+                      <div className="pl-6 py-1 space-y-0.5">
+                        {entry.children.map((child) => (
+                          <Link
+                            key={child.href}
+                            href={child.href}
+                            className={cn(
+                              "flex flex-col gap-0.5 px-4 py-2.5 rounded-lg",
+                              "transition-colors duration-150",
+                              isActive(child.href)
+                                ? "bg-accent/10 text-accent"
+                                : "text-foreground-secondary hover:text-foreground hover:bg-background-tertiary/50"
+                            )}
+                          >
+                            <span className="text-sm font-medium">{child.label}</span>
+                            <span className="text-xs text-foreground-muted">{child.description}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </nav>
 
