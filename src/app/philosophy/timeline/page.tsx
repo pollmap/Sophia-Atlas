@@ -547,7 +547,7 @@ export default function TimelinePage() {
                   className="sticky top-0 z-[5]"
                   style={{
                     height: AXIS_HEIGHT,
-                    borderBottom: '1px solid rgba(212,196,171,0.3)',
+                    borderBottom: '1px solid var(--fresco-shadow)',
                     background:
                       'linear-gradient(to bottom, var(--fresco-parchment), var(--fresco-aged))',
                   }}

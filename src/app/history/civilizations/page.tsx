@@ -273,7 +273,7 @@ export default function CivilizationsPage() {
                   <div style={{ borderTop: '1px solid var(--fresco-shadow)' }}>
                     {/* Key Events */}
                     {regionEvents.length > 0 && (
-                      <div className="p-6" style={{ borderBottom: '1px solid rgba(212,199,181,0.3)' }}>
+                      <div className="p-6" style={{ borderBottom: '1px solid var(--fresco-shadow)' }}>
                         <h4 className="text-sm font-semibold mb-3 flex items-center gap-2" style={{ color: '#B8860B', fontFamily: "'Pretendard', sans-serif" }}>
                           <Flag className="w-4 h-4" />
                           주요 사건
@@ -284,7 +284,7 @@ export default function CivilizationsPage() {
                               key={event.id}
                               href={`/entities/${event.id}`}
                               className="group rounded p-4 transition-all"
-                              style={{ border: '1px solid var(--fresco-shadow)', backgroundColor: 'rgba(240,230,211,0.5)' }}
+                              style={{ border: '1px solid var(--fresco-shadow)', backgroundColor: 'var(--fresco-aged)' }}
                             >
                               <h5 className="text-sm font-medium transition-colors" style={{ color: '#B8860B', fontFamily: "'Cormorant Garamond', serif" }}>
                                 {event.name.ko}
@@ -327,7 +327,7 @@ export default function CivilizationsPage() {
                                 'group rounded p-4 transition-all border-l-4',
                                 getEraBorderClass(p.era)
                               )}
-                              style={{ border: '1px solid var(--fresco-shadow)', backgroundColor: 'rgba(240,230,211,0.5)' }}
+                              style={{ border: '1px solid var(--fresco-shadow)', backgroundColor: 'var(--fresco-aged)' }}
                             >
                               <div className="flex items-start justify-between mb-2">
                                 <div>

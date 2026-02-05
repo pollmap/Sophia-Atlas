@@ -245,7 +245,7 @@ export default function ScienceTimelinePage() {
               className="px-4 py-2 rounded text-sm font-medium transition-all"
               style={
                 selectedEra === 'all'
-                  ? { backgroundColor: '#5B7355', color: '#FAF6E9', fontFamily: "'Pretendard', sans-serif" }
+                  ? { backgroundColor: '#5B7355', color: 'var(--fresco-ivory)', fontFamily: "'Pretendard', sans-serif" }
                   : { backgroundColor: 'var(--fresco-parchment)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }
               }
             >
@@ -258,7 +258,7 @@ export default function ScienceTimelinePage() {
                 className="px-4 py-2 rounded text-sm font-medium transition-all"
                 style={
                   selectedEra === era
-                    ? { backgroundColor: frescoEraColors[era], color: '#FAF6E9', fontFamily: "'Pretendard', sans-serif" }
+                    ? { backgroundColor: frescoEraColors[era], color: 'var(--fresco-ivory)', fontFamily: "'Pretendard', sans-serif" }
                     : { backgroundColor: 'var(--fresco-parchment)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }
                 }
               >
@@ -312,7 +312,7 @@ export default function ScienceTimelinePage() {
             className="px-3 py-1.5 rounded text-xs font-medium transition-all"
             style={
               selectedField === 'all'
-                ? { backgroundColor: '#5B7355', color: '#FAF6E9' }
+                ? { backgroundColor: '#5B7355', color: 'var(--fresco-ivory)' }
                 : { backgroundColor: 'var(--fresco-parchment)', color: 'var(--ink-light)' }
             }
           >
@@ -327,7 +327,7 @@ export default function ScienceTimelinePage() {
                 className="px-3 py-1.5 rounded text-xs font-medium transition-all flex items-center gap-1"
                 style={
                   selectedField === field
-                    ? { backgroundColor: info.color, color: '#FAF6E9' }
+                    ? { backgroundColor: info.color, color: 'var(--fresco-ivory)' }
                     : { backgroundColor: 'var(--fresco-parchment)', color: 'var(--ink-light)' }
                 }
               >
@@ -490,7 +490,7 @@ export default function ScienceTimelinePage() {
                           >
                             <span
                               className="text-[9px] font-medium whitespace-nowrap truncate relative z-10"
-                              style={{ color: '#FAF6E9' }}
+                              style={{ color: 'var(--fresco-ivory)' }}
                             >
                               {s.name.ko}
                             </span>

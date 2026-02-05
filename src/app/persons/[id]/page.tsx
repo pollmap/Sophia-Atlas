@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
   ArrowLeft,
@@ -95,6 +96,29 @@ function frescoEraColor(era: string): string {
 
 export function generateStaticParams() {
   return allPersons.map((p) => ({ id: p.id }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const person = allPersons.find((p) => p.id === id);
+  if (!person) return { title: 'Sophia Atlas' };
+  const catLabel = getCategoryLabel(person.category);
+  const eraLabel = getEraLabel(person.era);
+  return {
+    title: `${person.name.ko} (${person.name.en}) — Sophia Atlas`,
+    description: person.summary,
+    keywords: [person.name.ko, person.name.en, catLabel, eraLabel, ...(person.tags || [])],
+    openGraph: {
+      title: `${person.name.ko} — ${catLabel} | Sophia Atlas`,
+      description: person.summary,
+      type: 'profile',
+      locale: 'ko_KR',
+    },
+  };
 }
 
 function getPersonName(id: string): string {

@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowLeft, Calendar, MapPin, Lightbulb, BookOpen, Users, Tag, Layers } from 'lucide-react';
 import { cn, getEraLabel, getEraColorClass, formatYear, getCategoryHexColor } from '@/lib/utils';
@@ -72,6 +73,28 @@ const typeHex: Record<string, string> = {
 
 export function generateStaticParams() {
   return allEntities.map((e) => ({ id: e.id }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const entity = allEntities.find((e) => e.id === id);
+  if (!entity) return { title: 'Sophia Atlas' };
+  const typeLabel = typeLabels[entity.type] || entity.type;
+  return {
+    title: `${entity.name.ko} (${entity.name.en}) — Sophia Atlas`,
+    description: entity.summary,
+    keywords: [entity.name.ko, entity.name.en, typeLabel, ...entity.tags],
+    openGraph: {
+      title: `${entity.name.ko} — ${typeLabel} | Sophia Atlas`,
+      description: entity.summary,
+      type: 'article',
+      locale: 'ko_KR',
+    },
+  };
 }
 
 function getPersonName(id: string): string {

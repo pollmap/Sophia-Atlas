@@ -233,7 +233,7 @@ export default function HistoryTimelinePage() {
               style={{
                 fontFamily: "'Pretendard', sans-serif",
                 backgroundColor: selectedEra === 'all' ? '#8B4040' : 'var(--fresco-aged)',
-                color: selectedEra === 'all' ? '#FAF6E9' : 'var(--ink-light)',
+                color: selectedEra === 'all' ? 'var(--fresco-ivory)' : 'var(--ink-light)',
               }}
             >
               전체
@@ -246,7 +246,7 @@ export default function HistoryTimelinePage() {
                 style={{
                   fontFamily: "'Pretendard', sans-serif",
                   backgroundColor: selectedEra === era ? frescoEraColors[era] : 'var(--fresco-aged)',
-                  color: selectedEra === era ? '#FAF6E9' : 'var(--ink-light)',
+                  color: selectedEra === era ? 'var(--fresco-ivory)' : 'var(--ink-light)',
                 }}
               >
                 {getEraLabel(era)}
@@ -446,7 +446,7 @@ export default function HistoryTimelinePage() {
                             >
                               <span
                                 className="text-[9px] font-medium whitespace-nowrap truncate"
-                                style={{ color: '#FAF6E9', fontFamily: "'Pretendard', sans-serif" }}
+                                style={{ color: 'var(--fresco-ivory)', fontFamily: "'Pretendard', sans-serif" }}
                               >
                                 {p.name.ko}
                               </span>
@@ -622,7 +622,7 @@ export default function HistoryTimelinePage() {
               style={{
                 fontFamily: "'Pretendard', sans-serif",
                 backgroundColor: activeTab === tab.key ? '#8B4040' : 'var(--fresco-aged)',
-                color: activeTab === tab.key ? '#FAF6E9' : 'var(--ink-light)',
+                color: activeTab === tab.key ? 'var(--fresco-ivory)' : 'var(--ink-light)',
               }}
             >
               {tab.label}
