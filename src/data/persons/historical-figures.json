@@ -11280,5 +11280,425 @@
       "전기분해 법칙",
       "패러데이 새장"
     ]
+  },
+  {
+    "id": "frank-herbert",
+    "name": {
+      "ko": "프랭크 허버트",
+      "en": "Frank Herbert"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1920,
+      "end": 1986
+    },
+    "location": {
+      "lat": 46.2,
+      "lng": -122.96,
+      "region": "미국 워싱턴주"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "SF소설",
+      "듄",
+      "생태학",
+      "종교와정치"
+    ],
+    "mvp": true,
+    "summary": "《듄》 시리즈의 저자. 생태학, 종교, 정치, 권력의 본질을 SF라는 형식 속에 담아낸 20세기 가장 영향력 있는 SF 작가.",
+    "detailed": "프랭크 허버트는 《듄》(1965)으로 SF 문학의 역사를 바꾼 미국 작가이다. 듄은 사막 행성 아라키스를 배경으로 종교, 생태학, 정치, 메시아니즘을 탐구하며, 이슬람 수피즘, 에세네파, 선불교, 융 심리학 등 다양한 문화적 원천을 융합했다. 스타워즈를 비롯한 수많은 SF 작품에 직접적 영감을 주었으며, 생태학적 사고를 대중문화에 소개한 선구자이기도 하다.",
+    "keyWorks": [
+      {
+        "title": "듄 (Dune)",
+        "year": 1965,
+        "type": "novel"
+      },
+      {
+        "title": "듄 메시아",
+        "year": 1969,
+        "type": "novel"
+      }
+    ],
+    "influences": [
+      "campbell-joseph",
+      "jung"
+    ],
+    "influenced": [
+      "george-lucas"
+    ],
+    "domain": "문학/SF",
+    "achievements": [
+      "듄 시리즈",
+      "휴고상",
+      "네뷸러상"
+    ]
+  },
+  {
+    "id": "george-lucas",
+    "name": {
+      "ko": "조지 루카스",
+      "en": "George Lucas"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1944,
+      "end": 2025
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": -122.03,
+      "region": "미국 캘리포니아"
+    },
+    "category": "cultural_figure",
+    "subcategory": "film",
+    "tags": [
+      "영화",
+      "스타워즈",
+      "신화",
+      "영웅서사"
+    ],
+    "mvp": true,
+    "summary": "《스타워즈》 시리즈의 창조자. 조지프 캠벨의 영웅의 여정, 동양 철학, 듄의 영향을 융합하여 현대 대중문화의 신화를 만들어냈다.",
+    "detailed": "조지 루카스는 스타워즈(1977)로 현대 대중문화에 가장 큰 영향을 미친 영화감독이다. 조지프 캠벨의 《천의 얼굴을 가진 영웅》에서 영웅의 여정 구조를 차용했고, 도교의 도(道)에서 포스의 개념을, 일본 사무라이 문화에서 제다이를, 프랭크 허버트의 듄에서 사막 행성과 종교적 메시아 서사를 참조했다. 선과 악, 스승과 제자, 운명과 자유의지 등 보편적 신화 원형을 현대적으로 재해석했다.",
+    "keyWorks": [
+      {
+        "title": "스타워즈 (Star Wars)",
+        "year": 1977,
+        "type": "film"
+      }
+    ],
+    "influences": [
+      "joseph-campbell",
+      "frank-herbert"
+    ],
+    "influenced": [],
+    "domain": "영화",
+    "achievements": [
+      "스타워즈 시리즈",
+      "인디아나 존스",
+      "루카스필름/ILM 설립"
+    ]
+  },
+  {
+    "id": "george-orwell",
+    "name": {
+      "ko": "조지 오웰",
+      "en": "George Orwell",
+      "original": "Eric Arthur Blair"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1903,
+      "end": 1950
+    },
+    "location": {
+      "lat": 26.77,
+      "lng": 94.22,
+      "region": "영국/인도"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "디스토피아",
+      "전체주의비판",
+      "정치소설",
+      "저널리즘"
+    ],
+    "mvp": true,
+    "summary": "《1984》와 《동물농장》의 저자. 전체주의의 위험성과 언어 조작을 통한 권력 유지 메커니즘을 문학적으로 형상화한 20세기 가장 중요한 정치 작가.",
+    "detailed": "조지 오웰은 전체주의에 대한 가장 날카로운 문학적 비판을 남긴 영국 작가이다. 《1984》(1949)는 감시 사회, 뉴스피크(언어 통제), 이중사고 등의 개념을 통해 권력이 현실을 어떻게 왜곡하는지 보여주었고, 이 개념들은 현대 정치 담론의 핵심 어휘가 되었다. 스페인 내전 참전 경험이 전체주의에 대한 직접적 통찰을 제공했다.",
+    "keyWorks": [
+      {
+        "title": "1984",
+        "year": 1949,
+        "type": "novel"
+      },
+      {
+        "title": "동물농장",
+        "year": 1945,
+        "type": "novel"
+      }
+    ],
+    "influences": [
+      "marx"
+    ],
+    "influenced": [],
+    "domain": "문학",
+    "achievements": [
+      "1984",
+      "동물농장",
+      "정치 에세이"
+    ]
+  },
+  {
+    "id": "j-r-r-tolkien",
+    "name": {
+      "ko": "J.R.R. 톨킨",
+      "en": "J.R.R. Tolkien",
+      "original": "John Ronald Reuel Tolkien"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1892,
+      "end": 1973
+    },
+    "location": {
+      "lat": 51.75,
+      "lng": -1.25,
+      "region": "영국 옥스퍼드"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "판타지",
+      "신화창조",
+      "언어학",
+      "중세문학"
+    ],
+    "mvp": true,
+    "summary": "《반지의 제왕》과 《호빗》의 저자. 북유럽 신화, 기독교 신학, 언어학적 지식을 결합하여 현대 판타지 문학의 토대를 창조한 20세기 최고의 신화 창조자.",
+    "detailed": "톨킨은 옥스퍼드 대학의 고대영어 교수이자 현대 판타지 장르의 창시자이다. 《반지의 제왕》(1954-55)은 북유럽 신화(에다), 핀란드 서사시(칼레발라), 앵글로색슨 서사시(베오울프), 기독교 신학을 종합하여 완전히 새로운 신화 세계를 구축했다. 언어학자로서 엘프어 등 가상 언어를 먼저 창조하고 그 위에 세계를 건설한 독특한 방법론을 사용했다. 조지프 캠벨의 영웅 원형론과 공명하며, 스타워즈, 던전 앤 드래곤, 해리 포터 등 현대 판타지 문화 전체에 결정적 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "반지의 제왕",
+        "year": 1954,
+        "type": "novel"
+      },
+      {
+        "title": "호빗",
+        "year": 1937,
+        "type": "novel"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "문학/신화창조",
+    "achievements": [
+      "반지의 제왕",
+      "호빗",
+      "실마릴리온",
+      "현대 판타지 장르 창시"
+    ]
+  },
+  {
+    "id": "mary-shelley",
+    "name": {
+      "ko": "메리 셸리",
+      "en": "Mary Shelley"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1797,
+      "end": 1851
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "SF",
+      "고딕소설",
+      "낭만주의",
+      "페미니즘"
+    ],
+    "mvp": true,
+    "summary": "《프랑켄슈타인》의 저자. SF 문학의 시조로 불리며, 과학의 윤리적 한계와 창조자의 책임이라는 주제를 처음으로 문학적으로 탐구했다.",
+    "detailed": "메리 셸리는 19세에 《프랑켄슈타인, 혹은 현대의 프로메테우스》(1818)를 집필하여 SF 장르의 기원을 만들었다. 갈바니의 전기 실험, 계몽주의의 과학적 낙관론, 프로메테우스 신화를 결합하여 과학이 자연의 한계를 넘어설 때 발생하는 도덕적 딜레마를 탐구했다. 이 주제는 이후 모든 SF의 핵심 모티프가 되었다.",
+    "keyWorks": [
+      {
+        "title": "프랑켄슈타인",
+        "year": 1818,
+        "type": "novel"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "문학/SF",
+    "achievements": [
+      "프랑켄슈타인",
+      "SF 장르의 시조"
+    ]
+  },
+  {
+    "id": "aldous-huxley",
+    "name": {
+      "ko": "올더스 헉슬리",
+      "en": "Aldous Huxley"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1894,
+      "end": 1963
+    },
+    "location": {
+      "lat": 51.45,
+      "lng": -0.97,
+      "region": "영국/미국"
+    },
+    "category": "cultural_figure",
+    "subcategory": "literary_figure",
+    "tags": [
+      "디스토피아",
+      "신비주의",
+      "의식탐구",
+      "사회비평"
+    ],
+    "mvp": false,
+    "summary": "《멋진 신세계》의 저자. 기술과 소비로 통제되는 디스토피아를 예언하고, 후기에는 동양 신비주의와 의식 확장을 탐구한 사상가이자 소설가.",
+    "detailed": "올더스 헉슬리는 《멋진 신세계》(1932)에서 오웰과는 다른 형태의 디스토피아—억압이 아닌 쾌락으로 인간을 통제하는 사회—를 그렸다. 후기에는 베단타 철학과 선불교에 심취했고, 《지각의 문》(1954)은 의식 확장과 신비 체험을 탐구하여 1960년대 반문화 운동에 큰 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "멋진 신세계",
+        "year": 1932,
+        "type": "novel"
+      },
+      {
+        "title": "지각의 문",
+        "year": 1954,
+        "type": "essay"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "문학/사상",
+    "achievements": [
+      "멋진 신세계",
+      "지각의 문"
+    ]
+  },
+  {
+    "id": "gutenberg",
+    "name": {
+      "ko": "요하네스 구텐베르크",
+      "en": "Johannes Gutenberg"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1400,
+      "end": 1468
+    },
+    "location": {
+      "lat": 50,
+      "lng": 8.27,
+      "region": "독일 마인츠"
+    },
+    "category": "historical_figure",
+    "subcategory": "invention",
+    "tags": [
+      "인쇄술",
+      "활자",
+      "정보혁명",
+      "종교개혁"
+    ],
+    "mvp": true,
+    "summary": "금속 활자 인쇄술의 발명가. 정보의 대중화를 가능하게 하여 종교개혁, 과학혁명, 계몽주의의 물질적 토대를 만든 인류 역사상 가장 영향력 있는 발명가 중 하나.",
+    "detailed": "구텐베르크는 1440년경 금속 활자와 인쇄기를 결합한 활판 인쇄술을 발명하여 지식의 생산과 유통을 혁명적으로 변화시켰다. 구텐베르크 성경(1455)은 최초의 대량 인쇄 서적으로, 이후 책의 가격이 급락하고 문맹률이 감소하며 지식의 민주화가 시작되었다. 이 기술 없이는 루터의 종교개혁도, 과학혁명도, 계몽주의도 불가능했을 것이다.",
+    "keyWorks": [
+      {
+        "title": "활판 인쇄술 발명",
+        "year": 1440,
+        "type": "invention"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "기술/발명",
+    "achievements": [
+      "금속 활자 인쇄술",
+      "구텐베르크 성경",
+      "정보 혁명의 시초"
+    ]
+  },
+  {
+    "id": "lenin",
+    "name": {
+      "ko": "블라디미르 레닌",
+      "en": "Vladimir Lenin",
+      "original": "Владимир Ильич Ленин"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1870,
+      "end": 1924
+    },
+    "location": {
+      "lat": 56.32,
+      "lng": 44,
+      "region": "러시아"
+    },
+    "category": "historical_figure",
+    "subcategory": "politics",
+    "tags": [
+      "공산주의",
+      "러시아혁명",
+      "마르크스주의",
+      "볼셰비키"
+    ],
+    "mvp": true,
+    "summary": "러시아 혁명의 지도자이자 소비에트 연방의 창건자. 마르크스의 이론을 실천적 혁명 전략으로 전환시킨 20세기 가장 영향력 있는 정치 지도자 중 하나.",
+    "detailed": "레닌은 마르크스의 자본주의 분석을 제국주의론으로 확장하고, 전위당 이론을 통해 혁명의 실천적 방법론을 제시했다. 1917년 10월 혁명으로 최초의 사회주의 국가를 수립했으며, 이는 20세기 세계 정치의 근본적 구조를 바꾸었다.",
+    "keyWorks": [
+      {
+        "title": "제국주의, 자본주의의 최고 단계",
+        "year": 1917,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "marx",
+      "engels"
+    ],
+    "influenced": [],
+    "domain": "정치",
+    "achievements": [
+      "러시아 혁명",
+      "소비에트 연방 건국",
+      "마르크스-레닌주의"
+    ]
+  },
+  {
+    "id": "watt",
+    "name": {
+      "ko": "제임스 와트",
+      "en": "James Watt"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1736,
+      "end": 1819
+    },
+    "location": {
+      "lat": 55.87,
+      "lng": -4.25,
+      "region": "스코틀랜드 그리니크"
+    },
+    "category": "historical_figure",
+    "subcategory": "invention",
+    "tags": [
+      "증기기관",
+      "산업혁명",
+      "기술"
+    ],
+    "mvp": false,
+    "summary": "증기기관을 혁신적으로 개량하여 산업혁명의 핵심 동력을 제공한 스코틀랜드의 발명가이자 기계공학자.",
+    "detailed": "와트는 뉴커먼 증기기관의 비효율성을 분리 응축기 설계로 해결하여 증기기관의 효율을 획기적으로 높였다. 이 개량된 증기기관은 방직, 광업, 운송 등 모든 산업 분야에 적용되어 산업혁명의 물질적 기반을 제공했다. 전력의 단위 '와트(W)'는 그의 이름에서 따온 것이다.",
+    "keyWorks": [
+      {
+        "title": "분리 응축기 증기기관",
+        "year": 1769,
+        "type": "invention"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "domain": "기술/발명",
+    "achievements": [
+      "증기기관 개량",
+      "산업혁명 촉진"
+    ]
   }
 ]

@@ -35102,5 +35102,195 @@
     "description": "오스트발트와 아인슈타인은 20세기 초 과학의 동시대인이었다",
     "strength": 1,
     "direction": "bidirectional"
+  },
+  {
+    "source": "frank-herbert",
+    "target": "joseph-campbell",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "조지프 캠벨의 영웅 신화론이 듄의 폴 아트레이드 메시아 서사에 구조적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "frank-herbert",
+    "target": "george-lucas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "듄의 사막 행성, 스파이스, 메시아 서사 등이 스타워즈에 직접적 영감을 주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "joseph-campbell",
+    "target": "george-lucas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "캠벨의 《천의 얼굴을 가진 영웅》은 루카스가 스타워즈의 서사 구조를 설계하는 직접적 원천이었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mary-shelley",
+    "target": "aldous-huxley",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "셸리의 프랑켄슈타인이 개척한 과학적 디스토피아 장르가 헉슬리의 《멋진 신세계》에 이어졌다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "aldous-huxley",
+    "target": "george-orwell",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "헉슬리의 쾌락 디스토피아(멋진 신세계)와 오웰의 공포 디스토피아(1984)는 20세기 두 가지 디스토피아 비전을 대표한다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-the-baptist",
+    "target": "jesus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "세례자 요한은 예수에게 세례를 베풀며 그의 공생애의 시작을 알린 선구자이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "toegye",
+    "target": "yulgok",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "퇴계의 이기호발설과 율곡의 기발이승일도설은 조선 성리학의 양대 축으로 대립하며 발전했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "toegye",
+    "target": "zhu-xi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "퇴계는 주희의 성리학을 조선적 맥락에서 독창적으로 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "yulgok",
+    "target": "zhu-xi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "율곡은 주희의 이기론을 기(氣) 중심으로 재해석하여 독자적 체계를 구축했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "marx",
+    "target": "lenin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 자본론과 계급투쟁 이론이 레닌의 혁명 이론과 실천의 직접적 토대가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "bakunin",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "바쿠닌은 마르크스의 프롤레타리아 독재론에 반대하여 국가 없는 사회를 주장했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "burke",
+    "target": "rousseau",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "버크는 루소의 사회계약론과 프랑스 혁명의 이론적 기반을 체계적으로 비판했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hanfeizi",
+    "target": "xunzi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "한비자는 순자의 성악설을 계승하여 법가 사상으로 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dewey",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "듀이는 제임스의 실용주의를 교육과 민주주의 이론으로 확장했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "kropotkin",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "크로포트킨은 다윈의 진화론을 상호부조의 관점에서 재해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "stirner",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "슈티르너는 헤겔 좌파의 일원으로서 헤겔 관념론을 급진적 개인주의로 전환시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "stirner",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "슈티르너의 급진적 에고이즘은 니체의 초인 사상에 선행하는 개인주의의 원천이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "stirner",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "마르크스와 엥겔스는 《독일 이데올로기》에서 슈티르너의 개인주의를 상세히 비판했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "watt",
+    "target": "michael-faraday",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "와트의 증기기관 혁신이 이후 산업 기술 발전의 토대를 마련했다",
+    "strength": 1,
+    "direction": "directed"
   }
 ]

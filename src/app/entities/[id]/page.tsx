@@ -256,6 +256,62 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
         </section>
       )}
 
+      {/* Author (texts) */}
+      {entity.author && (() => {
+        const authorPerson = allPersons.find((p) => p.id === entity.author);
+        return (
+          <section className="max-w-4xl mx-auto px-4 pb-6">
+            <div className="rounded-xl border p-6" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+              <h2 className="text-base font-semibold mb-3 flex items-center gap-2" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
+                <BookOpen className="w-5 h-5" style={{ color: '#5B7355' }} />저자
+              </h2>
+              <Link href={`/persons/${entity.author}`} className="text-sm hover:underline" style={{ color: '#4A5D8A' }}>
+                {authorPerson ? authorPerson.name.ko : entity.author}
+              </Link>
+            </div>
+          </section>
+        );
+      })()}
+
+      {/* Founders (institutions/movements) */}
+      {entity.founders && entity.founders.length > 0 && (
+        <section className="max-w-4xl mx-auto px-4 pb-6">
+          <div className="rounded-xl border p-6" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+            <h2 className="text-base font-semibold mb-4 flex items-center gap-2" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
+              <Users className="w-5 h-5" style={{ color: '#B8860B' }} />설립자/창시자
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {entity.founders.map((fid) => {
+                const p = allPersons.find((person) => person.id === fid);
+                return (
+                  <Link key={fid} href={`/persons/${fid}`}
+                    className="text-sm px-3 py-1.5 rounded-full border hover:opacity-80 transition-colors"
+                    style={{ borderColor: 'rgba(184,134,11,0.3)', color: '#B8860B', background: 'rgba(184,134,11,0.08)' }}>
+                    {p ? p.name.ko : fid}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Domain + Origin Person (concepts) */}
+      {(entity.domain || entity.originPerson) && (
+        <section className="max-w-4xl mx-auto px-4 pb-6">
+          <div className="rounded-xl border p-6" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+            <h2 className="text-base font-semibold mb-3" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>개념 정보</h2>
+            <div className="space-y-2 text-sm" style={{ color: 'var(--ink-medium)' }}>
+              {entity.domain && <p><span className="font-medium" style={{ color: 'var(--ink-dark)' }}>분야:</span> {entity.domain}</p>}
+              {entity.originPerson && (() => {
+                const op = allPersons.find((p) => p.id === entity.originPerson);
+                return <p><span className="font-medium" style={{ color: 'var(--ink-dark)' }}>기원:</span> <Link href={`/persons/${entity.originPerson}`} className="hover:underline" style={{ color: '#4A5D8A' }}>{op ? op.name.ko : entity.originPerson}</Link></p>;
+              })()}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Related Persons */}
       {entity.relatedPersons && entity.relatedPersons.length > 0 && (
         <section className="max-w-4xl mx-auto px-4 pb-6">

@@ -37,6 +37,9 @@ import movementsData from "@/data/entities/movements.json";
 import institutionsData from "@/data/entities/institutions.json";
 import textsData from "@/data/entities/texts.json";
 import conceptsData from "@/data/entities/concepts.json";
+import archetypesData from "@/data/entities/archetypes.json";
+import artMovementsData from "@/data/entities/art-movements.json";
+import technologiesData from "@/data/entities/technologies.json";
 import {
   cn,
   getEraLabel,
@@ -64,6 +67,9 @@ const allEntitiesData = [
   ...(institutionsData as any[]),
   ...(textsData as any[]),
   ...(conceptsData as any[]),
+  ...(archetypesData as any[]),
+  ...(artMovementsData as any[]),
+  ...(technologiesData as any[]),
 ];
 
 // ────────────────────────────────────────────────────────────
@@ -125,6 +131,10 @@ const entityTypeLabels: Record<string, string> = {
   institution: "기관/조직",
   text: "경전/문헌",
   concept: "핵심 개념",
+  tradition: "전통",
+  archetype: "신화/원형",
+  art_movement: "예술운동",
+  technology: "기술 패러다임",
 };
 
 function getEntityTypeIcon(entityType: string) {
@@ -135,6 +145,10 @@ function getEntityTypeIcon(entityType: string) {
     case "institution": return <Building2 className="w-4 h-4" />;
     case "text": return <FileText className="w-4 h-4" />;
     case "concept": return <Lightbulb className="w-4 h-4" />;
+    case "tradition": return <Landmark className="w-4 h-4" />;
+    case "archetype": return <Sparkles className="w-4 h-4" />;
+    case "art_movement": return <Palette className="w-4 h-4" />;
+    case "technology": return <Atom className="w-4 h-4" />;
     default: return <Layers className="w-4 h-4" />;
   }
 }

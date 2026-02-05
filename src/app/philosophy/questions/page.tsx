@@ -36,7 +36,7 @@ export default function QuestionsPage() {
   const allQuestions = useMemo(() => {
     const qMap = new Map<string, string[]>();
     philosophersData.forEach((p) => {
-      p.questions.forEach((q) => {
+      (p.questions || []).forEach((q) => {
         if (!qMap.has(q)) qMap.set(q, []);
         qMap.get(q)!.push(p.id);
       });
