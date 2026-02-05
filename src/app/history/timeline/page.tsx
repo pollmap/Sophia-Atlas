@@ -180,13 +180,13 @@ export default function HistoryTimelinePage() {
   const totalTimelineHeight = upperTrackHeight + AXIS_HEIGHT + EVENTS_TRACK_HEIGHT;
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#FAF6E9' }}>
+    <div className="min-h-screen" style={{ backgroundColor: 'var(--fresco-ivory)' }}>
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         <Link
           href="/history"
           className="inline-flex items-center gap-1.5 text-sm transition-colors mb-6"
-          style={{ color: '#7A6B55' }}
+          style={{ color: 'var(--ink-light)' }}
         >
           <ArrowLeft className="w-4 h-4" />
           역사 허브로
@@ -202,15 +202,15 @@ export default function HistoryTimelinePage() {
           <div>
             <h1
               className="text-3xl md:text-4xl font-bold"
-              style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+              style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
             >
               역사 사건과 인물의 타임라인
             </h1>
-            <p style={{ color: '#7A6B55' }} className="mt-1">BC 3000 ~ 현재</p>
+            <p style={{ color: 'var(--ink-light)' }} className="mt-1">BC 3000 ~ 현재</p>
           </div>
         </div>
 
-        <div className="flex gap-4 mt-4 text-sm" style={{ color: '#7A6B55' }}>
+        <div className="flex gap-4 mt-4 text-sm" style={{ color: 'var(--ink-light)' }}>
           <span className="flex items-center gap-1">
             <Shield className="w-4 h-4" style={{ color: '#8B4040' }} />
             인물 {filteredPersons.length}명
@@ -226,14 +226,14 @@ export default function HistoryTimelinePage() {
       <div className="max-w-7xl mx-auto px-4 pb-6">
         <div className="flex items-center justify-between flex-wrap gap-4">
           <div className="flex items-center gap-2 flex-wrap">
-            <Filter className="w-4 h-4 mr-1" style={{ color: '#7A6B55' }} />
+            <Filter className="w-4 h-4 mr-1" style={{ color: 'var(--ink-light)' }} />
             <button
               onClick={() => setSelectedEra('all')}
               className="px-4 py-2 rounded text-sm font-medium transition-all"
               style={{
                 fontFamily: "'Pretendard', sans-serif",
                 backgroundColor: selectedEra === 'all' ? '#8B4040' : 'rgba(240, 230, 211, 0.5)',
-                color: selectedEra === 'all' ? '#FAF6E9' : '#7A6B55',
+                color: selectedEra === 'all' ? '#FAF6E9' : 'var(--ink-light)',
               }}
             >
               전체
@@ -246,7 +246,7 @@ export default function HistoryTimelinePage() {
                 style={{
                   fontFamily: "'Pretendard', sans-serif",
                   backgroundColor: selectedEra === era ? frescoEraColors[era] : 'rgba(240, 230, 211, 0.5)',
-                  color: selectedEra === era ? '#FAF6E9' : '#7A6B55',
+                  color: selectedEra === era ? '#FAF6E9' : 'var(--ink-light)',
                 }}
               >
                 {getEraLabel(era)}
@@ -256,26 +256,26 @@ export default function HistoryTimelinePage() {
 
           {/* Zoom controls */}
           <div className="flex items-center gap-2">
-            <span className="text-xs" style={{ color: '#7A6B55', fontFamily: "'Pretendard', sans-serif" }}>줌</span>
+            <span className="text-xs" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>줌</span>
             <button
               onClick={handleZoomOut}
               className="w-8 h-8 rounded flex items-center justify-center transition-colors"
               style={{
-                backgroundColor: '#F0E6D3',
-                border: '1px solid #D4C4AB',
-                color: '#7A6B55',
+                backgroundColor: 'var(--fresco-parchment)',
+                border: '1px solid var(--fresco-shadow)',
+                color: 'var(--ink-light)',
               }}
             >
               <Minus className="w-3.5 h-3.5" />
             </button>
-            <span className="text-xs w-10 text-center" style={{ color: '#7A6B55' }}>{zoom}x</span>
+            <span className="text-xs w-10 text-center" style={{ color: 'var(--ink-light)' }}>{zoom}x</span>
             <button
               onClick={handleZoomIn}
               className="w-8 h-8 rounded flex items-center justify-center transition-colors"
               style={{
-                backgroundColor: '#F0E6D3',
-                border: '1px solid #D4C4AB',
-                color: '#7A6B55',
+                backgroundColor: 'var(--fresco-parchment)',
+                border: '1px solid var(--fresco-shadow)',
+                color: 'var(--ink-light)',
               }}
             >
               <Plus className="w-3.5 h-3.5" />
@@ -287,14 +287,14 @@ export default function HistoryTimelinePage() {
       {/* Domain legend */}
       <div className="max-w-7xl mx-auto px-4 pb-4">
         <div className="flex items-center gap-3 flex-wrap text-xs">
-          <span style={{ color: '#7A6B55', fontFamily: "'Pretendard', sans-serif" }}>분야:</span>
+          <span style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>분야:</span>
           {Object.entries(domainGroups).map(([key, { label, color }]) => (
             <span key={key} className="flex items-center gap-1">
               <span
                 className="w-2.5 h-2.5 rounded-sm"
                 style={{ backgroundColor: color }}
               />
-              <span style={{ color: '#4A3C2A' }}>{label}</span>
+              <span style={{ color: 'var(--ink-medium)' }}>{label}</span>
             </span>
           ))}
         </div>
@@ -305,7 +305,7 @@ export default function HistoryTimelinePage() {
         <div
           className="relative rounded overflow-hidden"
           style={{
-            border: '1px solid #D4C4AB',
+            border: '1px solid var(--fresco-shadow)',
             backgroundColor: 'rgba(240, 230, 211, 0.5)',
           }}
         >
@@ -315,8 +315,8 @@ export default function HistoryTimelinePage() {
             className="absolute left-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full flex items-center justify-center transition-colors"
             style={{
               backgroundColor: 'rgba(240, 230, 211, 0.9)',
-              border: '1px solid #D4C4AB',
-              color: '#7A6B55',
+              border: '1px solid var(--fresco-shadow)',
+              color: 'var(--ink-light)',
             }}
           >
             <ArrowLeft className="w-4 h-4" />
@@ -326,8 +326,8 @@ export default function HistoryTimelinePage() {
             className="absolute right-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full flex items-center justify-center transition-colors"
             style={{
               backgroundColor: 'rgba(240, 230, 211, 0.9)',
-              border: '1px solid #D4C4AB',
-              color: '#7A6B55',
+              border: '1px solid var(--fresco-shadow)',
+              color: 'var(--ink-light)',
             }}
           >
             <ArrowRight className="w-4 h-4" />
@@ -336,7 +336,7 @@ export default function HistoryTimelinePage() {
           <div
             ref={timelineRef}
             className="overflow-x-auto"
-            style={{ scrollbarColor: '#D4C4AB #F0E6D3' }}
+            style={{ scrollbarColor: 'var(--fresco-shadow) var(--fresco-parchment)' }}
           >
             <div
               className="relative"
@@ -457,14 +457,14 @@ export default function HistoryTimelinePage() {
                               <div
                                 className="rounded px-3 py-2 whitespace-nowrap"
                                 style={{
-                                  backgroundColor: '#F0E6D3',
-                                  border: '1px solid #D4C4AB',
+                                  backgroundColor: 'var(--fresco-parchment)',
+                                  border: '1px solid var(--fresco-shadow)',
                                   boxShadow: '0 4px 12px rgba(44, 36, 22, 0.15)',
                                 }}
                               >
-                                <p className="text-[11px] font-semibold" style={{ color: '#2C2416' }}>{p.name.ko}</p>
-                                <p className="text-[10px]" style={{ color: '#7A6B55' }}>{p.name.en}</p>
-                                <p className="text-[9px] mt-0.5" style={{ color: '#9C8B73' }}>
+                                <p className="text-[11px] font-semibold" style={{ color: 'var(--ink-dark)' }}>{p.name.ko}</p>
+                                <p className="text-[10px]" style={{ color: 'var(--ink-light)' }}>{p.name.en}</p>
+                                <p className="text-[9px] mt-0.5" style={{ color: 'var(--ink-faded)' }}>
                                   {formatYear(p.period.start)} ~ {formatYear(p.period.end)}
                                 </p>
                               </div>
@@ -484,7 +484,7 @@ export default function HistoryTimelinePage() {
               >
                 <div
                   className="absolute top-1/2 left-0 right-0 h-px"
-                  style={{ backgroundColor: '#D4C4AB' }}
+                  style={{ backgroundColor: 'var(--fresco-shadow)' }}
                 />
                 {centuryMarkers.filter((y) => y % 500 === 0).map((year) => {
                   const left = getTimelinePosition(year);
@@ -501,7 +501,7 @@ export default function HistoryTimelinePage() {
                       <span
                         className="text-[10px] font-medium px-1.5 py-0.5 rounded"
                         style={{
-                          color: '#4A3C2A',
+                          color: 'var(--ink-medium)',
                           backgroundColor: 'rgba(250, 246, 233, 0.9)',
                           fontFamily: "'Pretendard', sans-serif",
                         }}
@@ -581,7 +581,7 @@ export default function HistoryTimelinePage() {
                           className="w-3 h-3 rotate-45 transition-transform group-hover:scale-150"
                           style={{
                             backgroundColor: frescoEraColors[event.era as Era] || '#6B6358',
-                            border: '1px solid #D4C4AB',
+                            border: '1px solid var(--fresco-shadow)',
                           }}
                         />
                         <div
@@ -594,7 +594,7 @@ export default function HistoryTimelinePage() {
                           <p className="text-[9px] font-medium" style={{ color: '#6B4E00' }}>
                             {event.name.ko}
                           </p>
-                          <p className="text-[8px]" style={{ color: '#9C8B73' }}>
+                          <p className="text-[8px]" style={{ color: 'var(--ink-faded)' }}>
                             {formatYear(event.period.start)}
                           </p>
                         </div>
@@ -623,7 +623,7 @@ export default function HistoryTimelinePage() {
               style={{
                 fontFamily: "'Pretendard', sans-serif",
                 backgroundColor: activeTab === tab.key ? '#8B4040' : 'rgba(240, 230, 211, 0.5)',
-                color: activeTab === tab.key ? '#FAF6E9' : '#7A6B55',
+                color: activeTab === tab.key ? '#FAF6E9' : 'var(--ink-light)',
               }}
             >
               {tab.label}
@@ -639,11 +639,11 @@ export default function HistoryTimelinePage() {
           <div className="mb-8">
             <h2
               className="text-lg font-semibold mb-4 flex items-center gap-2"
-              style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+              style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
             >
               <Crown className="w-5 h-5" style={{ color: '#8B4040' }} />
               역사 인물
-              <span className="text-sm font-normal" style={{ color: '#9C8B73' }}>
+              <span className="text-sm font-normal" style={{ color: 'var(--ink-faded)' }}>
                 ({filteredPersons.length}명)
               </span>
             </h2>
@@ -657,7 +657,7 @@ export default function HistoryTimelinePage() {
                     className="group p-5 transition-all duration-200"
                     style={{
                       borderRadius: '4px',
-                      border: '1px solid #D4C4AB',
+                      border: '1px solid var(--fresco-shadow)',
                       borderLeft: `4px solid ${frescoEraColors[p.era as Era] || '#6B6358'}`,
                       backgroundColor: 'rgba(240, 230, 211, 0.2)',
                       boxShadow: '0 1px 3px rgba(44, 36, 22, 0.1)',
@@ -673,11 +673,11 @@ export default function HistoryTimelinePage() {
                       <div>
                         <h3
                           className="font-semibold transition-colors"
-                          style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+                          style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
                         >
                           {p.name.ko}
                         </h3>
-                        <p className="text-sm" style={{ color: '#9C8B73' }}>{p.name.en}</p>
+                        <p className="text-sm" style={{ color: 'var(--ink-faded)' }}>{p.name.en}</p>
                       </div>
                       <div className="flex items-center gap-1.5 shrink-0 ml-2">
                         <span
@@ -703,7 +703,7 @@ export default function HistoryTimelinePage() {
                       </div>
                     </div>
 
-                    <div className="flex items-center gap-3 text-xs mb-3" style={{ color: '#9C8B73' }}>
+                    <div className="flex items-center gap-3 text-xs mb-3" style={{ color: 'var(--ink-faded)' }}>
                       <span className="flex items-center gap-1">
                         <Calendar className="w-3 h-3" />
                         {formatYear(p.period.start)} ~ {formatYear(p.period.end)}
@@ -721,7 +721,7 @@ export default function HistoryTimelinePage() {
                           className="text-[11px] px-2 py-0.5 rounded"
                           style={{
                             backgroundColor: 'rgba(212, 196, 171, 0.5)',
-                            color: '#7A6B55',
+                            color: 'var(--ink-light)',
                             fontFamily: "'Pretendard', sans-serif",
                           }}
                         >
@@ -731,11 +731,11 @@ export default function HistoryTimelinePage() {
                       ))}
                     </div>
 
-                    <p className="text-sm line-clamp-2 leading-relaxed" style={{ color: '#4A3C2A' }}>
+                    <p className="text-sm line-clamp-2 leading-relaxed" style={{ color: 'var(--ink-medium)' }}>
                       {p.summary}
                     </p>
 
-                    <div className="mt-3 flex items-center text-xs transition-colors" style={{ color: '#9C8B73' }}>
+                    <div className="mt-3 flex items-center text-xs transition-colors" style={{ color: 'var(--ink-faded)' }}>
                       자세히 보기
                       <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
                     </div>
@@ -751,11 +751,11 @@ export default function HistoryTimelinePage() {
           <div>
             <h2
               className="text-lg font-semibold mb-4 flex items-center gap-2"
-              style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+              style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
             >
               <Flag className="w-5 h-5" style={{ color: '#B8860B' }} />
               역사 사건
-              <span className="text-sm font-normal" style={{ color: '#9C8B73' }}>
+              <span className="text-sm font-normal" style={{ color: 'var(--ink-faded)' }}>
                 ({filteredEvents.length}개)
               </span>
             </h2>
@@ -767,7 +767,7 @@ export default function HistoryTimelinePage() {
                   className="group p-5 transition-all duration-200"
                   style={{
                     borderRadius: '4px',
-                    border: '1px solid #D4C4AB',
+                    border: '1px solid var(--fresco-shadow)',
                     borderLeft: `4px solid rgba(184, 134, 11, 0.5)`,
                     backgroundColor: 'rgba(240, 230, 211, 0.2)',
                     boxShadow: '0 1px 3px rgba(44, 36, 22, 0.1)',
@@ -787,7 +787,7 @@ export default function HistoryTimelinePage() {
                       >
                         {event.name.ko}
                       </h3>
-                      <p className="text-sm" style={{ color: '#9C8B73' }}>{event.name.en}</p>
+                      <p className="text-sm" style={{ color: 'var(--ink-faded)' }}>{event.name.en}</p>
                     </div>
                     <span
                       className="text-xs px-2 py-1 rounded font-medium shrink-0"
@@ -801,7 +801,7 @@ export default function HistoryTimelinePage() {
                     </span>
                   </div>
 
-                  <div className="flex items-center gap-3 text-xs mb-3" style={{ color: '#9C8B73' }}>
+                  <div className="flex items-center gap-3 text-xs mb-3" style={{ color: 'var(--ink-faded)' }}>
                     <span className="flex items-center gap-1">
                       <Calendar className="w-3 h-3" />
                       {formatYear(event.period.start)}
@@ -816,17 +816,17 @@ export default function HistoryTimelinePage() {
                     )}
                   </div>
 
-                  <p className="text-sm line-clamp-2 leading-relaxed mb-2" style={{ color: '#4A3C2A' }}>
+                  <p className="text-sm line-clamp-2 leading-relaxed mb-2" style={{ color: 'var(--ink-medium)' }}>
                     {event.summary}
                   </p>
 
                   {event.significance && (
-                    <p className="text-xs line-clamp-2 italic" style={{ color: '#9C8B73' }}>
+                    <p className="text-xs line-clamp-2 italic" style={{ color: 'var(--ink-faded)' }}>
                       {event.significance}
                     </p>
                   )}
 
-                  <div className="mt-3 flex items-center text-xs transition-colors" style={{ color: '#9C8B73' }}>
+                  <div className="mt-3 flex items-center text-xs transition-colors" style={{ color: 'var(--ink-faded)' }}>
                     자세히 보기
                     <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
                   </div>

@@ -292,7 +292,7 @@ export default async function PhilosopherPage({
                       <Link
                         key={infId}
                         href={`/persons/${infId}`}
-                        className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-[#E8DCCA] transition-colors group"
+                        className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-[var(--fresco-aged)] transition-colors group"
                       >
                         {inf && (
                           <div
@@ -327,7 +327,7 @@ export default async function PhilosopherPage({
                       <Link
                         key={infId}
                         href={`/persons/${infId}`}
-                        className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-[#E8DCCA] transition-colors group"
+                        className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-[var(--fresco-aged)] transition-colors group"
                       >
                         {inf && (
                           <div
@@ -392,7 +392,7 @@ export default async function PhilosopherPage({
                 <Link
                   key={question}
                   href="/philosophy/questions"
-                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-[#E8DCCA] transition-colors group"
+                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-[var(--fresco-aged)] transition-colors group"
                 >
                   <HelpCircle className="w-4 h-4 flex-shrink-0" style={{ color: 'var(--ink-light)' }} />
                   <span className="group-hover:opacity-80 transition-colors" style={{ color: 'var(--ink-medium)' }}>

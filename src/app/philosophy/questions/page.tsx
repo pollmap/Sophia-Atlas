@@ -166,7 +166,7 @@ export default function QuestionsPage() {
                       'group text-left rounded border p-5 transition-all duration-200',
                       isActive
                         ? 'border-[#4A7A6B]'
-                        : 'hover:bg-[#E8DCCA]'
+                        : 'hover:bg-[var(--fresco-aged)]'
                     )}
                     style={{
                       borderColor: isActive ? '#4A7A6B' : 'var(--fresco-shadow)',
