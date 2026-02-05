@@ -4,11 +4,10 @@ import Link from 'next/link';
 import { Calendar, MapPin } from 'lucide-react';
 import {
   cn,
-  getEraColor,
   getEraLabel,
   getEraHexColor,
   getCategoryLabel,
-  getCategoryBadgeClass,
+  getCategoryHexColor,
   formatYear,
 } from '@/lib/utils';
 
@@ -36,52 +35,65 @@ export default function PersonCard({
   tags,
   summary,
 }: PersonCardProps) {
+  const eraColor = getEraHexColor(era);
+  const catColor = getCategoryHexColor(category);
+
   return (
     <Link
       href={`/persons/${id}`}
-      className="group block rounded-xl border border-slate-700/50 bg-slate-800/20 hover:bg-slate-800/40 hover:border-slate-600/50 transition-all duration-200 overflow-hidden"
+      className="group block fresco-card overflow-hidden"
     >
       {/* Era accent bar */}
       <div
         className="h-1 w-full"
-        style={{ backgroundColor: getEraHexColor(era) }}
+        style={{ backgroundColor: eraColor }}
       />
 
       <div className="p-4">
         {/* Category badges */}
         <div className="flex flex-wrap gap-1.5 mb-3">
           <span
-            className={cn(
-              'text-[10px] px-2 py-0.5 rounded-full border font-medium',
-              getCategoryBadgeClass(category)
-            )}
+            className="text-[10px] px-2 py-0.5 rounded-full border font-medium"
+            style={{
+              backgroundColor: `${catColor}12`,
+              color: catColor,
+              borderColor: `${catColor}30`,
+            }}
           >
             {getCategoryLabel(category)}
           </span>
           {categories &&
             categories
               .filter((c) => c !== category)
-              .map((c) => (
-                <span
-                  key={c}
-                  className={cn(
-                    'text-[10px] px-2 py-0.5 rounded-full border font-medium',
-                    getCategoryBadgeClass(c)
-                  )}
-                >
-                  {getCategoryLabel(c)}
-                </span>
-              ))}
+              .map((c) => {
+                const cColor = getCategoryHexColor(c);
+                return (
+                  <span
+                    key={c}
+                    className="text-[10px] px-2 py-0.5 rounded-full border font-medium"
+                    style={{
+                      backgroundColor: `${cColor}12`,
+                      color: cColor,
+                      borderColor: `${cColor}30`,
+                    }}
+                  >
+                    {getCategoryLabel(c)}
+                  </span>
+                );
+              })}
         </div>
 
         {/* Name */}
-        <h3 className="text-lg font-bold text-white group-hover:text-indigo-300 transition-colors">
+        <h3
+          className="text-lg font-bold group-hover:opacity-80 transition-colors"
+          style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
+        >
           {name.ko}
         </h3>
-        <p className="text-sm text-slate-400">{name.en}</p>
+        <p className="text-sm" style={{ color: 'var(--ink-light)' }}>{name.en}</p>
 
         {/* Meta */}
-        <div className="flex flex-wrap items-center gap-3 mt-2 text-xs text-slate-500">
+        <div className="flex flex-wrap items-center gap-3 mt-2 text-xs" style={{ color: 'var(--ink-faded)' }}>
           <span className="flex items-center gap-1">
             <Calendar className="w-3 h-3" />
             {formatYear(period.start)} ~ {formatYear(period.end)}
@@ -90,13 +102,13 @@ export default function PersonCard({
             <MapPin className="w-3 h-3" />
             {location.region}
           </span>
-          <span className={cn('font-medium', getEraColor(era))}>
+          <span className="font-medium" style={{ color: eraColor }}>
             {getEraLabel(era)}
           </span>
         </div>
 
         {/* Summary */}
-        <p className="mt-3 text-sm text-slate-400 leading-relaxed line-clamp-2">
+        <p className="mt-3 text-sm leading-relaxed line-clamp-2" style={{ color: 'var(--ink-medium)' }}>
           {summary}
         </p>
 
@@ -106,13 +118,14 @@ export default function PersonCard({
             {tags.slice(0, 4).map((tag) => (
               <span
                 key={tag}
-                className="text-[10px] px-1.5 py-0.5 rounded bg-slate-700/50 text-slate-400"
+                className="text-[10px] px-1.5 py-0.5 rounded"
+                style={{ background: 'var(--fresco-aged)', color: 'var(--ink-light)' }}
               >
                 {tag}
               </span>
             ))}
             {tags.length > 4 && (
-              <span className="text-[10px] px-1.5 py-0.5 text-slate-500">
+              <span className="text-[10px] px-1.5 py-0.5" style={{ color: 'var(--ink-faded)' }}>
                 +{tags.length - 4}
               </span>
             )}
