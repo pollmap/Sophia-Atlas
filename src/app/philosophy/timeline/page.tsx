@@ -306,29 +306,29 @@ export default function TimelinePage() {
   }, [swimlanes, laneHeights]);
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#FAF6E9' }}>
+    <div className="min-h-screen" style={{ backgroundColor: 'var(--fresco-ivory)' }}>
       {/* Header */}
       <div className="max-w-[1400px] mx-auto px-4 pt-8 pb-4">
         <Link
           href="/"
           className="inline-flex items-center gap-1.5 text-sm transition-colors mb-6"
-          style={{ color: '#7A6B55' }}
-          onMouseEnter={(e) => (e.currentTarget.style.color = '#4A3C2A')}
-          onMouseLeave={(e) => (e.currentTarget.style.color = '#7A6B55')}
+          style={{ color: 'var(--ink-light)' }}
+          onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--ink-medium)')}
+          onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--ink-light)')}
         >
           <ArrowLeft className="w-4 h-4" />
           홈으로
         </Link>
         <h1
           className="text-3xl md:text-4xl font-bold mb-2"
-          style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+          style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
         >
           철학의 타임라인
         </h1>
-        <p className="mb-1" style={{ color: '#7A6B55' }}>
+        <p className="mb-1" style={{ color: 'var(--ink-light)' }}>
           BC 624 ~ 현재 | {filteredPhilosophers.length}명의 사상가
         </p>
-        <p className="text-sm" style={{ color: '#9C8B73' }}>
+        <p className="text-sm" style={{ color: 'var(--ink-faded)' }}>
           학파별 수영 레인으로 정리한 철학사 연대표. 줌 인하여 세부를 탐색하세요.
         </p>
       </div>
@@ -338,7 +338,7 @@ export default function TimelinePage() {
         <div className="flex flex-wrap items-center justify-between gap-4">
           {/* Era Filters */}
           <div className="flex items-center gap-2 flex-wrap">
-            <Filter className="w-4 h-4 mr-1" style={{ color: '#9C8B73' }} />
+            <Filter className="w-4 h-4 mr-1" style={{ color: 'var(--ink-faded)' }} />
             <button
               onClick={() => setSelectedEra('all')}
               className={cn(
@@ -349,19 +349,19 @@ export default function TimelinePage() {
               )}
               style={
                 selectedEra === 'all'
-                  ? { backgroundColor: '#E8DCCA', color: '#2C2416' }
-                  : { backgroundColor: 'rgba(240,230,211,0.5)', color: '#7A6B55' }
+                  ? { backgroundColor: 'var(--fresco-aged)', color: 'var(--ink-dark)' }
+                  : { backgroundColor: 'rgba(240,230,211,0.5)', color: 'var(--ink-light)' }
               }
               onMouseEnter={(e) => {
                 if (selectedEra !== 'all') {
                   e.currentTarget.style.backgroundColor = 'rgba(232,220,202,0.7)';
-                  e.currentTarget.style.color = '#4A3C2A';
+                  e.currentTarget.style.color = 'var(--ink-medium)';
                 }
               }}
               onMouseLeave={(e) => {
                 if (selectedEra !== 'all') {
                   e.currentTarget.style.backgroundColor = 'rgba(240,230,211,0.5)';
-                  e.currentTarget.style.color = '#7A6B55';
+                  e.currentTarget.style.color = 'var(--ink-light)';
                 }
               }}
             >
@@ -375,18 +375,18 @@ export default function TimelinePage() {
                 style={
                   selectedEra === era
                     ? { backgroundColor: frescoEraColors[era] + '20', color: frescoEraColors[era], border: `1px solid ${frescoEraColors[era]}40` }
-                    : { backgroundColor: 'rgba(240,230,211,0.5)', color: '#7A6B55' }
+                    : { backgroundColor: 'rgba(240,230,211,0.5)', color: 'var(--ink-light)' }
                 }
                 onMouseEnter={(e) => {
                   if (selectedEra !== era) {
                     e.currentTarget.style.backgroundColor = 'rgba(232,220,202,0.7)';
-                    e.currentTarget.style.color = '#4A3C2A';
+                    e.currentTarget.style.color = 'var(--ink-medium)';
                   }
                 }}
                 onMouseLeave={(e) => {
                   if (selectedEra !== era) {
                     e.currentTarget.style.backgroundColor = 'rgba(240,230,211,0.5)';
-                    e.currentTarget.style.color = '#7A6B55';
+                    e.currentTarget.style.color = 'var(--ink-light)';
                   }
                 }}
               >
@@ -403,7 +403,7 @@ export default function TimelinePage() {
               style={
                 showEvents
                   ? { backgroundColor: 'rgba(184,134,11,0.12)', color: '#B8860B', border: '1px solid rgba(184,134,11,0.25)' }
-                  : { backgroundColor: 'rgba(240,230,211,0.5)', color: '#9C8B73' }
+                  : { backgroundColor: 'rgba(240,230,211,0.5)', color: 'var(--ink-faded)' }
               }
             >
               <Flag className="w-3.5 h-3.5" />
@@ -411,36 +411,36 @@ export default function TimelinePage() {
             </button>
 
             <div className="flex items-center gap-2">
-            <span className="text-xs mr-1" style={{ color: '#9C8B73', fontFamily: "'Pretendard', sans-serif" }}>줌</span>
+            <span className="text-xs mr-1" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>줌</span>
             <button
               onClick={handleZoomOut}
               disabled={zoom <= MIN_ZOOM}
               className="w-7 h-7 rounded flex items-center justify-center transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
-              style={{ backgroundColor: '#F0E6D3', border: '1px solid #D4C4AB', color: '#7A6B55' }}
-              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#E8DCCA'; e.currentTarget.style.color = '#2C2416'; }}
-              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#F0E6D3'; e.currentTarget.style.color = '#7A6B55'; }}
+              style={{ backgroundColor: 'var(--fresco-parchment)', border: '1px solid var(--fresco-shadow)', color: 'var(--ink-light)' }}
+              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'var(--fresco-aged)'; e.currentTarget.style.color = 'var(--ink-dark)'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'var(--fresco-parchment)'; e.currentTarget.style.color = 'var(--ink-light)'; }}
             >
               <ZoomOut className="w-3.5 h-3.5" />
             </button>
-            <div className="w-16 text-center text-xs font-mono" style={{ color: '#7A6B55' }}>
+            <div className="w-16 text-center text-xs font-mono" style={{ color: 'var(--ink-light)' }}>
               {zoom.toFixed(1)}x
             </div>
             <button
               onClick={handleZoomIn}
               disabled={zoom >= MAX_ZOOM}
               className="w-7 h-7 rounded flex items-center justify-center transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
-              style={{ backgroundColor: '#F0E6D3', border: '1px solid #D4C4AB', color: '#7A6B55' }}
-              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#E8DCCA'; e.currentTarget.style.color = '#2C2416'; }}
-              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#F0E6D3'; e.currentTarget.style.color = '#7A6B55'; }}
+              style={{ backgroundColor: 'var(--fresco-parchment)', border: '1px solid var(--fresco-shadow)', color: 'var(--ink-light)' }}
+              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'var(--fresco-aged)'; e.currentTarget.style.color = 'var(--ink-dark)'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'var(--fresco-parchment)'; e.currentTarget.style.color = 'var(--ink-light)'; }}
             >
               <ZoomIn className="w-3.5 h-3.5" />
             </button>
             <button
               onClick={handleZoomReset}
               className="w-7 h-7 rounded flex items-center justify-center transition-colors"
-              style={{ backgroundColor: '#F0E6D3', border: '1px solid #D4C4AB', color: '#7A6B55' }}
-              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#E8DCCA'; e.currentTarget.style.color = '#2C2416'; }}
-              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#F0E6D3'; e.currentTarget.style.color = '#7A6B55'; }}
+              style={{ backgroundColor: 'var(--fresco-parchment)', border: '1px solid var(--fresco-shadow)', color: 'var(--ink-light)' }}
+              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'var(--fresco-aged)'; e.currentTarget.style.color = 'var(--ink-dark)'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'var(--fresco-parchment)'; e.currentTarget.style.color = 'var(--ink-light)'; }}
               title="줌 초기화"
             >
               <RotateCcw className="w-3.5 h-3.5" />
@@ -454,7 +454,7 @@ export default function TimelinePage() {
       <div className="max-w-[1400px] mx-auto px-4 pb-8">
         <div
           className="relative rounded overflow-hidden"
-          style={{ border: '1px solid #D4C4AB', backgroundColor: 'rgba(240,230,211,0.4)' }}
+          style={{ border: '1px solid var(--fresco-shadow)', backgroundColor: 'rgba(240,230,211,0.4)' }}
         >
           {/* Fixed lane labels on the left + scrollable content */}
           <div className="flex">
@@ -468,7 +468,7 @@ export default function TimelinePage() {
                 className="flex items-end px-3 pb-1"
                 style={{ height: AXIS_HEIGHT, borderBottom: '1px solid rgba(212,196,171,0.3)' }}
               >
-                <span className="text-[10px] font-medium uppercase tracking-wider" style={{ color: '#9C8B73' }}>
+                <span className="text-[10px] font-medium uppercase tracking-wider" style={{ color: 'var(--ink-faded)' }}>
                   학파 / 전통
                 </span>
               </div>
@@ -487,7 +487,7 @@ export default function TimelinePage() {
                       className="flex items-center px-3"
                       style={{ height: h, borderBottom: '1px solid rgba(212,196,171,0.2)' }}
                     >
-                      <span className="text-xs font-medium leading-tight" style={{ color: '#4A3C2A' }}>
+                      <span className="text-xs font-medium leading-tight" style={{ color: 'var(--ink-medium)' }}>
                         {getSubcategoryLabel(key)}
                       </span>
                     </div>
@@ -566,7 +566,7 @@ export default function TimelinePage() {
                         />
                         <div
                           className="absolute bottom-2 text-[10px] font-mono whitespace-nowrap"
-                          style={{ transform: 'translateX(-50%)', color: '#9C8B73' }}
+                          style={{ transform: 'translateX(-50%)', color: 'var(--ink-faded)' }}
                         >
                           {tick.label}
                         </div>
@@ -713,7 +713,7 @@ export default function TimelinePage() {
                                 <p className="text-[8px] font-medium" style={{ color: '#8B6914' }}>
                                   {event.name.ko}
                                 </p>
-                                <p className="text-[7px]" style={{ color: '#9C8B73' }}>
+                                <p className="text-[7px]" style={{ color: 'var(--ink-faded)' }}>
                                   {formatYear(event.period.start)}
                                 </p>
                               </div>
@@ -745,8 +745,8 @@ export default function TimelinePage() {
               <div
                 className="rounded p-3 w-64"
                 style={{
-                  backgroundColor: '#F0E6D3',
-                  border: '1px solid #D4C4AB',
+                  backgroundColor: 'var(--fresco-parchment)',
+                  border: '1px solid var(--fresco-shadow)',
                   boxShadow: '0 4px 16px rgba(44,36,22,0.12)',
                 }}
               >
@@ -754,11 +754,11 @@ export default function TimelinePage() {
                   <div>
                     <h4
                       className="text-sm font-semibold"
-                      style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+                      style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
                     >
                       {tooltip.philosopher.name.ko}
                     </h4>
-                    <p className="text-xs" style={{ color: '#7A6B55' }}>
+                    <p className="text-xs" style={{ color: 'var(--ink-light)' }}>
                       {tooltip.philosopher.name.en}
                     </p>
                   </div>
@@ -772,15 +772,15 @@ export default function TimelinePage() {
                     {getEraLabel(tooltip.philosopher.era)}
                   </span>
                 </div>
-                <div className="flex items-center gap-2 text-[11px] mb-2" style={{ color: '#9C8B73' }}>
+                <div className="flex items-center gap-2 text-[11px] mb-2" style={{ color: 'var(--ink-faded)' }}>
                   <span>
                     {formatYear(tooltip.philosopher.period.start)} ~{' '}
                     {formatYear(tooltip.philosopher.period.end)}
                   </span>
-                  <span style={{ color: '#D4C4AB' }}>|</span>
+                  <span style={{ color: 'var(--fresco-shadow)' }}>|</span>
                   <span>{tooltip.philosopher.location.region}</span>
                 </div>
-                <p className="text-xs leading-relaxed line-clamp-3" style={{ color: '#7A6B55' }}>
+                <p className="text-xs leading-relaxed line-clamp-3" style={{ color: 'var(--ink-light)' }}>
                   {tooltip.philosopher.summary}
                 </p>
                 <div className="mt-2 flex flex-wrap gap-1">
@@ -790,13 +790,13 @@ export default function TimelinePage() {
                       <span
                         key={s}
                         className="text-[10px] px-1.5 py-0.5 rounded"
-                        style={{ backgroundColor: 'rgba(212,196,171,0.5)', color: '#7A6B55' }}
+                        style={{ backgroundColor: 'rgba(212,196,171,0.5)', color: 'var(--ink-light)' }}
                       >
                         {s}
                       </span>
                     ))}
                 </div>
-                <p className="text-[10px] mt-2" style={{ color: '#9C8B73' }}>
+                <p className="text-[10px] mt-2" style={{ color: 'var(--ink-faded)' }}>
                   클릭하여 상세 페이지로 이동
                 </p>
               </div>
@@ -806,14 +806,14 @@ export default function TimelinePage() {
 
         {/* Legend */}
         <div className="mt-3 flex flex-wrap items-center gap-4 px-1">
-          <span className="text-[11px]" style={{ color: '#9C8B73' }}>시대 색상:</span>
+          <span className="text-[11px]" style={{ color: 'var(--ink-faded)' }}>시대 색상:</span>
           {eras.map((era) => (
             <div key={era} className="flex items-center gap-1.5">
               <div
                 className="w-3 h-3 rounded-sm"
                 style={{ backgroundColor: frescoEraColors[era], opacity: 0.8 }}
               />
-              <span className="text-[11px]" style={{ color: '#7A6B55' }}>
+              <span className="text-[11px]" style={{ color: 'var(--ink-light)' }}>
                 {getEraLabel(era)}
               </span>
             </div>
@@ -825,11 +825,11 @@ export default function TimelinePage() {
       <div className="max-w-[1400px] mx-auto px-4 pb-20">
         <h2
           className="text-lg font-semibold mb-4 flex items-center gap-2"
-          style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+          style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
         >
-          <Calendar className="w-5 h-5" style={{ color: '#7A6B55' }} />
+          <Calendar className="w-5 h-5" style={{ color: 'var(--ink-light)' }} />
           사상가 목록
-          <span className="text-sm font-normal" style={{ color: '#9C8B73' }}>
+          <span className="text-sm font-normal" style={{ color: 'var(--ink-faded)' }}>
             ({filteredPhilosophers.length}명)
           </span>
         </h2>
@@ -853,11 +853,11 @@ export default function TimelinePage() {
                   <div>
                     <h3
                       className="font-semibold transition-colors"
-                      style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+                      style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
                     >
                       {p.name.ko}
                     </h3>
-                    <p className="text-sm" style={{ color: '#9C8B73' }}>{p.name.en}</p>
+                    <p className="text-sm" style={{ color: 'var(--ink-faded)' }}>{p.name.en}</p>
                   </div>
                   <span
                     className="text-xs px-2 py-1 rounded font-medium"
@@ -870,7 +870,7 @@ export default function TimelinePage() {
                   </span>
                 </div>
 
-                <div className="flex items-center gap-3 text-xs mb-3" style={{ color: '#9C8B73' }}>
+                <div className="flex items-center gap-3 text-xs mb-3" style={{ color: 'var(--ink-faded)' }}>
                   <span className="flex items-center gap-1">
                     <Calendar className="w-3 h-3" />
                     {formatYear(p.period.start)} ~ {formatYear(p.period.end)}
@@ -886,7 +886,7 @@ export default function TimelinePage() {
                     <span
                       key={s}
                       className="text-[11px] px-2 py-0.5 rounded"
-                      style={{ backgroundColor: 'rgba(212,196,171,0.4)', color: '#7A6B55' }}
+                      style={{ backgroundColor: 'rgba(212,196,171,0.4)', color: 'var(--ink-light)' }}
                     >
                       <Tag className="w-2.5 h-2.5 inline mr-0.5" />
                       {s}
@@ -894,11 +894,11 @@ export default function TimelinePage() {
                   ))}
                 </div>
 
-                <p className="text-sm line-clamp-2 leading-relaxed" style={{ color: '#7A6B55' }}>
+                <p className="text-sm line-clamp-2 leading-relaxed" style={{ color: 'var(--ink-light)' }}>
                   {p.summary}
                 </p>
 
-                <div className="mt-3 flex items-center text-xs transition-colors" style={{ color: '#9C8B73' }}>
+                <div className="mt-3 flex items-center text-xs transition-colors" style={{ color: 'var(--ink-faded)' }}>
                   자세히 보기
                   <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
                 </div>

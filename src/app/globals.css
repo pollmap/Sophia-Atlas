@@ -79,6 +79,59 @@
 }
 
 /* ============================================
+   Dark Mode — Warm Scholar's Study
+   ============================================ */
+.dark {
+  /* ── Dark Fresco Backgrounds ── */
+  --fresco-ivory: #1A1714;
+  --fresco-parchment: #22201B;
+  --fresco-aged: #2A2722;
+  --fresco-shadow: #3D3830;
+
+  /* ── Light Inks (inverted for readability) ── */
+  --ink-dark: #E8E0D4;
+  --ink-medium: #C4B9A8;
+  --ink-light: #9C8B73;
+  --ink-faded: #7A6B55;
+
+  /* ── Gold Accent (slightly brighter in dark) ── */
+  --gold: #D4A84B;
+  --gold-hover: #E8C874;
+  --gold-light: #B8860B;
+  --gold-muted: rgba(212, 168, 75, 0.15);
+
+  /* ── Category Colors (slightly brighter for dark bg) ── */
+  --cat-philosopher: #6B82B8;
+  --cat-religious: #D4A84B;
+  --cat-scientist: #7A9E73;
+  --cat-historical: #B85D5D;
+  --cat-cultural: #A87AA0;
+
+  /* ── Era Colors (brighter) ── */
+  --era-ancient: #D4A84B;
+  --era-medieval: #9B7BBD;
+  --era-modern: #6BA394;
+  --era-contemporary: #8A8176;
+
+  /* ── Semantic (auto-swap) ── */
+  --color-background: var(--fresco-ivory);
+  --color-background-secondary: var(--fresco-parchment);
+  --color-background-tertiary: var(--fresco-aged);
+  --color-foreground: var(--ink-dark);
+  --color-foreground-secondary: var(--ink-medium);
+  --color-foreground-muted: var(--ink-light);
+  --color-accent: var(--gold);
+  --color-accent-hover: var(--gold-hover);
+  --color-border: var(--fresco-shadow);
+  --color-border-light: var(--fresco-aged);
+  --color-selection-bg: rgba(212, 168, 75, 0.25);
+  --color-selection-text: var(--ink-dark);
+  --color-scrollbar-track: var(--fresco-parchment);
+  --color-scrollbar-thumb: var(--fresco-shadow);
+  --color-scrollbar-thumb-hover: var(--ink-faded);
+}
+
+/* ============================================
    Base Styles — Fresco Theme
    ============================================ */
 @layer base {
@@ -244,6 +297,10 @@
     border-bottom: 1px solid var(--fresco-shadow);
   }
 
+  :is(.dark) .fresco-header {
+    background: rgba(26, 23, 20, 0.92);
+  }
+
   /* Glass — deprecated but kept for backwards compat */
   .glass {
     background: rgba(240, 230, 211, 0.7);
@@ -252,11 +309,19 @@
     border: 1px solid var(--fresco-shadow);
   }
 
+  :is(.dark) .glass {
+    background: rgba(34, 32, 27, 0.7);
+  }
+
   .glass-header {
     background: rgba(250, 246, 233, 0.92);
     backdrop-filter: blur(20px) saturate(120%);
     -webkit-backdrop-filter: blur(20px) saturate(120%);
     border-bottom: 1px solid var(--fresco-shadow);
+  }
+
+  :is(.dark) .glass-header {
+    background: rgba(26, 23, 20, 0.92);
   }
 
   /* Era Indicator Pill */

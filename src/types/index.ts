@@ -211,11 +211,11 @@ export interface ExternalLink {
 }
 
 // ────────────────────────────────────────────────────────────
-// 3. Entity (사건, 이념, 집단 등 비-인물 엔터티)
+// 3. Entity (사건, 이념, 집단 등 비-인물 주제)
 // ────────────────────────────────────────────────────────────
 
 /**
- * 엔터티 유형
+ * 주제 유형
  * - event: 역사적 사건 (프랑스 혁명, 니케아 공의회 등)
  * - ideology: 사상/이념 (유물론, 계몽주의, 페미니즘 등)
  * - movement: 운동/학파 (과학혁명, 비판이론, 인문주의 등)
@@ -246,7 +246,7 @@ export interface Entity {
 
   // 관련 인물 (빠른 참조)
   relatedPersons?: string[];           // Person ID[]
-  // 관련 엔터티 (빠른 참조)
+  // 관련 주제 (빠른 참조)
   relatedEntities?: string[];          // Entity ID[]
 
   // event 전용
@@ -293,7 +293,7 @@ export type PersonRelationType =
   | "contemporary";   // 동시대 교류 (라이프니츠↔뉴턴 미적분 논쟁)
 
 /**
- * 인물-엔터티 관계 유형 (Person ↔ Entity)
+ * 인물-주제 관계 유형 (Person ↔ Entity)
  */
 export type PersonEntityRelationType =
   | "founded"         // 창설 (플라톤→아카데메이아)
@@ -307,7 +307,7 @@ export type PersonEntityRelationType =
   | "belongs_to";     // 소속 (스피노자→합리론)
 
 /**
- * 엔터티 간 관계 유형 (Entity ↔ Entity)
+ * 주제 간 관계 유형 (Entity ↔ Entity)
  */
 export type EntityRelationType =
   | "preceded"        // 선행 (르네상스→과학혁명)

@@ -96,6 +96,28 @@ export function formatPeriod(start: number, end: number): string {
   return `${formatYear(start)} ~ ${formatYear(end)}`;
 }
 
+// ── Theme-aware CSS variable reader (for Canvas rendering) ──
+
+export function getCSSVar(name: string): string {
+  if (typeof document === "undefined") return "";
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+
+export function getThemeColors() {
+  return {
+    bg: getCSSVar("--fresco-ivory"),
+    bgSecondary: getCSSVar("--fresco-parchment"),
+    bgTertiary: getCSSVar("--fresco-aged"),
+    border: getCSSVar("--fresco-shadow"),
+    text: getCSSVar("--ink-dark"),
+    textSecondary: getCSSVar("--ink-medium"),
+    textMuted: getCSSVar("--ink-light"),
+    textFaded: getCSSVar("--ink-faded"),
+    gold: getCSSVar("--gold"),
+    goldHover: getCSSVar("--gold-hover"),
+  };
+}
+
 // ── Category Utilities (Fresco pigment colors) ──
 
 export type PersonCategory = "philosopher" | "religious_figure" | "scientist" | "historical_figure" | "cultural_figure";

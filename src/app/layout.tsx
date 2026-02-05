@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import ThemeProvider from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
   title: "Sophia Atlas — 인류 지성의 인드라망",
@@ -52,12 +53,14 @@ export default function RootLayout({
     <html lang="ko" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <meta name="theme-color" content="#FAF6E9" />
+        <meta name="theme-color" content="#1A1714" />
       </head>
       <body className="min-h-screen flex flex-col antialiased">
-        <Header />
-        <main className="flex-1 page-enter">{children}</main>
-        <Footer />
+        <ThemeProvider>
+          <Header />
+          <main className="flex-1 page-enter">{children}</main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

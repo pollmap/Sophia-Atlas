@@ -355,7 +355,7 @@ export default function HomePage() {
           <div className="mt-14 flex items-center justify-center gap-8 md:gap-12 text-center">
             {[
               { value: allPersons.length, label: '인물' },
-              { value: totalEntities, label: '엔터티' },
+              { value: totalEntities, label: '주제' },
               { value: totalRelationships, label: '연결' },
               { value: religionsData.length, label: '종교·신화' },
             ].map((stat) => (
@@ -730,7 +730,7 @@ export default function HomePage() {
               <p className="text-3xl font-bold" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
                 {totalEntities}
               </p>
-              <p className="text-sm mt-1" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>엔터티</p>
+              <p className="text-sm mt-1" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>주제</p>
             </div>
             <div>
               <p className="text-3xl font-bold" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>

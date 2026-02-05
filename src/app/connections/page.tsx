@@ -1072,9 +1072,9 @@ export default function ConnectionsPage() {
   const totalNodes = allPersons.length + (showEntities ? allEntities.length : 0);
 
   return (
-    <div className="min-h-screen bg-[#FAF6E9]">
+    <div className="min-h-screen bg-[var(--fresco-ivory)]">
       {/* Header */}
-      <div className="border-b border-[#D4C4AB] bg-[#FAF6E9]/80 backdrop-blur-md sticky top-16 z-30">
+      <div className="border-b border-[var(--fresco-shadow)] bg-[var(--fresco-ivory)]/80 backdrop-blur-md sticky top-16 z-30">
         <div className="max-w-[1600px] mx-auto px-4 py-4">
           <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-3">
@@ -1082,14 +1082,14 @@ export default function ConnectionsPage() {
                 <Network className="w-5 h-5 text-[#B8860B]" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-[#2C2416]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                <h1 className="text-xl font-bold text-[var(--ink-dark)]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                   인드라망 &mdash; 인류 지성의 연결 지도
                 </h1>
-                <p className="text-sm text-[#7A6B55]" style={{ fontFamily: "'Pretendard', sans-serif" }}>
+                <p className="text-sm text-[var(--ink-light)]" style={{ fontFamily: "'Pretendard', sans-serif" }}>
                   {filteredNodes.length}개 노드, {filteredLinks.length}개 관계
                   {showEntities && (
                     <span className="text-[#7A5478] ml-1">
-                      (인물 {allPersons.length} + 엔터티 {allEntities.length})
+                      (인물 {allPersons.length} + 주제 {allEntities.length})
                     </span>
                   )}
                   {selectedNode && selectedData && (
@@ -1108,12 +1108,12 @@ export default function ConnectionsPage() {
                   "flex items-center gap-1.5 px-3 py-2 rounded text-xs font-medium transition-all",
                   showEntities
                     ? "bg-[#7A5478]/15 text-[#7A5478] ring-1 ring-[#7A5478]/30"
-                    : "bg-[#E8DCCA]/50 text-[#7A6B55] hover:bg-[#E8DCCA]"
+                    : "bg-[var(--fresco-aged)]/50 text-[var(--ink-light)] hover:bg-[var(--fresco-aged)]"
                 )}
-                title="엔터티(사건/사상/기관 등) 표시"
+                title="주제(사건/사상/기관 등) 표시"
               >
                 <Diamond className="w-3.5 h-3.5" />
-                엔터티
+                주제
                 {showEntities ? (
                   <ToggleRight className="w-4 h-4" />
                 ) : (
@@ -1123,30 +1123,30 @@ export default function ConnectionsPage() {
 
               {/* Search */}
               <div className="relative hidden md:block">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#9C8B73]" />
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--ink-faded)]" />
                 <input
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="인물/엔터티 검색..."
-                  className="pl-9 pr-4 py-2 rounded bg-[#E8DCCA]/50 border border-[#D4C4AB] text-sm text-[#2C2416] placeholder-[#9C8B73] w-48 focus:w-64 transition-all focus:outline-none focus:ring-1 focus:ring-[#B8860B]/50"
+                  placeholder="인물/주제 검색..."
+                  className="pl-9 pr-4 py-2 rounded bg-[var(--fresco-aged)]/50 border border-[var(--fresco-shadow)] text-sm text-[var(--ink-dark)] placeholder-[var(--ink-faded)] w-48 focus:w-64 transition-all focus:outline-none focus:ring-1 focus:ring-[#B8860B]/50"
                   style={{ fontFamily: "'Pretendard', sans-serif" }}
                 />
                 {searchQuery && searchResults.length > 0 && (
-                  <div className="absolute top-full mt-1 left-0 right-0 bg-[#F0E6D3] border border-[#D4C4AB] rounded overflow-hidden z-50 max-h-64 overflow-y-auto">
+                  <div className="absolute top-full mt-1 left-0 right-0 bg-[var(--fresco-parchment)] border border-[var(--fresco-shadow)] rounded overflow-hidden z-50 max-h-64 overflow-y-auto">
                     {searchResults.map((item: any) => {
                       const isEntity = item.nodeType === "entity";
                       const color = isEntity
                         ? ENTITY_TYPE_COLORS[item.type] || "#9C8B73"
                         : getCategoryHexColor(item.category);
                       const typeLabel = isEntity
-                        ? ENTITY_TYPE_LABELS[item.type] || "엔터티"
+                        ? ENTITY_TYPE_LABELS[item.type] || "주제"
                         : getCategoryLabel(item.category);
                       return (
                         <button
                           key={item.id}
                           onClick={() => focusOnNode(item.id)}
-                          className="w-full px-4 py-2 text-left hover:bg-[#E8DCCA]/50 flex items-center gap-2"
+                          className="w-full px-4 py-2 text-left hover:bg-[var(--fresco-aged)]/50 flex items-center gap-2"
                         >
                           <div
                             className={cn(
@@ -1162,8 +1162,8 @@ export default function ConnectionsPage() {
                               {item.name.ko[0]}
                             </span>
                           </div>
-                          <span className="text-sm text-[#2C2416]">{item.name.ko}</span>
-                          <span className="text-xs text-[#9C8B73] ml-auto">
+                          <span className="text-sm text-[var(--ink-dark)]">{item.name.ko}</span>
+                          <span className="text-xs text-[var(--ink-faded)] ml-auto">
                             {typeLabel}
                           </span>
                         </button>
@@ -1174,32 +1174,32 @@ export default function ConnectionsPage() {
               </div>
               <button
                 onClick={resetView}
-                className="p-2 rounded bg-[#E8DCCA]/50 hover:bg-[#E8DCCA] transition-colors"
+                className="p-2 rounded bg-[var(--fresco-aged)]/50 hover:bg-[var(--fresco-aged)] transition-colors"
                 title="초기화"
               >
-                <RotateCcw className="w-5 h-5 text-[#7A6B55]" />
+                <RotateCcw className="w-5 h-5 text-[var(--ink-light)]" />
               </button>
               <button
                 onClick={() => setShowInfo(!showInfo)}
-                className="p-2 rounded bg-[#E8DCCA]/50 hover:bg-[#E8DCCA] transition-colors"
+                className="p-2 rounded bg-[var(--fresco-aged)]/50 hover:bg-[var(--fresco-aged)] transition-colors"
               >
-                <Info className="w-5 h-5 text-[#7A6B55]" />
+                <Info className="w-5 h-5 text-[var(--ink-light)]" />
               </button>
             </div>
           </div>
 
           {showInfo && (
-            <div className="mb-3 p-4 rounded bg-[#E8DCCA]/50 border border-[#D4C4AB]">
+            <div className="mb-3 p-4 rounded bg-[var(--fresco-aged)]/50 border border-[var(--fresco-shadow)]">
               <h3 className="text-sm font-bold text-[#B8860B] mb-2 flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                 <Sparkles className="w-4 h-4" />
                 인드라망(Indra&apos;s Net)이란?
               </h3>
-              <p className="text-sm text-[#4A3C2A] mb-2" style={{ fontFamily: "'Pretendard', sans-serif" }}>
+              <p className="text-sm text-[var(--ink-medium)] mb-2" style={{ fontFamily: "'Pretendard', sans-serif" }}>
                 불교 화엄경의 개념으로, 모든 존재가 서로를 비추는 무한한 그물입니다.
                 인류의 모든 사상은 서로 연결되어 있으며, 하나를 이해하면 전체의 빛이 보입니다.
               </p>
-              <p className="text-xs text-[#7A6B55]" style={{ fontFamily: "'Pretendard', sans-serif" }}>
-                <span className="text-[#B8860B]">&#9679;</span> 원형 = 인물 | <span className="text-[#7A5478]">&#9670;</span> 다이아몬드 = 엔터티(사건·사상·경전 등) |
+              <p className="text-xs text-[var(--ink-light)]" style={{ fontFamily: "'Pretendard', sans-serif" }}>
+                <span className="text-[#B8860B]">&#9679;</span> 원형 = 인물 | <span className="text-[#7A5478]">&#9670;</span> 다이아몬드 = 주제(사건·사상·경전 등) |
                 노드 클릭 = 1-2차 관계망 탐색 | 휠 = 확대/축소 | 드래그 = 이동
               </p>
             </div>
@@ -1207,7 +1207,7 @@ export default function ConnectionsPage() {
 
           {/* Filters */}
           <div className="flex flex-wrap gap-2 items-center">
-            <span className="text-xs text-[#9C8B73] mr-1" style={{ fontFamily: "'Pretendard', sans-serif" }}>카테고리:</span>
+            <span className="text-xs text-[var(--ink-faded)] mr-1" style={{ fontFamily: "'Pretendard', sans-serif" }}>카테고리:</span>
             {CATEGORY_FILTERS.map((c) => (
               <button
                 key={c.key}
@@ -1219,7 +1219,7 @@ export default function ConnectionsPage() {
                   "px-3 py-1.5 rounded-full text-xs font-medium transition-all",
                   selectedCategory === c.key
                     ? "ring-1 ring-current"
-                    : "bg-[#E8DCCA]/50 text-[#7A6B55] hover:bg-[#E8DCCA]"
+                    : "bg-[var(--fresco-aged)]/50 text-[var(--ink-light)] hover:bg-[var(--fresco-aged)]"
                 )}
                 style={
                   selectedCategory === c.key
@@ -1231,15 +1231,15 @@ export default function ConnectionsPage() {
               </button>
             ))}
 
-            <span className="text-[#D4C4AB] mx-1">|</span>
-            <span className="text-xs text-[#9C8B73] mr-1" style={{ fontFamily: "'Pretendard', sans-serif" }}>시대:</span>
+            <span className="text-[var(--fresco-shadow)] mx-1">|</span>
+            <span className="text-xs text-[var(--ink-faded)] mr-1" style={{ fontFamily: "'Pretendard', sans-serif" }}>시대:</span>
             <button
               onClick={() => setSelectedEra("all")}
               className={cn(
                 "px-3 py-1.5 rounded-full text-xs font-medium transition-all",
                 selectedEra === "all"
-                  ? "bg-[#D4C4AB] text-[#2C2416] ring-1 ring-[#D4C4AB]"
-                  : "bg-[#E8DCCA]/50 text-[#7A6B55] hover:bg-[#E8DCCA]"
+                  ? "bg-[var(--fresco-shadow)] text-[var(--ink-dark)] ring-1 ring-[var(--fresco-shadow)]"
+                  : "bg-[var(--fresco-aged)]/50 text-[var(--ink-light)] hover:bg-[var(--fresco-aged)]"
               )}
             >
               전체
@@ -1252,7 +1252,7 @@ export default function ConnectionsPage() {
                   "px-3 py-1.5 rounded-full text-xs font-medium transition-all",
                   selectedEra === era
                     ? "ring-1 ring-current"
-                    : "bg-[#E8DCCA]/50 text-[#7A6B55] hover:bg-[#E8DCCA]"
+                    : "bg-[var(--fresco-aged)]/50 text-[var(--ink-light)] hover:bg-[var(--fresco-aged)]"
                 )}
                 style={
                   selectedEra === era
@@ -1264,8 +1264,8 @@ export default function ConnectionsPage() {
               </button>
             ))}
 
-            <span className="text-[#D4C4AB] mx-1">|</span>
-            <span className="text-xs text-[#9C8B73] mr-1" style={{ fontFamily: "'Pretendard', sans-serif" }}>관계:</span>
+            <span className="text-[var(--fresco-shadow)] mx-1">|</span>
+            <span className="text-xs text-[var(--ink-faded)] mr-1" style={{ fontFamily: "'Pretendard', sans-serif" }}>관계:</span>
             {REL_TYPE_FILTERS.map((t) => (
               <button
                 key={t.key}
@@ -1274,7 +1274,7 @@ export default function ConnectionsPage() {
                   "px-3 py-1.5 rounded-full text-xs font-medium transition-all",
                   selectedRelType === t.key
                     ? "bg-[#B8860B]/20 text-[#B8860B] ring-1 ring-[#B8860B]/50"
-                    : "bg-[#E8DCCA]/50 text-[#7A6B55] hover:bg-[#E8DCCA]"
+                    : "bg-[var(--fresco-aged)]/50 text-[var(--ink-light)] hover:bg-[var(--fresco-aged)]"
                 )}
               >
                 {t.label}
@@ -1298,20 +1298,20 @@ export default function ConnectionsPage() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
           {/* Canvas Area */}
           <div className="lg:col-span-3" ref={containerRef}>
-            <div className="relative bg-[#F0E6D3] rounded border border-[#D4C4AB] overflow-hidden">
+            <div className="relative bg-[var(--fresco-parchment)] rounded border border-[var(--fresco-shadow)] overflow-hidden">
               {/* Category + Entity Legend */}
               <div className="absolute top-3 left-3 z-10 flex flex-wrap gap-2 pointer-events-none">
                 {CATEGORY_FILTERS.slice(1).map((c) => (
-                  <div key={c.key} className="flex items-center gap-1 text-[9px] text-[#7A6B55]">
+                  <div key={c.key} className="flex items-center gap-1 text-[9px] text-[var(--ink-light)]">
                     <div className="w-2 h-2 rounded-full" style={{ backgroundColor: c.color }} />
                     {c.label}
                   </div>
                 ))}
                 {showEntities && (
                   <>
-                    <div className="w-px h-3 bg-[#D4C4AB] mx-1" />
+                    <div className="w-px h-3 bg-[var(--fresco-shadow)] mx-1" />
                     {Object.entries(ENTITY_TYPE_LABELS).map(([type, label]) => (
-                      <div key={type} className="flex items-center gap-1 text-[9px] text-[#7A6B55]">
+                      <div key={type} className="flex items-center gap-1 text-[9px] text-[var(--ink-light)]">
                         <div
                           className="w-2 h-2 rotate-45 rounded-[1px]"
                           style={{ backgroundColor: ENTITY_TYPE_COLORS[type] }}
@@ -1335,7 +1335,7 @@ export default function ConnectionsPage() {
               />
 
               {/* Stats overlay */}
-              <div className="absolute bottom-3 left-3 flex gap-3 text-[10px] text-[#9C8B73] pointer-events-none">
+              <div className="absolute bottom-3 left-3 flex gap-3 text-[10px] text-[var(--ink-faded)] pointer-events-none">
                 <span>노드: {filteredNodes.length}</span>
                 <span>연결: {filteredLinks.length}</span>
                 {selectedNode && egoData && (
@@ -1346,7 +1346,7 @@ export default function ConnectionsPage() {
                 )}
               </div>
 
-              <div className="absolute bottom-3 right-3 text-[10px] text-[#9C8B73] pointer-events-none">
+              <div className="absolute bottom-3 right-3 text-[10px] text-[var(--ink-faded)] pointer-events-none">
                 스크롤: 확대/축소 | 드래그: 이동 | 클릭: 선택
               </div>
             </div>
@@ -1357,7 +1357,7 @@ export default function ConnectionsPage() {
             {selectedNode && selectedData ? (
               <>
                 {/* Selected Node Info */}
-                <div className="bg-[#F0E6D3] rounded border border-[#D4C4AB] p-5">
+                <div className="bg-[var(--fresco-parchment)] rounded border border-[var(--fresco-shadow)] p-5">
                   <div className="flex items-center gap-3 mb-3">
                     {selectedData.nodeType === "entity" ? (
                       <div
@@ -1381,10 +1381,10 @@ export default function ConnectionsPage() {
                       </div>
                     )}
                     <div>
-                      <h2 className="text-lg font-bold text-[#2C2416]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                      <h2 className="text-lg font-bold text-[var(--ink-dark)]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                         {selectedData.name.ko}
                       </h2>
-                      <p className="text-sm text-[#7A6B55]" style={{ fontFamily: "'Pretendard', sans-serif" }}>
+                      <p className="text-sm text-[var(--ink-light)]" style={{ fontFamily: "'Pretendard', sans-serif" }}>
                         {selectedData.name.en}
                       </p>
                     </div>
@@ -1404,7 +1404,7 @@ export default function ConnectionsPage() {
                       }}
                     >
                       {selectedData.nodeType === "entity"
-                        ? ENTITY_TYPE_LABELS[selectedData.type] || "엔터티"
+                        ? ENTITY_TYPE_LABELS[selectedData.type] || "주제"
                         : getCategoryLabel(selectedData.category)}
                     </span>
                     {selectedData.era && (
@@ -1418,11 +1418,11 @@ export default function ConnectionsPage() {
                         {ERA_LABELS[selectedData.era]}
                       </span>
                     )}
-                    <span className="px-2 py-0.5 rounded text-xs bg-[#E8DCCA]/50 text-[#7A6B55]">
+                    <span className="px-2 py-0.5 rounded text-xs bg-[var(--fresco-aged)]/50 text-[var(--ink-light)]">
                       {connectionCounts[selectedData.id] || 0} 연결
                     </span>
                   </div>
-                  <p className="text-sm text-[#4A3C2A] leading-relaxed mb-3 line-clamp-4" style={{ fontFamily: "'Pretendard', sans-serif" }}>
+                  <p className="text-sm text-[var(--ink-medium)] leading-relaxed mb-3 line-clamp-4" style={{ fontFamily: "'Pretendard', sans-serif" }}>
                     {selectedData.summary}
                   </p>
                   <Link
@@ -1438,8 +1438,8 @@ export default function ConnectionsPage() {
                 </div>
 
                 {/* Connections List */}
-                <div className="bg-[#F0E6D3] rounded border border-[#D4C4AB] p-5">
-                  <h3 className="text-sm font-bold text-[#2C2416] mb-3 flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                <div className="bg-[var(--fresco-parchment)] rounded border border-[var(--fresco-shadow)] p-5">
+                  <h3 className="text-sm font-bold text-[var(--ink-dark)] mb-3 flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                     <Layers className="w-4 h-4 text-[#B8860B]" />
                     연결 관계 ({nodeRelationships.length})
                   </h3>
@@ -1455,7 +1455,7 @@ export default function ConnectionsPage() {
                       return (
                         <div
                           key={i}
-                          className="p-3 rounded bg-[#E8DCCA]/50 border-l-2 cursor-pointer hover:bg-[#E8DCCA] transition-colors"
+                          className="p-3 rounded bg-[var(--fresco-aged)]/50 border-l-2 cursor-pointer hover:bg-[var(--fresco-aged)] transition-colors"
                           style={{ borderLeftColor: getRelColor(rel.type, 0.6) }}
                           onClick={() => focusOnNode(rel.other)}
                         >
@@ -1468,7 +1468,7 @@ export default function ConnectionsPage() {
                                 )}
                                 style={{ backgroundColor: otherColor }}
                               />
-                              <span className="text-sm font-medium text-[#2C2416]">
+                              <span className="text-sm font-medium text-[var(--ink-dark)]">
                                 {rel.direction === "outgoing" ? "\u2192 " : "\u2190 "}
                                 {other.name.ko}
                               </span>
@@ -1483,14 +1483,14 @@ export default function ConnectionsPage() {
                               {typeLabel}
                             </span>
                           </div>
-                          <p className="text-xs text-[#7A6B55] line-clamp-2" style={{ fontFamily: "'Pretendard', sans-serif" }}>
+                          <p className="text-xs text-[var(--ink-light)] line-clamp-2" style={{ fontFamily: "'Pretendard', sans-serif" }}>
                             {rel.description}
                           </p>
                         </div>
                       );
                     })}
                     {nodeRelationships.length === 0 && (
-                      <p className="text-xs text-[#9C8B73] text-center py-4">
+                      <p className="text-xs text-[var(--ink-faded)] text-center py-4">
                         연결된 관계가 없습니다
                       </p>
                     )}
@@ -1500,30 +1500,30 @@ export default function ConnectionsPage() {
             ) : (
               <div className="space-y-4">
                 {/* Stats */}
-                <div className="bg-[#F0E6D3] rounded border border-[#D4C4AB] p-5">
-                  <h3 className="text-sm font-bold text-[#2C2416] mb-3 flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                <div className="bg-[var(--fresco-parchment)] rounded border border-[var(--fresco-shadow)] p-5">
+                  <h3 className="text-sm font-bold text-[var(--ink-dark)] mb-3 flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                     <Sparkles className="w-4 h-4 text-[#B8860B]" />
                     인드라망 통계
                   </h3>
                   <div className="grid grid-cols-2 gap-3">
-                    <div className="p-3 rounded bg-[#E8DCCA]/50 text-center">
-                      <div className="text-2xl font-bold text-[#2C2416]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                    <div className="p-3 rounded bg-[var(--fresco-aged)]/50 text-center">
+                      <div className="text-2xl font-bold text-[var(--ink-dark)]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                         {allPersons.length}
                       </div>
-                      <div className="text-xs text-[#7A6B55]">인물</div>
+                      <div className="text-xs text-[var(--ink-light)]">인물</div>
                     </div>
-                    <div className="p-3 rounded bg-[#E8DCCA]/50 text-center">
-                      <div className="text-2xl font-bold text-[#2C2416]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                    <div className="p-3 rounded bg-[var(--fresco-aged)]/50 text-center">
+                      <div className="text-2xl font-bold text-[var(--ink-dark)]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                         {allRelationships.length}
                       </div>
-                      <div className="text-xs text-[#7A6B55]">연결</div>
+                      <div className="text-xs text-[var(--ink-light)]">연결</div>
                     </div>
                     {showEntities && (
                       <div className="p-3 rounded bg-[#7A5478]/10 text-center col-span-2">
                         <div className="text-2xl font-bold text-[#7A5478]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                           {allEntities.length}
                         </div>
-                        <div className="text-xs text-[#7A6B55]">엔터티 (사건·사상·경전 등)</div>
+                        <div className="text-xs text-[var(--ink-light)]">주제 (사건·사상·경전 등)</div>
                       </div>
                     )}
                     {CATEGORY_FILTERS.slice(1).map((c) => {
@@ -1539,7 +1539,7 @@ export default function ConnectionsPage() {
                           <div className="text-lg font-bold" style={{ color: c.color, fontFamily: "'Cormorant Garamond', serif" }}>
                             {count}
                           </div>
-                          <div className="text-[10px] text-[#7A6B55]">{c.label}</div>
+                          <div className="text-[10px] text-[var(--ink-light)]">{c.label}</div>
                         </div>
                       );
                     })}
@@ -1547,8 +1547,8 @@ export default function ConnectionsPage() {
                 </div>
 
                 {/* Most Connected */}
-                <div className="bg-[#F0E6D3] rounded border border-[#D4C4AB] p-5">
-                  <h3 className="text-sm font-bold text-[#2C2416] mb-3" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                <div className="bg-[var(--fresco-parchment)] rounded border border-[var(--fresco-shadow)] p-5">
+                  <h3 className="text-sm font-bold text-[var(--ink-dark)] mb-3" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                     가장 많이 연결된 노드
                   </h3>
                   <div className="space-y-2">
@@ -1566,12 +1566,12 @@ export default function ConnectionsPage() {
                           ? ENTITY_TYPE_COLORS[item.type] || "#9C8B73"
                           : getCategoryHexColor(item.category);
                         const typeLabel = isEntity
-                          ? ENTITY_TYPE_LABELS[item.type] || "엔터티"
+                          ? ENTITY_TYPE_LABELS[item.type] || "주제"
                           : getCategoryLabel(item.category);
                         return (
                           <div
                             key={item.id}
-                            className="flex items-center justify-between p-2 rounded hover:bg-[#E8DCCA]/50 cursor-pointer transition-colors"
+                            className="flex items-center justify-between p-2 rounded hover:bg-[var(--fresco-aged)]/50 cursor-pointer transition-colors"
                             onClick={() => focusOnNode(item.id)}
                           >
                             <div className="flex items-center gap-2">
@@ -1589,18 +1589,18 @@ export default function ConnectionsPage() {
                                   {item.name.ko[0]}
                                 </span>
                               </div>
-                              <span className="text-sm text-[#4A3C2A]">
+                              <span className="text-sm text-[var(--ink-medium)]">
                                 {item.name.ko}
                               </span>
-                              <span className="text-[10px] text-[#9C8B73]">
+                              <span className="text-[10px] text-[var(--ink-faded)]">
                                 {typeLabel}
                               </span>
                             </div>
                             <div className="flex items-center gap-1">
-                              <span className="text-xs text-[#9C8B73]">
+                              <span className="text-xs text-[var(--ink-faded)]">
                                 {item.connections}
                               </span>
-                              <Network className="w-3 h-3 text-[#9C8B73]" />
+                              <Network className="w-3 h-3 text-[var(--ink-faded)]" />
                             </div>
                           </div>
                         );
@@ -1609,19 +1609,19 @@ export default function ConnectionsPage() {
                 </div>
 
                 {/* Guide */}
-                <div className="bg-[#F0E6D3] rounded border border-[#D4C4AB] p-5">
-                  <h3 className="text-sm font-bold text-[#2C2416] mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                <div className="bg-[var(--fresco-parchment)] rounded border border-[var(--fresco-shadow)] p-5">
+                  <h3 className="text-sm font-bold text-[var(--ink-dark)] mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                     사용 가이드
                   </h3>
-                  <ul className="text-xs text-[#7A6B55] space-y-1.5" style={{ fontFamily: "'Pretendard', sans-serif" }}>
-                    <li>- <span className="text-[#B8860B]">&#9679;</span> 원형 = 인물, <span className="text-[#7A5478]">&#9670;</span> 다이아몬드 = 엔터티</li>
+                  <ul className="text-xs text-[var(--ink-light)] space-y-1.5" style={{ fontFamily: "'Pretendard', sans-serif" }}>
+                    <li>- <span className="text-[#B8860B]">&#9679;</span> 원형 = 인물, <span className="text-[#7A5478]">&#9670;</span> 다이아몬드 = 주제</li>
                     <li>- 노드 클릭 시 1, 2차 관계망이 강조됩니다</li>
                     <li>- 마우스 휠로 확대/축소, 드래그로 이동</li>
                     <li>- 노드를 드래그하여 위치 조정 가능</li>
                     <li>- 카테고리/시대/관계 필터로 원하는 영역만 탐색</li>
                     <li>- 노드 색상 = 카테고리/유형, 크기 = 연결 수</li>
                     <li>- 선 색상 = 관계 유형 (영향/대립/사제/창설 등)</li>
-                    <li>- 엔터티 토글로 사건·사상·경전 노드 표시/숨기기</li>
+                    <li>- 주제 토글로 사건·사상·경전 노드 표시/숨기기</li>
                   </ul>
                 </div>
               </div>

@@ -193,13 +193,13 @@ export default function ScienceTimelinePage() {
   const totalTimelineHeight = totalLanesHeight + AXIS_HEIGHT + (showEvents ? EVENTS_TRACK_HEIGHT : 0);
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#FAF6E9' }}>
+    <div className="min-h-screen" style={{ backgroundColor: 'var(--fresco-ivory)' }}>
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         <Link
           href="/science"
           className="inline-flex items-center gap-1.5 text-sm transition-colors mb-6"
-          style={{ color: '#7A6B55' }}
+          style={{ color: 'var(--ink-light)' }}
         >
           <ArrowLeft className="w-4 h-4" />
           과학의 역사
@@ -215,15 +215,15 @@ export default function ScienceTimelinePage() {
           <div>
             <h1
               className="text-3xl md:text-4xl font-bold"
-              style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+              style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
             >
               과학 발견의 타임라인
             </h1>
-            <p style={{ color: '#7A6B55' }} className="mt-1">BC 500 ~ 현재 | 분야별 과학자와 발견</p>
+            <p style={{ color: 'var(--ink-light)' }} className="mt-1">BC 500 ~ 현재 | 분야별 과학자와 발견</p>
           </div>
         </div>
 
-        <div className="flex gap-4 mt-4 text-sm" style={{ color: '#7A6B55' }}>
+        <div className="flex gap-4 mt-4 text-sm" style={{ color: 'var(--ink-light)' }}>
           <span className="flex items-center gap-1">
             <Atom className="w-4 h-4" style={{ color: '#5B7355' }} />
             과학자 {filteredScientists.length}명
@@ -239,14 +239,14 @@ export default function ScienceTimelinePage() {
       <div className="max-w-7xl mx-auto px-4 pb-4">
         <div className="flex items-center justify-between flex-wrap gap-4">
           <div className="flex items-center gap-2 flex-wrap">
-            <Filter className="w-4 h-4 mr-1" style={{ color: '#7A6B55' }} />
+            <Filter className="w-4 h-4 mr-1" style={{ color: 'var(--ink-light)' }} />
             <button
               onClick={() => setSelectedEra('all')}
               className="px-4 py-2 rounded text-sm font-medium transition-all"
               style={
                 selectedEra === 'all'
                   ? { backgroundColor: '#5B7355', color: '#FAF6E9', fontFamily: "'Pretendard', sans-serif" }
-                  : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: '#7A6B55', fontFamily: "'Pretendard', sans-serif" }
+                  : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }
               }
             >
               전체 시대
@@ -259,7 +259,7 @@ export default function ScienceTimelinePage() {
                 style={
                   selectedEra === era
                     ? { backgroundColor: frescoEraColors[era], color: '#FAF6E9', fontFamily: "'Pretendard', sans-serif" }
-                    : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: '#7A6B55', fontFamily: "'Pretendard', sans-serif" }
+                    : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }
                 }
               >
                 {getEraLabel(era)}
@@ -275,26 +275,26 @@ export default function ScienceTimelinePage() {
               style={
                 showEvents
                   ? { backgroundColor: 'rgba(184, 134, 11, 0.15)', color: '#B8860B', border: '1px solid rgba(184, 134, 11, 0.3)' }
-                  : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: '#7A6B55' }
+                  : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: 'var(--ink-light)' }
               }
             >
               <Flag className="w-3.5 h-3.5" />
               역사 사건
             </button>
             <div className="flex items-center gap-2">
-              <span className="text-xs" style={{ color: '#7A6B55' }}>줌</span>
+              <span className="text-xs" style={{ color: 'var(--ink-light)' }}>줌</span>
               <button
                 onClick={handleZoomOut}
                 className="w-8 h-8 rounded flex items-center justify-center transition-colors"
-                style={{ backgroundColor: '#F0E6D3', border: '1px solid #D4C4AB', color: '#4A3C2A' }}
+                style={{ backgroundColor: 'var(--fresco-parchment)', border: '1px solid var(--fresco-shadow)', color: 'var(--ink-medium)' }}
               >
                 <Minus className="w-3.5 h-3.5" />
               </button>
-              <span className="text-xs w-10 text-center" style={{ color: '#4A3C2A' }}>{zoom}x</span>
+              <span className="text-xs w-10 text-center" style={{ color: 'var(--ink-medium)' }}>{zoom}x</span>
               <button
                 onClick={handleZoomIn}
                 className="w-8 h-8 rounded flex items-center justify-center transition-colors"
-                style={{ backgroundColor: '#F0E6D3', border: '1px solid #D4C4AB', color: '#4A3C2A' }}
+                style={{ backgroundColor: 'var(--fresco-parchment)', border: '1px solid var(--fresco-shadow)', color: 'var(--ink-medium)' }}
               >
                 <Plus className="w-3.5 h-3.5" />
               </button>
@@ -306,14 +306,14 @@ export default function ScienceTimelinePage() {
       {/* Field Filters */}
       <div className="max-w-7xl mx-auto px-4 pb-4">
         <div className="flex items-center gap-2 flex-wrap">
-          <span className="text-xs mr-1" style={{ color: '#7A6B55' }}>분야:</span>
+          <span className="text-xs mr-1" style={{ color: 'var(--ink-light)' }}>분야:</span>
           <button
             onClick={() => setSelectedField('all')}
             className="px-3 py-1.5 rounded text-xs font-medium transition-all"
             style={
               selectedField === 'all'
                 ? { backgroundColor: '#5B7355', color: '#FAF6E9' }
-                : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: '#7A6B55' }
+                : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: 'var(--ink-light)' }
             }
           >
             전체
@@ -328,7 +328,7 @@ export default function ScienceTimelinePage() {
                 style={
                   selectedField === field
                     ? { backgroundColor: info.color, color: '#FAF6E9' }
-                    : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: '#7A6B55' }
+                    : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: 'var(--ink-light)' }
                 }
               >
                 <span
@@ -345,19 +345,19 @@ export default function ScienceTimelinePage() {
       {/* Field legend */}
       <div className="max-w-7xl mx-auto px-4 pb-4">
         <div className="flex items-center gap-3 flex-wrap text-xs">
-          <span style={{ color: '#7A6B55' }}>범례:</span>
+          <span style={{ color: 'var(--ink-light)' }}>범례:</span>
           {Object.entries(fieldGroups).map(([key, { label, color }]) => (
             <span key={key} className="flex items-center gap-1">
               <span
                 className="w-2.5 h-2.5 rounded-sm"
                 style={{ backgroundColor: color }}
               />
-              <span style={{ color: '#4A3C2A' }}>{label}</span>
+              <span style={{ color: 'var(--ink-medium)' }}>{label}</span>
             </span>
           ))}
-          <span className="flex items-center gap-1 ml-2 pl-3" style={{ borderLeft: '1px solid #D4C4AB', color: '#7A6B55' }}>
+          <span className="flex items-center gap-1 ml-2 pl-3" style={{ borderLeft: '1px solid var(--fresco-shadow)', color: 'var(--ink-light)' }}>
             <Sparkles className="w-3 h-3" style={{ color: '#B8860B' }} />
-            <span style={{ color: '#4A3C2A' }}>= 주요 발견</span>
+            <span style={{ color: 'var(--ink-medium)' }}>= 주요 발견</span>
           </span>
         </div>
       </div>
@@ -372,14 +372,14 @@ export default function ScienceTimelinePage() {
           <button
             onClick={() => scrollTimeline('left')}
             className="absolute left-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full flex items-center justify-center transition-colors"
-            style={{ backgroundColor: 'rgba(240, 230, 211, 0.9)', border: '1px solid #D4C4AB', color: '#4A3C2A' }}
+            style={{ backgroundColor: 'rgba(240, 230, 211, 0.9)', border: '1px solid var(--fresco-shadow)', color: 'var(--ink-medium)' }}
           >
             <ArrowLeft className="w-4 h-4" />
           </button>
           <button
             onClick={() => scrollTimeline('right')}
             className="absolute right-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full flex items-center justify-center transition-colors"
-            style={{ backgroundColor: 'rgba(240, 230, 211, 0.9)', border: '1px solid #D4C4AB', color: '#4A3C2A' }}
+            style={{ backgroundColor: 'rgba(240, 230, 211, 0.9)', border: '1px solid var(--fresco-shadow)', color: 'var(--ink-medium)' }}
           >
             <ArrowRight className="w-4 h-4" />
           </button>
@@ -387,7 +387,7 @@ export default function ScienceTimelinePage() {
           <div
             ref={timelineRef}
             className="overflow-x-auto"
-            style={{ scrollbarWidth: 'thin', scrollbarColor: '#D4C4AB #F0E6D3' }}
+            style={{ scrollbarWidth: 'thin', scrollbarColor: 'var(--fresco-shadow) var(--fresco-parchment)' }}
           >
             <div
               className="relative"
@@ -507,14 +507,14 @@ export default function ScienceTimelinePage() {
                             <div
                               className="rounded px-3 py-2 whitespace-nowrap max-w-xs"
                               style={{
-                                backgroundColor: '#F0E6D3',
-                                border: '1px solid #D4C4AB',
+                                backgroundColor: 'var(--fresco-parchment)',
+                                border: '1px solid var(--fresco-shadow)',
                                 boxShadow: '0 4px 12px rgba(44, 36, 22, 0.15)',
                               }}
                             >
-                              <p className="text-[11px] font-semibold" style={{ color: '#2C2416' }}>{s.name.ko}</p>
-                              <p className="text-[10px]" style={{ color: '#7A6B55' }}>{s.name.en}</p>
-                              <p className="text-[9px] mt-0.5" style={{ color: '#9C8B73' }}>
+                              <p className="text-[11px] font-semibold" style={{ color: 'var(--ink-dark)' }}>{s.name.ko}</p>
+                              <p className="text-[10px]" style={{ color: 'var(--ink-light)' }}>{s.name.en}</p>
+                              <p className="text-[9px] mt-0.5" style={{ color: 'var(--ink-faded)' }}>
                                 {formatYear(s.period.start)} ~ {formatYear(s.period.end)}
                               </p>
                               {s.field && s.field.length > 0 && (
@@ -534,18 +534,18 @@ export default function ScienceTimelinePage() {
                                 </div>
                               )}
                               {discoveries.length > 0 && (
-                                <div className="mt-1 pt-1" style={{ borderTop: '1px solid #D4C4AB' }}>
+                                <div className="mt-1 pt-1" style={{ borderTop: '1px solid var(--fresco-shadow)' }}>
                                   <p className="text-[8px] flex items-center gap-0.5" style={{ color: '#B8860B' }}>
                                     <Sparkles className="w-2 h-2" />
                                     주요 발견
                                   </p>
                                   {discoveries.slice(0, 3).map((d) => (
-                                    <p key={d} className="text-[8px]" style={{ color: '#4A3C2A' }}>
+                                    <p key={d} className="text-[8px]" style={{ color: 'var(--ink-medium)' }}>
                                       - {d}
                                     </p>
                                   ))}
                                   {discoveries.length > 3 && (
-                                    <p className="text-[8px]" style={{ color: '#9C8B73' }}>
+                                    <p className="text-[8px]" style={{ color: 'var(--ink-faded)' }}>
                                       +{discoveries.length - 3}개 더
                                     </p>
                                   )}
@@ -565,7 +565,7 @@ export default function ScienceTimelinePage() {
                 className="absolute left-0 right-0"
                 style={{ top: `${totalLanesHeight}px`, height: `${AXIS_HEIGHT}px` }}
               >
-                <div className="absolute top-0 left-0 right-0 h-px" style={{ backgroundColor: '#D4C4AB' }} />
+                <div className="absolute top-0 left-0 right-0 h-px" style={{ backgroundColor: 'var(--fresco-shadow)' }} />
                 {centuryMarkers
                   .filter((y) => y % (zoom >= 2 ? 100 : 500) === 0)
                   .map((year) => {
@@ -582,7 +582,7 @@ export default function ScienceTimelinePage() {
                       >
                         <span
                           className="text-[10px] font-medium px-1.5 py-0.5 rounded"
-                          style={{ color: '#4A3C2A', backgroundColor: 'rgba(250, 246, 233, 0.9)' }}
+                          style={{ color: 'var(--ink-medium)', backgroundColor: 'rgba(250, 246, 233, 0.9)' }}
                         >
                           {formatYear(year)}
                         </span>
@@ -670,7 +670,7 @@ export default function ScienceTimelinePage() {
                             <p className="text-[8px] font-medium" style={{ color: '#8B6914' }}>
                               {event.name.ko}
                             </p>
-                            <p className="text-[7px]" style={{ color: '#9C8B73' }}>
+                            <p className="text-[7px]" style={{ color: 'var(--ink-faded)' }}>
                               {formatYear(event.period.start)}
                             </p>
                           </div>
@@ -689,11 +689,11 @@ export default function ScienceTimelinePage() {
       <div className="max-w-7xl mx-auto px-4 pb-20">
         <h2
           className="text-lg font-semibold mb-4 flex items-center gap-2"
-          style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+          style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
         >
           <Atom className="w-5 h-5" style={{ color: '#5B7355' }} />
           과학자 목록
-          <span className="text-sm font-normal" style={{ color: '#7A6B55' }}>
+          <span className="text-sm font-normal" style={{ color: 'var(--ink-light)' }}>
             ({filteredScientists.length}명)
           </span>
         </h2>
@@ -722,11 +722,11 @@ export default function ScienceTimelinePage() {
                   <div>
                     <h3
                       className="font-semibold transition-colors"
-                      style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+                      style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
                     >
                       {s.name.ko}
                     </h3>
-                    <p className="text-sm" style={{ color: '#7A6B55' }}>{s.name.en}</p>
+                    <p className="text-sm" style={{ color: 'var(--ink-light)' }}>{s.name.en}</p>
                   </div>
                   <div className="flex items-center gap-1.5 shrink-0 ml-2">
                     <span
@@ -750,7 +750,7 @@ export default function ScienceTimelinePage() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3 text-xs mb-3" style={{ color: '#7A6B55' }}>
+                <div className="flex items-center gap-3 text-xs mb-3" style={{ color: 'var(--ink-light)' }}>
                   <span className="flex items-center gap-1">
                     <Calendar className="w-3 h-3" />
                     {formatYear(s.period.start)} ~ {formatYear(s.period.end)}
@@ -798,7 +798,7 @@ export default function ScienceTimelinePage() {
                     {s.discoveries.length > 3 && (
                       <span
                         className="text-[11px] px-2 py-0.5 rounded-full"
-                        style={{ backgroundColor: 'rgba(212, 196, 171, 0.3)', color: '#7A6B55' }}
+                        style={{ backgroundColor: 'rgba(212, 196, 171, 0.3)', color: 'var(--ink-light)' }}
                       >
                         +{s.discoveries.length - 3}
                       </span>
@@ -806,11 +806,11 @@ export default function ScienceTimelinePage() {
                   </div>
                 )}
 
-                <p className="text-sm line-clamp-2 leading-relaxed" style={{ color: '#4A3C2A' }}>
+                <p className="text-sm line-clamp-2 leading-relaxed" style={{ color: 'var(--ink-medium)' }}>
                   {s.summary}
                 </p>
 
-                <div className="mt-3 flex items-center text-xs transition-colors" style={{ color: '#7A6B55' }}>
+                <div className="mt-3 flex items-center text-xs transition-colors" style={{ color: 'var(--ink-light)' }}>
                   자세히 보기
                   <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
                 </div>

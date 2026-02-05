@@ -92,8 +92,8 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
     return (
       <div className="min-h-screen flex items-center justify-center" style={{ background: 'var(--fresco-ivory)' }}>
         <div className="text-center">
-          <h1 className="text-2xl font-bold mb-4" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>엔터티를 찾을 수 없습니다</h1>
-          <Link href="/entities" className="hover:opacity-80" style={{ color: '#6B4E8A' }}>엔터티 목록으로</Link>
+          <h1 className="text-2xl font-bold mb-4" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>주제를 찾을 수 없습니다</h1>
+          <Link href="/entities" className="hover:opacity-80" style={{ color: '#6B4E8A' }}>주제 목록으로</Link>
         </div>
       </div>
     );
@@ -106,7 +106,7 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
       <div className="max-w-4xl mx-auto px-4 pt-8">
         <Link href="/entities" className="inline-flex items-center gap-1.5 text-sm hover:opacity-80 transition-colors" style={{ color: 'var(--ink-light)' }}>
           <ArrowLeft className="w-4 h-4" />
-          엔터티 목록으로
+          주제 목록으로
         </Link>
       </div>
 
@@ -231,7 +231,7 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
         <section className="max-w-4xl mx-auto px-4 pb-20">
           <div className="rounded-xl border p-6" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
             <h2 className="text-base font-semibold mb-4 flex items-center gap-2" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
-              <Layers className="w-5 h-5" style={{ color: '#6B4E8A' }} />관련 엔터티
+              <Layers className="w-5 h-5" style={{ color: '#6B4E8A' }} />관련 주제
             </h2>
             <div className="flex flex-wrap gap-2">
               {entity.relatedEntities.map((eid) => (
