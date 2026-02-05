@@ -132,32 +132,34 @@ export default function IndraNet3D({
     const fg = fgRef.current;
 
     // Add radial force to push nodes onto a sphere surface
-    const sphereRadius = Math.min(width, height) * 0.4;
+    // Scale sphere radius with node count for proper spacing
+    const nodeCount = nodes.length || 1;
+    const sphereRadius = Math.max(200, Math.sqrt(nodeCount) * 10);
     fg.d3Force("radial",
       (function() {
         // Custom radial force in 3D
-        let nodes: any[] = [];
+        let forceNodes: any[] = [];
         function force(alpha: number) {
-          for (const node of nodes) {
+          for (const node of forceNodes) {
             const x = node.x || 0;
             const y = node.y || 0;
             const z = node.z || 0;
             const dist = Math.sqrt(x * x + y * y + z * z) || 1;
-            const factor = (sphereRadius - dist) / dist * alpha * 0.5;
+            const factor = (sphereRadius - dist) / dist * alpha * 0.3;
             node.vx = (node.vx || 0) + x * factor;
             node.vy = (node.vy || 0) + y * factor;
             node.vz = (node.vz || 0) + z * factor;
           }
         }
-        force.initialize = function(_nodes: any[]) { nodes = _nodes; };
+        force.initialize = function(_nodes: any[]) { forceNodes = _nodes; };
         return force;
       })()
     );
 
-    // Weaker default forces for sphere layout
-    fg.d3Force("charge")?.strength(-30).distanceMax(300);
-    fg.d3Force("link")?.distance((l: any) => 40 + (3 - (l.strength || 1)) * 20);
-    fg.d3Force("center")?.strength(0.02);
+    // Balanced forces for sphere layout
+    fg.d3Force("charge")?.strength(-20).distanceMax(sphereRadius * 0.8);
+    fg.d3Force("link")?.distance((l: any) => 30 + (3 - (l.strength || 1)) * 15);
+    fg.d3Force("center")?.strength(0.1);
   }, [width, height]);
 
   // Camera auto-rotate
