@@ -63,19 +63,21 @@ const categories = [
 ];
 
 const milestones = [
-  { year: -600, label: '탈레스 — 철학의 탄생', category: 'philosopher' },
-  { year: -500, label: '석가모니 — 불교', category: 'religious_figure' },
-  { year: -470, label: '소크라테스', category: 'philosopher' },
-  { year: -300, label: '유클리드 — 기하학', category: 'scientist' },
-  { year: 30, label: '예수 그리스도', category: 'religious_figure' },
-  { year: 622, label: '무함마드 — 이슬람', category: 'religious_figure' },
-  { year: 1225, label: '토마스 아퀴나스', category: 'philosopher' },
-  { year: 1543, label: '코페르니쿠스 — 지동설', category: 'scientist' },
-  { year: 1687, label: '뉴턴 — 프린키피아', category: 'scientist' },
-  { year: 1789, label: '프랑스 혁명', category: 'historical_figure' },
-  { year: 1859, label: '다윈 — 종의 기원', category: 'scientist' },
-  { year: 1905, label: '아인슈타인 — 상대성이론', category: 'scientist' },
-  { year: 1953, label: 'DNA 이중나선 발견', category: 'scientist' },
+  { year: -600, label: '탈레스 — 철학의 탄생', category: 'philosopher', id: 'thales' },
+  { year: -500, label: '석가모니 — 불교', category: 'religious_figure', id: 'buddha' },
+  { year: -470, label: '소크라테스', category: 'philosopher', id: 'socrates' },
+  { year: -300, label: '유클리드 — 기하학', category: 'scientist', id: 'euclid' },
+  { year: 30, label: '예수 그리스도', category: 'religious_figure', id: 'jesus' },
+  { year: 622, label: '무함마드 — 이슬람', category: 'religious_figure', id: 'muhammad' },
+  { year: 1225, label: '토마스 아퀴나스', category: 'philosopher', id: 'aquinas' },
+  { year: 1543, label: '코페르니쿠스 — 지동설', category: 'scientist', id: 'copernicus' },
+  { year: 1687, label: '뉴턴 — 프린키피아', category: 'scientist', id: 'newton' },
+  { year: 1789, label: '프랑스 혁명', category: 'historical_figure', id: 'french-revolution' },
+  { year: 1859, label: '다윈 — 종의 기원', category: 'scientist', id: 'darwin' },
+  { year: 1905, label: '아인슈타인 — E=mc²', category: 'scientist', id: 'einstein' },
+  { year: 1953, label: 'DNA 이중나선 발견', category: 'scientist', id: 'watson' },
+  { year: 2016, label: '알파고 — AI 시대', category: 'scientist', id: 'alphago-match' },
+  { year: 2022, label: 'ChatGPT — 생성형 AI', category: 'scientist', id: 'chatgpt-launch' },
 ];
 
 // Indra's Net decorative nodes
@@ -424,79 +426,107 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ═══════ Featured Persons (compact) ═══════ */}
+      {/* ═══════ Featured Persons (expanded) ═══════ */}
       <section className="max-w-5xl mx-auto px-4 mb-10">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-lg font-semibold" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
             시대를 만든 사상가들
           </h2>
+          <Link href="/persons" className="text-xs flex items-center gap-1" style={{ color: 'var(--gold)', fontFamily: "'Pretendard', sans-serif" }}>
+            전체 {allPersons.length}명 <ChevronRight className="w-3 h-3" />
+          </Link>
         </div>
-        <div className="grid grid-cols-3 sm:grid-cols-6 gap-3">
+        <div className="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-12 gap-2">
           {[
             { id: 'socrates', name: '소크라테스', en: 'Socrates', category: 'philosopher' },
+            { id: 'plato', name: '플라톤', en: 'Plato', category: 'philosopher' },
+            { id: 'confucius', name: '공자', en: 'Confucius', category: 'philosopher' },
             { id: 'buddha', name: '석가모니', en: 'Buddha', category: 'religious_figure' },
+            { id: 'jesus', name: '예수', en: 'Jesus', category: 'religious_figure' },
             { id: 'newton', name: '뉴턴', en: 'Newton', category: 'scientist' },
             { id: 'kant', name: '칸트', en: 'Kant', category: 'philosopher' },
             { id: 'darwin', name: '다윈', en: 'Darwin', category: 'scientist' },
             { id: 'nietzsche', name: '니체', en: 'Nietzsche', category: 'philosopher' },
+            { id: 'einstein', name: '아인슈타인', en: 'Einstein', category: 'scientist' },
+            { id: 'marx', name: '마르크스', en: 'Marx', category: 'philosopher' },
+            { id: 'turing', name: '튜링', en: 'Turing', category: 'scientist' },
           ].map((p) => {
             const color = categoryColors[p.category] || '#6B6358';
             return (
-              <Link key={p.id} href={`/persons/${p.id}`} className="group fresco-card p-3 text-center">
+              <Link key={p.id} href={`/persons/${p.id}`} className="group fresco-card p-2 text-center">
                 <div
-                  className="w-10 h-10 rounded-full mx-auto mb-2 flex items-center justify-center text-sm font-bold"
+                  className="w-9 h-9 rounded-full mx-auto mb-1.5 flex items-center justify-center text-sm font-bold"
                   style={{ backgroundColor: `${color}15`, color, border: `1.5px solid ${color}25`, fontFamily: "'Cormorant Garamond', serif" }}
                 >
                   {p.name[0]}
                 </div>
-                <h3 className="text-xs font-medium truncate" style={{ color: 'var(--ink-dark)', fontFamily: "'Noto Serif KR', serif" }}>{p.name}</h3>
-                <p className="text-[9px] truncate" style={{ color: 'var(--ink-faded)' }}>{p.en}</p>
+                <h3 className="text-[10px] font-medium truncate" style={{ color: 'var(--ink-dark)', fontFamily: "'Noto Serif KR', serif" }}>{p.name}</h3>
+                <p className="text-[8px] truncate" style={{ color: 'var(--ink-faded)' }}>{p.en}</p>
               </Link>
             );
           })}
         </div>
       </section>
 
-      {/* ═══════ Mini Timeline ═══════ */}
+      {/* ═══════ Interactive Timeline ═══════ */}
       <section className="max-w-5xl mx-auto px-4 mb-10">
-        <h2 className="text-base font-semibold mb-4 flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
-          <Sparkles className="w-4 h-4" style={{ color: 'var(--gold)' }} />
-          인류 지성사의 이정표
-        </h2>
-        <div className="relative overflow-x-auto pb-3" style={{ scrollbarColor: 'var(--fresco-shadow) var(--fresco-parchment)' }}>
-          <div className="relative min-w-[900px] h-24">
-            <div className="absolute top-1/2 left-0 right-0 h-px" style={{ background: 'var(--fresco-shadow)' }} />
-            {[-600, 0, 600, 1200, 1700, 2000].map((year) => {
-              const pos = ((year + 600) / 2625) * 100;
-              return (
-                <div key={year} className="absolute top-1/2 -translate-y-1/2" style={{ left: `${pos}%` }}>
-                  <div className="w-px h-2.5 -translate-x-1/2" style={{ background: 'var(--fresco-shadow)' }} />
-                  <p className="text-[8px] mt-0.5 -translate-x-1/2 whitespace-nowrap" style={{ color: 'var(--ink-faded)' }}>{formatYear(year)}</p>
-                </div>
-              );
-            })}
-            {milestones.map((m, i) => {
-              const pos = ((m.year + 600) / 2625) * 100;
-              const isTop = i % 2 === 0;
-              const catColor = categoryColors[m.category] || '#6B6358';
-              return (
-                <div key={`${m.year}-${i}`} className="absolute group" style={{ left: `${pos}%`, top: isTop ? '12%' : '60%', transform: 'translateX(-50%)' }}>
-                  <div className="flex flex-col items-center">
-                    <div
-                      className="w-2 h-2 rounded-full group-hover:scale-150 transition-transform"
-                      style={{ backgroundColor: catColor, border: '1.5px solid var(--fresco-ivory)', boxShadow: `0 0 0 1px ${catColor}40` }}
-                    />
-                    <div
-                      className="mt-0.5 px-1.5 py-0.5 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap absolute z-10"
-                      style={{ top: isTop ? '100%' : 'auto', bottom: isTop ? 'auto' : '100%', background: 'var(--fresco-parchment)', border: '1px solid var(--fresco-shadow)', boxShadow: '0 2px 8px rgba(0,0,0,0.1)' }}
-                    >
-                      <p className="text-[9px] font-medium" style={{ color: 'var(--ink-dark)' }}>{m.label}</p>
-                      <p className="text-[7px]" style={{ color: catColor }}>{formatYear(m.year)}</p>
-                    </div>
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-base font-semibold flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
+            <Sparkles className="w-4 h-4" style={{ color: 'var(--gold)' }} />
+            인류 지성사의 이정표
+          </h2>
+          <Link href="/timeline" className="text-xs flex items-center gap-1" style={{ color: 'var(--gold)', fontFamily: "'Pretendard', sans-serif" }}>
+            전체 타임라인 <ChevronRight className="w-3 h-3" />
+          </Link>
+        </div>
+        <div className="fresco-card overflow-hidden">
+          <div className="relative overflow-x-auto p-4 pb-2" style={{ scrollbarColor: 'var(--fresco-shadow) var(--fresco-parchment)' }}>
+            <div className="relative min-w-[1100px] h-[160px]">
+              {/* Axis line */}
+              <div className="absolute top-1/2 left-0 right-0 h-px" style={{ background: 'var(--fresco-shadow)' }} />
+
+              {/* Year markers */}
+              {[-600, 0, 500, 1000, 1500, 1800, 2000].map((year) => {
+                const pos = ((year + 600) / 2625) * 100;
+                return (
+                  <div key={year} className="absolute top-1/2" style={{ left: `${pos}%`, transform: 'translateX(-50%)' }}>
+                    <div className="w-px h-3 -translate-y-1/2" style={{ background: 'var(--fresco-shadow)' }} />
+                    <p className="text-[9px] mt-2 whitespace-nowrap" style={{ color: 'var(--ink-faded)' }}>{formatYear(year)}</p>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
+
+              {/* Milestones — always visible labels */}
+              {milestones.map((m, i) => {
+                const pos = ((m.year + 600) / 2625) * 100;
+                const isTop = i % 2 === 0;
+                const catColor = categoryColors[m.category] || '#6B6358';
+                const href = m.id.includes('-') ? `/entities/${m.id}` : `/persons/${m.id}`;
+                return (
+                  <Link
+                    key={`${m.year}-${i}`}
+                    href={href}
+                    className="absolute group"
+                    style={{ left: `${pos}%`, top: isTop ? '8%' : '55%', transform: 'translateX(-50%)' }}
+                  >
+                    <div className="flex flex-col items-center">
+                      <div
+                        className="w-2.5 h-2.5 rounded-full group-hover:scale-150 transition-transform z-10 relative"
+                        style={{ backgroundColor: catColor, border: '2px solid var(--fresco-parchment)', boxShadow: `0 0 0 1px ${catColor}60` }}
+                      />
+                      {/* Always visible label */}
+                      <div
+                        className="px-1 py-0.5 rounded whitespace-nowrap"
+                        style={{ position: 'absolute', top: isTop ? '100%' : 'auto', bottom: isTop ? 'auto' : '100%', marginTop: isTop ? '2px' : 0, marginBottom: isTop ? 0 : '2px' }}
+                      >
+                        <p className="text-[8px] font-medium group-hover:underline" style={{ color: catColor }}>{m.label}</p>
+                        <p className="text-[7px]" style={{ color: 'var(--ink-faded)' }}>{formatYear(m.year)}</p>
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
@@ -536,6 +566,36 @@ export default function HomePage() {
                 </button>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════ Data Transparency ═══════ */}
+      <section className="max-w-4xl mx-auto px-4 mb-10">
+        <div
+          className="fresco-card p-5 text-sm"
+          style={{ borderLeft: '3px solid var(--gold)' }}
+        >
+          <h3
+            className="text-sm font-semibold mb-2 flex items-center gap-2"
+            style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
+          >
+            <Sparkles className="w-4 h-4" style={{ color: 'var(--gold)' }} />
+            데이터 출처 및 투명성
+          </h3>
+          <div className="space-y-1.5 text-xs" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
+            <p>
+              Sophia Atlas의 인물 정보, 관계 데이터, 사상 해설은 학술 문헌, 백과사전,
+              원전 번역서를 참고하여 AI 기반으로 생성·정리되었습니다.
+            </p>
+            <p>
+              <strong style={{ color: 'var(--ink-medium)' }}>주의:</strong> AI 생성 콘텐츠는
+              단순화, 편향, 부정확성을 포함할 수 있습니다. 학술 연구에는 반드시 원전과
+              전문 학술서를 참조하세요. 특정 사상에 대한 해석은 여러 학파의 관점 중 하나일 수 있습니다.
+            </p>
+            <p style={{ color: 'var(--ink-faded)' }}>
+              관계 데이터 {totalRelationships}개 | 인물 {allPersons.length}명 | 엔터티 {totalEntities}개
+            </p>
           </div>
         </div>
       </section>

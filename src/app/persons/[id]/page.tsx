@@ -684,24 +684,45 @@ export default async function PersonPage({
             </h2>
             <div className="space-y-2">
               {person.questions.map((question) => (
-                <div
+                <Link
                   key={question}
-                  className="flex items-center gap-3 p-3"
+                  href={`/search?q=${encodeURIComponent(question)}`}
+                  className="flex items-center gap-3 p-3 transition-colors hover:brightness-95"
                   style={{
                     backgroundColor: 'var(--fresco-aged)',
                     borderRadius: '4px',
                   }}
                 >
                   <HelpCircle className="w-4 h-4 flex-shrink-0" style={{ color: 'var(--ink-faded)' }} />
-                  <span style={{ color: 'var(--ink-medium)', fontFamily: "'Pretendard', sans-serif" }}>
+                  <span className="flex-1" style={{ color: 'var(--ink-medium)', fontFamily: "'Pretendard', sans-serif" }}>
                     {question}
                   </span>
-                </div>
+                  <span className="text-xs flex-shrink-0" style={{ color: 'var(--ink-faded)' }}>탐색 →</span>
+                </Link>
               ))}
             </div>
           </div>
         </section>
       )}
+
+      {/* Data Transparency Note */}
+      <section className="max-w-4xl mx-auto px-4 pb-20">
+        <div
+          className="p-4 rounded text-xs"
+          style={{
+            backgroundColor: 'var(--fresco-aged)',
+            borderLeft: '3px solid var(--gold)',
+            color: 'var(--ink-light)',
+            fontFamily: "'Pretendard', sans-serif",
+          }}
+        >
+          <p>
+            <strong style={{ color: 'var(--ink-medium)' }}>출처 안내:</strong> 이 페이지의 정보는 학술 문헌과
+            백과사전을 참고하여 AI 기반으로 정리되었습니다. 단순화·편향·오류가 포함될 수 있으며,
+            학술 연구에는 원전 확인을 권장합니다.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
