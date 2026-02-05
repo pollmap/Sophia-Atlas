@@ -2541,9 +2541,7 @@
         "source": ""
       }
     ],
-    "influences": [
-      "golgi"
-    ],
+    "influences": [],
     "influenced": [
       "sherrington"
     ],
@@ -2836,7 +2834,6 @@
       }
     ],
     "influences": [
-      "clausius",
       "boltzmann"
     ],
     "influenced": [
@@ -3026,8 +3023,7 @@
       "becquerel"
     ],
     "influenced": [
-      "rosalind-franklin",
-      "irene-joliot-curie"
+      "rosalind-franklin"
     ],
     "field": [
       "물리학",
@@ -3131,11 +3127,10 @@
       }
     ],
     "influences": [
-      "thomson"
+      "jj-thomson"
     ],
     "influenced": [
-      "bohr",
-      "chadwick"
+      "bohr"
     ],
     "field": [
       "핵물리학",
@@ -3207,7 +3202,6 @@
     "influences": [
       "newton",
       "maxwell",
-      "mach",
       "planck"
     ],
     "influenced": [
@@ -3401,8 +3395,7 @@
     "influenced": [
       "heisenberg",
       "dirac",
-      "feynman",
-      "wheeler"
+      "feynman"
     ],
     "field": [
       "이론물리학",
@@ -3464,8 +3457,7 @@
     ],
     "influences": [
       "boltzmann",
-      "einstein",
-      "de-broglie"
+      "einstein"
     ],
     "influenced": [
       "dirac",
@@ -3697,8 +3689,7 @@
     ],
     "influences": [
       "bohr",
-      "planck",
-      "sommerfeld"
+      "planck"
     ],
     "influenced": [
       "feynman",
@@ -4536,7 +4527,6 @@
       }
     ],
     "influences": [
-      "boole",
       "turing",
       "von-neumann"
     ],
@@ -4610,7 +4600,6 @@
     ],
     "influences": [
       "dirac",
-      "wheeler",
       "einstein"
     ],
     "influenced": [
@@ -5394,7 +5383,6 @@
     ],
     "influences": [
       "darwin",
-      "hamilton",
       "lynn-margulis"
     ],
     "influenced": [],
@@ -7703,8 +7691,7 @@
       }
     ],
     "influences": [
-      "einstein",
-      "wheeler"
+      "einstein"
     ],
     "influenced": [],
     "field": [
@@ -7892,9 +7879,7 @@
         "source": ""
       }
     ],
-    "influences": [
-      "erdos"
-    ],
+    "influences": [],
     "influenced": [],
     "field": [
       "조화해석학",
@@ -8192,8 +8177,7 @@
       "adam-smith"
     ],
     "influenced": [
-      "darwin",
-      "wallace"
+      "darwin"
     ],
     "field": [
       "경제학",

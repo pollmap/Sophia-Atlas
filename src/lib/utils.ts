@@ -176,3 +176,51 @@ export function getCategoryBadgeClass(category: string): string {
   };
   return classes[category] || "bg-ink-faded/12 text-ink-light border-ink-faded/30";
 }
+
+// ── Entity Type Utilities ──
+
+export function getEntityTypeLabel(type: string): string {
+  const labels: Record<string, string> = {
+    event: "역사적 사건",
+    ideology: "사상/이념",
+    movement: "운동/학파",
+    institution: "기관/조직",
+    text: "경전/문헌",
+    concept: "핵심 개념",
+    tradition: "전통",
+    archetype: "신화/원형",
+    art_movement: "예술운동",
+    technology: "기술 패러다임",
+  };
+  return labels[type] || type;
+}
+
+export function getEntityTypeHexColor(type: string): string {
+  const colors: Record<string, string> = {
+    event: "#8B4040",
+    ideology: "#6B4E8A",
+    movement: "#4A5D8A",
+    institution: "#B8860B",
+    text: "#5B7355",
+    concept: "#4A7A6B",
+    tradition: "#9C6644",
+    archetype: "#805A93",
+    art_movement: "#C1548A",
+    technology: "#3B8292",
+  };
+  return colors[type] || "#6B6358";
+}
+
+export function getEntityTypeColors(type: string): { bg: string; text: string; border: string } {
+  const hex = getEntityTypeHexColor(type);
+  return {
+    bg: `${hex}1A`,
+    text: hex,
+    border: `${hex}4D`,
+  };
+}
+
+export const ENTITY_TYPES = [
+  "event", "ideology", "movement", "institution", "text",
+  "concept", "tradition", "archetype", "art_movement", "technology",
+] as const;

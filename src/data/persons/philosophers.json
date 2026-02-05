@@ -392,9 +392,7 @@
         "source": "논어"
       }
     ],
-    "influences": [
-      "duke-of-zhou"
-    ],
+    "influences": [],
     "influenced": [
       "mencius",
       "xunzi",
@@ -2359,7 +2357,7 @@
       "confucius"
     ],
     "influenced": [
-      "han-fei"
+      "hanfeizi"
     ],
     "school": [
       "유교"
@@ -3407,7 +3405,7 @@
     "influenced": [
       "thomas-aquinas",
       "anselm",
-      "luther",
+      "martin-luther",
       "descartes",
       "kierkegaard"
     ],
@@ -5526,8 +5524,7 @@
     ],
     "influences": [
       "sextus-empiricus",
-      "seneca",
-      "plutarch"
+      "seneca"
     ],
     "influenced": [
       "pascal",
@@ -6372,10 +6369,9 @@
       "aristotle"
     ],
     "influenced": [
-      "wolff",
       "kant",
       "russell",
-      "whitehead"
+      "alfred-north-whitehead"
     ],
     "school": [
       "합리론",
@@ -6515,9 +6511,7 @@
       "machiavelli"
     ],
     "influenced": [
-      "rousseau",
-      "madison",
-      "tocqueville"
+      "rousseau"
     ],
     "school": [
       "계몽주의",
@@ -6644,7 +6638,7 @@
     ],
     "influenced": [
       "peirce",
-      "ge-moore"
+      "moore"
     ],
     "school": [
       "스코틀랜드 상식철학"
@@ -7095,13 +7089,12 @@
       }
     ],
     "influences": [
-      "hume",
-      "francis-hutcheson"
+      "hume"
     ],
     "influenced": [
       "marx",
       "john-stuart-mill",
-      "rawls"
+      "john-rawls"
     ],
     "school": [
       "스코틀랜드 계몽주의",
@@ -7299,8 +7292,7 @@
       "schelling",
       "hegel",
       "schopenhauer",
-      "husserl",
-      "rawls"
+      "john-rawls"
     ],
     "school": [
       "비판철학",
@@ -7488,7 +7480,7 @@
     ],
     "influenced": [
       "john-stuart-mill",
-      "singer"
+      "peter-singer"
     ],
     "school": [
       "공리주의"
@@ -7549,7 +7541,7 @@
       "rousseau"
     ],
     "influenced": [
-      "beauvoir"
+      "de-beauvoir"
     ],
     "school": [
       "계몽주의",
@@ -7677,9 +7669,8 @@
       "spinoza"
     ],
     "influenced": [
-      "dilthey",
-      "gadamer",
-      "ricoeur"
+      "hans-georg-gadamer",
+      "paul-ricoeur"
     ],
     "school": [
       "해석학",
@@ -7948,12 +7939,10 @@
       }
     ],
     "influences": [
-      "montesquieu",
-      "condorcet"
+      "montesquieu"
     ],
     "influenced": [
-      "john-stuart-mill",
-      "durkheim"
+      "john-stuart-mill"
     ],
     "school": [
       "실증주의"
@@ -8033,8 +8022,8 @@
       "hume"
     ],
     "influenced": [
-      "rawls",
-      "singer"
+      "john-rawls",
+      "peter-singer"
     ],
     "school": [
       "공리주의",
@@ -8182,9 +8171,7 @@
       }
     ],
     "influences": [
-      "hegel",
-      "feuerbach",
-      "ricardo"
+      "hegel"
     ],
     "influenced": [
       "engels",
@@ -8316,8 +8303,7 @@
       }
     ],
     "influences": [
-      "hegel",
-      "feuerbach"
+      "hegel"
     ],
     "influenced": [
       "lenin"
@@ -8459,7 +8445,7 @@
     ],
     "influenced": [
       "dewey",
-      "rorty"
+      "richard-rorty"
     ],
     "school": [
       "프래그머티즘"
@@ -8750,7 +8736,7 @@
     "influences": [
       "frege",
       "leibniz",
-      "mill"
+      "john-stuart-mill"
     ],
     "influenced": [
       "wittgenstein",
@@ -9036,7 +9022,7 @@
       "nietzsche"
     ],
     "influenced": [
-      "arendt"
+      "hannah-arendt"
     ],
     "school": [
       "실존철학"
@@ -9099,8 +9085,7 @@
     ],
     "influences": [
       "marx",
-      "hegel",
-      "weber"
+      "hegel"
     ],
     "influenced": [
       "adorno",
@@ -9240,18 +9225,17 @@
       }
     ],
     "influences": [
-      "husserl",
       "kierkegaard",
       "nietzsche",
       "aristotle"
     ],
     "influenced": [
       "sartre",
-      "gadamer",
+      "hans-georg-gadamer",
       "derrida",
       "foucault",
       "levinas",
-      "arendt"
+      "hannah-arendt"
     ],
     "school": [
       "현상학",
@@ -9605,7 +9589,7 @@
     ],
     "influenced": [
       "adorno",
-      "arendt"
+      "hannah-arendt"
     ],
     "school": [
       "프랑크푸르트학파",
@@ -9971,7 +9955,6 @@
     ],
     "influences": [
       "heidegger",
-      "husserl",
       "kierkegaard",
       "hegel",
       "marx"
@@ -9979,7 +9962,7 @@
     "influenced": [
       "de-beauvoir",
       "camus",
-      "fanon"
+      "frantz-fanon"
     ],
     "school": [
       "실존주의",
@@ -10043,7 +10026,6 @@
       }
     ],
     "influences": [
-      "husserl",
       "heidegger",
       "buber"
     ],
@@ -10191,7 +10173,6 @@
     "influences": [
       "sartre",
       "hegel",
-      "husserl",
       "marx"
     ],
     "influenced": [
@@ -10260,7 +10241,6 @@
       }
     ],
     "influences": [
-      "husserl",
       "heidegger"
     ],
     "influenced": [
@@ -10612,7 +10592,6 @@
       }
     ],
     "influences": [
-      "saussure",
       "marx"
     ],
     "influenced": [
@@ -10681,8 +10660,7 @@
       }
     ],
     "influences": [
-      "quine",
-      "tarski"
+      "quine"
     ],
     "influenced": [],
     "school": [
@@ -10748,7 +10726,7 @@
     "influences": [
       "wittgenstein",
       "aristotle",
-      "aquinas"
+      "thomas-aquinas"
     ],
     "influenced": [],
     "school": [
@@ -10942,7 +10920,7 @@
     "influences": [
       "popper",
       "kuhn",
-      "mill"
+      "john-stuart-mill"
     ],
     "influenced": [],
     "school": [
@@ -11143,7 +11121,6 @@
     "influences": [
       "nietzsche",
       "spinoza",
-      "bergson",
       "hume"
     ],
     "influenced": [],
@@ -11284,12 +11261,10 @@
     ],
     "influences": [
       "nietzsche",
-      "heidegger",
-      "canguilhem"
+      "heidegger"
     ],
     "influenced": [
-      "butler",
-      "agamben"
+      "butler"
     ],
     "school": [
       "후기구조주의",
@@ -11503,7 +11478,6 @@
     "influences": [
       "heidegger",
       "nietzsche",
-      "husserl",
       "levinas"
     ],
     "influenced": [
@@ -11577,7 +11551,6 @@
       }
     ],
     "influences": [
-      "lacan",
       "marx"
     ],
     "influenced": [],
@@ -11643,7 +11616,6 @@
       }
     ],
     "influences": [
-      "lacan",
       "de-beauvoir",
       "heidegger"
     ],
@@ -11780,7 +11752,6 @@
       }
     ],
     "influences": [
-      "lacan",
       "barthes",
       "de-beauvoir"
     ],
@@ -11854,7 +11825,6 @@
       }
     ],
     "influences": [
-      "lacan",
       "hegel",
       "marx"
     ],
@@ -11928,8 +11898,7 @@
     "influences": [
       "de-beauvoir",
       "foucault",
-      "derrida",
-      "lacan"
+      "derrida"
     ],
     "influenced": [],
     "school": [
@@ -12005,8 +11974,7 @@
     "influences": [
       "heidegger",
       "nietzsche",
-      "foucault",
-      "agamben"
+      "foucault"
     ],
     "influenced": [],
     "school": [
@@ -12157,7 +12125,7 @@
     ],
     "influences": [
       "bentham",
-      "mill"
+      "john-stuart-mill"
     ],
     "influenced": [],
     "school": [
@@ -12309,9 +12277,7 @@
       "russell",
       "humboldt"
     ],
-    "influenced": [
-      "pinker"
-    ],
+    "influenced": [],
     "school": [
       "생성문법",
       "합리주의 언어학",
@@ -12385,9 +12351,9 @@
       }
     ],
     "influences": [
-      "smith",
-      "rawls",
-      "mill"
+      "adam-smith",
+      "john-rawls",
+      "john-stuart-mill"
     ],
     "influenced": [],
     "school": [
@@ -12461,8 +12427,8 @@
     ],
     "influences": [
       "aristotle",
-      "rawls",
-      "macintyre"
+      "john-rawls",
+      "alasdair-macintyre"
     ],
     "influenced": [],
     "school": [
@@ -12670,7 +12636,7 @@
       }
     ],
     "influences": [
-      "ryle",
+      "gilbert-ryle",
       "quine",
       "darwin"
     ],
@@ -13364,8 +13330,7 @@
       }
     ],
     "influences": [
-      "adam-smith",
-      "alfred-marshall"
+      "adam-smith"
     ],
     "influenced": [],
     "school": [
@@ -16747,8 +16712,7 @@
       }
     ],
     "influences": [
-      "wittgenstein",
-      "austin"
+      "wittgenstein"
     ],
     "influenced": [],
     "school": [
@@ -18177,9 +18141,7 @@
         "type": "book"
       }
     ],
-    "influences": [
-      "proudhon"
-    ],
+    "influences": [],
     "influenced": [],
     "school": [
       "아나키즘"

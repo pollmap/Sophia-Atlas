@@ -5,6 +5,7 @@ import { Users, LayoutGrid, List } from 'lucide-react';
 import PersonCard from '@/components/persons/PersonCard';
 import PersonFilter from '@/components/persons/PersonFilter';
 import { getCategoryLabel, getEraLabel } from '@/lib/utils';
+import { useDebounce } from '@/lib/hooks';
 
 import philosophersData from '@/data/persons/philosophers.json';
 import religiousFiguresData from '@/data/persons/religious-figures.json';
@@ -37,6 +38,7 @@ export default function PersonsPage() {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedEra, setSelectedEra] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
+  const debouncedSearch = useDebounce(searchQuery, 200);
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
   const categoryCounts = useMemo(() => {
@@ -62,8 +64,8 @@ export default function PersonsPage() {
         if (!cats.includes(selectedCategory)) return false;
       }
       if (selectedEra !== 'all' && p.era !== selectedEra) return false;
-      if (searchQuery) {
-        const q = searchQuery.toLowerCase();
+      if (debouncedSearch) {
+        const q = debouncedSearch.toLowerCase();
         const searchFields = [
           p.name.ko,
           p.name.en,
@@ -77,7 +79,7 @@ export default function PersonsPage() {
       }
       return true;
     });
-  }, [selectedCategory, selectedEra, searchQuery]);
+  }, [selectedCategory, selectedEra, debouncedSearch]);
 
   return (
     <div className="min-h-screen" style={{ background: 'var(--fresco-ivory)' }}>
