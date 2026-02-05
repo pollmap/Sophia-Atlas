@@ -46,11 +46,24 @@ interface ReligionWithCoords extends ReligionData {
   lng: number;
 }
 
+interface EntityData {
+  id: string;
+  type: string;
+  name: { ko: string; en: string };
+  period?: { start: number; end: number };
+  location?: { lat: number; lng: number; region: string };
+  era?: string;
+  summary: string;
+  tags: string[];
+}
+
 export interface WorldMapProps {
   persons: PersonData[];
   religions: ReligionData[];
+  entities?: EntityData[];
   categoryFilter: string;
   eraFilter: string;
+  showEntities?: boolean;
   onViewportPersons?: (persons: PersonData[]) => void;
 }
 
@@ -84,7 +97,7 @@ function clusterPersons(
   zoom: number
 ): ClusterGroup[] {
   // At high zoom, don't cluster
-  if (zoom >= 7) {
+  if (zoom >= 8) {
     return persons.map((p) => ({
       lat: p.location.lat,
       lng: p.location.lng,
@@ -92,7 +105,9 @@ function clusterPersons(
     }));
   }
 
-  const threshold = Math.max(2, 40 / Math.pow(2, zoom));
+  // More aggressive clustering for large datasets
+  // zoom 2: ~60°, zoom 3: ~30°, zoom 4: ~15°, zoom 5: ~8°, zoom 6: ~4°, zoom 7: ~2°
+  const threshold = Math.max(1.5, 60 / Math.pow(2, zoom));
   const clusters: ClusterGroup[] = [];
   const assigned = new Set<number>();
 
@@ -203,11 +218,39 @@ function getPersonLink(person: PersonData): string {
 
 // ── Main Component ──
 
+const ENTITY_TYPE_COLORS: Record<string, string> = {
+  event: "#8B4040",
+  ideology: "#6B4E8A",
+  movement: "#4A5D8A",
+  institution: "#B8860B",
+  text: "#5B7355",
+  concept: "#4A7A6B",
+  tradition: "#C4722B",
+  archetype: "#8B6914",
+  art_movement: "#7A5478",
+  technology: "#3D7A9E",
+};
+
+const ENTITY_TYPE_LABELS: Record<string, string> = {
+  event: "사건",
+  ideology: "이념",
+  movement: "운동",
+  institution: "기관",
+  text: "문헌",
+  concept: "개념",
+  tradition: "전통",
+  archetype: "신화/원형",
+  art_movement: "예술",
+  technology: "기술",
+};
+
 export default function WorldMap({
   persons,
   religions,
+  entities = [],
   categoryFilter,
   eraFilter,
+  showEntities = true,
   onViewportPersons,
 }: WorldMapProps) {
   const [zoom, setZoom] = useState(3);
@@ -219,6 +262,15 @@ export default function WorldMap({
       return true;
     });
   }, [persons, categoryFilter, eraFilter]);
+
+  const filteredEntities = useMemo(() => {
+    if (!showEntities) return [];
+    return entities.filter((e) => {
+      if (!e.location?.lat || !e.location?.lng) return false;
+      if (eraFilter !== "all" && e.era !== eraFilter) return false;
+      return true;
+    });
+  }, [entities, showEntities, eraFilter]);
 
   const clusters = useMemo(
     () => clusterPersons(filteredPersons, zoom),
@@ -314,14 +366,62 @@ export default function WorldMap({
         </CircleMarker>
       ))}
 
+      {/* Entity markers on the map */}
+      {filteredEntities.map((entity) => {
+        const color = ENTITY_TYPE_COLORS[entity.type] || "#6B4E8A";
+        return (
+          <CircleMarker
+            key={`entity-${entity.id}`}
+            center={[entity.location!.lat, entity.location!.lng]}
+            radius={zoom >= 5 ? 5 : 4}
+            pathOptions={{
+              color: color,
+              fillColor: color,
+              fillOpacity: 0.6,
+              weight: 1.5,
+              dashArray: "3 3",
+            }}
+          >
+            <Popup>
+              <div className="min-w-[200px]">
+                <div className="flex items-center gap-2 mb-1">
+                  <span
+                    className="inline-block w-2 h-2 rotate-45"
+                    style={{ backgroundColor: color }}
+                  />
+                  <span className="text-xs font-medium uppercase tracking-wide" style={{ color }}>
+                    {ENTITY_TYPE_LABELS[entity.type] || entity.type}
+                  </span>
+                </div>
+                <h3 className="font-bold text-sm mb-0.5">{entity.name.ko}</h3>
+                <p className="text-xs text-gray-500 mb-1">
+                  {entity.name.en}
+                  {entity.period && ` | ${formatYear(entity.period.start)}`}
+                </p>
+                {entity.location?.region && (
+                  <p className="text-[10px] text-gray-400 mb-1">{entity.location.region}</p>
+                )}
+                <p className="text-xs leading-relaxed mb-2 line-clamp-3">{entity.summary}</p>
+                <Link
+                  href={`/entities/${entity.id}`}
+                  className="text-xs font-medium text-purple-600 hover:text-purple-800"
+                >
+                  상세 보기 &rarr;
+                </Link>
+              </div>
+            </Popup>
+          </CircleMarker>
+        );
+      })}
+
       {/* Person clusters/markers */}
       {clusters.map((cluster, idx) => {
         const isCluster = cluster.persons.length > 1;
         const radius = isCluster
-          ? Math.min(6 + Math.log2(cluster.persons.length) * 4, 20)
+          ? Math.min(8 + Math.log2(cluster.persons.length) * 5, 25)
           : zoom >= 5
-          ? 7
-          : 6;
+          ? 6
+          : 5;
 
         const color = isCluster
           ? getCategoryHexColor(getDominantCategory(cluster.persons))
