@@ -51,6 +51,12 @@ type NavEntry = NavGroup | NavLink;
 
 const navEntries: NavEntry[] = [
   {
+    kind: "link",
+    label: "인드라망",
+    icon: <Network className="w-4 h-4" />,
+    href: "/connections",
+  },
+  {
     kind: "group",
     label: "철학",
     icon: <BookOpen className="w-4 h-4" />,
@@ -109,12 +115,6 @@ const navEntries: NavEntry[] = [
     label: "인물",
     icon: <Users className="w-4 h-4" />,
     href: "/persons",
-  },
-  {
-    kind: "link",
-    label: "인드라망",
-    icon: <Network className="w-4 h-4" />,
-    href: "/connections",
   },
   {
     kind: "link",

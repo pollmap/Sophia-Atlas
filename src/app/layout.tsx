@@ -53,7 +53,7 @@ export default function RootLayout({
     <html lang="ko" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <meta name="theme-color" content="#1A1714" />
+        <meta name="theme-color" content="#FAF6E9" />
       </head>
       <body className="min-h-screen flex flex-col antialiased">
         <ThemeProvider>

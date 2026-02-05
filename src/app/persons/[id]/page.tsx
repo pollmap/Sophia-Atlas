@@ -9,6 +9,7 @@ import {
   Lightbulb,
   MapPin,
   MessageSquareQuote,
+  Network,
   Scroll,
   Tag,
   Atom,
@@ -321,6 +322,24 @@ export default async function PersonPage({
                   {t}
                 </span>
               ))}
+            </div>
+
+            {/* IndraNet Entry */}
+            <div className="mt-5 pt-4" style={{ borderTop: '1px solid var(--fresco-shadow)' }}>
+              <Link
+                href={`/connections`}
+                className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium transition-colors hover:opacity-80"
+                style={{
+                  backgroundColor: 'rgba(184,134,11,0.08)',
+                  color: 'var(--gold)',
+                  borderRadius: '4px',
+                  border: '1px solid rgba(184,134,11,0.2)',
+                  fontFamily: "'Pretendard', sans-serif",
+                }}
+              >
+                <Network className="w-4 h-4" />
+                인드라망에서 연결 관계 보기
+              </Link>
             </div>
           </div>
         </div>

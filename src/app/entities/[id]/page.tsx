@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowLeft, Calendar, MapPin, Lightbulb, BookOpen, Users, Tag, Layers } from 'lucide-react';
+import { ArrowLeft, Calendar, MapPin, Lightbulb, BookOpen, Users, Tag, Layers, Network } from 'lucide-react';
 import { cn, getEraLabel, getEraColorClass, formatYear, getCategoryHexColor } from '@/lib/utils';
 import ExpandableSection from '@/components/common/ExpandableSection';
 
@@ -179,6 +179,24 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
             </div>
           </div>
         </div>
+      </section>
+
+      {/* IndraNet Link */}
+      <section className="max-w-4xl mx-auto px-4 pb-4">
+        <Link
+          href="/connections"
+          className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium transition-colors hover:opacity-80"
+          style={{
+            backgroundColor: 'rgba(184,134,11,0.08)',
+            color: 'var(--gold)',
+            borderRadius: '4px',
+            border: '1px solid rgba(184,134,11,0.2)',
+            fontFamily: "'Pretendard', sans-serif",
+          }}
+        >
+          <Network className="w-4 h-4" />
+          인드라망에서 연결 관계 보기
+        </Link>
       </section>
 
       {/* Summary */}

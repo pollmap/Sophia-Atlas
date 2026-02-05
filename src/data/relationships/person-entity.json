@@ -4166,5 +4166,645 @@
     "description": "순자는 성악설의 관점에서 예(禮)를 통한 인(仁)의 실현을 강조했다",
     "strength": 2,
     "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "four-noble-truths",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "붓다는 녹야원 초전법륜에서 사성제를 설하여 불교의 핵심 교리를 제시했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "middle-way",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "붓다는 극단적 고행과 쾌락을 모두 피하는 중도의 길을 제시했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "karma",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "붓다는 업의 법칙을 윤회와 해탈의 맥락에서 재해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "nirvana",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "붓다는 열반을 탐진치의 소멸이자 윤회로부터의 해방으로 정의했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "sunyata",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "붓다의 무아 사상은 나가르주나에 의해 공 사상으로 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "vedas",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "붓다는 베다의 제사 중심주의와 카스트 제도를 비판하며 새로운 해탈의 길을 제시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wonhyo",
+    "target": "sunyata",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "원효는 공 사상을 일심의 관점에서 재해석하여 한국 불교의 독자적 체계를 세웠다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kumarajiva",
+    "target": "sunyata",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "구마라집은 반야경과 중론의 번역을 통해 공 사상을 동아시아에 전파했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "umar-ibn-khattab",
+    "target": "quran",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "우마르는 칼리프로서 꾸란의 가르침에 기반한 이슬람 통치 체계를 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "uthman-ibn-affan",
+    "target": "quran",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "우스만은 꾸란의 표준 텍스트를 편찬하여 이슬람 경전의 통일을 이루었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "imam-ahmad-ibn-hanbal",
+    "target": "quran",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아흐마드는 꾸란과 하디스의 문자적 해석을 고수하며 한발리 법학파의 기초를 놓았다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad-abduh",
+    "target": "enlightenment-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "압두흐는 유럽 계몽주의의 영향을 받아 이슬람 근대화 운동을 전개했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad-iqbal",
+    "target": "existentialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "이크발은 실존주의의 영향을 받아 이슬람적 자아실현의 철학을 전개했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vyasa",
+    "target": "vedas",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "비야사는 전통적으로 베다를 정리하고 마하바라타를 저술한 인물로 전해진다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "patanjali",
+    "target": "vedas",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "파탄잘리는 베다 전통의 요가 수행을 요가 수트라로 체계화했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "madhvacharya",
+    "target": "brahman",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "마드바는 브라만과 아트만의 본질적 차이를 주장하는 이원론적 해석을 전개했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "swami-dayananda",
+    "target": "vedas",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "스와미 다야난다는 베다의 권위를 최고로 두며 우상숭배와 카스트 제도를 비판했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rabbi-akiva",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "랍비 아키바는 토라의 모든 글자에 신적 의미가 담겨있다는 해석 원칙을 세웠다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "judah-ha-nasi",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "예후다 하나시는 구전 토라를 미쉬나로 편찬하여 유대교 법학의 성문화를 이루었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "baal-shem-tov",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "바알 쉠 토브는 토라를 신비적 기쁨과 경건의 관점에서 재해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "stephen-martyr",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "스테파노는 성경의 가르침에 따라 최초의 기독교 순교자가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anselm-canterbury",
+    "target": "rationalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "안셀무스의 존재론적 증명은 신 존재에 대한 합리주의적 접근의 선구가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hildegard-bingen",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "힐데가르트는 성경에 기반한 환시를 통해 중세 신비 신학을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cranmer",
+    "target": "protestant-reformation",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "크랜머는 영국 종교개혁의 핵심 인물로 성공회 기도서를 편찬했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "george-fox",
+    "target": "protestant-reformation",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "조지 폭스의 퀘이커 운동은 급진적 종교개혁의 연장선상에 있었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bahau-llah",
+    "target": "quran",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "바하울라는 꾸란의 전통 위에서 새로운 계시를 주장하며 바하이 신앙을 열었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ramana-maharshi",
+    "target": "atman",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "라마나는 나는 누구인가 탐구를 통해 아트만의 직접적 체험을 가르쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hypatia",
+    "target": "library-alexandria",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "히파티아는 알렉산드리아 도서관의 전통을 이은 마지막 위대한 학자였다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "aryabhata",
+    "target": "vedas",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "아리아바타는 베다 수학 전통을 발전시켜 영의 개념과 삼각법을 정립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "pascal-scientist",
+    "target": "rationalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "파스칼은 합리주의적 수학자이면서도 신앙과 이성의 관계를 탐구했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "torricelli",
+    "target": "scientific-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "토리첼리의 진공 실험은 과학혁명의 실험적 방법론을 대표한다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cantor",
+    "target": "rationalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "칸토어의 집합론은 수학적 합리주의의 극한을 보여주는 혁명적 성과였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "babbage",
+    "target": "industrial-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "배비지의 해석기관은 산업혁명 시대 기계적 계산의 꿈을 구현하려 한 선구적 시도였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "berners-lee",
+    "target": "internet-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "버너스리는 월드와이드웹을 발명하여 인터넷 혁명의 결정적 전환점을 만들었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "becquerel",
+    "target": "quantum-mechanics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "베크렐의 방사능 발견은 양자역학 발전의 실험적 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jj-thomson",
+    "target": "quantum-mechanics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "톰슨의 전자 발견은 원자 구조 연구와 양자역학 발전의 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wu-chien-shiung",
+    "target": "quantum-mechanics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "우젠슝의 패리티 위반 실험은 양자역학의 대칭성 이해를 근본적으로 바꾸었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "pavlov",
+    "target": "determinism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "파블로프의 조건반사 연구는 행동의 결정론적 설명을 과학적으로 뒷받침했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "knuth",
+    "target": "internet-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "크누스의 알고리즘 체계화는 인터넷 혁명의 소프트웨어 기반을 마련했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hammurabi",
+    "target": "social-contract-concept",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "함무라비 법전은 통치자와 백성 간의 사회계약적 관계의 최초 성문화이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "phidias",
+    "target": "humanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "페이디아스의 파르테논 조각은 그리스 인문주의 정신의 물질적 구현이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "spartacus",
+    "target": "liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "스파르타쿠스의 자유를 향한 투쟁은 이후 자유주의 사상의 영감이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "zheng-he",
+    "target": "age-of-exploration",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "정화의 대항해는 서양 대항해시대보다 70년 앞선 동양의 해양 탐험이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tokugawa-ieyasu",
+    "target": "nationalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "도쿠가와의 에도 막부는 250년간의 평화 속에 일본 민족 정체성의 기틀을 닦았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "yi-sun-sin",
+    "target": "nationalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "이순신의 임진왜란 승리는 한국 민족주의와 호국 정신의 상징이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rembrandt",
+    "target": "humanism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "렘브란트는 인문주의 운동의 예술적 표현으로 인간 내면의 깊이를 그려냈다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "theodore-roosevelt",
+    "target": "liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "루스벨트는 진보적 자유주의의 전통에서 독점 규제와 자연보호 정책을 추진했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "charlie-chaplin",
+    "target": "world-war-ii",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "채플린은 위대한 독재자로 2차 세계대전과 파시즘에 정면으로 맞섰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "coco-chanel",
+    "target": "feminism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "샤넬은 코르셋을 폐기하고 여성 패션을 해방하여 페미니즘의 실천적 선구자가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "melissus",
+    "target": "milesian-school",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "멜리소스는 밀레토스 학파의 존재론적 전통을 엘레아 학파에서 계승했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thrasymachus",
+    "target": "republic-plato",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "트라시마코스의 정의는 강자의 이익 주장은 국가 전체 논증의 출발점이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "phaedo",
+    "target": "academy-plato",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "파이돈은 소크라테스의 제자로 엘리스에 자신의 학파를 세웠다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-of-damascus",
+    "target": "council-of-nicaea",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "다마스쿠스의 요한은 니케아 공의회 이래의 정통 교리를 체계적으로 정리했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "odo-cluny",
+    "target": "society-of-jesus",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "parallel",
+    "description": "클뤼니 수도원 개혁은 예수회처럼 교회 쇄신을 위한 수도 운동의 선구였다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "william-carey",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "캐리는 성경 번역을 선교의 핵심으로 삼아 인도어를 비롯한 다수 언어로 번역했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "billy-graham",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "빌리 그레이엄은 성경의 권위를 중심으로 전 세계적 복음 전도 운동을 이끌었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aisha-bint-abi-bakr",
+    "target": "quran",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아이샤는 꾸란 해석과 하디스 전승에 핵심적 역할을 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bilal-ibn-rabah",
+    "target": "quran",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "빌랄은 꾸란의 평등 정신을 체현한 초기 이슬람의 상징적 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "joseph-karo",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "developed",
+    "description": "카로는 토라의 법률적 전통을 종합하여 유대교 법전의 결정판을 완성했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jonas-salk",
+    "target": "dna-discovery",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "contextual",
+    "description": "소크의 소아마비 백신 개발은 DNA 발견과 함께 20세기 생명과학의 전환점이었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "fourier",
+    "target": "scientific-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "푸리에의 열전도 이론은 과학혁명 이래 수학적 물리학의 핵심 성과이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ramanujan",
+    "target": "rationalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "라마누잔의 직관적 수학적 발견들은 수학적 합리주의의 신비로운 면모를 보여준다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "landsteiner",
+    "target": "dna-discovery",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "contextual",
+    "description": "란트슈타이너의 혈액형 분류는 DNA 발견으로 이어지는 생체분자 연구의 선구였다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sitting-bull",
+    "target": "nationalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "시팅 불은 라코타 수족의 민족적 저항과 자치를 상징하는 지도자였다",
+    "strength": 2,
+    "direction": "directed"
   }
 ]

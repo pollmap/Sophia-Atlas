@@ -7201,5 +7201,1265 @@
     "description": "셰익스피어의 문학적 전통은 울프의 영국 문학적 정체성에 핵심 배경이 되었다",
     "strength": 1,
     "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "nagarjuna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "붓다의 연기론과 무아 사상은 나가르주나의 중관학파 공 철학의 근본 토대가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "ananda-buddhist",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "아난다는 붓다의 시자로 25년간 수행하며 경전 결집의 핵심 인물이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "mahakasyapa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "마하카샤파는 붓다의 수제자로 제1차 결집을 주도하여 불교 교단의 기틀을 세웠다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "vasubandhu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "바수반두는 붓다의 아비달마 전통을 계승하여 유식학의 체계를 완성했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "asanga",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아상가는 붓다의 가르침을 토대로 유가행파를 창시하고 유식사상을 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "buddhaghosa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "붓다고사는 붓다의 상좌부 전통을 체계화하여 청정도론을 저술했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "kumarajiva",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "구마라집은 붓다의 대승경전을 한역하여 동아시아 불교의 기초를 놓았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "xuanzang",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "현장은 인도로 법을 구하러 가서 붓다의 가르침을 중국에 전파했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "zhiyi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "지의는 붓다의 법화경 사상을 바탕으로 천태종을 체계화했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "fazang",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "법장은 붓다의 화엄경 사상을 바탕으로 화엄종의 교학을 완성했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "wonhyo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "원효는 붓다의 가르침을 통섭하여 한국 불교의 독자적 전통을 열었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "honen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "호넨은 붓다의 정토 가르침을 근거로 일본 정토종을 창시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "eisai",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "에이사이는 붓다의 선 전통을 일본에 전하여 임제종을 열었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ananda-buddhist",
+    "target": "mahakasyapa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아난다와 마하카샤파는 붓다의 핵심 제자로 제1차 결집에서 함께 경전을 정리했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vasubandhu",
+    "target": "asanga",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "바수반두는 형 아상가의 영향으로 대승불교에 귀의하여 함께 유식학을 발전시켰다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kumarajiva",
+    "target": "nagarjuna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "구마라집은 나가르주나의 중관 사상 경전들을 한역하여 동아시아에 전파했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "xuanzang",
+    "target": "vasubandhu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "현장은 인도에서 바수반두의 유식학을 수학하고 이를 중국에 전파했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zhiyi",
+    "target": "nagarjuna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "지의는 나가르주나의 중관 사상을 바탕으로 천태교학의 일심삼관을 체계화했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "fazang",
+    "target": "zhiyi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "법장은 지의의 천태교학을 참고하면서도 독자적인 화엄 사사무애법계를 완성했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kukai",
+    "target": "xuanzang",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "구카이는 중국 밀교 전통을 일본에 전하여 진언종을 창시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "saicho",
+    "target": "zhiyi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "사이초는 지의의 천태교학을 일본에 전하여 일본 천태종을 창시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "honen",
+    "target": "shinran",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "호넨은 신란의 스승으로 전수염불의 가르침을 전했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "shinran",
+    "target": "honen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "신란은 스승 호넨의 정토 사상을 더욱 급진적으로 발전시켜 정토진종을 열었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "eisai",
+    "target": "hakuin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "에이사이의 임제선 전통은 하쿠인에 의해 일본 임제종으로 부흥되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hakuin",
+    "target": "eisai",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "하쿠인은 에이사이가 전한 임제선 전통을 부흥시켜 공안 수행 체계를 정비했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wonhyo",
+    "target": "nagarjuna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "원효는 나가르주나의 공 사상과 유식학을 통합하는 화쟁 사상을 전개했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ajahn-chah",
+    "target": "buddhaghosa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "아잔 차는 붓다고사의 상좌부 전통을 현대적으로 계승하여 태국 숲 전통을 이끌었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mahasi-sayadaw",
+    "target": "buddhaghosa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "마하시 사야도는 붓다고사의 위빠사나 전통을 현대적 명상 방법론으로 체계화했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddhadasa",
+    "target": "buddhaghosa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "붓다다사는 상좌부 전통을 현대적으로 재해석하여 태국 불교 개혁을 이끌었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "husayn-ibn-ali",
+    "target": "ali-ibn-abi-talib",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "후세인은 알리의 아들로 카르발라 전투에서 순교하여 시아파의 핵심 인물이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jafar-al-sadiq",
+    "target": "ali-ibn-abi-talib",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "자파르 알사디크는 알리의 후손으로 시아파 법학과 신학의 토대를 놓았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad-al-mahdi",
+    "target": "jafar-al-sadiq",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "무함마드 알마흐디는 12이맘파의 마지막 이맘으로 은둔 교리의 핵심이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hasan-al-basri",
+    "target": "ali-ibn-abi-talib",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "하산 알바스리는 알리의 가르침을 이어받아 이슬람 금욕주의와 수피즘의 초기 전통을 열었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-tabari",
+    "target": "imam-ahmad-ibn-hanbal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "타바리는 아흐마드의 하디스 전통을 이어받아 이슬람 역사서의 걸작을 저술했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-ashari",
+    "target": "al-ghazali",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아샤리의 신학 체계는 가잘리에 의해 더욱 발전되어 순니 정통 신학이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "fakhr-al-din-razi",
+    "target": "ibn-sina",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "파흐르 알딘 라지는 이븐 시나의 철학을 이슬람 신학의 틀 안에서 재해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "imam-nawawi",
+    "target": "imam-ahmad-ibn-hanbal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "나와위는 하디스 학문을 체계화하여 40하디스 등 이슬람 교육의 핵심 텍스트를 편찬했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "abdul-qadir-jilani",
+    "target": "hasan-al-basri",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "압둘 카디르 질라니는 초기 수피 전통을 이어받아 카디리야 수피 교단을 창시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-al-farid",
+    "target": "rumi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "이븐 알파리드와 루미는 각각 아랍어와 페르시아어 수피 시의 최고봉으로 병행한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "al-suyuti",
+    "target": "al-tabari",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "수유티는 타바리의 학문 전통을 이어받아 꾸란 주석과 이슬람 백과사전을 편찬했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "shah-waliullah",
+    "target": "ibn-taymiyyah",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "샤 왈리울라는 이븐 타이미야의 개혁 사상을 인도 이슬람의 맥락에서 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad-abduh",
+    "target": "ibn-taymiyyah",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "무함마드 압두흐는 이슬람 근대화 운동을 이끌며 전통과 현대의 조화를 추구했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "said-nursi",
+    "target": "al-ghazali",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "사이드 누르시는 가잘리의 신앙과 이성 조화 전통을 현대 터키에서 계승했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad-iqbal",
+    "target": "rumi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "무함마드 이크발은 루미의 영적 전통을 현대 이슬람 철학으로 재해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vyasa",
+    "target": "buddha",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "비야사는 전통적으로 마하바라타의 저자로 베다 문헌을 정리한 인도 지성사의 핵심 인물이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "patanjali",
+    "target": "shankara",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "파탄잘리의 요가 수트라는 샹카라의 아드바이타 베단타 체계에 수행론적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "madhvacharya",
+    "target": "shankara",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "마드바차리아는 샹카라의 일원론에 맞서 이원론 베단타를 주장했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "chaitanya-mahaprabhu",
+    "target": "madhvacharya",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "차이타냐는 마드바의 이원론적 전통 위에 박티 운동을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mirabai",
+    "target": "chaitanya-mahaprabhu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "미라바이와 차이타냐는 각각 인도 북부에서 크리슈나 박티 운동을 이끈 동시대인이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tulsidas",
+    "target": "vyasa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "툴시다스는 비야사의 라마야나 전통을 힌디어로 재창조하여 라마차리타마나스를 저술했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "swami-dayananda",
+    "target": "shankara",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "스와미 다야난다는 베다로의 회귀를 주장하며 아리아 사마지 운동을 창시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anandamayi-ma",
+    "target": "ramakrishna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "아난다마이 마와 라마크리슈나는 각각 신비 체험을 통한 힌두교 부흥을 이끌었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rabbi-akiva",
+    "target": "hillel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "랍비 아키바는 힐렐의 해석학 전통을 발전시켜 미드라시 해석법의 대가가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "judah-ha-nasi",
+    "target": "rabbi-akiva",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "예후다 하나시는 아키바의 구전 전통을 미쉬나로 편찬하여 유대 법학의 기초를 놓았다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "isaac-luria",
+    "target": "nachmanides",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "이삭 루리아는 나흐마니데스의 카발라 전통을 혁신적으로 발전시켜 루리안 카발라를 창시했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "baal-shem-tov",
+    "target": "isaac-luria",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "바알 쉠 토브는 루리아 카발라의 신비 전통을 대중화하여 하시디즘을 창시했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hippolytus",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "히폴리투스와 오리게네스는 3세기 초대교회의 핵심 신학자로 동시대에 활동했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "clement-alexandria",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "클레멘스는 오리게네스의 스승으로 알렉산드리아 교리학교의 전통을 세웠다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "leo-great",
+    "target": "augustine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "대 레오는 아우구스티누스의 서방 신학 전통 위에서 교황권의 신학적 기초를 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "maximus-confessor",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "막시무스는 오리게네스의 신학 전통을 정통 교리의 틀 안에서 재해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-damascus",
+    "target": "maximus-confessor",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "다마스쿠스의 요한은 막시무스의 정교 신학을 체계화한 동방교회의 마지막 교부이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anselm-canterbury",
+    "target": "augustine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "안셀무스는 아우구스티누스의 이해를 추구하는 신앙 전통을 발전시켜 존재론적 증명을 제시했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hildegard-bingen",
+    "target": "augustine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "힐데가르트는 아우구스티누스의 신비 전통 위에서 중세 여성 신비주의의 꽃을 피웠다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-a-kempis",
+    "target": "augustine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "토마스 아 켐피스는 아우구스티누스의 내면 영성 전통을 그리스도를 본받아로 대중화했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "pope-john-xxiii",
+    "target": "leo-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "요한 23세는 교황권의 전통 위에서 제2차 바티칸 공의회를 소집하여 교회 쇄신을 이끌었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "pope-john-paul-ii",
+    "target": "pope-john-xxiii",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "요한 바오로 2세는 바티칸 2공의회의 정신을 이어받아 종교 간 대화를 선도했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ramana-maharshi",
+    "target": "shankara",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "라마나 마하르시는 샹카라의 아드바이타 베단타를 직접적 자기 탐구의 방법으로 현대화했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hypatia",
+    "target": "plotinus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "히파티아는 플로티노스의 신플라톤주의 전통을 알렉산드리아에서 수학과 철학으로 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aryabhata",
+    "target": "al-khwarizmi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리아바타의 인도 수학과 천문학은 알콰리즈미를 통해 이슬람 세계에 전해졌다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "paracelsus",
+    "target": "lavoisier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "파라켈수스의 의화학 전통은 근대 화학의 발전에 기여했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "pascal-scientist",
+    "target": "descartes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "파스칼과 데카르트는 17세기 프랑스에서 수학과 철학의 접점을 탐구한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "torricelli",
+    "target": "galileo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "토리첼리는 갈릴레오의 마지막 제자로 진공과 대기압에 관한 실험으로 유명하다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "daniel-bernoulli",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "다니엘 베르누이와 오일러는 상트페테르부르크에서 함께 연구하며 유체역학을 발전시켰다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "volta",
+    "target": "faraday",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "볼타의 전지 발명은 패러데이의 전자기학 연구의 실험적 토대가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ampere",
+    "target": "faraday",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "앙페르와 패러데이는 전자기학의 두 기둥으로 독립적으로 핵심 법칙들을 발견했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ohm",
+    "target": "ampere",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "옴은 앙페르의 전기학 연구를 발전시켜 전류와 전압의 관계를 정립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "abel",
+    "target": "galois",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "아벨과 갈루아는 독립적으로 군론의 토대를 놓은 비운의 천재 수학자들이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sophie-germain",
+    "target": "gauss",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "소피 제르맹은 가우스와 서신을 교환하며 정수론과 탄성 이론에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kekule",
+    "target": "mendeleev",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "케쿨레의 벤젠 고리 구조 발견은 멘델레예프의 주기율표와 함께 19세기 화학의 쌍벽이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lister",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "리스터의 소독법 발견은 다윈의 세균 이론 시대에 의학을 혁신했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "jj-thomson",
+    "target": "rutherford",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "톰슨은 러더퍼드의 스승으로 전자를 발견하여 원자 구조 연구의 길을 열었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "pavlov",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "파블로프는 다윈의 진화론적 관점을 생리학에 적용하여 조건반사를 발견했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wolfgang-pauli",
+    "target": "heisenberg",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "파울리와 하이젠베르크는 양자역학의 발전에 함께 기여한 핵심 물리학자들이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yukawa",
+    "target": "dirac",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "유카와는 디랙의 양자장론을 발전시켜 중간자를 예측하고 노벨상을 수상했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "babbage",
+    "target": "turing",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "배비지의 해석기관 설계는 튜링의 범용 컴퓨터 개념에 선구적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "knuth",
+    "target": "turing",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "크누스는 튜링의 계산 이론을 기반으로 알고리즘 분석의 체계를 세웠다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "berners-lee",
+    "target": "turing",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "버너스리는 튜링이 연 컴퓨터 혁명의 연장선에서 월드와이드웹을 발명했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wu-chien-shiung",
+    "target": "wolfgang-pauli",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "우젠슝은 파울리가 지지한 패리티 보존 법칙을 실험으로 반증하여 물리학을 뒤흔들었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "wegener",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "베게너의 대륙이동설은 다윈의 진화론처럼 처음에는 거부당했다가 나중에 입증된 혁명적 이론이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vera-rubin",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "베라 루빈은 은하 회전 곡선 관측으로 암흑물질의 존재를 입증하여 우주론을 혁신했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jocelyn-bell-burnell",
+    "target": "hawking",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "조슬린 벨 버넬의 펄서 발견은 호킹의 블랙홀 연구와 함께 현대 천체물리학의 핵심이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rayleigh",
+    "target": "maxwell",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "레일리는 맥스웰의 전자기학을 발전시켜 레일리 산란을 발견하고 아르곤을 분리했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zhang-heng",
+    "target": "archimedes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "장형과 아르키메데스는 동서양에서 각각 기계공학과 천문학의 선구자였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "phidias",
+    "target": "socrates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "페이디아스는 소크라테스와 동시대의 아테네에서 파르테논 신전의 조각을 제작했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "spartacus",
+    "target": "julius-caesar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "스파르타쿠스의 노예 반란은 카이사르 시대 로마 공화정의 사회적 긴장을 드러냈다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "murasaki-shikibu",
+    "target": "homer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "무라사키 시키부의 겐지 이야기는 호메로스의 서사시에 필적하는 동양 문학의 걸작이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zheng-he",
+    "target": "columbus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "정화와 콜럼버스는 각각 동양과 서양에서 대항해를 이끈 탐험가들이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tokugawa-ieyasu",
+    "target": "napoleon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "도쿠가와 이에야스와 나폴레옹은 각각 일본과 유럽에서 통일된 국가 체제를 확립했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yi-sun-sin",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "이순신과 엘리자베스 1세는 같은 시대에 각각 조선과 영국의 해양 방어를 이끌었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "james-cook",
+    "target": "columbus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "제임스 쿡은 콜럼버스 이래의 탐험 전통을 이어 태평양 항해 지도를 완성했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "amundsen",
+    "target": "james-cook",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "아문센은 쿡 이래의 극지 탐험 전통을 이어 남극점 최초 도달에 성공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "louis-armstrong",
+    "target": "bach",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "루이 암스트롱은 바흐가 서양 고전음악에서 차지하는 위치를 재즈 음악에서 차지한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "charlie-chaplin",
+    "target": "dostoevsky",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "채플린과 도스토예프스키는 각각 영화와 문학에서 인간 조건의 희비극을 탐구했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "coco-chanel",
+    "target": "virginia-woolf",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "코코 샤넬과 버지니아 울프는 20세기 초 각각 패션과 문학에서 여성의 자유를 선도했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "melissus",
+    "target": "parmenides",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "멜리소스는 파르메니데스의 존재론을 발전시켜 존재의 무한성과 불변성을 논증했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "prodicus",
+    "target": "socrates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "프로디코스는 소크라테스와 교류한 소피스트로 언어의 정확한 사용을 강조했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "diogenes-apollonia",
+    "target": "anaximenes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "아폴로니아의 디오게네스는 아낙시메네스의 공기 원리를 발전시켜 자연철학을 전개했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hippias",
+    "target": "socrates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "히피아스는 소크라테스와 논쟁한 소피스트로 박학다식한 지식인의 전형이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thrasymachus",
+    "target": "socrates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "트라시마코스는 국가에서 소크라테스와 정의에 대해 논쟁한 소피스트이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "phaedo",
+    "target": "socrates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "파이돈은 소크라테스의 제자로 스승의 마지막 대화가 플라톤의 파이돈에 기록되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "john-of-damascus",
+    "target": "maximus-confessor",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "다마스쿠스의 요한은 막시무스의 정교 신학을 체계화한 동방교회의 마지막 교부이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "odo-cluny",
+    "target": "benedict-nursia",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "오도는 베네딕트의 수도 규칙을 바탕으로 클뤼니 개혁 운동을 이끌었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "william-carey",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "윌리엄 캐리는 프로테스탄트 선교 운동의 아버지로 근대 해외 선교의 토대를 놓았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "billy-graham",
+    "target": "john-calvin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "빌리 그레이엄은 칼뱅의 복음주의 전통을 20세기 대중 전도 운동으로 확장했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aisha-bint-abi-bakr",
+    "target": "muhammad",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "아이샤는 무함마드의 부인으로 수천 편의 하디스를 전승한 이슬람 학문의 선구자였다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "fatimah-zahra",
+    "target": "muhammad",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "파티마는 무함마드의 딸이자 알리의 부인으로 이슬람 여성의 모범으로 존경받는다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "fatimah-zahra",
+    "target": "ali-ibn-abi-talib",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "파티마와 알리는 부부로서 이슬람 초기 공동체의 핵심 인물이었다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bilal-ibn-rabah",
+    "target": "muhammad",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "빌랄은 무함마드의 교우로 이슬람 최초의 무아진이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "joseph-karo",
+    "target": "maimonides",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "요세프 카로는 마이모니데스의 법학 전통을 이어받아 슐한 아루크를 편찬했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jonas-salk",
+    "target": "alexander-fleming",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "조나스 소크와 플레밍은 각각 소아마비 백신과 페니실린으로 20세기 의학을 혁신했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "fourier",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "푸리에는 오일러의 수학적 분석 전통을 발전시켜 열전도에 관한 푸리에 급수를 발견했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ramanujan",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "라마누잔은 오일러의 수론과 무한급수 전통을 독학으로 재발견하고 혁신적으로 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "landsteiner",
+    "target": "alexander-fleming",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "란트슈타이너의 혈액형 발견과 플레밍의 페니실린은 20세기 의학의 양대 혁신이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hannibal",
+    "target": "alexander-the-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "한니발은 알렉산드로스의 군사 전략을 연구하고 발전시켜 로마를 위협했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hannibal",
+    "target": "julius-caesar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "한니발의 전략은 카이사르를 비롯한 로마 장군들의 군사 교본이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sitting-bull",
+    "target": "abraham-lincoln",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "시팅 불과 링컨은 같은 시대에 각각 아메리카 원주민의 존엄과 노예 해방을 위해 싸웠다",
+    "strength": 1,
+    "direction": "bidirectional"
   }
 ]
