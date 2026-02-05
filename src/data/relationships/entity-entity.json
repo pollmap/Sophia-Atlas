@@ -19232,5 +19232,4185 @@
     "description": "종의 기원 출간이 유전학 발전에 선행했다",
     "strength": 2,
     "direction": "directed"
+  },
+  {
+    "source": "dead-sea-scrolls-discovery",
+    "target": "orthodox-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사해 사본 발견과(와) 정통 유대교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ancient-political-philosophy",
+    "target": "utilitarianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "고대 정치철학과(와) 공리주의의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ancient-political-philosophy",
+    "target": "liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "고대 정치철학과(와) 자유주의의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neoliberalism-ideology",
+    "target": "burnout-society",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신자유주의과(와) 피로사회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neoliberalism-ideology",
+    "target": "neoliberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신자유주의과(와) 신자유주의의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neoliberalism-ideology",
+    "target": "chicago-school-monetarism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신자유주의과(와) 시카고학파 (통화주의)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "traditional-conservatism",
+    "target": "orthodox-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "전통적 보수주의과(와) 정통 유대교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neoconservatism",
+    "target": "liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "신보수주의은(는) 자유주의과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "utopian-socialism",
+    "target": "russian-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "유토피아 사회주의과(와) 러시아 혁명의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "utopian-socialism",
+    "target": "cold-war",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "유토피아 사회주의과(와) 냉전의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marxism-leninism",
+    "target": "french-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "마르크스-레닌주의과(와) 프랑스 혁명의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "new-left",
+    "target": "frankfurt-school",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신좌파과(와) 프랑크푸르트 학파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anarcho-syndicalism",
+    "target": "liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "아나르코 생디칼리즘은(는) 자유주의과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "anarcho-syndicalism",
+    "target": "existentialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "아나르코 생디칼리즘은(는) 실존주의과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "first-wave-feminism",
+    "target": "third-wave-feminism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "제1물결 페미니즘과(와) 제3물결 페미니즘의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "first-wave-feminism",
+    "target": "fourth-wave-feminism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "제1물결 페미니즘과(와) 제4물결 페미니즘의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "postcolonialism-ideology",
+    "target": "african-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "탈식민주의 (이념)과(와) 아프리카 철학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "postcolonialism-ideology",
+    "target": "latin-american-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "탈식민주의 (이념)과(와) 라틴아메리카 철학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marginalism-neoclassical",
+    "target": "austrian-economics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "한계효용학파 (신고전경제학)과(와) 오스트리아 학파 경제학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "institutional-economics",
+    "target": "suhrawardiyya",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "제도경제학과(와) 수흐라와르디야 수피 교단의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "institutional-economics",
+    "target": "liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "제도경제학은(는) 자유주의과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-arabi-school",
+    "target": "materialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이븐 아라비 학파 (존재일성론)과(와) 유물론의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ibn-arabi-school",
+    "target": "idealism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이븐 아라비 학파 (존재일성론)과(와) 관념론의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ibn-arabi-school",
+    "target": "nihilism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이븐 아라비 학파 (존재일성론)과(와) 허무주의의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yinyang-school",
+    "target": "traditional-chinese-medicine",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "음양가과(와) 한의학 (중국 전통의학)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "military-school",
+    "target": "mohism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "병가과(와) 묵가의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "military-school",
+    "target": "legalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "병가과(와) 법가의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kokugaku",
+    "target": "shinto-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "국학 (일본 국학)과(와) 신도의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kokugaku",
+    "target": "japanese-creation-myth",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "국학 (일본 국학)과(와) 일본 창세신화의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "donghak-thought",
+    "target": "cheondogyo",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "동학사상과(와) 천도교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "renaissance-hermeticism",
+    "target": "printing-press",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "르네상스 헤르메스주의과(와) 인쇄술 발명의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "renaissance-hermeticism",
+    "target": "humanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "르네상스 헤르메스주의과(와) 인본주의의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "greek-egyptian-alchemy",
+    "target": "hermeticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "그리스-이집트 연금술과(와) 헤르메티시즘의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "european-alchemy",
+    "target": "hermeticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "유럽 연금술과(와) 헤르메티시즘의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "babylonian-astrology",
+    "target": "modern-astrology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "바빌로니아 점성술과(와) 근대 점성술의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "modern-astrology",
+    "target": "babylonian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "근대 점성술과(와) 바빌로니아 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rosicrucians",
+    "target": "hermeticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "장미십자회과(와) 헤르메티시즘의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rosicrucians",
+    "target": "greek-egyptian-alchemy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "장미십자회과(와) 그리스-이집트 연금술의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "freemasonry",
+    "target": "french-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "프리메이슨과(와) 프랑스 혁명의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anthroposophy",
+    "target": "new-age",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "인지학 (인지론)과(와) 뉴에이지의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "new-age-movement",
+    "target": "modern-astrology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "뉴에이지 운동과(와) 근대 점성술의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "conservative-judaism",
+    "target": "dead-sea-scrolls-discovery",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "보수 유대교과(와) 사해 사본 발견의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "conservative-judaism",
+    "target": "orthodox-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "보수 유대교과(와) 정통 유대교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "reconstructionist-judaism",
+    "target": "dead-sea-scrolls-discovery",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "재건주의 유대교과(와) 사해 사본 발견의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "reconstructionist-judaism",
+    "target": "orthodox-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "재건주의 유대교과(와) 정통 유대교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "reconstructionist-judaism",
+    "target": "reform-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "재건주의 유대교과(와) 개혁 유대교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "merkabah",
+    "target": "dead-sea-scrolls-discovery",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "메르카바 신비주의과(와) 사해 사본 발견의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "merkabah",
+    "target": "orthodox-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "메르카바 신비주의과(와) 정통 유대교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "merkabah",
+    "target": "reform-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "메르카바 신비주의과(와) 개혁 유대교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zohar-tradition",
+    "target": "dead-sea-scrolls-discovery",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조하르 전통과(와) 사해 사본 발견의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zohar-tradition",
+    "target": "orthodox-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조하르 전통과(와) 정통 유대교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lurianic-kabbalah",
+    "target": "dead-sea-scrolls-discovery",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "루리아 카발라과(와) 사해 사본 발견의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lurianic-kabbalah",
+    "target": "orthodox-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "루리아 카발라과(와) 정통 유대교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "secular-jewish-thought",
+    "target": "dead-sea-scrolls-discovery",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "세속 유대 사상과(와) 사해 사본 발견의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "secular-jewish-thought",
+    "target": "orthodox-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "세속 유대 사상과(와) 정통 유대교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "greek-orthodoxy",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "그리스 정교회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "greek-orthodoxy",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "그리스 정교회과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "russian-orthodoxy",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "러시아 정교회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "russian-orthodoxy",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "러시아 정교회과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "russian-orthodoxy",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "러시아 정교회과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "coptic-orthodoxy",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "콥트 정교회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "coptic-orthodoxy",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "콥트 정교회과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ethiopian-orthodoxy",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "에티오피아 정교회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ethiopian-orthodoxy",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "에티오피아 정교회과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "syrian-orthodoxy",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "시리아 정교회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "syrian-orthodoxy",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "시리아 정교회과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "armenian-apostolic",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아르메니아 사도교회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "armenian-apostolic",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아르메니아 사도교회과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "armenian-apostolic",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아르메니아 사도교회과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "assyrian-church-east",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "동방 앗시리아 교회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "assyrian-church-east",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "동방 앗시리아 교회과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jesuits",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "예수회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jesuits",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "예수회과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "franciscans",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "프란치스코회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "franciscans",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "프란치스코회과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dominicans",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도미니코회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "benedictines",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "베네딕토회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "benedictines",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "베네딕토회과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "carmelites",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카르멜회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "carmelites",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카르멜회과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "eastern-catholic",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "동방 가톨릭 교회과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "eastern-catholic",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "동방 가톨릭 교회과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "eastern-catholic",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "동방 가톨릭 교회과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "baptist",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "침례교과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "baptist",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "침례교과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "methodist",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "감리교과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "methodist",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "감리교과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anabaptist",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "재세례파과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anabaptist",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "재세례파과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "quakers",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "퀘이커(친우회)과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "quakers",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "퀘이커(친우회)과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "holiness-wesleyan",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "성결-웨슬리안 운동과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marcionism",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "마르키온주의과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marcionism",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "마르키온주의과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "arianism",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아리우스주의과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "arianism",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아리우스주의과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nestorianism",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "네스토리우스주의과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nestorianism",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "네스토리우스주의과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pelagianism",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "펠라기우스주의과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pelagianism",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "펠라기우스주의과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "catharism",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카타리파과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bogomilism",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "보고밀파과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bogomilism",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "보고밀파과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mormonism",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "모르몬교(후기 성도 교회)과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mormonism",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "모르몬교(후기 성도 교회)과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jehovahs-witnesses",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "여호와의 증인과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jehovahs-witnesses",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "여호와의 증인과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "christian-science",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "크리스천 사이언스과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "christian-science",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "크리스천 사이언스과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "unitarian-universalism",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "유니테리안 유니버설리즘과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "unitarian-universalism",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "유니테리안 유니버설리즘과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "progressive-christianity",
+    "target": "council-of-nicaea",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "진보적 기독교과(와) 니케아 공의회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "progressive-christianity",
+    "target": "great-schism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "진보적 기독교과(와) 동서 교회 대분열의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hanafi",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "하나피 학파과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hanafi",
+    "target": "shia-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "하나피 학파과(와) 시아파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "maliki",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "말리키 학파과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "maliki",
+    "target": "shia-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "말리키 학파과(와) 시아파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shafii",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "샤피이 학파과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shafii",
+    "target": "shia-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "샤피이 학파과(와) 시아파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hanbali",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "한발리 학파과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hanbali",
+    "target": "shia-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "한발리 학파과(와) 시아파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "salafi-wahhabi",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "살라피-와하비 운동과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "salafi-wahhabi",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "살라피-와하비 운동과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "twelver-shia",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "12이맘파과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nizari-ismaili",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "니자리 이스마일파과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nizari-ismaili",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "니자리 이스마일파과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mustali",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "무스탈리파과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mustali",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "무스탈리파과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mustali",
+    "target": "shia-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "무스탈리파과(와) 시아파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "druze",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "드루즈과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "druze",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "드루즈과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zaydi",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "자이드파과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zaydi",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "자이드파과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "alawi",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "알라위파과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "alawi",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "알라위파과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ibadi",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이바드파과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ibadi",
+    "target": "shia-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이바드파과(와) 시아파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "qadiriyya",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카디리야 수피 교단과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "qadiriyya",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카디리야 수피 교단과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "naqshbandiyya",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "나크쉬반디야 수피 교단과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "naqshbandiyya",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "나크쉬반디야 수피 교단과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "chishtiyya",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "치슈티야 수피 교단과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "chishtiyya",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "치슈티야 수피 교단과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "suhrawardiyya",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "수흐라와르디야 수피 교단과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shadhiliyya",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "샤딜리야 수피 교단과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shadhiliyya",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "샤딜리야 수피 교단과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mevlevi",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "메블레비 교단(회전 수피)과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bektashi",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "벡타시 교단과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bektashi",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "벡타시 교단과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tijaniyya",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "티자니야 수피 교단과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tijaniyya",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "티자니야 수피 교단과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ahmadiyya",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아흐마디야과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ahmadiyya",
+    "target": "shia-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아흐마디야과(와) 시아파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nation-of-islam",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "네이션 오브 이슬람과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nation-of-islam",
+    "target": "shia-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "네이션 오브 이슬람과(와) 시아파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bahai",
+    "target": "ahmadiyya",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "바하이 신앙과(와) 아흐마디야의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rigveda-tradition",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "리그베다 전통과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rigveda-tradition",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "리그베다 전통과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "brahmana-aranyaka",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "브라흐마나-아란야카 전통과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "brahmana-aranyaka",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "브라흐마나-아란야카 전통과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nyaya",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "니야야 학파과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vaisheshika",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "바이셰시카 학파과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mimamsa",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "미맘사 학파과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vishishtadvaita",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "한정불이론(비시슈타드바이타)과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vishishtadvaita",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "한정불이론(비시슈타드바이타)과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dvaita-vedanta",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이원론(드바이타)과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dvaita-vedanta",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이원론(드바이타)과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shuddhadvaita",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "순수불이론(슈다드바이타)과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shuddhadvaita",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "순수불이론(슈다드바이타)과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shuddhadvaita",
+    "target": "vedic-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "순수불이론(슈다드바이타)과(와) 베다 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "achintya-bhedabheda",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불가사의 차별비차별론과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "achintya-bhedabheda",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불가사의 차별비차별론과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "achintya-bhedabheda",
+    "target": "vedic-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불가사의 차별비차별론과(와) 베다 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sri-vaishnavism",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "스리 바이슈나비즘과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sri-vaishnavism",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "스리 바이슈나비즘과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gaudiya-vaishnavism",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "가우디야 바이슈나비즘과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gaudiya-vaishnavism",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "가우디야 바이슈나비즘과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pushti-marga",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "푸슈티 마르가과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pushti-marga",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "푸슈티 마르가과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pushti-marga",
+    "target": "vedic-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "푸슈티 마르가과(와) 베다 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kashmir-shaivism",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카슈미르 샤이비즘과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kashmir-shaivism",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카슈미르 샤이비즘과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "natha",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "나타 전통과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "natha",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "나타 전통과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lingayat",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "링가야트(비라샤이바)과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lingayat",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "링가야트(비라샤이바)과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lingayat",
+    "target": "vedic-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "링가야트(비라샤이바)과(와) 베다 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shaktism",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "샥티즘(여신 숭배)과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "smarta",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "스마르타 전통과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "smarta",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "스마르타 전통과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "smarta",
+    "target": "vedic-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "스마르타 전통과(와) 베다 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "brahmo-samaj",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "브라흐모 사마즈과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "brahmo-samaj",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "브라흐모 사마즈과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "arya-samaj",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아리아 사마즈과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "arya-samaj",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아리아 사마즈과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ramakrishna-movement",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "라마크리슈나 운동과(와) 아드바이타 베단타의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ramakrishna-movement",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "라마크리슈나 운동과(와) 요가 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thai-buddhism",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "태국 불교과(와) 대승 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thai-buddhism",
+    "target": "vajrayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "태국 불교과(와) 금강승 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "myanmar-buddhism",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "미얀마 불교과(와) 대승 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "myanmar-buddhism",
+    "target": "vajrayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "미얀마 불교과(와) 금강승 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vipassana-movement",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "위빠사나 운동과(와) 대승 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yogacara",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "유식학파과(와) 상좌부 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "huayan",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "화엄종과(와) 상좌부 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tiantai",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "천태종과(와) 상좌부 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rinzai-zen",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "임제선(린자이젠)과(와) 상좌부 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rinzai-zen",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "임제선(린자이젠)과(와) 대승 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "soto-zen",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조동선(소토젠)과(와) 상좌부 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "soto-zen",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조동선(소토젠)과(와) 대승 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "korean-seon",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "한국 선(禪)과(와) 상좌부 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "korean-seon",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "한국 선(禪)과(와) 대승 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nichiren-buddhism",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "니치렌종과(와) 상좌부 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nichiren-buddhism",
+    "target": "vajrayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "니치렌종과(와) 금강승 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nyingma",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "닝마파과(와) 상좌부 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nyingma",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "닝마파과(와) 대승 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kagyu",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "까규파과(와) 상좌부 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kagyu",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "까규파과(와) 대승 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sakya",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사캬파과(와) 상좌부 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sakya",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사캬파과(와) 대승 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gelug",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "겔룩파과(와) 상좌부 불교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bon-tradition",
+    "target": "nyingma",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "뵌교과(와) 닝마파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "digambara",
+    "target": "nastika-heterodox",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "디감바라(공의파)과(와) 나스티카 (인도 비정통파)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shvetambara",
+    "target": "nastika-heterodox",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "슈베탐바라(백의파)과(와) 나스티카 (인도 비정통파)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yangmingism",
+    "target": "neo-confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "양명학과(와) 성리학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yangmingism",
+    "target": "wang-yangming-school",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "양명학과(와) 양명학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "evidential-studies",
+    "target": "neo-confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "고증학과(와) 성리학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "evidential-studies",
+    "target": "wang-yangming-school",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "고증학과(와) 양명학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "new-confucianism-modern",
+    "target": "neo-confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "현대 신유학과(와) 성리학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "new-confucianism-modern",
+    "target": "wang-yangming-school",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "현대 신유학과(와) 양명학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shangqing",
+    "target": "daoism-religious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "상청도과(와) 도교 (종교적)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lingbao",
+    "target": "daoism-religious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "영보도과(와) 도교 (종교적)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lingbao",
+    "target": "daoist-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "영보도과(와) 도가 철학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "quanzhen",
+    "target": "daoism-religious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "전진교과(와) 도교 (종교적)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zhengyi",
+    "target": "daoism-religious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "정일도과(와) 도교 (종교적)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shrine-shinto",
+    "target": "imperial-shinto",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신사 신토과(와) 국가 신토의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shrine-shinto",
+    "target": "sect-shinto",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신사 신토과(와) 교파 신토의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "imperial-shinto",
+    "target": "sect-shinto",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "국가 신토과(와) 교파 신토의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "donghak-cheondogyo",
+    "target": "alphago-match",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "동학-천도교과(와) 알파고 대 이세돌의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "daejongism",
+    "target": "alphago-match",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "대종교과(와) 알파고 대 이세돌의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "daejongism",
+    "target": "korean-shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "대종교과(와) 한국 무교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jeungsando",
+    "target": "alphago-match",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "증산도과(와) 알파고 대 이세돌의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jeungsando",
+    "target": "korean-shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "증산도과(와) 한국 무교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jeungsando",
+    "target": "cheondogyo",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "증산도과(와) 천도교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gathas-tradition",
+    "target": "parsi",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "가타스 전통과(와) 파르시 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gathas-tradition",
+    "target": "zurvanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "가타스 전통과(와) 주르반주의의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "parsi",
+    "target": "zurvanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "파르시 전통과(와) 주르반주의의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mandaeism",
+    "target": "mandaeans",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "만다교과(와) 만다교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yazidi",
+    "target": "voodoo-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "야지디교과(와) 부두 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "heliopolis-theology",
+    "target": "coptic-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "헬리오폴리스 신학과(와) 콥트 정교회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "heliopolis-theology",
+    "target": "memphis-theology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "헬리오폴리스 신학과(와) 멤피스 신학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "memphis-theology",
+    "target": "coptic-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "멤피스 신학과(와) 콥트 정교회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hermopolis-theology",
+    "target": "coptic-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "헤르모폴리스 신학과(와) 콥트 정교회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hermopolis-theology",
+    "target": "heliopolis-theology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "헤르모폴리스 신학과(와) 헬리오폴리스 신학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "atenism",
+    "target": "coptic-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아텐 신앙과(와) 콥트 정교회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "atenism",
+    "target": "heliopolis-theology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아텐 신앙과(와) 헬리오폴리스 신학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "assyrian-religion",
+    "target": "sumerian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아시리아 종교과(와) 수메르 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "assyrian-religion",
+    "target": "gilgamesh-epic",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아시리아 종교과(와) 길가메시 서사시의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "canaanite-religion",
+    "target": "egyptian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "가나안 종교과(와) 고대 이집트 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dionysian-cult",
+    "target": "greek-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "디오니소스 숭배과(와) 그리스 정교회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dionysian-cult",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "디오니소스 숭배과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "traditional-roman-religion",
+    "target": "mithraism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "전통 로마 종교과(와) 미트라스교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "traditional-roman-religion",
+    "target": "vatican",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "전통 로마 종교과(와) 바티칸 / 교황청의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "traditional-roman-religion",
+    "target": "egyptian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "전통 로마 종교과(와) 고대 이집트 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "isis-cult",
+    "target": "coptic-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이시스 숭배과(와) 콥트 정교회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "celtic-tradition",
+    "target": "egyptian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "켈트 전통과(와) 고대 이집트 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "slavic-tradition",
+    "target": "russian-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "슬라브 전통과(와) 러시아 정교회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "slavic-tradition",
+    "target": "egyptian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "슬라브 전통과(와) 고대 이집트 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "baltic-tradition",
+    "target": "egyptian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "발트 전통과(와) 고대 이집트 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "baltic-tradition",
+    "target": "sumerian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "발트 전통과(와) 수메르 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "finno-ugric-tradition",
+    "target": "korean-shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "핀-우그르 전통과(와) 한국 무교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "finno-ugric-tradition",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "핀-우그르 전통은(는) 기독교과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "akan-tradition",
+    "target": "yoruba-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아칸 전통과(와) 요루바 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "akan-tradition",
+    "target": "african-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아칸 전통과(와) 아프리카 철학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "fon-vodun",
+    "target": "yoruba-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "폰족 보둔과(와) 요루바 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "igbo-tradition",
+    "target": "yoruba-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이그보 전통과(와) 요루바 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "igbo-tradition",
+    "target": "african-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이그보 전통과(와) 아프리카 철학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "igbo-tradition",
+    "target": "ethiopian-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이그보 전통과(와) 에티오피아 정교회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "candomble",
+    "target": "santeria",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "칸돔블레과(와) 산테리아의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "umbanda",
+    "target": "voodoo-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "움반다과(와) 부두 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "umbanda",
+    "target": "yazidi",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "움반다과(와) 야지디교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "haitian-vodou",
+    "target": "candomble",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아이티 보두과(와) 칸돔블레의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "central-african-traditions",
+    "target": "yoruba-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "중앙아프리카 전통과(와) 요루바 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "central-african-traditions",
+    "target": "african-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "중앙아프리카 전통과(와) 아프리카 철학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "central-african-traditions",
+    "target": "ethiopian-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "중앙아프리카 전통과(와) 에티오피아 정교회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "east-african-traditions",
+    "target": "yoruba-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "동아프리카 전통과(와) 요루바 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "east-african-traditions",
+    "target": "african-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "동아프리카 전통과(와) 아프리카 철학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "east-african-traditions",
+    "target": "ethiopian-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "동아프리카 전통과(와) 에티오피아 정교회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "southern-african-traditions",
+    "target": "yoruba-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "남아프리카 전통과(와) 요루바 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "southern-african-traditions",
+    "target": "african-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "남아프리카 전통과(와) 아프리카 철학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "southern-african-traditions",
+    "target": "ethiopian-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "남아프리카 전통과(와) 에티오피아 정교회의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "madagascar-traditions",
+    "target": "igbo-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "마다가스카르 전통과(와) 이그보 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "madagascar-traditions",
+    "target": "central-african-traditions",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "마다가스카르 전통과(와) 중앙아프리카 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "madagascar-traditions",
+    "target": "east-african-traditions",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "마다가스카르 전통과(와) 동아프리카 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "maya-religion",
+    "target": "aztec-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "마야 종교과(와) 아즈텍 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "olmec-tradition",
+    "target": "quetzalcoatl-myth",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "올멕 전통과(와) 케찰코아틀 신화의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "inca-religion",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "잉카 종교은(는) 기독교과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "quechua-aymara",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "케추아-아이마라 전통은(는) 기독교과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "lakota-tradition",
+    "target": "hopi-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "라코타 전통과(와) 호피 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "navajo-tradition",
+    "target": "lakota-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "나바호 전통과(와) 라코타 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "cherokee-tradition",
+    "target": "lakota-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "체로키 전통과(와) 라코타 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "cherokee-tradition",
+    "target": "hopi-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "체로키 전통과(와) 호피 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "iroquois-tradition",
+    "target": "lakota-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이로쿼이 전통과(와) 라코타 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "iroquois-tradition",
+    "target": "hopi-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이로쿼이 전통과(와) 호피 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ayahuasca-tradition",
+    "target": "siberian-shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아야와스카 전통과(와) 시베리아 샤머니즘의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "maori-tradition",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "마오리 전통은(는) 기독교과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "polynesian-tradition",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "폴리네시아 전통은(는) 기독교과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "polynesian-tradition",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "폴리네시아 전통은(는) 불교과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "karaites",
+    "target": "dead-sea-scrolls-discovery",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카라이파과(와) 사해 사본 발견의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "samaritans",
+    "target": "dead-sea-scrolls-discovery",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사마리아인과(와) 사해 사본 발견의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "samaritans",
+    "target": "orthodox-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사마리아인과(와) 정통 유대교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mandaeans",
+    "target": "gnosticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "만다교과(와) 영지주의의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mandaeans",
+    "target": "zoroastrianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "만다교과(와) 조로아스터교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "therapeutae",
+    "target": "dead-sea-scrolls-discovery",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "테라페우타이과(와) 사해 사본 발견의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "therapeutae",
+    "target": "orthodox-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "테라페우타이과(와) 정통 유대교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hamlet",
+    "target": "faust",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "햄릿과(와) 파우스트의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "don-quixote",
+    "target": "brothers-karamazov",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "돈키호테과(와) 카라마조프가의 형제들의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "don-quixote",
+    "target": "frankenstein",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "돈키호테과(와) 프랑켄슈타인의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "islamic-mathematics",
+    "target": "pythagorean-school",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이슬람 수학과(와) 피타고라스 학파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "islamic-mathematics",
+    "target": "ancient-mathematics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이슬람 수학과(와) 고대 수학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "modern-mathematics",
+    "target": "pythagorean-school",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "근대 수학과(와) 피타고라스 학파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "electromagnetism-theory",
+    "target": "electricity-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "전자기학과(와) 전기 혁명의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "electromagnetism-theory",
+    "target": "impressionism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "전자기학과(와) 인상파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "string-theory",
+    "target": "quantum-gravity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "끈 이론과(와) 양자중력의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "quantum-gravity",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "양자중력은(는) 샤머니즘과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "natural-history-tradition",
+    "target": "origin-of-species-publication",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "박물학 전통과(와) 종의 기원 출간의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "natural-history-tradition",
+    "target": "dna-discovery",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "박물학 전통과(와) DNA 이중나선 구조 발견의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "molecular-biology",
+    "target": "genetics-science",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "분자생물학과(와) 유전학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ancient-cosmology",
+    "target": "pythagorean-school",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "고대 우주론과(와) 피타고라스 학파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "copernican-revolution",
+    "target": "origin-of-species-publication",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "코페르니쿠스 혁명과(와) 종의 기원 출간의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hippocratic-medicine",
+    "target": "islamic-medicine",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "히포크라테스 의학과(와) 이슬람 의학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "islamic-medicine",
+    "target": "modern-medicine",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이슬람 의학과(와) 근대 의학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ayurveda",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "아유르베다은(는) 샤머니즘과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "modern-medicine",
+    "target": "renaissance-art",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "근대 의학과(와) 르네상스 미술의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "psychology-science",
+    "target": "behavioral-economics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "심리학과(와) 행동경제학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neuroscience",
+    "target": "phenomenology-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신경과학과(와) 현상학 운동의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neuroscience",
+    "target": "yogacara",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신경과학과(와) 유식학파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "odin-archetype",
+    "target": "norse-cosmology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "오딘 원형과(와) 북유럽 우주론의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "odin-archetype",
+    "target": "ragnarok",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "오딘 원형과(와) 라그나로크의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "egyptian-afterlife",
+    "target": "isis-osiris-myth",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이집트 내세관과(와) 이시스-오시리스 신화의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "maat-concept",
+    "target": "egyptian-afterlife",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "마아트과(와) 이집트 내세관의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "enuma-elish",
+    "target": "sumerian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "에누마 엘리시과(와) 수메르 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "trimurti",
+    "target": "avatar-concept",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "트리무르티과(와) 아바타라의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "trimurti",
+    "target": "kundalini-serpent",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "트리무르티과(와) 쿤달리니의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "avatar-concept",
+    "target": "kundalini-serpent",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아바타라과(와) 쿤달리니의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "cosmic-dance-shiva",
+    "target": "trimurti",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "시바의 우주적 춤과(와) 트리무르티의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mandate-of-heaven",
+    "target": "yin-yang-cosmology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "천명 사상과(와) 음양 우주론의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "japanese-creation-myth",
+    "target": "hero-journey",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "일본 창세신화은(는) 영웅의 여정과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "korean-dangun-myth",
+    "target": "tengriism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "단군신화과(와) 텡그리즘의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shamanic-world-tree",
+    "target": "tengriism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "샤먼 세계수과(와) 텡그리즘의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "spirit-animal-tradition",
+    "target": "tengriism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "영물/토템 전통과(와) 텡그리즘의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anima-animus-archetype",
+    "target": "collective-unconscious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아니마/아니무스 원형과(와) 집단 무의식의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mayan-cosmology",
+    "target": "aztec-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "마야 우주론과(와) 아즈텍 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mayan-cosmology",
+    "target": "olmec-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "마야 우주론과(와) 올멕 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "african-creation-myths",
+    "target": "anansi-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아프리카 창조 신화 체계과(와) 아난시 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anansi-tradition",
+    "target": "culture-hero",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아난시 전통과(와) 문화 영웅의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "celtic-otherworld",
+    "target": "druid-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "켈트 이세계과(와) 드루이드 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "celtic-otherworld",
+    "target": "liminal-being",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "켈트 이세계과(와) 경계적 존재의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "druid-tradition",
+    "target": "shinto-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "드루이드 전통과(와) 신도의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "world-egg-cosmogony",
+    "target": "shamanic-world-tree",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "세계란 우주론과(와) 샤먼 세계수의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "world-egg-cosmogony",
+    "target": "trickster-myth",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "세계란 우주론과(와) 트릭스터 원형의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sacred-marriage",
+    "target": "shamanic-world-tree",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신성혼과(와) 샤먼 세계수의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "world-parents-separation",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "천지부모 분리과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "earth-diver",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "잠수 창조과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "emergence-creation",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "출현 창조과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "heros-departure",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "영웅의 출발과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "underworld-descent",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "명계 하강과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "underworld-descent",
+    "target": "odyssey",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "명계 하강과(와) 오디세이아의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sacrifice-resurrection",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "희생과 부활과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "seasonal-cycle-myth",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "계절 순환 신화과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "liminal-being",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "경계적 존재과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "order-disruptor",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "질서 교란자과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "order-disruptor",
+    "target": "odyssey",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "질서 교란자과(와) 오디세이아의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "human-animal-transformation",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "인간-동물 변형과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ascension-descent",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "승천과 하강과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ascension-descent",
+    "target": "odyssey",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "승천과 하강과(와) 오디세이아의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "divine-twins",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신성한 쌍둥이과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "primordial-waters",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "원초적 물과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "fire-theft",
+    "target": "olympian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불의 절취과(와) 올림포스 종교(그리스 다신교)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "islamic-art",
+    "target": "crusades",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이슬람 예술과(와) 십자군 전쟁의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "islamic-art",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이슬람 예술과(와) 수니파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rococo",
+    "target": "art-nouveau",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "로코코과(와) 아르누보의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "arts-and-crafts",
+    "target": "russian-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "미술공예운동과(와) 러시아 혁명의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "epic-mythic-literature",
+    "target": "odyssey",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "서사시·신화 문학과(와) 오디세이아의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "epic-mythic-literature",
+    "target": "iliad",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "서사시·신화 문학과(와) 일리아스의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tragedy-comedy",
+    "target": "hamlet",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "비극과 희극과(와) 햄릿의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lyric-poetry",
+    "target": "romanticism-art",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "서정시 전통과(와) 낭만주의 예술의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lyric-poetry",
+    "target": "expressionism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "서정시 전통과(와) 표현주의의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lyric-poetry",
+    "target": "symbolism-art",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "서정시 전통과(와) 상징주의의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "novel-tradition",
+    "target": "brothers-karamazov",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "소설 전통과(와) 카라마조프가의 형제들의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "essay-tradition",
+    "target": "romanticism-art",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "에세이 전통은(는) 낭만주의 예술과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "modern-literature-movement",
+    "target": "novel-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "현대문학 운동과(와) 소설 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "modern-literature-movement",
+    "target": "matrix",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "현대문학 운동과(와) 매트릭스의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "painting-tradition",
+    "target": "impressionism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "회화 전통과(와) 인상파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "painting-tradition",
+    "target": "modernism-art",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "회화 전통과(와) 모더니즘 (예술)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sculpture-tradition",
+    "target": "impressionism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조각 전통과(와) 인상파의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sculpture-tradition",
+    "target": "modernism-art",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조각 전통과(와) 모더니즘 (예술)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "modern-contemporary-art",
+    "target": "conceptual-art",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "근현대 미술과(와) 개념미술의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "religious-music",
+    "target": "new-age",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "종교음악과(와) 뉴에이지의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "folk-music-tradition",
+    "target": "african-creation-myths",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "민속음악 전통과(와) 아프리카 창조 신화 체계의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "theater-tradition",
+    "target": "dance-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "연극 전통과(와) 무용 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "theater-tradition",
+    "target": "romanticism-art",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "연극 전통은(는) 낭만주의 예술과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "opera-tradition",
+    "target": "classical-music-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "오페라 전통과(와) 서양 고전음악 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kantian-hegelian-aesthetics",
+    "target": "architecture-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "칸트-헤겔 미학과(와) 건축 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "modern-aesthetics",
+    "target": "architecture-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "현대 미학과(와) 건축 전통의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "modern-aesthetics",
+    "target": "ancient-aesthetics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "현대 미학과(와) 고대 미학의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "iron-metallurgy",
+    "target": "gunpowder-invention",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "철기 기술과(와) 화약 발명의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "wheel-invention",
+    "target": "sumerian-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "바퀴 발명과(와) 수메르 종교의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "roman-engineering",
+    "target": "classical-greek-art",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "로마 공학과(와) 고전 그리스 예술의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "paper-invention",
+    "target": "daoism-religious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "종이 발명과(와) 도교 (종교적)의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gunpowder-invention",
+    "target": "compass-invention",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "화약 발명과(와) 나침반 발명의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "clockwork-mechanics",
+    "target": "third-industrial-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "시계 기술과 기계장치은(는) 제3차 산업혁명 (디지털 혁명)과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "internal-combustion",
+    "target": "second-industrial-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "내연기관과(와) 제2차 산업혁명의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "semiconductor-revolution",
+    "target": "internet-technology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "반도체 혁명과(와) 인터넷 혁명의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "biotechnology-paradigm",
+    "target": "third-industrial-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "생명공학 패러다임은(는) 제3차 산업혁명 (디지털 혁명)과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "metallurgy",
+    "target": "third-industrial-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "야금술은(는) 제3차 산업혁명 (디지털 혁명)과(와) 같은 유형의 관련 개체",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "printing-technology",
+    "target": "telegraph-communication",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "인쇄 기술과(와) 전신과 통신 혁명의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "computer-internet",
+    "target": "digital-art-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "컴퓨터와 인터넷과(와) 디지털 아트의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "symbolic-ai",
+    "target": "alphago-match",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "기호주의 인공지능과(와) 알파고 대 이세돌의 주제적 연관",
+    "strength": 1,
+    "direction": "bidirectional"
   }
 ]

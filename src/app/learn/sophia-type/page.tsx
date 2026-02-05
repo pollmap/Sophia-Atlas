@@ -92,7 +92,7 @@ export default function SophiaTypePage() {
           </h1>
           <p className="text-lg text-ink-medium mb-2">Sophia Type Indicator</p>
           <p className="text-ink-medium mb-8 leading-relaxed">
-            20개의 질문에 답하고, 당신의 사상적 성향을 발견하세요.
+            25개의 질문에 답하고, 당신의 사상적 성향을 발견하세요.
             <br />
             나와 비슷한 생각을 가진 사상가, 전통, 학습 경로를 추천해드립니다.
           </p>
@@ -114,7 +114,7 @@ export default function SophiaTypePage() {
             >
               테스트 시작하기
             </button>
-            <span className="text-xs text-ink-faded">약 3~5분 소요 · 20문항 · 32가지 유형</span>
+            <span className="text-xs text-ink-faded">약 3~5분 소요 · 25문항 · 32가지 유형</span>
           </div>
         </div>
       </div>

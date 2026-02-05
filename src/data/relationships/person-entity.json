@@ -27433,5 +27433,215 @@
     "description": "괴테는 《프로메테우스》 시에서 인간의 자율적 창조성을 프로메테우스 원형으로 표현했다",
     "strength": 2,
     "direction": "directed"
+  },
+  {
+    "source": "bakunin",
+    "target": "individualist-anarchism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "미하일 바쿠닌과(와) 개인주의적 아나키즘의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "kropotkin",
+    "target": "individualist-anarchism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "표트르 크로포트킨과(와) 개인주의적 아나키즘의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bakunin",
+    "target": "social-anarchism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "미하일 바쿠닌과(와) 사회적 아나키즘의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "jang-bo-go",
+    "target": "mercantilism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "장보고과(와) 중상주의의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "motoori-norinaga",
+    "target": "kokugaku",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "모토오리 노리나가과(와) 국학 (일본 국학)의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "abdul-baha",
+    "target": "bahai",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "압둘 바하과(와) 바하이 신앙의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "genghis-khan",
+    "target": "tengrism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "칭기즈 칸과(와) 텡그리즘의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "zanabazar",
+    "target": "tengrism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "자나바자르과(와) 텡그리즘의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "jose-de-san-martin",
+    "target": "inca-religion",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "호세 데 산 마르틴과(와) 잉카 종교의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "jose-de-san-martin",
+    "target": "quechua-aymara",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "호세 데 산 마르틴과(와) 케추아-아이마라 전통의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "jeff-bezos",
+    "target": "ayahuasca-tradition",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "제프 베이조스과(와) 아야와스카 전통의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sitting-bull",
+    "target": "dreamtime-aboriginal",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "시팅 불과(와) 드림타임(호주 원주민)의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "tu-youyou",
+    "target": "ayurveda",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "투유유과(와) 아유르베다의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "montaigne",
+    "target": "essay-tradition",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "몽테뉴과(와) 에세이 전통의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "picasso",
+    "target": "modern-contemporary-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "파블로 피카소과(와) 근현대 미술의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "andy-warhol",
+    "target": "modern-contemporary-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "앤디 워홀과(와) 근현대 미술의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "louis-armstrong",
+    "target": "modern-music",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "루이 암스트롱과(와) 현대 대중음악의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "wagner",
+    "target": "opera-tradition",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "리하르트 바그너과(와) 오페라 전통의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "humboldt",
+    "target": "compass-invention",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "알렉산더 폰 훔볼트과(와) 나침반 발명의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "margaret-hamilton",
+    "target": "space-technology",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "마거릿 해밀턴과(와) 우주 기술의 관련성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-edison",
+    "target": "first-industrial-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "토머스 에디슨과(와) 제1차 산업혁명의 관련성",
+    "strength": 1,
+    "direction": "directed"
   }
 ]

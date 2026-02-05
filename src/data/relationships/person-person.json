@@ -35292,5 +35292,95 @@
     "description": "와트의 증기기관 혁신이 이후 산업 기술 발전의 토대를 마련했다",
     "strength": 1,
     "direction": "directed"
+  },
+  {
+    "source": "bakunin",
+    "target": "kropotkin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "바쿠닌의 집산주의적 아나키즘은 크로포트킨의 아나코-코뮤니즘 발전에 직접적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "george-harrison",
+    "target": "gandhi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "간디의 영적 사상과 비폭력주의가 조지 해리슨의 인도 영성 탐구에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "gutenberg",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "구텐베르크의 인쇄술이 마틴 루터의 95개조 논제 보급과 종교개혁 확산을 가능하게 했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hanfeizi",
+    "target": "laozi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "한비자는 노자의 도(道) 개념을 정치적 통치술로 재해석하여 법가의 이론적 기초를 세웠다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "j-r-r-tolkien",
+    "target": "george-orwell",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "톨킨과 오웰은 동시대 영국 작가로서 각각 판타지와 디스토피아를 통해 인간 본성을 탐구했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jeong-yakyong",
+    "target": "toegye",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "정약용은 퇴계의 성리학적 전통을 비판적으로 계승하며 실학적 방향으로 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kropotkin",
+    "target": "stirner",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "크로포트킨의 상호부조론은 슈티르너의 개인주의적 아나키즘과 대조되는 사회적 아나키즘의 기초가 되었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "michael-jordan",
+    "target": "george-lucas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마이클 조던과 조지 루카스는 동시대 미국 대중문화의 상징적 인물로서 글로벌 문화 산업의 확장을 대표한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "son-heung-min",
+    "target": "gandhi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "손흥민의 국제적 활약은 아시아인의 글로벌 진출이라는 맥락에서, 간디의 탈식민주의적 비전의 문화적 확장으로 볼 수 있다",
+    "strength": 1,
+    "direction": "bidirectional"
   }
 ]
