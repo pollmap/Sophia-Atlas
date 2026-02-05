@@ -2,7 +2,11 @@
 
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import Link from 'next/link';
-import * as d3 from 'd3';
+import { forceSimulation, forceLink, forceManyBody, forceCenter, forceCollide } from 'd3-force';
+import type { Simulation, SimulationNodeDatum, SimulationLinkDatum } from 'd3-force';
+import { zoom, zoomIdentity } from 'd3-zoom';
+import type { ZoomTransform } from 'd3-zoom';
+import { select } from 'd3-selection';
 import {
   ArrowLeft,
   GitBranch,
@@ -89,7 +93,7 @@ function getRelColor(type: string, alpha: number): string {
 
 // ── Types ──
 
-interface SimNode extends d3.SimulationNodeDatum {
+interface SimNode extends SimulationNodeDatum {
   id: string;
   name: { ko: string; en: string };
   era: string;
@@ -98,7 +102,7 @@ interface SimNode extends d3.SimulationNodeDatum {
   radius: number;
 }
 
-interface SimLink extends d3.SimulationLinkDatum<SimNode> {
+interface SimLink extends SimulationLinkDatum<SimNode> {
   type: string;
   strength: number;
   description: string;
@@ -109,8 +113,8 @@ interface SimLink extends d3.SimulationLinkDatum<SimNode> {
 export default function GraphPage() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const simulationRef = useRef<d3.Simulation<SimNode, SimLink> | null>(null);
-  const transformRef = useRef<d3.ZoomTransform>(d3.zoomIdentity);
+  const simulationRef = useRef<Simulation<SimNode, SimLink> | null>(null);
+  const transformRef = useRef<ZoomTransform>(zoomIdentity);
   const nodesRef = useRef<SimNode[]>([]);
   const linksRef = useRef<SimLink[]>([]);
   const animFrameRef = useRef<number>(0);
@@ -255,13 +259,13 @@ export default function GraphPage() {
 
     if (simulationRef.current) simulationRef.current.stop();
 
-    const simulation = d3.forceSimulation<SimNode>(nodes)
-      .force('link', d3.forceLink<SimNode, SimLink>(links).id((d) => d.id)
+    const simulation = forceSimulation<SimNode>(nodes)
+      .force('link', forceLink<SimNode, SimLink>(links).id((d) => d.id)
         .distance((d) => 60 + (3 - ((d as SimLink).strength || 1)) * 30)
         .strength(0.3))
-      .force('charge', d3.forceManyBody().strength(-50).distanceMax(350))
-      .force('center', d3.forceCenter(width / 2, height / 2).strength(0.05))
-      .force('collide', d3.forceCollide<SimNode>().radius((d) => d.radius + 2).strength(0.7))
+      .force('charge', forceManyBody().strength(-50).distanceMax(350))
+      .force('center', forceCenter(width / 2, height / 2).strength(0.05))
+      .force('collide', forceCollide<SimNode>().radius((d) => d.radius + 2).strength(0.7))
       .alphaDecay(0.02)
       .velocityDecay(0.4);
 
@@ -439,11 +443,11 @@ export default function GraphPage() {
     simulation.on('tick', () => {});
 
     // Zoom
-    const zoomBehavior = d3.zoom<HTMLCanvasElement, unknown>()
+    const zoomBehavior = zoom<HTMLCanvasElement, unknown>()
       .scaleExtent([0.2, 5])
       .on('zoom', (event) => { transformRef.current = event.transform; });
 
-    const canvasSelection = d3.select(canvas);
+    const canvasSelection = select(canvas);
     canvasSelection.call(zoomBehavior);
 
     // Hit detection
@@ -553,9 +557,9 @@ export default function GraphPage() {
     const node = nodesRef.current.find((n) => n.id === id);
     if (!node || node.x == null) return;
     const { width, height } = canvasSize;
-    const transform = d3.zoomIdentity.translate(width / 2, height / 2).scale(1.5).translate(-node.x!, -node.y!);
-    d3.select(canvas).transition().duration(750)
-      .call(d3.zoom<HTMLCanvasElement, unknown>().transform as any, transform);
+    const transform = zoomIdentity.translate(width / 2, height / 2).scale(1.5).translate(-node.x!, -node.y!);
+    select(canvas).transition().duration(750)
+      .call(zoom<HTMLCanvasElement, unknown>().transform as any, transform);
     transformRef.current = transform;
   }, [canvasSize]);
 
@@ -563,9 +567,9 @@ export default function GraphPage() {
   const resetView = useCallback(() => {
     setSelectedNode(null); setSelectedEra('all'); setSelectedCategory('all'); setSearchQuery('');
     const canvas = canvasRef.current; if (!canvas) return;
-    const transform = d3.zoomIdentity;
-    d3.select(canvas).transition().duration(500)
-      .call(d3.zoom<HTMLCanvasElement, unknown>().transform as any, transform);
+    const transform = zoomIdentity;
+    select(canvas).transition().duration(500)
+      .call(zoom<HTMLCanvasElement, unknown>().transform as any, transform);
     transformRef.current = transform;
     nodesRef.current.forEach((n) => { n.fx = null; n.fy = null; });
     simulationRef.current?.alpha(0.3).restart();
