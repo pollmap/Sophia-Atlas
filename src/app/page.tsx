@@ -594,7 +594,7 @@ export default function HomePage() {
               전문 학술서를 참조하세요. 특정 사상에 대한 해석은 여러 학파의 관점 중 하나일 수 있습니다.
             </p>
             <p style={{ color: 'var(--ink-faded)' }}>
-              관계 데이터 {totalRelationships}개 | 인물 {allPersons.length}명 | 엔터티 {totalEntities}개
+              관계 데이터 {totalRelationships}개 | 인물 {allPersons.length}명 | 전통·주제 {totalEntities}개
             </p>
           </div>
         </div>

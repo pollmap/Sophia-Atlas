@@ -103,10 +103,10 @@ export default function EntitiesPage() {
       <section className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         <h1 className="text-3xl font-bold flex items-center gap-3 mb-2" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
           <Layers className="w-8 h-8" style={{ color: '#6B4E8A' }} />
-          주제 탐색기
+          전통·주제 탐색기
         </h1>
         <p className="mb-6" style={{ color: 'var(--ink-light)' }}>
-          역사적 사건, 사상, 운동, 기관, 경전, 개념 — 총 {allEntities.length}개
+          신화/원형, 종교/영성, 철학/사유, 과학, 예술, 정치, 경제, 기술, 비의 전통 — 총 {allEntities.length}개
         </p>
 
         {/* Search */}

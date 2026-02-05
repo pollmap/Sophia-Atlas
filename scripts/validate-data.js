@@ -42,8 +42,11 @@ const movements = loadJSON('entities/movements.json');
 const institutions = loadJSON('entities/institutions.json');
 const texts = loadJSON('entities/texts.json');
 const concepts = loadJSON('entities/concepts.json');
+const archetypes = loadJSON('entities/archetypes.json');
+const artMovements = loadJSON('entities/art-movements.json');
+const technologies = loadJSON('entities/technologies.json');
 
-const allEntities = [...events, ...ideologies, ...movements, ...institutions, ...texts, ...concepts];
+const allEntities = [...events, ...ideologies, ...movements, ...institutions, ...texts, ...concepts, ...archetypes, ...artMovements, ...technologies];
 
 const ppRels = loadJSON('relationships/person-person.json');
 const peRels = loadJSON('relationships/person-entity.json');
