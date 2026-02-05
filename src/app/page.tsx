@@ -35,6 +35,9 @@ import movementsData from '@/data/entities/movements.json';
 import institutionsData from '@/data/entities/institutions.json';
 import textsData from '@/data/entities/texts.json';
 import conceptsData from '@/data/entities/concepts.json';
+import archetypesData from '@/data/entities/archetypes.json';
+import artMovementsData from '@/data/entities/art-movements.json';
+import technologiesData from '@/data/entities/technologies.json';
 import { formatYear, getCSSVar } from '@/lib/utils';
 
 const allPersons = [
@@ -43,7 +46,7 @@ const allPersons = [
   ...scientistsData,
   ...historicalFiguresData,
 ] as any[];
-const totalEntities = eventsData.length + ideologiesData.length + movementsData.length + institutionsData.length + textsData.length + conceptsData.length;
+const totalEntities = eventsData.length + ideologiesData.length + movementsData.length + institutionsData.length + textsData.length + conceptsData.length + archetypesData.length + artMovementsData.length + technologiesData.length;
 const totalRelationships = ppRelData.length + peRelData.length + eeRelData.length;
 
 const categoryColors: Record<string, string> = {
