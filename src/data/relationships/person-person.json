@@ -17132,5 +17132,1155 @@
     "description": "라마크리슈나의 힌두 영성이 블라바츠키의 신지학에 영향을 주었다",
     "strength": 1,
     "direction": "directed"
+  },
+  {
+    "source": "justin-martyr",
+    "target": "moses",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "유스티누스과(와) 모세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "justin-martyr",
+    "target": "zoroaster",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "유스티누스과(와) 조로아스터(자라투스트라)은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nikola-tesla",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "니콜라 테슬라과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nikola-tesla",
+    "target": "poincare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "니콜라 테슬라과(와) 앙리 푸앵카레은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nikola-tesla",
+    "target": "sherrington",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "니콜라 테슬라과(와) 찰스 셰링턴은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "malthus",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "토머스 맬서스과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "malthus",
+    "target": "vesalius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "토머스 맬서스과(와) 베살리우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "malthus",
+    "target": "tycho-brahe",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "토머스 맬서스과(와) 티코 브라헤은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "레이 커즈와일과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "poincare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "레이 커즈와일과(와) 앙리 푸앵카레은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "sherrington",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "레이 커즈와일과(와) 찰스 셰링턴은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "henry-viii",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헨리 8세과(와) 엘리자베스 1세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "henry-viii",
+    "target": "akbar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헨리 8세과(와) 악바르은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "henry-viii",
+    "target": "tokugawa-ieyasu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헨리 8세과(와) 도쿠가와 이에야스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "melissus",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "멜리소스과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "melissus",
+    "target": "anaximander",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "멜리소스과(와) 아낙시만드로스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thrasymachus",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "트라시마코스과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thrasymachus",
+    "target": "anaximander",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "트라시마코스과(와) 아낙시만드로스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "phaedo",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "파이돈과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "phaedo",
+    "target": "anaximander",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "파이돈과(와) 아낙시만드로스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "clement-of-alexandria",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "클레멘스 (알렉산드리아)과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "clement-of-alexandria",
+    "target": "anaximander",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "클레멘스 (알렉산드리아)과(와) 아낙시만드로스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-of-damascus",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "요한 다마스쿠스과(와) 오리게네스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-of-damascus",
+    "target": "augustine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "요한 다마스쿠스과(와) 아우구스티누스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "condillac",
+    "target": "erasmus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "콩디야크과(와) 에라스무스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "condillac",
+    "target": "machiavelli",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "콩디야크과(와) 마키아벨리은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anscombe",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "엘리자베스 앤스콤과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anscombe",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "엘리자베스 앤스콤과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dummett",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마이클 더밋과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dummett",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마이클 더밋과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "edward-said",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "에드워드 사이드과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "edward-said",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "에드워드 사이드과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "arne-naess",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아르네 네스과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "arne-naess",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아르네 네스과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "joseph-campbell",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "조지프 캠벨과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "joseph-campbell",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "조지프 캠벨과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "milton-friedman",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "밀턴 프리드먼과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "milton-friedman",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "밀턴 프리드먼과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ludwig-von-mises",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "루트비히 폰 미제스과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ludwig-von-mises",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "루트비히 폰 미제스과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "stephen-martyr",
+    "target": "moses",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "스데반과(와) 모세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thomas-a-kempis",
+    "target": "athanasius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "토마스 아 켐피스과(와) 아타나시우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "savonarola",
+    "target": "athanasius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "사보나롤라과(와) 아타나시우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "george-fox",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "조지 폭스과(와) 마르틴 루터은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "al-tabari",
+    "target": "athanasius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "알타바리과(와) 아타나시우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "al-ashari",
+    "target": "athanasius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "알아샤리과(와) 아타나시우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ibn-al-farid",
+    "target": "athanasius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "이븐 알파리드과(와) 아타나시우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "al-suyuti",
+    "target": "athanasius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "알수유티과(와) 아타나시우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shah-waliullah",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "샤 왈리울라과(와) 마르틴 루터은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tulsidas",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "툴시다스과(와) 마르틴 루터은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "swami-dayananda",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "스와미 다야난다 사라스와티과(와) 마르틴 루터은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "judah-ha-nasi",
+    "target": "moses",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "유다 하나시(랍비 유다 왕자)과(와) 모세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "laplace",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "피에르시몽 라플라스과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "laplace",
+    "target": "vesalius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "피에르시몽 라플라스과(와) 베살리우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "edward-lorenz",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "에드워드 로렌츠과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "edward-lorenz",
+    "target": "poincare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "에드워드 로렌츠과(와) 앙리 푸앵카레은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vasco-da-gama",
+    "target": "charlemagne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "바스코 다 가마과(와) 카를 대제은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vasco-da-gama",
+    "target": "saladin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "바스코 다 가마과(와) 살라딘은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "magellan",
+    "target": "charlemagne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마젤란과(와) 카를 대제은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "magellan",
+    "target": "saladin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마젤란과(와) 살라딘은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sitting-bull",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "시팅 불과(와) 엘리자베스 1세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sitting-bull",
+    "target": "akbar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "시팅 불과(와) 악바르은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rodin",
+    "target": "cervantes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "오귀스트 로댕과(와) 미겔 데 세르반테스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rodin",
+    "target": "shakespeare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "오귀스트 로댕과(와) 윌리엄 셰익스피어은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tchaikovsky",
+    "target": "cervantes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "표트르 차이콥스키과(와) 미겔 데 세르반테스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tchaikovsky",
+    "target": "shakespeare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "표트르 차이콥스키과(와) 윌리엄 셰익스피어은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "klimt",
+    "target": "cervantes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "구스타프 클림트과(와) 미겔 데 세르반테스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "klimt",
+    "target": "shakespeare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "구스타프 클림트과(와) 윌리엄 셰익스피어은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "amundsen",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아문센과(와) 엘리자베스 1세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "amundsen",
+    "target": "akbar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아문센과(와) 악바르은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "louis-armstrong",
+    "target": "frida-kahlo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "루이 암스트롱과(와) 프리다 칼로은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "louis-armstrong",
+    "target": "garcia-marquez",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "루이 암스트롱과(와) 가브리엘 가르시아 마르케스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "andy-warhol",
+    "target": "frida-kahlo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "앤디 워홀과(와) 프리다 칼로은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "andy-warhol",
+    "target": "garcia-marquez",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "앤디 워홀과(와) 가브리엘 가르시아 마르케스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neil-armstrong",
+    "target": "rosa-parks",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "닐 암스트롱과(와) 로자 파크스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neil-armstrong",
+    "target": "mandela",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "닐 암스트롱과(와) 넬슨 만델라은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-lennon",
+    "target": "frida-kahlo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "존 레논과(와) 프리다 칼로은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-lennon",
+    "target": "garcia-marquez",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "존 레논과(와) 가브리엘 가르시아 마르케스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hammurabi",
+    "target": "sun-tzu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "함무라비과(와) 손자은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hammurabi",
+    "target": "alexander-the-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "함무라비과(와) 알렉산드로스 대왕은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "helena-blavatsky",
+    "target": "rosa-parks",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헬레나 블라바츠키과(와) 로자 파크스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "helena-blavatsky",
+    "target": "mandela",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헬레나 블라바츠키과(와) 넬슨 만델라은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anaximenes",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아낙시메네스과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "xenophon",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "크세노폰과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zeno-of-citium",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "제논 (키티온)과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ramanuja",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "라마누자과(와) 오리게네스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ibn-bajja",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "이븐 바즈자과(와) 오리게네스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ibn-tufayl",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "이븐 투파일과(와) 오리게네스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "arnauld",
+    "target": "erasmus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아르노과(와) 에라스무스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "malebranche",
+    "target": "erasmus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "말브랑슈과(와) 에라스무스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "helvetius",
+    "target": "erasmus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "엘베시우스과(와) 에라스무스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marcel",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "가브리엘 마르셀과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "goodman",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "넬슨 굿먼과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "guattari",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "펠릭스 과타리과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bahau-llah",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "바하울라과(와) 마르틴 루터은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zhang-heng",
+    "target": "hippocrates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "장형과(와) 히포크라테스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "edward-jenner",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "에드워드 제너과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "carnot",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "사디 카르노과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rayleigh",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "존 레일리과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "cecilia-payne",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "세실리아 페인과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "higgs",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "피터 힉스과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "aryabhata",
+    "target": "hippocrates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아리아바타과(와) 히포크라테스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "volta",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "알레산드로 볼타과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "abel",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "닐스 헨리크 아벨과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "becquerel",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "앙리 베크렐과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rachel-carson",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "레이첼 카슨과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "daniel-kahneman",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "대니얼 카너먼과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "saladin",
+    "target": "charlemagne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "살라딘과(와) 카를 대제은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zheng-he",
+    "target": "charlemagne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "정화과(와) 카를 대제은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "joan-of-arc",
+    "target": "charlemagne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "잔 다르크과(와) 카를 대제은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "queen-victoria",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "빅토리아 여왕과(와) 엘리자베스 1세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "susan-b-anthony",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "수전 B. 앤서니과(와) 엘리자베스 1세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rommel",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "롬멜과(와) 엘리자베스 1세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "aung-san-suu-kyi",
+    "target": "rosa-parks",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아웅산 수치과(와) 로자 파크스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "coco-chanel",
+    "target": "frida-kahlo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "코코 샤넬과(와) 프리다 칼로은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
   }
 ]

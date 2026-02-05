@@ -15143,5 +15143,2605 @@
     "description": "맹자의 성선설과 양지(良知) 개념은 양명학파의 핵심 사상적 원천이다",
     "strength": 2,
     "direction": "directed"
+  },
+  {
+    "source": "justin-martyr",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "유스티누스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "justin-martyr",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "유스티누스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "nikola-tesla",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "니콜라 테슬라은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "malthus",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "토머스 맬서스은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "레이 커즈와일은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "henry-viii",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "헨리 8세은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "melissus",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "멜리소스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "thrasymachus",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "트라시마코스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "phaedo",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "파이돈은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "clement-of-alexandria",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "클레멘스 (알렉산드리아)은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "john-of-damascus",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "요한 다마스쿠스은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "condillac",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "콩디야크은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "anscombe",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "엘리자베스 앤스콤은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "dummett",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "마이클 더밋은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-said",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "에드워드 사이드은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "arne-naess",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아르네 네스은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "joseph-campbell",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "조지프 캠벨은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "milton-friedman",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "밀턴 프리드먼은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ludwig-von-mises",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "루트비히 폰 미제스은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "stephen-martyr",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "스데반은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "stephen-martyr",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "스데반은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-a-kempis",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "토마스 아 켐피스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-a-kempis",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "토마스 아 켐피스은(는) 이슬람의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "savonarola",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "사보나롤라은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "savonarola",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "사보나롤라은(는) 이슬람의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "george-fox",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "조지 폭스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "george-fox",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "조지 폭스은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "al-tabari",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "알타바리은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-tabari",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "알타바리은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "al-ashari",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "알아샤리은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-ashari",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "알아샤리은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-al-farid",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "이븐 알파리드은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-al-farid",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "이븐 알파리드은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "al-suyuti",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "알수유티은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-suyuti",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "알수유티은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "shah-waliullah",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "샤 왈리울라은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "shah-waliullah",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "샤 왈리울라은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "tulsidas",
+    "target": "hinduism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "툴시다스은(는) 힌두교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tulsidas",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "툴시다스은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "swami-dayananda",
+    "target": "hinduism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "스와미 다야난다 사라스와티은(는) 힌두교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "swami-dayananda",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "스와미 다야난다 사라스와티은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "judah-ha-nasi",
+    "target": "judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "유다 하나시(랍비 유다 왕자)은(는) 유대교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "judah-ha-nasi",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "유다 하나시(랍비 유다 왕자)은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "laplace",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "피에르시몽 라플라스은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-lorenz",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "에드워드 로렌츠은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "vasco-da-gama",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "바스코 다 가마은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "magellan",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "마젤란은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sitting-bull",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "시팅 불은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "rodin",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "오귀스트 로댕은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "tchaikovsky",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "표트르 차이콥스키은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "klimt",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "구스타프 클림트은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "amundsen",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아문센은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "louis-armstrong",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "루이 암스트롱은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "andy-warhol",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "앤디 워홀은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "neil-armstrong",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "닐 암스트롱은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "john-lennon",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "존 레논은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hammurabi",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "함무라비은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "helena-blavatsky",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "헬레나 블라바츠키은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "anaximander",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아낙시만드로스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "anaximenes",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아낙시메네스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "xenophon",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "크세노폰은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "zeno-of-citium",
+    "target": "neoplatonism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "제논 (키티온)은(는) 신플라톤주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "cleanthes",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "클레안테스은(는) 스토아학파에 속한다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cleanthes",
+    "target": "neoplatonism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "클레안테스은(는) 신플라톤주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "iamblichus",
+    "target": "neoplatonism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "이암블리코스은(는) 신플라톤주의에 속한다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "iamblichus",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "이암블리코스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "proclus",
+    "target": "neoplatonism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "프로클로스은(는) 신플라톤주의에 속한다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "proclus",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "프로클로스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ramanuja",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "라마누자은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-bajja",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "이븐 바즈자은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-tufayl",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "이븐 투파일은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "arnauld",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아르노은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "malebranche",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "말브랑슈은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "helvetius",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "엘베시우스은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "marcel",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "가브리엘 마르셀은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "goodman",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "넬슨 굿먼은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "guattari",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "펠릭스 과타리은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "james-brother",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "의로운 야고보은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "james-brother",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "의로운 야고보은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "john-apostle",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "사도 요한은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-apostle",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "사도 요한은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "polycarp",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "폴리카르프은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "polycarp",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "폴리카르프은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hippolytus",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "히폴리토스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hippolytus",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "히폴리토스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ambrose",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "암브로시우스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ambrose",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "암브로시우스은(는) 이슬람의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "abu-bakr",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "아부 바크르은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "abu-bakr",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아부 바크르은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "rabia-al-adawiyya",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "라비아 알-아다위야은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rabia-al-adawiyya",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "라비아 알-아다위야은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "odo-cluny",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "클뤼니의 오도은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "odo-cluny",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "클뤼니의 오도은(는) 이슬람의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bernard-clairvaux",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "클레르보의 베르나르은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bernard-clairvaux",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "클레르보의 베르나르은(는) 이슬람의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "john-wycliffe",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "존 위클리프은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-wycliffe",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "존 위클리프은(는) 이슬람의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "jan-hus",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "얀 후스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jan-hus",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "얀 후스은(는) 이슬람의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-muntzer",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "토마스 뮌처은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-muntzer",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "토마스 뮌처은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "menno-simons",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "메노 시몬스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "menno-simons",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "메노 시몬스은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bahau-llah",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "바하울라은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "john-damascus",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "다마스쿠스의 요한은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-damascus",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "다마스쿠스의 요한은(는) 이슬람의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "william-carey",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "윌리엄 캐리은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "william-carey",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "윌리엄 캐리은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "billy-graham",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "빌리 그레이엄은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "billy-graham",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "빌리 그레이엄은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "uthman-ibn-affan",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "우스만 이븐 아판은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "uthman-ibn-affan",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "우스만 이븐 아판은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hasan-al-basri",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "하산 알바스리은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hasan-al-basri",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "하산 알바스리은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "imam-nawawi",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "이맘 나와위은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "imam-nawawi",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "이맘 나와위은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "abdul-qadir-jilani",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "압둘 카디르 질라니은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "abdul-qadir-jilani",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "압둘 카디르 질라니은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "said-nursi",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "사이드 누르시은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "said-nursi",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "사이드 누르시은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "aisha-bint-abi-bakr",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "아이샤 빈트 아비 바크르은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aisha-bint-abi-bakr",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아이샤 빈트 아비 바크르은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "fatimah-zahra",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "파티마 자흐라은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "fatimah-zahra",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "파티마 자흐라은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bilal-ibn-rabah",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "빌랄 이븐 라바흐은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bilal-ibn-rabah",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "빌랄 이븐 라바흐은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad-al-mahdi",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "무함마드 알마흐디(은닉 이맘)은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad-al-mahdi",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "무함마드 알마흐디(은닉 이맘)은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "mirabai",
+    "target": "hinduism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "미라바이은(는) 힌두교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mirabai",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "미라바이은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "anandamayi-ma",
+    "target": "hinduism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "아난다마이 마은(는) 힌두교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anandamayi-ma",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아난다마이 마은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "saadia-gaon",
+    "target": "judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "사아디아 가온은(는) 유대교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "saadia-gaon",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "사아디아 가온은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "zhang-heng",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "장형은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "brahmagupta",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "브라마굽타은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-jenner",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "에드워드 제너은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "carnot",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "사디 카르노은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "rayleigh",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "존 레일리은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sherrington",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "찰스 셰링턴은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "cecilia-payne",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "세실리아 페인은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "higgs",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "피터 힉스은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "aryabhata",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아리아바타은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "volta",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "알레산드로 볼타은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "abel",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "닐스 헨리크 아벨은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "becquerel",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "앙리 베크렐은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "rachel-carson",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "레이첼 카슨은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "daniel-kahneman",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "대니얼 카너먼은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "saladin",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "살라딘은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "zheng-he",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "정화은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "joan-of-arc",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "잔 다르크은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "queen-victoria",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "빅토리아 여왕은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "susan-b-anthony",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "수전 B. 앤서니은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "rommel",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "롬멜은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "aung-san-suu-kyi",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아웅산 수치은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "coco-chanel",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "코코 샤넬은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "xenophanes",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "크세노파네스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "anaxagoras",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아낙사고라스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "philolaus",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "필로라오스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "prodicus",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "프로디코스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "diogenes-apollonia",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아폴로니아의 디오게네스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hippias",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "히피아스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "euclides-megara",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "메가라의 에우클레이데스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "antisthenes",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "안티스테네스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "aristippus",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아리스티포스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "carneades",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "카르네아데스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sextus-empiricus",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "섹스투스 엠피리쿠스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "pseudo-dionysius",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "위-디오니시우스은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "al-kindi",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "알킨디은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "peter-lombard",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "롬바르두스은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "albertus-magnus",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "알베르투스 마그누스은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bonaventure",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "보나벤투라은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "gersonides",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "게르소니데스은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-more",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "토마스 모어은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "grotius",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "그로티우스은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "gassendi",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "가상디은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "dalembert",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "달랑베르은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-ferguson",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "퍼거슨은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "holbach",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "돌바흐은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "moore",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "조지 에드워드 무어은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "jaspers",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "야스퍼스은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sellars",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "윌프리드 셀러스은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "kripke",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "솔 크립키은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "freud",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "지그문트 프로이트은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "friedrich-hayek",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "프리드리히 하이에크은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "john-maynard-keynes",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "존 메이너드 케인즈은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ignatius-antioch",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "안티오키아의 이그나티우스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cyprian",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "키프리아누스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "chrysostom",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "요한 크리소스토무스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jerome",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "제롬 (히에로니무스)은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "leo-great",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "대 레오은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gregory-great",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "대 그레고리오은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "imam-malik",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "이맘 말리크은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rashi",
+    "target": "judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "라시은(는) 유대교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "innocent-iii",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "교황 인노첸시오 3세은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dominic",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "도미니코은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cranmer",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "토머스 크랜머은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "francis-xavier",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "프란치스코 하비에르은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-knox",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "존 녹스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "teresa-avila",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "아빌라의 테레사은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "reinhold-niebuhr",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "라인홀트 니버은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "clement-alexandria",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "클레멘스 알렉산드리누스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tertullian",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "테르툴리아누스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anselm-canterbury",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "캔터베리의 안셀무스은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hildegard-bingen",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "빙엔의 힐데가르트은(는) 기독교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "umar-ibn-khattab",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "우마르 이븐 알카탑은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "husayn-ibn-ali",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "후사인 이븐 알리은(는) 이슬람의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ananda-buddhist",
+    "target": "buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "아난다은(는) 불교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mahakasyapa",
+    "target": "buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "마하가섭은(는) 불교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "fazang",
+    "target": "buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "법장(法藏)은(는) 불교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mahasi-sayadaw",
+    "target": "buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "마하시 사야도은(는) 불교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rabbi-akiva",
+    "target": "judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "랍비 아키바은(는) 유대교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "joseph-karo",
+    "target": "judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "요세프 카로은(는) 유대교의 주요 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tycho-brahe",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "티코 브라헤은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "pascal-scientist",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "블레즈 파스칼은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "semmelweis",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "이그나츠 제멜바이스은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ramon-y-cajal",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "산티아고 라몬 이 카할은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hertz",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "하인리히 헤르츠은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "fritz-haber",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "프리츠 하버은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "emmy-noether",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "에미 뇌터은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "landau",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "레프 란다우은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "chandrasekhar",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "수브라마니안 찬드라세카르은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "jonas-salk",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "조너스 소크은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "rosalind-franklin",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "로절린드 프랭클린은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "grothendieck",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "알렉산더 그로텐디크은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "stephen-jay-gould",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "스티븐 제이 굴드은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "jocelyn-bell-burnell",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "조슬린 벨 버넬은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "andrew-wiles",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "앤드루 와일스은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "torricelli",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "에반젤리스타 토리첼리은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "daniel-bernoulli",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "다니엘 베르누이은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ohm",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "게오르크 옴은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "galois",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "에바리스트 갈루아은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "kekule",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아우구스트 케쿨레은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ramanujan",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "스리니바사 라마누잔은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "wolfgang-pauli",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "볼프강 파울리은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "yukawa",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "유카와 히데키은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "wegener",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "알프레트 베게너은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "landsteiner",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "카를 란트슈타이너은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "phidias",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "페이디아스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "qin-shi-huang",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "진시황은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "spartacus",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "스파르타쿠스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "cleopatra",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "클레오파트라은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "augustus",
+    "target": "stoicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아우구스투스은(는) 스토아학파의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "suleiman",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "술레이만은(는) 기독교의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "tokugawa-ieyasu",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "도쿠가와 이에야스은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "yi-sun-sin",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "이순신은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "peter-the-great",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "표트르 대제은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "james-cook",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "제임스 쿡은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "mozart",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "볼프강 아마데우스 모차르트은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "victor-hugo",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "빅토르 위고은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "chopin",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "프레데리크 쇼팽은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "theodore-roosevelt",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "시어도어 루스벨트은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "emmeline-pankhurst",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "에밀린 팽크허스트은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ho-chi-minh",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "호치민은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "rosa-parks",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "로자 파크스은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "garibaldi",
+    "target": "enlightenment",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "주세페 가리발디은(는) 계몽주의의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "charlie-chaplin",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "찰리 채플린은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bob-dylan",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "밥 딜런은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "gandhi",
+    "target": "postmodernism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "마하트마 간디은(는) 포스트모더니즘의 시대적 맥락에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "brahmagupta",
+    "target": "hinduism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "브라마굽타는 힌두 브라만 전통의 수학자·천문학자로, 베다 천문학 체계 속에서 연구했다",
+    "strength": 2,
+    "direction": "directed"
   }
 ]
