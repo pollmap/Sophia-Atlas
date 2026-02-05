@@ -143,7 +143,7 @@ export default function IndraNet3D({
             const y = node.y || 0;
             const z = node.z || 0;
             const dist = Math.sqrt(x * x + y * y + z * z) || 1;
-            const factor = (sphereRadius - dist) / dist * alpha * 0.3;
+            const factor = (sphereRadius - dist) / dist * alpha * 0.5;
             node.vx = (node.vx || 0) + x * factor;
             node.vy = (node.vy || 0) + y * factor;
             node.vz = (node.vz || 0) + z * factor;
@@ -165,9 +165,9 @@ export default function IndraNet3D({
     if (!fgRef.current) return;
     const fg = fgRef.current;
 
-    // Set initial camera position — centered, looking at origin
+    // Set initial camera position — pulled far back for full sphere view
     const sphereRadius = Math.min(width, height) * 0.4;
-    const dist = sphereRadius * 3;
+    const dist = sphereRadius * 5;
     fg.cameraPosition(
       { x: 0, y: 0, z: dist },
       { x: 0, y: 0, z: 0 },
@@ -177,7 +177,7 @@ export default function IndraNet3D({
     // Auto-rotate slowly around the Y axis
     let angle = 0;
     const interval = setInterval(() => {
-      if (selectedNode || hoveredNode) return; // stop rotating when interacting
+      if (selectedNode || hoveredNode) return;
       angle += 0.002;
       fg.cameraPosition(
         {
