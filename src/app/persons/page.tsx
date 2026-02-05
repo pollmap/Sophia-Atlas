@@ -4,7 +4,7 @@ import { useState, useMemo } from 'react';
 import { Users, LayoutGrid, List } from 'lucide-react';
 import PersonCard from '@/components/persons/PersonCard';
 import PersonFilter from '@/components/persons/PersonFilter';
-import { cn, getCategoryLabel, getEraLabel } from '@/lib/utils';
+import { getCategoryLabel, getEraLabel } from '@/lib/utils';
 
 import philosophersData from '@/data/persons/philosophers.json';
 import religiousFiguresData from '@/data/persons/religious-figures.json';
@@ -32,18 +32,6 @@ const allPersons: PersonData[] = [
   ...(scientistsData as PersonData[]),
   ...(historicalFiguresData as PersonData[]),
 ].sort((a, b) => a.period.start - b.period.start);
-
-const categoryColorMap: Record<string, string> = {
-  philosopher: '#4A5D8A',
-  religious_figure: '#B8860B',
-  scientist: '#5B7355',
-  historical_figure: '#8B4040',
-  cultural_figure: '#7A5478',
-};
-
-function getCategoryDotColor(category: string): string {
-  return categoryColorMap[category] || '#7A6B55';
-}
 
 export default function PersonsPage() {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -160,7 +148,7 @@ export default function PersonsPage() {
         </p>
 
         {viewMode === 'grid' ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
             {filteredPersons.map((person) => (
               <PersonCard
                 key={person.id}
@@ -178,39 +166,22 @@ export default function PersonsPage() {
             ))}
           </div>
         ) : (
-          <div className="space-y-2">
+          <div className="rounded-lg border divide-y" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
             {filteredPersons.map((person) => (
-              <a
+              <PersonCard
                 key={person.id}
-                href={`/persons/${person.id}`}
-                className="flex items-center gap-4 p-3 transition-colors"
-                style={{
-                  borderRadius: '4px',
-                  border: '1px solid var(--fresco-shadow)',
-                  background: 'var(--fresco-parchment)',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.background = 'var(--fresco-aged)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.background = 'var(--fresco-parchment)';
-                }}
-              >
-                <div
-                  className="w-2 h-2 rounded-full flex-shrink-0"
-                  style={{ backgroundColor: getCategoryDotColor(person.category) }}
-                />
-                <div className="flex-1 min-w-0">
-                  <span className="font-medium" style={{ color: 'var(--ink-dark)' }}>{person.name.ko}</span>
-                  <span className="ml-2 text-sm" style={{ color: 'var(--ink-light)' }}>{person.name.en}</span>
-                </div>
-                <span className="text-xs flex-shrink-0" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
-                  {getEraLabel(person.era)}
-                </span>
-                <span className="text-xs flex-shrink-0" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>
-                  {person.location.region}
-                </span>
-              </a>
+                id={person.id}
+                name={person.name}
+                era={person.era}
+                period={person.period}
+                location={person.location}
+                category={person.category}
+                categories={person.categories}
+                subcategory={person.subcategory}
+                tags={person.tags}
+                summary={person.summary}
+                compact
+              />
             ))}
           </div>
         )}

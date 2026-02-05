@@ -620,20 +620,6 @@
     ]
   },
   {
-    "source": "sartre",
-    "target": "camus",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "contextual",
-    "description": "사르트르와 카뮈는 전후 파리에서 실존주의 운동을 함께 이끌었으나 이후 결별했다",
-    "strength": 2,
-    "direction": "bidirectional",
-    "tags": [
-      "실존주의",
-      "전후파리"
-    ]
-  },
-  {
     "source": "nietzsche",
     "target": "heidegger",
     "sourceType": "person",
@@ -810,20 +796,6 @@
     "description": "호르크하이머와 아도르노는 『계몽의 변증법』을 공저하며 비판이론을 정립했다",
     "strength": 3,
     "direction": "bidirectional",
-    "tags": [
-      "프랑크푸르트학파",
-      "비판이론"
-    ]
-  },
-  {
-    "source": "adorno",
-    "target": "habermas",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "influenced",
-    "description": "아도르노의 비판이론은 하버마스의 의사소통 합리성 이론으로 계승·발전되었다",
-    "strength": 3,
-    "direction": "directed",
     "tags": [
       "프랑크푸르트학파",
       "비판이론"
@@ -1134,20 +1106,6 @@
     "tags": [
       "물리학",
       "상대성이론"
-    ]
-  },
-  {
-    "source": "einstein",
-    "target": "bohr",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "contemporary",
-    "description": "아인슈타인과 보어는 양자역학의 해석을 둘러싸고 역사적인 논쟁을 벌였다",
-    "strength": 3,
-    "direction": "bidirectional",
-    "tags": [
-      "양자역학",
-      "물리학논쟁"
     ]
   },
   {
@@ -1855,19 +1813,6 @@
     ]
   },
   {
-    "source": "bohr",
-    "target": "schrodinger",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "contemporary",
-    "description": "보어와 슈뢰딩거는 양자역학의 해석을 두고 논쟁하며 양자물리학을 발전시켰다",
-    "strength": 2,
-    "direction": "bidirectional",
-    "tags": [
-      "양자역학"
-    ]
-  },
-  {
     "source": "heisenberg",
     "target": "schrodinger",
     "sourceType": "person",
@@ -2089,20 +2034,6 @@
     ]
   },
   {
-    "source": "erasmus",
-    "target": "martin-luther",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "contextual",
-    "description": "에라스무스와 루터는 초기 동조에서 자유의지 논쟁을 거치며 결별했다",
-    "strength": 2,
-    "direction": "bidirectional",
-    "tags": [
-      "르네상스",
-      "종교개혁"
-    ]
-  },
-  {
     "source": "kierkegaard",
     "target": "sartre",
     "sourceType": "person",
@@ -2213,16 +2144,6 @@
     "direction": "directed"
   },
   {
-    "source": "carnap",
-    "target": "quine",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "opposed",
-    "description": "카르납과 콰인의 분석-종합 구분 논쟁",
-    "strength": 2,
-    "direction": "bidirectional"
-  },
-  {
     "source": "quine",
     "target": "putnam",
     "sourceType": "person",
@@ -2261,16 +2182,6 @@
     "description": "포퍼의 제자 파이어아벤트가 스승의 이론을 비판적으로 발전",
     "strength": 2,
     "direction": "directed"
-  },
-  {
-    "source": "kuhn",
-    "target": "feyerabend",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "contextual",
-    "description": "쿤과 파이어아벤트는 과학혁명의 동시대 이론가",
-    "strength": 2,
-    "direction": "bidirectional"
   },
   {
     "source": "moore",
@@ -2321,16 +2232,6 @@
     "description": "헤겔의 변증법이 루카치의 총체성 개념에 영향",
     "strength": 2,
     "direction": "directed"
-  },
-  {
-    "source": "benjamin",
-    "target": "adorno",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "contextual",
-    "description": "벤야민과 아도르노는 프랑크푸르트 학파의 동시대인",
-    "strength": 2,
-    "direction": "bidirectional"
   },
   {
     "source": "marcuse",
@@ -2571,16 +2472,6 @@
     "description": "플랑크의 양자론이 보어의 원자모형에 영향",
     "strength": 2,
     "direction": "directed"
-  },
-  {
-    "source": "schrodinger",
-    "target": "dirac",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "contextual",
-    "description": "슈뢰딩거와 디랙은 양자역학의 수학적 정식화에 기여",
-    "strength": 2,
-    "direction": "bidirectional"
   },
   {
     "source": "feynman",
@@ -3383,16 +3274,6 @@
     "direction": "directed"
   },
   {
-    "source": "wittgenstein",
-    "target": "turing",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "contemporary",
-    "description": "비트겐슈타인과 튜링은 케임브리지에서 수학의 기초에 관한 논쟁을 벌였다",
-    "strength": 2,
-    "direction": "bidirectional"
-  },
-  {
     "source": "popper",
     "target": "einstein",
     "sourceType": "person",
@@ -3813,16 +3694,6 @@
     "direction": "bidirectional"
   },
   {
-    "source": "john-calvin",
-    "target": "john-knox",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "teacher_student",
-    "description": "칼뱅은 낙스의 제네바 체류 시 스승으로, 스코틀랜드 장로교의 신학적 기반을 제공했다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "john-wycliffe",
     "target": "jan-hus",
     "sourceType": "person",
@@ -4033,26 +3904,6 @@
     "direction": "directed"
   },
   {
-    "source": "zhu-xi",
-    "target": "wang-yangming",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "opposed",
-    "description": "주희의 이기이원론에 대해 왕양명은 심즉리(心卽理)로 대응하여 양명학을 창시했다",
-    "strength": 3,
-    "direction": "bidirectional"
-  },
-  {
-    "source": "bentham",
-    "target": "john-stuart-mill",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "teacher_student",
-    "description": "벤담의 공리주의는 밀에 의해 질적 차이를 포함하는 형태로 발전되었다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "adorno",
     "target": "habermas",
     "sourceType": "person",
@@ -4113,26 +3964,6 @@
     "direction": "directed"
   },
   {
-    "source": "quine",
-    "target": "davidson",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "teacher_student",
-    "description": "콰인은 데이비슨의 스승으로 그의 진리 이론 발전에 영향을 주었다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "kripke",
-    "target": "putnam",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "parallel",
-    "description": "크립키와 퍼트넘은 독립적으로 의미의 인과이론을 발전시켰다",
-    "strength": 2,
-    "direction": "bidirectional"
-  },
-  {
     "source": "levinas",
     "target": "derrida",
     "sourceType": "person",
@@ -4141,16 +3972,6 @@
     "description": "레비나스의 타자 윤리학은 데리다의 후기 윤리적 전환에 핵심적 영향을 주었다",
     "strength": 2,
     "direction": "directed"
-  },
-  {
-    "source": "barthes",
-    "target": "foucault",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "parallel",
-    "description": "바르트와 푸코는 저자의 죽음과 주체의 해체를 각각의 방식으로 탐구했다",
-    "strength": 2,
-    "direction": "bidirectional"
   },
   {
     "source": "spinoza",
@@ -4223,32 +4044,12 @@
     "direction": "bidirectional"
   },
   {
-    "source": "alonzo-church",
-    "target": "turing",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "parallel",
-    "description": "처치와 튜링은 독립적으로 계산 가능성의 동치 정의를 제시하여 처치-튜링 논제를 확립했다",
-    "strength": 3,
-    "direction": "bidirectional"
-  },
-  {
     "source": "newton",
     "target": "halley",
     "sourceType": "person",
     "targetType": "person",
     "type": "collaborated",
     "description": "핼리는 뉴턴의 프린키피아 출판을 물질적으로 지원하고 격려한 핵심 동료였다",
-    "strength": 2,
-    "direction": "bidirectional"
-  },
-  {
-    "source": "boyle",
-    "target": "newton",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "contemporary",
-    "description": "보일과 뉴턴은 왕립학회에서 동시대에 활동하며 실험 과학의 발전에 기여했다",
     "strength": 2,
     "direction": "bidirectional"
   },
@@ -4403,16 +4204,6 @@
     "direction": "directed"
   },
   {
-    "source": "ibn-sina",
-    "target": "al-ghazali",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "opposed",
-    "description": "이븐 시나의 철학적 합리주의는 가잘리의 철학자들의 모순에서 비판의 주요 대상이 되었다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "anselm",
     "target": "descartes",
     "sourceType": "person",
@@ -4421,16 +4212,6 @@
     "description": "안셀무스의 존재론적 신 존재 증명은 데카르트의 신 존재 논증에 영향을 주었다",
     "strength": 2,
     "direction": "directed"
-  },
-  {
-    "source": "thomas-aquinas",
-    "target": "duns-scotus",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "opposed",
-    "description": "토마스주의와 스코투스주의는 스콜라 철학 내에서 주요 논쟁 축을 형성했다",
-    "strength": 2,
-    "direction": "bidirectional"
   },
   {
     "source": "william-of-ockham",
@@ -4460,16 +4241,6 @@
     "type": "collaborated",
     "description": "디드로와 달랑베르는 백과전서를 공동 편집하여 계몽주의를 확산시켰다",
     "strength": 3,
-    "direction": "bidirectional"
-  },
-  {
-    "source": "voltaire",
-    "target": "diderot",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "contemporary",
-    "description": "볼테르와 디드로는 프랑스 계몽주의의 양대 지도자로 함께 활동했다",
-    "strength": 2,
     "direction": "bidirectional"
   },
   {
@@ -4519,16 +4290,6 @@
     "targetType": "person",
     "type": "influenced",
     "description": "벤야민의 문화 비평과 역사철학은 아도르노의 미학 이론에 깊은 영향을 주었다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "moore",
-    "target": "russell",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "influenced",
-    "description": "무어의 상식철학과 관념론 비판은 러셀의 분석철학 전환에 영향을 주었다",
     "strength": 2,
     "direction": "directed"
   },
@@ -4901,16 +4662,6 @@
     "description": "모네의 인상주의는 클림트의 빈 분리파 미술에 간접적 영향을 주었다",
     "strength": 1,
     "direction": "directed"
-  },
-  {
-    "source": "kandinsky",
-    "target": "picasso",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "contemporary",
-    "description": "칸딘스키와 피카소는 20세기 초 각각 추상화와 큐비즘으로 미술 혁명을 이끌었다",
-    "strength": 2,
-    "direction": "bidirectional"
   },
   {
     "source": "churchill",
@@ -5430,16 +5181,6 @@
     "type": "opposed",
     "description": "묵자는 공자의 차별적 인(仁) 대신 겸애(兼愛)를 주장하며 유교를 비판했다",
     "strength": 2,
-    "direction": "bidirectional"
-  },
-  {
-    "source": "shankara",
-    "target": "ramanuja",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "opposed",
-    "description": "샹카라의 불이론(아드바이타)과 라마누자의 한정불이론은 베단타 내의 근본적 대립이다",
-    "strength": 3,
     "direction": "bidirectional"
   },
   {
@@ -6080,26 +5821,6 @@
     "type": "contemporary",
     "description": "폰 노이만과 튜링은 컴퓨터 과학의 이론적·실제적 기초를 동시대에 세웠다",
     "strength": 3,
-    "direction": "bidirectional"
-  },
-  {
-    "source": "newton",
-    "target": "leibniz",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "opposed",
-    "description": "뉴턴과 라이프니츠는 미적분의 발명 우선권을 놓고 역사적 논쟁을 벌였다",
-    "strength": 3,
-    "direction": "bidirectional"
-  },
-  {
-    "source": "feynman",
-    "target": "gell-mann",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "opposed",
-    "description": "파인만과 겔만은 칼텍에서 서로 다른 접근법으로 입자물리학의 경쟁적 발전에 기여했다",
-    "strength": 2,
     "direction": "bidirectional"
   },
   {
@@ -8459,6 +8180,6746 @@
     "targetType": "person",
     "type": "contextual",
     "description": "시팅 불과 링컨은 같은 시대에 각각 아메리카 원주민의 존엄과 노예 해방을 위해 싸웠다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pythagoras",
+    "target": "euclid",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "피타고라스의 수학적 세계관은 유클리드 기하학의 철학적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "archimedes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 자연철학은 아르키메데스의 역학 연구에 방법론적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "democritus",
+    "target": "dalton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "데모크리토스의 원자론은 2천년 후 돌턴의 근대 원자론에 철학적 선례를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "linnaeus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 생물 분류 체계는 린네의 근대 분류학에 직접적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "harvey",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 해부학적 관찰은 하비의 혈액순환 발견의 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "plato",
+    "target": "heisenberg",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플라톤의 이데아론과 수학적 실재론은 하이젠베르크의 양자역학 해석에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "plato",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플라톤의 수학적 조화 사상은 코페르니쿠스의 태양중심설 구상에 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "francis-bacon",
+    "target": "boyle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베이컨의 귀납법과 실험철학은 보일의 화학 실험 방법론의 토대가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "francis-bacon",
+    "target": "lavoisier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베이컨의 경험적 방법론은 라부아지에의 근대 화학 수립에 방법론적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "descartes",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "데카르트의 좌표 기하학은 오일러의 해석학 발전에 수학적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "leibniz",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "라이프니츠의 미적분학은 오일러의 수학적 업적의 직접적 토대가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "kant",
+    "target": "gauss",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칸트의 공간 인식론은 가우스의 비유클리드 기하학 탐구에 철학적 자극을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "kant",
+    "target": "poincare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칸트의 선험적 직관 개념은 푸앵카레의 수학적 직관주의에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hume",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "흄의 경험론적 인과 분석은 다윈의 자연선택 이론 구성에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hegel",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "헤겔의 변증법적 발전 사상과 다윈의 진화론은 19세기 역사적 사고의 양대 축이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "schopenhauer",
+    "target": "schrodinger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "쇼펜하우어의 동양 사상 수용은 슈뢰딩거의 양자역학 해석에 철학적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "spinoza",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "스피노자의 범신론적 자연관은 아인슈타인의 종교적·우주론적 세계관에 깊은 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "locke",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "로크의 경험론적 인식론은 다윈의 경험적 자연 관찰 방법론에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "comte",
+    "target": "pasteur",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "콩트의 실증주의는 파스퇴르의 실험 과학적 방법론의 철학적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "einstein",
+    "target": "kuhn",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아인슈타인의 패러다임 전환은 쿤의 과학혁명 구조론의 핵심 사례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "darwin",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "다윈의 진화론은 퍼스의 프래그마티즘과 기호학에 생물학적 토대를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "newton",
+    "target": "hume",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "뉴턴의 역학은 흄이 인과성을 분석하는 과학적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bohr",
+    "target": "wittgenstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "보어의 상보성 원리와 비트겐슈타인의 언어게임은 관점의 다원성을 강조한다는 점에서 구조적 유사성이 있다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "godel",
+    "target": "wittgenstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "괴델의 불완전성 정리와 비트겐슈타인의 반응은 수학 기초론에서 근본적 견해 차이를 보여준다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "galileo",
+    "target": "francis-bacon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "갈릴레오와 베이컨은 같은 시대에 각각 실험과 귀납법으로 근대 과학의 방법론을 확립했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "newton",
+    "target": "spinoza",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "뉴턴과 스피노자는 17세기에 각각 자연법칙과 실체의 본성을 탐구한 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "frege",
+    "target": "hilbert",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "프레게와 힐베르트는 수학 기초론에서 논리주의와 형식주의라는 상반된 접근을 취했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pythagoras",
+    "target": "archimedes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "피타고라스 학파의 수학적 전통은 아르키메데스의 수학적 물리학에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "paul",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 논리학과 형이상학은 바울의 신학적 논증 구조에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "plato",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플라톤의 형이상학은 오리게네스의 알렉산드리아 신학에 깊은 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "plotinus",
+    "target": "meister-eckhart",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플로티노스의 일자(一者) 신비주의는 마이스터 에크하르트의 신비신학에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "al-ghazali",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 철학은 가잘리가 비판적으로 수용하고 반박한 핵심 대상이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "plato",
+    "target": "al-farabi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플라톤의 『국가』는 알-파라비의 이상국가론에 직접적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "plotinus",
+    "target": "ibn-arabi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플로티노스의 유출론은 이븐 아라비의 존재일성론에 철학적 배경을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nietzsche",
+    "target": "tillich",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "니체의 신의 죽음 선언은 틸리히의 신학적 응답의 핵심 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "heidegger",
+    "target": "tillich",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하이데거의 존재론은 틸리히의 조직신학에 존재론적 방법론을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hegel",
+    "target": "karl-barth",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤겔의 변증법은 바르트가 비판적으로 극복하려 한 근대 신학의 핵심 전제였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kierkegaard",
+    "target": "bonhoeffer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "키르케고르의 실존적 신앙 개념은 본회퍼의 값비싼 은총 사상에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "marx",
+    "target": "reinhold-niebuhr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 사회 분석은 라인홀드 니버의 기독교 현실주의에 비판적 수용되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "kant",
+    "target": "schleiermacher",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칸트의 종교 비판은 슐라이어마허의 감정 중심 종교론의 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hume",
+    "target": "schleiermacher",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "흄의 경험론적 종교 비판은 슐라이어마허가 응답해야 할 핵심 도전이었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "socrates",
+    "target": "buddha",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "소크라테스와 붓다는 거의 같은 시기에 각각 서양과 동양에서 보편적 진리 탐구를 시작했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "epictetus",
+    "target": "buddha",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "에픽테토스의 스토아적 무집착과 붓다의 불교적 비집착은 고통 해소의 유사한 접근이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "spinoza",
+    "target": "shankara-hindu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "스피노자의 범신론과 샹카라의 불이일원론은 궁극적 실재의 단일성을 주장한다는 점에서 유사하다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "schopenhauer",
+    "target": "buddha",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "쇼펜하우어는 서양 철학자 중 최초로 불교의 고통론과 무집착을 자신의 철학에 수용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wittgenstein",
+    "target": "buddha",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "비트겐슈타인의 '말할 수 없는 것에 대한 침묵'과 붓다의 무기(無記)는 구조적으로 유사하다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "heidegger",
+    "target": "dogen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "하이데거의 존재 사유와 도겐의 선 수행은 존재의 시간성에 대한 동서양의 병행적 탐구이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "meister-eckhart",
+    "target": "shankara-hindu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "에크하르트의 신비적 합일과 샹카라의 불이일원은 동서양 신비주의의 구조적 유사성을 보여준다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "plotinus",
+    "target": "shankara-hindu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "플로티노스의 일자(一者)와 샹카라의 브라흐만은 궁극적 실재에 대한 동서양의 유사한 통찰이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "buber",
+    "target": "thich-nhat-hanh",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "부버의 나-너 관계와 틱낫한의 상호존재(interbeing)는 관계적 존재론의 동서양 버전이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nietzsche",
+    "target": "vivekananda-hindu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "니체와 비베카난다는 같은 시대에 각각 서양의 허무주의와 동양의 베단타를 통해 인간 초월을 설파했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "confucius",
+    "target": "hillel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "공자의 '기소불욕 물시어인'과 힐렐의 황금률은 동서양 윤리의 핵심적 유사점이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "laozi",
+    "target": "heraclitus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "노자의 도(道)의 변화와 헤라클레이토스의 로고스적 변화는 동서양 자연철학의 구조적 유사성을 보여준다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zhuangzi",
+    "target": "pyrrho",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "장자의 제물론과 피론의 판단유보는 인식론적 상대주의에서 동서양 유사성을 보여준다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zhuangzi",
+    "target": "diogenes-sinope",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "장자의 자연스러움과 디오게네스의 견유주의는 사회적 관습 거부에서 동서양 유사성을 보인다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "wang-yangming",
+    "target": "descartes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "왕양명의 양지(良知)와 데카르트의 코기토는 주관적 확실성의 동서양 버전이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nagarjuna",
+    "target": "wittgenstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "나가르주나의 공(空) 사상과 비트겐슈타인의 언어 한계론은 형이상학적 독단 비판에서 유사하다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "confucius",
+    "target": "plato",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "공자와 플라톤은 각각 동서양에서 이상적 통치자와 교육의 중요성을 역설한 병행적 사상가이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mencius",
+    "target": "aristotle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "맹자의 성선설과 아리스토텔레스의 덕 윤리학은 인간 본성의 도덕적 잠재력을 강조한다는 점에서 유사하다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "xunzi",
+    "target": "hobbes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "순자의 성악설과 홉스의 자연 상태론은 인간 본성에 대한 비관적 시각에서 동서양 유사성을 보인다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thales",
+    "target": "pythagoras",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "탈레스의 자연철학적 탐구는 피타고라스의 수학적 세계관에 선행적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "heraclitus",
+    "target": "empedocles",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤라클레이토스의 변화 사상은 엠페도클레스의 4원소론에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "empedocles",
+    "target": "democritus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "엠페도클레스의 원소론은 데모크리토스의 원자론 형성에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "anaxagoras",
+    "target": "democritus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아낙사고라스의 누스(정신) 개념은 데모크리토스의 원자론 체계에 비판적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "pythagoras",
+    "target": "parmenides",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "피타고라스의 수학적 사유는 파르메니데스의 존재론적 탐구에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "xenophanes",
+    "target": "heraclitus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "크세노파네스의 종교 비판은 헤라클레이토스의 독립적 사유에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "heidegger",
+    "target": "marcel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하이데거의 존재론은 마르셀의 기독교 실존주의에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "heidegger",
+    "target": "merleau-ponty",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하이데거의 현상학적 존재론은 메를로-퐁티의 신체 현상학에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "heidegger",
+    "target": "foucault",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하이데거의 존재 역사관은 푸코의 계보학적 방법론에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "locke",
+    "target": "hume",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "로크의 경험론은 흄의 급진적 경험주의에 직접적 철학적 기초를 제공했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "berkeley",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "버클리의 관념론은 칸트의 비판철학 형성에 중요한 자극이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hume",
+    "target": "bentham",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "흄의 도덕감정론은 벤담의 공리주의 윤리학의 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kant",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칸트의 비판철학은 헤겔 변증법의 출발점이자 극복 대상이었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "fichte",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "피히테의 변증법적 자아론은 마르크스의 변증법적 유물론에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "schelling",
+    "target": "kierkegaard",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "셸링의 후기 적극철학은 키르케고르의 실존적 사유에 직접적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "schelling",
+    "target": "schopenhauer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "셸링과 쇼펜하우어는 독일 관념론의 방향에 대해 근본적 견해 차이를 보였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kierkegaard",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "키르케고르와 니체는 독립적으로 실존적 사유를 개척한 실존주의의 양대 선구자이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jaspers",
+    "target": "heidegger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "야스퍼스와 하이데거는 실존철학의 두 축으로 초기 친구였으나 나치 시대에 갈라졌다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sartre",
+    "target": "levinas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "사르트르와 레비나스는 프랑스 현상학의 두 갈래로 자아와 타자를 각각 탐구했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "camus",
+    "target": "merleau-ponty",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "카뮈와 메를로-퐁티는 전후 프랑스에서 실존주의와 현상학을 각각 탐구했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "moore",
+    "target": "wittgenstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "무어의 상식 철학은 비트겐슈타인의 후기 철학에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "russell",
+    "target": "popper",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "러셀의 논리적 분석은 포퍼의 과학철학 방법론에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "carnap",
+    "target": "kuhn",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카르납의 논리실증주의는 쿤이 비판하고 극복한 과학관의 핵심이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "quine",
+    "target": "kripke",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "콰인의 분석-종합 구분 비판은 크립키의 양상 형이상학에 중요한 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wittgenstein",
+    "target": "davidson",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "비트겐슈타인의 언어철학은 데이비슨의 진리 조건적 의미론에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "frege",
+    "target": "carnap",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프레게의 논리주의는 카르납의 논리실증주의의 직접적 철학적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "lakatos",
+    "target": "feyerabend",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "라카토슈와 파이어아벤트는 과학적 방법론의 합리성에 대해 근본적 논쟁을 벌였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marx",
+    "target": "sartre",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 유물론은 사르트르의 실존적 마르크스주의에 핵심적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "marx",
+    "target": "foucault",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 권력과 이데올로기 분석은 푸코의 권력-지식 이론에 비판적으로 수용되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "marx",
+    "target": "de-beauvoir",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 해방 이론은 보부아르의 여성 해방론에 이론적 틀을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "derrida",
+    "target": "lyotard",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "데리다와 리오타르는 포스트구조주의/포스트모던 사유의 프랑스 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "foucault",
+    "target": "lyotard",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "푸코와 리오타르는 포스트모던 사상의 두 축으로 각각 권력과 서사를 분석했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "william-james",
+    "target": "de-beauvoir",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "윌리엄 제임스의 실용주의적 의식론은 보부아르의 실존적 자유 개념에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "locke",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "로크의 자유주의적 정치철학은 칸트의 도덕적 자율성 개념에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rousseau",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루소의 일반의지 개념은 헤겔의 인륜성(Sittlichkeit) 이론에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rousseau",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루소의 불평등 분석은 마르크스의 사회적 불평등 비판의 선구적 사례가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bentham",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "벤담의 공리주의와 마르크스의 사회주의는 정의에 대한 근본적으로 다른 접근이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-stuart-mill",
+    "target": "russell",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "밀의 경험주의와 자유주의는 러셀의 철학적·정치적 사상에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-smith",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아담 스미스의 시민사회론은 헤겔의 법철학에서 시민사회 분석에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "confucius",
+    "target": "zhuangzi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "공자의 유교 사상은 장자가 비판적으로 대응한 핵심 대상이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mencius",
+    "target": "wang-yangming",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "맹자의 양지(良知) 개념은 왕양명의 양명학의 직접적 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "xunzi",
+    "target": "chanakya",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "순자의 현실주의 정치관과 차나키아의 실리정치론은 동서양 현실정치의 유사한 접근이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nagarjuna",
+    "target": "asanga",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "나가르주나의 중관학은 아상가가 유식학으로 발전시킨 핵심 토대가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nagarjuna",
+    "target": "vasubandhu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "나가르주나의 공(空) 사상은 바수반두의 유식론 형성에 중요한 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vasubandhu",
+    "target": "zhiyi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "바수반두의 불교 논리학은 지의의 천태 교학 체계에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bodhidharma",
+    "target": "dogen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보리달마의 선(禪) 전통은 도겐의 일본 조동종 선 수행의 근원이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "huineng",
+    "target": "zhu-xi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "혜능의 선불교 돈오(頓悟)는 주희의 성리학적 수양론에 비판적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "wonhyo",
+    "target": "huineng",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "원효의 화쟁(和諍)과 혜능의 남종선은 불교 내 독창적 동아시아 사유를 보여준다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tsongkhapa",
+    "target": "nagarjuna-buddhist",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "쫑카파는 나가르주나의 중관학을 겔룩파 교학으로 체계적으로 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kumarajiva",
+    "target": "zhiyi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "구마라집의 경전 번역은 지의의 천태 교학 형성에 결정적 자료를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "patanjali",
+    "target": "shankara-hindu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "파탄잘리의 요가 체계는 샹카라의 베단타 수행론에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "shankara-hindu",
+    "target": "madhvacharya",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "샹카라의 불이일원론과 마드바의 이원론은 베단타 내 근본적 견해 대립을 보여준다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ramanuja-hindu",
+    "target": "madhvacharya",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "라마누자의 제한적 비이원론은 마드바의 이원론적 베단타에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ramakrishna",
+    "target": "dalai-lama-14",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "라마크리슈나와 달라이 라마는 각각 힌두교와 불교에서 종교간 대화와 보편적 영성을 강조했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vivekananda-hindu",
+    "target": "aurobindo-hindu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "비베카난다의 근대 힌두교 개혁은 오로빈도의 통합적 영성에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "laozi",
+    "target": "buddha",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "노자와 붓다는 비슷한 시기에 각각 도교와 불교를 통해 집착 초월을 가르쳤다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "confucius",
+    "target": "buddha",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "공자와 붓다는 같은 시대에 각각 동아시아와 남아시아에서 인류의 위대한 사상 체계를 세웠다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nagarjuna",
+    "target": "laozi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "나가르주나의 공(空)과 노자의 무(無)는 궁극적 실재의 비실체성에서 유사한 통찰을 보여준다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mozi",
+    "target": "buddha",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "묵자의 겸애(兼愛)와 붓다의 자비(慈悲)는 보편적 사랑의 동아시아적 병행이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "galileo",
+    "target": "kepler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "갈릴레오와 케플러는 같은 시대에 코페르니쿠스 체계를 각각 실험과 수학으로 발전시켰다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "maxwell",
+    "target": "lorentz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "맥스웰의 전자기학은 로렌츠의 전자론과 로렌츠 변환의 직접적 토대가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "bohr",
+    "target": "wolfgang-pauli",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보어의 원자 모형은 파울리의 배타원리 발견의 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dirac",
+    "target": "weinberg",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "디랙의 양자장론은 와인버그의 전약통일 이론의 물리적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "feynman",
+    "target": "weinberg",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "파인만의 양자전기역학은 와인버그의 전약통일 이론에 방법론적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gell-mann",
+    "target": "weinberg",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "겔만의 쿼크 모형과 와인버그의 전약이론은 표준모형의 양대 축이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "einstein",
+    "target": "penrose",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아인슈타인의 일반 상대성이론은 펜로즈의 특이점 정리의 물리적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "schrodinger",
+    "target": "feynman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "슈뢰딩거의 파동역학은 파인만의 경로적분 방법론의 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rutherford",
+    "target": "heisenberg",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "러더퍼드의 원자핵 발견은 하이젠베르크의 양자역학에 실험적 기초를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "fermi",
+    "target": "gell-mann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "페르미의 약한 상호작용 이론은 겔만의 쿼크 모형 발전에 기여했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "penrose",
+    "target": "witten",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "펜로즈와 위튼은 수학적 물리학에서 각각 트위스터 이론과 끈이론을 탐구했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dirac",
+    "target": "oppenheimer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "디랙과 오펜하이머는 양자역학의 발전기에 이론물리학을 함께 개척한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "oppenheimer",
+    "target": "bohr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보어의 양자역학은 오펜하이머의 이론물리학 연구의 토대가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "yukawa",
+    "target": "fermi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "유카와와 페르미는 핵력의 이론적 이해에 각각 기여한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "wu-chien-shiung",
+    "target": "fermi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "우젠슝은 페르미와 맨해튼 프로젝트에서 협력하며 핵반응 연구에 기여했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jj-thomson",
+    "target": "bohr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "톰슨의 전자 발견은 보어의 원자 모형에 실험적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "faraday",
+    "target": "kelvin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "패러데이의 전자기 실험은 켈빈의 열역학과 전자기 이론에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "boyle",
+    "target": "lavoisier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보일의 화학적 원소 개념은 라부아지에의 근대 화학 혁명에 선행적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "huygens",
+    "target": "hooke",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "호이겐스와 훅은 빛의 파동설과 현미경 관찰에서 각각 기여한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "volta",
+    "target": "ampere",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "볼타의 전지 발명은 앙페르의 전자기학 연구에 실험적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ampere",
+    "target": "maxwell",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "앙페르의 전류 법칙은 맥스웰의 전자기장 이론의 핵심 구성 요소가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ohm",
+    "target": "kelvin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "옴의 법칙은 켈빈의 전기 회로 이론에 기초를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "becquerel",
+    "target": "marie-curie",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베크렐의 방사능 발견은 퀴리 부인의 방사능 연구의 직접적 출발점이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "marie-curie",
+    "target": "bohr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "퀴리 부인과 보어는 원자 물리학의 실험적·이론적 발전에 각각 기여한 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "chandrasekhar",
+    "target": "penrose",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "찬드라세카르의 백색왜성 한계는 펜로즈의 블랙홀 특이점 연구에 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jocelyn-bell-burnell",
+    "target": "penrose",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "조슬린 벨 버넬의 펄서 발견과 펜로즈의 블랙홀 이론은 천체물리학의 핵심 발전이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gauss",
+    "target": "abel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "가우스의 수론은 아벨의 대수학적 연구에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gauss",
+    "target": "cantor",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "가우스의 무한 개념에 대한 논의는 칸토어의 집합론 발전에 자극을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "cantor",
+    "target": "hilbert",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칸토어의 집합론은 힐베르트의 수학 기초론 프로그램의 핵심 주제가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cantor",
+    "target": "russell",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칸토어의 집합론은 러셀의 논리주의와 러셀 역설의 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "riemann",
+    "target": "hilbert",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "리만의 기하학과 해석학은 힐베르트의 수학적 업적에 직접적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "euler",
+    "target": "riemann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "오일러의 해석학과 정수론은 리만의 수학적 업적의 중요한 토대가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "godel",
+    "target": "von-neumann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "괴델과 폰 노이만은 수학 기초론과 계산이론에서 동시대에 혁명적 기여를 했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "alonzo-church",
+    "target": "godel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "처치와 괴델은 계산가능성과 결정문제에 대해 독립적으로 핵심 결과를 얻었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "grothendieck",
+    "target": "hilbert",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "힐베르트의 추상 대수학적 방법론은 그로텐디크의 대수기하학에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sophie-germain",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "오일러의 정수론은 소피 제르맹의 수론 연구에 직접적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hippocrates",
+    "target": "paracelsus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "히포크라테스의 체액 의학은 파라셀수스가 비판적으로 극복한 전통 의학의 핵심이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "linnaeus",
+    "target": "lamarck",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "린네의 분류학 체계는 라마르크의 진화론적 분류에 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mendel",
+    "target": "watson",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "멘델의 유전 법칙은 왓슨-크릭의 DNA 이중나선 발견으로 분자적으로 설명되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "darwin",
+    "target": "pasteur",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "다윈과 파스퇴르는 19세기에 각각 진화론과 세균학으로 생명과학을 혁신한 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pasteur",
+    "target": "lister",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "파스퇴르의 세균론은 리스터의 외과 소독법 발전에 직접적 영감을 주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "koch",
+    "target": "alexander-fleming",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "코흐의 세균학은 플레밍의 페니실린 발견에 미생물학적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "darwin",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "다윈의 진화론적 관점은 카할의 신경계 진화에 대한 사유에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "harvey",
+    "target": "leeuwenhoek",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하비의 혈액순환론은 레벤후크의 미세혈관 관찰의 이론적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "rosalind-franklin",
+    "target": "linus-pauling",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "프랭클린과 폴링은 DNA 구조 발견 경쟁에서 각각 중요한 역할을 한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mcclintock",
+    "target": "crick",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "매클린톡의 전위유전자 발견과 크릭의 분자생물학은 유전학의 양대 혁신이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "knuth",
+    "target": "von-neumann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "폰 노이만의 컴퓨터 아키텍처는 크누스의 알고리즘 분석에 기초를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "claude-shannon",
+    "target": "knuth",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "섀넌의 정보이론은 크누스의 컴퓨터 프로그래밍 분석에 이론적 토대를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "berners-lee",
+    "target": "claude-shannon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "섀넌의 정보이론은 버너스리의 월드와이드웹 구상에 기초적 개념을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "machiavelli",
+    "target": "napoleon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마키아벨리의 군주론은 나폴레옹의 정치적·군사적 전략에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rousseau",
+    "target": "george-washington",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루소의 사회계약론은 미국 건국의 아버지들에게 정치적 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-smith",
+    "target": "abraham-lincoln",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아담 스미스의 자유 경제 사상은 링컨의 경제 정책에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "montesquieu",
+    "target": "thomas-paine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "몽테스키외의 삼권분립론은 페인의 공화주의 사상에 직접적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "marx",
+    "target": "ataturk",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 근대화 이론은 아타튀르크의 터키 근대화 정책에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "nietzsche",
+    "target": "aung-san-suu-kyi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "니체의 개인적 의지 사상은 아웅산 수치의 정치적 저항 정신과 시대를 넘어 대비된다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "confucius",
+    "target": "meiji-emperor",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "공자의 유교적 통치 이념은 메이지 천황의 근대 일본 건설에 문화적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sun-tzu",
+    "target": "mao-zedong",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "손자의 병법은 마오쩌둥의 유격전 전략에 직접적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sun-tzu",
+    "target": "alexander-the-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "손자와 알렉산드로스는 동서양에서 각각 전략적 사유의 원형을 보여준다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "machiavelli",
+    "target": "bismarck",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마키아벨리의 현실정치론은 비스마르크의 프로이센 통일 정책에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hobbes",
+    "target": "louis-xiv",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "홉스의 절대주권론은 루이 14세의 절대왕정 통치의 이론적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "montesquieu",
+    "target": "simon-bolivar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "몽테스키외의 삼권분립론은 볼리바르의 라틴아메리카 공화국 건설에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nietzsche",
+    "target": "tolstoy",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "니체의 권력의지와 톨스토이의 비폭력주의는 같은 시대에 극명히 대비되는 인생관을 보여준다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "schopenhauer",
+    "target": "kafka",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "쇼펜하우어의 비관주의와 의지 철학은 카프카의 부조리한 문학 세계에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "camus",
+    "target": "kafka",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카프카의 부조리 문학은 카뮈의 실존적 부조리 철학에 직접적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wittgenstein",
+    "target": "kafka",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "비트겐슈타인의 언어 한계와 카프카의 소통 불가능성은 근대적 표현의 위기를 함께 보여준다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "confucius",
+    "target": "murasaki-shikibu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "공자의 유교적 예(禮) 문화는 무라사키 시키부의 『겐지모노가타리』의 문화적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "martin-luther",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루터의 종교개혁은 엘리자베스 1세의 영국 국교회 정책에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad",
+    "target": "saladin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "무함마드의 이슬람은 살라딘의 통치 이념과 전쟁 윤리의 근본적 토대였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad",
+    "target": "suleiman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "무함마드의 이슬람은 술레이만 대제의 오스만 제국 통치의 종교적 기초였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad",
+    "target": "akbar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "무함마드의 이슬람 교리는 아크바르 대제의 종교 관용 정책의 출발점이었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "ashoka",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "붓다의 가르침은 아소카 왕의 비폭력 통치와 불교 전파 정책에 결정적 영향을 주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "dalai-lama-14",
+    "target": "mandela",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "달라이 라마와 만델라는 현대에 비폭력과 인권을 위해 헌신한 동시대의 도덕적 지도자이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dalai-lama-14",
+    "target": "martin-luther-king",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "달라이 라마와 킹 목사는 비폭력 저항을 통한 사회 변혁을 추구한 종교적 지도자이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thich-nhat-hanh",
+    "target": "martin-luther-king",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "틱낫한과 킹 목사는 각각 불교와 기독교의 비폭력 평화운동을 이끈 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "galileo",
+    "target": "julius-caesar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "갈릴레오의 율리우스력 개혁 계승은 카이사르가 도입한 달력 체계와 연결된다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "leonardo-da-vinci",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "레오나르도 다 빈치와 코페르니쿠스는 르네상스 시대에 각각 예술과 과학을 혁신한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "oppenheimer",
+    "target": "eisenhower",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "오펜하이머와 아이젠하워는 핵무기 정책을 둘러싸고 복잡한 관계를 맺은 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "newton",
+    "target": "louis-xiv",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "뉴턴과 루이 14세는 같은 시대에 각각 과학과 정치에서 절대적 권위를 구축한 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "copernicus",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "코페르니쿠스와 마르틴 루터는 16세기에 각각 우주관과 교회를 혁명적으로 변화시킨 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "galileo",
+    "target": "shakespeare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "갈릴레오와 셰익스피어는 같은 시대에 각각 자연과 인간 본성을 탐구한 르네상스 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "darwin",
+    "target": "abraham-lincoln",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "다윈과 링컨은 같은 날(1809년 2월 12일) 태어나 각각 생물학과 정치에서 혁명적 변화를 이끌었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "einstein",
+    "target": "churchill",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아인슈타인과 처칠은 나치에 대항하여 각각 과학과 정치에서 20세기 역사를 형성했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "plato",
+    "target": "michelangelo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플라톤의 이데아론과 미의 본질에 대한 사유는 미켈란젤로의 이상적 인체 표현에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hegel",
+    "target": "wagner",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤겔의 총체예술과 역사철학은 바그너의 총체예술(Gesamtkunstwerk) 개념에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "goethe",
+    "target": "mozart",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "괴테와 모차르트는 18세기 유럽 문화의 양대 천재로 상호 영향 관계에 있었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "picasso",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "피카소의 입체파와 아인슈타인의 상대성이론은 각각 예술과 과학에서 시공간 인식을 혁명적으로 변화시켰다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "stravinsky",
+    "target": "picasso",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "스트라빈스키와 피카소는 20세기 초 파리에서 각각 음악과 미술의 전위를 이끈 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kafka",
+    "target": "virginia-woolf",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "카프카와 버지니아 울프는 20세기 초 모더니즘 문학의 양대 혁신자였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "james-joyce",
+    "target": "kafka",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "제임스 조이스와 카프카는 모더니즘 문학에서 의식의 흐름과 부조리를 각각 탐구한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tagore",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "타고르와 아인슈타인은 1930년 만남에서 진리와 실재의 본성에 대해 유명한 대화를 나누었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rumi",
+    "target": "meister-eckhart",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "루미의 수피 신비주의와 에크하르트의 기독교 신비주의는 신과의 합일을 추구하는 유사성을 보인다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rumi",
+    "target": "john-of-cross",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "루미의 신적 사랑 시와 십자가의 성 요한의 영혼의 어두운 밤은 신비적 합일의 동서양 표현이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "al-ghazali",
+    "target": "thomas-aquinas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "가잘리와 아퀴나스는 각각 이슬람과 기독교에서 이성과 신앙의 조화를 추구한 병행적 사상가이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jesus",
+    "target": "muhammad",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "이슬람에서 예수(이사)는 무함마드에 선행하는 중요한 예언자로 존중된다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "paul",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "바울의 의인화(義認化) 교리는 루터의 종교개혁의 신학적 핵심이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "paul",
+    "target": "john-calvin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "바울의 예정론적 신학은 칼뱅의 이중예정론의 성서적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "meister-eckhart",
+    "target": "john-of-cross",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "에크하르트의 신비신학은 십자가의 성 요한의 카르멜 신비주의에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "meister-eckhart",
+    "target": "teresa-avila",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "에크하르트의 탈존과 아빌라의 테레사의 내적 성은 기독교 신비주의의 두 정점이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "francis-assisi",
+    "target": "dalai-lama-14",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "프란치스코와 달라이 라마는 각각 기독교와 불교에서 자비와 생태적 영성을 강조한 지도자이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zoroaster",
+    "target": "buddha",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "조로아스터와 붓다는 축의 시대에 각각 이란과 인도에서 윤리적 종교를 창시한 병행적 인물이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zoroaster",
+    "target": "jesus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "조로아스터교의 이원론과 종말론은 유대-기독교의 천사론과 묵시론에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "rashi",
+    "target": "nachmanides",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "라시의 성서 주석은 나흐마니데스의 주석 방법론에 직접적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "saadia-gaon",
+    "target": "al-farabi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "사아디아 가온과 알-파라비는 이슬람 황금시대에 각각 유대교와 이슬람의 이성적 신학을 발전시킨 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "maimonides",
+    "target": "ibn-rushd",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마이모니데스와 이븐 루시드는 12세기에 각각 유대교와 이슬람에서 아리스토텔레스 철학을 수용한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pericles",
+    "target": "phidias",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "페리클레스와 피디아스는 아테네의 파르테논 건설 프로젝트에서 정치와 예술로 협력했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "charlemagne",
+    "target": "al-khwarizmi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "샤를마뉴와 알-콰리즈미는 같은 시대에 유럽과 이슬람 세계에서 학문 부흥을 이끌었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thomas-aquinas",
+    "target": "dante",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "토마스 아퀴나스의 신학 체계는 단테의 『신곡』의 신학적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "leonardo-da-vinci",
+    "target": "machiavelli",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "레오나르도와 마키아벨리는 르네상스 피렌체에서 각각 예술/과학과 정치를 혁신한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hobbes",
+    "target": "descartes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "홉스와 데카르트는 17세기에 각각 정치철학과 인식론을 혁신한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hume",
+    "target": "rousseau",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "흄과 루소는 만남과 결별을 통해 계몽주의 내 경험론과 감성론의 긴장을 보여주었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kant",
+    "target": "herder",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "칸트는 헤르더의 스승으로, 이성적 보편주의를 가르쳤으나 헤르더는 문화적 다원주의로 나아갔다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "diderot",
+    "target": "rousseau",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "디드로와 루소는 초기 친구였으나 사상적 차이로 결별한 프랑스 계몽주의의 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kierkegaard",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "키르케고르와 마르크스는 같은 시대에 각각 실존과 사회로부터 헤겔에 반기를 들었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-stuart-mill",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "밀과 마르크스는 19세기에 자유주의와 사회주의라는 상반된 사회 이론을 제시한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "locke",
+    "target": "leibniz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "로크의 경험론과 라이프니츠의 합리론은 인식론에서 근본적으로 대립했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hegel",
+    "target": "schopenhauer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "헤겔의 절대 관념론과 쇼펜하우어의 의지 철학은 독일 철학에서 근본적으로 대립했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pythagoras",
+    "target": "kepler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "피타고라스의 천체 조화론은 케플러의 행성 운동 법칙 탐구에 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "roger-bacon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 자연철학은 로저 베이컨의 실험적 방법론 추구에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "francis-bacon",
+    "target": "harvey",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베이컨의 실험적 방법론은 하비의 혈액순환 실험에 방법론적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "leibniz",
+    "target": "babbage",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "라이프니츠의 계산기 구상과 이진법은 배비지의 해석기관 설계에 선구적 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "lavoisier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 4원소론은 라부아지에가 근대 화학으로 대체한 고전적 체계였다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "locke",
+    "target": "linnaeus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "로크의 분류적 인식론은 린네의 생물 분류학의 인식론적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "descartes",
+    "target": "harvey",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "데카르트와 하비는 17세기에 각각 기계론적 철학과 생리학을 발전시킨 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hume",
+    "target": "lavoisier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "흄과 라부아지에는 18세기에 각각 경험론과 근대 화학으로 이성적 탐구를 추구했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "descartes",
+    "target": "huygens",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "데카르트의 기계론적 자연관은 호이겐스의 물리학에 철학적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kant",
+    "target": "lamarck",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "칸트의 자연사 관념과 라마르크의 진화론은 18세기 자연의 역사성에 대한 새로운 인식을 반영했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kuhn",
+    "target": "planck",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플랑크의 양자 혁명은 쿤의 과학혁명 구조론에서 패러다임 전환의 대표적 사례가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "comte",
+    "target": "spencer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "콩트의 실증주의는 스펜서의 사회진화론에 방법론적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "william-james",
+    "target": "pavlov",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "윌리엄 제임스와 파블로프는 각각 기능주의 심리학과 조건반사 연구로 심리학을 과학화했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "schopenhauer",
+    "target": "pavlov",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "쇼펜하우어의 의지 개념은 파블로프의 본능적 반응 연구에 간접적 철학적 배경을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "archimedes",
+    "target": "torricelli",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아르키메데스의 유체역학은 토리첼리의 대기압 실험의 이론적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "torricelli",
+    "target": "pascal-scientist",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "토리첼리의 진공 실험은 파스칼의 대기압 실험에 직접적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kepler",
+    "target": "halley",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "케플러의 행성 운동 법칙은 핼리의 혜성 궤도 계산에 핵심적 도구가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hooke",
+    "target": "boyle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "훅과 보일은 왕립학회에서 실험 과학의 발전에 함께 기여한 동료였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "boyle",
+    "target": "priestley",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보일의 기체 법칙은 프리스틀리의 기체 화학 실험에 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "priestley",
+    "target": "dalton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프리스틀리의 산소 발견은 돌턴의 원자론 형성에 화학적 기초를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "dalton",
+    "target": "berzelius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "돌턴의 원자론은 베르셀리우스의 화학 원소 분석에 이론적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "berzelius",
+    "target": "kekule",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베르셀리우스의 화학적 원소론은 케쿨레의 유기화학 구조론에 기초를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "kekule",
+    "target": "linus-pauling",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "케쿨레의 화학 결합 이론은 폴링의 화학 결합론에 선구적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "helmholtz",
+    "target": "planck",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헬름홀츠의 열역학은 플랑크의 흑체복사 연구의 직접적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hertz",
+    "target": "jj-thomson",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤르츠의 전자기파 실험은 톰슨의 전자 발견에 실험적 영감을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "rayleigh",
+    "target": "bohr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "레일리의 분광학 연구는 보어의 원자 모형에 실험적 기초를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "schwinger",
+    "target": "weinberg",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "슈윙거의 양자장론은 와인버그의 전약통일 이론에 방법론적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dirac",
+    "target": "gell-mann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "디랙의 양자장론은 겔만의 쿼크 모형의 이론적 기초가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hubble",
+    "target": "hawking",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "허블의 팽창우주론은 호킹의 우주론적 연구에 관측적 기초를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "vera-rubin",
+    "target": "hawking",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "베라 루빈의 암흑물질 증거와 호킹의 블랙홀 연구는 현대 우주론의 핵심 기여였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gauss",
+    "target": "helmholtz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "가우스의 수학적 방법론은 헬름홀츠의 물리학 연구에 수학적 도구를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "humboldt",
+    "target": "gauss",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "훔볼트와 가우스는 19세기 초 과학적 탐구에서 자연과학과 수학을 대표하는 독일의 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "cantor",
+    "target": "godel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칸토어의 집합론과 대각선 논법은 괴델의 불완전성 정리에 핵심적 수학적 기법을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hilbert",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "힐베르트와 아인슈타인은 일반 상대성이론의 장 방정식을 거의 동시에 도출했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "norbert-wiener",
+    "target": "von-neumann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "위너와 폰 노이만은 사이버네틱스와 컴퓨터 과학의 기초를 함께 놓은 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vesalius",
+    "target": "leonardo-da-vinci",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "레오나르도의 해부학적 스케치는 베살리우스의 체계적 해부학 연구에 선구적 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "semmelweis",
+    "target": "lister",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "제멜바이스의 소독 실천은 리스터의 외과 소독법의 선구적 사례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-jenner",
+    "target": "koch",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "제너의 천연두 백신 개발은 코흐의 세균학 연구에 선구적 의학적 배경을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "linus-pauling",
+    "target": "watson",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "폴링과 왓슨은 DNA 구조 발견 경쟁에서 각각 화학적·생물학적 접근을 취한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "watson",
+    "target": "richard-dawkins",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "왓슨의 분자생물학 혁명은 도킨스의 이기적 유전자 이론의 과학적 기초가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sagan",
+    "target": "hawking",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "세이건과 호킹은 현대 과학 대중화의 양대 거인으로 우주론을 대중에게 전파했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ptolemy",
+    "target": "ibn-al-haytham",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프톨레마이오스의 광학은 이븐 알-하이삼의 광학 혁명에 비판적으로 수용되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tycho-brahe",
+    "target": "galileo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "티코 브라헤와 갈릴레오는 각각 관측과 실험으로 천문학을 혁신한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "copernicus",
+    "target": "tycho-brahe",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "코페르니쿠스의 태양중심설은 티코 브라헤의 정밀한 천체 관측의 동기가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "herschel",
+    "target": "cecilia-payne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "허셜의 항성 분류학은 세실리아 페인의 항성 조성 연구에 천문학적 배경을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "confucius",
+    "target": "sun-tzu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "공자와 손자는 춘추전국시대에 각각 윤리와 전략을 체계화한 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "adam-smith",
+    "target": "george-washington",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아담 스미스의 자유무역론은 미국 건국기의 경제 정책에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "locke",
+    "target": "abraham-lincoln",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "로크의 자연권과 자유 사상은 링컨의 노예 해방 선언의 사상적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "machiavelli",
+    "target": "frederick-douglass",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "마키아벨리의 권력 분석은 더글러스의 정치적 전략에 간접적 배경이 되었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hobbes",
+    "target": "george-washington",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "홉스의 사회계약론은 미국 건국의 정치철학적 배경의 일부가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "homer",
+    "target": "shakespeare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "호메로스의 서사적 전통은 셰익스피어의 비극적 서사에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "dante",
+    "target": "shakespeare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "단테의 문학적 전통은 셰익스피어의 인간 심리 탐구에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "goethe",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "괴테의 문학적 인간관은 마르크스의 소외론에 문화적 배경을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "kafka",
+    "target": "garcia-marquez",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카프카의 비현실적 서사 기법은 가르시아 마르케스의 마술적 리얼리즘에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "monet",
+    "target": "picasso",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "모네의 인상주의 혁신은 피카소의 시각 실험에 선행적 미술사적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "rembrandt",
+    "target": "van-gogh",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "렘브란트의 내면적 표현력은 반 고흐의 감정적 회화에 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "michelangelo",
+    "target": "rembrandt",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "미켈란젤로의 인체 표현은 렘브란트의 인물화에 미술사적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "wagner",
+    "target": "stravinsky",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "바그너의 총체예술은 스트라빈스키가 비판적으로 극복한 음악적 전제였다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "debussy",
+    "target": "monet",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "드뷔시의 인상주의 음악과 모네의 인상주의 회화는 감각적 순간의 포착이라는 공통 지향을 보여준다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jesus",
+    "target": "james-brother",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "예수는 야고보에게 직접 가르침을 전한 형제이자 스승이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "paul",
+    "target": "clement-alexandria",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "바울의 신학은 클레멘스의 알렉산드리아 기독교 사상에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "irenaeus",
+    "target": "tertullian",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "이레나이우스의 정통 교리 방어는 테르툴리아누스의 호교론에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "augustine",
+    "target": "gregory-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아우구스티누스의 신학은 그레고리 대교황의 서방 교회 행정에 신학적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "benedict-nursia",
+    "target": "francis-assisi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베네딕투스의 수도 규칙은 프란치스코의 탁발수도회 이념에 수도원적 배경을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ignatius-loyola",
+    "target": "bonhoeffer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "이냐시오의 영적 수련은 본회퍼의 제자도 사상에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "karl-barth",
+    "target": "pope-john-xxiii",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "바르트와 교황 요한 23세는 20세기에 각각 개신교와 가톨릭의 신학적 쇄신을 이끈 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "muhammad",
+    "target": "umar-ibn-khattab",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "무함마드는 우마르에게 이슬람의 가르침을 직접 전수한 스승이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad",
+    "target": "uthman-ibn-affan",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "무함마드는 우스만에게 이슬람의 가르침을 전수했으며, 우스만은 꾸란을 편찬했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-ghazali",
+    "target": "fakhr-al-din-razi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "가잘리의 신학은 파크르 알-딘 알-라지의 이슬람 신학에 직접적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-arabi",
+    "target": "jafar-al-sadiq",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "자파르 알-사디크의 신비적 해석은 이븐 아라비의 수피 형이상학에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "said-nursi",
+    "target": "muhammad-iqbal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "사이드 누르시와 무함마드 이크발은 20세기 초 이슬람 부흥을 각각 추구한 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "muhammad-abduh",
+    "target": "muhammad-iqbal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "무함마드 압두의 이슬람 개혁론은 이크발의 이슬람 근대화 사상에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "mahavira",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "붓다와 마하비라는 같은 시대 인도에서 각각 불교와 자이나교를 창시한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dogen",
+    "target": "hakuin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "도겐의 조동종 선 전통은 하쿠인의 임제종 선 혁신에 비판적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "xuanzang",
+    "target": "huineng",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "현장법사와 혜능은 당나라 시대에 각각 교학과 선으로 중국 불교를 대표한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "saicho",
+    "target": "kukai",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "사이초와 쿠카이는 일본에 각각 천태종과 진언종을 전한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nichiren",
+    "target": "shinran",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "니치렌과 신란은 가마쿠라 시대에 각각 법화경과 정토교로 일본 불교를 혁신한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ajahn-chah",
+    "target": "mahasi-sayadaw",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아잔 차와 마하시 사야도는 20세기에 각각 태국과 미얀마에서 위빠사나 수행을 이끈 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "buddhadasa",
+    "target": "ajahn-chah",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "붓다다사의 불교 개혁 사상은 아잔 차의 수행 전통에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "vyasa",
+    "target": "patanjali",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "비야사의 베단타 경전은 파탄잘리의 요가 체계에 철학적 기초를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ramakrishna",
+    "target": "ramana-maharshi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "라마크리슈나와 라마나 마하르시는 근대 힌두교에서 직접 체험을 강조한 병행적 성자이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shankara-hindu",
+    "target": "vivekananda-hindu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "샹카라의 불이일원론은 비베카난다의 근대 베단타 해석의 철학적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-ghazali",
+    "target": "maimonides",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "가잘리와 마이모니데스는 각각 이슬람과 유대교에서 이성과 신앙을 조화시킨 병행적 사상가이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "francis-assisi",
+    "target": "rumi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "프란치스코와 루미는 13세기에 각각 기독교와 이슬람에서 신적 사랑을 노래한 병행적 신비가이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "meister-eckhart",
+    "target": "ibn-arabi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "에크하르트와 이븐 아라비는 기독교와 이슬람에서 각각 존재의 단일성을 탐구한 병행적 신비가이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "buddha",
+    "target": "jesus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "붓다와 예수는 각각 동양과 서양에서 고통의 초월과 사랑의 실천을 가르친 세계종교의 창시자이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thich-nhat-hanh",
+    "target": "cs-lewis",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "틱낫한과 C.S. 루이스는 각각 불교와 기독교에서 현대인에게 영성을 전달한 대중적 저술가이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "paul",
+    "target": "philo-of-alexandria",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "바울과 알렉산드리아의 필론은 1세기에 각각 기독교와 유대교의 그리스-히브리 종합을 시도한 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marcus-aurelius",
+    "target": "confucius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "마르쿠스 아우렐리우스의 스토아적 통치와 공자의 인(仁)의 정치는 덕치의 동서양 병행이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "epictetus",
+    "target": "laozi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "에픽테토스의 스토아적 자연 순응과 노자의 무위자연은 동서양 자연주의의 유사성을 보여준다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "epicurus",
+    "target": "zhuangzi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "에피쿠로스의 쾌락주의와 장자의 소요유는 내적 자유를 추구하는 동서양의 유사한 접근이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "seneca",
+    "target": "mencius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "세네카의 도덕적 편지와 맹자의 윤리학은 도덕적 자기 수양의 동서양 전통을 보여준다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "plotinus",
+    "target": "laozi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "플로티노스의 일자(一者)와 노자의 도(道)는 궁극적 원리에 대한 동서양의 유사한 직관이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "aristotle",
+    "target": "confucius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "아리스토텔레스의 중용(mesotes)과 공자의 중용(中庸)은 윤리적 균형의 동서양 병행이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "heraclitus",
+    "target": "zhuangzi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "헤라클레이토스의 만물유전과 장자의 변화 사상은 역동적 세계관의 동서양 유사성을 보여준다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "descartes",
+    "target": "zhu-xi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "데카르트의 이원론과 주희의 이기론은 세계의 이원적 구조에 대한 동서양의 병행적 사유이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hume",
+    "target": "nagarjuna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "흄의 인과 회의론과 나가르주나의 연기 분석은 실체적 인과에 대한 동서양 비판의 유사성을 보여준다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kant",
+    "target": "zhu-xi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "칸트의 도덕 형이상학과 주희의 성리학은 이성과 도덕의 관계에 대한 동서양의 체계적 사유이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "montaigne",
+    "target": "rousseau",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "몽테뉴의 자기성찰적 에세이는 루소의 고백록에 직접적 문학적·철학적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "montaigne",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "몽테뉴의 회의주의와 자기 탐구는 니체의 개인주의적 철학에 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "spinoza",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "스피노자의 유물론적 자연관은 마르크스의 유물론에 철학적 선례를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "pascal",
+    "target": "hume",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "파스칼의 확률론과 종교적 회의는 흄의 인식론적 회의주의에 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "grotius",
+    "target": "hobbes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "그로티우스의 자연법 이론은 홉스의 사회계약론에 법철학적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "erasmus",
+    "target": "montaigne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "에라스무스의 인문주의적 회의는 몽테뉴의 에세이 정신에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "giordano-bruno",
+    "target": "galileo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "브루노의 무한우주론은 갈릴레오의 코페르니쿠스적 세계관에 용기와 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-more",
+    "target": "machiavelli",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "토머스 모어와 마키아벨리는 르네상스 시대에 이상주의와 현실주의 정치론을 각각 대표한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "boethius",
+    "target": "dante",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보에티우스의 『철학의 위안』은 단테의 『신곡』에 철학적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "lucretius",
+    "target": "montaigne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루크레티우스의 유물론은 몽테뉴의 자연주의적 세계관에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "nicholas-of-cusa",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "쿠사의 니콜라우스의 무한 우주론은 코페르니쿠스의 태양중심설에 선구적 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "john-scotus-eriugena",
+    "target": "meister-eckhart",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "에리우게나의 범신론적 자연관은 에크하르트의 신비신학에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "anselm",
+    "target": "abelard",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "안셀무스의 신존재 증명은 아벨라르의 변증법적 신학의 출발점이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "abelard",
+    "target": "thomas-aquinas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아벨라르의 변증법적 방법론은 토마스 아퀴나스의 스콜라 신학에 방법론적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "newton",
+    "target": "lamarck",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "뉴턴의 기계론적 자연관은 라마르크의 자연 법칙 기반 진화론에 배경을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-smith",
+    "target": "napoleon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아담 스미스의 경제 이론은 나폴레옹 시대의 유럽 경제 정책에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "montesquieu",
+    "target": "abraham-lincoln",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "몽테스키외의 삼권분립론은 링컨이 수호한 미국 헌법 체계의 핵심 원리였다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hegel",
+    "target": "bismarck",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤겔의 국가 철학은 비스마르크의 프로이센 국가주의에 간접적 사상적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "marx",
+    "target": "fdr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 사회 분석은 루스벨트의 뉴딜 정책에 간접적으로 자극을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "locke",
+    "target": "simon-bolivar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "로크의 자유주의는 볼리바르의 라틴아메리카 독립 운동에 사상적 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hobbes",
+    "target": "bismarck",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "홉스의 강력한 국가론은 비스마르크의 현실정치에 간접적 사상적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "gramsci",
+    "target": "foucault",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "그람시의 문화적 헤게모니론은 푸코의 권력 분석에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "adorno",
+    "target": "baudrillard",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아도르노의 문화산업 비판은 보드리야르의 시뮬라크르 이론에 비판이론적 배경을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "marcuse",
+    "target": "deleuze",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르쿠제의 에로스와 문명은 들뢰즈의 욕망 철학에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "zizek",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "지젝은 마르크스의 이데올로기 비판을 라캉적 분석으로 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "benjamin",
+    "target": "kafka",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카프카의 문학은 벤야민의 비평적 사유에 핵심적 텍스트였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kristeva",
+    "target": "de-beauvoir",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보부아르의 페미니즘은 크리스테바의 정신분석적 여성 이론에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "irigaray",
+    "target": "de-beauvoir",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보부아르의 여성 해방론은 이리가레의 성차의 철학에 출발점을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "mozi",
+    "target": "mencius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "묵자의 겸애와 맹자의 차등적 인(仁)은 중국 사상에서 보편애와 차등애의 근본적 대립을 보여준다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hegel",
+    "target": "spencer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤겔의 역사 발전론은 스펜서의 사회진화론에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "schopenhauer",
+    "target": "vivekananda-hindu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "쇼펜하우어의 베단타 수용은 비베카난다의 서양 철학과의 대화에 배경을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hobbes",
+    "target": "montesquieu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "홉스의 국가론은 몽테스키외가 비판적으로 극복한 절대주의 이론의 핵심이었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-smith",
+    "target": "spencer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아담 스미스의 자유방임 경제학은 스펜서의 사회적 자유주의에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hume",
+    "target": "popper",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "흄의 귀납 문제는 포퍼의 반증주의 과학철학의 핵심 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "marx",
+    "target": "russell",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 사회 분석은 러셀의 정치적 사회주의 사상에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "merleau-ponty",
+    "target": "foucault",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "메를로-퐁티의 신체 현상학은 푸코의 초기 현상학적 사유에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hegel",
+    "target": "heidegger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤겔의 현상학과 역사성은 하이데거의 존재론적 해석학의 주요 대화 상대였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "descartes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 논리학과 형이상학은 데카르트가 비판적으로 극복한 스콜라 철학의 기초였다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-al-haytham",
+    "target": "galileo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "이븐 알-하이삼의 실험적 광학은 갈릴레오의 실험적 방법론에 간접적 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "euclid",
+    "target": "descartes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "유클리드의 공리적 방법은 데카르트의 분석 기하학과 방법적 회의에 수학적 모델을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "boethius",
+    "target": "john-scotus-eriugena",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보에티우스의 논리학과 신학은 에리우게나의 자연구분론에 학문적 기초를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "abelard",
+    "target": "duns-scotus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아벨라르의 보편자 논쟁은 둔스 스코투스의 형상적 구분론에 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "william-of-ockham",
+    "target": "francis-bacon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "오컴의 면도날과 경험주의는 베이컨의 귀납적 방법론의 중세적 선구가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "al-kindi",
+    "target": "ibn-sina",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "알-킨디의 아리스토텔레스 수용은 이븐 시나의 이슬람 철학 체계에 선행적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-bajja",
+    "target": "ibn-rushd",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "이븐 바자의 철학은 이븐 루시드의 아리스토텔레스 주석에 안달루시아 전통을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-rushd",
+    "target": "spinoza",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "이븐 루시드의 합리주의적 신학은 스피노자의 자연주의적 신관에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "newton",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "뉴턴의 미적분학과 역학은 오일러의 수리물리학 발전의 토대가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "planck",
+    "target": "heisenberg",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플랑크의 양자 가설은 하이젠베르크의 행렬역학 발전에 핵심적 영감을 주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "planck",
+    "target": "schrodinger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플랑크의 양자론은 슈뢰딩거의 파동역학 발전의 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bohr",
+    "target": "feynman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보어의 상보성 원리와 원자 모형은 파인만의 양자전기역학 발전에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "einstein",
+    "target": "feynman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아인슈타인의 광전효과 이론과 상대성이론은 파인만의 물리학적 사유에 깊은 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dirac",
+    "target": "hawking",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "디랙의 양자장론은 호킹의 블랙홀 복사 이론 발전에 수학적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "einstein",
+    "target": "witten",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아인슈타인의 통일장 이론에 대한 꿈은 위튼의 초끈이론 연구에 근본적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "faraday",
+    "target": "helmholtz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "패러데이의 전자기 실험은 헬름홀츠의 에너지 보존 법칙 정립에 중요한 기여를 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "boltzmann",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "볼츠만의 통계역학은 아인슈타인의 브라운 운동 이론과 광양자 가설에 핵심적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "lorentz",
+    "target": "bohr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "로렌츠의 전자 이론은 보어의 원자 모형 발전에 중요한 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rutherford",
+    "target": "fermi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "러더퍼드의 핵물리학 실험은 페르미의 핵반응 연구에 직접적 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "fermi",
+    "target": "von-neumann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "페르미와 폰 노이만은 맨해튼 프로젝트에서 핵폭탄 설계를 위해 긴밀히 협력했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "oppenheimer",
+    "target": "von-neumann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "오펜하이머와 폰 노이만은 맨해튼 프로젝트와 프린스턴 고등연구소에서 함께 활동했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gell-mann",
+    "target": "witten",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "겔만의 쿼크 모형과 입자물리학은 위튼의 초끈이론 연구에 물리적 동기를 부여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "weinberg",
+    "target": "witten",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "와인버그의 전약통일 이론은 위튼의 통일이론 탐구에 중요한 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hubble",
+    "target": "vera-rubin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "허블의 은하 관측과 팽창 우주론은 루빈의 암흑물질 연구에 직접적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kepler",
+    "target": "huygens",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "케플러의 광학 연구는 하위헌스의 빛의 파동이론 발전에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cecilia-payne",
+    "target": "vera-rubin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "세실리아 페인의 천체물리학 선구적 연구는 루빈에게 여성 과학자로서 중요한 선례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "babbage",
+    "target": "von-neumann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "배비지의 해석기관 개념은 폰 노이만의 프로그램 내장형 컴퓨터 아키텍처에 역사적 선례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "alonzo-church",
+    "target": "knuth",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "처치의 람다 대수는 크누스의 프로그래밍 이론과 알고리즘 분석에 수학적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "newton",
+    "target": "lavoisier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "뉴턴의 정량적 과학 방법론은 라부아지에의 근대 화학 확립에 방법론적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "galen",
+    "target": "paracelsus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "파라켈수스는 갈레노스의 체액설을 강력히 비판하고 화학적 의학을 주창했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "koch",
+    "target": "lister",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "코흐의 세균 이론은 리스터의 무균 수술법 발전에 과학적 근거를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "crick",
+    "target": "jennifer-doudna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "크릭의 DNA 이중나선 발견은 다우드나의 크리스퍼 유전자 편집 기술 개발의 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "watson",
+    "target": "jennifer-doudna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "왓슨의 분자생물학 연구는 다우드나의 유전체 편집 기술 발전에 토대를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mendel",
+    "target": "mcclintock",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "멘델의 유전 법칙은 매클린톡의 전위유전자 발견 연구의 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "morgan",
+    "target": "watson",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "모건의 유전학 연구는 왓슨이 DNA 구조를 탐구하게 된 직접적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "lynn-margulis",
+    "target": "richard-dawkins",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "마굴리스의 공생발생설과 도킨스의 이기적 유전자론은 진화의 단위에 대해 근본적으로 대립했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "leeuwenhoek",
+    "target": "koch",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "레이우엔훅의 현미경 관찰 기술은 코흐의 미생물학 연구에 필수적 기반이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "leeuwenhoek",
+    "target": "pasteur",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "레이우엔훅의 미생물 발견은 파스퇴르의 세균학 발전에 역사적 토대를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "landsteiner",
+    "target": "jonas-salk",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "란트슈타이너의 혈액형 발견과 면역학 연구는 솔크의 소아마비 백신 개발에 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "riemann",
+    "target": "poincare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "리만의 미분기하학은 푸앵카레의 위상수학 발전에 핵심적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hilbert",
+    "target": "turing",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "힐베르트의 결정문제는 튜링이 계산가능성 이론을 발전시키는 직접적 동기가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "aryabhata",
+    "target": "brahmagupta",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리아바타의 천문학과 수학은 브라마굽타의 수학적 발전에 직접적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "newton",
+    "target": "gauss",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "뉴턴의 수학적 방법론과 역학은 가우스의 수리물리학에 깊은 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gauss",
+    "target": "fourier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "가우스와 푸리에는 동시대의 수학자로서 수리물리학 발전에 각각 기여했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rayleigh",
+    "target": "jj-thomson",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "레일리는 톰슨의 캐번디시 연구소 선임으로서 실험물리학 전통을 전수했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ohm",
+    "target": "faraday",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "옴과 패러데이는 동시대에 전기 현상을 탐구한 물리학자들이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "fermi",
+    "target": "schwinger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "페르미의 핵물리학 연구는 슈윙거의 양자전기역학 발전에 중요한 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "planck",
+    "target": "fermi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플랑크의 양자론은 페르미의 통계역학과 핵물리학 연구에 근본적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "einstein",
+    "target": "landau",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아인슈타인의 상대성이론은 란다우의 이론물리학 연구에 근본적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bohr",
+    "target": "yukawa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보어의 핵물리학은 유카와의 중간자 이론 발전에 중요한 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "copernicus",
+    "target": "vesalius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "코페르니쿠스와 베살리우스는 동시대에 각각 천문학과 해부학에서 혁명을 이끌었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vesalius",
+    "target": "paracelsus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "베살리우스와 파라켈수스는 르네상스기에 각각 해부학과 화학의학으로 갈레노스 전통에 도전했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "harvey",
+    "target": "boyle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하비의 혈액순환 발견은 보일의 생리학적 실험에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hooke",
+    "target": "leeuwenhoek",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "훅과 레이우엔훅은 동시대에 현미경을 사용한 미세 세계 관찰의 선구자들이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "linnaeus",
+    "target": "humboldt",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "린네의 분류 체계는 훔볼트의 자연지리학과 생물다양성 연구에 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "pasteur",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "파스퇴르와 카할은 동시대에 각각 미생물학과 신경과학에서 획기적 발견을 이루었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "darwin",
+    "target": "mendeleev",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "다윈과 멘델레예프는 동시대에 각각 생물학과 화학에서 자연의 근본적 질서를 발견했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "wu-chien-shiung",
+    "target": "feynman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "우젠슝과 파인만은 동시대에 핵물리학과 양자전기역학에서 각각 획기적 성과를 이루었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "wu-chien-shiung",
+    "target": "dirac",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "디랙의 양자역학은 우젠슝의 베타붕괴 실험에 이론적 배경을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sagan",
+    "target": "feynman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "세이건과 파인만은 칼텍에서 동료로서 과학 대중화에 각각 큰 기여를 했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sophie-germain",
+    "target": "fourier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "소피 제르맹과 푸리에는 동시대의 프랑스 수학자로, 서로의 연구를 알고 있었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "andrew-wiles",
+    "target": "riemann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "리만의 수론 연구는 와일스의 페르마 최종정리 증명에 수학적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "andrew-wiles",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "오일러의 정수론 업적은 와일스의 페르마 최종정리 증명 과정에 역사적 토대가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ramanujan",
+    "target": "hilbert",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "라마누잔과 힐베르트는 동시대에 순수수학의 서로 다른 영역에서 천재성을 발휘했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "popper",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "다윈의 자연선택 이론은 포퍼의 반증주의 과학철학 형성에 중요한 사례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kuhn",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "코페르니쿠스 혁명은 쿤의 과학혁명의 구조에서 패러다임 전환의 대표적 사례로 다루어졌다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "popper",
+    "target": "bohr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "포퍼는 보어의 코펜하겐 해석에 대해 비판적 입장을 취하며 과학적 실재론을 옹호했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "william-james",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "다윈의 진화론은 윌리엄 제임스의 실용주의와 기능주의 심리학에 근본적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "schopenhauer",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "쇼펜하우어의 '의지' 개념은 다윈의 생존투쟁 이론과 철학적으로 유사한 통찰을 담고 있었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "pythagoras",
+    "target": "hippocrates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "피타고라스 학파의 수학적 자연관은 히포크라테스의 체계적 의학에 간접적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "popper",
+    "target": "planck",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플랑크의 양자혁명은 포퍼의 과학철학에서 이론 전환의 중요한 사례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "carnap",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아인슈타인의 상대성이론은 카르납의 논리실증주의 형성에 과학적 모범이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "feyerabend",
+    "target": "galileo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "갈릴레오의 방법론적 다원주의는 파이어아벤트의 《방법에 반대하여》에서 핵심 사례로 분석되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "feyerabend",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아인슈타인의 과학혁명은 파이어아벤트의 방법론적 무정부주의에 중요한 사례를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "lakatos",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아인슈타인의 상대성이론은 라카토슈의 연구 프로그램 방법론에서 핵심 사례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "heidegger",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "하이데거와 아인슈타인은 동시대에 각각 존재의 시간성과 물리적 시공간을 탐구했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "peirce",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "퍼스의 기호학적 과학론과 아인슈타인의 물리학은 동시대에 지식의 본질을 탐구했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "adam-smith",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "애덤 스미스의 경쟁과 분업 이론은 다윈의 자연선택 개념에 간접적 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "lucretius",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루크레티우스의 자연주의적 세계관은 다윈의 진화론적 사유에 고전적 선례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "locke",
+    "target": "lavoisier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "로크의 경험주의적 인식론은 라부아지에의 실험적 화학 방법론에 철학적 배경을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "montaigne",
+    "target": "paracelsus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "몽테뉴와 파라켈수스는 르네상스기에 각각 인문학과 의학에서 기존 권위에 도전했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pythagoras",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "피타고라스 학파의 천체 조화론은 코페르니쿠스의 지동설에 고대적 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "giordano-bruno",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "코페르니쿠스의 지동설은 브루노의 무한우주론 형성에 직접적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "william-of-ockham",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "오컴의 면도날 원리는 코페르니쿠스의 단순한 천문학 체계 추구에 방법론적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-aquinas",
+    "target": "roger-bacon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아퀴나스와 로저 베이컨은 13세기에 각각 스콜라 신학과 경험과학의 발전에 기여했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "paul",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "바울의 서신은 오리게네스의 성경 해석학과 기독교 신학에 핵심적 기초가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "nagarjuna-buddhist",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "붓다의 연기설은 나가르주나의 중관 철학 발전의 근본적 출발점이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "bodhidharma",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "붓다의 선정 전통은 보디다르마의 선불교 개창에 근본적 기초가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "dogen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "붓다의 좌선 수행은 도겐의 조동선 수립에 궁극적 원천이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "milarepa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "붓다의 고행과 깨달음의 이야기는 밀라레파의 수행 여정에 근본적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "moses",
+    "target": "hillel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "모세의 토라는 힐렐의 율법 해석과 유대교 전통 확립의 궁극적 원천이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "moses",
+    "target": "paul",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "모세의 율법은 바울의 율법과 은총 신학의 핵심적 대화 상대가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "augustine",
+    "target": "pascal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아우구스티누스의 은총론은 파스칼의 종교철학과 잔세니즘에 핵심적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "augustine",
+    "target": "kierkegaard",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아우구스티누스의 고백록과 내면적 신앙은 키르케고르의 실존적 기독교 사상에 깊은 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-aquinas",
+    "target": "descartes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아퀴나스의 스콜라 철학은 데카르트가 극복하고자 한 전통적 철학의 대표였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "martin-luther",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루터의 종교개혁은 헤겔이 세계정신의 발전으로 해석한 역사적 전환점이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-calvin",
+    "target": "adam-smith",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칼뱅의 직업윤리와 예정론은 스미스의 자본주의 정신 형성에 간접적으로 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-calvin",
+    "target": "locke",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칼뱅주의의 저항권 사상은 로크의 사회계약론과 시민 자유 개념에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jesus",
+    "target": "tolstoy",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "예수의 산상수훈은 톨스토이의 비폭력 사상과 기독교 아나키즘에 근본적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jesus",
+    "target": "dostoevsky",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "예수의 가르침은 도스토예프스키의 문학에서 구원과 고통의 핵심 주제가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jesus",
+    "target": "martin-luther-king",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "예수의 사랑과 비폭력 가르침은 킹 목사의 민권운동의 영적 기초가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "heidegger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "불교의 무(無)와 공(空) 사상은 하이데거의 존재론과 무(Nichts) 개념에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "불교의 고통에 대한 통찰은 니체의 허무주의 진단과 극복 시도에 대화적 관계를 형성했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "laozi",
+    "target": "heidegger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "노자의 도(道)와 무위 사상은 하이데거의 후기 존재론에 깊은 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "laozi",
+    "target": "spinoza",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "노자의 도와 스피노자의 신즉자연은 범재신론적 자연관에서 구조적 유사성을 보인다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zoroaster",
+    "target": "plato",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "조로아스터의 이원론적 세계관은 플라톤의 선악 대립 구조에 간접적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zoroaster",
+    "target": "augustine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "조로아스터의 선악 이원론은 아우구스티누스의 마니교 경험과 악의 문제 성찰에 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad",
+    "target": "ibn-sina",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "무함마드의 계시와 이슬람 전통은 이븐 시나의 철학적 신학 체계에 근본적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad",
+    "target": "ibn-rushd",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "무함마드의 가르침과 이슬람 전통은 이븐 루시드의 철학과 신학의 조화 시도에 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad",
+    "target": "rumi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "무함마드의 영적 가르침은 루미의 수피 시와 신비주의의 궁극적 원천이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jesus",
+    "target": "augustine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "예수의 가르침은 아우구스티누스의 기독교 신학 체계의 근본적 원천이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jesus",
+    "target": "thomas-aquinas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "예수의 복음은 아퀴나스의 스콜라 신학 대전의 궁극적 기초가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jesus",
+    "target": "kierkegaard",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "예수의 수난과 부활은 키르케고르의 실존적 신앙의 핵심 주제가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "al-ghazali",
+    "target": "hume",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "가잘리의 인과관계 비판과 흄의 인과 회의주의는 8세기의 시차를 두고 놀라운 유사성을 보인다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "meister-eckhart",
+    "target": "heidegger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "에크하르트의 신비적 무(Nichts) 개념은 하이데거의 존재론에 직접적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "meister-eckhart",
+    "target": "schopenhauer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "에크하르트의 초탈(Gelassenheit) 사상은 쇼펜하우어의 의지 부정 개념에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rumi",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "루미의 신비적 합일과 헤겔의 절대정신은 대립의 통합이라는 구조적 유사성을 보인다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "paul",
+    "target": "john-apostle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "바울과 사도 요한은 초대교회에서 각각 서신과 복음서를 통해 기독교 신학의 기초를 놓았다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ignatius-antioch",
+    "target": "polycarp",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "안티오키아의 이그나티우스와 폴리카르프는 사도적 교부로서 초대교회의 신앙을 수호했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "irenaeus",
+    "target": "hippolytus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "이레네우스의 이단 반박론은 히폴리투스의 신학적 작업에 직접적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "cyprian",
+    "target": "augustine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "키프리아누스의 교회론은 아우구스티누스의 교회와 은총 이해에 중요한 선례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gregory-nyssa",
+    "target": "maximus-confessor",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "닛사의 그레고리우스의 신학은 막시무스 고백자의 영적 신학에 깊은 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "gregory-nazianzus",
+    "target": "gregory-nyssa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "나지안주스의 그레고리우스와 닛사의 그레고리우스는 카파도키아 교부로서 삼위일체 교리를 정립했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "al-hallaj",
+    "target": "ibn-arabi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "할라지의 순교적 수피즘은 이븐 아라비의 신비주의 체계에 중요한 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "abu-hanifa",
+    "target": "imam-malik",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아부 하니파와 이맘 말리크는 이슬람 법학의 두 거장으로 각각 하나피파와 말리키파를 창설했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "imam-shafii",
+    "target": "imam-ahmad-ibn-hanbal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "이맘 샤피이는 이맘 아흐마드의 스승으로 이슬람 법학 방법론을 전수했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "umar-ibn-khattab",
+    "target": "ali-ibn-abi-talib",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "우마르와 알리는 정통 칼리프로서 초기 이슬람 공동체의 확립에 함께 기여했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "uthman-ibn-affan",
+    "target": "ali-ibn-abi-talib",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "우스만과 알리는 정통 칼리프로서 초기 이슬람 정치와 종교 발전에 함께 참여했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "huineng",
+    "target": "hakuin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "혜능의 돈오 사상은 하쿠인의 임제선 수행에 핵심적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "nagarjuna-buddhist",
+    "target": "vasubandhu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "나가르주나의 중관학은 바수반두의 유식학 발전에 대화적 배경이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "nagarjuna-buddhist",
+    "target": "asanga",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "나가르주나의 공(空) 사상은 아상가의 유식학이 극복하고자 한 철학적 과제였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "xuanzang",
+    "target": "fazang",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "현장의 불경 번역은 법장의 화엄학 체계 수립에 중요한 텍스트적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zhiyi",
+    "target": "wonhyo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "지의의 천태학은 원효의 통불교적 사유에 중요한 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "honen",
+    "target": "eisai",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "호넨과 에이사이는 가마쿠라 시대에 각각 정토종과 임제선을 확립한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tsongkhapa",
+    "target": "padmasambhava",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "빠드마삼바바의 티베트 불교 전통은 총카파의 겔룩파 개혁의 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vyasa",
+    "target": "shankara-hindu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "비야사의 우파니샤드 전통은 샹카라의 베단타 철학의 궁극적 원천이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "innocent-iii",
+    "target": "francis-assisi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "교황 인노첸시오 3세는 프란치스코의 탁발 수도회를 공식 승인하여 프란치스코회의 탄생을 가능케 했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "innocent-iii",
+    "target": "dominic",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "교황 인노첸시오 3세는 도미니코의 설교 수도회를 지원하여 도미니코회의 확립에 기여했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "cranmer",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루터의 종교개혁 사상은 크랜머의 영국 성공회 신학 형성에 직접적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "cranmer",
+    "target": "john-calvin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칼뱅의 개혁 신학은 크랜머의 성공회 기도서와 교리에 중요한 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "george-fox",
+    "target": "john-wesley",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "폭스의 퀘이커 내면의 빛 사상은 웨슬리의 감리교 영성에 간접적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bahau-llah",
+    "target": "muhammad",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "무함마드의 이슬람 전통은 바하올라의 바하이교 신학의 역사적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "stephen-martyr",
+    "target": "paul",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "스데반의 순교는 바울의 회심에 간접적으로 영향을 미친 것으로 전승된다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "napoleon",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "나폴레옹은 헤겔이 '말 위의 세계정신'으로 묘사한 역사적 인물이었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "abraham-lincoln",
+    "target": "thomas-paine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "페인의 인권 사상은 링컨의 노예해방 결단에 이념적 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "abraham-lincoln",
+    "target": "frederick-douglass",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "링컨과 더글러스는 노예제 폐지를 위해 각각 정치적·사회적 영역에서 투쟁한 동시대인이었다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "george-washington",
+    "target": "thomas-paine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "워싱턴과 페인은 미국 독립혁명에서 각각 군사적·사상적 지도자로 활동했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "che-guevara",
+    "target": "mao-zedong",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마오쩌둥의 인민전쟁론은 체 게바라의 혁명 전략에 직접적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "martin-luther-king",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 사회 불평등 분석은 킹 목사의 경제적 정의 운동에 간접적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ataturk",
+    "target": "voltaire",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "볼테르의 세속주의와 계몽사상은 아타튀르크의 터키 근대화 개혁에 이념적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ataturk",
+    "target": "rousseau",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루소의 인민주권론은 아타튀르크의 공화국 건설에 이론적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nehru",
+    "target": "rousseau",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루소의 사회계약론과 민주주의 사상은 네루의 인도 건국 이념에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "joan-of-arc",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "잔 다르크와 루터는 각각 군사적·신학적으로 기존 교회 권위에 도전한 중세 말의 선구자들이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "queen-victoria",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "빅토리아 여왕과 다윈은 빅토리아 시대를 대표하는 인물로, 진화론은 당대 사회에 큰 충격을 주었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rembrandt",
+    "target": "descartes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "렘브란트와 데카르트는 17세기 네덜란드 황금시대를 대표하는 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shakespeare",
+    "target": "montaigne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "몽테뉴의 수상록은 셰익스피어의 인간 심리 탐구에 중요한 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "goethe",
+    "target": "newton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "괴테는 뉴턴의 광학 이론에 반대하며 독자적인 색채론을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "goethe",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "괴테의 형태학 연구는 다윈의 진화론적 사유에 선구적 역할을 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "goethe",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "괴테와 칸트는 독일 계몽주의의 양대 거장으로서 서로의 작업을 인식하고 있었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tolstoy",
+    "target": "rousseau",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루소의 자연으로의 회귀 사상은 톨스토이의 단순한 삶의 이상에 깊은 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "virginia-woolf",
+    "target": "hume",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "흄의 의식의 흐름에 대한 경험주의적 분석은 울프의 의식의 흐름 기법에 간접적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "picasso",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "니체의 전통 파괴와 새로운 가치 창조는 피카소의 큐비즘 혁명에 정신적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "james-joyce",
+    "target": "homer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "호메로스의 오디세이아는 조이스의 율리시스의 직접적 구조적 모델이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "tagore",
+    "target": "buddha",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "불교의 자비와 무아 사상은 타고르의 시와 교육철학에 깊은 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tagore",
+    "target": "vivekananda",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "타고르와 비베카난다는 근대 인도의 정신적 부흥을 이끈 동시대의 두 거장이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pericles",
+    "target": "protagoras",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "페리클레스는 프로타고라스와 친교를 나누며 소피스트 사상의 후원자 역할을 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "charlemagne",
+    "target": "aristotle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 학문 전통은 카롤루스 대제의 궁정학교와 카롤링 르네상스의 지적 기반이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "leonardo-da-vinci",
+    "target": "euclid",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "유클리드의 기하학은 레오나르도의 원근법과 건축 설계에 수학적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "leonardo-da-vinci",
+    "target": "archimedes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아르키메데스의 역학과 수학은 레오나르도의 공학적 발명에 직접적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "fdr",
+    "target": "adam-smith",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "애덤 스미스의 경제학은 루스벨트의 경제 정책에 기본적 이론 틀을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "eisenhower",
+    "target": "sun-tzu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "손자의 전략론은 아이젠하워의 군사 전략과 리더십에 간접적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "churchill",
+    "target": "shakespeare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "셰익스피어의 웅변적 문학 전통은 처칠의 전시 연설에 수사학적 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "napoleon",
+    "target": "alexander-the-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "알렉산드로스 대왕의 정복은 나폴레옹의 군사적 야망에 직접적 역사적 모델이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "napoleon",
+    "target": "julius-caesar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카이사르의 정치군사적 리더십은 나폴레옹이 명시적으로 모방한 역사적 선례였다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "genghis-khan",
+    "target": "alexander-the-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "알렉산드로스와 칭기즈칸은 역사상 가장 큰 제국을 건설한 정복자로서 구조적 유사성을 보인다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "peter-the-great",
+    "target": "voltaire",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "표트르 대제와 볼테르는 서신을 교환하며, 볼테르는 표트르의 근대화를 계몽주의의 모범으로 칭송했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "columbus",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "콜럼버스와 코페르니쿠스는 15세기 말 각각 지리적·천문학적으로 세계관의 혁명을 이끌었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "meiji-emperor",
+    "target": "peter-the-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "메이지 천황과 표트르 대제는 각각 일본과 러시아의 급진적 근대화를 이끈 군주로서 구조적 유사성을 보인다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "saladin",
+    "target": "alexander-the-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "살라딘과 알렉산드로스는 각각 이슬람과 그리스 세계에서 관대한 정복자의 이상을 대표한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "suleiman",
+    "target": "akbar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "쉴레이만과 아크바르는 16세기 오스만과 무굴 제국의 전성기를 이끈 동시대의 위대한 군주였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rommel",
+    "target": "sun-tzu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "손자의 병법은 롬멜의 기동전 전략에 간접적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rommel",
+    "target": "hannibal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "한니발의 칸나에 전투 전략은 롬멜의 기갑전 전술에 역사적 모델이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "theodore-roosevelt",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "다윈의 자연선택론은 시어도어 루스벨트의 자연보호 정책과 사회진화론적 세계관에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "malala-yousafzai",
+    "target": "martin-luther-king",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "킹 목사의 비폭력 저항 운동은 말랄라의 교육권 투쟁에 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "neil-armstrong",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "코페르니쿠스의 우주관 혁명은 인류의 우주 탐험, 궁극적으로 닐 암스트롱의 달 착륙으로 이어진 지적 여정의 출발점이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hammurabi",
+    "target": "moses",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "함무라비의 법전과 모세의 십계명은 고대 근동 법 전통의 양대 기둥으로서 구조적 유사성을 보인다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "garibaldi",
+    "target": "simon-bolivar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "볼리바르의 남미 해방운동은 가리발디의 이탈리아 통일운동에 직접적 영감을 주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "garibaldi",
+    "target": "napoleon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "나폴레옹의 군사적 리더십과 이탈리아 경험은 가리발디의 통일운동에 역사적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aung-san-suu-kyi",
+    "target": "mandela",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "아웅산 수치와 만델라는 각각 미얀마와 남아프리카에서 민주화를 위해 장기 투쟁한 정치지도자이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jfk",
+    "target": "abraham-lincoln",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "링컨의 시민 자유 유산은 케네디의 민권 정책에 직접적 역사적 선례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "charlie-chaplin",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 자본주의 비판은 채플린의 '모던 타임즈' 등 사회비판적 영화에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "frida-kahlo",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 사회주의는 프리다 칼로의 정치적 예술 세계에 이념적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bob-dylan",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르크스의 사회비판은 밥 딜런의 저항적 포크 음악에 간접적 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "virginia-woolf",
+    "target": "de-beauvoir",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "울프의 '자기만의 방'은 보부아르의 페미니즘 사상에 직접적 영감을 제공했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "beethoven",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칸트의 도덕적 숭고 개념은 베토벤의 영웅적 음악 세계에 철학적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "beethoven",
+    "target": "rousseau",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "루소의 자유와 감정의 철학은 베토벤의 낭만주의 음악 세계에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "confucius",
+    "target": "wang-yangming",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "공자의 유교 전통은 왕양명의 심학(心學) 발전의 궁극적 원천이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "laozi",
+    "target": "epicurus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "노자의 무위자연과 에피쿠로스의 아타락시아는 삶의 평온을 추구하는 동서양 사상의 유사성을 보인다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nagarjuna",
+    "target": "derrida",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "나가르주나의 공(空) 사상과 데리다의 해체는 의미의 비실체성에 대한 동서양 사유의 유사성을 보인다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zhuangzi",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "장자의 가치 상대주의와 니체의 가치전환은 기존 도덕 체계에 대한 근본적 도전이라는 점에서 유사하다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "laozi",
+    "target": "rousseau",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "노자의 자연으로의 회귀와 루소의 자연 상태론은 문명 비판에서 구조적 유사성을 보인다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mozi",
+    "target": "bentham",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "묵자의 겸애(兼愛)와 벤담의 최대 다수의 최대 행복은 보편적 이익을 추구하는 점에서 유사하다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "laozi",
+    "target": "wittgenstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "노자의 '도를 말할 수 있으면 도가 아니다'와 비트겐슈타인의 '말할 수 없는 것에 대해서는 침묵해야 한다'는 언어의 한계에 대한 유사한 통찰이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "wonhyo",
+    "target": "nagarjuna-buddhist",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "나가르주나의 중관학은 원효의 화쟁(和諍) 사상에 핵심적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "shankara",
+    "target": "buddha",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "샹카라는 불교의 무아론을 비판하면서도 불교적 논리를 자신의 불이일원론에 수용했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "chanakya",
+    "target": "machiavelli",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "찬드라굽타의 참모 차나키야와 마키아벨리는 동서양 현실정치론의 양대 거장이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vivekananda",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "비베카난다와 윌리엄 제임스는 종교 경험에 대한 동서양의 대화를 직접 나눈 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "aurobindo",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤겔의 변증법적 역사관은 오로빈도의 진화적 영성론에 철학적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tagore",
+    "target": "confucius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "타고르와 공자는 교육을 통한 인간 완성을 추구한 동서양 사상가로서 유사성을 보인다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "huygens",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하위헌스의 파동론과 역학 연구는 오일러의 수리물리학에 중요한 선례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gauss",
+    "target": "galois",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "가우스의 정수론은 갈루아의 군론 발전에 수학적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hilbert",
+    "target": "schrodinger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "힐베르트 공간의 수학은 슈뢰딩거의 파동역학에 수학적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "planck",
+    "target": "dirac",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플랑크의 양자 가설과 상수는 디랙의 양자역학 체계화의 근본적 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "lorentz",
+    "target": "poincare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "로렌츠와 푸앵카레는 전자기학의 상대론적 해석에서 독립적으로 유사한 결론에 도달했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hertz",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤르츠의 광전효과 발견은 아인슈타인의 광양자 이론 정립에 실험적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kelvin",
+    "target": "boltzmann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "켈빈과 볼츠만은 열역학과 통계역학의 발전에 각각 기여한 동시대의 물리학자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "heisenberg",
+    "target": "feynman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하이젠베르크의 행렬역학은 파인만의 경로적분 공식화에 대안적 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "turing",
+    "target": "feynman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "튜링과 파인만은 각각 컴퓨터 과학과 양자역학에서 혁명적 사유를 전개한 동시대의 천재였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "darwin",
+    "target": "watson",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "다윈의 진화론은 왓슨이 생명의 분자적 기초를 탐구하게 된 궁극적 과학적 동기가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "darwin",
+    "target": "jennifer-doudna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "다윈의 진화론은 다우드나의 유전자 편집 연구가 추구하는 생명 이해의 궁극적 틀을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mcclintock",
+    "target": "jennifer-doudna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "매클린톡의 전위유전자 발견은 유전체 편집의 자연적 선례로서 다우드나의 연구에 간접적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "charpentier",
+    "target": "pasteur",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "파스퇴르가 확립한 미생물학 전통은 샤르팡티에의 세균 면역 연구에 역사적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hippocrates",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "히포크라테스의 자연주의적 의학은 다윈의 생물학적 자연주의에 고대적 선례를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "archimedes",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아르키메데스의 수학적 방법은 오일러의 분석학 발전에 고전적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "euclid",
+    "target": "gauss",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "유클리드의 기하학은 가우스가 비유클리드 기하학을 발견하는 출발점이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "euclid",
+    "target": "hilbert",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "유클리드의 공리 체계는 힐베르트의 공리적 수학 프로그램에 역사적 모델이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "roger-bacon",
+    "target": "francis-bacon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "로저 베이컨의 경험적 과학 강조는 프랜시스 베이컨의 과학 방법론에 선구적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zhang-heng",
+    "target": "ptolemy",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "장형과 프톨레마이오스는 동서양에서 각각 독립적으로 천문학과 지진학을 발전시킨 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "al-khwarizmi",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "알-콰리즈미가 확립한 대수학은 오일러의 수학적 분석에 역사적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "brahmagupta",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "브라마굽타의 0과 음수 체계는 유럽 수학에 전해져 오일러의 수학에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-al-haytham",
+    "target": "newton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "이븐 알-하이삼의 광학 연구는 뉴턴의 프리즘 실험과 광학 이론에 역사적 선례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "archimedes",
+    "target": "lavoisier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아르키메데스의 정량적 측정 방법은 라부아지에의 질량 보존 법칙 확립에 과학적 선례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "halley",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "핼리와 오일러는 18세기 수리과학의 발전에 각각 천문학과 수학에서 기여한 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "herschel",
+    "target": "lamarck",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "허셜과 라마르크는 18세기 말에 각각 천문학과 생물학에서 새로운 발견을 이룬 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mendel",
+    "target": "pasteur",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "멘델과 파스퇴르는 동시대에 각각 유전학과 미생물학의 기초를 놓았다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jocelyn-bell-burnell",
+    "target": "vera-rubin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "벨 버넬과 루빈은 각각 펄서와 암흑물질을 발견한 동시대의 선구적 여성 천문학자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sophie-germain",
+    "target": "galois",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "소피 제르맹과 갈루아는 프랑스 수학의 황금시대에 각각 정수론과 군론에서 기여했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "norbert-wiener",
+    "target": "turing",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "위너와 튜링은 각각 사이버네틱스와 계산 이론에서 정보와 기계의 본질을 탐구한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "knuth",
+    "target": "berners-lee",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "크누스의 알고리즘 분석과 프로그래밍 기술은 버너스-리의 월드와이드웹 개발에 간접적 기여를 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "fermi",
+    "target": "landau",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "페르미와 란다우는 동시대에 각각 핵물리학과 응집물질 물리학에서 이론과 실험을 이끌었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "fritz-haber",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "하버와 아인슈타인은 베를린에서 동료로 활동했으나, 하버의 화학무기 개발에 아인슈타인은 비판적이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "fritz-haber",
+    "target": "marie-curie",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "하버와 퀴리는 각각 화학과 방사능 연구에서 세계대전의 과학적 영향을 경험한 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "fritz-haber",
+    "target": "boyle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보일의 기체 화학은 하버의 암모니아 합성 반응 연구에 역사적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wu-chien-shiung",
+    "target": "oppenheimer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "우젠슝과 오펜하이머는 맨해튼 프로젝트에서 함께 활동한 동시대 물리학자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pavlov",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "파블로프와 카할은 동시대에 각각 행동신경학과 구조신경학에서 선구적 업적을 이루었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sherrington",
+    "target": "pavlov",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "셰링턴과 파블로프는 동시대에 각각 시냅스 이론과 조건반사 이론으로 신경과학의 기초를 놓았다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "semmelweis",
+    "target": "koch",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "제멜바이스의 위생 가설은 코흐의 세균학적 증명에 의해 과학적으로 확인되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hypatia",
+    "target": "euclid",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "유클리드의 기하학은 히파티아의 수학 교육과 주석 작업의 핵심 대상이었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hypatia",
+    "target": "ptolemy",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프톨레마이오스의 천문학 저술은 히파티아의 학문적 주석 작업의 주요 대상이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kant",
+    "target": "schelling",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "칸트의 비판철학은 셸링의 자연철학과 동일성 철학의 출발점이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "fichte",
+    "target": "schopenhauer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "피히테의 주관적 관념론은 쇼펜하우어가 강하게 비판한 철학적 입장이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hegel",
+    "target": "adorno",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤겔의 변증법은 아도르노의 부정변증법 발전에 핵심적 대화 상대가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hegel",
+    "target": "sartre",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤겔의 주인과 노예 변증법은 사르트르의 타자론에 직접적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kierkegaard",
+    "target": "camus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "키르케고르의 실존적 불안과 신앙의 도약은 카뮈의 부조리 철학에 중요한 대화 상대가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "plato",
+    "target": "leibniz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플라톤의 이데아론은 라이프니츠의 모나드론과 예정조화설에 고대적 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 목적론과 논리학은 헤겔의 변증법적 체계에 고전적 기초를 제공했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 생물학적 분류와 자연사 관찰은 다윈의 진화론적 사유에 고전적 선례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "epicurus",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "에피쿠로스의 유물론은 마르크스의 박사 논문 주제로서 그의 유물사관 형성에 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "epictetus",
+    "target": "descartes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "에픽테토스의 내면적 자유 개념은 데카르트의 의심과 자아 발견에 간접적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "seneca",
+    "target": "montaigne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "세네카의 도덕론은 몽테뉴의 수상록에 직접적 영감을 제공한 고전적 원천이었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "cicero",
+    "target": "locke",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "키케로의 자연법 사상은 로크의 자연권과 사회계약론에 고전적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cicero",
+    "target": "montesquieu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "키케로의 공화정론은 몽테스키외의 권력분립론에 직접적 역사적 선례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cicero",
+    "target": "voltaire",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "키케로의 웅변과 인문주의는 볼테르의 계몽주의 문필 활동에 수사학적 모범이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "locke",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 인식론은 로크의 경험주의 발전에 고전적 배경을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "plato",
+    "target": "rousseau",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플라톤의 국가론은 루소의 사회계약론과 교육론에 고전적 모델을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "plato",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "니체는 플라톤의 이데아론을 '진정한 세계'의 허구로 비판하며 서양 형이상학의 극복을 시도했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "plato",
+    "target": "heidegger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플라톤의 존재론은 하이데거가 극복하고자 한 '존재 망각'의 서양 형이상학적 전통의 출발점이었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "aristotle",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스토텔레스의 논리학과 범주론은 칸트의 순수이성비판에 핵심적 배경이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "plato",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플라톤의 이데아론은 칸트의 물자체 개념과 선험적 인식론의 고전적 선례가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "descartes",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "데카르트의 주체 철학은 칸트의 비판철학이 극복하고자 한 합리론적 전통의 대표였다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hume",
+    "target": "russell",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "흄의 경험주의와 회의주의는 러셀의 분석철학 형성에 중요한 역사적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hume",
+    "target": "carnap",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "흄의 인과 회의주의는 카르납의 논리실증주의 형성에 철학적 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wittgenstein",
+    "target": "heidegger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "비트겐슈타인과 하이데거는 각각 분석철학과 대륙철학에서 언어와 존재의 관계를 탐구했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "locke",
+    "target": "adam-smith",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "로크의 재산권과 사회계약 이론은 스미스의 자유시장 경제학에 철학적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "frege",
+    "target": "godel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프레게의 논리학은 괴델의 불완전성 정리 증명의 수리논리적 배경이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "leibniz",
+    "target": "frege",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "라이프니츠의 보편 기호법 구상은 프레게의 개념 기호법과 현대 논리학 창시에 역사적 영감을 주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "schopenhauer",
+    "target": "heidegger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "쇼펜하우어의 의지의 형이상학은 하이데거의 초기 존재론에 간접적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "derrida",
+    "target": "plato",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "데리다는 플라톤의 음성중심주의를 해체하며 서양 형이상학의 로고스중심주의를 비판했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "foucault",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "푸코는 칸트의 계몽 비판을 현재의 존재론으로 발전시켜 비판 전통을 재해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "habermas",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "하버마스는 칸트의 실천이성을 의사소통적 합리성으로 발전시켜 현대 민주주의 이론을 구축했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kristeva",
+    "target": "foucault",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "크리스테바와 푸코는 파리의 포스트구조주의 지적 환경에서 함께 활동한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "irigaray",
+    "target": "derrida",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "데리다의 해체 전략은 이리가레의 페미니즘적 철학 비판에 방법론적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "lyotard",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "리오타르는 칸트의 숭고 개념을 포스트모던 조건에서 재해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "baudrillard",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "보드리야르는 마르크스의 생산 중심 분석을 비판하고 소비와 시뮬라크르 이론을 제시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "deleuze",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "들뢰즈는 헤겔의 변증법적 부정을 비판하고 순수한 차이와 생성의 철학을 전개했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "goethe",
+    "target": "schopenhauer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "괴테와 쇼펜하우어는 바이마르에서 만나 색채론에 대해 논의한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "goethe",
+    "target": "voltaire",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "볼테르의 계몽주의 문학은 괴테의 초기 문학적 발전에 중요한 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kandinsky",
+    "target": "schopenhauer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "쇼펜하우어의 음악과 의지의 철학은 칸딘스키의 추상미술론에 철학적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "van-gogh",
+    "target": "dostoevsky",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "도스토예프스키의 고통과 영성의 문학은 반 고흐의 예술적 정신 세계에 깊은 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "chopin",
+    "target": "bach",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "바흐의 평균율 클라비어곡집은 쇼팽의 피아노 음악에 직접적 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hokusai",
+    "target": "picasso",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "호쿠사이의 일본 판화는 피카소의 시각적 혁신에 동양적 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "marx",
+    "target": "abraham-lincoln",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마르크스와 링컨은 동시대인으로, 마르크스는 링컨의 노예해방을 지지하는 서한을 보냈다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "napoleon",
+    "target": "beethoven",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "나폴레옹과 베토벤은 동시대인으로, 베토벤은 원래 영웅 교향곡을 나폴레옹에게 헌정하려 했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "napoleon",
+    "target": "goethe",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "나폴레옹과 괴테는 에어푸르트에서 만났으며, 나폴레옹은 괴테의 젊은 베르테르의 슬픔을 여러 번 읽었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "elizabeth-i",
+    "target": "francis-bacon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "엘리자베스 1세와 프랜시스 베이컨은 튜더 왕조의 궁정에서 함께 활동한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "louis-xiv",
+    "target": "descartes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "루이 14세의 절대왕정은 데카르트가 활동한 프랑스 합리주의의 정치적 배경이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "catherine-the-great",
+    "target": "diderot",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "예카테리나 대제는 디드로를 궁정에 초청하여 계몡주의 사상을 직접 논의했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marx",
+    "target": "spencer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "마르크스와 스펜서는 사회 진화에 대해 각각 혁명과 점진적 진보를 주장하며 대립했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "che-guevara",
+    "target": "sartre",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "체 게바라와 사르트르는 만남을 통해 혁명과 실존에 대해 논의한 동시대인이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rosa-parks",
+    "target": "frederick-douglass",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "더글러스의 노예해방 투쟁은 파크스의 민권 저항에 역사적 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "emmeline-pankhurst",
+    "target": "mary-wollstonecraft",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "울스턴크래프트의 여성 권리 옹호는 팽크허스트의 여성 참정권 운동에 이론적 기초가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "qin-shi-huang",
+    "target": "chanakya",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "진시황과 차나키야는 동시대에 각각 중국과 인도에서 중앙집권 국가를 건설한 인물이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "akbar",
+    "target": "montaigne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아크바르와 몽테뉴는 동시대에 각각 종교적 관용을 실천한 동서양의 인물이었다",
     "strength": 1,
     "direction": "bidirectional"
   }

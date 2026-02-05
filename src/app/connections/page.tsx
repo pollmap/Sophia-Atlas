@@ -22,8 +22,16 @@ import {
   ToggleLeft,
   ToggleRight,
   Box,
+  Globe,
   Loader2,
+  Route,
+  Compass,
+  ArrowRight,
+  ArrowLeftRight,
+  Clock,
 } from "lucide-react";
+
+import { KnowledgeGraphEngine, type KnowledgeNode, type PathResult as KGPathResult } from "@/lib/knowledge-graph";
 
 // Dynamic import for 3D graph (no SSR - requires WebGL)
 const IndraNet3D = dynamic(
@@ -286,6 +294,20 @@ export default function ConnectionsPage() {
   const [canvasSize, setCanvasSize] = useState({ width: 800, height: 600 });
   const [isSimReady, setIsSimReady] = useState(false);
 
+  // Path finder state
+  const [pathMode, setPathMode] = useState(false);
+  const [pathStart, setPathStart] = useState<string | null>(null);
+  const [pathEnd, setPathEnd] = useState<string | null>(null);
+  const [pathResult, setPathResult] = useState<KGPathResult | null>(null);
+  const [pathSearch, setPathSearch] = useState("");
+
+  // Time slider state
+  const [timeRange, setTimeRange] = useState<[number, number]>([-3000, 2100]);
+  const [timeFilterActive, setTimeFilterActive] = useState(false);
+
+  // URL initialization guard
+  const [urlInitialized, setUrlInitialized] = useState(false);
+
   // ── Connection counts ──
   const connectionCounts = useMemo(() => {
     const counts: Record<string, number> = {};
@@ -295,6 +317,82 @@ export default function ConnectionsPage() {
     });
     return counts;
   }, []);
+
+  // ── Knowledge Graph Engine (for path finding, centrality, etc.) ──
+  const engine = useMemo(() => {
+    const knowledgeNodes: KnowledgeNode[] = [];
+    allPersons.forEach((p: any) => {
+      knowledgeNodes.push({
+        id: p.id, name: p.name, nodeType: "person",
+        category: p.category, era: p.era || "contemporary",
+        period: p.period, tags: p.tags,
+        connections: connectionCounts[p.id] || 0,
+      });
+    });
+    allEntities.forEach((e: any) => {
+      knowledgeNodes.push({
+        id: e.id, name: e.name, nodeType: "entity",
+        category: e.type, entityType: e.type,
+        era: e.era || "contemporary", period: e.period,
+        tags: e.tags, connections: connectionCounts[e.id] || 0,
+      });
+    });
+    return new KnowledgeGraphEngine(knowledgeNodes, allRelationships as any);
+  }, [connectionCounts]);
+
+  // ── URL param → state (on mount) ──
+  useEffect(() => {
+    if (urlInitialized || typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+
+    const nodeParam = params.get("node");
+    const viewParam = params.get("view") as "2d" | "3d" | null;
+    const eraParam = params.get("era");
+    const categoryParam = params.get("category");
+    const relTypeParam = params.get("relType");
+    const pathStartParam = params.get("from");
+    const pathEndParam = params.get("to");
+
+    if (nodeParam && nodeDataMap.has(nodeParam)) setSelectedNode(nodeParam);
+    if (viewParam === "2d" || viewParam === "3d") setViewMode(viewParam);
+    if (eraParam && ERA_LABELS[eraParam]) setSelectedEra(eraParam);
+    if (categoryParam && CATEGORY_FILTERS.some((c) => c.key === categoryParam)) setSelectedCategory(categoryParam);
+    if (relTypeParam && REL_TYPE_FILTERS.some((r) => r.key === relTypeParam)) setSelectedRelType(relTypeParam);
+    if (pathStartParam && nodeDataMap.has(pathStartParam) && pathEndParam && nodeDataMap.has(pathEndParam)) {
+      setPathMode(true);
+      setPathStart(pathStartParam);
+      setPathEnd(pathEndParam);
+    }
+
+    setUrlInitialized(true);
+  }, [urlInitialized]);
+
+  // ── State → URL param (sync) ──
+  useEffect(() => {
+    if (!urlInitialized || typeof window === "undefined") return;
+    const params = new URLSearchParams();
+    if (selectedNode) params.set("node", selectedNode);
+    if (viewMode !== "2d") params.set("view", viewMode);
+    if (selectedEra !== "all") params.set("era", selectedEra);
+    if (selectedCategory !== "all") params.set("category", selectedCategory);
+    if (selectedRelType !== "all") params.set("relType", selectedRelType);
+    if (pathMode && pathStart) params.set("from", pathStart);
+    if (pathMode && pathEnd) params.set("to", pathEnd);
+
+    const qs = params.toString();
+    const newUrl = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+    window.history.replaceState(null, "", newUrl);
+  }, [selectedNode, viewMode, selectedEra, selectedCategory, selectedRelType, pathMode, pathStart, pathEnd, urlInitialized]);
+
+  // ── Path computation ──
+  useEffect(() => {
+    if (pathStart && pathEnd && pathStart !== pathEnd) {
+      const result = engine.findPath(pathStart, pathEnd);
+      setPathResult(result);
+    } else {
+      setPathResult(null);
+    }
+  }, [pathStart, pathEnd, engine]);
 
   // ── Filtered data ──
   const { filteredNodes, filteredLinks } = useMemo(() => {
@@ -307,6 +405,14 @@ export default function ConnectionsPage() {
       persons = persons.filter((p: any) => p.era === selectedEra);
     }
 
+    // Time range filter
+    if (timeFilterActive) {
+      persons = persons.filter((p: any) => {
+        if (!p.period) return true;
+        return p.period.start <= timeRange[1] && p.period.end >= timeRange[0];
+      });
+    }
+
     const idSet = new Set(persons.map((p: any) => p.id));
 
     // Add entities if enabled
@@ -314,6 +420,12 @@ export default function ConnectionsPage() {
       let entities = allEntities;
       if (selectedEra !== "all") {
         entities = entities.filter((e: any) => e.era === selectedEra);
+      }
+      if (timeFilterActive) {
+        entities = entities.filter((e: any) => {
+          if (!e.period) return true;
+          return e.period.start <= timeRange[1] && e.period.end >= timeRange[0];
+        });
       }
       entities.forEach((e: any) => idSet.add(e.id));
     }
@@ -376,7 +488,7 @@ export default function ConnectionsPage() {
       }));
 
     return { filteredNodes: nodes, filteredLinks: links };
-  }, [selectedCategory, selectedEra, selectedRelType, showEntities, connectionCounts]);
+  }, [selectedCategory, selectedEra, selectedRelType, showEntities, connectionCounts, timeFilterActive, timeRange]);
 
   // ── 3D graph data ──
   const graph3DData = useMemo(() => {
@@ -620,6 +732,9 @@ export default function ConnectionsPage() {
 
       const currentHover = hoveredNodeRef.current;
       const currentSelected = selectedNodeRef.current;
+      const currentPathNodes = pathNodesRef.current;
+      const currentPathResult = pathResultRef.current;
+      const isPathHighlight = currentPathNodes.size > 0;
 
       // Highlight set
       const highlightIds = new Set<string>();
@@ -647,7 +762,29 @@ export default function ConnectionsPage() {
         let alpha = 0.15;
         let lineWidth = 0.5;
 
-        if (currentSelected && egoFirstSet) {
+        // Path mode highlighting takes priority
+        if (isPathHighlight) {
+          const sid = source.id;
+          const tid = target.id;
+          const pathArr = currentPathResult?.path || [];
+          let isPathLink = false;
+          for (let pi = 0; pi < pathArr.length - 1; pi++) {
+            if ((pathArr[pi] === sid && pathArr[pi + 1] === tid) || (pathArr[pi] === tid && pathArr[pi + 1] === sid)) {
+              isPathLink = true;
+              break;
+            }
+          }
+          if (isPathLink) {
+            alpha = 0.85;
+            lineWidth = 3;
+          } else if (currentPathNodes.has(sid) || currentPathNodes.has(tid)) {
+            alpha = 0.12;
+            lineWidth = 0.5;
+          } else {
+            alpha = 0.03;
+            lineWidth = 0.2;
+          }
+        } else if (currentSelected && egoFirstSet) {
           const sid = source.id;
           const tid = target.id;
           const isFirstLink =
@@ -707,7 +844,20 @@ export default function ConnectionsPage() {
         let drawLabel = node.radius >= 8;
         let labelAlpha = 0.7;
 
-        if (currentSelected && egoFirstSet) {
+        // Path mode highlighting takes priority
+        if (isPathHighlight) {
+          if (currentPathNodes.has(node.id)) {
+            nodeAlpha = 1;
+            strokeColor = "rgba(212,175,55,0.8)";
+            strokeWidth = 2.5;
+            drawLabel = true;
+            labelAlpha = 1;
+          } else {
+            nodeAlpha = 0.06;
+            strokeWidth = 0;
+            drawLabel = false;
+          }
+        } else if (currentSelected && egoFirstSet) {
           if (node.id === currentSelected) {
             nodeAlpha = 1;
             strokeColor = "rgba(250,246,233,0.8)";
@@ -976,7 +1126,20 @@ export default function ConnectionsPage() {
       const my = e.clientY - rect.top;
       const hit = getNodeAtPosition(mx, my);
       if (hit) {
-        setSelectedNode((prev) => (prev === hit.id ? null : hit.id));
+        if (pathModeRef.current) {
+          // Path mode: set start or end node
+          if (!pathStartRef.current) {
+            setPathStart(hit.id);
+          } else if (!pathEndRef.current) {
+            setPathEnd(hit.id);
+          } else {
+            // Both set: restart with new start
+            setPathStart(hit.id);
+            setPathEnd(null);
+          }
+        } else {
+          setSelectedNode((prev) => (prev === hit.id ? null : hit.id));
+        }
       }
     });
 
@@ -1040,19 +1203,26 @@ export default function ConnectionsPage() {
       cancelAnimationFrame(animFrameRef.current);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filteredNodes, filteredLinks, canvasSize, egoData]);
+  }, [filteredNodes, filteredLinks, canvasSize, egoData, viewMode]);
 
   // Refs to avoid stale closures
   const hoveredNodeRef = useRef<string | null>(null);
   const selectedNodeRef = useRef<string | null>(selectedNode);
+  const pathModeRef = useRef(false);
+  const pathStartRef = useRef<string | null>(null);
+  const pathEndRef = useRef<string | null>(null);
+  const pathNodesRef = useRef<Set<string>>(new Set());
+  const pathResultRef = useRef<KGPathResult | null>(null);
 
+  useEffect(() => { selectedNodeRef.current = selectedNode; }, [selectedNode]);
+  useEffect(() => { hoveredNodeRef.current = hoveredNode; }, [hoveredNode]);
+  useEffect(() => { pathModeRef.current = pathMode; }, [pathMode]);
+  useEffect(() => { pathStartRef.current = pathStart; }, [pathStart]);
+  useEffect(() => { pathEndRef.current = pathEnd; }, [pathEnd]);
   useEffect(() => {
-    selectedNodeRef.current = selectedNode;
-  }, [selectedNode]);
-
-  useEffect(() => {
-    hoveredNodeRef.current = hoveredNode;
-  }, [hoveredNode]);
+    pathResultRef.current = pathResult;
+    pathNodesRef.current = pathResult ? new Set(pathResult.path) : new Set();
+  }, [pathResult]);
 
   // ── Focus search result ──
   const focusOnNode = useCallback(
@@ -1090,6 +1260,11 @@ export default function ConnectionsPage() {
     setSelectedEra("all");
     setSelectedRelType("all");
     setSearchQuery("");
+    setPathMode(false);
+    setPathStart(null);
+    setPathEnd(null);
+    setPathResult(null);
+    setTimeFilterActive(false);
 
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -1158,8 +1333,47 @@ export default function ConnectionsPage() {
                 )}
                 title={viewMode === "2d" ? "3D 구체 뷰로 전환" : "2D 평면 뷰로 전환"}
               >
-                <Box className="w-3.5 h-3.5" />
-                {viewMode === "3d" ? "3D" : "2D"}
+                {viewMode === "2d" ? <Globe className="w-3.5 h-3.5" /> : <Box className="w-3.5 h-3.5" />}
+                {viewMode === "2d" ? "3D" : "2D"}
+              </button>
+
+              {/* Path Finder Toggle */}
+              <button
+                onClick={() => {
+                  setPathMode(!pathMode);
+                  if (pathMode) {
+                    setPathStart(null);
+                    setPathEnd(null);
+                    setPathResult(null);
+                  } else {
+                    setSelectedNode(null);
+                  }
+                }}
+                className={cn(
+                  "flex items-center gap-1.5 px-3 py-2 rounded text-xs font-medium transition-all",
+                  pathMode
+                    ? "bg-[#D4AF37]/15 text-[#D4AF37] ring-1 ring-[#D4AF37]/30"
+                    : "bg-[var(--fresco-aged)]/50 text-[var(--ink-light)] hover:bg-[var(--fresco-aged)]"
+                )}
+                title="두 노드 사이 경로 탐색"
+              >
+                <Route className="w-3.5 h-3.5" />
+                경로
+              </button>
+
+              {/* Time Slider Toggle */}
+              <button
+                onClick={() => setTimeFilterActive(!timeFilterActive)}
+                className={cn(
+                  "flex items-center gap-1.5 px-3 py-2 rounded text-xs font-medium transition-all",
+                  timeFilterActive
+                    ? "bg-[#14B8A6]/15 text-[#14B8A6] ring-1 ring-[#14B8A6]/30"
+                    : "bg-[var(--fresco-aged)]/50 text-[var(--ink-light)] hover:bg-[var(--fresco-aged)]"
+                )}
+                title="시간 범위 필터"
+              >
+                <Clock className="w-3.5 h-3.5" />
+                시간
               </button>
 
               {/* Entity Toggle */}
@@ -1446,15 +1660,237 @@ export default function ConnectionsPage() {
               </div>
 
               <div className="absolute bottom-3 right-3 text-[10px] text-[var(--ink-faded)] pointer-events-none">
-                {viewMode === "3d"
-                  ? "드래그: 회전 | 스크롤: 확대/축소 | 클릭: 선택"
-                  : "스크롤: 확대/축소 | 드래그: 이동 | 클릭: 선택"}
+                {pathMode
+                  ? "경로 모드: 시작/도착 노드를 클릭하세요"
+                  : viewMode === "3d"
+                    ? "드래그: 회전 | 스크롤: 확대/축소 | 클릭: 선택"
+                    : "스크롤: 확대/축소 | 드래그: 이동 | 클릭: 선택"}
               </div>
+
+              {/* Path mode indicator overlay */}
+              {pathMode && (
+                <div className="absolute top-3 right-3 z-10 bg-[#D4AF37]/15 border border-[#D4AF37]/30 rounded p-2 text-xs text-[#D4AF37] font-medium flex items-center gap-2">
+                  <Route className="w-3.5 h-3.5" />
+                  {!pathStart ? "시작점을 클릭하세요" : !pathEnd ? "도착점을 클릭하세요" : pathResult ? `경로: ${pathResult.length}단계` : "경로 없음"}
+                </div>
+              )}
             </div>
+
+            {/* Time Slider */}
+            {timeFilterActive && (
+              <div className="mt-2 p-3 bg-[var(--fresco-parchment)] rounded border border-[var(--fresco-shadow)]">
+                <div className="flex items-center gap-3 mb-2">
+                  <Clock className="w-4 h-4 text-[#14B8A6]" />
+                  <span className="text-xs font-medium text-[var(--ink-dark)]">시간 범위</span>
+                  <span className="text-xs text-[var(--ink-light)] ml-auto">
+                    {timeRange[0] < 0 ? `BC ${Math.abs(timeRange[0])}` : timeRange[0]}
+                    {" ~ "}
+                    {timeRange[1] < 0 ? `BC ${Math.abs(timeRange[1])}` : timeRange[1]}
+                  </span>
+                </div>
+                <div className="flex gap-2 items-center">
+                  <input
+                    type="range"
+                    min={-3000}
+                    max={2100}
+                    step={50}
+                    value={timeRange[0]}
+                    onChange={(e) => setTimeRange([parseInt(e.target.value), timeRange[1]])}
+                    className="w-full accent-[#14B8A6] h-1"
+                  />
+                  <input
+                    type="range"
+                    min={-3000}
+                    max={2100}
+                    step={50}
+                    value={timeRange[1]}
+                    onChange={(e) => setTimeRange([timeRange[0], parseInt(e.target.value)])}
+                    className="w-full accent-[#14B8A6] h-1"
+                  />
+                </div>
+                <div className="flex justify-between mt-1 text-[9px] text-[var(--ink-faded)]">
+                  <span>BC 3000</span>
+                  <span>0</span>
+                  <span>500</span>
+                  <span>1500</span>
+                  <span>2100</span>
+                </div>
+                <div className="flex gap-1 mt-2">
+                  {Object.entries(ERA_LABELS).map(([era, label]) => {
+                    const ranges: Record<string, [number, number]> = {
+                      ancient: [-3000, 500], medieval: [500, 1500], modern: [1500, 1900], contemporary: [1900, 2100],
+                    };
+                    return (
+                      <button
+                        key={era}
+                        onClick={() => setTimeRange(ranges[era])}
+                        className="px-2 py-0.5 rounded text-[10px] font-medium transition-colors"
+                        style={{ backgroundColor: ERA_COLORS[era] + "20", color: ERA_COLORS[era] }}
+                      >
+                        {label}
+                      </button>
+                    );
+                  })}
+                  <button
+                    onClick={() => setTimeRange([-3000, 2100])}
+                    className="px-2 py-0.5 rounded text-[10px] font-medium bg-[var(--fresco-aged)] text-[var(--ink-light)]"
+                  >
+                    전체
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Detail Panel */}
           <div className="lg:col-span-1 space-y-4">
+            {/* Path Finder Panel */}
+            {pathMode && (
+              <div className="bg-[var(--fresco-parchment)] rounded border border-[#D4AF37]/30 p-5">
+                <h3 className="text-sm font-bold text-[#D4AF37] mb-3 flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                  <Route className="w-4 h-4" />
+                  경로 탐색기
+                </h3>
+
+                {/* Start Node */}
+                <div className="mb-3">
+                  <label className="text-xs text-[var(--ink-light)] mb-1 block">시작점</label>
+                  {pathStart ? (
+                    <div className="flex items-center gap-2 p-2 rounded bg-[#D4AF37]/10 border border-[#D4AF37]/20">
+                      <Compass className="w-3.5 h-3.5 text-[#D4AF37]" />
+                      <span className="text-sm text-[var(--ink-dark)] flex-1">{nodeDataMap.get(pathStart)?.name.ko || pathStart}</span>
+                      <button onClick={() => { setPathStart(null); setPathEnd(null); setPathResult(null); }} className="text-[var(--ink-faded)] hover:text-[var(--ink-dark)]">
+                        <X className="w-3 h-3" />
+                      </button>
+                    </div>
+                  ) : (
+                    <div className="p-2 rounded bg-[var(--fresco-aged)]/50 border border-dashed border-[var(--fresco-shadow)] text-xs text-[var(--ink-faded)] text-center">
+                      그래프에서 노드를 클릭하세요
+                    </div>
+                  )}
+                </div>
+
+                {/* End Node */}
+                <div className="mb-3">
+                  <label className="text-xs text-[var(--ink-light)] mb-1 block">도착점</label>
+                  {pathEnd ? (
+                    <div className="flex items-center gap-2 p-2 rounded bg-[#D4AF37]/10 border border-[#D4AF37]/20">
+                      <Compass className="w-3.5 h-3.5 text-[#D4AF37]" />
+                      <span className="text-sm text-[var(--ink-dark)] flex-1">{nodeDataMap.get(pathEnd)?.name.ko || pathEnd}</span>
+                      <button onClick={() => { setPathEnd(null); setPathResult(null); }} className="text-[var(--ink-faded)] hover:text-[var(--ink-dark)]">
+                        <X className="w-3 h-3" />
+                      </button>
+                    </div>
+                  ) : (
+                    <div className="p-2 rounded bg-[var(--fresco-aged)]/50 border border-dashed border-[var(--fresco-shadow)] text-xs text-[var(--ink-faded)] text-center">
+                      {pathStart ? "도착점을 클릭하세요" : "시작점을 먼저 선택하세요"}
+                    </div>
+                  )}
+                </div>
+
+                {/* Swap button */}
+                {pathStart && pathEnd && (
+                  <button
+                    onClick={() => { const tmp = pathStart; setPathStart(pathEnd); setPathEnd(tmp); }}
+                    className="w-full flex items-center justify-center gap-1.5 px-3 py-1.5 mb-3 rounded text-xs text-[var(--ink-light)] bg-[var(--fresco-aged)]/50 hover:bg-[var(--fresco-aged)] transition-colors"
+                  >
+                    <ArrowLeftRight className="w-3 h-3" />
+                    시작/도착 교환
+                  </button>
+                )}
+
+                {/* Path search */}
+                <div className="relative mb-3">
+                  <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-[var(--ink-faded)]" />
+                  <input
+                    type="text"
+                    value={pathSearch}
+                    onChange={(e) => setPathSearch(e.target.value)}
+                    placeholder="노드 검색..."
+                    className="w-full pl-8 pr-3 py-2 rounded bg-[var(--fresco-aged)]/50 border border-[var(--fresco-shadow)] text-xs text-[var(--ink-dark)] placeholder-[var(--ink-faded)] focus:outline-none focus:ring-1 focus:ring-[#D4AF37]/50"
+                  />
+                  {pathSearch && (
+                    <div className="absolute top-full mt-1 left-0 right-0 bg-[var(--fresco-parchment)] border border-[var(--fresco-shadow)] rounded overflow-hidden z-50 max-h-40 overflow-y-auto">
+                      {[...allPersons.map((p: any) => ({ ...p, nodeType: "person" })), ...allEntities.map((e: any) => ({ ...e, nodeType: "entity" }))]
+                        .filter((item: any) => item.name.ko.toLowerCase().includes(pathSearch.toLowerCase()) || item.name.en.toLowerCase().includes(pathSearch.toLowerCase()))
+                        .slice(0, 8)
+                        .map((item: any) => (
+                          <button
+                            key={item.id}
+                            onClick={() => {
+                              if (!pathStart) setPathStart(item.id);
+                              else if (!pathEnd) setPathEnd(item.id);
+                              setPathSearch("");
+                            }}
+                            className="w-full px-3 py-1.5 text-left hover:bg-[var(--fresco-aged)]/50 text-xs flex items-center gap-2"
+                          >
+                            <span className="text-[var(--ink-dark)]">{item.name.ko}</span>
+                            <span className="text-[var(--ink-faded)] ml-auto">{item.name.en}</span>
+                          </button>
+                        ))}
+                    </div>
+                  )}
+                </div>
+
+                {/* Path Result */}
+                {pathResult && (
+                  <div className="mt-3 pt-3 border-t border-[var(--fresco-shadow)]">
+                    <div className="text-xs text-[#D4AF37] font-medium mb-2 flex items-center gap-1.5">
+                      <Sparkles className="w-3 h-3" />
+                      경로 발견 ({pathResult.length}단계)
+                    </div>
+                    <div className="space-y-1">
+                      {pathResult.path.map((nodeId, idx) => {
+                        const node = nodeDataMap.get(nodeId);
+                        if (!node) return null;
+                        const rel = idx < pathResult.relationships.length ? pathResult.relationships[idx] : null;
+                        return (
+                          <div key={nodeId}>
+                            <div
+                              className="flex items-center gap-2 p-2 rounded cursor-pointer hover:bg-[var(--fresco-aged)]/50 transition-colors"
+                              onClick={() => focusOnNode(nodeId)}
+                            >
+                              <div className="w-5 h-5 rounded-full flex items-center justify-center text-[9px] font-bold text-white flex-shrink-0" style={{ backgroundColor: idx === 0 ? "#D4AF37" : idx === pathResult.path.length - 1 ? "#D4AF37" : "var(--ink-light)" }}>
+                                {idx + 1}
+                              </div>
+                              <span className="text-sm text-[var(--ink-dark)]">{node.name.ko}</span>
+                            </div>
+                            {rel && (
+                              <div className="ml-5 pl-3 border-l-2 border-[#D4AF37]/20 py-1">
+                                <span className="text-[10px] px-1.5 py-0.5 rounded" style={{ backgroundColor: getRelColor(rel.type, 0.2), color: getRelColor(rel.type, 1) }}>
+                                  {RELATIONSHIP_LABELS[rel.type] || rel.type}
+                                </span>
+                                {rel.description && (
+                                  <p className="text-[10px] text-[var(--ink-faded)] mt-0.5 line-clamp-2">{rel.description}</p>
+                                )}
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+
+                    {/* Compare link */}
+                    {pathStart && pathEnd && (
+                      <Link
+                        href={`/compare?a=${pathStart}&b=${pathEnd}`}
+                        className="mt-3 w-full flex items-center justify-center gap-1.5 px-3 py-2 rounded text-xs font-medium bg-[#B8860B]/10 text-[#B8860B] hover:bg-[#B8860B]/20 transition-colors"
+                      >
+                        <ArrowLeftRight className="w-3 h-3" />
+                        두 노드 비교하기
+                      </Link>
+                    )}
+                  </div>
+                )}
+
+                {pathStart && pathEnd && !pathResult && (
+                  <div className="mt-3 pt-3 border-t border-[var(--fresco-shadow)] text-center">
+                    <p className="text-xs text-[var(--ink-faded)]">두 노드 사이에 연결 경로가 없습니다</p>
+                  </div>
+                )}
+              </div>
+            )}
+
             {selectedNode && selectedData ? (
               <>
                 {/* Selected Node Info */}

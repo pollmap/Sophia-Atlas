@@ -327,7 +327,7 @@ export default async function PersonPage({
             {/* IndraNet Entry */}
             <div className="mt-5 pt-4" style={{ borderTop: '1px solid var(--fresco-shadow)' }}>
               <Link
-                href={`/connections`}
+                href={`/connections?node=${person.id}`}
                 className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium transition-colors hover:opacity-80"
                 style={{
                   backgroundColor: 'rgba(184,134,11,0.08)',
