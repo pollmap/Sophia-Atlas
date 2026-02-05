@@ -10832,5 +10832,345 @@
     "description": "요루바 종교의 오순(Oshun) 등 여성 오리샤는 성스러운 여성성의 아프리카적 표현이다",
     "strength": 1,
     "direction": "directed"
+  },
+  {
+    "source": "essenes",
+    "target": "dune",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "에세네파의 사막 금욕 공동체와 메시아 사상이 듄의 프레멘 문화와 콰이사츠 해더락에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dune",
+    "target": "star-wars",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "듄의 사막 행성, 선택받은 자 서사, 종교적 세계관이 스타워즈의 타투인, 제다이, 포스에 직접 영감",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "sufism",
+    "target": "dune",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "수피즘의 신비적 수행과 용어(마디, 무아딥)가 듄의 프레멘 종교와 용어에 직접 차용됨",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hero-journey",
+    "target": "star-wars",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "캠벨의 영웅의 여정 원형이 루카스에 의해 스타워즈의 서사 구조에 직접 적용됨",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hero-journey",
+    "target": "matrix",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "영웅의 여정 구조가 네오의 각성과 성장 서사에 적용됨",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hero-journey",
+    "target": "lord-of-the-rings",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "프로도의 여정은 영웅의 여정 원형의 전형적 실현",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dao",
+    "target": "star-wars",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도(道)의 개념이 포스(Force)의 직접적 원형이 됨. 음양 = 라이트/다크 사이드",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "sunyata",
+    "target": "matrix",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불교의 공(空) 사상이 매트릭스의 현실 환상론과 네오의 깨달음에 직접 영향",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "republic-plato",
+    "target": "matrix",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "플라톤의 동굴의 비유가 매트릭스의 가상 현실 vs 실재 개념의 직접적 원형",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "norse-cosmology",
+    "target": "lord-of-the-rings",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "북유럽 신화의 세계관, 난쟁이, 엘프, 룬 문자가 톨킨의 중간계에 직접 영향",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ragnarok",
+    "target": "lord-of-the-rings",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "라그나로크의 세계 종말 서사가 반지전쟁의 구조에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "impressionism",
+    "target": "quantum-mechanics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "parallel",
+    "description": "인상주의(1870s)와 양자역학(1920s)은 모두 \"관찰자의 시점\"이 현실을 구성한다는 혁명적 인식론을 공유",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "eternal-recurrence",
+    "target": "2001-space-odyssey",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "니체의 초인(위버멘쉬) 사상이 2001의 스타차일드 진화 주제에 직접 영향. 차라투스트라 음악 사용",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "brothers-karamazov",
+    "target": "existentialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "\"신이 없다면 모든 것이 허용된다\" - 실존주의의 핵심 명제를 선취한 작품",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "1984-novel",
+    "target": "internet-technology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "오웰의 빅 브라더 개념이 현대 디지털 감시 사회 비판의 핵심 프레임이 됨",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "frankenstein",
+    "target": "artificial-intelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "프랑켄슈타인의 피조물 서사가 AI 윤리와 기술적 특이점 담론의 원형",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "frankenstein",
+    "target": "brave-new-world",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "프랑켄슈타인의 과학 오만 주제가 헉슬리의 유전공학 디스토피아에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "brave-new-world",
+    "target": "genetic-engineering",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "헉슬리의 유전 계급 사회 예언이 현대 유전공학 윤리 논쟁의 핵심 레퍼런스",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dead-sea-scrolls",
+    "target": "bible",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사해 사본은 성경 본문 비평의 혁명을 가져와 성경 원형 이해를 근본적으로 변화시킴",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "essenes",
+    "target": "dead-sea-scrolls",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "에세네파가 쿰란 공동체에서 사해 사본을 필사하고 보존함",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "qumran-community",
+    "target": "dead-sea-scrolls",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "쿰란 공동체의 경전 필사 전통이 사해 사본의 생산 배경",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "waldensians",
+    "target": "protestant-reformation",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "발도파의 성경적 빈곤과 평신도 설교 운동은 종교개혁의 선구적 운동",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hussites",
+    "target": "protestant-reformation",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "후스파의 교회 개혁 운동은 루터의 종교개혁에 직접적 영감을 줌",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "cubism",
+    "target": "quantum-mechanics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "parallel",
+    "description": "큐비즘(1907)과 양자역학(1925)은 동시대에 \"다중 시점\"과 \"관찰자 효과\"라는 유사한 패러다임 전환을 이룸",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "romanticism-art",
+    "target": "german-idealism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "parallel",
+    "description": "낭만주의 예술과 독일 관념론은 동시대에 이성 중심주의에 대한 반발로 감성과 정신의 절대성을 주장",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "printing-revolution",
+    "target": "protestant-reformation",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "구텐베르크 인쇄술이 루터의 95개 논제와 성경 번역의 대량 보급을 가능하게 하여 종교개혁을 촉진",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "electricity-revolution",
+    "target": "cinema-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "전기 혁명이 영화 기술의 탄생을 가능하게 함",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gnosticism",
+    "target": "matrix",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "그노시스주의의 물질 세계=환상, 진정한 지식을 통한 해방 사상이 매트릭스의 핵심 구조",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "gnosticism",
+    "target": "dune",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "그노시스적 비밀 지식과 선택받은 자 관념이 듄의 프레사이언스와 콰이사츠 해더락에 영향",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "karaites",
+    "target": "bible",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카라이파의 성경 문자주의적 해석이 성경 비평학 발전에 간접적 자극",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "montanism",
+    "target": "evangelicalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "몬타누스주의의 성령 직접 체험 강조가 현대 복음주의/오순절 운동의 역사적 선례",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "divine-comedy",
+    "target": "renaissance-art",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "단테의 신곡이 보티첼리, 미켈란젤로 등 르네상스 예술의 주요 영감원",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "faust",
+    "target": "romanticism-art",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "괴테의 파우스트가 낭만주의 예술의 핵심 작품이자 근대 정신의 상징",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "european-alchemy",
+    "target": "modern-chemistry",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "중세 연금술의 실험적 방법론이 근대 화학의 직접적 전신",
+    "strength": 3,
+    "direction": "directed"
   }
 ]

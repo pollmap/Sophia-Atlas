@@ -18553,5 +18553,125 @@
     "description": "빌리 그레이엄의 복음주의 부흥운동은 오순절주의 성장과 맞물려 있었다",
     "strength": 1,
     "direction": "directed"
+  },
+  {
+    "source": "homer",
+    "target": "odyssey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "호메로스가 오디세이아를 저술(또는 구전 전승을 정리)",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "homer",
+    "target": "iliad",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "호메로스가 일리아스를 저술",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "dostoevsky",
+    "target": "brothers-karamazov",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "도스토예프스키가 카라마조프가의 형제들을 저술",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "shakespeare",
+    "target": "hamlet",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "셰익스피어가 햄릿을 저술",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "goethe",
+    "target": "faust",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "괴테가 파우스트를 저술",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "nietzsche",
+    "target": "2001-space-odyssey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "니체의 초인 사상과 차라투스트라가 2001 스페이스 오디세이의 핵심 테마",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "plato",
+    "target": "matrix",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "플라톤의 동굴의 비유가 매트릭스의 가상현실 vs 실재 구조의 원형",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "baudrillard",
+    "target": "matrix",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "보드리야르의 시뮬라크르와 시뮬레이션이 매트릭스에 직접 인용됨",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "stanley-kubrick",
+    "target": "2001-space-odyssey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "큐브릭이 2001: 스페이스 오디세이를 감독",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jesus",
+    "target": "essenes",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "에세네파의 종말론적 사상과 공동체 이상이 예수의 가르침에 영향을 주었을 가능성",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "dante",
+    "target": "divine-comedy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "단테가 신곡을 저술",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "dostoevsky",
+    "target": "existentialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도스토예프스키의 실존적 탐구가 키르케고르·니체와 함께 실존주의의 문학적 선구",
+    "strength": 3,
+    "direction": "directed"
   }
 ]
