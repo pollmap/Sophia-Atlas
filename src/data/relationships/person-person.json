@@ -16982,5 +16982,155 @@
     "description": "인도에서 활동한 두 인물로, 간디의 비폭력 정신은 테레사의 봉사 활동과 맥을 같이한다",
     "strength": 2,
     "direction": "bidirectional"
+  },
+  {
+    "source": "freud",
+    "target": "jung",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "프로이트는 융의 스승이었으나 나중에 결별했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jung",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "니체의 디오니소스적 사상이 융의 원형론에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jung",
+    "target": "schopenhauer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "쇼펜하우어의 의지 개념이 융의 집단무의식에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "freud",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "니체의 무의식적 충동 분석이 프로이트에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "joseph-campbell",
+    "target": "jung",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "융의 원형 이론이 캠벨의 비교신화학에 결정적 영향을 주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mircea-eliade",
+    "target": "jung",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "융의 원형론이 엘리아데의 종교현상학에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-maynard-keynes",
+    "target": "adam-smith",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "케인즈는 스미스의 고전 경제학을 발전시키고 수정했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "friedrich-hayek",
+    "target": "john-maynard-keynes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "하이에크는 케인즈의 정부 개입론에 반대했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "milton-friedman",
+    "target": "john-maynard-keynes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "프리드먼은 케인즈주의에 반대하며 통화주의를 주장했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ludwig-von-mises",
+    "target": "friedrich-hayek",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "미제스는 하이에크의 스승이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "daniel-kahneman",
+    "target": "adam-smith",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "카너먼은 스미스의 합리적 인간 가정에 도전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-said",
+    "target": "foucault",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "푸코의 담론 분석이 사이드의 오리엔탈리즘에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "arne-naess",
+    "target": "rachel-carson",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카슨의 환경 운동이 네스의 심층생태학에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-lorenz",
+    "target": "laplace",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "로렌츠는 라플라스적 결정론의 한계를 카오스 이론으로 보여주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "helena-blavatsky",
+    "target": "ramakrishna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "라마크리슈나의 힌두 영성이 블라바츠키의 신지학에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
   }
 ]

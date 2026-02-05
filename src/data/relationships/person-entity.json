@@ -13103,5 +13103,2045 @@
     "description": "쇼펜하우어는 낭만주의 시대의 염세 철학자이다",
     "strength": 2,
     "direction": "directed"
+  },
+  {
+    "source": "jung",
+    "target": "heros-journey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "융의 원형론이 영웅의 여정 개념에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jung",
+    "target": "collective-unconscious",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "융이 집단무의식 개념을 정립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jung",
+    "target": "anima-animus",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "융이 아니마/아니무스 원형 개념을 정립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jung",
+    "target": "trickster-archetype",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "융이 트릭스터 원형을 분석 심리학적으로 정의했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jung",
+    "target": "coincidentia-oppositorum",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "융이 대립자의 일치를 분석심리학에 적용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jung",
+    "target": "sacred-feminine",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "융이 여성성 원형을 분석심리학적으로 분석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jung",
+    "target": "alchemy-tradition",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "융이 연금술을 심리적 변환의 상징으로 해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "freud",
+    "target": "collective-unconscious",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "프로이트의 무의식 이론이 융의 집단무의식 발전에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "freud",
+    "target": "surrealism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "프로이트의 무의식 이론이 초현실주의에 영향을 주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "joseph-campbell",
+    "target": "heros-journey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "캠벨이 영웅의 여정 서사 구조를 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mircea-eliade",
+    "target": "shamanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "엘리아데는 샤머니즘을 학문적으로 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mircea-eliade",
+    "target": "axis-mundi",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "엘리아데가 세계축 개념을 비교종교학적으로 분석했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mircea-eliade",
+    "target": "eternal-return",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "엘리아데가 영원회귀를 비교종교학적으로 분석했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mircea-eliade",
+    "target": "dreamtime",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "엘리아데가 꿈의 시간을 비교종교학적으로 분석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "helena-blavatsky",
+    "target": "theosophy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "블라바츠키가 신지학회를 창설하여 신지학을 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-said",
+    "target": "postcolonialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "에드워드 사이드의 오리엔탈리즘이 포스트콜로니얼리즘의 기초이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "henry-viii",
+    "target": "anglicanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "헨리 8세가 로마 교황의 권위를 거부하고 영국 국교회를 설립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "friedrich-hayek",
+    "target": "neoliberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "하이에크가 신자유주의의 이론적 기초를 놓았다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "friedrich-hayek",
+    "target": "austrian-economics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "하이에크는 오스트리아 경제학파의 대표 학자이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "milton-friedman",
+    "target": "neoliberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "프리드먼이 신자유주의 경제학을 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ludwig-von-mises",
+    "target": "austrian-economics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "미제스가 오스트리아 학파를 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "john-maynard-keynes",
+    "target": "keynesian-economics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "케인즈가 거시경제학과 정부 개입 이론을 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "daniel-kahneman",
+    "target": "behavioral-economics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "카너먼이 행동경제학의 기초를 놓았다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-lorenz",
+    "target": "chaos-theory",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "로렌츠가 기상 시뮬레이션에서 카오스를 발견했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "singularity-concept",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "커즈와일이 기술적 특이점 개념을 대중화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "arne-naess",
+    "target": "deep-ecology",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "아르네 네스가 심층생태학을 창시했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "daniel-kahneman",
+    "target": "thinking-fast-and-slow",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "카너먼이 《생각에 관한 생각》을 저술했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hegel",
+    "target": "romanticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "헤겔은 독일 낭만주의 시대의 핵심 철학자이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "fichte",
+    "target": "romanticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "피히테는 독일 낭만주의의 철학적 기초를 놓았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-khaldun",
+    "target": "al-azhar-university",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "이븐 할둔은 알-아즈하르와 연관된 학자이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "shankara-hindu",
+    "target": "advaita-vedanta",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "샹카라는 아드바이타 베단타(불이일원론)를 체계화하여 힌두교 철학의 핵심 학파를 확립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ramanuja-hindu",
+    "target": "advaita-vedanta",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "라마누자는 아드바이타 베단타의 무차별적 일원론을 비판하고 비쉬쉬타드바이타(제한적 일원론)를 제시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vivekananda-hindu",
+    "target": "advaita-vedanta",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "비베카난다는 아드바이타 베단타 사상을 서양에 소개하며 현대 힌두교 부흥에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ramana-maharshi",
+    "target": "advaita-vedanta",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "라마나 마하르시는 아드바이타 베단타의 자아 탐구를 실천적으로 가르쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ramakrishna",
+    "target": "advaita-vedanta",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "라마크리슈나는 다양한 종교적 경험을 통해 아드바이타 베단타의 보편적 진리를 설교했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "elizabeth-i",
+    "target": "anglicanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "엘리자베스 1세는 엘리자베스 합의를 통해 영국 성공회의 중도적 정체성을 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cs-lewis",
+    "target": "anglicanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "C.S. 루이스는 성공회 신자로서 기독교 변증론을 대중적으로 전개했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zwingli",
+    "target": "calvinism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "츠빙글리는 칼뱅과 병행하여 스위스 종교개혁을 이끌며 개혁 신학에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zhuangzi",
+    "target": "daoism-religious",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "장자는 노자의 도가 사상을 발전시켜 자유로운 정신세계를 강조했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "athanasius",
+    "target": "eastern-orthodoxy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아타나시우스는 니케아 신경을 수호하며 정교회 삼위일체 신학의 기초를 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gregory-nazianzus",
+    "target": "eastern-orthodoxy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "나지안주스의 그레고리우스는 카파도키아 교부로서 정교회 신학의 핵심을 형성했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "basil-great",
+    "target": "eastern-orthodoxy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "대 바실리우스는 수도 규칙을 제정하여 동방 정교회 수도원 전통의 기반을 마련했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "maximus-confessor",
+    "target": "eastern-orthodoxy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "막시무스 고백자는 그리스도의 두 의지 교리를 수호하여 정교회 그리스도론을 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-damascus",
+    "target": "eastern-orthodoxy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "다마스쿠스의 요한은 이콘 옹호론과 정통 신앙 해설로 동방 정교회 신학을 체계화했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "irenaeus",
+    "target": "gnosticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "이레네우스는 이단 반박에서 영지주의의 이원론과 비밀 지식 주장을 체계적으로 논박했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "augustine",
+    "target": "gnosticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "아우구스티누스는 마니교에서 개종한 후 영지주의적 이원론적 세계관을 비판했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "plotinus",
+    "target": "gnosticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "플로티노스는 영지주의자들에 대하여에서 물질 세계를 악으로 보는 영지주의를 비판했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buber",
+    "target": "hasidism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "부버는 하시디즘의 이야기 등을 통해 하시디즘의 영적 유산을 현대에 재해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "abraham-heschel",
+    "target": "hasidism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "헤셸은 하시디즘 전통에서 자라 그 영성을 현대 유대 신학에 접목시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ashoka",
+    "target": "jainism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아쇼카 왕은 자이나교의 비폭력 사상에도 영향을 받아 평화로운 통치를 추구했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "melanchthon",
+    "target": "lutheranism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "멜란히톤은 아우크스부르크 신앙고백을 작성하여 루터교 신학을 체계화했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bonhoeffer",
+    "target": "lutheranism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "본회퍼는 루터교 목사로서 나치 저항 운동에 참여하며 값비싼 은총을 설교했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kierkegaard",
+    "target": "lutheranism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "키르케고르는 루터교 환경에서 자라 제도적 기독교를 비판하며 실존적 신앙을 추구했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nagarjuna-buddhist",
+    "target": "mahayana-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "나가르주나는 중관학파를 창시하여 대승불교 공 사상의 철학적 기초를 확립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "vasubandhu",
+    "target": "mahayana-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "바수반두는 유식학파를 발전시켜 대승불교 인식론의 핵심을 형성했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "asanga",
+    "target": "mahayana-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아상가는 유가행파를 창시하여 대승불교 수행론을 체계화했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kumarajiva",
+    "target": "mahayana-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "구마라지바는 대승 경전을 중국어로 번역하여 동아시아 대승불교 전파의 기초를 놓았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "xuanzang",
+    "target": "mahayana-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "현장은 인도를 순례하고 대승 경전을 한역하여 중국 대승불교의 발전에 크게 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wang-yangming",
+    "target": "neo-confucianism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "왕양명은 심즉리를 주장하며 성리학을 양명학으로 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "rashi",
+    "target": "orthodox-judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "라시는 토라와 탈무드의 종합적 주석을 통해 정통 유대교 학문의 기초를 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nachmanides",
+    "target": "orthodox-judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "나흐마니데스는 토라 주석과 공개 논쟁을 통해 정통 유대교 신학을 수호했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "joseph-karo",
+    "target": "orthodox-judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "요세프 카로는 슐한 아루크를 편찬하여 정통 유대교 법률 체계를 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rabbi-akiva",
+    "target": "orthodox-judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "랍비 아키바는 미시나의 기초를 놓아 구전 토라 전승 체계의 핵심을 형성했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jonathan-edwards",
+    "target": "pentecostalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "에드워즈의 대각성 부흥 운동은 오순절주의의 부흥적 전통에 선구적 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "john-wesley",
+    "target": "pentecostalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "웨슬리의 성화 신학과 감리교 부흥 운동은 오순절주의 탄생의 직접적 토양이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "honen",
+    "target": "pure-land-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "법연은 전수염불을 주장하며 일본 정토종을 창시했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "shinran",
+    "target": "pure-land-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "친란은 타력본원을 강조하며 정토진종을 확립하여 정토 사상을 심화시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "abraham-heschel",
+    "target": "reform-judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "헤셸은 보수파와 개혁파를 넘나들며 사회 정의와 유대 영성의 결합을 촉진했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-aquinas",
+    "target": "roman-catholicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "토마스 아퀴나스는 신학대전으로 로마 가톨릭의 공식 신학 체계를 수립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "augustine",
+    "target": "roman-catholicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아우구스티누스는 원죄론과 은총론으로 로마 가톨릭 신학의 기초를 놓았다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "pope-john-xxiii",
+    "target": "roman-catholicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "교황 요한 23세는 제2차 바티칸 공의회를 소집하여 가톨릭 교회의 현대화를 이끌었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "pope-john-paul-ii",
+    "target": "roman-catholicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "교황 요한 바오로 2세는 27년간 가톨릭 교회를 이끌며 종교간 대화에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "pope-francis",
+    "target": "roman-catholicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "교황 프란치스코는 사회 정의와 환경 보호를 강조하며 가톨릭 교회를 이끌고 있다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ali-ibn-abi-talib",
+    "target": "shia-islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "알리는 예언자 무함마드의 사위이자 정당한 후계자로서 시아파의 기원이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "husayn-ibn-ali",
+    "target": "shia-islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "후세인은 카르발라에서 순교하여 시아파 정체성의 핵심 상징이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jafar-al-sadiq",
+    "target": "shia-islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "자파르 알사디크는 시아파 법학과 신학의 기초를 확립한 여섯 번째 이맘이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad-al-mahdi",
+    "target": "shia-islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "열두 번째 이맘 무함마드 알마디는 시아파의 핵심 구원 신앙의 대상이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kukai",
+    "target": "shinto-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "구카이는 밀교를 전파하며 신불습합을 통해 신도와 불교의 융합을 촉진했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "kabir",
+    "target": "sikhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "카비르의 힌두교-이슬람 통합적 시와 사상은 구루 나낙의 시크교 창시에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rumi",
+    "target": "sufism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "루미는 수피 사랑의 시를 통해 이슬람 신비주의의 정수를 표현했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "rabia-al-adawiyya",
+    "target": "sufism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "라비아는 무조건적 신의 사랑을 설교하며 수피 신비주의의 선구자가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-arabi",
+    "target": "sufism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "이븐 아라비는 존재의 일체성으로 수피 형이상학을 집대성했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "al-hallaj",
+    "target": "sufism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "알할라지는 나는 진리다를 외치며 수피 신비 체험의 극단을 보여주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "abdul-qadir-jilani",
+    "target": "sufism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "압둘 카디르 질라니는 카디리야 수피 종단의 창시자로 수피즘 제도화에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "abu-bakr",
+    "target": "sunni-islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "아부 바크르는 최초의 정통 칼리프로서 수니파 정통성의 기원이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "umar-ibn-khattab",
+    "target": "sunni-islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "우마르는 이슬람 제국을 확장하며 수니파 행정 및 법률 체계를 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "abu-hanifa",
+    "target": "sunni-islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아부 하니파는 하나피 법학파를 창시하여 수니파 법학의 기초를 놓았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "imam-shafii",
+    "target": "sunni-islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "이맘 샤피이는 법학 방법론을 체계화하여 이슬람 법학의 과학적 기초를 마련했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-ghazali",
+    "target": "sunni-islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "가잘리는 철학을 비판하고 수니파 정통 신학의 최종적 체계를 확립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "genghis-khan",
+    "target": "tengriism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "칭기즈 칸은 텡그리(하늘의 신)의 위임을 받은 통치자로 자처하며 텡그리즘을 실천했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vivekananda",
+    "target": "theosophy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "비베카난다는 신지학회와 교류하며 힌두교의 서양 전파에 있어 상호 영향을 주고받았다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "buddhaghosa",
+    "target": "theravada-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "붓다고사는 청정도론을 저술하여 상좌부 불교 수행론의 최고 권위를 확립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ajahn-chah",
+    "target": "theravada-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아잔 차는 태국 숲 전통을 통해 현대 상좌부 불교 수행을 세계에 전파했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mahasi-sayadaw",
+    "target": "theravada-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "마하시 사야도는 위빠사나 명상법을 체계화하여 상좌부 불교 수행의 보급에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddhadasa",
+    "target": "theravada-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "붓다다사는 원시 불교의 핵심으로 돌아가자고 주장하며 태국 불교를 혁신했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dalai-lama-14",
+    "target": "vajrayana-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "달라이 라마 14세는 티베트 금강승 불교를 세계에 알리며 현대 불교 대화를 이끌고 있다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "tsongkhapa",
+    "target": "vajrayana-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "총카파는 겔룩파를 창시하여 티베트 금강승 불교의 학문적 체계를 확립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "milarepa",
+    "target": "vajrayana-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "밀라레파는 고행과 노래를 통해 티베트 금강승의 실천적 이상을 구현했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kukai",
+    "target": "vajrayana-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "구카이는 진언종을 개창하여 일본에 밀교(금강승)를 전파했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-taymiyyah",
+    "target": "wahhabism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "이븐 타이미야의 엄격한 순니파 정통주의 신학은 와하비즘의 직접적 사상적 원천이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "huineng",
+    "target": "zen-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "혜능은 돈오를 주장하며 남종선의 시조가 되어 선불교를 혁신했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "dogen",
+    "target": "zen-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "도겐은 좌선의 수행을 강조하며 일본 조동종을 확립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "eisai",
+    "target": "zen-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "에이사이는 중국에서 임제선을 도입하여 일본 선불교의 기초를 놓았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hakuin",
+    "target": "zen-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "하쿠인은 공안 수행을 체계화하여 일본 임제종을 중흥시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thich-nhat-hanh",
+    "target": "zen-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "틱낫한은 참여 불교를 통해 현대 선불교를 평화 운동과 결합시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "basil-great",
+    "target": "mount-athos",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "대 바실리우스의 수도 규칙은 아토스 산 수도원 공동체의 규범적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nagarjuna-buddhist",
+    "target": "nalanda-university",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "나가르주나는 날란다 대학에서 중관학파의 공 사상을 가르쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vasubandhu",
+    "target": "nalanda-university",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "바수반두는 날란다에서 유식학과 아비달마를 강의했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "asanga",
+    "target": "nalanda-university",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "아상가는 날란다에서 유가행파를 창시하여 대승불교 수행 체계를 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tsongkhapa",
+    "target": "potala-palace",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "총카파가 창시한 겔룩파 전통이 달라이 라마 제도를 확립하여 포탈라궁의 역사를 열었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "padmasambhava",
+    "target": "potala-palace",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "파드마삼바바가 티베트에 전한 불교가 포탈라궁 건립의 종교적 토양이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "peter",
+    "target": "vatican",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "사도 베드로는 로마에서 순교하여 바티칸 성 베드로 대성당의 기원이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "augustine",
+    "target": "vatican",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아우구스티누스의 신학은 바티칸 교리의 핵심 기둥이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-aquinas",
+    "target": "vatican",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아퀴나스의 신학대전은 바티칸이 공인한 가톨릭 신학의 표준이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hegel",
+    "target": "coincidentia-oppositorum",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "헤겔의 변증법은 대립하는 것들의 종합적 통일을 추구하며 대립의 일치를 철학적으로 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "william-james",
+    "target": "collective-unconscious",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "윌리엄 제임스의 종교적 경험 연구는 집단 무의식 개념의 심리학적 토대를 마련했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "nietzsche",
+    "target": "collective-unconscious",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "니체의 디오니소스적 충동과 비합리적 심층 개념은 집단 무의식 이론의 사상적 선구가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hildegard-bingen",
+    "target": "sacred-feminine",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "힐데가르트는 신적 지혜의 여성적 이미지를 통해 성스러운 여성성을 표현했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "irigaray",
+    "target": "sacred-feminine",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "이리가레는 여성적 차이의 철학을 통해 서양 형이상학에서 억압된 성스러운 여성성을 복원하고자 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "camus",
+    "target": "existentialist-literature",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "카뮈는 이방인, 시지프 신화를 통해 부조리와 반항의 실존적 문학을 창작했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "de-beauvoir",
+    "target": "existentialist-literature",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "보부아르는 실존주의 철학을 소설과 에세이에 담아 여성의 실존적 조건을 탐구했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kafka",
+    "target": "existentialist-literature",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "카프카의 부조리한 세계를 묘사한 소설들은 실존주의 문학의 직접적 선구가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dostoevsky",
+    "target": "existentialist-literature",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "도스토예프스키의 인간 심리 탐구와 실존적 물음은 실존주의 문학의 핵심적 원천이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "debussy",
+    "target": "impressionism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "드뷔시는 인상주의 음악의 대표자로서 빛과 색채를 음향으로 표현했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "picasso",
+    "target": "modernism-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "피카소는 입체파를 창시하며 모더니즘 예술의 혁신을 주도했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "kandinsky",
+    "target": "modernism-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "칸딘스키는 최초의 추상화를 그리며 모더니즘 미술의 새로운 지평을 열었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "james-joyce",
+    "target": "modernism-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "제임스 조이스는 율리시스로 모더니즘 문학의 실험적 정점을 보여주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "virginia-woolf",
+    "target": "modernism-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "버지니아 울프는 의식의 흐름 기법으로 모더니즘 문학을 심화시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "stravinsky",
+    "target": "modernism-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "스트라빈스키는 봄의 제전으로 모더니즘 음악의 혁명을 일으켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "frida-kahlo",
+    "target": "surrealism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "프리다 칼로는 초현실주의적 자화상을 통해 꿈과 무의식의 세계를 표현했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "butler",
+    "target": "metoo-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "주디스 버틀러의 젠더 수행성 이론은 미투 운동의 이론적 배경을 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "nehru",
+    "target": "postcolonialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "네루는 인도의 독립을 이끌며 탈식민주의 국가 건설의 모범을 제시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mandela",
+    "target": "postcolonialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "만델라는 아파르트헤이트에 맞서 투쟁하며 탈식민주의의 상징이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ho-chi-minh",
+    "target": "postcolonialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "호치민은 베트남의 독립을 이끌며 아시아 탈식민 운동의 지도자가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "foucault",
+    "target": "postcolonialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "푸코의 권력-지식 담론 분석은 탈식민주의 이론의 핵심적 방법론이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "derrida",
+    "target": "postcolonialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "데리다의 해체론은 서구 중심적 사고를 비판하는 탈식민주의의 철학적 도구가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nick-bostrom",
+    "target": "posthumanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "보스트롬은 인간 향상과 기술적 특이점에 대한 철학적 분석으로 포스트휴머니즘 논의를 이끌었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "deleuze",
+    "target": "posthumanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "들뢰즈의 생성과 되기 철학은 포스트휴머니즘의 핵심 사상적 원천이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nassim-taleb",
+    "target": "chaos-theory",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "탈레브는 블랙 스완에서 카오스와 극단적 불확실성이 사회에 미치는 영향을 분석했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "nassim-taleb",
+    "target": "complexity-science",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "탈레브는 복잡계의 비선형적 특성과 반취약성 개념을 통해 복잡성 과학에 기여했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "claude-shannon",
+    "target": "cybernetics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "섀넌은 정보이론을 수립하여 사이버네틱스의 수학적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "von-neumann",
+    "target": "cybernetics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "폰 노이만은 자기복제 오토마타 이론으로 사이버네틱스의 이론적 확장에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "von-neumann",
+    "target": "singularity-concept",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "폰 노이만은 기술적 진보의 가속이 인류 역사의 특이점을 초래할 것이라는 개념을 최초로 제시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "popper",
+    "target": "austrian-economics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "포퍼는 오스트리아 학파의 개방 사회론과 자유주의 경제 철학에 공감하며 교류했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-smith",
+    "target": "behavioral-economics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "스미스의 도덕감정론에서 인간의 비합리적 심리에 대한 통찰은 행동경제학의 선구적 원천이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "amartya-sen",
+    "target": "behavioral-economics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "센의 역량 접근법과 합리성 비판은 행동경제학의 규범적 차원을 확장했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-smith",
+    "target": "classical-liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "스미스는 국부론에서 자유 시장 경제를 옹호하여 고전적 자유주의 경제학을 확립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "john-stuart-mill",
+    "target": "classical-liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "밀은 자유론에서 개인의 자유를 옹호하며 고전적 자유주의를 정교화했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "montesquieu",
+    "target": "classical-liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "몽테스키외의 삼권분립론은 고전적 자유주의의 정치 제도적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "peter-singer",
+    "target": "deep-ecology",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "싱어의 동물 해방론은 생명중심주의적 심층 생태학과 문제의식을 공유한다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "greta-thunberg",
+    "target": "deep-ecology",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "툰베리의 기후 운동은 심층 생태학적 관점에서 근본적 체제 전환을 요구한다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "amartya-sen",
+    "target": "keynesian-economics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "센은 케인스주의적 복지 경제학의 전통을 발전시켜 빈곤과 불평등을 분석했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "popper",
+    "target": "neoliberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "포퍼의 열린 사회론과 반전체주의 철학은 신자유주의의 지적 토양이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "locke",
+    "target": "social-contract-theory",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "로크는 사회계약론을 발전시켜 동의에 기반한 정부와 자연권의 이론을 확립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "rousseau",
+    "target": "social-contract-theory",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "루소는 사회계약론에서 일반의지를 통해 민주주의의 철학적 기초를 놓았다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "kant",
+    "target": "social-contract-theory",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "칸트는 사회계약을 이성적 원리로 재해석하여 정의와 권리의 도덕적 기초를 제시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "habermas",
+    "target": "social-democracy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "하버마스는 의사소통적 합리성과 공론장 이론을 통해 사회민주주의의 규범적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-stuart-mill",
+    "target": "social-democracy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "밀의 후기 사상에서 나타난 사회적 자유주의는 사회민주주의의 사상적 선구가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "paracelsus",
+    "target": "alchemy-tradition",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "파라켈수스는 연금술의 방법론을 의학에 적용하여 의화학 전통을 열었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "roger-bacon",
+    "target": "alchemy-tradition",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "로저 베이컨은 연금술을 경험적 탐구의 일환으로 연구하며 실험적 방법을 강조했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "giordano-bruno",
+    "target": "hermetic-philosophy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "브루노는 헤르메스주의의 무한 우주론을 받아들여 코페르니쿠스를 넘어서는 우주론을 전개했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "plotinus",
+    "target": "hermetic-philosophy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "플로티노스의 신플라톤주의는 헤르메스 철학의 형이상학적 체계에 결정적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "giordano-bruno",
+    "target": "hermeticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "브루노는 헤르메스 문헌에 기반하여 마법적 우주론과 기억술을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "philo-of-alexandria",
+    "target": "hermeticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "필로의 유대-그리스 종합 철학은 헤르메스주의의 형성에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "isaac-luria",
+    "target": "kabbalah",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "이삭 루리아는 치무줌(수축) 이론으로 카발라 신비주의를 혁신적으로 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "nachmanides",
+    "target": "kabbalah",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "나흐마니데스는 토라 주석에 카발라적 해석을 도입하여 신비주의를 정통 유대교에 통합시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "baal-shem-tov",
+    "target": "kabbalah",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "바알 쉠 토브는 카발라의 신비적 가르침을 대중화하여 하시디즘의 영적 토대로 삼았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vivekananda-hindu",
+    "target": "yoga-tradition",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "비베카난다는 라자 요가를 서양에 소개하며 요가의 세계적 보급에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ramakrishna",
+    "target": "yoga-tradition",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "라마크리슈나는 다양한 요가 수행을 실천하며 요가 전통의 통합적 비전을 제시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aurobindo-hindu",
+    "target": "yoga-tradition",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "오로빈도는 통합 요가를 창시하여 영적 진화의 새로운 체계를 수립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad-iqbal",
+    "target": "bahai-faith",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "무함마드 이크발은 바하이 신앙의 세계 종교적 비전과 대화하며 이슬람 부흥을 모색했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "tagore",
+    "target": "cheondogyo",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "타고르는 동아시아 방문 시 천도교의 인간 중심적 영성에 관심을 보였다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "levinas",
+    "target": "hasidism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "레비나스는 하시디즘의 윤리적 영성에 영향을 받아 타자의 철학을 발전시켰다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "jainism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "붓다는 자이나교의 고행 전통과 대화하며 중도의 가르침을 형성했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "wonhyo",
+    "target": "korean-shamanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "원효는 한국 무속의 대중적 영성을 불교에 통합시키려 노력했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "tertullian",
+    "target": "manichaeism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "테르툴리아누스는 마니교적 이원론에 맞서 기독교 정통 신앙을 변호했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "jerome",
+    "target": "manichaeism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "히에로니무스는 마니교의 금욕주의와 이원론을 기독교적 관점에서 비판했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "moses",
+    "target": "reform-judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "모세의 율법 전통에 대한 현대적 재해석이 개혁 유대교의 출발점이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hillel",
+    "target": "reform-judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "힐렐의 율법에 대한 진보적 해석 전통은 개혁 유대교의 선구적 모델이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "saicho",
+    "target": "shinto-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "사이초는 천태종을 확립하며 신도와 불교의 관계를 재정립했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "akbar",
+    "target": "sikhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "무굴 황제 아크바르는 시크교를 포함한 종교적 관용 정책을 펼쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "imam-ahmad-ibn-hanbal",
+    "target": "wahhabism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "이맘 한발의 엄격한 전통주의 법학은 와하비즘의 법학적 토대가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "zoroastrianism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "붓다 시대 페르시아의 조로아스터교 사상이 인도 종교 환경에 간접적 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "fakhr-al-din-razi",
+    "target": "al-azhar-university",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "파크르 알딘 라지의 이슬람 신학은 알아즈하르 대학의 교과 전통에 깊은 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "imam-nawawi",
+    "target": "al-azhar-university",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "이맘 나와위의 하디스 학문은 알아즈하르 대학의 학문적 전통의 핵심이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "gregory-nyssa",
+    "target": "mount-athos",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "닛사의 그레고리우스의 신비 신학은 아토스 산 수도승들의 관상기도 전통에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "chrysostom",
+    "target": "mount-athos",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "요한 크리소스토무스의 전례적 가르침은 아토스 산 수도원의 예배 전통에 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "milarepa",
+    "target": "potala-palace",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "밀라레파의 수행 전통은 티베트 불교 문화의 핵심으로 포탈라궁의 영적 전통에 기여했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "van-gogh",
+    "target": "impressionism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "반 고흐는 인상주의의 영향을 받아 후기인상주의를 개척했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hokusai",
+    "target": "impressionism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "호쿠사이의 일본 판화는 인상주의 화가들에게 구도와 색채에서 큰 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "baudrillard",
+    "target": "meme-culture",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "보드리야르의 시뮬라크르 이론은 밈 문화의 복제와 자기참조적 특성을 예견했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "yuval-harari",
+    "target": "meme-culture",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "하라리는 밈적 문화 전파가 인류 역사를 형성하는 핵심 메커니즘임을 분석했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "de-beauvoir",
+    "target": "metoo-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "보부아르의 여성 억압 분석은 미투 운동의 사상적 선구가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "foucault",
+    "target": "posthumanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "푸코의 인간의 죽음 테제는 포스트휴머니즘의 핵심 사상적 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "poincare",
+    "target": "chaos-theory",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "푸앵카레는 동역학적 시스템의 비선형적 특성을 최초로 수학적으로 분석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "babbage",
+    "target": "information-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "배비지의 해석기관 설계는 정보 혁명의 기계적 선구가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "von-neumann",
+    "target": "information-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "폰 노이만의 컴퓨터 아키텍처는 정보 혁명의 핵심 기술적 토대이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "turing",
+    "target": "singularity-concept",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "튜링의 기계 지능 개념은 기술적 특이점 논의의 이론적 출발점이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hume",
+    "target": "behavioral-economics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "흄의 이성에 대한 회의와 감정의 역할 강조는 행동경제학의 철학적 선구이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-smith",
+    "target": "keynesian-economics",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "스미스가 확립한 경제학 전통에 대한 비판적 발전으로 케인스 경제학이 탄생했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-smith",
+    "target": "neoliberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "스미스의 자유 시장 이론이 신자유주의 경제학의 고전적 원천이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "marx",
+    "target": "social-democracy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "마르크스의 자본주의 비판이 사회민주주의의 비판적 출발점이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "desmond-tutu",
+    "target": "yoruba-religion",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "투투 대주교는 아프리카 전통 종교의 공동체적 가치를 기독교 신학에 통합시켰다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "mencius",
+    "target": "wang-yangming-school",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "맹자의 성선설과 양지(良知) 개념은 양명학파의 핵심 사상적 원천이다",
+    "strength": 2,
+    "direction": "directed"
   }
 ]
