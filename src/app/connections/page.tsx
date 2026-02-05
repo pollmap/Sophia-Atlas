@@ -1603,20 +1603,20 @@ export default function ConnectionsPage() {
           <div className="lg:col-span-3" ref={containerRef}>
             <div className="relative bg-[var(--fresco-parchment)] rounded border border-[var(--fresco-shadow)] overflow-hidden">
               {/* Category + Entity Legend */}
-              <div className="absolute top-3 left-3 z-10 flex flex-wrap gap-2 pointer-events-none">
+              <div className="absolute top-3 left-3 z-10 flex flex-wrap gap-x-3 gap-y-1.5 pointer-events-none bg-[var(--fresco-parchment)]/80 backdrop-blur-sm rounded px-2 py-1.5">
                 {CATEGORY_FILTERS.slice(1).map((c) => (
-                  <div key={c.key} className="flex items-center gap-1 text-[9px] text-[var(--ink-light)]">
-                    <div className="w-2 h-2 rounded-full" style={{ backgroundColor: c.color }} />
+                  <div key={c.key} className="flex items-center gap-1.5 text-[11px] text-[var(--ink-dark)]">
+                    <div className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{ backgroundColor: c.color }} />
                     {c.label}
                   </div>
                 ))}
                 {showEntities && (
                   <>
-                    <div className="w-px h-3 bg-[var(--fresco-shadow)] mx-1" />
+                    <div className="w-px h-4 bg-[var(--fresco-shadow)] mx-1" />
                     {Object.entries(ENTITY_TYPE_LABELS).map(([type, label]) => (
-                      <div key={type} className="flex items-center gap-1 text-[9px] text-[var(--ink-light)]">
+                      <div key={type} className="flex items-center gap-1.5 text-[11px] text-[var(--ink-dark)]">
                         <div
-                          className="w-2 h-2 rotate-45 rounded-[1px]"
+                          className="w-2.5 h-2.5 rotate-45 rounded-[1px] flex-shrink-0"
                           style={{ backgroundColor: ENTITY_TYPE_COLORS[type] }}
                         />
                         {label}

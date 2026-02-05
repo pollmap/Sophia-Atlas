@@ -114,10 +114,13 @@ export default function ReligionComparePage() {
                     key={col.key}
                     className="text-left px-4 py-4 text-sm font-semibold text-foreground border-b border-border min-w-[180px]"
                   >
-                    <div className="flex items-center gap-2">
+                    <Link
+                      href={`/themes/${col.key}`}
+                      className="flex items-center gap-2 hover:text-gold transition-colors"
+                    >
                       <span className="text-foreground-muted">{col.icon}</span>
                       {col.label}
-                    </div>
+                    </Link>
                   </th>
                 ))}
               </tr>
@@ -162,7 +165,7 @@ export default function ReligionComparePage() {
                                 content
                               )
                             }
-                            className="text-left text-xs text-foreground-secondary hover:text-foreground transition-colors leading-relaxed line-clamp-3 cursor-pointer hover:bg-fresco-aged/40 rounded-lg p-1.5 -m-1.5"
+                            className="text-left text-xs text-foreground-secondary hover:text-foreground transition-colors leading-relaxed cursor-pointer hover:bg-fresco-aged/40 rounded-lg p-1.5 -m-1.5"
                           >
                             {content}
                           </button>
@@ -242,7 +245,7 @@ export default function ReligionComparePage() {
                         {col.label}
                       </span>
                     </div>
-                    <p className="text-xs text-foreground-secondary leading-relaxed line-clamp-2">
+                    <p className="text-xs text-foreground-secondary leading-relaxed line-clamp-4">
                       {content}
                     </p>
                   </button>
