@@ -10436,5 +10436,310 @@
     "relatedEntities": [
       "maori-tradition"
     ]
+  },
+  {
+    "id": "essenes",
+    "type": "movement",
+    "name": {
+      "ko": "에세네파",
+      "en": "Essenes",
+      "original": "אִסִּיִים"
+    },
+    "period": {
+      "start": -150,
+      "end": 73
+    },
+    "location": {
+      "lat": 31.74,
+      "lng": 35.46,
+      "region": "유대 사막/쿰란"
+    },
+    "era": "ancient",
+    "summary": "타락한 예루살렘 성전을 떠나 사막에서 금욕적 공동체 생활을 한 유대교 분파. 세례 요한과 초기 기독교에 큰 영향을 미쳤다.",
+    "detailed": "에세네파는 기원전 2세기경 마카비 혁명 이후 예루살렘 성전 사제직의 타락에 반발하여 형성된 유대교 분파이다. 사해 서쪽 쿰란 일대의 황량한 광야에서 재산을 공유하며 금욕적 공동체 생활을 영위했다. 정결 의례, 공동 식사, 경전 필사를 일상으로 삼았으며, 종말론적 세계관과 빛과 어둠의 이원론을 가르쳤다. 요세푸스, 필론, 플리니우스의 기록을 통해 알려졌으며, 1947년 쿰란 동굴에서 발견된 사해 사본을 통해 그들의 사상이 재조명되었다.",
+    "tags": [
+      "유대교",
+      "금욕주의",
+      "공동체",
+      "종말론",
+      "쿰란",
+      "사해사본"
+    ],
+    "relatedPersons": [
+      "john-the-baptist"
+    ],
+    "relatedEntities": [
+      "dead-sea-scrolls",
+      "qumran-community"
+    ],
+    "founders": [
+      "의의 교사(Teacher of Righteousness)"
+    ],
+    "keyPrinciples": [
+      "재산 공유",
+      "금욕",
+      "정결 의례",
+      "경전 필사",
+      "종말론적 이원론"
+    ]
+  },
+  {
+    "id": "karaites",
+    "type": "movement",
+    "name": {
+      "ko": "카라이파",
+      "en": "Karaites",
+      "original": "קָרָאִים"
+    },
+    "period": {
+      "start": 760,
+      "end": 2024
+    },
+    "location": {
+      "lat": 31.77,
+      "lng": 35.23,
+      "region": "이라크/이스라엘"
+    },
+    "era": "medieval",
+    "summary": "탈무드(구전 토라)를 거부하고 성경 본문만을 권위로 인정하는 유대교 분파. \"성경주의자\"라 불린다.",
+    "tags": [
+      "유대교",
+      "성경주의",
+      "구전전통 거부",
+      "분파"
+    ],
+    "relatedEntities": [
+      "bible"
+    ],
+    "keyPrinciples": [
+      "기록된 토라만 인정",
+      "탈무드 거부",
+      "독자적 해석"
+    ]
+  },
+  {
+    "id": "samaritans",
+    "type": "movement",
+    "name": {
+      "ko": "사마리아인",
+      "en": "Samaritans",
+      "original": "שומרונים"
+    },
+    "period": {
+      "start": -700,
+      "end": 2024
+    },
+    "location": {
+      "lat": 32.21,
+      "lng": 35.28,
+      "region": "사마리아/나블루스"
+    },
+    "era": "ancient",
+    "summary": "고대 이스라엘 북왕국의 후예로, 게리짐산에서 독자적 성전 전통을 유지하는 유대교 관련 종교 공동체.",
+    "tags": [
+      "유대교",
+      "사마리아",
+      "게리짐산",
+      "토라",
+      "고대 이스라엘"
+    ],
+    "keyPrinciples": [
+      "모세 오경만 인정",
+      "게리짐산 성지",
+      "독자적 제사 전통"
+    ]
+  },
+  {
+    "id": "mandaeans",
+    "type": "movement",
+    "name": {
+      "ko": "만다교",
+      "en": "Mandaeism"
+    },
+    "period": {
+      "start": -100,
+      "end": 2024
+    },
+    "location": {
+      "lat": 31,
+      "lng": 47,
+      "region": "이라크 남부/이란"
+    },
+    "era": "ancient",
+    "summary": "세례 요한을 최후의 예언자로 숭배하며 반복적 침수 세례를 핵심 의례로 하는 고대 그노시스적 종교.",
+    "tags": [
+      "그노시스",
+      "세례",
+      "이원론",
+      "세례 요한",
+      "이라크"
+    ],
+    "keyPrinciples": [
+      "반복적 침수 세례(마스부타)",
+      "빛과 어둠의 이원론",
+      "영혼의 승천"
+    ]
+  },
+  {
+    "id": "montanism",
+    "type": "movement",
+    "name": {
+      "ko": "몬타누스주의",
+      "en": "Montanism"
+    },
+    "period": {
+      "start": 156,
+      "end": 500
+    },
+    "location": {
+      "lat": 38.7,
+      "lng": 29.4,
+      "region": "소아시아 프리기아"
+    },
+    "era": "ancient",
+    "summary": "성령의 직접적 예언과 엄격한 금욕을 강조한 초기 기독교 운동. 교부 테르툴리아누스도 합류한 영향력 있는 이단.",
+    "tags": [
+      "기독교",
+      "예언",
+      "금욕주의",
+      "성령",
+      "이단"
+    ],
+    "relatedPersons": [
+      "tertullian"
+    ],
+    "keyPrinciples": [
+      "새로운 예언의 계속",
+      "극단적 금욕",
+      "임박한 재림"
+    ]
+  },
+  {
+    "id": "donatism",
+    "type": "movement",
+    "name": {
+      "ko": "도나투스주의",
+      "en": "Donatism"
+    },
+    "period": {
+      "start": 311,
+      "end": 700
+    },
+    "location": {
+      "lat": 36.75,
+      "lng": 3.06,
+      "region": "북아프리카"
+    },
+    "era": "ancient",
+    "summary": "배교한 성직자의 성사 유효성을 부정한 북아프리카 기독교 분열 운동. 아우구스티누스의 주요 논쟁 대상.",
+    "tags": [
+      "기독교",
+      "분열",
+      "북아프리카",
+      "성사",
+      "순수주의"
+    ],
+    "relatedPersons": [
+      "augustine"
+    ],
+    "keyPrinciples": [
+      "배교 성직자의 성사 무효",
+      "교회의 순결",
+      "재세례"
+    ]
+  },
+  {
+    "id": "waldensians",
+    "type": "movement",
+    "name": {
+      "ko": "발도파",
+      "en": "Waldensians"
+    },
+    "period": {
+      "start": 1173,
+      "end": 2024
+    },
+    "location": {
+      "lat": 44.85,
+      "lng": 7.17,
+      "region": "이탈리아 피에몬테/프랑스"
+    },
+    "era": "medieval",
+    "summary": "종교개혁보다 300년 앞서 성경적 빈곤과 평신도 설교를 주장한 중세 개혁 운동. \"최초의 개신교\"라 불린다.",
+    "tags": [
+      "기독교",
+      "개혁",
+      "빈곤",
+      "평신도",
+      "이단"
+    ],
+    "keyPrinciples": [
+      "사도적 빈곤",
+      "평신도 설교권",
+      "성경 번역",
+      "면벌부 거부"
+    ]
+  },
+  {
+    "id": "hussites",
+    "type": "movement",
+    "name": {
+      "ko": "후스파",
+      "en": "Hussites"
+    },
+    "period": {
+      "start": 1402,
+      "end": 1471
+    },
+    "location": {
+      "lat": 50.08,
+      "lng": 14.42,
+      "region": "보헤미아(체코)"
+    },
+    "era": "medieval",
+    "summary": "얀 후스의 교회 개혁 사상을 따르는 보헤미아의 종교개혁 운동. 루터보다 100년 앞서 교황권에 도전했다.",
+    "tags": [
+      "기독교",
+      "개혁",
+      "보헤미아",
+      "교황권 비판",
+      "후스 전쟁"
+    ],
+    "keyPrinciples": [
+      "성찬에서 포도주 분배",
+      "교회 재산 세속화",
+      "자유로운 설교"
+    ]
+  },
+  {
+    "id": "therapeutae",
+    "type": "movement",
+    "name": {
+      "ko": "테라페우타이",
+      "en": "Therapeutae"
+    },
+    "period": {
+      "start": -100,
+      "end": 100
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.92,
+      "region": "이집트 알렉산드리아"
+    },
+    "era": "ancient",
+    "summary": "에세네파와 유사한 유대교 명상적 공동체. 알렉산드리아 근교에서 관조적 삶을 살며 알레고리적 성경 해석에 전념했다.",
+    "tags": [
+      "유대교",
+      "명상",
+      "관조",
+      "알레고리",
+      "금욕주의"
+    ],
+    "keyPrinciples": [
+      "관조적 삶",
+      "알레고리적 성경 해석",
+      "성별 평등한 공동체"
+    ]
   }
 ]
