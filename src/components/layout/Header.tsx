@@ -62,6 +62,12 @@ const navEntries: NavEntry[] = [
   },
   {
     kind: "link",
+    label: "타임라인",
+    icon: <Clock className="w-4 h-4" />,
+    href: "/timeline",
+  },
+  {
+    kind: "link",
     label: "세계지도",
     icon: <Globe className="w-4 h-4" />,
     href: "/map",
@@ -71,12 +77,6 @@ const navEntries: NavEntry[] = [
     label: "인물",
     icon: <Users className="w-4 h-4" />,
     href: "/persons",
-  },
-  {
-    kind: "link",
-    label: "비교",
-    icon: <ArrowLeftRight className="w-4 h-4" />,
-    href: "/compare",
   },
   {
     kind: "group",
@@ -91,6 +91,7 @@ const navEntries: NavEntry[] = [
       { label: "종교 비교표", description: "종교 간 비교 매트릭스", href: "/religion/compare" },
       { label: "과학사 타임라인", description: "주요 발견과 발명", href: "/science/timeline" },
       { label: "역사 사건", description: "주요 역사적 사건", href: "/history/timeline" },
+      { label: "비교 엔진", description: "인물 간 사상 비교", href: "/compare" },
     ],
   },
   {
