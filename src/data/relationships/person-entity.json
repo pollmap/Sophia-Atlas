@@ -18983,5 +18983,35 @@
     "description": "에드먼드 버크는 근대 보수주의 사상의 토대를 놓았다",
     "strength": 3,
     "direction": "directed"
+  },
+  {
+    "source": "watt",
+    "target": "industrial-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "와트의 증기기관 개량은 산업혁명의 핵심 기술적 기반을 제공했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "watt",
+    "target": "steam-power",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "와트는 분리 응축기 설계로 증기 동력 기술을 혁신했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "stirner",
+    "target": "anarchism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "슈티르너는 개인주의적 아나키즘의 선구자로서 모든 권위를 거부했다",
+    "strength": 2,
+    "direction": "directed"
   }
 ]

@@ -35252,5 +35252,45 @@
     "description": "크로포트킨은 다윈의 진화론을 상호부조의 관점에서 재해석했다",
     "strength": 2,
     "direction": "directed"
+  },
+  {
+    "source": "stirner",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "슈티르너는 헤겔 좌파의 일원으로서 헤겔 관념론을 급진적 개인주의로 전환시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "stirner",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "슈티르너의 급진적 에고이즘은 니체의 초인 사상에 선행하는 개인주의의 원천이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "stirner",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "마르크스와 엥겔스는 《독일 이데올로기》에서 슈티르너의 개인주의를 상세히 비판했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "watt",
+    "target": "michael-faraday",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "와트의 증기기관 혁신이 이후 산업 기술 발전의 토대를 마련했다",
+    "strength": 1,
+    "direction": "directed"
   }
 ]
