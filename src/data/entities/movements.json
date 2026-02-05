@@ -3098,5 +3098,1873 @@
       "classical-liberalism",
       "reform-judaism"
     ]
+  },
+  {
+    "id": "eleatic-school",
+    "type": "movement",
+    "name": {
+      "ko": "엘레아 학파",
+      "en": "Eleatic School",
+      "original": "Ἐλεατικοί"
+    },
+    "period": {
+      "start": -540,
+      "end": -430,
+      "approximate": true
+    },
+    "location": {
+      "lat": 40.16,
+      "lng": 15.16,
+      "region": "이탈리아 엘레아"
+    },
+    "era": "ancient",
+    "summary": "파르메니데스가 창시한 고대 그리스 철학 학파로, 변화와 다수성을 부정하고 존재의 불변성과 단일성을 주장했다. 제논의 역설(아킬레스와 거북이, 화살의 역설)은 변화와 운동의 불가능성을 논증하여 이후 서양 논리학과 형이상학의 근본 문제를 제기했다.",
+    "tags": [
+      "존재론",
+      "형이상학",
+      "고대그리스",
+      "논리학"
+    ],
+    "relatedPersons": [
+      "parmenides",
+      "zeno-of-elea"
+    ],
+    "relatedEntities": [
+      "milesian-school",
+      "idealism"
+    ]
+  },
+  {
+    "id": "pythagorean-school",
+    "type": "movement",
+    "name": {
+      "ko": "피타고라스 학파",
+      "en": "Pythagorean School",
+      "original": "Πυθαγόρειοι"
+    },
+    "period": {
+      "start": -530,
+      "end": -300,
+      "approximate": true
+    },
+    "location": {
+      "lat": 39.08,
+      "lng": 16.52,
+      "region": "이탈리아 크로톤"
+    },
+    "era": "ancient",
+    "summary": "피타고라스가 창시한 학파로, '만물은 수(數)이다'라는 명제 아래 수학과 철학, 음악, 천문학을 통합했다. 수의 비례와 조화가 우주의 질서를 구성한다고 보았으며, 영혼 불멸과 윤회를 믿었다. 수학적 세계관의 시초로서 플라톤과 근대 과학에 깊은 영향을 미쳤다.",
+    "tags": [
+      "수학",
+      "조화",
+      "고대그리스",
+      "우주론"
+    ],
+    "relatedPersons": [
+      "pythagoras"
+    ],
+    "relatedEntities": [
+      "milesian-school",
+      "academy-plato"
+    ]
+  },
+  {
+    "id": "sophist-movement",
+    "type": "movement",
+    "name": {
+      "ko": "소피스트 운동",
+      "en": "Sophist Movement",
+      "original": "Σοφισταί"
+    },
+    "period": {
+      "start": -460,
+      "end": -380,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "era": "ancient",
+    "summary": "기원전 5세기 아테네 민주정 시대에 활동한 유료 교사 집단으로, 프로타고라스의 '인간은 만물의 척도'라는 명제로 대표된다. 수사학과 논변술을 가르치며 상대주의적 인식론과 도덕관을 전파했다. 소크라테스·플라톤의 비판에도 불구하고, 언어·수사·상대주의 논의의 선구자로 재평가되고 있다.",
+    "tags": [
+      "수사학",
+      "상대주의",
+      "고대그리스",
+      "교육"
+    ],
+    "relatedPersons": [
+      "protagoras",
+      "gorgias"
+    ],
+    "relatedEntities": [
+      "academy-plato"
+    ]
+  },
+  {
+    "id": "socratic-tradition",
+    "type": "movement",
+    "name": {
+      "ko": "소크라테스 전통",
+      "en": "Socratic Tradition"
+    },
+    "period": {
+      "start": -470,
+      "end": -300,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "era": "ancient",
+    "summary": "소크라테스의 문답법(엘렝코스)과 산파술을 계승한 철학적 전통. 대화를 통한 진리 탐구, 무지의 자각, 덕의 지식을 핵심으로 삼았다. 플라톤, 안티스테네스(키닉학파), 아리스티포스(키레네학파) 등 다양한 학파가 분화되어 이후 그리스 철학 전체의 원천이 되었다.",
+    "tags": [
+      "문답법",
+      "윤리학",
+      "고대그리스",
+      "산파술"
+    ],
+    "relatedPersons": [
+      "socrates",
+      "plato",
+      "antisthenes"
+    ],
+    "relatedEntities": [
+      "academy-plato",
+      "cynicism"
+    ]
+  },
+  {
+    "id": "platonism",
+    "type": "movement",
+    "name": {
+      "ko": "플라톤주의",
+      "en": "Platonism",
+      "original": "Πλατωνισμός"
+    },
+    "period": {
+      "start": -387,
+      "end": 2000
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네 (기원)"
+    },
+    "era": "ancient",
+    "summary": "플라톤의 이데아론을 핵심으로 하는 철학 전통. 감각 세계 너머의 영원하고 불변하는 형상(이데아)이 참된 실재라고 본다. 신플라톤주의, 기독교 플라톤주의, 르네상스 플라톤주의, 수학적 플라톤주의 등으로 변형되며 서양 사상사 전체를 관통하는 가장 영향력 있는 철학 전통이다.",
+    "tags": [
+      "이데아론",
+      "형이상학",
+      "고대그리스",
+      "서양철학"
+    ],
+    "relatedPersons": [
+      "plato",
+      "plotinus",
+      "augustine"
+    ],
+    "relatedEntities": [
+      "academy-plato",
+      "idea-plato",
+      "neoplatonism"
+    ]
+  },
+  {
+    "id": "aristotelianism",
+    "type": "movement",
+    "name": {
+      "ko": "아리스토텔레스주의",
+      "en": "Aristotelianism",
+      "original": "Περιπατητική"
+    },
+    "period": {
+      "start": -335,
+      "end": 2000
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네 (기원)"
+    },
+    "era": "ancient",
+    "summary": "아리스토텔레스의 철학 체계를 계승하는 전통으로, 리케이온(소요학파)에서 시작되었다. 형상과 질료, 가능태와 현실태, 4원인론, 논리학(삼단논법)을 핵심으로 삼는다. 이슬람 황금기의 이븐 시나·이븐 루시드, 중세 스콜라철학의 토마스 아퀴나스를 거쳐 서양 학문 전통의 근간을 이루었다.",
+    "tags": [
+      "논리학",
+      "형이상학",
+      "자연학",
+      "윤리학"
+    ],
+    "relatedPersons": [
+      "aristotle",
+      "thomas-aquinas",
+      "ibn-rushd"
+    ],
+    "relatedEntities": [
+      "academy-plato",
+      "scholasticism-movement"
+    ]
+  },
+  {
+    "id": "cynicism",
+    "type": "movement",
+    "name": {
+      "ko": "키닉학파 (견유학파)",
+      "en": "Cynicism",
+      "original": "Κυνισμός"
+    },
+    "period": {
+      "start": -445,
+      "end": 500,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "era": "ancient",
+    "summary": "안티스테네스가 창시하고 디오게네스가 대표하는 학파. 관습·부·명예를 거부하고 자연에 따른 삶, 자족(아우타르케이아)과 덕만이 행복의 조건이라고 주장했다. 디오게네스의 통 속 생활은 문명 비판의 상징이 되었으며, 스토아학파에 직접적 영향을 미쳤다.",
+    "tags": [
+      "금욕",
+      "자연",
+      "자족",
+      "고대그리스"
+    ],
+    "relatedPersons": [
+      "antisthenes",
+      "diogenes"
+    ],
+    "relatedEntities": [
+      "socratic-tradition",
+      "stoicism-movement"
+    ]
+  },
+  {
+    "id": "pyrrhonism-skepticism",
+    "type": "movement",
+    "name": {
+      "ko": "피론주의 (고대 회의주의)",
+      "en": "Pyrrhonism / Ancient Skepticism",
+      "original": "Πυρρωνισμός"
+    },
+    "period": {
+      "start": -360,
+      "end": 200,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스"
+    },
+    "era": "ancient",
+    "summary": "피론이 창시한 고대 회의주의 학파. 모든 판단을 유보(에포케)하고 독단을 거부함으로써 마음의 평정(아타락시아)에 이른다고 주장했다. 섹스투스 엠피리쿠스가 체계화하였으며, 근대 데카르트의 방법적 회의, 흄의 경험론적 회의주의의 원천이 되었다.",
+    "tags": [
+      "회의주의",
+      "판단유보",
+      "인식론",
+      "고대그리스"
+    ],
+    "relatedPersons": [
+      "pyrrho"
+    ],
+    "relatedEntities": [
+      "empiricism",
+      "rationalism"
+    ]
+  },
+  {
+    "id": "patristic-philosophy",
+    "type": "movement",
+    "name": {
+      "ko": "교부철학",
+      "en": "Patristic Philosophy",
+      "original": "Philosophia Patrum"
+    },
+    "period": {
+      "start": 100,
+      "end": 800,
+      "approximate": true
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.92,
+      "region": "알렉산드리아, 로마, 히포"
+    },
+    "era": "medieval",
+    "summary": "초기 기독교 교부들이 그리스 철학(특히 플라톤주의, 스토아주의)을 기독교 신학과 통합한 사상적 전통. 아우구스티누스가 대표적이며, 신의 존재·삼위일체·은총과 자유의지·악의 문제 등을 철학적으로 논증했다. 서양 중세 사상의 토대를 형성했다.",
+    "tags": [
+      "기독교",
+      "신학",
+      "플라톤주의",
+      "교부"
+    ],
+    "relatedPersons": [
+      "augustine",
+      "origen"
+    ],
+    "relatedEntities": [
+      "platonism",
+      "neoplatonism",
+      "christianity"
+    ]
+  },
+  {
+    "id": "scholasticism-movement",
+    "type": "movement",
+    "name": {
+      "ko": "스콜라철학",
+      "en": "Scholasticism",
+      "original": "Scholastica"
+    },
+    "period": {
+      "start": 800,
+      "end": 1500
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "유럽 (파리, 옥스퍼드, 쾰른)"
+    },
+    "era": "medieval",
+    "summary": "중세 유럽 대학에서 발전한 학문 방법론이자 철학 전통. 아리스토텔레스 논리학과 기독교 신학을 체계적으로 결합하여 '신앙과 이성의 조화'를 추구했다. 토마스 아퀴나스의 《신학대전》이 정점으로, 변증법적 토론과 엄밀한 논증 방법은 서양 학문 전통의 원형이 되었다.",
+    "tags": [
+      "중세",
+      "신학",
+      "논리학",
+      "아리스토텔레스"
+    ],
+    "relatedPersons": [
+      "thomas-aquinas",
+      "duns-scotus",
+      "william-of-ockham"
+    ],
+    "relatedEntities": [
+      "aristotelianism",
+      "patristic-philosophy"
+    ]
+  },
+  {
+    "id": "medieval-mysticism",
+    "type": "movement",
+    "name": {
+      "ko": "중세 신비주의",
+      "en": "Medieval Mysticism"
+    },
+    "period": {
+      "start": 1100,
+      "end": 1500
+    },
+    "location": {
+      "lat": 50.94,
+      "lng": 6.96,
+      "region": "유럽 (라인란트, 스페인, 영국)"
+    },
+    "era": "medieval",
+    "summary": "이성적 논증을 넘어 신과의 직접적 합일 경험을 추구한 중세 기독교 영성 전통. 마이스터 에크하르트, 힐데가르트 폰 빙엔, 아빌라의 테레사, 십자가의 요한 등이 대표적이다. '영혼의 어둠 밤'과 '신적 합일' 개념은 이후 실존주의와 현대 영성에도 영향을 미쳤다.",
+    "tags": [
+      "신비주의",
+      "영성",
+      "기독교",
+      "중세"
+    ],
+    "relatedPersons": [
+      "meister-eckhart"
+    ],
+    "relatedEntities": [
+      "christianity",
+      "neoplatonism",
+      "sufism"
+    ]
+  },
+  {
+    "id": "kalam-theology",
+    "type": "movement",
+    "name": {
+      "ko": "칼람 (이슬람 변증신학)",
+      "en": "Kalam Theology",
+      "original": "علم الكلام"
+    },
+    "period": {
+      "start": 700,
+      "end": 1400
+    },
+    "location": {
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "이라크 바그다드"
+    },
+    "era": "medieval",
+    "summary": "이슬람 초기에 발전한 변증신학으로, 이성적 논증을 통해 이슬람 교리를 해명하고 방어하는 학문. 신의 속성, 자유의지와 예정, 꾸란의 창조 여부 등을 논쟁했다. 무타질라파와 아슈아리파가 양대 조류를 이루며, 이슬람 사상사의 핵심 지적 전통이다.",
+    "tags": [
+      "이슬람",
+      "신학",
+      "변증법",
+      "신의속성"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "islam",
+      "mutazila",
+      "ashari"
+    ]
+  },
+  {
+    "id": "mutazila",
+    "type": "movement",
+    "name": {
+      "ko": "무타질라파",
+      "en": "Mu'tazila",
+      "original": "المعتزلة"
+    },
+    "period": {
+      "start": 750,
+      "end": 1100
+    },
+    "location": {
+      "lat": 30.06,
+      "lng": 31.25,
+      "region": "이라크 바스라, 바그다드"
+    },
+    "era": "medieval",
+    "summary": "이슬람 합리주의 신학 학파로, 신의 유일성(타우히드)과 인간의 자유의지를 강조했다. 꾸란은 창조된 것이라 주장하여 정통파와 대립했다. 그리스 철학의 논리적 방법을 이슬람 신학에 도입한 선구자로, 아바스 왕조 초기에 국가 공식 교리로 채택되기도 했다.",
+    "tags": [
+      "이슬람",
+      "합리주의",
+      "자유의지",
+      "신학"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "kalam-theology",
+      "islam",
+      "falsafa"
+    ]
+  },
+  {
+    "id": "ashari",
+    "type": "movement",
+    "name": {
+      "ko": "아슈아리파",
+      "en": "Ash'ari School",
+      "original": "الأشاعرة"
+    },
+    "period": {
+      "start": 874,
+      "end": 1400
+    },
+    "location": {
+      "lat": 30.06,
+      "lng": 31.25,
+      "region": "이라크 바스라"
+    },
+    "era": "medieval",
+    "summary": "알-아슈아리가 창시한 이슬람 정통 신학 학파. 무타질라의 합리주의를 비판하면서도 이성적 논증 방법을 수용하여, 계시와 이성의 균형을 추구했다. 신의 전능과 예정을 강조하며, 원자론적 세계관을 발전시켰다. 수니파 이슬람 신학의 주류가 되었다.",
+    "tags": [
+      "이슬람",
+      "신학",
+      "정통파",
+      "원자론"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "kalam-theology",
+      "mutazila",
+      "islam"
+    ]
+  },
+  {
+    "id": "falsafa",
+    "type": "movement",
+    "name": {
+      "ko": "팔사파 (이슬람 철학)",
+      "en": "Falsafa (Islamic Philosophy)",
+      "original": "الفلسفة"
+    },
+    "period": {
+      "start": 800,
+      "end": 1200
+    },
+    "location": {
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "바그다드, 코르도바"
+    },
+    "era": "medieval",
+    "summary": "아리스토텔레스와 신플라톤주의를 수용하여 발전시킨 이슬람 철학 전통. 알-킨디, 알-파라비, 이븐 시나, 이븐 루시드가 대표적이며, 존재론·인식론·논리학에서 독창적 체계를 수립했다. 이들의 아리스토텔레스 주석은 라틴어로 번역되어 서양 스콜라철학의 형성에 결정적 역할을 했다.",
+    "tags": [
+      "이슬람",
+      "아리스토텔레스",
+      "형이상학",
+      "논리학"
+    ],
+    "relatedPersons": [
+      "ibn-sina",
+      "ibn-rushd",
+      "al-farabi"
+    ],
+    "relatedEntities": [
+      "aristotelianism",
+      "neoplatonism",
+      "scholasticism-movement"
+    ]
+  },
+  {
+    "id": "ibn-arabi-school",
+    "type": "movement",
+    "name": {
+      "ko": "이븐 아라비 학파 (존재일성론)",
+      "en": "School of Ibn Arabi (Wahdat al-Wujud)",
+      "original": "وحدة الوجود"
+    },
+    "period": {
+      "start": 1200,
+      "end": 1600
+    },
+    "location": {
+      "lat": 33.51,
+      "lng": 36.29,
+      "region": "시리아 다마스쿠스"
+    },
+    "era": "medieval",
+    "summary": "이븐 아라비가 수립한 이슬람 형이상학 전통으로, '존재의 단일성(와흐다트 알-우주드)'을 핵심 교리로 삼는다. 모든 존재는 신의 자기현현이며, 다양성 속에 단일성이 있다고 본다. 수피즘의 이론적 정점으로, 이슬람 세계 전역에 깊은 영향을 미쳤다.",
+    "tags": [
+      "수피즘",
+      "존재일성",
+      "이슬람신비주의",
+      "형이상학"
+    ],
+    "relatedPersons": [
+      "ibn-arabi"
+    ],
+    "relatedEntities": [
+      "sufism",
+      "islam",
+      "neoplatonism"
+    ]
+  },
+  {
+    "id": "jewish-philosophy",
+    "type": "movement",
+    "name": {
+      "ko": "유대 철학",
+      "en": "Jewish Philosophy"
+    },
+    "period": {
+      "start": -200,
+      "end": 2000
+    },
+    "location": {
+      "lat": 31.77,
+      "lng": 35.23,
+      "region": "예루살렘 (기원)"
+    },
+    "era": "ancient",
+    "summary": "유대교 전통과 그리스·이슬람 철학을 통합하려는 사상적 노력의 총체. 필론이 그리스 철학과 성서를 결합하고, 사아디아 가온과 마이모니데스가 이슬람 칼람·팔사파와 대화하며 체계화했다. 20세기에는 부버, 로젠츠바이크, 레비나스가 실존주의적·윤리적 유대 사상을 전개했다.",
+    "tags": [
+      "유대교",
+      "토라",
+      "철학",
+      "율법"
+    ],
+    "relatedPersons": [
+      "maimonides",
+      "philo"
+    ],
+    "relatedEntities": [
+      "judaism",
+      "kalam-theology",
+      "aristotelianism"
+    ]
+  },
+  {
+    "id": "renaissance-humanism",
+    "type": "movement",
+    "name": {
+      "ko": "르네상스 인문주의",
+      "en": "Renaissance Humanism"
+    },
+    "period": {
+      "start": 1350,
+      "end": 1600
+    },
+    "location": {
+      "lat": 43.77,
+      "lng": 11.25,
+      "region": "이탈리아 피렌체"
+    },
+    "era": "modern",
+    "summary": "14-16세기 이탈리아에서 시작된 문화·지적 운동으로, 고대 그리스·로마 고전의 재발견과 인간 이성·존엄의 회복을 추구했다. 페트라르카, 에라스무스, 피코 델라 미란돌라가 대표적이다. 중세 신학 중심에서 인간 중심으로의 전환을 이루어 근대 사상의 출발점이 되었다.",
+    "tags": [
+      "인문주의",
+      "고전부흥",
+      "르네상스",
+      "이탈리아"
+    ],
+    "relatedPersons": [
+      "erasmus"
+    ],
+    "relatedEntities": [
+      "humanism-movement",
+      "platonism"
+    ]
+  },
+  {
+    "id": "german-idealism",
+    "type": "movement",
+    "name": {
+      "ko": "독일 관념론",
+      "en": "German Idealism",
+      "original": "Deutscher Idealismus"
+    },
+    "period": {
+      "start": 1780,
+      "end": 1850
+    },
+    "location": {
+      "lat": 50.93,
+      "lng": 11.58,
+      "region": "독일 예나, 베를린"
+    },
+    "era": "modern",
+    "summary": "칸트의 비판철학에서 출발하여 피히테, 셸링, 헤겔로 이어진 근대 철학의 정점. 주체와 객체, 자연과 정신, 유한과 무한의 통일을 추구하며 체계적 철학을 수립했다. 헤겔의 변증법과 절대정신 개념은 마르크스, 키르케고르, 하이데거 등 이후 모든 철학에 결정적 영향을 미쳤다.",
+    "tags": [
+      "관념론",
+      "변증법",
+      "독일철학",
+      "주체성"
+    ],
+    "relatedPersons": [
+      "kant",
+      "hegel",
+      "fichte",
+      "schelling"
+    ],
+    "relatedEntities": [
+      "idealism",
+      "dialectic"
+    ]
+  },
+  {
+    "id": "utilitarianism-movement",
+    "type": "movement",
+    "name": {
+      "ko": "공리주의 운동",
+      "en": "Utilitarian Movement"
+    },
+    "period": {
+      "start": 1780,
+      "end": 1900
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "era": "modern",
+    "summary": "벤담과 밀이 발전시킨 윤리학·정치철학 전통으로, '최대 다수의 최대 행복'을 도덕과 정책의 기준으로 삼는다. 벤담의 양적 공리주의에서 밀의 질적 공리주의로 발전하며 영미 도덕철학과 공공정책의 핵심 원리로 자리잡았다.",
+    "tags": [
+      "윤리학",
+      "행복",
+      "공공정책",
+      "영국"
+    ],
+    "relatedPersons": [
+      "bentham",
+      "john-stuart-mill"
+    ],
+    "relatedEntities": [
+      "utilitarianism",
+      "liberalism"
+    ]
+  },
+  {
+    "id": "marxism",
+    "type": "movement",
+    "name": {
+      "ko": "마르크스주의",
+      "en": "Marxism",
+      "original": "Marxismus"
+    },
+    "period": {
+      "start": 1848,
+      "end": 2000
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던 (기원)"
+    },
+    "era": "contemporary",
+    "summary": "마르크스와 엥겔스가 창시한 사상 체계로, 변증법적·역사적 유물론을 토대로 자본주의의 내적 모순과 계급투쟁을 분석한다. 경제적 하부구조가 정치·문화·이념의 상부구조를 결정한다고 보며, 프롤레타리아 혁명을 통한 사회 변혁을 지향한다.",
+    "tags": [
+      "유물론",
+      "계급투쟁",
+      "자본주의비판",
+      "혁명"
+    ],
+    "relatedPersons": [
+      "marx",
+      "engels",
+      "lenin"
+    ],
+    "relatedEntities": [
+      "communism",
+      "socialism",
+      "frankfurt-school"
+    ]
+  },
+  {
+    "id": "hermeneutics",
+    "type": "movement",
+    "name": {
+      "ko": "해석학",
+      "en": "Hermeneutics",
+      "original": "Hermeneutik"
+    },
+    "period": {
+      "start": 1800,
+      "end": 2000
+    },
+    "location": {
+      "lat": 49.01,
+      "lng": 8.4,
+      "region": "독일"
+    },
+    "era": "contemporary",
+    "summary": "텍스트·역사·인간 경험의 이해와 해석에 관한 철학 전통. 슐라이어마허의 일반 해석학에서 딜타이의 정신과학 방법론, 하이데거의 존재론적 해석학, 가다머의 '지평 융합' 개념으로 발전했다. 인문학 방법론의 핵심 전통이다.",
+    "tags": [
+      "해석",
+      "이해",
+      "텍스트",
+      "인문학"
+    ],
+    "relatedPersons": [
+      "gadamer",
+      "heidegger",
+      "ricoeur"
+    ],
+    "relatedEntities": [
+      "phenomenology-movement",
+      "german-idealism"
+    ]
+  },
+  {
+    "id": "pragmatism-movement",
+    "type": "movement",
+    "name": {
+      "ko": "프래그머티즘 운동",
+      "en": "Pragmatism Movement"
+    },
+    "period": {
+      "start": 1870,
+      "end": 2000
+    },
+    "location": {
+      "lat": 42.37,
+      "lng": -71.12,
+      "region": "미국 (캠브리지, 시카고)"
+    },
+    "era": "contemporary",
+    "summary": "퍼스, 제임스, 듀이가 창시한 미국 고유의 철학 전통. 관념의 의미와 진리를 그 실천적 결과로 판단한다. 경험·탐구·민주주의를 핵심 가치로 삼으며, 유럽 형이상학의 추상적 이원론을 거부한다.",
+    "tags": [
+      "실용주의",
+      "경험",
+      "미국철학",
+      "탐구"
+    ],
+    "relatedPersons": [
+      "william-james",
+      "dewey",
+      "peirce"
+    ],
+    "relatedEntities": [
+      "pragmatism",
+      "empiricism"
+    ]
+  },
+  {
+    "id": "hundred-schools",
+    "type": "movement",
+    "name": {
+      "ko": "제자백가",
+      "en": "Hundred Schools of Thought",
+      "original": "諸子百家"
+    },
+    "period": {
+      "start": -770,
+      "end": -221
+    },
+    "location": {
+      "lat": 35.86,
+      "lng": 104.2,
+      "region": "중국"
+    },
+    "era": "ancient",
+    "summary": "춘추전국시대(기원전 770-221)에 번성한 중국 사상의 황금기. 유가, 도가, 묵가, 법가, 명가, 음양가, 병가 등 수많은 학파가 경쟁하며 꽃피운 지적 전통. 중국 문명의 사상적 토대를 형성했으며, 그리스 고전기에 비견되는 축의 시대를 대표한다.",
+    "tags": [
+      "중국철학",
+      "춘추전국",
+      "축의시대",
+      "사상경쟁"
+    ],
+    "relatedPersons": [
+      "confucius",
+      "laozi",
+      "mozi",
+      "hanfeizi"
+    ],
+    "relatedEntities": [
+      "confucianism",
+      "daoism"
+    ]
+  },
+  {
+    "id": "mohism",
+    "type": "movement",
+    "name": {
+      "ko": "묵가",
+      "en": "Mohism",
+      "original": "墨家"
+    },
+    "period": {
+      "start": -470,
+      "end": -221
+    },
+    "location": {
+      "lat": 34.75,
+      "lng": 113.66,
+      "region": "중국"
+    },
+    "era": "ancient",
+    "summary": "묵자(묵적)가 창시한 학파로, 겸애(兼愛, 차별 없는 사랑)와 비공(非攻, 전쟁 반대)을 핵심으로 삼았다. 유가의 차등적 인(仁)을 비판하고 보편적 사랑을 주장했으며, 논리학·광학·역학에서도 독창적 업적을 남겼다.",
+    "tags": [
+      "겸애",
+      "비공",
+      "중국철학",
+      "논리학"
+    ],
+    "relatedPersons": [
+      "mozi"
+    ],
+    "relatedEntities": [
+      "hundred-schools",
+      "confucianism"
+    ]
+  },
+  {
+    "id": "legalism",
+    "type": "movement",
+    "name": {
+      "ko": "법가",
+      "en": "Legalism",
+      "original": "法家"
+    },
+    "period": {
+      "start": -400,
+      "end": -200
+    },
+    "location": {
+      "lat": 34.26,
+      "lng": 108.94,
+      "region": "중국 (진나라)"
+    },
+    "era": "ancient",
+    "summary": "한비자, 상앙, 이사 등이 대표하는 학파로, 엄격한 법률과 상벌 체계로 국가를 통치해야 한다고 주장했다. 인간의 이기적 본성을 전제로 법·술·세를 통치의 세 기둥으로 삼았다. 진시황의 중국 통일에 이론적 토대를 제공했다.",
+    "tags": [
+      "법치",
+      "통치",
+      "중국철학",
+      "국가론"
+    ],
+    "relatedPersons": [
+      "hanfeizi"
+    ],
+    "relatedEntities": [
+      "hundred-schools"
+    ]
+  },
+  {
+    "id": "school-of-names",
+    "type": "movement",
+    "name": {
+      "ko": "명가",
+      "en": "School of Names",
+      "original": "名家"
+    },
+    "period": {
+      "start": -400,
+      "end": -250
+    },
+    "location": {
+      "lat": 34.75,
+      "lng": 113.66,
+      "region": "중국"
+    },
+    "era": "ancient",
+    "summary": "공손룡, 혜시 등이 대표하는 학파로, 이름(名)과 실재(實)의 관계를 논리적으로 분석했다. '백마는 말이 아니다(白馬非馬)'라는 공손룡의 역설이 유명하다. 중국 고대의 논리학·언어철학으로, 서양 소피스트에 비견된다.",
+    "tags": [
+      "논리학",
+      "언어철학",
+      "역설",
+      "중국철학"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "hundred-schools",
+      "sophist-movement"
+    ]
+  },
+  {
+    "id": "yinyang-school",
+    "type": "movement",
+    "name": {
+      "ko": "음양가",
+      "en": "Yin-Yang School",
+      "original": "陰陽家"
+    },
+    "period": {
+      "start": -350,
+      "end": -200
+    },
+    "location": {
+      "lat": 36.67,
+      "lng": 116.99,
+      "region": "중국 제나라"
+    },
+    "era": "ancient",
+    "summary": "추연이 대표하는 학파로, 음양과 오행(목·화·토·금·수)의 상호작용으로 자연과 역사의 변화를 설명했다. 오행상생·상극의 원리로 왕조 교체를 설명하는 오덕종시설을 제시했다. 중국 전통 과학·의학·풍수의 이론적 기초가 되었다.",
+    "tags": [
+      "음양오행",
+      "우주론",
+      "중국철학",
+      "자연학"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "hundred-schools",
+      "yin-yang"
+    ]
+  },
+  {
+    "id": "military-school",
+    "type": "movement",
+    "name": {
+      "ko": "병가",
+      "en": "School of Military Strategy",
+      "original": "兵家"
+    },
+    "period": {
+      "start": -500,
+      "end": -200
+    },
+    "location": {
+      "lat": 36.67,
+      "lng": 116.99,
+      "region": "중국 제나라"
+    },
+    "era": "ancient",
+    "summary": "손자, 오자, 손빈 등이 대표하는 전략 사상 학파. 손자의 《손자병법》은 전쟁의 본질을 '속임수(詭道)'로 규정하고, '싸우지 않고 이기는 것(不戰而勝)'을 최상으로 삼았다. 군사 전략을 넘어 보편적 전략론으로 동서양에서 널리 읽히고 있다.",
+    "tags": [
+      "전략",
+      "병법",
+      "중국철학",
+      "손자병법"
+    ],
+    "relatedPersons": [
+      "sun-tzu"
+    ],
+    "relatedEntities": [
+      "hundred-schools"
+    ]
+  },
+  {
+    "id": "xuanxue",
+    "type": "movement",
+    "name": {
+      "ko": "현학 (위진 현학)",
+      "en": "Xuanxue (Neo-Daoism)",
+      "original": "玄學"
+    },
+    "period": {
+      "start": 220,
+      "end": 420
+    },
+    "location": {
+      "lat": 32.06,
+      "lng": 118.78,
+      "region": "중국 (남경)"
+    },
+    "era": "ancient",
+    "summary": "위진남북조 시대에 유행한 사상으로, 유교적 명교와 도가적 자연의 관계를 논했다. 왕필, 하안, 곽상이 대표적이며, 노장 사상에 대한 새로운 해석과 '청담' 문화를 발전시켰다. 불교 수용의 지적 토대를 마련하고, 중국 미학과 예술론에 깊은 영향을 미쳤다.",
+    "tags": [
+      "도가",
+      "위진",
+      "청담",
+      "자연"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "daoism",
+      "hundred-schools"
+    ]
+  },
+  {
+    "id": "song-ming-lixue",
+    "type": "movement",
+    "name": {
+      "ko": "송명이학 (성리학·양명학)",
+      "en": "Song-Ming Neo-Confucianism",
+      "original": "宋明理學"
+    },
+    "period": {
+      "start": 960,
+      "end": 1644
+    },
+    "location": {
+      "lat": 28.23,
+      "lng": 112.94,
+      "region": "중국 (호남, 절강)"
+    },
+    "era": "medieval",
+    "summary": "송대에 시작되어 명대까지 이어진 유학의 철학적 심화. 주희의 성리학(이기론)과 왕양명의 심학(양지론)이 양대 조류이다. 불교·도교의 형이상학적 도전에 대응하여 유학의 우주론과 심성론을 체계화했으며, 한국·일본·베트남 사상에 결정적 영향을 미쳤다.",
+    "tags": [
+      "성리학",
+      "양명학",
+      "유학",
+      "이기론"
+    ],
+    "relatedPersons": [
+      "zhu-xi",
+      "wang-yangming"
+    ],
+    "relatedEntities": [
+      "neo-confucianism",
+      "confucianism"
+    ]
+  },
+  {
+    "id": "qing-evidential-studies",
+    "type": "movement",
+    "name": {
+      "ko": "청대 고증학",
+      "en": "Qing Evidential Studies",
+      "original": "清代考證學"
+    },
+    "period": {
+      "start": 1644,
+      "end": 1912
+    },
+    "location": {
+      "lat": 32.06,
+      "lng": 118.78,
+      "region": "중국 (장쑤, 절강)"
+    },
+    "era": "modern",
+    "summary": "청대에 발전한 실증적·문헌학적 학풍으로, 송명 성리학의 사변적 경향을 비판하고 원전 고증과 실증적 연구를 추구했다. 고염무, 대진, 완원 등이 대표적이다. 경전의 원래 의미를 회복하려는 노력으로, 동아시아 근대 학문 방법론의 선구가 되었다.",
+    "tags": [
+      "고증학",
+      "문헌학",
+      "실증",
+      "청대"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "confucianism",
+      "song-ming-lixue"
+    ]
+  },
+  {
+    "id": "astika-orthodox",
+    "type": "movement",
+    "name": {
+      "ko": "아스티카 (인도 정통 6파)",
+      "en": "Astika (Orthodox Hindu Schools)",
+      "original": "आस्तिक"
+    },
+    "period": {
+      "start": -500,
+      "end": 1500
+    },
+    "location": {
+      "lat": 25.32,
+      "lng": 83.01,
+      "region": "인도"
+    },
+    "era": "ancient",
+    "summary": "베다의 권위를 인정하는 인도 정통 6파 철학: 상키야, 요가, 니야야, 바이셰시카, 미맘사, 베단타. 각 학파는 해탈의 방법론에서 차이를 보이지만 베다 전통 위에서 세계와 자아, 해방을 탐구한다.",
+    "tags": [
+      "인도철학",
+      "베다",
+      "정통파",
+      "해탈"
+    ],
+    "relatedPersons": [
+      "shankara"
+    ],
+    "relatedEntities": [
+      "hinduism",
+      "advaita-vedanta"
+    ]
+  },
+  {
+    "id": "nastika-heterodox",
+    "type": "movement",
+    "name": {
+      "ko": "나스티카 (인도 비정통파)",
+      "en": "Nastika (Heterodox Indian Schools)",
+      "original": "नास्तिक"
+    },
+    "period": {
+      "start": -600,
+      "end": 1200
+    },
+    "location": {
+      "lat": 25.61,
+      "lng": 85.14,
+      "region": "인도"
+    },
+    "era": "ancient",
+    "summary": "베다의 권위를 부정하는 인도 비정통 학파들: 불교, 자이나교, 차르바카. 기원전 6세기 축의 시대에 브라만교의 제의주의와 카스트 제도에 대한 비판에서 출발했다. 특히 불교와 자이나교는 세계 종교로 발전했다.",
+    "tags": [
+      "인도철학",
+      "비정통파",
+      "불교",
+      "자이나교"
+    ],
+    "relatedPersons": [
+      "buddha"
+    ],
+    "relatedEntities": [
+      "buddhism",
+      "jainism",
+      "charvaka"
+    ]
+  },
+  {
+    "id": "charvaka",
+    "type": "movement",
+    "name": {
+      "ko": "차르바카 (로카야타)",
+      "en": "Charvaka (Lokayata)",
+      "original": "चार्वाक"
+    },
+    "period": {
+      "start": -600,
+      "end": 1200,
+      "approximate": true
+    },
+    "location": {
+      "lat": 25.32,
+      "lng": 83.01,
+      "region": "인도"
+    },
+    "era": "ancient",
+    "summary": "고대 인도의 유물론·무신론 학파. 직접 지각만을 유일한 인식 수단으로 인정하고, 영혼·내세·카르마·신의 존재를 부정했다. 감각적 쾌락이 삶의 목적이라고 주장하여 인도 사상사에서 독특한 위치를 점한다.",
+    "tags": [
+      "유물론",
+      "무신론",
+      "인도철학",
+      "쾌락주의"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "nastika-heterodox",
+      "materialism"
+    ]
+  },
+  {
+    "id": "kokugaku",
+    "type": "movement",
+    "name": {
+      "ko": "국학 (일본 국학)",
+      "en": "Kokugaku (National Learning)",
+      "original": "國學"
+    },
+    "period": {
+      "start": 1660,
+      "end": 1868
+    },
+    "location": {
+      "lat": 34.69,
+      "lng": 135.5,
+      "region": "일본"
+    },
+    "era": "modern",
+    "summary": "에도 시대에 발전한 일본 고유 사상 연구 운동. 유교·불교의 외래 영향을 배제하고 고사기·만요슈 등 일본 고전을 연구하여 고유한 일본 정신을 회복하려 했다. 모토오리 노리나가가 대표적이며, 메이지 유신의 사상적 배경이 되었다.",
+    "tags": [
+      "일본사상",
+      "국학",
+      "신도",
+      "고전연구"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "shinto-movement",
+      "confucianism"
+    ]
+  },
+  {
+    "id": "kyoto-school",
+    "type": "movement",
+    "name": {
+      "ko": "교토학파",
+      "en": "Kyoto School",
+      "original": "京都学派"
+    },
+    "period": {
+      "start": 1913,
+      "end": 2000
+    },
+    "location": {
+      "lat": 35.01,
+      "lng": 135.77,
+      "region": "일본 교토"
+    },
+    "era": "contemporary",
+    "summary": "니시다 기타로가 창시하고 다나베 하지메, 니시타니 게이지가 계승한 일본의 독창적 철학 학파. 선불교의 '무(無)' 개념과 서양 철학(특히 헤겔, 하이데거)을 융합하여 '절대무'의 장소론을 전개했다. 동서양 철학의 진정한 대화를 시도한 최초의 비서양 철학 학파이다.",
+    "tags": [
+      "일본철학",
+      "절대무",
+      "선불교",
+      "동서비교"
+    ],
+    "relatedPersons": [
+      "nishida-kitaro"
+    ],
+    "relatedEntities": [
+      "zen-buddhism",
+      "phenomenology-movement",
+      "german-idealism"
+    ]
+  },
+  {
+    "id": "korean-neo-confucianism",
+    "type": "movement",
+    "name": {
+      "ko": "한국 성리학",
+      "en": "Korean Neo-Confucianism",
+      "original": "朝鮮性理學"
+    },
+    "period": {
+      "start": 1392,
+      "end": 1910
+    },
+    "location": {
+      "lat": 37.57,
+      "lng": 126.98,
+      "region": "한국 (한양/서울)"
+    },
+    "era": "modern",
+    "summary": "조선시대 500년간 국가 이념으로 기능한 성리학 전통. 이황(퇴계)의 이기호발설과 이이(율곡)의 기발이승일도설의 사단칠정 논쟁은 주자학을 넘어선 독창적 심성론적 성과이다. 조선 성리학은 중국·일본과 구별되는 깊이의 형이상학적 논쟁을 발전시켰다.",
+    "tags": [
+      "성리학",
+      "조선",
+      "사단칠정",
+      "이기론"
+    ],
+    "relatedPersons": [
+      "yi-hwang",
+      "yi-i"
+    ],
+    "relatedEntities": [
+      "neo-confucianism",
+      "song-ming-lixue",
+      "confucianism"
+    ]
+  },
+  {
+    "id": "silhak",
+    "type": "movement",
+    "name": {
+      "ko": "실학",
+      "en": "Silhak (Practical Learning)",
+      "original": "實學"
+    },
+    "period": {
+      "start": 1600,
+      "end": 1900
+    },
+    "location": {
+      "lat": 37.57,
+      "lng": 126.98,
+      "region": "한국"
+    },
+    "era": "modern",
+    "summary": "조선 후기에 발전한 실용주의적 학문 운동. 성리학의 공리공론을 비판하고 농업·상업·기술·제도의 실질적 개혁을 추구했다. 유형원, 이익, 정약용(다산)이 대표적이다. 실증적 연구 방법과 민생 중심 사고로 조선 사회의 근대화를 모색한 자생적 개혁 사상이다.",
+    "tags": [
+      "실학",
+      "조선",
+      "개혁",
+      "실용주의"
+    ],
+    "relatedPersons": [
+      "jeong-yakyong"
+    ],
+    "relatedEntities": [
+      "korean-neo-confucianism",
+      "confucianism"
+    ]
+  },
+  {
+    "id": "donghak-thought",
+    "type": "movement",
+    "name": {
+      "ko": "동학사상",
+      "en": "Donghak Thought",
+      "original": "東學"
+    },
+    "period": {
+      "start": 1860,
+      "end": 1905
+    },
+    "location": {
+      "lat": 35.97,
+      "lng": 128.97,
+      "region": "한국 경주"
+    },
+    "era": "contemporary",
+    "summary": "최제우가 1860년에 창시한 한국 고유의 민중 종교·사상. '사람이 곧 하늘(人乃天)'이라는 시천주 사상으로 인간 평등과 사회 개혁을 주장했다. 서학(천주교)에 대응한 동양적 근대화 사상으로, 1894년 동학농민운동의 이념적 토대가 되었다.",
+    "tags": [
+      "동학",
+      "민중",
+      "시천주",
+      "한국사상"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "cheondogyo",
+      "korean-neo-confucianism"
+    ]
+  },
+  {
+    "id": "african-philosophy",
+    "type": "movement",
+    "name": {
+      "ko": "아프리카 철학",
+      "en": "African Philosophy"
+    },
+    "period": {
+      "start": 1945,
+      "end": 2000
+    },
+    "location": {
+      "lat": -1.29,
+      "lng": 36.82,
+      "region": "아프리카"
+    },
+    "era": "contemporary",
+    "summary": "아프리카 고유의 사상 전통과 현대 철학을 결합하는 다양한 지적 흐름. 우분투('나는 우리이므로 존재한다'), 네그리튀드, 에트노철학 등을 포함한다. 서양 철학의 보편성 주장에 도전하며 다원적 세계 철학의 가능성을 제시한다.",
+    "tags": [
+      "아프리카",
+      "우분투",
+      "탈식민",
+      "다원주의"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "postcolonial-thought",
+      "ubuntu-philosophy"
+    ]
+  },
+  {
+    "id": "latin-american-philosophy",
+    "type": "movement",
+    "name": {
+      "ko": "라틴아메리카 철학",
+      "en": "Latin American Philosophy"
+    },
+    "period": {
+      "start": 1900,
+      "end": 2000
+    },
+    "location": {
+      "lat": -23.55,
+      "lng": -46.63,
+      "region": "라틴아메리카"
+    },
+    "era": "contemporary",
+    "summary": "라틴아메리카의 독자적 철학 전통으로, 식민 경험과 해방의 문제를 중심에 놓는다. 엔리케 두셀의 해방철학, 파울로 프레이리의 비판적 교육학이 대표적이다. 유럽 중심주의를 비판하고 주변부 관점에서 보편 철학을 재구성하려 한다.",
+    "tags": [
+      "라틴아메리카",
+      "해방철학",
+      "탈식민",
+      "비판교육"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "postcolonial-thought",
+      "decolonial-thought",
+      "marxism"
+    ]
+  },
+  {
+    "id": "feminist-philosophy",
+    "type": "movement",
+    "name": {
+      "ko": "페미니즘 철학",
+      "en": "Feminist Philosophy"
+    },
+    "period": {
+      "start": 1949,
+      "end": 2000
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스, 미국, 영국"
+    },
+    "era": "contemporary",
+    "summary": "젠더 관점에서 철학의 전통적 문제들을 재검토하고 비판하는 사상적 전통. 보부아르의 '제2의 성', 버틀러의 젠더 수행성, 돌봄의 윤리 등을 포함한다. 서양 철학의 남성 중심성을 폭로하고 지식·윤리·정치의 근본 전제를 재구성한다.",
+    "tags": [
+      "페미니즘",
+      "젠더",
+      "인식론",
+      "윤리학"
+    ],
+    "relatedPersons": [
+      "simone-de-beauvoir"
+    ],
+    "relatedEntities": [
+      "feminism",
+      "postcolonial-thought"
+    ]
+  },
+  {
+    "id": "postcolonial-thought",
+    "type": "movement",
+    "name": {
+      "ko": "탈식민주의 사상",
+      "en": "Postcolonial Thought"
+    },
+    "period": {
+      "start": 1947,
+      "end": 2000
+    },
+    "location": {
+      "lat": 28.61,
+      "lng": 77.23,
+      "region": "인도, 중동, 아프리카"
+    },
+    "era": "contemporary",
+    "summary": "식민주의의 유산과 지속적 영향을 비판적으로 분석하는 사상. 사이드의 '오리엔탈리즘', 스피박의 '서발턴' 개념, 바바의 '혼종성'이 핵심이다. 서양 지식 체계가 식민 지배의 도구였음을 폭로하고, 비서양 세계의 주체성 회복을 모색한다.",
+    "tags": [
+      "탈식민",
+      "오리엔탈리즘",
+      "서발턴",
+      "혼종성"
+    ],
+    "relatedPersons": [
+      "edward-said"
+    ],
+    "relatedEntities": [
+      "postcolonialism",
+      "decolonial-thought"
+    ]
+  },
+  {
+    "id": "environmental-philosophy",
+    "type": "movement",
+    "name": {
+      "ko": "환경철학",
+      "en": "Environmental Philosophy"
+    },
+    "period": {
+      "start": 1949,
+      "end": 2000
+    },
+    "location": {
+      "lat": 43.07,
+      "lng": -89.4,
+      "region": "미국, 노르웨이"
+    },
+    "era": "contemporary",
+    "summary": "인간과 자연의 관계를 근본적으로 재고하는 철학 전통. 레오폴드의 '대지 윤리', 네스의 심층생태학, 생태여성주의, 동물권리론을 포함한다. 인간중심주의를 비판하고 생태계 전체의 내재적 가치를 주장하며, 기후위기 시대에 중요성이 급증하고 있다.",
+    "tags": [
+      "환경",
+      "생태학",
+      "자연",
+      "기후위기"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "environmentalism",
+      "deep-ecology"
+    ]
+  },
+  {
+    "id": "decolonial-thought",
+    "type": "movement",
+    "name": {
+      "ko": "탈식민적 사유 (데콜로니알)",
+      "en": "Decolonial Thought"
+    },
+    "period": {
+      "start": 1990,
+      "end": 2000
+    },
+    "location": {
+      "lat": -34.6,
+      "lng": -58.38,
+      "region": "라틴아메리카, 글로벌"
+    },
+    "era": "contemporary",
+    "summary": "월터 미뇰로, 아니발 키하노 등이 주도하는 사상으로, '근대성/식민성'의 불가분한 연결을 분석한다. 유럽 근대성이 식민 지배와 동전의 양면임을 주장하며, 서양 인식론적 패권에 도전하여 비서양적 앎의 방식 복원을 추구한다.",
+    "tags": [
+      "탈식민",
+      "근대성",
+      "인식론",
+      "라틴아메리카"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "postcolonial-thought",
+      "latin-american-philosophy"
+    ]
+  },
+  {
+    "id": "renaissance-hermeticism",
+    "type": "tradition",
+    "name": {
+      "ko": "르네상스 헤르메스주의",
+      "en": "Renaissance Hermeticism"
+    },
+    "period": {
+      "start": 1460,
+      "end": 1650
+    },
+    "location": {
+      "lat": 43.77,
+      "lng": 11.25,
+      "region": "이탈리아 피렌체"
+    },
+    "era": "modern",
+    "summary": "15세기 헤르메스 문서의 라틴어 번역을 계기로 르네상스 유럽에서 부활한 헤르메스 전통. 마법, 연금술, 점성술, 카발라를 통합하는 만물조응의 세계관을 전개했다. 근대 과학혁명의 이면에 영향을 미쳤다.",
+    "tags": [
+      "헤르메스주의",
+      "르네상스",
+      "마법",
+      "만물조응"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "hermeticism",
+      "renaissance-humanism"
+    ]
+  },
+  {
+    "id": "greek-egyptian-alchemy",
+    "type": "tradition",
+    "name": {
+      "ko": "그리스-이집트 연금술",
+      "en": "Greco-Egyptian Alchemy"
+    },
+    "period": {
+      "start": -300,
+      "end": 700,
+      "approximate": true
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.92,
+      "region": "이집트 알렉산드리아"
+    },
+    "era": "ancient",
+    "summary": "그리스 자연철학과 이집트 금속 기술이 결합되어 알렉산드리아에서 발전한 초기 연금술. 물질의 변환과 영적 정화를 동시에 추구했다. 이슬람 연금술과 서양 연금술의 기원이 되었다.",
+    "tags": [
+      "연금술",
+      "알렉산드리아",
+      "물질변환",
+      "고대"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "hermeticism",
+      "alchemy-tradition"
+    ]
+  },
+  {
+    "id": "islamic-alchemy",
+    "type": "tradition",
+    "name": {
+      "ko": "이슬람 연금술",
+      "en": "Islamic Alchemy",
+      "original": "الكيمياء"
+    },
+    "period": {
+      "start": 700,
+      "end": 1300
+    },
+    "location": {
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "이라크 바그다드"
+    },
+    "era": "medieval",
+    "summary": "자비르 이븐 하이얀을 중심으로 발전한 이슬람 세계의 연금술. 그리스-이집트 전통을 계승하여 실험 방법론을 체계화하고, 증류·승화·결정화 등 실험 기법을 발전시켰다. '화학(chemistry)'이라는 단어가 아랍어 '알-키미야'에서 유래했다.",
+    "tags": [
+      "연금술",
+      "이슬람",
+      "실험",
+      "화학"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "greek-egyptian-alchemy",
+      "alchemy-tradition"
+    ]
+  },
+  {
+    "id": "european-alchemy",
+    "type": "tradition",
+    "name": {
+      "ko": "유럽 연금술",
+      "en": "European Alchemy"
+    },
+    "period": {
+      "start": 1100,
+      "end": 1700
+    },
+    "location": {
+      "lat": 50.08,
+      "lng": 14.44,
+      "region": "유럽 (프라하, 파리, 런던)"
+    },
+    "era": "medieval",
+    "summary": "이슬람 연금술이 12세기 번역 운동을 통해 유럽에 전해져 발전한 전통. 현자의 돌을 통한 금 변환과 불로장생을 추구했다. 파라켈수스, 뉴턴이 연금술에 깊이 관여했으며, 실험적 방법론은 근대 화학의 전사가 되었다.",
+    "tags": [
+      "연금술",
+      "유럽",
+      "현자의돌",
+      "실험"
+    ],
+    "relatedPersons": [
+      "newton"
+    ],
+    "relatedEntities": [
+      "islamic-alchemy",
+      "alchemy-tradition"
+    ]
+  },
+  {
+    "id": "babylonian-astrology",
+    "type": "tradition",
+    "name": {
+      "ko": "바빌로니아 점성술",
+      "en": "Babylonian Astrology"
+    },
+    "period": {
+      "start": -1800,
+      "end": -300,
+      "approximate": true
+    },
+    "location": {
+      "lat": 32.54,
+      "lng": 44.42,
+      "region": "메소포타미아 바빌론"
+    },
+    "era": "ancient",
+    "summary": "고대 바빌로니아에서 발전한 점성술의 기원. 천체의 운행을 관찰하여 국가의 운명과 자연 현상을 예측했다. 황도 12궁, 행성 관측, 일식 예측 체계를 발전시켰으며, 그리스 천문학과 점성술의 기초가 되었다.",
+    "tags": [
+      "점성술",
+      "천문학",
+      "바빌로니아",
+      "고대"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "hellenistic-astrology",
+      "ancient-cosmology"
+    ]
+  },
+  {
+    "id": "hellenistic-astrology",
+    "type": "tradition",
+    "name": {
+      "ko": "헬레니즘 점성술",
+      "en": "Hellenistic Astrology"
+    },
+    "period": {
+      "start": -300,
+      "end": 700
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.92,
+      "region": "알렉산드리아, 로마"
+    },
+    "era": "ancient",
+    "summary": "바빌로니아 점성술, 이집트 천문학, 그리스 철학이 헬레니즘 시대에 융합되어 탄생한 체계적 점성술. 프톨레마이오스의 《테트라비블로스》가 정점으로, 개인 출생도와 12궁 체계를 확립했다.",
+    "tags": [
+      "점성술",
+      "헬레니즘",
+      "호로스코프",
+      "천문학"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "babylonian-astrology",
+      "modern-astrology"
+    ]
+  },
+  {
+    "id": "modern-astrology",
+    "type": "tradition",
+    "name": {
+      "ko": "근대 점성술",
+      "en": "Modern Astrology"
+    },
+    "period": {
+      "start": 1800,
+      "end": 2000
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국, 미국"
+    },
+    "era": "contemporary",
+    "summary": "19세기 후반에 부활한 점성술로, 전통적 예측·운명론에서 심리학적·영성적 자기이해 도구로 전환되었다. 융의 원형 심리학과 결합하여 심리점성술이 발전했으며, 뉴에이지 운동과 함께 대중적으로 확산되었다.",
+    "tags": [
+      "점성술",
+      "심리학",
+      "뉴에이지",
+      "자기이해"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "hellenistic-astrology",
+      "new-age"
+    ]
+  },
+  {
+    "id": "rosicrucians",
+    "type": "tradition",
+    "name": {
+      "ko": "장미십자회",
+      "en": "Rosicrucians",
+      "original": "Rosenkreuzer"
+    },
+    "period": {
+      "start": 1607,
+      "end": 2000
+    },
+    "location": {
+      "lat": 48.78,
+      "lng": 9.18,
+      "region": "독일 (기원)"
+    },
+    "era": "modern",
+    "summary": "17세기 초 독일에서 발표된 《파마 프라테르니타티스》를 기점으로 시작된 비밀 영성 결사. 연금술·카발라·헤르메스주의를 통합하여 인류의 영적 변혁과 지식의 개혁을 추구했다. 이후 프리메이슨과 다양한 비밀결사의 모델이 되었다.",
+    "tags": [
+      "장미십자",
+      "비밀결사",
+      "연금술",
+      "영성"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "hermeticism",
+      "freemasonry",
+      "renaissance-hermeticism"
+    ]
+  },
+  {
+    "id": "freemasonry",
+    "type": "tradition",
+    "name": {
+      "ko": "프리메이슨",
+      "en": "Freemasonry"
+    },
+    "period": {
+      "start": 1717,
+      "end": 2000
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던 (공식 기원)"
+    },
+    "era": "modern",
+    "summary": "1717년 런던 대로지 설립을 공식 기점으로 하는 세계적 우애·자선 결사. 중세 석공 길드에서 기원하여 계몽주의적 이성·자유·관용의 이념을 추구한다. 볼테르, 모차르트, 워싱턴 등이 회원이었으며, 미국 독립혁명과 프랑스 혁명에 영향을 미쳤다.",
+    "tags": [
+      "프리메이슨",
+      "계몽주의",
+      "우애",
+      "비밀결사"
+    ],
+    "relatedPersons": [
+      "voltaire"
+    ],
+    "relatedEntities": [
+      "rosicrucians",
+      "enlightenment"
+    ]
+  },
+  {
+    "id": "anthroposophy",
+    "type": "tradition",
+    "name": {
+      "ko": "인지학 (인지론)",
+      "en": "Anthroposophy",
+      "original": "Anthroposophie"
+    },
+    "period": {
+      "start": 1912,
+      "end": 2000
+    },
+    "location": {
+      "lat": 47.48,
+      "lng": 7.59,
+      "region": "스위스 도르나흐"
+    },
+    "era": "contemporary",
+    "summary": "루돌프 슈타이너가 신지학에서 분리하여 창시한 영성·교육·예술 운동. 인간의 영적 인식 능력을 과학적 방법으로 발전시키려 했다. 발도르프 교육, 바이오다이나믹 농법 등 실천적 응용으로 유명하다.",
+    "tags": [
+      "인지학",
+      "영성",
+      "발도르프교육",
+      "슈타이너"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "theosophy",
+      "new-age"
+    ]
+  },
+  {
+    "id": "new-age-movement",
+    "type": "tradition",
+    "name": {
+      "ko": "뉴에이지 운동",
+      "en": "New Age Movement"
+    },
+    "period": {
+      "start": 1960,
+      "end": 2000
+    },
+    "location": {
+      "lat": 37.77,
+      "lng": -122.42,
+      "region": "미국 캘리포니아"
+    },
+    "era": "contemporary",
+    "summary": "1960-70년대 서구에서 시작된 광범위한 영성 운동. 동양 종교, 신비주의, 점성술, 채널링, 명상, 환경주의 등을 절충적으로 결합한다. 개인의 영적 변환을 통한 인류 의식의 진화를 추구하며, 현대 대중 영성의 주류가 되었다.",
+    "tags": [
+      "뉴에이지",
+      "영성",
+      "대안문화",
+      "명상"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "theosophy",
+      "anthroposophy",
+      "new-age"
+    ]
   }
 ]
