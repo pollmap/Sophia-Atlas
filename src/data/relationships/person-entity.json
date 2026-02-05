@@ -18673,5 +18673,315 @@
     "description": "도스토예프스키의 실존적 탐구가 키르케고르·니체와 함께 실존주의의 문학적 선구",
     "strength": 3,
     "direction": "directed"
+  },
+  {
+    "source": "frank-herbert",
+    "target": "dune",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "프랭크 허버트는 《듄》을 집필하여 SF 문학의 역사를 바꾸었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "frank-herbert",
+    "target": "essenes",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "에세네파의 사막 금욕주의와 메시아 사상이 듄의 프레멘 문화에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "frank-herbert",
+    "target": "sufism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "수피즘의 신비주의와 수행 전통이 듄의 종교적 요소에 깊은 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "frank-herbert",
+    "target": "zen-buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "선불교의 무(無)와 직관적 깨달음이 듄의 멘탯 수행에 반영되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "george-lucas",
+    "target": "star-wars",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "조지 루카스는 스타워즈를 창조하여 현대 대중문화의 신화를 만들었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "george-lucas",
+    "target": "hero-journey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "조지프 캠벨의 영웅의 여정 구조가 스타워즈의 서사 뼈대가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "george-lucas",
+    "target": "dao",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "도교의 도(道) 개념이 포스(Force)의 철학적 기반이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "george-orwell",
+    "target": "1984-novel",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "조지 오웰은 《1984》를 집필하여 전체주의 감시 사회에 대한 경고를 남겼다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "j-r-r-tolkien",
+    "target": "lord-of-the-rings",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "톨킨은 《반지의 제왕》으로 현대 판타지 장르를 창시했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "j-r-r-tolkien",
+    "target": "hero-journey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "영웅의 여정 원형이 프로도와 아라곤의 서사에 구현되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mary-shelley",
+    "target": "frankenstein",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "메리 셸리는 《프랑켄슈타인》으로 SF 장르의 시조가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mary-shelley",
+    "target": "prometheus-myth",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "프로메테우스 신화가 프랑켄슈타인의 부제 '현대의 프로메테우스'에 직접 반영되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "aldous-huxley",
+    "target": "brave-new-world",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "올더스 헉슬리는 《멋진 신세계》에서 쾌락으로 통제되는 디스토피아를 그렸다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "gutenberg",
+    "target": "printing-press",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "구텐베르크는 금속 활자 인쇄술을 발명하여 정보 혁명의 시초를 만들었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "gutenberg",
+    "target": "protestant-reformation",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "구텐베르크의 인쇄술이 루터의 95개조 논제 확산을 가능하게 하여 종교개혁을 촉진했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "lenin",
+    "target": "russian-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "레닌은 1917년 10월 혁명을 주도하여 최초의 사회주의 국가를 수립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "lenin",
+    "target": "communism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "레닌은 마르크스주의를 실천적 혁명 이론으로 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "john-the-baptist",
+    "target": "essenes",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "세례자 요한과 에세네파의 연관성은 사해 사본 발견 이후 학계에서 활발히 논의되고 있다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-the-baptist",
+    "target": "dead-sea-scrolls",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "사해 사본의 발견으로 요한과 쿰란 공동체의 관계가 학문적으로 주목받게 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "toegye",
+    "target": "neo-confucianism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "퇴계 이황은 주자학을 조선적 맥락에서 독창적으로 발전시킨 성리학의 대가이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "yulgok",
+    "target": "neo-confucianism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "율곡 이이는 기발이승일도설로 퇴계와 대비되는 성리학 체계를 수립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "dewey",
+    "target": "pragmatism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "존 듀이는 실용주의를 교육과 민주주의 전반으로 확장한 대표적 실용주의 철학자이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "burke",
+    "target": "french-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "버크는 《프랑스 혁명에 관한 성찰》에서 급진적 혁명의 위험성을 경고했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "bakunin",
+    "target": "anarchism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "바쿠닌은 집산주의 아나키즘을 창시하여 국가 없는 자유로운 사회를 주장했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "kropotkin",
+    "target": "anarchism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "크로포트킨은 상호부조론으로 아나키-공산주의의 과학적 토대를 제시했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hanfeizi",
+    "target": "legalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "한비자는 법(法)·술(術)·세(勢)의 삼위일체로 법가 사상을 집대성했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "george-lucas",
+    "target": "dune",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "프랭크 허버트의 듄은 사막 행성 설정과 메시아 서사 등에서 스타워즈에 직접적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "george-orwell",
+    "target": "fascism-totalitarianism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "오웰은 전체주의를 《1984》와 《동물농장》을 통해 문학적으로 비판했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "wonhyo",
+    "target": "buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "원효는 한국 불교의 핵심 사상가로서 화쟁사상을 통해 교파 통합을 시도했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jeong-yakyong",
+    "target": "confucianism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "다산 정약용은 실학의 집대성자로서 유교 전통을 비판적으로 계승했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "burke",
+    "target": "traditional-conservatism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "에드먼드 버크는 근대 보수주의 사상의 토대를 놓았다",
+    "strength": 3,
+    "direction": "directed"
   }
 ]
