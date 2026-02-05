@@ -165,20 +165,28 @@ export default function IndraNet3D({
     if (!fgRef.current) return;
     const fg = fgRef.current;
 
-    // Set initial camera distance
+    // Set initial camera position — centered, looking at origin
     const sphereRadius = Math.min(width, height) * 0.4;
-    fg.cameraPosition({ z: sphereRadius * 3 });
+    const dist = sphereRadius * 3;
+    fg.cameraPosition(
+      { x: 0, y: 0, z: dist },
+      { x: 0, y: 0, z: 0 },
+      0
+    );
 
-    // Auto-rotate slowly
+    // Auto-rotate slowly around the Y axis
     let angle = 0;
     const interval = setInterval(() => {
       if (selectedNode || hoveredNode) return; // stop rotating when interacting
       angle += 0.002;
-      const dist = sphereRadius * 3;
-      fg.cameraPosition({
-        x: dist * Math.sin(angle),
-        z: dist * Math.cos(angle),
-      });
+      fg.cameraPosition(
+        {
+          x: dist * Math.sin(angle),
+          y: 0,
+          z: dist * Math.cos(angle),
+        },
+        { x: 0, y: 0, z: 0 }
+      );
     }, 30);
 
     return () => clearInterval(interval);
@@ -216,7 +224,7 @@ export default function IndraNet3D({
       const group = new THREE.Group();
 
       if (node.nodeType === "entity") {
-        // Diamond (octahedron) for entities
+        // Diamond (octahedron) for entities — low poly for performance
         const geometry = new THREE.OctahedronGeometry(size);
         const material = new THREE.MeshLambertMaterial({
           color: new THREE.Color(color),
@@ -226,8 +234,9 @@ export default function IndraNet3D({
         const mesh = new THREE.Mesh(geometry, material);
         group.add(mesh);
       } else {
-        // Sphere for persons
-        const geometry = new THREE.SphereGeometry(size, 16, 12);
+        // Sphere for persons — reduced segments for performance
+        const segments = isSelected ? 16 : 8;
+        const geometry = new THREE.SphereGeometry(size, segments, segments);
         const material = new THREE.MeshLambertMaterial({
           color: new THREE.Color(color),
           transparent: true,
@@ -250,8 +259,8 @@ export default function IndraNet3D({
         group.add(glowMesh);
       }
 
-      // Label sprite for significant nodes
-      if (size >= 5 || isSelected || (connectedSet.has(node.id) && connectedSet.size > 0)) {
+      // Label sprite — only for significant/focused nodes to improve performance
+      if (isSelected || (connectedSet.has(node.id) && connectedSet.size > 0) || size >= 7) {
         const canvas = document.createElement("canvas");
         const ctx = canvas.getContext("2d");
         if (ctx) {
@@ -327,6 +336,10 @@ export default function IndraNet3D({
       enableNodeDrag={true}
       enableNavigationControls={true}
       showNavInfo={false}
+      warmupTicks={50}
+      cooldownTicks={100}
+      d3AlphaDecay={0.04}
+      d3VelocityDecay={0.4}
     />
   );
 }

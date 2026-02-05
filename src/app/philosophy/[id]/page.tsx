@@ -187,7 +187,7 @@ export default async function PhilosopherPage({
       {/* IndraNet Link */}
       <section className="max-w-4xl mx-auto px-4 pb-4">
         <Link
-          href="/connections"
+          href={`/connections?node=${philosopher.id}`}
           className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium transition-colors hover:opacity-80"
           style={{
             backgroundColor: 'rgba(184,134,11,0.08)',
