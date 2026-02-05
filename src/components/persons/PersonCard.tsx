@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Calendar, MapPin } from 'lucide-react';
+import { Calendar, MapPin, ChevronRight } from 'lucide-react';
 import {
   cn,
   getEraLabel,
@@ -22,6 +22,7 @@ interface PersonCardProps {
   subcategory: string;
   tags: string[];
   summary: string;
+  compact?: boolean;
 }
 
 export default function PersonCard({
@@ -34,26 +35,66 @@ export default function PersonCard({
   categories,
   tags,
   summary,
+  compact = false,
 }: PersonCardProps) {
   const eraColor = getEraHexColor(era);
   const catColor = getCategoryHexColor(category);
 
+  if (compact) {
+    // Compact row style — much smaller footprint
+    return (
+      <Link
+        href={`/persons/${id}`}
+        className="group flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-[var(--fresco-aged)]/40 transition-colors"
+      >
+        <div
+          className="w-2 h-2 rounded-full flex-shrink-0"
+          style={{ backgroundColor: catColor }}
+        />
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2">
+            <span className="text-sm font-medium truncate group-hover:text-[#B8860B] transition-colors" style={{ color: 'var(--ink-dark)' }}>
+              {name.ko}
+            </span>
+            <span className="text-xs truncate" style={{ color: 'var(--ink-faded)' }}>
+              {name.en}
+            </span>
+          </div>
+          <div className="flex items-center gap-2 text-[10px]" style={{ color: 'var(--ink-faded)' }}>
+            <span>{formatYear(period.start)}~{formatYear(period.end)}</span>
+            <span>{location.region}</span>
+            <span style={{ color: eraColor }}>{getEraLabel(era)}</span>
+          </div>
+        </div>
+        <ChevronRight className="w-3.5 h-3.5 flex-shrink-0 text-[var(--ink-faded)] group-hover:text-[#B8860B] transition-colors" />
+      </Link>
+    );
+  }
+
+  // Grid card — compact version
   return (
     <Link
       href={`/persons/${id}`}
-      className="group block fresco-card overflow-hidden"
+      className="group block rounded-lg border overflow-hidden hover:shadow-sm transition-all"
+      style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}
     >
-      {/* Era accent bar */}
-      <div
-        className="h-1 w-full"
-        style={{ backgroundColor: eraColor }}
-      />
+      {/* Thin era accent */}
+      <div className="h-0.5 w-full" style={{ backgroundColor: eraColor }} />
 
-      <div className="p-4">
-        {/* Category badges */}
-        <div className="flex flex-wrap gap-1.5 mb-3">
+      <div className="p-3">
+        {/* Name + category inline */}
+        <div className="flex items-start justify-between gap-2">
+          <div className="min-w-0">
+            <h3
+              className="text-sm font-bold group-hover:opacity-80 transition-colors truncate"
+              style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
+            >
+              {name.ko}
+            </h3>
+            <p className="text-xs truncate" style={{ color: 'var(--ink-light)' }}>{name.en}</p>
+          </div>
           <span
-            className="text-[10px] px-2 py-0.5 rounded-full border font-medium"
+            className="text-[9px] px-1.5 py-0.5 rounded-full border font-medium flex-shrink-0 mt-0.5"
             style={{
               backgroundColor: `${catColor}12`,
               color: catColor,
@@ -62,71 +103,36 @@ export default function PersonCard({
           >
             {getCategoryLabel(category)}
           </span>
-          {categories &&
-            categories
-              .filter((c) => c !== category)
-              .map((c) => {
-                const cColor = getCategoryHexColor(c);
-                return (
-                  <span
-                    key={c}
-                    className="text-[10px] px-2 py-0.5 rounded-full border font-medium"
-                    style={{
-                      backgroundColor: `${cColor}12`,
-                      color: cColor,
-                      borderColor: `${cColor}30`,
-                    }}
-                  >
-                    {getCategoryLabel(c)}
-                  </span>
-                );
-              })}
         </div>
 
-        {/* Name */}
-        <h3
-          className="text-lg font-bold group-hover:opacity-80 transition-colors"
-          style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
-        >
-          {name.ko}
-        </h3>
-        <p className="text-sm" style={{ color: 'var(--ink-light)' }}>{name.en}</p>
-
-        {/* Meta */}
-        <div className="flex flex-wrap items-center gap-3 mt-2 text-xs" style={{ color: 'var(--ink-faded)' }}>
-          <span className="flex items-center gap-1">
-            <Calendar className="w-3 h-3" />
-            {formatYear(period.start)} ~ {formatYear(period.end)}
+        {/* Meta row */}
+        <div className="flex items-center gap-2 mt-1.5 text-[10px]" style={{ color: 'var(--ink-faded)' }}>
+          <span className="flex items-center gap-0.5">
+            <Calendar className="w-2.5 h-2.5" />
+            {formatYear(period.start)}~{formatYear(period.end)}
           </span>
-          <span className="flex items-center gap-1">
-            <MapPin className="w-3 h-3" />
+          <span className="flex items-center gap-0.5">
+            <MapPin className="w-2.5 h-2.5" />
             {location.region}
           </span>
-          <span className="font-medium" style={{ color: eraColor }}>
-            {getEraLabel(era)}
-          </span>
+          <span style={{ color: eraColor }}>{getEraLabel(era)}</span>
         </div>
 
-        {/* Summary */}
-        <p className="mt-3 text-sm leading-relaxed line-clamp-2" style={{ color: 'var(--ink-medium)' }}>
-          {summary}
-        </p>
-
-        {/* Tags */}
+        {/* Tags inline */}
         {tags.length > 0 && (
-          <div className="flex flex-wrap gap-1 mt-3">
-            {tags.slice(0, 4).map((tag) => (
+          <div className="flex flex-wrap gap-1 mt-2">
+            {tags.slice(0, 3).map((tag) => (
               <span
                 key={tag}
-                className="text-[10px] px-1.5 py-0.5 rounded"
+                className="text-[9px] px-1.5 py-0.5 rounded"
                 style={{ background: 'var(--fresco-aged)', color: 'var(--ink-light)' }}
               >
                 {tag}
               </span>
             ))}
-            {tags.length > 4 && (
-              <span className="text-[10px] px-1.5 py-0.5" style={{ color: 'var(--ink-faded)' }}>
-                +{tags.length - 4}
+            {tags.length > 3 && (
+              <span className="text-[9px] px-1 py-0.5" style={{ color: 'var(--ink-faded)' }}>
+                +{tags.length - 3}
               </span>
             )}
           </div>
