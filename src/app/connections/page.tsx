@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from "react";
 import Link from "next/link";
 import * as d3 from "d3";
+import dynamic from "next/dynamic";
 import {
   Network,
   Info,
@@ -20,7 +21,25 @@ import {
   Diamond,
   ToggleLeft,
   ToggleRight,
+  Box,
+  Loader2,
 } from "lucide-react";
+
+// Dynamic import for 3D graph (no SSR - requires WebGL)
+const IndraNet3D = dynamic(
+  () => import("@/components/visualization/IndraNet3D"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="w-full h-full flex items-center justify-center bg-[var(--fresco-parchment)]">
+        <div className="flex flex-col items-center gap-3 text-[var(--ink-light)]">
+          <Loader2 className="w-8 h-8 animate-spin" />
+          <span className="text-sm">3D 인드라망 불러오는 중...</span>
+        </div>
+      </div>
+    ),
+  }
+);
 import philosophersData from "@/data/persons/philosophers.json";
 import religiousFiguresData from "@/data/persons/religious-figures.json";
 import scientistsData from "@/data/persons/scientists.json";
@@ -263,6 +282,7 @@ export default function ConnectionsPage() {
   const [showInfo, setShowInfo] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
   const [showEntities, setShowEntities] = useState(true);
+  const [viewMode, setViewMode] = useState<"2d" | "3d">("2d");
   const [canvasSize, setCanvasSize] = useState({ width: 800, height: 600 });
   const [isSimReady, setIsSimReady] = useState(false);
 
@@ -357,6 +377,31 @@ export default function ConnectionsPage() {
 
     return { filteredNodes: nodes, filteredLinks: links };
   }, [selectedCategory, selectedEra, selectedRelType, showEntities, connectionCounts]);
+
+  // ── 3D graph data ──
+  const graph3DData = useMemo(() => {
+    const nodes3D = filteredNodes.map((n) => ({
+      id: n.id,
+      name: n.name,
+      nodeType: n.nodeType,
+      category: n.category,
+      entityType: n.entityType,
+      era: n.era,
+      connections: n.connections,
+      val: Math.max(1, n.connections),
+    }));
+    const nodeIdSet = new Set(nodes3D.map((n) => n.id));
+    const links3D = filteredLinks
+      .filter((l) => nodeIdSet.has(l.source as string) && nodeIdSet.has(l.target as string))
+      .map((l) => ({
+        source: l.source as string,
+        target: l.target as string,
+        type: l.type,
+        strength: l.strength,
+        description: l.description,
+      }));
+    return { nodes: nodes3D, links: links3D };
+  }, [filteredNodes, filteredLinks]);
 
   // ── Ego network (1st + 2nd degree) ──
   const egoData = useMemo(() => {
@@ -1102,6 +1147,21 @@ export default function ConnectionsPage() {
               </div>
             </div>
             <div className="flex items-center gap-2">
+              {/* 2D/3D Toggle */}
+              <button
+                onClick={() => setViewMode(viewMode === "2d" ? "3d" : "2d")}
+                className={cn(
+                  "flex items-center gap-1.5 px-3 py-2 rounded text-xs font-medium transition-all",
+                  viewMode === "3d"
+                    ? "bg-[#B8860B]/15 text-[#B8860B] ring-1 ring-[#B8860B]/30"
+                    : "bg-[var(--fresco-aged)]/50 text-[var(--ink-light)] hover:bg-[var(--fresco-aged)]"
+                )}
+                title={viewMode === "2d" ? "3D 구체 뷰로 전환" : "2D 평면 뷰로 전환"}
+              >
+                <Box className="w-3.5 h-3.5" />
+                {viewMode === "3d" ? "3D" : "2D"}
+              </button>
+
               {/* Entity Toggle */}
               <button
                 onClick={() => setShowEntities(!showEntities)}
@@ -1346,20 +1406,36 @@ export default function ConnectionsPage() {
                 )}
               </div>
 
-              {/* Canvas */}
-              <canvas
-                ref={canvasRef}
-                style={{
-                  width: "100%",
-                  height: "calc(100vh - 280px)",
-                  minHeight: "550px",
-                  display: "block",
-                }}
-              />
+              {/* 2D Canvas */}
+              {viewMode === "2d" && (
+                <canvas
+                  ref={canvasRef}
+                  style={{
+                    width: "100%",
+                    height: "calc(100vh - 280px)",
+                    minHeight: "550px",
+                    display: "block",
+                  }}
+                />
+              )}
+
+              {/* 3D View */}
+              {viewMode === "3d" && (
+                <div style={{ width: "100%", height: "calc(100vh - 280px)", minHeight: "550px" }}>
+                  <IndraNet3D
+                    nodes={graph3DData.nodes as any}
+                    links={graph3DData.links as any}
+                    width={canvasSize.width}
+                    height={Math.max(550, canvasSize.height)}
+                    onNodeClick={(nodeId) => setSelectedNode((prev) => (prev === nodeId ? null : nodeId))}
+                    selectedNode={selectedNode}
+                  />
+                </div>
+              )}
 
               {/* Stats overlay */}
               <div className="absolute bottom-3 left-3 flex gap-3 text-[10px] text-[var(--ink-faded)] pointer-events-none">
-                <span>노드: {filteredNodes.length}</span>
+                <span>{viewMode === "3d" ? "3D" : "2D"} | 노드: {filteredNodes.length}</span>
                 <span>연결: {filteredLinks.length}</span>
                 {selectedNode && egoData && (
                   <>
@@ -1370,7 +1446,9 @@ export default function ConnectionsPage() {
               </div>
 
               <div className="absolute bottom-3 right-3 text-[10px] text-[var(--ink-faded)] pointer-events-none">
-                스크롤: 확대/축소 | 드래그: 이동 | 클릭: 선택
+                {viewMode === "3d"
+                  ? "드래그: 회전 | 스크롤: 확대/축소 | 클릭: 선택"
+                  : "스크롤: 확대/축소 | 드래그: 이동 | 클릭: 선택"}
               </div>
             </div>
           </div>
