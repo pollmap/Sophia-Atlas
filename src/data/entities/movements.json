@@ -813,5 +813,2290 @@
       "장기적 관점의 의사결정",
       "인류 문명의 잠재적 가치"
     ]
+  },
+  {
+    "id": "impressionism-movement",
+    "type": "movement",
+    "name": {
+      "ko": "인상파",
+      "en": "Impressionism",
+      "original": "Impressionnisme"
+    },
+    "period": {
+      "start": 1860,
+      "end": 1890,
+      "approximate": true
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "era": "modern",
+    "summary": "빛과 색채의 순간적 인상을 포착하고자 한 19세기 후반 프랑스 미술 운동. 모네의 《인상, 해돋이》(1872)에서 명칭이 유래했다. 아카데미즘의 정교한 선묘와 역사화 전통에 반발하여 야외 사생, 짧은 붓질, 순수한 색채 병치를 통해 빛의 변화를 화폭에 담았다. 근대 미술의 출발점으로, 이후 후기인상파와 현대 미술의 모든 혁신을 촉발했다.",
+    "detailed": "인상파(Impressionnisme)는 1860-70년대 파리에서 형성된 미술 운동으로, 클로드 모네, 피에르-오귀스트 르누아르, 에드가 드가, 카미유 피사로, 알프레드 시슬레 등이 핵심 작가이다. 이들은 살롱전의 보수적 심사에 반발하여 1874년 독립 전시회를 개최했고, 비평가 루이 르루아가 모네의 《인상, 해돋이》를 조롱하며 붙인 '인상주의자'라는 명칭을 스스로 수용했다.\n인상파의 혁명적 기여는 빛의 과학적 이해와 시각적 경험의 직접성에 있다. 스튜디오가 아닌 야외에서 빠르게 그려 빛의 순간적 변화를 포착하고, 색채를 팔레트에서 혼합하지 않고 화폭 위에 병치하여 관객의 눈에서 혼합되도록 했다. 이는 광학과 색채학의 과학적 발견에 영향을 받은 것이다.\n후기인상파의 세잔(구조적 분석), 고흐(감정적 표현), 고갱(상징적 원시주의)은 인상파를 각각 다른 방향으로 발전시켜 20세기 미술의 다양한 흐름 — 입체주의, 표현주의, 야수파 — 의 직접적 원천이 되었다.",
+    "tags": [
+      "미술",
+      "빛",
+      "색채",
+      "근대예술",
+      "파리"
+    ],
+    "relatedPersons": [
+      "monet"
+    ],
+    "relatedEntities": [
+      "romanticism-movement",
+      "modernism-art"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "빛과 색채의 순간적 인상 포착",
+      "야외 사생(plein air)",
+      "순수한 색채의 병치",
+      "일상적 주제의 발견"
+    ]
+  },
+  {
+    "id": "modernism-art",
+    "type": "movement",
+    "name": {
+      "ko": "모더니즘 (예술)",
+      "en": "Modernism in Art"
+    },
+    "period": {
+      "start": 1890,
+      "end": 1960,
+      "approximate": true
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "유럽·미국 전역"
+    },
+    "era": "contemporary",
+    "summary": "전통적 예술 형식과 관습을 급진적으로 실험하고 혁신한 20세기 전반의 범예술적 운동. 미술의 입체주의(피카소), 추상(칸딘스키), 음악의 무조성(쇤베르크), 문학의 의식의 흐름(조이스) 등 다양한 양식을 포괄한다. 예술의 자율성을 선언하고 형식적 실험 자체를 목적으로 삼아, 예술의 본질에 대한 근본적 질문을 제기했다.",
+    "detailed": "모더니즘은 19세기 말에서 20세기 중반에 걸쳐 서양 예술 전반을 변혁시킨 복합적 운동이다. 그 핵심은 예술의 자율성 — 예술이 외적 목적(도덕, 교훈, 재현)이 아닌 자신의 내적 논리에 충실해야 한다는 이념이다.\n미술에서는 세잔의 기하학적 분석, 피카소와 브라크의 입체주의(1907-), 칸딘스키의 추상화(1910-), 말레비치의 절대주의, 몬드리안의 신조형주의가 재현의 전통을 해체했다. 음악에서는 쇤베르크의 12음 기법, 스트라빈스키의 《봄의 제전》(1913)이 조성과 리듬의 관습을 파괴했다. 문학에서는 제임스 조이스의 《율리시스》(1922), 버지니아 울프의 의식의 흐름 기법, 카프카의 부조리한 세계가 전통적 서사를 전복했다.\n클레멘트 그린버그는 모더니즘의 핵심을 '매체 특수성(medium specificity)' — 각 예술이 자신의 고유한 매체적 조건을 탐구하는 것으로 정의했다. 회화는 평면성을, 조각은 3차원성을, 음악은 음향 구조 자체를 탐구해야 한다는 것이다. 모더니즘은 두 차례의 세계대전이라는 역사적 충격과 깊이 연관되며, 포스트모더니즘에 의해 비판적으로 계승되었다.",
+    "tags": [
+      "미술",
+      "음악",
+      "문학",
+      "형식실험",
+      "자율성"
+    ],
+    "relatedPersons": [
+      "picasso",
+      "kandinsky",
+      "stravinsky",
+      "kafka"
+    ],
+    "relatedEntities": [
+      "impressionism-movement",
+      "surrealism-movement",
+      "postmodernism-movement"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "예술의 자율성 선언",
+      "형식적 실험과 혁신",
+      "전통의 급진적 파괴",
+      "매체 특수성의 탐구"
+    ]
+  },
+  {
+    "id": "surrealism-movement",
+    "type": "movement",
+    "name": {
+      "ko": "초현실주의",
+      "en": "Surrealism",
+      "original": "Surréalisme"
+    },
+    "period": {
+      "start": 1924,
+      "end": 1966,
+      "approximate": true
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "era": "contemporary",
+    "summary": "무의식·꿈·자동기술법을 통해 이성적 통제 너머의 초현실적 세계를 탐구한 20세기 예술·문학 운동. 앙드레 브르통이 1924년 《초현실주의 선언》으로 공식 출범시켰다. 프로이트의 정신분석학에 깊은 영향을 받아, 꿈·편집광적 비평·우연에 의한 창작 방법으로 무의식의 해방을 추구했다. 달리, 마그리트, 에른스트, 미로 등이 대표적 작가이다.",
+    "detailed": "초현실주의(Surréalisme)는 시인 앙드레 브르통이 1924년 《초현실주의 선언(Manifeste du surréalisme)》을 발표하면서 공식적으로 시작되었다. 브르통은 초현실주의를 '순수한 정신적 자동기술(automatisme psychique pur)'로 정의하여, 이성적 통제, 미학적·도덕적 선입견을 벗어난 사고의 참된 기능을 표현하고자 했다.\n이론적 토대는 프로이트의 정신분석학이다. 프로이트가 꿈의 분석을 통해 무의식의 세계를 발견했다면, 초현실주의자들은 예술을 통해 무의식을 직접 표현하려 했다. 자동기술법(automatisme), 꿈의 기록, 데페이즈망(dépaysement, 낯설게 하기), 기묘한 병치, 우연의 활용 등이 핵심 기법이다.\n살바도르 달리는 '편집광적 비평(méthode paranoïaque-critique)'을 통해 이중 이미지와 환각적 정밀묘사의 세계를 구축했고, 르네 마그리트는 일상적 사물의 기이한 결합으로 '이것은 파이프가 아니다'라는 재현의 역설을 드러냈다. 막스 에른스트는 프로타주·콜라주 기법으로, 호안 미로는 생물형태적 추상으로 각각 독자적 초현실주의 세계를 전개했다.\n초현실주의는 문학(폴 엘뤼아르, 루이 아라공), 영화(루이스 부뉴엘의 《안달루시아의 개》), 사진(만 레이)까지 확산되었으며, 추상표현주의와 팝아트 등 전후 미술에 결정적 영향을 미쳤다.",
+    "tags": [
+      "무의식",
+      "꿈",
+      "자동기술법",
+      "예술혁명"
+    ],
+    "relatedPersons": [
+      "kafka"
+    ],
+    "relatedEntities": [
+      "modernism-art",
+      "existentialism",
+      "collective-unconscious"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "무의식의 해방",
+      "자동기술법(automatisme)",
+      "꿈과 현실의 통합",
+      "이성적 통제의 초월"
+    ]
+  },
+  {
+    "id": "existentialist-literature",
+    "type": "movement",
+    "name": {
+      "ko": "실존주의 문학",
+      "en": "Existentialist Literature",
+      "original": "Littérature existentialiste"
+    },
+    "period": {
+      "start": 1840,
+      "end": 1970,
+      "approximate": true
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "유럽 (러시아·독일·프랑스)"
+    },
+    "era": "contemporary",
+    "summary": "인간 실존의 불안·부조리·자유·고독을 문학적으로 탐구한 문예 운동. 도스토예프스키의 지하 인간에서 시작하여 카프카의 부조리한 세계, 사르트르의 참여 문학, 카뮈의 부조리 소설, 베케트의 부조리극으로 이어졌다. 철학적 실존주의와 긴밀히 연동하면서도 독자적인 문학적 형식과 미학을 발전시켰다.",
+    "detailed": "실존주의 문학은 철학적 실존주의가 공식적으로 명명되기 훨씬 전부터 시작되었다. 도스토예프스키의 《지하로부터의 수기》(1864)는 이성적 진보에 대한 급진적 회의와 인간 의식의 모순적 심연을 탐구한 최초의 실존주의 소설로 평가된다. 《카라마조프가의 형제들》의 '대심문관' 장은 자유의 무거움과 신앙의 역설을 가장 깊이 있게 형상화한 문학적 성취이다.\n프란츠 카프카는 《변신》(1915), 《소송》(1925)에서 합리적 세계가 갑자기 불투명해지는 경험을 형상화하여, 실존적 소외와 관료제적 부조리의 문학적 원형을 창조했다. '카프카에스크(Kafkaesque)'라는 형용사가 일상어가 된 것은 그의 영향력을 증명한다.\n장-폴 사르트르는 《구토》(1938)에서 존재의 우연성(contingence)에 대한 형이상학적 공포를 서술했고, 《출구 없는 방》에서 '타인은 지옥이다(L'enfer, c'est les autres)'라는 명제를 극적으로 표현했다. 알베르 카뮈는 《이방인》(1942)의 뫼르소를 통해 사회적 관습에 순응하기를 거부하는 '부조리한 인간'을, 《페스트》(1947)에서 부조리에 맞서는 연대의 윤리를 형상화했다.\n사뮈엘 베케트의 《고도를 기다리며》(1953)는 부조리극의 정점으로, 의미 없는 기다림 속에서도 계속 기다리는 인간 조건의 비극적 희극을 보여준다. 실존주의 문학은 전후 세대의 환멸과 자유에 대한 갈망을 표현하며, 현대 문학의 핵심 유산으로 남아 있다.",
+    "tags": [
+      "문학",
+      "실존",
+      "부조리",
+      "참여문학"
+    ],
+    "relatedPersons": [
+      "sartre",
+      "camus",
+      "kafka",
+      "dostoevsky"
+    ],
+    "relatedEntities": [
+      "existentialism",
+      "phenomenology-movement",
+      "nihilism"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "인간 실존의 문학적 탐구",
+      "부조리와 자유의 형상화",
+      "참여 문학(littérature engagée)",
+      "소외와 불안의 미학"
+    ]
+  },
+  {
+    "id": "orthodox-judaism",
+    "type": "movement",
+    "name": {
+      "ko": "정통 유대교",
+      "en": "Orthodox Judaism",
+      "original": "יהדות אורתודוקסית"
+    },
+    "period": {
+      "start": -500,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 31.77,
+      "lng": 35.23,
+      "region": "이스라엘 / 전 세계"
+    },
+    "era": "ancient",
+    "summary": "토라(모세오경)와 탈무드에 근거한 전통적 유대교 흐름으로, 할라카(유대 율법)의 엄격한 준수를 핵심으로 삼는다. 19세기 개혁 유대교에 대한 반작용으로 '정통'이라는 명칭이 확립되었으며, 하레디(초정통)와 현대 정통 등 다양한 분파를 포함한다.",
+    "tags": [
+      "유대교",
+      "토라",
+      "할라카",
+      "전통"
+    ],
+    "relatedPersons": [
+      "moses",
+      "hillel",
+      "rashi",
+      "rabbi-akiva",
+      "judah-ha-nasi",
+      "joseph-karo"
+    ],
+    "relatedEntities": [
+      "bible",
+      "judaism"
+    ],
+    "founders": [
+      "moses"
+    ],
+    "keyPrinciples": [
+      "토라의 신적 기원",
+      "할라카(율법)의 엄격한 준수",
+      "구전 율법(탈무드)의 권위"
+    ]
+  },
+  {
+    "id": "reform-judaism",
+    "type": "movement",
+    "name": {
+      "ko": "개혁 유대교",
+      "en": "Reform Judaism",
+      "original": "יהדות רפורמית"
+    },
+    "period": {
+      "start": 1810,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.39,
+      "region": "독일 (시작) / 미국 중심"
+    },
+    "era": "modern",
+    "summary": "19세기 독일에서 시작된 유대교 근대화 운동으로, 계몽주의의 영향 아래 율법의 자율적 해석과 현대 생활과의 조화를 추구한다. 의식의 간소화, 남녀평등, 사회정의를 강조하며 현재 미국 유대인의 최대 종파이다.",
+    "tags": [
+      "유대교",
+      "근대화",
+      "계몽주의",
+      "자유주의"
+    ],
+    "relatedPersons": [
+      "moses",
+      "abraham-heschel"
+    ],
+    "relatedEntities": [
+      "judaism",
+      "enlightenment-movement"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "율법의 자율적 해석",
+      "전통과 현대의 조화",
+      "사회정의의 실천"
+    ]
+  },
+  {
+    "id": "hasidism",
+    "type": "movement",
+    "name": {
+      "ko": "하시디즘",
+      "en": "Hasidism",
+      "original": "חסידות"
+    },
+    "period": {
+      "start": 1740,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 48.5,
+      "lng": 25.0,
+      "region": "우크라이나 (시작) / 전 세계"
+    },
+    "era": "modern",
+    "summary": "18세기 동유럽에서 바알 쉠 토브가 창시한 유대교 신비주의 부흥 운동. 율법적 학식보다 기쁨에 찬 기도, 신비적 체험, 짜딕(의인)에 대한 헌신을 강조한다. 카발라의 대중화를 통해 일반 유대인에게 영적 활력을 불어넣었다.",
+    "tags": [
+      "유대교",
+      "신비주의",
+      "기쁨",
+      "짜딕"
+    ],
+    "relatedPersons": [
+      "baal-shem-tov"
+    ],
+    "relatedEntities": [
+      "judaism",
+      "kabbalah"
+    ],
+    "founders": [
+      "baal-shem-tov"
+    ],
+    "keyPrinciples": [
+      "기쁨에 찬 예배",
+      "신비적 합일(데베쿳)",
+      "짜딕(의인)의 중재적 역할",
+      "카발라의 대중화"
+    ]
+  },
+  {
+    "id": "kabbalah",
+    "type": "movement",
+    "name": {
+      "ko": "카발라",
+      "en": "Kabbalah",
+      "original": "קַבָּלָה"
+    },
+    "period": {
+      "start": 1200,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 32.96,
+      "lng": 35.5,
+      "region": "스페인 프로방스 (시작) / 이스라엘 사페드"
+    },
+    "era": "medieval",
+    "summary": "유대교 신비주의 전통으로, 13세기 스페인에서 《조하르》의 출현과 함께 체계화되었다. 신의 10가지 속성(세피로트)을 통한 우주론과 영적 수행법을 제시하며, 16세기 이삭 루리아의 혁신적 해석으로 유대교 전반에 깊은 영향을 미쳤다.",
+    "tags": [
+      "유대교",
+      "신비주의",
+      "세피로트",
+      "조하르"
+    ],
+    "relatedPersons": [
+      "isaac-luria",
+      "nachmanides"
+    ],
+    "relatedEntities": [
+      "judaism",
+      "hasidism"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "세피로트(10가지 신적 속성)",
+      "엔소프(무한자)",
+      "티쿤(수복)",
+      "영적 상승"
+    ]
+  },
+  {
+    "id": "eastern-orthodoxy",
+    "type": "movement",
+    "name": {
+      "ko": "동방 정교회",
+      "en": "Eastern Orthodoxy",
+      "original": "Ορθοδοξία"
+    },
+    "period": {
+      "start": 1054,
+      "end": 2025
+    },
+    "location": {
+      "lat": 41.01,
+      "lng": 28.98,
+      "region": "콘스탄티노폴리스 (시작) / 동유럽·중동"
+    },
+    "era": "medieval",
+    "summary": "1054년 동서 교회 대분열 이후 콘스탄티노폴리스를 중심으로 형성된 기독교 전통. 7차 에큐메니컬 공의회의 교리를 수호하며 성상(이콘) 공경, 테오시스(신화), 전례적 신비주의를 특징으로 한다. 러시아·그리스·발칸 문화의 정신적 토대이다.",
+    "tags": [
+      "기독교",
+      "정교회",
+      "이콘",
+      "전례",
+      "테오시스"
+    ],
+    "relatedPersons": [
+      "john-damascus",
+      "athanasius",
+      "gregory-nazianzus",
+      "basil-great",
+      "gregory-nyssa",
+      "chrysostom",
+      "maximus-confessor"
+    ],
+    "relatedEntities": [
+      "christianity",
+      "great-schism",
+      "council-of-nicaea"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "7차 에큐메니컬 공의회의 교리 수호",
+      "테오시스(인간의 신화)",
+      "이콘(성상)의 공경",
+      "신비적 전례 전통"
+    ]
+  },
+  {
+    "id": "roman-catholicism",
+    "type": "movement",
+    "name": {
+      "ko": "로마 가톨릭",
+      "en": "Roman Catholicism",
+      "original": "Ecclesia Catholica Romana"
+    },
+    "period": {
+      "start": 100,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.45,
+      "region": "이탈리아 로마 / 전 세계"
+    },
+    "era": "ancient",
+    "summary": "사도 베드로의 후계자인 교황을 수장으로 하는 세계 최대의 기독교 교회. 성경과 성전(聖傳)을 함께 권위로 인정하며, 7성사, 성인 공경, 마리아 신심을 특징으로 한다. 전 세계 약 13억 신자를 가진 최대 기독교 종파이다.",
+    "tags": [
+      "기독교",
+      "교황",
+      "성사",
+      "보편교회"
+    ],
+    "relatedPersons": [
+      "peter",
+      "augustine",
+      "thomas-aquinas",
+      "pope-john-xxiii",
+      "pope-john-paul-ii",
+      "pope-francis"
+    ],
+    "relatedEntities": [
+      "christianity",
+      "bible",
+      "council-of-nicaea",
+      "protestant-reformation"
+    ],
+    "founders": [
+      "peter"
+    ],
+    "keyPrinciples": [
+      "교황 수위권",
+      "성경과 성전의 권위",
+      "7성사 체계",
+      "사도적 계승"
+    ]
+  },
+  {
+    "id": "lutheranism",
+    "type": "movement",
+    "name": {
+      "ko": "루터교",
+      "en": "Lutheranism"
+    },
+    "period": {
+      "start": 1517,
+      "end": 2025
+    },
+    "location": {
+      "lat": 51.87,
+      "lng": 11.67,
+      "region": "독일 비텐베르크 (시작) / 북유럽"
+    },
+    "era": "modern",
+    "summary": "1517년 마르틴 루터의 95개조 논제로 시작된 종교개혁의 직접적 산물. '오직 성경, 오직 믿음, 오직 은총'의 원리를 통해 교황권과 면벌부를 비판하고, 만인사제직과 성경의 자국어 번역을 실현했다. 독일·북유럽의 지배적 기독교 전통이다.",
+    "tags": [
+      "기독교",
+      "종교개혁",
+      "이신칭의",
+      "성경"
+    ],
+    "relatedPersons": [
+      "martin-luther",
+      "melanchthon",
+      "bonhoeffer"
+    ],
+    "relatedEntities": [
+      "christianity",
+      "protestant-reformation",
+      "bible"
+    ],
+    "founders": [
+      "martin-luther"
+    ],
+    "keyPrinciples": [
+      "오직 믿음(Sola Fide)",
+      "오직 성경(Sola Scriptura)",
+      "오직 은총(Sola Gratia)",
+      "만인사제직"
+    ]
+  },
+  {
+    "id": "calvinism",
+    "type": "movement",
+    "name": {
+      "ko": "칼뱅주의",
+      "en": "Calvinism"
+    },
+    "period": {
+      "start": 1536,
+      "end": 2025
+    },
+    "location": {
+      "lat": 46.2,
+      "lng": 6.14,
+      "region": "스위스 제네바 (시작) / 전 세계"
+    },
+    "era": "modern",
+    "summary": "장 칼뱅의 《기독교 강요》(1536)에 기초한 개혁 신학 전통. 하나님의 절대 주권과 예정론을 핵심 교리로 삼으며, 엄격한 윤리적 생활과 직업소명을 강조한다. 장로교·개혁교회의 신학적 토대이며, 막스 베버는 이를 자본주의 정신의 기원으로 분석했다.",
+    "tags": [
+      "기독교",
+      "종교개혁",
+      "예정론",
+      "개혁교회"
+    ],
+    "relatedPersons": [
+      "john-calvin",
+      "john-knox",
+      "zwingli"
+    ],
+    "relatedEntities": [
+      "christianity",
+      "protestant-reformation"
+    ],
+    "founders": [
+      "john-calvin"
+    ],
+    "keyPrinciples": [
+      "하나님의 절대 주권",
+      "예정론(이중 예정)",
+      "성경의 최종 권위",
+      "직업소명과 윤리적 생활"
+    ]
+  },
+  {
+    "id": "anglicanism",
+    "type": "movement",
+    "name": {
+      "ko": "성공회",
+      "en": "Anglicanism"
+    },
+    "period": {
+      "start": 1534,
+      "end": 2025
+    },
+    "location": {
+      "lat": 51.5,
+      "lng": -0.13,
+      "region": "영국 런던 (캔터베리) / 전 세계"
+    },
+    "era": "modern",
+    "summary": "1534년 영국 국왕 헨리 8세의 수장령으로 로마 교황으로부터 독립한 영국 교회에서 비롯된 기독교 전통. 가톨릭과 개신교 사이의 '중도(via media)'를 표방하며, 성경·전통·이성의 삼각 균형을 추구한다. 전 세계 성공회 공동체(Anglican Communion)를 형성한다.",
+    "tags": [
+      "기독교",
+      "영국",
+      "중도",
+      "전례"
+    ],
+    "relatedPersons": [
+      "cranmer",
+      "cs-lewis"
+    ],
+    "relatedEntities": [
+      "christianity",
+      "protestant-reformation",
+      "roman-catholicism"
+    ],
+    "founders": [
+      "cranmer"
+    ],
+    "keyPrinciples": [
+      "가톨릭과 개신교의 중도(via media)",
+      "성경·전통·이성의 삼각 균형",
+      "주교 제도의 유지",
+      "공동기도서 전통"
+    ]
+  },
+  {
+    "id": "pentecostalism",
+    "type": "movement",
+    "name": {
+      "ko": "오순절주의",
+      "en": "Pentecostalism"
+    },
+    "period": {
+      "start": 1901,
+      "end": 2025
+    },
+    "location": {
+      "lat": 34.05,
+      "lng": -118.24,
+      "region": "미국 로스앤젤레스 (시작) / 전 세계"
+    },
+    "era": "contemporary",
+    "summary": "20세기 초 미국에서 시작된 기독교 부흥 운동으로, 성령의 은사(방언, 예언, 신유)를 강조한다. 1906년 아주사 거리 부흥에서 폭발적으로 성장하여, 현재 전 세계 약 5억 명의 신자를 가진 가장 빠르게 성장하는 기독교 운동이다.",
+    "tags": [
+      "기독교",
+      "성령",
+      "은사",
+      "부흥"
+    ],
+    "relatedPersons": [
+      "billy-graham"
+    ],
+    "relatedEntities": [
+      "christianity"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "성령 세례와 은사의 체험",
+      "방언(글로솔리아)",
+      "신유(신적 치유)",
+      "종말론적 긴박성"
+    ]
+  },
+  {
+    "id": "gnosticism",
+    "type": "movement",
+    "name": {
+      "ko": "영지주의",
+      "en": "Gnosticism",
+      "original": "Γνωστικισμός"
+    },
+    "period": {
+      "start": 50,
+      "end": 400,
+      "approximate": true
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.91,
+      "region": "알렉산드리아·시리아·로마 제국"
+    },
+    "era": "ancient",
+    "summary": "1-4세기 지중해 세계에서 번성한 이원론적 종교 운동으로, 물질 세계를 열등한 데미우르고스의 창조물로 보고 비밀스러운 지식(그노시스)을 통한 영혼의 해방을 추구했다. 기독교·유대교·플라톤주의가 혼합된 다양한 분파가 존재했으며, 정통 기독교에 의해 이단으로 배격되었다.",
+    "tags": [
+      "이원론",
+      "그노시스",
+      "신비주의",
+      "고대"
+    ],
+    "relatedPersons": [
+      "plotinus",
+      "clement-alexandria",
+      "irenaeus"
+    ],
+    "relatedEntities": [
+      "christianity",
+      "idealism",
+      "council-of-nicaea"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "물질 세계의 불완전성",
+      "그노시스(영적 인식)을 통한 구원",
+      "이원론적 세계관",
+      "데미우르고스와 참된 신의 구분"
+    ]
+  },
+  {
+    "id": "sunni-islam",
+    "type": "movement",
+    "name": {
+      "ko": "수니파",
+      "en": "Sunni Islam",
+      "original": "أهل السنة والجماعة"
+    },
+    "period": {
+      "start": 632,
+      "end": 2025
+    },
+    "location": {
+      "lat": 21.42,
+      "lng": 39.83,
+      "region": "아라비아 반도 (시작) / 전 세계"
+    },
+    "era": "medieval",
+    "summary": "이슬람의 최대 종파로 전체 무슬림의 약 85-90%를 차지한다. 예언자 무함마드의 순나(관행)와 공동체의 합의를 중시하며, 네 법학파(하나피·말리키·샤피이·한발리)를 인정한다. 칼리프의 선출을 공동체의 합의로 정당화한 점에서 시아파와 구별된다.",
+    "tags": [
+      "이슬람",
+      "순나",
+      "법학파",
+      "정통"
+    ],
+    "relatedPersons": [
+      "muhammad",
+      "abu-bakr",
+      "umar-ibn-khattab",
+      "uthman-ibn-affan",
+      "abu-hanifa",
+      "imam-malik",
+      "imam-shafii",
+      "imam-ahmad-ibn-hanbal"
+    ],
+    "relatedEntities": [
+      "islam",
+      "quran"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "꾸란과 순나의 권위",
+      "네 정통 칼리프의 계승 인정",
+      "공동체의 합의(이즈마)",
+      "네 법학파의 다양성 인정"
+    ]
+  },
+  {
+    "id": "shia-islam",
+    "type": "movement",
+    "name": {
+      "ko": "시아파",
+      "en": "Shia Islam",
+      "original": "الشيعة"
+    },
+    "period": {
+      "start": 632,
+      "end": 2025
+    },
+    "location": {
+      "lat": 32.62,
+      "lng": 44.02,
+      "region": "이라크 카르발라·쿠파 / 이란"
+    },
+    "era": "medieval",
+    "summary": "예언자 무함마드의 사위 알리와 그 후손만이 정당한 이맘(지도자)이라고 보는 이슬람의 두 번째 대종파. 전체 무슬림의 약 10-15%를 차지하며, 카르발라의 후세인 순교를 핵심 서사로 삼는다. 12이맘파, 이스마일파, 자이드파 등의 분파가 있다.",
+    "tags": [
+      "이슬람",
+      "알리",
+      "이맘",
+      "카르발라"
+    ],
+    "relatedPersons": [
+      "ali-ibn-abi-talib",
+      "husayn-ibn-ali",
+      "jafar-al-sadiq",
+      "muhammad"
+    ],
+    "relatedEntities": [
+      "islam",
+      "quran"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "알리와 그 후손의 이맘 계승권",
+      "이맘의 무류성",
+      "카르발라 순교의 기억",
+      "숨겨진 이맘(가이바)의 귀환 대망"
+    ]
+  },
+  {
+    "id": "sufism",
+    "type": "movement",
+    "name": {
+      "ko": "수피즘",
+      "en": "Sufism",
+      "original": "التصوف"
+    },
+    "period": {
+      "start": 750,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "이라크 바그다드·바스라 (시작) / 전 세계"
+    },
+    "era": "medieval",
+    "summary": "이슬람의 내적·신비적 차원으로, 신과의 직접적 합일 체험을 추구하는 영적 전통. 금욕, 명상(지크르), 사랑의 시, 선생(셰이크)과 제자의 관계를 특징으로 한다. 루미, 이븐 아라비, 알 할라지 등이 대표적이며 타리카(수피 교단)를 통해 전 세계로 확산되었다.",
+    "tags": [
+      "이슬람",
+      "신비주의",
+      "사랑",
+      "지크르"
+    ],
+    "relatedPersons": [
+      "rumi",
+      "al-hallaj",
+      "rabia-al-adawiyya",
+      "ibn-arabi",
+      "abdul-qadir-jilani",
+      "al-ghazali"
+    ],
+    "relatedEntities": [
+      "islam",
+      "sunni-islam",
+      "shia-islam"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "신과의 합일(파나)",
+      "지크르(신의 이름 반복 암송)",
+      "타리카(영적 수행의 길)",
+      "영적 스승(셰이크)의 인도"
+    ]
+  },
+  {
+    "id": "wahhabism",
+    "type": "movement",
+    "name": {
+      "ko": "와하비즘",
+      "en": "Wahhabism",
+      "original": "الوهابية"
+    },
+    "period": {
+      "start": 1744,
+      "end": 2025
+    },
+    "location": {
+      "lat": 24.71,
+      "lng": 46.68,
+      "region": "사우디아라비아 나지드"
+    },
+    "era": "modern",
+    "summary": "18세기 아라비아 반도에서 무함마드 이븐 압드 알와하브가 주창한 이슬람 순수주의 운동. 이븐 타이미야의 사상에 영향을 받아 성인 숭배·묘 참배 등을 다신교적 혁신(비다)으로 배격하고 초기 이슬람으로의 복귀를 주장한다. 사우디아라비아의 국교적 지위를 가진다.",
+    "tags": [
+      "이슬람",
+      "순수주의",
+      "살라피즘",
+      "사우디"
+    ],
+    "relatedPersons": [
+      "ibn-taymiyyah"
+    ],
+    "relatedEntities": [
+      "islam",
+      "sunni-islam"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "타우히드(유일신론)의 엄격한 해석",
+      "비다(혁신)의 배격",
+      "초기 이슬람으로의 복귀",
+      "성인 숭배·묘 참배의 금지"
+    ]
+  },
+  {
+    "id": "bahai-faith",
+    "type": "movement",
+    "name": {
+      "ko": "바하이 신앙",
+      "en": "Baha'i Faith",
+      "original": "بهائیت"
+    },
+    "period": {
+      "start": 1863,
+      "end": 2025
+    },
+    "location": {
+      "lat": 32.82,
+      "lng": 34.99,
+      "region": "이란 (시작) / 이스라엘 하이파 (세계 본부)"
+    },
+    "era": "contemporary",
+    "summary": "1863년 바하올라가 창시한 독립 종교로, 모든 종교의 근본적 일치와 인류의 통일을 핵심 교리로 삼는다. 종교적·인종적·성별 편견의 철폐, 세계 평화, 보편적 교육을 강조하며, 전 세계 약 500만-800만 신자가 있다. 이슬람에서 기원했으나 독자적 종교로 발전했다.",
+    "tags": [
+      "바하이",
+      "통일",
+      "평화",
+      "보편종교"
+    ],
+    "relatedPersons": [
+      "bahau-llah"
+    ],
+    "relatedEntities": [
+      "islam"
+    ],
+    "founders": [
+      "bahau-llah"
+    ],
+    "keyPrinciples": [
+      "하나님의 유일성",
+      "종교의 근본적 일치",
+      "인류의 통일",
+      "과학과 종교의 조화"
+    ]
+  },
+  {
+    "id": "theravada-buddhism",
+    "type": "movement",
+    "name": {
+      "ko": "상좌부 불교",
+      "en": "Theravada Buddhism",
+      "original": "थेरवाद"
+    },
+    "period": {
+      "start": -250,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 16.87,
+      "lng": 96.2,
+      "region": "스리랑카·미얀마·태국·라오스·캄보디아"
+    },
+    "era": "ancient",
+    "summary": "팔리어 경전(삼장)에 근거한 불교의 가장 오래된 현존 학파로 '장로들의 가르침'이라는 뜻이다. 개인의 수행과 아라한(완전한 깨달음)의 이상을 강조하며, 사마타(고요)와 위파사나(통찰) 명상을 핵심 수행법으로 삼는다. 남방 불교의 주류 전통이다.",
+    "tags": [
+      "불교",
+      "팔리",
+      "위파사나",
+      "아라한"
+    ],
+    "relatedPersons": [
+      "buddha",
+      "buddhaghosa",
+      "ananda-buddhist",
+      "mahakasyapa",
+      "ajahn-chah",
+      "mahasi-sayadaw",
+      "buddhadasa"
+    ],
+    "relatedEntities": [
+      "buddhism",
+      "four-noble-truths",
+      "middle-way",
+      "nirvana"
+    ],
+    "founders": [
+      "buddha"
+    ],
+    "keyPrinciples": [
+      "사성제와 팔정도",
+      "무아(아나타)",
+      "위파사나(통찰 명상)",
+      "팔리 삼장의 권위"
+    ]
+  },
+  {
+    "id": "mahayana-buddhism",
+    "type": "movement",
+    "name": {
+      "ko": "대승 불교",
+      "en": "Mahayana Buddhism",
+      "original": "महायान"
+    },
+    "period": {
+      "start": -100,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 35.86,
+      "lng": 104.2,
+      "region": "중국·한국·일본·베트남·티베트"
+    },
+    "era": "ancient",
+    "summary": "기원전 1세기경 형성된 불교의 대표적 흐름으로 '큰 수레'라는 뜻이다. 보살의 이상(중생 구제를 위해 성불을 미루는 것)과 공(空) 사상을 핵심으로 하며, 나가르주나의 중관학파와 바수반두의 유식학파가 철학적 기초를 놓았다. 동아시아 불교의 주류를 형성한다.",
+    "tags": [
+      "불교",
+      "보살",
+      "공",
+      "중관",
+      "유식"
+    ],
+    "relatedPersons": [
+      "buddha",
+      "nagarjuna-buddhist",
+      "vasubandhu",
+      "asanga",
+      "kumarajiva"
+    ],
+    "relatedEntities": [
+      "buddhism",
+      "sunyata",
+      "four-noble-truths"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "보살의 이상(중생 구제)",
+      "공(空, 슌야타)",
+      "반야(지혜)와 자비의 일체",
+      "불성(모든 존재의 성불 가능성)"
+    ]
+  },
+  {
+    "id": "vajrayana-buddhism",
+    "type": "movement",
+    "name": {
+      "ko": "금강승 불교",
+      "en": "Vajrayana Buddhism",
+      "original": "वज्रयान"
+    },
+    "period": {
+      "start": 600,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 29.65,
+      "lng": 91.13,
+      "region": "티베트·몽골·부탄·네팔"
+    },
+    "era": "medieval",
+    "summary": "대승 불교의 밀교적 발전으로 '금강(다이아몬드)의 수레'라는 뜻이다. 만트라(진언), 만다라, 관상(觀想) 수행, 구루(스승)와 제자의 밀접한 관계를 특징으로 한다. 파드마삼바바가 티베트에 전파하였으며, 달라이 라마로 대표되는 티베트 불교의 핵심 전통이다.",
+    "tags": [
+      "불교",
+      "밀교",
+      "만트라",
+      "티베트"
+    ],
+    "relatedPersons": [
+      "padmasambhava",
+      "milarepa",
+      "tsongkhapa",
+      "dalai-lama-14"
+    ],
+    "relatedEntities": [
+      "buddhism",
+      "mahayana-buddhism"
+    ],
+    "founders": [
+      "padmasambhava"
+    ],
+    "keyPrinciples": [
+      "만트라·만다라·무드라 수행",
+      "구루(금강 스승)에 대한 귀의",
+      "본존 관상(deity yoga)",
+      "즉신성불(이 몸으로 깨달음)"
+    ]
+  },
+  {
+    "id": "zen-buddhism",
+    "type": "movement",
+    "name": {
+      "ko": "선불교",
+      "en": "Zen Buddhism",
+      "original": "禪宗"
+    },
+    "period": {
+      "start": 520,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 34.25,
+      "lng": 108.94,
+      "region": "중국 (시작) / 한국·일본·베트남"
+    },
+    "era": "medieval",
+    "summary": "보리달마가 중국에 전파한 선(禪) 전통으로, 경전이나 교리보다 좌선(坐禪)을 통한 직접적 깨달음을 강조한다. 6조 혜능 이후 돈오(頓悟, 갑작스러운 깨달음)를 핵심으로 삼으며, 공안(화두) 수행과 일상 속의 선을 실천한다. 한국 선종, 일본 젠의 원류이다.",
+    "tags": [
+      "불교",
+      "선",
+      "좌선",
+      "돈오",
+      "공안"
+    ],
+    "relatedPersons": [
+      "bodhidharma",
+      "huineng",
+      "dogen",
+      "eisai",
+      "hakuin",
+      "thich-nhat-hanh",
+      "wonhyo"
+    ],
+    "relatedEntities": [
+      "buddhism",
+      "mahayana-buddhism"
+    ],
+    "founders": [
+      "bodhidharma"
+    ],
+    "keyPrinciples": [
+      "불립문자(문자에 의존하지 않음)",
+      "직지인심 견성성불",
+      "좌선(좌선을 통한 삼매)",
+      "공안(화두) 참구"
+    ]
+  },
+  {
+    "id": "pure-land-buddhism",
+    "type": "movement",
+    "name": {
+      "ko": "정토종",
+      "en": "Pure Land Buddhism",
+      "original": "浄土宗"
+    },
+    "period": {
+      "start": 150,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 35.01,
+      "lng": 135.77,
+      "region": "중국 (시작) / 일본·한국·베트남"
+    },
+    "era": "ancient",
+    "summary": "아미타불의 본원력에 의지하여 극락정토에 왕생하는 것을 목표로 하는 대승 불교 전통. 염불(나무아미타불)을 핵심 수행으로 삼으며, 자력보다 타력(아미타불의 은혜)을 강조한다. 호넨과 신란에 의해 일본에서 독립 종파로 확립되었으며 동아시아 대중 불교의 핵심이다.",
+    "tags": [
+      "불교",
+      "정토",
+      "아미타불",
+      "염불",
+      "타력"
+    ],
+    "relatedPersons": [
+      "honen",
+      "shinran"
+    ],
+    "relatedEntities": [
+      "buddhism",
+      "mahayana-buddhism"
+    ],
+    "founders": [
+      "honen"
+    ],
+    "keyPrinciples": [
+      "아미타불 신앙",
+      "염불(나무아미타불)",
+      "타력 본원",
+      "악인정기(악인이야말로 구제의 대상)"
+    ]
+  },
+  {
+    "id": "advaita-vedanta",
+    "type": "movement",
+    "name": {
+      "ko": "아드바이타 베단타",
+      "en": "Advaita Vedanta",
+      "original": "अद्वैत वेदान्त"
+    },
+    "period": {
+      "start": 700,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 10.23,
+      "lng": 76.4,
+      "region": "인도 케랄라 (시작) / 전 인도"
+    },
+    "era": "medieval",
+    "summary": "8세기 샹카라가 체계화한 힌두 철학의 비이원론 학파로, 브라흐만(궁극적 실재)과 아트만(개인의 자아)이 본질적으로 동일하다고 가르친다. 현상 세계는 마야(환영)이며, 참된 지식(즈냐나)을 통해 무지를 극복하고 해탈(모크샤)에 이른다고 주장한다.",
+    "tags": [
+      "힌두교",
+      "비이원론",
+      "브라흐만",
+      "마야"
+    ],
+    "relatedPersons": [
+      "shankara-hindu",
+      "ramana-maharshi",
+      "vivekananda-hindu"
+    ],
+    "relatedEntities": [
+      "hinduism",
+      "vedas",
+      "brahman",
+      "atman"
+    ],
+    "founders": [
+      "shankara-hindu"
+    ],
+    "keyPrinciples": [
+      "브라흐만과 아트만의 동일성",
+      "마야(현상 세계의 환영적 성격)",
+      "즈냐나(지식)를 통한 해탈",
+      "세계의 비실재성"
+    ]
+  },
+  {
+    "id": "yoga-tradition",
+    "type": "movement",
+    "name": {
+      "ko": "요가 전통",
+      "en": "Yoga Tradition",
+      "original": "योग"
+    },
+    "period": {
+      "start": -500,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 25.32,
+      "lng": 82.99,
+      "region": "인도"
+    },
+    "era": "ancient",
+    "summary": "파탄잘리의 《요가 수트라》에 체계화된 인도의 심신 수행 전통으로, 마음의 작용(치타 브리티)을 멈추어 순수 의식(푸루샤)을 실현하는 것을 목표로 한다. 아쉬탕가(8지) 요가를 핵심으로 하며, 현대에는 하타 요가가 전 세계적 건강·영성 실천으로 확산되었다.",
+    "tags": [
+      "힌두교",
+      "수행",
+      "명상",
+      "아쉬탕가"
+    ],
+    "relatedPersons": [
+      "patanjali",
+      "vivekananda-hindu",
+      "aurobindo-hindu"
+    ],
+    "relatedEntities": [
+      "hinduism",
+      "vedas"
+    ],
+    "founders": [
+      "patanjali"
+    ],
+    "keyPrinciples": [
+      "치타 브리티 니로다(마음 작용의 소멸)",
+      "아쉬탕가(8지) 수행 체계",
+      "프라나야마(호흡 조절)",
+      "삼매(사마디)의 달성"
+    ]
+  },
+  {
+    "id": "jainism",
+    "type": "movement",
+    "name": {
+      "ko": "자이나교",
+      "en": "Jainism",
+      "original": "जैन धर्म"
+    },
+    "period": {
+      "start": -600,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 25.44,
+      "lng": 81.85,
+      "region": "인도 비하르 (시작) / 전 인도"
+    },
+    "era": "ancient",
+    "summary": "마하비라(기원전 599-527)가 체계화한 인도의 독립 종교로, 아힘사(비폭력)·사트야(진실)·아파리그라하(무소유)를 핵심 덕목으로 삼는다. 모든 생명체에 영혼(지바)이 있다고 보아 극단적 비폭력을 실천하며, 업의 물질적 해석과 엄격한 고행을 특징으로 한다.",
+    "tags": [
+      "자이나교",
+      "비폭력",
+      "고행",
+      "인도"
+    ],
+    "relatedPersons": [
+      "mahavira"
+    ],
+    "relatedEntities": [
+      "hinduism",
+      "buddhism",
+      "karma"
+    ],
+    "founders": [
+      "mahavira"
+    ],
+    "keyPrinciples": [
+      "아힘사(비폭력)",
+      "아네칸타바다(다면적 진리관)",
+      "아파리그라하(무소유)",
+      "엄격한 고행과 금욕"
+    ]
+  },
+  {
+    "id": "sikhism",
+    "type": "movement",
+    "name": {
+      "ko": "시크교",
+      "en": "Sikhism",
+      "original": "ਸਿੱਖੀ"
+    },
+    "period": {
+      "start": 1469,
+      "end": 2025
+    },
+    "location": {
+      "lat": 31.62,
+      "lng": 74.88,
+      "region": "인도 펀자브"
+    },
+    "era": "medieval",
+    "summary": "15세기 구루 나낙이 창시한 일신교로, 힌두교와 이슬람의 요소를 초월하는 독자적 신앙 체계를 형성했다. 유일신(와헤구루)에 대한 헌신, 평등, 봉사(세바)를 강조하며, 10대 구루의 가르침이 경전 《구루 그란트 사히브》에 담겨 있다. 전 세계 약 2,500만 신자가 있다.",
+    "tags": [
+      "시크교",
+      "일신교",
+      "펀자브",
+      "구루"
+    ],
+    "relatedPersons": [
+      "guru-nanak"
+    ],
+    "relatedEntities": [
+      "hinduism",
+      "islam"
+    ],
+    "founders": [
+      "guru-nanak"
+    ],
+    "keyPrinciples": [
+      "유일신(와헤구루) 신앙",
+      "평등과 카스트 제도 거부",
+      "세바(봉사)와 랑가르(공동 식사)",
+      "5K의 상징적 정체성"
+    ]
+  },
+  {
+    "id": "neo-confucianism",
+    "type": "movement",
+    "name": {
+      "ko": "성리학",
+      "en": "Neo-Confucianism",
+      "original": "性理學"
+    },
+    "period": {
+      "start": 1130,
+      "end": 1900,
+      "approximate": true
+    },
+    "location": {
+      "lat": 28.23,
+      "lng": 117.97,
+      "region": "중국 남송 (시작) / 한국·일본"
+    },
+    "era": "medieval",
+    "summary": "송대 주희가 체계화한 유학의 철학적 재해석으로, 리(理)와 기(氣)의 이원론을 통해 우주론·인성론·수양론을 통합했다. 불교와 도교의 형이상학적 도전에 대응하여 유학에 철학적 깊이를 부여했으며, 조선·에도 시대 동아시아의 지배적 사상 체계가 되었다.",
+    "tags": [
+      "유교",
+      "성리학",
+      "리기",
+      "수양"
+    ],
+    "relatedPersons": [
+      "zhu-xi",
+      "wang-yangming",
+      "confucius",
+      "mencius"
+    ],
+    "relatedEntities": [
+      "confucianism",
+      "analects",
+      "wang-yangming-school"
+    ],
+    "founders": [
+      "zhu-xi"
+    ],
+    "keyPrinciples": [
+      "리(理)와 기(氣)의 이원론",
+      "격물치지(사물을 궁구하여 앎에 이름)",
+      "성즉리(본성이 곧 이치)",
+      "거경궁리(경을 지키며 이치를 궁구)"
+    ]
+  },
+  {
+    "id": "wang-yangming-school",
+    "type": "movement",
+    "name": {
+      "ko": "양명학",
+      "en": "Wang Yangming School",
+      "original": "陽明學"
+    },
+    "period": {
+      "start": 1508,
+      "end": 1700,
+      "approximate": true
+    },
+    "location": {
+      "lat": 26.65,
+      "lng": 106.63,
+      "region": "중국 귀주 (시작) / 한국·일본"
+    },
+    "era": "modern",
+    "summary": "왕양명이 주희의 성리학을 비판하며 확립한 유학 학파. '심즉리(心卽理, 마음이 곧 이치)'와 '지행합일(知行合一, 앎과 실천의 일치)'을 핵심으로 삼아, 외적 사물 탐구보다 양지(良知)의 발현을 강조했다. 일본 메이지 유신에 큰 영향을 미쳤다.",
+    "tags": [
+      "유교",
+      "양명학",
+      "양지",
+      "지행합일"
+    ],
+    "relatedPersons": [
+      "wang-yangming",
+      "zhu-xi"
+    ],
+    "relatedEntities": [
+      "confucianism",
+      "neo-confucianism"
+    ],
+    "founders": [
+      "wang-yangming"
+    ],
+    "keyPrinciples": [
+      "심즉리(마음이 곧 이치)",
+      "지행합일(앎과 실천의 일치)",
+      "치양지(양지를 실현함)",
+      "사상마련(일상에서의 수양)"
+    ]
+  },
+  {
+    "id": "daoism-religious",
+    "type": "movement",
+    "name": {
+      "ko": "도교 (종교적)",
+      "en": "Religious Daoism",
+      "original": "道教"
+    },
+    "period": {
+      "start": 142,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 30.57,
+      "lng": 104.07,
+      "region": "중국 사천 (시작) / 전 중국"
+    },
+    "era": "ancient",
+    "summary": "노자·장자의 철학적 도가 사상을 기반으로 2세기 장도릉의 천사도에서 조직화된 중국의 토착 종교. 불로장생(양생), 내단(內丹) 수련, 부적·의례·풍수를 특징으로 하며, 도관(사원)과 도사(사제)의 제도를 갖추고 있다. 중국 민간 신앙과 깊이 융합되어 있다.",
+    "tags": [
+      "도교",
+      "양생",
+      "내단",
+      "중국"
+    ],
+    "relatedPersons": [
+      "laozi",
+      "zhuangzi"
+    ],
+    "relatedEntities": [
+      "tao-te-ching",
+      "dao",
+      "wu-wei",
+      "yin-yang"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "도(道)와의 합일",
+      "양생과 불로장생의 추구",
+      "내단(內丹) 수련",
+      "자연과의 조화"
+    ]
+  },
+  {
+    "id": "shinto-movement",
+    "type": "movement",
+    "name": {
+      "ko": "신도",
+      "en": "Shinto",
+      "original": "神道"
+    },
+    "period": {
+      "start": -500,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 34.47,
+      "lng": 132.32,
+      "region": "일본"
+    },
+    "era": "ancient",
+    "summary": "일본 고유의 다신교적 토착 종교로, 자연물과 조상에 깃든 신령(카미)을 숭배한다. 신사(진쟈)에서의 의례, 정화(하라에), 자연 숭배가 핵심이며, 성전이나 체계적 교리보다 의례적 실천을 중시한다. 불교·유교와 오랫동안 습합하며 일본 문화의 정신적 기저를 이루고 있다.",
+    "tags": [
+      "신도",
+      "카미",
+      "일본",
+      "자연숭배"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "shinto",
+      "buddhism"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "카미(신령) 숭배",
+      "정화(하라에)의 의례",
+      "자연과의 조화",
+      "무스비(생성력)의 존중"
+    ]
+  },
+  {
+    "id": "korean-shamanism",
+    "type": "movement",
+    "name": {
+      "ko": "한국 무교",
+      "en": "Korean Shamanism",
+      "original": "巫敎"
+    },
+    "period": {
+      "start": -2000,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.57,
+      "lng": 126.98,
+      "region": "한국"
+    },
+    "era": "ancient",
+    "summary": "한반도의 선사시대부터 이어진 토착 종교적 전통으로, 무당(샤먼)이 신령과 소통하여 치유·점복·굿(의례)을 행한다. 산신·용왕·조상신 등 다양한 신령 체계를 가지며, 불교·유교의 전래 이후에도 민간 신앙으로 깊이 지속되어 한국 문화의 기저를 형성하고 있다.",
+    "tags": [
+      "무교",
+      "샤먼",
+      "한국",
+      "민간신앙"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [],
+    "founders": [],
+    "keyPrinciples": [
+      "무당(샤먼)의 신령 교통",
+      "굿(의례)을 통한 치유와 해원",
+      "조상신 숭배",
+      "한(恨)의 풀이와 화해"
+    ]
+  },
+  {
+    "id": "cheondogyo",
+    "type": "movement",
+    "name": {
+      "ko": "천도교",
+      "en": "Cheondogyo",
+      "original": "天道敎"
+    },
+    "period": {
+      "start": 1860,
+      "end": 2025
+    },
+    "location": {
+      "lat": 37.57,
+      "lng": 126.98,
+      "region": "한국"
+    },
+    "era": "contemporary",
+    "summary": "1860년 최제우가 창시한 한국의 신종교로, '사람이 곧 하늘(인내천)'이라는 사상을 핵심으로 한다. 유교·불교·도교를 융합하되 서학(기독교)에 대응한 동학(東學)으로 출발했다. 1894년 동학 농민운동과 1919년 3.1 독립운동의 사상적 기반이 되어 한국 근대사에 지대한 영향을 미쳤다.",
+    "tags": [
+      "천도교",
+      "동학",
+      "한국",
+      "인내천"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "confucianism",
+      "buddhism"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "인내천(人乃天, 사람이 곧 하늘)",
+      "시천주(侍天主, 하늘님을 모심)",
+      "보국안민(나라를 보전하고 백성을 편안히)",
+      "후천개벽(새 시대의 개벽)"
+    ]
+  },
+  {
+    "id": "zoroastrianism",
+    "type": "movement",
+    "name": {
+      "ko": "조로아스터교",
+      "en": "Zoroastrianism",
+      "original": "زرتشتی‌گری"
+    },
+    "period": {
+      "start": -1500,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 32.65,
+      "lng": 51.68,
+      "region": "페르시아 (현 이란)"
+    },
+    "era": "ancient",
+    "summary": "고대 페르시아의 예언자 조로아스터(자라투스트라)가 창시한 일신교적 이원론 종교. 선의 신 아후라 마즈다와 악의 세력 앙그라 마이뉴의 우주적 투쟁을 가르치며, 인간은 선한 생각·말·행동으로 이 투쟁에 참여한다. 유대교·기독교·이슬람의 종말론에 깊은 영향을 미쳤다.",
+    "tags": [
+      "조로아스터교",
+      "이원론",
+      "페르시아",
+      "아후라마즈다"
+    ],
+    "relatedPersons": [
+      "zoroaster"
+    ],
+    "relatedEntities": [
+      "judaism",
+      "christianity",
+      "islam"
+    ],
+    "founders": [
+      "zoroaster"
+    ],
+    "keyPrinciples": [
+      "아후라 마즈다(지혜의 주) 숭배",
+      "선한 생각·선한 말·선한 행동",
+      "선과 악의 우주적 투쟁",
+      "최후 심판과 부활"
+    ]
+  },
+  {
+    "id": "manichaeism",
+    "type": "movement",
+    "name": {
+      "ko": "마니교",
+      "en": "Manichaeism"
+    },
+    "period": {
+      "start": 240,
+      "end": 1400,
+      "approximate": true
+    },
+    "location": {
+      "lat": 33.1,
+      "lng": 44.28,
+      "region": "메소포타미아 (시작) / 로마-중국 확산"
+    },
+    "era": "ancient",
+    "summary": "3세기 페르시아의 예언자 마니가 창시한 이원론적 세계 종교. 빛(선)과 어둠(악)의 우주적 투쟁을 핵심 교리로 삼으며, 조로아스터교·기독교·불교를 종합하려 했다. 로마 제국에서 중국까지 확산된 최초의 진정한 세계 종교 중 하나로, 아우구스티누스도 회심 전 마니교도였다.",
+    "tags": [
+      "이원론",
+      "빛과어둠",
+      "세계종교",
+      "마니"
+    ],
+    "relatedPersons": [
+      "augustine"
+    ],
+    "relatedEntities": [
+      "zoroastrianism",
+      "christianity",
+      "buddhism",
+      "gnosticism"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "빛과 어둠의 이원론",
+      "영혼의 빛의 왕국 귀환",
+      "금욕과 채식주의",
+      "조로아스터·예수·부처의 예언 통합"
+    ]
+  },
+  {
+    "id": "hermeticism",
+    "type": "movement",
+    "name": {
+      "ko": "헤르메티시즘",
+      "en": "Hermeticism",
+      "original": "Hermetismus"
+    },
+    "period": {
+      "start": 100,
+      "end": 1700,
+      "approximate": true
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.91,
+      "region": "알렉산드리아 (시작) / 르네상스 유럽"
+    },
+    "era": "ancient",
+    "summary": "전설적 현자 헤르메스 트리스메기스토스에게 귀속된 고대 그리스-이집트 비의 전통. '위와 같이 아래도(As above, so below)'의 대응 원리를 핵심으로 삼으며, 연금술·점성술·마법의 이론적 기초를 제공했다. 르네상스 시대 피치노에 의해 재발견되어 근대 과학혁명에도 간접적 영향을 미쳤다.",
+    "tags": [
+      "헤르메티시즘",
+      "비의",
+      "연금술",
+      "르네상스"
+    ],
+    "relatedPersons": [
+      "plotinus",
+      "giordano-bruno"
+    ],
+    "relatedEntities": [
+      "gnosticism",
+      "renaissance"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "대응 원리(위와 같이 아래도)",
+      "만물의 상호 연결",
+      "영적 연금술(내적 변환)",
+      "신적 지혜의 비밀 전수"
+    ]
+  },
+  {
+    "id": "theosophy",
+    "type": "movement",
+    "name": {
+      "ko": "신지학",
+      "en": "Theosophy"
+    },
+    "period": {
+      "start": 1875,
+      "end": 2025
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -74.01,
+      "region": "미국 뉴욕 (시작) / 인도 아디아르"
+    },
+    "era": "contemporary",
+    "summary": "1875년 헬레나 블라바츠키와 헨리 올콧이 창설한 신비주의적 철학 운동. 동양 종교(힌두교·불교)와 서양 비의 전통을 종합하여 '만물의 근원적 일치', 영적 진화, 카르마와 환생을 가르친다. 인도 독립운동과 서양의 동양 종교 수용에 큰 영향을 미쳤다.",
+    "tags": [
+      "신지학",
+      "신비주의",
+      "동서종합",
+      "영적진화"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "hinduism",
+      "buddhism",
+      "hermeticism"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "만물의 근원적 일치",
+      "영적 진화의 법칙",
+      "카르마와 환생",
+      "비밀 교사(마하트마)의 존재"
+    ]
+  },
+  {
+    "id": "new-age",
+    "type": "movement",
+    "name": {
+      "ko": "뉴에이지",
+      "en": "New Age Movement"
+    },
+    "period": {
+      "start": 1970,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 37.77,
+      "lng": -122.42,
+      "region": "미국 캘리포니아 (시작) / 전 세계"
+    },
+    "era": "contemporary",
+    "summary": "1970년대 서구에서 확산된 다양한 영적·심신 수행의 총칭으로, 명상·수정 치유·점성술·채널링 등을 포함한다. 기존 종교 제도에 대한 대안으로 개인적 영성, 전체론적 건강, 의식의 변환을 추구하며, 동양 종교·원주민 전통·현대 심리학을 절충적으로 결합한다.",
+    "tags": [
+      "뉴에이지",
+      "영성",
+      "전체론",
+      "대안"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "theosophy",
+      "yoga-tradition",
+      "buddhism"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "개인적 영적 탐구",
+      "전체론적 세계관",
+      "의식의 변환(깨어남)",
+      "동서양 영적 전통의 절충"
+    ]
+  },
+  {
+    "id": "yoruba-religion",
+    "type": "movement",
+    "name": {
+      "ko": "요루바 종교",
+      "en": "Yoruba Religion",
+      "original": "Ìṣẹ̀ṣe"
+    },
+    "period": {
+      "start": -1000,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 7.38,
+      "lng": 3.94,
+      "region": "나이지리아·베닌·토고"
+    },
+    "era": "ancient",
+    "summary": "서아프리카 요루바 민족의 전통 종교로, 최고신 올로두마레 아래 수백의 오리샤(신격)를 숭배한다. 이파(신탁 체계), 조상 숭배, 의례적 음악과 춤을 특징으로 하며, 대서양 노예무역을 통해 아메리카 대륙에 전파되어 산테리아·칸돔블레 등의 혼합 종교를 형성했다.",
+    "tags": [
+      "아프리카",
+      "오리샤",
+      "이파",
+      "전통종교"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "voodoo-tradition"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "오리샤(신격) 숭배",
+      "이파(신탁) 체계",
+      "조상 숭배",
+      "아셰(생명력)의 순환"
+    ]
+  },
+  {
+    "id": "voodoo-tradition",
+    "type": "movement",
+    "name": {
+      "ko": "부두 전통",
+      "en": "Vodou / Voodoo",
+      "original": "Vodou"
+    },
+    "period": {
+      "start": 1600,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 18.97,
+      "lng": -72.28,
+      "region": "아이티 / 서아프리카·루이지애나"
+    },
+    "era": "modern",
+    "summary": "서아프리카 전통 종교와 가톨릭이 카리브해에서 융합된 혼합 종교 전통. 로아(신령)를 통한 신적 교통, 의례적 소유(트랜스), 조상 숭배를 핵심으로 한다. 아이티 부두(Vodou)가 대표적이며, 노예 해방 투쟁의 영적 기반이 되었다. 할리우드에 의해 왜곡된 이미지와 달리 진지한 종교 전통이다.",
+    "tags": [
+      "부두",
+      "혼합종교",
+      "카리브",
+      "로아"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "yoruba-religion",
+      "roman-catholicism"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "로아(신령)와의 교통",
+      "의례적 소유(트랜스)",
+      "조상 숭배",
+      "치유와 공동체 결속"
+    ]
+  },
+  {
+    "id": "tengriism",
+    "type": "movement",
+    "name": {
+      "ko": "텡그리즘",
+      "en": "Tengrism",
+      "original": "Тэнгэр шүтлэг"
+    },
+    "period": {
+      "start": -2000,
+      "end": 2025,
+      "approximate": true
+    },
+    "location": {
+      "lat": 47.92,
+      "lng": 106.92,
+      "region": "몽골·중앙아시아·시베리아"
+    },
+    "era": "ancient",
+    "summary": "중앙아시아 유목민의 고대 천신(天神) 숭배 전통으로, 영원한 푸른 하늘(텡그리)을 최고신으로 섬긴다. 샤먼을 매개로 천지·조상의 영과 소통하며, 자연과 인간의 조화를 추구한다. 흉노·돌궐·몽골 제국의 정신적 기반이었으며, 칭기즈 칸의 세계관에 깊이 반영되어 있다.",
+    "tags": [
+      "텡그리즘",
+      "유목민",
+      "천신",
+      "샤머니즘"
+    ],
+    "relatedPersons": [
+      "genghis-khan"
+    ],
+    "relatedEntities": [
+      "korean-shamanism"
+    ],
+    "founders": [],
+    "keyPrinciples": [
+      "텡그리(영원한 하늘) 숭배",
+      "자연과 인간의 조화",
+      "샤먼의 중재적 역할",
+      "천명(하늘의 뜻)에 따른 통치"
+    ]
+  },
+  {
+    "id": "christianity",
+    "type": "tradition",
+    "name": {
+      "ko": "기독교",
+      "en": "Christianity"
+    },
+    "period": {
+      "start": 30,
+      "end": 2025
+    },
+    "location": {
+      "lat": 31.77,
+      "lng": 35.23,
+      "region": "예루살렘/세계"
+    },
+    "era": "ancient",
+    "summary": "예수 그리스도의 가르침에 기초한 세계 최대의 종교. 구원과 사랑의 메시지를 전파한다.",
+    "tags": [
+      "종교",
+      "아브라함 종교",
+      "삼위일체",
+      "구원"
+    ],
+    "relatedPersons": [
+      "jesus",
+      "paul",
+      "augustine",
+      "thomas-aquinas"
+    ],
+    "relatedEntities": [
+      "roman-catholicism",
+      "eastern-orthodoxy",
+      "lutheranism"
+    ]
+  },
+  {
+    "id": "islam",
+    "type": "tradition",
+    "name": {
+      "ko": "이슬람",
+      "en": "Islam"
+    },
+    "period": {
+      "start": 610,
+      "end": 2025
+    },
+    "location": {
+      "lat": 21.42,
+      "lng": 39.83,
+      "region": "메카/세계"
+    },
+    "era": "medieval",
+    "summary": "무함마드를 마지막 예언자로 인정하는 일신교. 꾸란과 하디스를 경전으로 삼는다.",
+    "tags": [
+      "종교",
+      "아브라함 종교",
+      "유일신론",
+      "꾸란"
+    ],
+    "relatedPersons": [
+      "muhammad",
+      "al-ghazali",
+      "ibn-arabi",
+      "rumi"
+    ],
+    "relatedEntities": [
+      "sunni-islam",
+      "shia-islam",
+      "sufism"
+    ]
+  },
+  {
+    "id": "buddhism",
+    "type": "tradition",
+    "name": {
+      "ko": "불교",
+      "en": "Buddhism"
+    },
+    "period": {
+      "start": -500,
+      "end": 2025
+    },
+    "location": {
+      "lat": 25.59,
+      "lng": 85.14,
+      "region": "인도/세계"
+    },
+    "era": "ancient",
+    "summary": "석가모니의 깨달음에 기초한 종교. 사성제와 팔정도로 고통의 소멸을 추구한다.",
+    "tags": [
+      "종교",
+      "인도 종교",
+      "깨달음",
+      "사성제",
+      "공"
+    ],
+    "relatedPersons": [
+      "buddha",
+      "nagarjuna",
+      "huineng"
+    ],
+    "relatedEntities": [
+      "theravada-buddhism",
+      "mahayana-buddhism",
+      "zen-buddhism"
+    ]
+  },
+  {
+    "id": "hinduism",
+    "type": "tradition",
+    "name": {
+      "ko": "힌두교",
+      "en": "Hinduism"
+    },
+    "period": {
+      "start": -1500,
+      "end": 2025
+    },
+    "location": {
+      "lat": 20.59,
+      "lng": 78.96,
+      "region": "인도"
+    },
+    "era": "ancient",
+    "summary": "베다 전통에 기초한 세계에서 가장 오래된 종교 중 하나. 브라만과 아트만의 합일을 추구한다.",
+    "tags": [
+      "종교",
+      "인도 종교",
+      "베다",
+      "브라만",
+      "카르마"
+    ],
+    "relatedPersons": [
+      "shankara",
+      "ramakrishna",
+      "patanjali"
+    ],
+    "relatedEntities": [
+      "advaita-vedanta",
+      "yoga-tradition",
+      "jainism"
+    ]
+  },
+  {
+    "id": "confucianism",
+    "type": "tradition",
+    "name": {
+      "ko": "유교",
+      "en": "Confucianism"
+    },
+    "period": {
+      "start": -551,
+      "end": 2025
+    },
+    "location": {
+      "lat": 35.6,
+      "lng": 116.99,
+      "region": "중국/동아시아"
+    },
+    "era": "ancient",
+    "summary": "공자의 가르침에 기초한 사상 체계. 인(仁), 의(義), 예(禮)를 핵심 덕목으로 삼는다.",
+    "tags": [
+      "사상",
+      "동아시아",
+      "인의예지",
+      "오륜"
+    ],
+    "relatedPersons": [
+      "confucius",
+      "mencius",
+      "zhu-xi",
+      "wang-yangming"
+    ],
+    "relatedEntities": [
+      "neo-confucianism",
+      "wang-yangming-school"
+    ]
+  },
+  {
+    "id": "daoism",
+    "type": "tradition",
+    "name": {
+      "ko": "도교",
+      "en": "Daoism"
+    },
+    "period": {
+      "start": -600,
+      "end": 2025
+    },
+    "location": {
+      "lat": 34.26,
+      "lng": 108.94,
+      "region": "중국"
+    },
+    "era": "ancient",
+    "summary": "노자와 장자의 사상에 기초한 철학·종교 체계. 도(道)와 무위자연을 핵심으로 삼는다.",
+    "tags": [
+      "사상",
+      "종교",
+      "도",
+      "무위자연",
+      "음양"
+    ],
+    "relatedPersons": [
+      "laozi",
+      "zhuangzi"
+    ],
+    "relatedEntities": [
+      "daoism-religious",
+      "confucianism"
+    ]
+  },
+  {
+    "id": "judaism",
+    "type": "tradition",
+    "name": {
+      "ko": "유대교",
+      "en": "Judaism"
+    },
+    "period": {
+      "start": -1800,
+      "end": 2025
+    },
+    "location": {
+      "lat": 31.77,
+      "lng": 35.23,
+      "region": "이스라엘/세계"
+    },
+    "era": "ancient",
+    "summary": "아브라함의 전통에 기초한 유일신교. 토라와 탈무드를 경전으로 삼는다.",
+    "tags": [
+      "종교",
+      "아브라함 종교",
+      "유일신론",
+      "토라"
+    ],
+    "relatedPersons": [
+      "maimonides",
+      "baal-shem-tov"
+    ],
+    "relatedEntities": [
+      "orthodox-judaism",
+      "reform-judaism",
+      "hasidism",
+      "kabbalah"
+    ]
+  },
+  {
+    "id": "neoplatonism",
+    "type": "movement",
+    "name": {
+      "ko": "신플라톤주의",
+      "en": "Neoplatonism"
+    },
+    "period": {
+      "start": 250,
+      "end": 600
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.92,
+      "region": "알렉산드리아/로마"
+    },
+    "era": "ancient",
+    "summary": "플로티노스가 체계화한 플라톤 철학의 발전. 일자(一者)로부터의 유출론을 핵심으로 삼는다.",
+    "tags": [
+      "철학",
+      "유출론",
+      "일자",
+      "고대철학"
+    ],
+    "relatedPersons": [
+      "plotinus",
+      "proclus"
+    ],
+    "relatedEntities": [
+      "hermeticism",
+      "gnosticism",
+      "kabbalah"
+    ]
+  },
+  {
+    "id": "stoicism",
+    "type": "movement",
+    "name": {
+      "ko": "스토아학파",
+      "en": "Stoicism"
+    },
+    "period": {
+      "start": -300,
+      "end": 200
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스/로마"
+    },
+    "era": "ancient",
+    "summary": "제논에 의해 창시된 헬레니즘 철학. 이성에 따른 삶과 부동심(아파테이아)을 추구한다.",
+    "tags": [
+      "철학",
+      "헬레니즘",
+      "이성",
+      "부동심"
+    ],
+    "relatedPersons": [
+      "zeno-of-citium",
+      "seneca",
+      "epictetus",
+      "marcus-aurelius"
+    ],
+    "relatedEntities": [
+      "eternal-return"
+    ]
+  },
+  {
+    "id": "romanticism",
+    "type": "movement",
+    "name": {
+      "ko": "낭만주의",
+      "en": "Romanticism"
+    },
+    "period": {
+      "start": 1770,
+      "end": 1850
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.41,
+      "region": "유럽"
+    },
+    "era": "modern",
+    "summary": "이성 중심 계몽주의에 반발하여 감성, 자연, 개인의 상상력을 강조한 예술·문학 운동.",
+    "tags": [
+      "예술",
+      "문학",
+      "감성",
+      "자연"
+    ],
+    "relatedPersons": [
+      "schelling",
+      "schopenhauer"
+    ],
+    "relatedEntities": [
+      "impressionism-movement",
+      "modernism-art"
+    ]
+  },
+  {
+    "id": "postmodernism",
+    "type": "movement",
+    "name": {
+      "ko": "포스트모더니즘",
+      "en": "Postmodernism"
+    },
+    "period": {
+      "start": 1960,
+      "end": 2025
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스/세계"
+    },
+    "era": "contemporary",
+    "summary": "근대성의 메타서사를 해체하고 다원성, 상대주의, 차이를 강조하는 사상적·문화적 운동.",
+    "tags": [
+      "철학",
+      "해체",
+      "다원성",
+      "상대주의"
+    ],
+    "relatedPersons": [
+      "foucault",
+      "derrida",
+      "deleuze"
+    ],
+    "relatedEntities": [
+      "postcolonialism",
+      "meme-culture"
+    ]
+  },
+  {
+    "id": "enlightenment",
+    "type": "movement",
+    "name": {
+      "ko": "계몽주의",
+      "en": "Enlightenment"
+    },
+    "period": {
+      "start": 1685,
+      "end": 1815
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "유럽"
+    },
+    "era": "modern",
+    "summary": "이성과 과학을 통해 미신과 전제를 극복하고 인간의 해방을 추구한 사상 운동.",
+    "tags": [
+      "철학",
+      "이성",
+      "과학",
+      "자유"
+    ],
+    "relatedPersons": [
+      "voltaire",
+      "rousseau",
+      "kant",
+      "montesquieu"
+    ],
+    "relatedEntities": [
+      "french-revolution",
+      "classical-liberalism",
+      "reform-judaism"
+    ]
   }
 ]

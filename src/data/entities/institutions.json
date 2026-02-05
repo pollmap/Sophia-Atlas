@@ -583,5 +583,194 @@
       "openai"
     ],
     "foundedYear": 2010
+  },
+  {
+    "id": "vatican",
+    "type": "institution",
+    "name": {
+      "ko": "바티칸 / 교황청",
+      "en": "Vatican / Holy See",
+      "original": "Sancta Sedes"
+    },
+    "period": {
+      "start": 326,
+      "end": 2025
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.45,
+      "region": "이탈리아 로마 (바티칸 시국)"
+    },
+    "era": "ancient",
+    "summary": "로마 가톨릭 교회의 본부이자 교황의 거주지로, 세계에서 가장 작은 독립 국가(바티칸 시국)이다. 4세기 성 베드로 무덤 위에 대성당이 건립된 이래 기독교 세계의 영적·행정적 중심지 역할을 해왔다. 약 13억 가톨릭 신자의 정신적 수장인 교황이 이곳에서 교회를 이끈다.",
+    "tags": [
+      "가톨릭",
+      "교황",
+      "로마",
+      "교회본부"
+    ],
+    "relatedPersons": [
+      "peter",
+      "augustine",
+      "thomas-aquinas",
+      "pope-john-xxiii",
+      "pope-john-paul-ii",
+      "pope-francis"
+    ],
+    "relatedEntities": [
+      "roman-catholicism",
+      "christianity",
+      "council-of-nicaea",
+      "protestant-reformation"
+    ],
+    "foundedYear": 326
+  },
+  {
+    "id": "al-azhar-university",
+    "type": "institution",
+    "name": {
+      "ko": "알아즈하르 대학교",
+      "en": "Al-Azhar University",
+      "original": "جامعة الأزهر"
+    },
+    "period": {
+      "start": 970,
+      "end": 2025
+    },
+    "location": {
+      "lat": 30.04,
+      "lng": 31.26,
+      "region": "이집트 카이로"
+    },
+    "era": "medieval",
+    "summary": "970년 파티마 왕조 시대에 카이로에 설립된 이슬람 세계의 가장 권위 있는 교육기관이자 현존하는 세계 최고(最古) 대학 중 하나. 수니파 이슬람 신학·법학의 최고 권위로서 전 세계 무슬림에게 종교적 견해(파트와)를 발하며, 이슬람 학문의 중심지 역할을 계속하고 있다.",
+    "tags": [
+      "이슬람",
+      "대학",
+      "신학",
+      "카이로"
+    ],
+    "relatedPersons": [
+      "al-ghazali",
+      "muhammad-abduh"
+    ],
+    "relatedEntities": [
+      "sunni-islam",
+      "islam",
+      "house-of-wisdom"
+    ],
+    "foundedYear": 970
+  },
+  {
+    "id": "nalanda-university",
+    "type": "institution",
+    "name": {
+      "ko": "날란다 대학교",
+      "en": "Nalanda University",
+      "original": "नालन्दा"
+    },
+    "period": {
+      "start": 427,
+      "end": 1197,
+      "approximate": true
+    },
+    "location": {
+      "lat": 25.14,
+      "lng": 85.44,
+      "region": "인도 비하르"
+    },
+    "era": "medieval",
+    "summary": "5세기 인도 비하르에 설립된 고대 세계 최대 규모의 불교 교육기관으로, 전성기에 1만 명 이상의 학승이 수학했다. 대승 불교·중관학파·유식학파의 학문적 중심지였으며, 현장(삼장법사) 등 각국의 학자가 유학했다. 1197년 이슬람 군대에 의해 파괴되어 인도 불교 학문의 종언을 상징한다.",
+    "tags": [
+      "불교",
+      "대학",
+      "인도",
+      "학문"
+    ],
+    "relatedPersons": [
+      "nagarjuna-buddhist",
+      "vasubandhu",
+      "asanga",
+      "xuanzang"
+    ],
+    "relatedEntities": [
+      "mahayana-buddhism",
+      "buddhism",
+      "sunyata"
+    ],
+    "foundedYear": 427,
+    "dissolvedYear": 1197
+  },
+  {
+    "id": "mount-athos",
+    "type": "institution",
+    "name": {
+      "ko": "아토스 산",
+      "en": "Mount Athos",
+      "original": "Ἅγιον Ὄρος"
+    },
+    "period": {
+      "start": 963,
+      "end": 2025
+    },
+    "location": {
+      "lat": 40.16,
+      "lng": 24.33,
+      "region": "그리스 아토스 반도"
+    },
+    "era": "medieval",
+    "summary": "그리스 북부 아토스 반도에 위치한 동방 정교회의 최고 수도원 공동체로, '성산(聖山)'이라 불린다. 963년 대 라브라 수도원 설립 이래 20개 수도원이 천 년 이상 끊이지 않는 기도와 전례를 유지하고 있다. 여성의 출입이 금지되며, 정교회 수도 영성과 이콘 예술의 보고이다.",
+    "tags": [
+      "정교회",
+      "수도원",
+      "그리스",
+      "영성"
+    ],
+    "relatedPersons": [
+      "gregory-nazianzus",
+      "basil-great",
+      "maximus-confessor"
+    ],
+    "relatedEntities": [
+      "eastern-orthodoxy",
+      "christianity"
+    ],
+    "foundedYear": 963
+  },
+  {
+    "id": "potala-palace",
+    "type": "institution",
+    "name": {
+      "ko": "포탈라궁",
+      "en": "Potala Palace",
+      "original": "པོ་ཏ་ལ"
+    },
+    "period": {
+      "start": 1645,
+      "end": 2025
+    },
+    "location": {
+      "lat": 29.66,
+      "lng": 91.12,
+      "region": "중국 티베트 라싸"
+    },
+    "era": "modern",
+    "summary": "티베트 라싸 해발 3,700m에 위치한 달라이 라마의 전통적 거주지이자 티베트 불교의 상징적 중심지. 7세기 기원에서 17세기 달라이 라마 5세가 현재의 대규모 궁전으로 재건했다. 1,000개 이상의 방과 수많은 불상·벽화·경전을 소장하며, 유네스코 세계문화유산으로 지정되어 있다.",
+    "tags": [
+      "티베트불교",
+      "달라이라마",
+      "궁전",
+      "라싸"
+    ],
+    "relatedPersons": [
+      "dalai-lama-14",
+      "tsongkhapa",
+      "padmasambhava"
+    ],
+    "relatedEntities": [
+      "vajrayana-buddhism",
+      "buddhism"
+    ],
+    "foundedYear": 1645
   }
 ]
