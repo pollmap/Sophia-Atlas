@@ -158,5 +158,691 @@
     "relatedPhilosophers": [],
     "relatedReligions": ["islam"],
     "category": "종교 개념"
+  },
+
+  {
+    "id": "aesthetics",
+    "term": { "ko": "미학", "en": "Aesthetics" },
+    "definition": "아름다움과 예술의 본질을 탐구하는 철학 분야. 칸트는 《판단력 비판》에서 미적 판단의 보편성을 논했고, 헤겔은 예술을 절대정신의 자기 표현으로, 쇼펜하우어는 의지로부터의 해방 수단으로 보았다.",
+    "relatedPhilosophers": ["kant", "hegel", "schopenhauer"],
+    "relatedReligions": [],
+    "category": "철학 분야"
+  },
+  {
+    "id": "logic",
+    "term": { "ko": "논리학", "en": "Logic" },
+    "definition": "올바른 추론의 형식과 법칙을 연구하는 학문. 아리스토텔레스가 삼단논법을 체계화한 이래, 러셀과 화이트헤드의 《수학 원리》, 비트겐슈타인의 《논리-철학 논고》 등을 통해 현대 기호논리학으로 발전했다.",
+    "relatedPhilosophers": ["aristotle", "russell", "wittgenstein"],
+    "relatedReligions": [],
+    "category": "철학 분야"
+  },
+  {
+    "id": "philosophy-of-mind",
+    "term": { "ko": "심리철학", "en": "Philosophy of Mind" },
+    "definition": "마음, 의식, 정신적 상태의 본질과 그것이 신체와 맺는 관계를 탐구하는 철학 분야. 데카르트의 심신이원론이 출발점이며, 물리주의, 기능주의, 현상학적 접근 등 다양한 입장이 존재한다.",
+    "relatedPhilosophers": ["descartes", "hume", "spinoza"],
+    "relatedReligions": [],
+    "category": "철학 분야"
+  },
+  {
+    "id": "philosophy-of-language",
+    "term": { "ko": "언어철학", "en": "Philosophy of Language" },
+    "definition": "언어의 본질, 의미, 지시, 진리 조건 등을 탐구하는 철학 분야. 비트겐슈타인의 '언어 게임' 이론, 러셀의 기술 이론, 데리다의 차연(differance) 개념 등이 핵심적 기여를 했다.",
+    "relatedPhilosophers": ["wittgenstein", "russell", "derrida"],
+    "relatedReligions": [],
+    "category": "철학 분야"
+  },
+  {
+    "id": "philosophy-of-science",
+    "term": { "ko": "과학철학", "en": "Philosophy of Science" },
+    "definition": "과학적 지식의 본질, 방법, 한계를 탐구하는 철학 분야. 포퍼의 반증주의, 쿤의 패러다임 이론, 논리실증주의의 검증 원리 등이 과학의 합리성과 진보를 둘러싼 핵심 논쟁을 형성했다.",
+    "relatedPhilosophers": ["popper", "kuhn"],
+    "relatedReligions": [],
+    "category": "철학 분야"
+  },
+  {
+    "id": "political-philosophy",
+    "term": { "ko": "정치철학", "en": "Political Philosophy" },
+    "definition": "국가, 정의, 권력, 자유, 권리 등 정치적 삶의 근본 원리를 탐구하는 철학 분야. 홉스의 리바이어던, 로크의 자연권 이론, 루소의 일반의지, 마르크스의 계급 이론 등이 핵심적 사상이다.",
+    "relatedPhilosophers": ["hobbes", "locke", "rousseau", "marx"],
+    "relatedReligions": [],
+    "category": "철학 분야"
+  },
+  {
+    "id": "phenomenology",
+    "term": { "ko": "현상학", "en": "Phenomenology" },
+    "definition": "의식에 나타나는 현상을 있는 그대로 기술하고 분석하는 철학 방법론이자 분야. 후설이 '사태 자체로!'라는 구호 아래 창시했으며, 하이데거는 이를 존재론으로, 사르트르는 실존 분석으로 확장했다.",
+    "relatedPhilosophers": ["heidegger", "sartre"],
+    "relatedReligions": [],
+    "category": "철학 분야"
+  },
+  {
+    "id": "hermeneutics",
+    "term": { "ko": "해석학", "en": "Hermeneutics" },
+    "definition": "텍스트, 상징, 인간 행위의 의미를 해석하는 이론과 방법론을 다루는 철학 분야. 원래 성서 해석학에서 출발하여, 하이데거는 존재 이해의 방법으로, 가다머는 '지평 융합' 이론으로, 하버마스는 비판적 해석학으로 발전시켰다.",
+    "relatedPhilosophers": ["heidegger", "habermas"],
+    "relatedReligions": [],
+    "category": "철학 분야"
+  },
+  {
+    "id": "pragmatism",
+    "term": { "ko": "실용주의", "en": "Pragmatism" },
+    "definition": "관념의 의미와 진리를 그 실천적 결과로 판단하는 철학적 전통. 퍼스가 창시하고 윌리엄 제임스가 대중화했으며, 듀이가 도구주의로 발전시켰다. 진리란 고정된 것이 아니라 탐구 과정에서 검증되는 것이라 본다.",
+    "relatedPhilosophers": ["john-stuart-mill"],
+    "relatedReligions": [],
+    "category": "철학 분야"
+  },
+  {
+    "id": "structuralism",
+    "term": { "ko": "구조주의", "en": "Structuralism" },
+    "definition": "개별 요소보다 그것들이 이루는 구조(체계)가 의미를 결정한다는 지적 운동. 소쉬르의 구조 언어학에서 출발하여 레비-스트로스의 인류학, 라캉의 정신분석 등으로 확장되었다. 푸코, 들뢰즈 등은 이를 비판적으로 계승했다.",
+    "relatedPhilosophers": ["foucault", "deleuze"],
+    "relatedReligions": [],
+    "category": "철학 분야"
+  },
+
+  {
+    "id": "monad",
+    "term": { "ko": "모나드", "en": "Monad" },
+    "definition": "라이프니츠 철학의 핵심 개념. 더 이상 분할할 수 없는 단순 실체로서, 각각이 독립된 세계를 반영하는 '창 없는' 정신적 단위. 신이 '예정조화'를 통해 모나드들 사이의 조화를 보장한다고 보았다.",
+    "relatedPhilosophers": ["leibniz"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "categorical-imperative",
+    "term": { "ko": "정언명령", "en": "Categorical Imperative" },
+    "definition": "칸트 윤리학의 최고 원리. '네 의지의 준칙이 언제나 동시에 보편적 법칙의 원리로서 타당할 수 있도록 행위하라.' 조건 없이 무조건적으로 따라야 하는 도덕 법칙으로, 가언명령(조건부 명령)과 대비된다.",
+    "relatedPhilosophers": ["kant"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "eternal-recurrence",
+    "term": { "ko": "영원회귀", "en": "Eternal Recurrence" },
+    "definition": "니체의 핵심 사상. 우주의 모든 사건이 영원히 동일하게 반복된다는 관념. '이 삶을 똑같이 다시 살아야 한다면 어떻게 할 것인가?'라는 질문을 통해 삶의 긍정과 초인적 태도를 시험하는 사유 실험이다.",
+    "relatedPhilosophers": ["nietzsche"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "will-to-power",
+    "term": { "ko": "힘에의 의지", "en": "Will to Power" },
+    "definition": "니체가 제시한 모든 존재의 근본 동력. 단순한 지배욕이 아니라, 자기 극복과 창조적 성장을 향한 생명의 근원적 충동을 의미한다. 쇼펜하우어의 '삶에의 의지'를 비판적으로 계승한 개념이다.",
+    "relatedPhilosophers": ["nietzsche", "schopenhauer"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "deconstruction",
+    "term": { "ko": "해체", "en": "Deconstruction" },
+    "definition": "데리다가 창안한 철학적 전략. 텍스트 내부의 이항대립(말/글, 현전/부재 등)을 분석하여 그 위계를 전복시키고, 의미의 고정성을 해체한다. 서양 형이상학의 '현전의 형이상학'에 대한 근본적 비판이다.",
+    "relatedPhilosophers": ["derrida", "heidegger"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "rhizome",
+    "term": { "ko": "리좀", "en": "Rhizome" },
+    "definition": "들뢰즈와 가타리가 제시한 사유 모델. 나무형(위계적·중심적) 구조에 대비되는 비위계적·탈중심적·다방향적 연결망. 시작도 끝도 없이 어디서든 연결되고 분기하는 지하경(地下莖)의 이미지에서 따왔다.",
+    "relatedPhilosophers": ["deleuze"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "habitus",
+    "term": { "ko": "아비투스", "en": "Habitus" },
+    "definition": "사회적으로 형성된 성향·취향·행동 체계를 뜻하는 개념. 아리스토텔레스의 '헥시스(hexis)'에서 유래하여 토마스 아퀴나스가 스콜라 철학에서 발전시켰고, 현대에는 부르디외가 사회학적 개념으로 재정립했다.",
+    "relatedPhilosophers": ["aristotle", "thomas-aquinas"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "dasein",
+    "term": { "ko": "현존재", "en": "Dasein" },
+    "definition": "하이데거 철학의 핵심 용어. 독일어로 '거기에-있음'을 뜻하며, 자신의 존재를 문제 삼는 유일한 존재자인 인간을 가리킨다. 현존재 분석을 통해 존재 일반의 의미를 해명하는 것이 《존재와 시간》의 과제다.",
+    "relatedPhilosophers": ["heidegger"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "cogito",
+    "term": { "ko": "코기토", "en": "Cogito" },
+    "definition": "데카르트의 '코기토 에르고 숨(Cogito ergo sum, 나는 생각한다, 고로 존재한다)'. 모든 것을 의심하는 방법적 회의 끝에 도달한 확실한 제1원리. 의심하는 나의 존재만큼은 의심할 수 없다는 근대 철학의 출발점이다.",
+    "relatedPhilosophers": ["descartes"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "tabula-rasa",
+    "term": { "ko": "타불라 라사", "en": "Tabula Rasa" },
+    "definition": "라틴어로 '백지 상태'. 로크의 인식론에서 인간의 마음은 태어날 때 아무런 관념도 새겨져 있지 않은 백지와 같으며, 모든 지식은 경험을 통해 후천적으로 획득된다는 주장. 본유관념(생득 관념)을 부정한다.",
+    "relatedPhilosophers": ["locke"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "leviathan",
+    "term": { "ko": "리바이어던", "en": "Leviathan" },
+    "definition": "홉스가 《리바이어던》(1651)에서 국가를 비유한 성서 속 거대 괴물. 자연 상태의 '만인의 만인에 대한 투쟁'을 종식하기 위해 개인들이 권리를 양도하여 만든 절대 주권자(국가)를 상징한다.",
+    "relatedPhilosophers": ["hobbes"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "panopticon",
+    "term": { "ko": "판옵티콘", "en": "Panopticon" },
+    "definition": "벤담이 설계한 원형 감옥 구조로, 중앙의 감시탑에서 모든 수감자를 관찰할 수 있지만 수감자는 감시자를 볼 수 없다. 푸코는 《감시와 처벌》에서 이를 근대 규율 사회의 권력 메커니즘을 상징하는 핵심 모델로 분석했다.",
+    "relatedPhilosophers": ["bentham", "foucault"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "simulacra",
+    "term": { "ko": "시뮬라크르", "en": "Simulacra" },
+    "definition": "원본 없는 복제, 실재를 대체하는 이미지. 플라톤은 이데아의 열등한 모방으로 보았으나, 들뢰즈는 시뮬라크르의 자체적 힘을 긍정하며 원본/복제의 위계를 전복했다. 보드리야르는 현대 사회를 원본이 사라진 시뮬라크르의 세계로 진단했다.",
+    "relatedPhilosophers": ["plato", "deleuze"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "sublime",
+    "term": { "ko": "숭고", "en": "Sublime" },
+    "definition": "아름다움을 넘어서는 압도적이고 경외로운 경험. 칸트는 《판단력 비판》에서 숭고를 자연의 거대함(수학적 숭고)과 위력(역학적 숭고) 앞에서 인간 이성의 우월함을 자각하는 경험으로 분석했다.",
+    "relatedPhilosophers": ["kant", "schopenhauer"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "noumenon",
+    "term": { "ko": "누메논", "en": "Noumenon" },
+    "definition": "칸트 철학에서 감각 경험을 통해서는 인식할 수 없고 오직 이성을 통해서만 사유할 수 있는 대상. 현상(phenomenon)의 배후에 있는 사물 자체의 영역으로, 물자체(Ding an sich)와 밀접하게 연결된다.",
+    "relatedPhilosophers": ["kant"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "qualia",
+    "term": { "ko": "퀄리아", "en": "Qualia" },
+    "definition": "주관적 의식 경험의 질적 속성. '빨간색을 보는 것이 어떤 느낌인가'처럼 객관적으로 기술하기 어려운 의식의 주관적 측면을 가리킨다. 현대 심리철학에서 물리주의에 대한 주요 반론으로 제기되며, 의식의 '어려운 문제'의 핵심이다.",
+    "relatedPhilosophers": [],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "being-and-nothingness",
+    "term": { "ko": "존재와 무", "en": "Being and Nothingness" },
+    "definition": "사르트르의 주저(1943)이자 핵심 개념. 즉자존재(사물의 존재)와 대자존재(의식의 존재)를 구분하며, 인간 의식은 본질적으로 '무(nothingness)'를 품고 있기에 자유롭고 동시에 불안하다고 설명한다.",
+    "relatedPhilosophers": ["sartre", "heidegger"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "absurd",
+    "term": { "ko": "부조리", "en": "The Absurd" },
+    "definition": "인간의 의미 추구와 세계의 무의미 사이의 근본적 불일치. 카뮈는 《시지프 신화》에서 부조리를 직면하되 자살도 도피도 아닌 반항을 통해 삶을 긍정할 것을 주장했다. 키르케고르는 이를 신앙으로의 도약의 계기로 보았다.",
+    "relatedPhilosophers": ["camus", "kierkegaard"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "wu-wei",
+    "term": { "ko": "무위", "en": "Wu Wei" },
+    "definition": "노자와 장자의 핵심 개념. '함이 없음(無爲)'이라는 뜻이지만 아무것도 하지 않는다는 의미가 아니라, 자연의 흐름에 거스르지 않는 자발적이고 무리 없는 행위를 뜻한다. 도(道)와 하나 된 삶의 방식이다.",
+    "relatedPhilosophers": ["laozi", "zhuangzi"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "li-principle",
+    "term": { "ko": "리/이(理)", "en": "Li (Principle)" },
+    "definition": "성리학의 핵심 개념. 만물의 존재 근거이자 당위의 원리. 주희는 리(理)가 기(氣)에 앞서 존재한다(理先氣後)고 보았고, 왕양명은 리가 마음 밖에 있지 않다(心卽理)고 주장하여 양명학을 열었다.",
+    "relatedPhilosophers": ["zhu-xi", "wang-yangming"],
+    "relatedReligions": ["confucianism"],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "qi-energy",
+    "term": { "ko": "기(氣)", "en": "Qi (Vital Energy)" },
+    "definition": "동아시아 철학에서 우주 만물을 구성하는 물질적·생명적 에너지. 주희의 성리학에서는 리(理)와 함께 만물의 두 축을 이루며, 맹자는 호연지기(浩然之氣)를 통해 도덕적 기운의 함양을 강조했다.",
+    "relatedPhilosophers": ["zhu-xi", "mencius"],
+    "relatedReligions": ["confucianism"],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "yin-yang",
+    "term": { "ko": "음양", "en": "Yin-Yang" },
+    "definition": "우주의 모든 현상을 상반되면서 상보적인 두 힘(음과 양)의 상호작용으로 설명하는 동아시아 사상의 근본 원리. 음은 어둠·수동·여성, 양은 밝음·능동·남성을 상징하며, 둘은 대립이 아닌 순환적 조화를 이룬다.",
+    "relatedPhilosophers": ["laozi", "zhu-xi"],
+    "relatedReligions": ["confucianism"],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "sunyata",
+    "term": { "ko": "공(空)", "en": "Sunyata (Emptiness)" },
+    "definition": "불교 중관학파의 핵심 개념. 모든 존재는 독립적이고 고정된 실체(자성)가 없다는 가르침. 나가르주나는 공(空)이 허무가 아니라 연기(緣起, 상호의존적 발생)와 동의어임을 논증하여 대승불교 사상의 기초를 놓았다.",
+    "relatedPhilosophers": ["nagarjuna"],
+    "relatedReligions": ["buddhism"],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "brahman",
+    "term": { "ko": "브라만", "en": "Brahman" },
+    "definition": "힌두교와 인도 철학에서 우주의 궁극적 실재이자 절대자. 모든 존재의 근원이며, 시간과 공간을 초월한 무한하고 불변하는 존재. 샹카라의 아드바이타 베단타에서는 브라만과 아트만(개아)이 본질적으로 동일하다(梵我一如)고 가르친다.",
+    "relatedPhilosophers": ["shankara"],
+    "relatedReligions": ["hinduism"],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "atman",
+    "term": { "ko": "아트만", "en": "Atman" },
+    "definition": "힌두교에서 개별 존재의 참된 자아, 영원하고 불변하는 영혼. 우파니샤드의 핵심 가르침인 '아트만은 곧 브라만이다(梵我一如, Tat Tvam Asi)'는 개아와 절대자의 합일을 선언한다. 불교는 이를 비판하여 무아(無我, anatta)를 주장했다.",
+    "relatedPhilosophers": ["shankara", "nagarjuna"],
+    "relatedReligions": ["hinduism", "buddhism"],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "eudaimonia",
+    "term": { "ko": "에우다이모니아", "en": "Eudaimonia" },
+    "definition": "아리스토텔레스 윤리학의 최고 목표로, '인간적 번영' 또는 '행복'으로 번역된다. 단순한 쾌락이 아니라 덕(아레테)에 따른 영혼의 탁월한 활동을 통해 달성되는 완전한 삶의 충만함을 의미한다. 에피쿠로스는 이를 아타락시아(마음의 평정)로 재해석했다.",
+    "relatedPhilosophers": ["aristotle", "epicurus"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+  {
+    "id": "apeiron",
+    "term": { "ko": "아페이론", "en": "Apeiron" },
+    "definition": "밀레토스 학파의 아낙시만드로스가 제시한 만물의 근원(아르케). '한정 없는 것', '무한정자'를 뜻하며, 물이나 불 같은 특정 원소가 아닌 무규정적이고 무한한 질료를 아르케로 삼은 최초의 추상적 철학 개념이다. 이후 그리스 자연철학의 무한 논의에 깊은 영향을 주었다.",
+    "relatedPhilosophers": ["heraclitus", "parmenides"],
+    "relatedReligions": [],
+    "category": "핵심 개념"
+  },
+
+  {
+    "id": "stoicism",
+    "term": { "ko": "스토아주의", "en": "Stoicism" },
+    "definition": "제논(키티온)이 창시한 헬레니즘 시대의 철학 학파. 이성에 따른 삶, 자연과의 조화, 정념(pathos)의 극복을 통한 내면의 평정(아파테이아)을 추구한다. 세네카, 에픽테토스, 마르쿠스 아우렐리우스가 후기 스토아의 대표 사상가다.",
+    "relatedPhilosophers": ["seneca", "epictetus", "marcus-aurelius"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "skepticism",
+    "term": { "ko": "회의주의", "en": "Skepticism" },
+    "definition": "확실한 지식의 가능성에 대해 의문을 제기하는 철학적 입장. 고대 피론주의에서 시작하여, 흄은 인과관계와 귀납의 정당성에 근본적 의문을 던졌다. 데카르트의 방법적 회의는 회의를 극복의 도구로 전환한 사례다.",
+    "relatedPhilosophers": ["hume", "descartes"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "idealism",
+    "term": { "ko": "관념론", "en": "Idealism" },
+    "definition": "실재의 궁극적 본질이 정신 또는 관념이라는 철학적 입장. 플라톤의 이데아론이 원형이며, 칸트의 초월적 관념론, 헤겔의 절대적 관념론이 대표적이다. 유물론(materialism)과 대립하는 형이상학적 입장이다.",
+    "relatedPhilosophers": ["plato", "kant", "hegel"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "positivism",
+    "term": { "ko": "실증주의", "en": "Positivism" },
+    "definition": "경험적으로 검증 가능한 사실만을 참된 지식으로 인정하는 사상. 콩트가 창시하여 신학적·형이상학적 단계를 넘어선 '실증적' 단계를 인류 진보의 정점으로 보았다. 20세기 논리실증주의는 이를 언어 분석과 결합했다.",
+    "relatedPhilosophers": ["hume", "russell"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "phenomenology-movement",
+    "term": { "ko": "현상학 운동", "en": "Phenomenological Movement" },
+    "definition": "후설의 현상학에서 출발하여 20세기 유럽 철학에 광범위한 영향을 미친 지적 운동. 하이데거의 해석학적 현상학, 사르트르의 실존적 현상학, 메를로-퐁티의 신체 현상학 등으로 분화·발전하며 실존주의, 해석학, 해체주의에 깊은 영향을 끼쳤다.",
+    "relatedPhilosophers": ["heidegger", "sartre"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "postmodernism",
+    "term": { "ko": "포스트모더니즘", "en": "Postmodernism" },
+    "definition": "근대성(modernity)의 보편적 이성, 진보, 거대 서사에 대한 비판적 사조. 푸코의 권력-지식 분석, 데리다의 해체, 들뢰즈의 차이의 철학 등이 대표적이다. 다원성, 차이, 탈중심화를 강조하며 20세기 후반 문화 전반에 영향을 미쳤다.",
+    "relatedPhilosophers": ["foucault", "derrida", "deleuze"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "marxism",
+    "term": { "ko": "마르크스주의", "en": "Marxism" },
+    "definition": "마르크스와 엥겔스가 창시한 사회·경제·정치 이론 체계. 역사적 유물론과 변증법적 유물론을 기초로 자본주의의 내적 모순과 계급투쟁을 분석하고, 프롤레타리아 혁명을 통한 공산주의 사회의 실현을 주장한다.",
+    "relatedPhilosophers": ["marx", "hegel"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "anarchism",
+    "term": { "ko": "아나키즘", "en": "Anarchism" },
+    "definition": "국가를 포함한 모든 강제적 권위와 위계 구조를 거부하고, 자발적 협력과 상호부조에 기반한 사회를 추구하는 정치 사상. 프루동, 바쿠닌, 크로포트킨 등이 대표적 이론가이며, 마르크스주의와는 국가관에서 날카롭게 대립했다.",
+    "relatedPhilosophers": ["rousseau"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "feminism",
+    "term": { "ko": "페미니즘", "en": "Feminism" },
+    "definition": "성별에 기반한 불평등과 억압을 비판하고 성 평등을 추구하는 사회·정치 운동이자 이론 체계. 울스턴크래프트의 여성 권리 옹호에서 시작하여, 자유주의적·사회주의적·급진적·탈식민주의적 페미니즘 등 다양한 조류로 발전했다.",
+    "relatedPhilosophers": ["john-stuart-mill"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "liberalism",
+    "term": { "ko": "자유주의", "en": "Liberalism" },
+    "definition": "개인의 자유와 권리를 최고 가치로 삼는 정치 사상. 로크의 자연권과 제한 정부론에서 출발하여, 밀의 자유론, 롤스의 정의론으로 이어진다. 국가 권력의 제한, 법의 지배, 관용, 개인의 자율성을 핵심 원리로 삼는다.",
+    "relatedPhilosophers": ["locke", "john-stuart-mill", "rousseau"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "pragmatism-movement",
+    "term": { "ko": "실용주의 운동", "en": "Pragmatism Movement" },
+    "definition": "19세기 후반 미국에서 시작된 철학 운동. 퍼스의 '실용주의 격률', 윌리엄 제임스의 진리의 실용적 정의, 듀이의 도구주의적 탐구 이론으로 발전했다. 관념의 의미를 그 실천적 결과로 판단하며, 유럽 대륙 철학의 추상적 사변을 비판했다.",
+    "relatedPhilosophers": [],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "deconstructionism",
+    "term": { "ko": "해체주의", "en": "Deconstructionism" },
+    "definition": "데리다의 해체 전략을 문학비평, 건축, 법학 등 다양한 분야에 적용한 지적 운동. 텍스트의 의미가 저자의 의도나 구조에 의해 고정되지 않으며, 차연(differance)에 의해 끊임없이 미끄러진다고 본다.",
+    "relatedPhilosophers": ["derrida", "foucault"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "critical-theory",
+    "term": { "ko": "비판이론", "en": "Critical Theory" },
+    "definition": "프랑크푸르트 학파를 중심으로 발전한 사회 비판 이론. 호르크하이머와 아도르노의 《계몽의 변증법》, 하버마스의 의사소통 행위 이론이 대표적이다. 마르크스의 비판 정신을 계승하되 문화, 이데올로기, 의사소통의 차원으로 확장했다.",
+    "relatedPhilosophers": ["habermas", "marx"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "neo-confucianism",
+    "term": { "ko": "성리학", "en": "Neo-Confucianism" },
+    "definition": "송대(宋代)에 성립한 유학의 철학적 심화. 주희가 리(理)와 기(氣)의 이원론적 체계로 집대성했으며, 격물치지(格物致知)를 통한 도덕 수양을 강조했다. 왕양명은 심즉리(心卽理)와 지행합일(知行合一)로 이를 비판적으로 발전시켰다.",
+    "relatedPhilosophers": ["zhu-xi", "wang-yangming", "confucius"],
+    "relatedReligions": ["confucianism"],
+    "category": "사상/운동"
+  },
+  {
+    "id": "zen",
+    "term": { "ko": "선불교", "en": "Zen Buddhism" },
+    "definition": "불교 선종(禪宗). 경전 연구나 논리적 분석보다 직접적 깨달음(돈오)과 좌선 수행을 강조한다. 보리달마가 중국에 전하고 혜능이 크게 발전시켰으며, 화두 참구와 일상에서의 깨달음을 중시한다. '이심전심, 불립문자'가 핵심 정신이다.",
+    "relatedPhilosophers": ["nagarjuna"],
+    "relatedReligions": ["buddhism"],
+    "category": "사상/운동"
+  },
+  {
+    "id": "neoplatonism",
+    "term": { "ko": "신플라톤주의", "en": "Neoplatonism" },
+    "definition": "플로티노스가 3세기에 창시한 철학 사조로, 플라톤의 이데아론을 형이상학적으로 심화시켰다. 궁극적 실재인 '일자(to hen)'로부터 누스(지성), 프시케(영혼), 물질 세계가 단계적으로 유출(emanation)된다고 설명했다. 아우구스티누스의 기독교 신학과 이슬람 철학에도 깊은 영향을 미쳤다.",
+    "relatedPhilosophers": ["plotinus", "plato", "augustine"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "pragmatism-philosophy",
+    "term": { "ko": "프래그머티즘", "en": "Pragmatism (Philosophy)" },
+    "definition": "19세기 후반 미국에서 탄생한 철학적 전통으로, 관념의 의미와 진리를 실천적 결과로 판단한다. 퍼스의 실용주의 격률을 기초로 윌리엄 제임스가 대중화하고 듀이가 도구주의로 발전시켰다. 유럽 대륙 철학의 추상적 사변을 비판하며 경험과 행위를 중시했다.",
+    "relatedPhilosophers": ["john-stuart-mill"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+  {
+    "id": "analytic-philosophy",
+    "term": { "ko": "분석철학", "en": "Analytic Philosophy" },
+    "definition": "20세기 초 영미권에서 발전한 철학 전통. 프레게의 논리학, 러셀의 논리적 원자론, 비트겐슈타인의 언어 분석에서 출발하여 철학의 과제를 언어와 논리의 엄밀한 분석으로 규정했다. 대륙철학(현상학, 실존주의 등)과 대비되는 현대 철학의 주요 조류다.",
+    "relatedPhilosophers": ["russell", "wittgenstein"],
+    "relatedReligions": [],
+    "category": "사상/운동"
+  },
+
+  {
+    "id": "trinity",
+    "term": { "ko": "삼위일체", "en": "Trinity" },
+    "definition": "기독교 신학의 핵심 교리. 하나님은 성부(아버지), 성자(아들 예수 그리스도), 성령의 세 위격(persona)으로 존재하지만 본질(substantia)은 하나라는 가르침. 아우구스티누스의 《삼위일체론》과 니케아 신경이 교리 형성에 결정적이었다.",
+    "relatedPhilosophers": ["augustine", "thomas-aquinas"],
+    "relatedReligions": ["christianity"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "predestination",
+    "term": { "ko": "예정론", "en": "Predestination" },
+    "definition": "하나님이 천지 창조 이전에 이미 각 영혼의 구원과 멸망을 결정했다는 신학적 교리. 아우구스티누스가 은총론에서 기초를 놓았고, 칼뱅이 이중 예정론(구원과 유기)으로 체계화하여 개혁신학의 핵심이 되었다.",
+    "relatedPhilosophers": ["augustine"],
+    "relatedReligions": ["christianity"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "grace",
+    "term": { "ko": "은총", "en": "Grace" },
+    "definition": "인간의 공로와 무관하게 하나님이 베푸는 무상의 은혜. 아우구스티누스는 펠라기우스 논쟁에서 인간의 구원이 전적으로 신의 은총에 달려 있음을 강조했고, 토마스 아퀴나스는 자연과 은총의 관계를 체계적으로 정리했다.",
+    "relatedPhilosophers": ["augustine", "thomas-aquinas"],
+    "relatedReligions": ["christianity"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "jihad",
+    "term": { "ko": "지하드", "en": "Jihad" },
+    "definition": "아랍어로 '노력', '분투'를 뜻하는 이슬람의 핵심 개념. 대(大)지하드는 자신의 내면적 악과 싸우는 영적 투쟁이며, 소(小)지하드는 이슬람 공동체를 수호하기 위한 외적 투쟁을 의미한다. 수피 전통에서는 영적 자기 정화를 최고의 지하드로 본다.",
+    "relatedPhilosophers": [],
+    "relatedReligions": ["islam"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "sharia",
+    "term": { "ko": "샤리아", "en": "Sharia" },
+    "definition": "이슬람 율법. 꾸란과 하디스(예언자의 언행록)를 기반으로 무슬림의 종교적·사회적·개인적 삶 전반을 규율하는 법 체계. '물가로 가는 길'이라는 원래 뜻처럼, 신이 인간에게 제시한 올바른 삶의 길을 의미한다.",
+    "relatedPhilosophers": [],
+    "relatedReligions": ["islam"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "dharma",
+    "term": { "ko": "다르마", "en": "Dharma" },
+    "definition": "산스크리트어로 '유지하는 것'을 뜻하며, 인도 종교·철학에서 가장 폭넓은 의미를 지닌 개념. 힌두교에서는 우주적 질서와 개인의 의무를, 불교에서는 붓다의 가르침과 존재의 법칙을 의미한다. 진리, 법, 덕, 의무 등 다양한 층위를 포함한다.",
+    "relatedPhilosophers": ["nagarjuna", "shankara"],
+    "relatedReligions": ["buddhism", "hinduism"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "samsara",
+    "term": { "ko": "윤회", "en": "Samsara" },
+    "definition": "생사가 끊임없이 반복되는 존재의 순환. 힌두교에서는 아트만(영혼)이 카르마에 따라 다른 몸으로 태어나며, 불교에서는 무아(無我)의 입장에서 존재의 연속적 흐름으로 설명한다. 해탈(목샤)이나 열반(니르바나)이 윤회로부터의 해방이다.",
+    "relatedPhilosophers": ["nagarjuna", "shankara"],
+    "relatedReligions": ["buddhism", "hinduism"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "moksha",
+    "term": { "ko": "목샤/해탈", "en": "Moksha" },
+    "definition": "힌두교에서 윤회의 굴레로부터의 궁극적 해방. 무지(아비디야)를 벗어나 아트만과 브라만의 합일을 실현하는 것이 목표다. 샹카라의 아드바이타 베단타에서는 지식(즈나나)을 통한 해탈을 최고의 길로 제시한다.",
+    "relatedPhilosophers": ["shankara"],
+    "relatedReligions": ["hinduism"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "bodhi",
+    "term": { "ko": "보리/깨달음", "en": "Bodhi" },
+    "definition": "산스크리트어로 '깨어남'을 뜻하는 불교의 핵심 개념. 석가모니가 보리수 아래에서 얻은 완전한 깨달음(아뇩다라삼먁삼보리)을 가리키며, 모든 불교 수행의 궁극적 목표다. 대승불교에서는 일체 중생을 위한 보리심(菩提心)의 발현을 강조한다.",
+    "relatedPhilosophers": ["nagarjuna"],
+    "relatedReligions": ["buddhism"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "tawhid",
+    "term": { "ko": "타우히드", "en": "Tawhid" },
+    "definition": "이슬람 신학의 최고 원리인 알라의 유일성(절대적 일신론). '알라 외에 신은 없다(라 일라하 일랄라)'는 신앙고백(샤하다)의 핵심이며, 다신론과 우상숭배(쉬르크)에 대한 철저한 거부를 의미한다.",
+    "relatedPhilosophers": [],
+    "relatedReligions": ["islam"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "jen-ren",
+    "term": { "ko": "인(仁)", "en": "Ren (Benevolence)" },
+    "definition": "공자 사상의 최고 덕목. '사람을 사랑함(愛人)'으로 정의되며, 인간관계의 기본 원리이자 모든 덕의 근본이다. 맹자는 인을 인간 본성에 내재한 선한 마음(측은지심)으로 보아 성선설의 기초로 삼았다.",
+    "relatedPhilosophers": ["confucius", "mencius"],
+    "relatedReligions": ["confucianism"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "li-ritual",
+    "term": { "ko": "예(禮)", "en": "Li (Ritual Propriety)" },
+    "definition": "유교에서 사회 질서와 조화를 유지하는 의례·규범·예절의 총체. 공자는 인(仁)의 외적 표현으로서 예를 강조했으며, 예를 통해 개인의 도덕성이 사회적으로 구현된다고 보았다. 관혼상제(冠婚喪祭)의 의례부터 일상의 행동 규범까지 포함한다.",
+    "relatedPhilosophers": ["confucius"],
+    "relatedReligions": ["confucianism"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "tikkun-olam",
+    "term": { "ko": "티쿤 올람", "en": "Tikkun Olam" },
+    "definition": "히브리어로 '세상의 수선(修繕)'. 유대교에서 인간이 하나님의 파트너로서 불완전한 세상을 개선하고 정의를 실현해야 한다는 윤리적 의무. 카발라 전통에서는 창조 시 흩어진 신성한 불꽃을 모으는 우주적 회복으로 해석된다.",
+    "relatedPhilosophers": [],
+    "relatedReligions": ["judaism"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "kami",
+    "term": { "ko": "카미/신(神)", "en": "Kami" },
+    "definition": "신도(神道)에서 신성하거나 경외로운 존재를 가리키는 개념. 자연의 힘, 조상의 영혼, 뛰어난 인물 등 다양한 존재가 카미로 여겨진다. 만물에 신성이 깃들어 있다는 신도의 다신론적·범신론적 세계관을 반영한다.",
+    "relatedPhilosophers": [],
+    "relatedReligions": ["shinto"],
+    "category": "종교 개념"
+  },
+  {
+    "id": "original-sin",
+    "term": { "ko": "원죄", "en": "Original Sin" },
+    "definition": "아담과 하와의 타락으로 인해 모든 인류가 태어나면서부터 지니는 죄성. 아우구스티누스가 펠라기우스 논쟁을 통해 체계화했으며, 인간이 스스로의 힘으로는 구원에 이를 수 없고 오직 신의 은총이 필요하다는 기독교 구원론의 토대가 되었다.",
+    "relatedPhilosophers": ["augustine"],
+    "relatedReligions": ["christianity"],
+    "category": "종교 개념"
+  },
+
+  {
+    "id": "paradigm-shift",
+    "term": { "ko": "패러다임 전환", "en": "Paradigm Shift" },
+    "definition": "토마스 쿤이 《과학혁명의 구조》(1962)에서 제시한 개념. 과학의 발전은 점진적 축적이 아니라, 기존 패러다임의 위기와 새로운 패러다임으로의 혁명적 전환을 통해 이루어진다. 천동설에서 지동설로의 전환이 대표적 사례다.",
+    "relatedPhilosophers": ["kuhn", "popper"],
+    "relatedReligions": [],
+    "category": "과학 개념"
+  },
+  {
+    "id": "falsifiability",
+    "term": { "ko": "반증가능성", "en": "Falsifiability" },
+    "definition": "포퍼가 제시한 과학적 이론의 구획 기준. 참된 과학적 명제는 반증(falsification)이 원리적으로 가능해야 한다. '모든 백조는 흰색이다'는 검은 백조 하나로 반증되므로 과학적이지만, 반증 불가능한 주장은 과학이 아니라고 본다.",
+    "relatedPhilosophers": ["popper"],
+    "relatedReligions": [],
+    "category": "과학 개념"
+  },
+  {
+    "id": "natural-selection",
+    "term": { "ko": "자연선택", "en": "Natural Selection" },
+    "definition": "다윈이 《종의 기원》(1859)에서 제시한 진화의 핵심 메커니즘. 환경에 더 잘 적응한 개체가 생존하고 번식에 성공하여 유리한 형질이 다음 세대에 전달된다. 목적 없는 변이와 선택을 통해 생물의 복잡한 적응을 설명하는 혁명적 이론이다.",
+    "relatedPhilosophers": ["darwin"],
+    "relatedReligions": [],
+    "category": "과학 개념"
+  },
+  {
+    "id": "relativity",
+    "term": { "ko": "상대성", "en": "Relativity" },
+    "definition": "아인슈타인의 특수 상대성이론(1905)과 일반 상대성이론(1915)의 핵심 원리. 시간과 공간은 절대적이지 않으며 관측자의 운동 상태에 따라 상대적이고, 질량은 시공간을 휘게 한다. 뉴턴의 절대 시공간 개념을 근본적으로 혁신했다.",
+    "relatedPhilosophers": ["einstein", "newton"],
+    "relatedReligions": [],
+    "category": "과학 개념"
+  },
+  {
+    "id": "uncertainty-principle",
+    "term": { "ko": "불확정성 원리", "en": "Uncertainty Principle" },
+    "definition": "하이젠베르크가 1927년 제시한 양자역학의 근본 원리. 입자의 위치와 운동량을 동시에 정확하게 측정하는 것은 원리적으로 불가능하다. 이는 측정 기술의 한계가 아니라 자연의 본질적 특성으로, 결정론적 세계관에 근본적 도전을 제기했다.",
+    "relatedPhilosophers": ["bohr"],
+    "relatedReligions": [],
+    "category": "과학 개념"
+  },
+  {
+    "id": "entropy",
+    "term": { "ko": "엔트로피", "en": "Entropy" },
+    "definition": "열역학 제2법칙의 핵심 개념으로, 고립 계(system)의 무질서도는 항상 증가하는 방향으로 변화한다. 에너지는 보존되지만 사용 가능한 에너지는 줄어들며, 이는 시간의 비가역성(시간의 화살)을 설명하는 물리학적 근거가 된다.",
+    "relatedPhilosophers": [],
+    "relatedReligions": [],
+    "category": "과학 개념"
+  },
+  {
+    "id": "scientific-method",
+    "term": { "ko": "과학적 방법", "en": "Scientific Method" },
+    "definition": "관찰, 가설 설정, 실험, 검증의 체계적 절차를 통해 자연 현상을 탐구하는 방법론. 갈릴레오가 실험과 수학적 분석을 결합하고, 뉴턴이 이를 체계화했으며, 포퍼의 반증주의가 현대 과학 방법론의 기준을 제시했다.",
+    "relatedPhilosophers": ["galileo", "newton", "popper"],
+    "relatedReligions": [],
+    "category": "과학 개념"
+  },
+  {
+    "id": "determinism",
+    "term": { "ko": "결정론", "en": "Determinism" },
+    "definition": "모든 사건은 이전의 원인에 의해 필연적으로 결정된다는 철학적 입장. 스피노자는 자연의 필연성을, 라이프니츠는 충족이유율을, 뉴턴 역학은 물리적 인과율을 통해 결정론을 뒷받침했다. 자유의지 논쟁의 핵심 쟁점이다.",
+    "relatedPhilosophers": ["spinoza", "leibniz", "newton"],
+    "relatedReligions": [],
+    "category": "과학 개념"
+  },
+  {
+    "id": "reductionism",
+    "term": { "ko": "환원주의", "en": "Reductionism" },
+    "definition": "복잡한 현상을 더 단순한 구성 요소로 분해하여 설명할 수 있다는 방법론적·존재론적 입장. 데모크리토스의 원자론이 고대적 원형이며, 근대 과학은 물리학적 환원주의를 통해 큰 성과를 거두었다. 전체론(holism)과 대립한다.",
+    "relatedPhilosophers": ["democritus", "newton"],
+    "relatedReligions": [],
+    "category": "과학 개념"
+  },
+  {
+    "id": "emergence",
+    "term": { "ko": "창발", "en": "Emergence" },
+    "definition": "하위 수준의 구성 요소들의 상호작용에서 상위 수준의 새로운 속성이나 패턴이 출현하는 현상. 물 분자 하나에는 없는 '젖음'이라는 속성이 집합에서 나타나는 것이 예시다. 환원주의의 한계를 보여주며, 의식, 생명, 사회 현상의 설명에 중요하다.",
+    "relatedPhilosophers": [],
+    "relatedReligions": [],
+    "category": "과학 개념"
+  },
+
+  {
+    "id": "deduction",
+    "term": { "ko": "연역법", "en": "Deduction" },
+    "definition": "보편적 원리(전제)로부터 개별적 결론을 논리적으로 도출하는 추론 방법. 아리스토텔레스가 삼단논법으로 체계화했으며, 데카르트는 확실한 제1원리에서 출발하는 연역적 방법을 철학의 기초로 삼았다. 전제가 참이면 결론도 반드시 참이다.",
+    "relatedPhilosophers": ["aristotle", "descartes"],
+    "relatedReligions": [],
+    "category": "논리/방법론"
+  },
+  {
+    "id": "induction",
+    "term": { "ko": "귀납법", "en": "Induction" },
+    "definition": "개별적 관찰 사례들로부터 일반적 법칙을 이끌어내는 추론 방법. 아리스토텔레스가 최초로 형식화했으며, 베이컨이 근대 과학의 방법론으로 체계화했다. 흄은 귀납의 정당화 문제(귀납의 문제)를 제기하여 그 논리적 한계를 지적했다.",
+    "relatedPhilosophers": ["aristotle", "hume"],
+    "relatedReligions": [],
+    "category": "논리/방법론"
+  },
+  {
+    "id": "abduction",
+    "term": { "ko": "추론/가추법", "en": "Abduction" },
+    "definition": "관찰된 현상을 가장 잘 설명하는 가설을 추론하는 방법. '최선의 설명에로의 추론'이라고도 한다. 퍼스가 연역·귀납과 구별되는 제3의 추론 형식으로 제시했으며, 과학적 발견과 일상적 문제 해결의 핵심적 사고방식이다.",
+    "relatedPhilosophers": ["aristotle"],
+    "relatedReligions": [],
+    "category": "논리/방법론"
+  },
+  {
+    "id": "occams-razor",
+    "term": { "ko": "오컴의 면도날", "en": "Occam's Razor" },
+    "definition": "14세기 스콜라 철학자 오컴의 윌리엄이 제시한 사고의 경제성 원리. '필요 이상으로 존재를 늘려서는 안 된다(Entia non sunt multiplicanda praeter necessitatem).' 동일한 현상을 설명하는 두 이론 중 더 단순한 쪽을 선호해야 한다는 방법론적 원칙이다.",
+    "relatedPhilosophers": ["thomas-aquinas"],
+    "relatedReligions": [],
+    "category": "논리/방법론"
+  },
+  {
+    "id": "maieutics",
+    "term": { "ko": "산파술", "en": "Maieutics" },
+    "definition": "소크라테스의 대화법. 산파가 아이를 낳도록 돕듯이, 연속적인 질문을 통해 대화 상대가 자신 안에 이미 있는 진리를 스스로 발견하도록 이끄는 방법. 가르침이 아니라 '무지의 자각'을 통한 자기 발견을 핵심으로 한다.",
+    "relatedPhilosophers": ["socrates", "plato"],
+    "relatedReligions": [],
+    "category": "논리/방법론"
   }
 ]
