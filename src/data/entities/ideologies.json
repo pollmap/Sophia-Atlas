@@ -1041,5 +1041,800 @@
       "프레이밍 효과",
       "선택 설계(넛지)"
     ]
+  },
+  {
+    "id": "ancient-political-philosophy",
+    "type": "ideology",
+    "name": {
+      "ko": "고대 정치철학",
+      "en": "Ancient Political Philosophy"
+    },
+    "period": {
+      "start": -500,
+      "end": 500
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "era": "ancient",
+    "summary": "플라톤의 《국가》, 아리스토텔레스의 《정치학》으로 대표되는 고대 그리스의 정치 사유. 정의로운 국가의 본질, 최선의 정체(政體), 시민의 덕, 법의 지배 등을 탐구했다. 아테네 민주정의 경험을 철학적으로 성찰하여, 서양 정치사상의 영구적 토대를 놓았다.",
+    "tags": [
+      "정치철학",
+      "고대그리스",
+      "정의",
+      "정체론"
+    ],
+    "relatedPersons": [
+      "plato",
+      "aristotle"
+    ],
+    "relatedEntities": [
+      "platonism",
+      "aristotelianism"
+    ]
+  },
+  {
+    "id": "social-liberalism",
+    "type": "ideology",
+    "name": {
+      "ko": "사회적 자유주의",
+      "en": "Social Liberalism"
+    },
+    "period": {
+      "start": 1880,
+      "end": 2000
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국, 미국"
+    },
+    "era": "contemporary",
+    "summary": "고전적 자유주의의 개인적 자유를 유지하면서 사회적 정의와 평등을 추구하는 정치 이념. T.H. 그린, 홉하우스, 존 롤스가 대표적이다. 시장 자유와 함께 복지국가, 기회의 평등, 사회 안전망의 필요성을 인정하여, 20세기 서구 민주주의의 주류적 정치 이념이 되었다.",
+    "tags": [
+      "자유주의",
+      "복지국가",
+      "평등",
+      "롤스"
+    ],
+    "relatedPersons": [
+      "rawls"
+    ],
+    "relatedEntities": [
+      "classical-liberalism",
+      "social-democracy"
+    ]
+  },
+  {
+    "id": "neoliberalism-ideology",
+    "type": "ideology",
+    "name": {
+      "ko": "신자유주의",
+      "en": "Neoliberalism"
+    },
+    "period": {
+      "start": 1970,
+      "end": 2000
+    },
+    "location": {
+      "lat": 41.88,
+      "lng": -87.63,
+      "region": "미국 시카고, 영국"
+    },
+    "era": "contemporary",
+    "summary": "1970년대 이후 하이에크와 프리드먼의 사상에 기반하여 부상한 경제·정치 이념. 시장의 자유화, 규제 완화, 민영화, 긴축 재정을 핵심으로 삼는다. 대처(영국)와 레이건(미국)의 정책으로 실현되어 세계화의 이념적 틀이 되었으나, 불평등 심화와 금융 위기에 대한 비판이 거세다.",
+    "tags": [
+      "신자유주의",
+      "시장",
+      "규제완화",
+      "세계화"
+    ],
+    "relatedPersons": [
+      "hayek",
+      "friedman"
+    ],
+    "relatedEntities": [
+      "classical-liberalism",
+      "chicago-school-monetarism"
+    ]
+  },
+  {
+    "id": "traditional-conservatism",
+    "type": "ideology",
+    "name": {
+      "ko": "전통적 보수주의",
+      "en": "Traditional Conservatism"
+    },
+    "period": {
+      "start": 1790,
+      "end": 2000
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국"
+    },
+    "era": "modern",
+    "summary": "에드먼드 버크의 《프랑스 혁명에 관한 성찰》(1790)에서 체계화된 정치 사상. 급진적 혁명을 거부하고 전통·관습·제도의 점진적 개혁을 옹호한다. 인간 이성의 한계를 인정하고, 역사적으로 축적된 지혜(전통)에 의존하여 사회 질서를 유지하려 한다.",
+    "tags": [
+      "보수주의",
+      "전통",
+      "점진주의",
+      "버크"
+    ],
+    "relatedPersons": [
+      "burke"
+    ],
+    "relatedEntities": [
+      "classical-liberalism"
+    ]
+  },
+  {
+    "id": "neoconservatism",
+    "type": "ideology",
+    "name": {
+      "ko": "신보수주의",
+      "en": "Neoconservatism"
+    },
+    "period": {
+      "start": 1960,
+      "end": 2000
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -74.01,
+      "region": "미국 뉴욕, 워싱턴"
+    },
+    "era": "contemporary",
+    "summary": "1960년대 미국에서 좌파 지식인들이 우파로 전향하며 형성된 정치 사상. 어빙 크리스톨, 레오 스트라우스의 영향 아래 미국 패권주의, 민주주의 수출, 전통적 가치 옹호를 주장한다. 2003년 이라크 전쟁의 이념적 배경이 되었으며, 현실주의 외교 노선과 대립한다.",
+    "tags": [
+      "신보수주의",
+      "미국패권",
+      "민주주의수출",
+      "가치보수"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "traditional-conservatism",
+      "classical-liberalism"
+    ]
+  },
+  {
+    "id": "utopian-socialism",
+    "type": "ideology",
+    "name": {
+      "ko": "유토피아 사회주의",
+      "en": "Utopian Socialism"
+    },
+    "period": {
+      "start": 1800,
+      "end": 1850
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스, 영국"
+    },
+    "era": "contemporary",
+    "summary": "생시몽, 푸리에, 오웬이 대표하는 초기 사회주의 전통. 자본주의의 불평등을 비판하고 이상적 공동체를 구상했으나, 마르크스에 의해 '과학적 사회주의'와 구별되는 '유토피아적'이라고 비판받았다. 그럼에도 협동조합, 공동체 운동, 복지 제도의 사상적 원천이 되었다.",
+    "tags": [
+      "사회주의",
+      "유토피아",
+      "공동체",
+      "개혁"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "socialism",
+      "marxism"
+    ]
+  },
+  {
+    "id": "marxism-leninism",
+    "type": "ideology",
+    "name": {
+      "ko": "마르크스-레닌주의",
+      "en": "Marxism-Leninism"
+    },
+    "period": {
+      "start": 1917,
+      "end": 1991
+    },
+    "location": {
+      "lat": 55.75,
+      "lng": 37.62,
+      "region": "러시아 모스크바"
+    },
+    "era": "contemporary",
+    "summary": "레닌이 마르크스주의를 제국주의 시대에 적용하여 발전시킨 혁명 이론. 전위당 이론, 민주집중제, 프롤레타리아 독재, 반제국주의를 핵심으로 삼는다. 1917년 러시아 혁명의 이념이 되었고, 소련·중국·쿠바·베트남 등의 국가 이념으로 20세기 세계사를 근본적으로 형성했다.",
+    "tags": [
+      "마르크스레닌주의",
+      "혁명",
+      "전위당",
+      "소련"
+    ],
+    "relatedPersons": [
+      "marx",
+      "lenin"
+    ],
+    "relatedEntities": [
+      "communism",
+      "marxism"
+    ]
+  },
+  {
+    "id": "new-left",
+    "type": "ideology",
+    "name": {
+      "ko": "신좌파",
+      "en": "New Left"
+    },
+    "period": {
+      "start": 1956,
+      "end": 2000
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스, 미국, 독일"
+    },
+    "era": "contemporary",
+    "summary": "1956년 이후 소련 공산주의와 기존 사민주의 모두를 비판하며 등장한 좌파 운동. 68혁명, 반전 운동, 인종·성 평등, 환경, 문화 정치를 강조한다. 마르쿠제, 사르트르, 촘스키가 영향을 미쳤으며, 프랑크푸르트 학파의 비판이론과 결합하여 문화적 좌파 정치의 기초를 형성했다.",
+    "tags": [
+      "신좌파",
+      "68혁명",
+      "문화정치",
+      "비판이론"
+    ],
+    "relatedPersons": [
+      "marcuse",
+      "sartre"
+    ],
+    "relatedEntities": [
+      "marxism",
+      "frankfurt-school"
+    ]
+  },
+  {
+    "id": "individualist-anarchism",
+    "type": "ideology",
+    "name": {
+      "ko": "개인주의적 아나키즘",
+      "en": "Individualist Anarchism"
+    },
+    "period": {
+      "start": 1840,
+      "end": 2000
+    },
+    "location": {
+      "lat": 42.37,
+      "lng": -71.12,
+      "region": "미국, 유럽"
+    },
+    "era": "contemporary",
+    "summary": "맥스 슈티르너의 유일자 사상과 벤저민 터커의 미국 개인주의적 아나키즘으로 대표되는 전통. 국가뿐 아니라 모든 외적 권위에 대한 개인의 절대적 자율성을 주장한다. 개인의 자기소유권과 자발적 계약만을 인정하며, 자유지상주의와 부분적으로 겹친다.",
+    "tags": [
+      "아나키즘",
+      "개인주의",
+      "자율",
+      "자기소유"
+    ],
+    "relatedPersons": [
+      "stirner"
+    ],
+    "relatedEntities": [
+      "anarchism",
+      "classical-liberalism"
+    ]
+  },
+  {
+    "id": "social-anarchism",
+    "type": "ideology",
+    "name": {
+      "ko": "사회적 아나키즘",
+      "en": "Social Anarchism"
+    },
+    "period": {
+      "start": 1840,
+      "end": 2000
+    },
+    "location": {
+      "lat": 55.75,
+      "lng": 37.62,
+      "region": "러시아, 스페인, 프랑스"
+    },
+    "era": "contemporary",
+    "summary": "바쿠닌, 크로포트킨이 대표하는 아나키즘의 주류 전통. 국가와 자본주의를 동시에 폐지하고, 자유로운 개인들의 자발적 연합과 상호부조에 기반한 사회를 건설하려 한다. 크로포트킨의 '상호부조론'은 경쟁 중심의 사회진화론을 비판하며 협동의 진화적 가치를 역설했다.",
+    "tags": [
+      "아나키즘",
+      "상호부조",
+      "자발적연합",
+      "반국가"
+    ],
+    "relatedPersons": [
+      "bakunin",
+      "kropotkin"
+    ],
+    "relatedEntities": [
+      "anarchism",
+      "socialism"
+    ]
+  },
+  {
+    "id": "anarcho-syndicalism",
+    "type": "ideology",
+    "name": {
+      "ko": "아나르코 생디칼리즘",
+      "en": "Anarcho-Syndicalism"
+    },
+    "period": {
+      "start": 1895,
+      "end": 1939
+    },
+    "location": {
+      "lat": 41.39,
+      "lng": 2.17,
+      "region": "스페인 바르셀로나, 프랑스"
+    },
+    "era": "contemporary",
+    "summary": "노동조합(생디카)을 통한 혁명과 사회 운영을 주장하는 아나키즘 분파. 총파업을 혁명의 수단으로 보고, 노동자 자주관리를 대안 사회의 원리로 삼는다. 스페인 내전(1936-39)에서 CNT-FAI가 아나키즘적 사회 실험을 실행하여, 역사상 가장 큰 규모의 아나키즘 사회를 구현했다.",
+    "tags": [
+      "생디칼리즘",
+      "노동조합",
+      "총파업",
+      "자주관리"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "social-anarchism",
+      "anarchism"
+    ]
+  },
+  {
+    "id": "fascism-totalitarianism",
+    "type": "ideology",
+    "name": {
+      "ko": "파시즘과 전체주의",
+      "en": "Fascism and Totalitarianism"
+    },
+    "period": {
+      "start": 1919,
+      "end": 1945
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "이탈리아, 독일"
+    },
+    "era": "contemporary",
+    "summary": "무솔리니의 이탈리아 파시즘과 히틀러의 나치즘으로 대표되는 극우 전체주의 이념. 극단적 민족주의, 카리스마적 지도자 숭배, 반자유주의·반공산주의, 폭력의 미화, 인종주의를 특징으로 한다. 제2차 세계대전과 홀로코스트를 야기하여, 20세기 최대의 정치적 재앙을 초래했다.",
+    "tags": [
+      "파시즘",
+      "전체주의",
+      "나치즘",
+      "극우"
+    ],
+    "relatedPersons": [
+      "hannah-arendt"
+    ],
+    "relatedEntities": [
+      "nationalism",
+      "traditional-conservatism"
+    ]
+  },
+  {
+    "id": "first-wave-feminism",
+    "type": "ideology",
+    "name": {
+      "ko": "제1물결 페미니즘",
+      "en": "First-Wave Feminism"
+    },
+    "period": {
+      "start": 1848,
+      "end": 1920
+    },
+    "location": {
+      "lat": 42.85,
+      "lng": -76.98,
+      "region": "미국 세네카폴스, 영국"
+    },
+    "era": "contemporary",
+    "summary": "1848년 세네카폴스 대회를 기점으로 여성 참정권과 법적 평등을 요구한 초기 페미니즘 운동. 메리 울스턴크래프트의 《여성 권리의 옹호》(1792)가 사상적 선구이며, 서프러제트 운동을 통해 영국(1918)과 미국(1920)에서 여성 참정권을 쟁취했다.",
+    "tags": [
+      "페미니즘",
+      "참정권",
+      "여성권리",
+      "제1물결"
+    ],
+    "relatedPersons": [
+      "wollstonecraft"
+    ],
+    "relatedEntities": [
+      "feminism",
+      "second-wave-feminism"
+    ]
+  },
+  {
+    "id": "second-wave-feminism",
+    "type": "ideology",
+    "name": {
+      "ko": "제2물결 페미니즘",
+      "en": "Second-Wave Feminism"
+    },
+    "period": {
+      "start": 1960,
+      "end": 1990
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -74.01,
+      "region": "미국, 프랑스, 영국"
+    },
+    "era": "contemporary",
+    "summary": "보부아르의 《제2의 성》(1949)과 프리단의 《여성의 신비》(1963)에서 시작된 제2물결. 법적 평등을 넘어 성별 역할, 가부장제, 재생산권, 직장 평등, 성폭력 문제를 제기했다. '개인적인 것이 정치적인 것'이라는 슬로건으로 사적 영역의 권력관계를 가시화했다.",
+    "tags": [
+      "페미니즘",
+      "가부장제",
+      "성평등",
+      "제2물결"
+    ],
+    "relatedPersons": [
+      "simone-de-beauvoir"
+    ],
+    "relatedEntities": [
+      "first-wave-feminism",
+      "feminism",
+      "third-wave-feminism"
+    ]
+  },
+  {
+    "id": "third-wave-feminism",
+    "type": "ideology",
+    "name": {
+      "ko": "제3물결 페미니즘",
+      "en": "Third-Wave Feminism"
+    },
+    "period": {
+      "start": 1990,
+      "end": 2010
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -74.01,
+      "region": "미국, 글로벌"
+    },
+    "era": "contemporary",
+    "summary": "교차성(인종·계급·성별의 중첩적 억압), 젠더의 유동성, 다양성의 포용을 강조하는 페미니즘의 제3물결. 주디스 버틀러의 젠더 수행성 이론, 벨 훅스의 교차적 페미니즘이 핵심이다. 제2물결의 백인 중산층 중심성을 비판하고 더 포괄적인 해방을 추구한다.",
+    "tags": [
+      "페미니즘",
+      "교차성",
+      "젠더",
+      "다양성"
+    ],
+    "relatedPersons": [
+      "judith-butler"
+    ],
+    "relatedEntities": [
+      "second-wave-feminism",
+      "feminism",
+      "fourth-wave-feminism"
+    ]
+  },
+  {
+    "id": "fourth-wave-feminism",
+    "type": "ideology",
+    "name": {
+      "ko": "제4물결 페미니즘",
+      "en": "Fourth-Wave Feminism"
+    },
+    "period": {
+      "start": 2012,
+      "end": 2000
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -74.01,
+      "region": "글로벌 (소셜미디어)"
+    },
+    "era": "contemporary",
+    "summary": "소셜미디어와 디지털 활동주의를 기반으로 한 현재 진행 중인 페미니즘 물결. #MeToo 운동(2017)이 상징적이며, 성폭력·성희롱 고발, 온라인 여성혐오 대응, 직장 내 성평등, 임금 격차 해소를 핵심 의제로 삼는다. 글로벌 연대와 디지털 공론장을 특징으로 한다.",
+    "tags": [
+      "페미니즘",
+      "미투",
+      "소셜미디어",
+      "제4물결"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "third-wave-feminism",
+      "feminism",
+      "metoo-movement"
+    ]
+  },
+  {
+    "id": "postcolonialism-ideology",
+    "type": "ideology",
+    "name": {
+      "ko": "탈식민주의 (이념)",
+      "en": "Postcolonialism (Ideology)"
+    },
+    "period": {
+      "start": 1947,
+      "end": 2000
+    },
+    "location": {
+      "lat": 28.61,
+      "lng": 77.23,
+      "region": "인도, 아프리카, 중동"
+    },
+    "era": "contemporary",
+    "summary": "식민주의의 문화적·인식론적 유산을 비판하고 해체하는 정치·문화 이론. 프란츠 파농의 《대지의 저주받은 자들》, 에드워드 사이드의 《오리엔탈리즘》이 토대를 놓았다. 서양의 보편성 주장이 식민적 권력관계의 산물임을 폭로하고, 비서양의 주체적 서사를 복원한다.",
+    "tags": [
+      "탈식민",
+      "오리엔탈리즘",
+      "문화비판",
+      "서발턴"
+    ],
+    "relatedPersons": [
+      "edward-said",
+      "frantz-fanon"
+    ],
+    "relatedEntities": [
+      "postcolonialism",
+      "postcolonial-thought"
+    ]
+  },
+  {
+    "id": "ecofeminism",
+    "type": "ideology",
+    "name": {
+      "ko": "생태여성주의",
+      "en": "Ecofeminism"
+    },
+    "period": {
+      "start": 1974,
+      "end": 2000
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스, 인도, 미국"
+    },
+    "era": "contemporary",
+    "summary": "프랑수아즈 도본느가 명명(1974)한 페미니즘과 생태주의의 결합. 여성 억압과 자연 착취가 동일한 가부장적·이원론적 사고에서 비롯된다고 본다. 반다나 시바의 '약탈적 발전' 비판이 대표적이며, 돌봄·관계·상호의존의 가치를 중심에 놓는 대안적 세계관을 제시한다.",
+    "tags": [
+      "생태여성주의",
+      "페미니즘",
+      "생태학",
+      "돌봄"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "feminism",
+      "deep-ecology",
+      "environmentalism"
+    ]
+  },
+  {
+    "id": "mercantilism",
+    "type": "ideology",
+    "name": {
+      "ko": "중상주의",
+      "en": "Mercantilism"
+    },
+    "period": {
+      "start": 1500,
+      "end": 1800
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "유럽 (프랑스, 영국, 네덜란드)"
+    },
+    "era": "modern",
+    "summary": "16-18세기 유럽의 지배적 경제 이론·정책으로, 국부(國富)의 원천을 금·은의 축적에서 찾고 무역 흑자를 추구했다. 수출 장려, 수입 제한, 식민지 독점 무역, 국가의 경제 개입을 특징으로 한다. 애덤 스미스에 의해 비판되어 자유무역론의 대립 항으로 자리매김했다.",
+    "tags": [
+      "중상주의",
+      "무역",
+      "국부",
+      "식민지"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "classical-economics"
+    ]
+  },
+  {
+    "id": "classical-economics",
+    "type": "ideology",
+    "name": {
+      "ko": "고전경제학",
+      "en": "Classical Economics"
+    },
+    "period": {
+      "start": 1776,
+      "end": 1870
+    },
+    "location": {
+      "lat": 55.95,
+      "lng": -3.19,
+      "region": "영국 (에든버러, 런던)"
+    },
+    "era": "modern",
+    "summary": "애덤 스미스의 《국부론》(1776)에서 시작하여 리카도, 맬서스, 밀로 이어진 경제학의 기초. '보이지 않는 손', 분업, 비교우위, 자유무역, 노동가치론을 핵심으로 삼는다. 시장 메커니즘의 자율적 조절 능력을 신뢰하여 자유방임(laissez-faire) 정책을 옹호했다.",
+    "tags": [
+      "고전경제학",
+      "보이지않는손",
+      "자유무역",
+      "노동가치"
+    ],
+    "relatedPersons": [
+      "adam-smith",
+      "ricardo"
+    ],
+    "relatedEntities": [
+      "mercantilism",
+      "classical-liberalism"
+    ]
+  },
+  {
+    "id": "marginalism-neoclassical",
+    "type": "ideology",
+    "name": {
+      "ko": "한계효용학파 (신고전경제학)",
+      "en": "Marginalism / Neoclassical Economics"
+    },
+    "period": {
+      "start": 1871,
+      "end": 2000
+    },
+    "location": {
+      "lat": 48.21,
+      "lng": 16.37,
+      "region": "오스트리아, 영국, 스위스"
+    },
+    "era": "contemporary",
+    "summary": "제본스, 멩거, 왈라스가 1870년대에 독립적으로 발견한 한계효용 이론에서 시작된 경제학 혁명. 가치를 노동이 아닌 주관적 효용으로 설명하고, 수학적 모델링과 균형 분석을 도입했다. 마셜에 의해 종합되어 현대 주류 경제학(신고전학파)의 기초가 되었다.",
+    "tags": [
+      "한계효용",
+      "신고전학파",
+      "균형",
+      "수학적경제학"
+    ],
+    "relatedPersons": [
+      "marshall"
+    ],
+    "relatedEntities": [
+      "classical-economics",
+      "austrian-economics"
+    ]
+  },
+  {
+    "id": "keynesianism",
+    "type": "ideology",
+    "name": {
+      "ko": "케인스주의",
+      "en": "Keynesianism"
+    },
+    "period": {
+      "start": 1936,
+      "end": 2000
+    },
+    "location": {
+      "lat": 52.21,
+      "lng": 0.12,
+      "region": "영국 캠브리지"
+    },
+    "era": "contemporary",
+    "summary": "케인스의 《고용, 이자, 화폐의 일반이론》(1936)에서 출발한 거시경제학. 대공황의 경험을 바탕으로 시장의 자기조절 능력에 회의하고, 정부의 재정·통화 정책을 통한 유효수요 관리를 주장한다. 전후 서구 복지국가와 혼합경제의 이론적 기초가 되었다.",
+    "tags": [
+      "케인스주의",
+      "재정정책",
+      "유효수요",
+      "거시경제"
+    ],
+    "relatedPersons": [
+      "keynes"
+    ],
+    "relatedEntities": [
+      "classical-economics",
+      "chicago-school-monetarism"
+    ]
+  },
+  {
+    "id": "chicago-school-monetarism",
+    "type": "ideology",
+    "name": {
+      "ko": "시카고학파 (통화주의)",
+      "en": "Chicago School / Monetarism"
+    },
+    "period": {
+      "start": 1950,
+      "end": 2000
+    },
+    "location": {
+      "lat": 41.79,
+      "lng": -87.6,
+      "region": "미국 시카고"
+    },
+    "era": "contemporary",
+    "summary": "밀턴 프리드먼을 중심으로 한 자유시장 경제학파. 통화 공급의 안정적 관리가 경제 안정의 핵심이라고 주장하며, 케인스주의의 재정정책 중심 접근을 비판한다. 효율적 시장 가설, 합리적 기대이론, 규제 완화를 옹호하여 1980년대 이후 신자유주의 정책의 학술적 토대가 되었다.",
+    "tags": [
+      "통화주의",
+      "시카고학파",
+      "자유시장",
+      "규제완화"
+    ],
+    "relatedPersons": [
+      "friedman"
+    ],
+    "relatedEntities": [
+      "keynesianism",
+      "neoliberalism-ideology",
+      "austrian-economics"
+    ]
+  },
+  {
+    "id": "institutional-economics",
+    "type": "ideology",
+    "name": {
+      "ko": "제도경제학",
+      "en": "Institutional Economics"
+    },
+    "period": {
+      "start": 1899,
+      "end": 2000
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -74.01,
+      "region": "미국"
+    },
+    "era": "contemporary",
+    "summary": "베블런, 커먼스, 미첼이 창시하고 노스, 코스, 윌리엄슨이 발전시킨 경제학 전통. 시장을 제도·관습·법·조직의 산물로 보고, 제도적 맥락 없이 경제를 이해할 수 없다고 주장한다. 거래비용 이론, 소유권 이론 등으로 신고전학파의 추상적 시장 모델을 보완한다.",
+    "tags": [
+      "제도경제학",
+      "거래비용",
+      "제도",
+      "조직"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "marginalism-neoclassical",
+      "behavioral-economics"
+    ]
+  },
+  {
+    "id": "ecological-economics",
+    "type": "ideology",
+    "name": {
+      "ko": "생태경제학",
+      "en": "Ecological Economics"
+    },
+    "period": {
+      "start": 1966,
+      "end": 2000
+    },
+    "location": {
+      "lat": 38.9,
+      "lng": -77.04,
+      "region": "글로벌"
+    },
+    "era": "contemporary",
+    "summary": "경제를 생태계의 하위 체계로 보는 학제적 접근. 조르제스쿠-뢰겐의 엔트로피 경제학, 데일리의 정상상태 경제, 생태 발자국, 생태계 서비스 가치 평가를 포함한다. 무한 성장의 불가능성을 물리학적으로 논증하고, 지속 가능한 발전의 이론적 기초를 제공한다.",
+    "tags": [
+      "생태경제학",
+      "지속가능성",
+      "엔트로피",
+      "탈성장"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "environmentalism",
+      "deep-ecology",
+      "degrowth"
+    ]
   }
 ]

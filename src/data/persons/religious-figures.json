@@ -7261,26 +7261,65 @@
       "region": "인도 룸비니 (현 네팔)"
     },
     "category": "religious_figure",
-    "categories": ["religious_figure", "philosopher"],
+    "categories": [
+      "religious_figure",
+      "philosopher"
+    ],
     "subcategory": "buddhism_founder",
-    "tags": ["불교", "사성제", "팔정도", "연기", "중도", "무아", "열반", "명상"],
+    "tags": [
+      "불교",
+      "사성제",
+      "팔정도",
+      "연기",
+      "중도",
+      "무아",
+      "열반",
+      "명상"
+    ],
     "mvp": true,
     "summary": "불교의 창시자. 사성제와 팔정도를 통해 고통의 원인과 해탈의 길을 제시했으며, 카스트 제도를 부정하고 모든 존재의 평등과 자비를 가르쳤다. 그의 가르침은 아시아 전역으로 퍼져 세계 4대 종교 중 하나인 불교의 근간이 되었다.",
     "detailed": "석가족의 왕자 싯다르타 고타마로 태어나 풍요로운 궁정 생활을 했으나, 네 가지 만남(노인·병자·죽은 자·수행자)을 통해 인생의 고통을 자각하고 29세에 출가했다. 6년간의 고행 끝에 부다가야의 보리수 아래에서 연기(緣起)의 진리를 깨달아 붓다(깨달은 자)가 되었다. 45년간 인도 각지를 유행하며 사성제(고·집·멸·도), 팔정도, 십이연기, 삼법인(제행무상·일체개고·제법무아)을 설하였다. 카스트 제도와 브라만교의 제사 중심주의를 비판하고, 수행과 지혜를 통한 해탈의 길을 열었다. 그의 가르침은 제자들에 의해 경(Sutta)·율(Vinaya)·논(Abhidhamma)의 삼장으로 정리되었으며, 상좌부·대승·밀교 등 다양한 전통으로 발전하여 동아시아·동남아시아·티베트·중앙아시아 전역에 퍼졌다. 붓다의 연기론과 공(空) 사상은 나가르주나에 의해 심화되었고, 현대 철학과 심리학에도 깊은 영향을 미치고 있다.",
     "keyWorks": [
-      { "title": "직접 저술 없음 (제자들의 결집을 통해 경전으로 전승)" }
+      {
+        "title": "직접 저술 없음 (제자들의 결집을 통해 경전으로 전승)"
+      }
     ],
     "quotes": [
-      { "text": "천 개의 전투에서 천 번 이기는 것보다, 자기 자신을 이기는 자가 가장 위대한 정복자이다.", "source": "법구경" },
-      { "text": "모든 형성된 것은 무상하다. 게으르지 말고 정진하라.", "source": "대반열반경" },
-      { "text": "원한은 원한으로 풀리지 않고, 오직 원한을 놓음으로써 풀린다.", "source": "법구경" }
+      {
+        "text": "천 개의 전투에서 천 번 이기는 것보다, 자기 자신을 이기는 자가 가장 위대한 정복자이다.",
+        "source": "법구경"
+      },
+      {
+        "text": "모든 형성된 것은 무상하다. 게으르지 말고 정진하라.",
+        "source": "대반열반경"
+      },
+      {
+        "text": "원한은 원한으로 풀리지 않고, 오직 원한을 놓음으로써 풀린다.",
+        "source": "법구경"
+      }
     ],
     "influences": [],
-    "influenced": ["nagarjuna", "buddhaghosa", "vasubandhu", "asanga"],
+    "influenced": [
+      "nagarjuna",
+      "buddhaghosa",
+      "vasubandhu",
+      "asanga"
+    ],
     "religionId": "buddhism",
     "role": "창시자",
-    "school": ["불교"],
-    "concepts": ["사성제", "팔정도", "연기", "중도", "무아", "열반", "사마타-위빠사나", "삼법인"]
+    "school": [
+      "불교"
+    ],
+    "concepts": [
+      "사성제",
+      "팔정도",
+      "연기",
+      "중도",
+      "무아",
+      "열반",
+      "사마타-위빠사나",
+      "삼법인"
+    ]
   },
   {
     "id": "pope-francis",
@@ -7295,14 +7334,22 @@
       "end": 2025
     },
     "location": {
-      "lat": 41.90,
+      "lat": 41.9,
       "lng": 12.45,
       "region": "바티칸/아르헨티나 부에노스아이레스"
     },
     "category": "religious_figure",
-    "categories": ["religious_figure"],
+    "categories": [
+      "religious_figure"
+    ],
     "subcategory": "christianity_modern",
-    "tags": ["가톨릭", "교황", "사회정의", "종교개혁", "환경"],
+    "tags": [
+      "가톨릭",
+      "교황",
+      "사회정의",
+      "종교개혁",
+      "환경"
+    ],
     "mvp": true,
     "summary": "제266대 로마 가톨릭 교회 교황(2013-2025)으로, 역사상 최초의 예수회 출신이자 아메리카 대륙 출신 교황. 겸손과 검소한 생활, 가난한 자들을 위한 교회, 환경 보호, 종교 간 대화를 강조하며 가톨릭 교회의 개혁을 추구했다.",
     "detailed": "호르헤 마리오 베르골료는 1936년 아르헨티나 부에노스아이레스에서 이탈리아 이민자 가정에 태어났다. 화학 기술자로 일하다 21세에 예수회에 입회하여 사제가 되었으며, 아르헨티나 예수회 관구장과 부에노스아이레스 대주교를 역임했다. 2013년 3월 교황으로 선출되어 아시시의 프란치스코 성인의 이름을 택했는데, 이는 가난과 평화에 대한 헌신을 상징한다. 교황으로서 호화로운 교황 아파트 대신 게스트하우스에 거주하고, 교황 전용차 대신 소형차를 이용하는 등 검소한 생활로 큰 반향을 일으켰다. 2015년 회칙 《찬미받으소서(Laudato Si')》에서 기후변화와 환경 파괴에 대한 강력한 경고를 발하며 환경 보호를 도덕적 의무로 제시했다. 가톨릭 교회 내부에서는 이혼 재혼 신자에 대한 유연한 태도, 동성애자에 대한 포용적 발언, 교회 관료주의 개혁 등으로 진보적 변화를 추구했다. 이슬람, 유대교, 불교 지도자들과의 적극적 대화를 통해 종교 간 화해에도 기여했다. 2025년 4월 선종했다.",
@@ -7346,9 +7393,17 @@
       "region": "영국 런던"
     },
     "category": "religious_figure",
-    "categories": ["religious_figure", "philosopher"],
+    "categories": [
+      "religious_figure",
+      "philosopher"
+    ],
     "subcategory": "christianity_modern",
-    "tags": ["종교학", "비교종교", "동정의헌장", "종교간대화"],
+    "tags": [
+      "종교학",
+      "비교종교",
+      "동정의헌장",
+      "종교간대화"
+    ],
     "mvp": true,
     "summary": "비교종교학의 대가로, 이슬람, 기독교, 유대교, 불교 등 세계 종교의 핵심 가르침이 동정(compassion)이라는 공통 원리로 수렴됨을 보여준 영국의 종교학자이자 작가. '동정의 헌장(Charter for Compassion)' 운동을 창시하여 종교 간 대화와 평화에 기여했다.",
     "detailed": "카렌 암스트롱은 1944년 영국 워스터셔에서 태어나 17세에 가톨릭 수녀회에 입회했으나 7년 후 탈퇴하고 옥스퍼드에서 영문학을 전공했다. 이후 비교종교학 연구에 전념하여 《신의 역사》, 《이슬람》, 《축의 시대》 등 수십 권의 저서를 통해 세계 종교의 역사와 본질을 대중에게 전달하는 탁월한 저술가가 되었다. 《신의 역사》에서 유대교, 기독교, 이슬람 3대 유일신교의 신 개념이 어떻게 진화해왔는지를 추적하며, 종교적 진리가 고정된 교리가 아니라 인간 경험과 함께 변화하는 것임을 보여주었다. 《축의 시대》에서는 기원전 800-200년경 전 세계에서 동시다발적으로 나타난 위대한 사상적 혁명을 분석하여, 공자, 붓다, 소크라테스, 예레미야 등이 공통적으로 동정과 자비를 가르쳤음을 밝혔다. 2008년 TED 상 수상을 계기로 '동정의 헌장(Charter for Compassion)'을 발표하여 종교와 세속의 경계를 넘어 동정을 인류 윤리의 핵심으로 회복하려는 글로벌 운동을 이끌고 있다.",
@@ -7379,5 +7434,1910 @@
     "influenced": [],
     "religionId": "christianity",
     "role": "종교학자/저술가"
+  },
+  {
+    "id": "jakob-boehme",
+    "name": {
+      "ko": "야콥 뵈메",
+      "en": "Jakob Böhme",
+      "original": "Jakob Böhme"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1575,
+      "end": 1624
+    },
+    "location": {
+      "lat": 51.08,
+      "lng": 14.97,
+      "region": "독일 괴를리츠"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_mysticism",
+    "tags": [
+      "기독교 신비주의",
+      "신지학",
+      "독일 신비주의",
+      "연금술"
+    ],
+    "mvp": false,
+    "summary": "독일의 기독교 신비주의자이자 신지학의 선구자. 구두 수선공이었으나 신비 체험을 통해 신과 자연, 선과 악의 관계에 대한 심오한 신지학적 저술을 남겼다. 그의 사상은 독일 관념론, 낭만주의, 러시아 종교철학에 깊은 영향을 미쳤다.",
+    "detailed": "",
+    "religionId": "christianity",
+    "role": "신비주의자/신지학자"
+  },
+  {
+    "id": "emanuel-swedenborg",
+    "name": {
+      "ko": "에마누엘 스베덴보리",
+      "en": "Emanuel Swedenborg",
+      "original": "Emanuel Swedenborg"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1688,
+      "end": 1772
+    },
+    "location": {
+      "lat": 59.33,
+      "lng": 18.07,
+      "region": "스웨덴 스톡홀름"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_mysticism",
+    "tags": [
+      "기독교 신비주의",
+      "영계",
+      "스베덴보리주의",
+      "과학자"
+    ],
+    "mvp": false,
+    "summary": "스웨덴의 과학자이자 신비가. 56세부터 영적 비전을 경험하며 천국과 지옥, 영계의 구조에 대한 방대한 신학 저술을 남겼다. 그의 사후 스베덴보리교회(신교회)가 설립되었으며, 블레이크, 에머슨, 보르헤스 등 수많은 사상가와 예술가에게 영향을 주었다.",
+    "detailed": "",
+    "religionId": "christianity",
+    "role": "신비주의자/신학자"
+  },
+  {
+    "id": "julian-of-norwich",
+    "name": {
+      "ko": "줄리안 오브 노리치",
+      "en": "Julian of Norwich",
+      "original": "Julian of Norwich"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1343,
+      "end": 1416,
+      "approximate": true
+    },
+    "location": {
+      "lat": 52.63,
+      "lng": 1.3,
+      "region": "영국 노리치"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_mysticism",
+    "tags": [
+      "기독교 신비주의",
+      "여성 신비가",
+      "은수자",
+      "신의 사랑"
+    ],
+    "mvp": false,
+    "summary": "영국의 중세 기독교 신비가이자 은수자. 중병 중 16가지 신비 체험(계시)을 경험하고 이를 《신적 사랑의 계시》에 기록했다. '모든 것이 잘 될 것이다'라는 메시지와 하나님의 모성적 사랑을 강조한 최초의 영어권 여성 저술가이다.",
+    "detailed": "",
+    "religionId": "christianity",
+    "role": "신비주의자/은수자"
+  },
+  {
+    "id": "elizabeth-of-schonau",
+    "name": {
+      "ko": "엘리자베스 오브 숀나우",
+      "en": "Elizabeth of Schönau",
+      "original": "Elisabeth von Schönau"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1129,
+      "end": 1165
+    },
+    "location": {
+      "lat": 50.2,
+      "lng": 7.78,
+      "region": "독일 숀나우"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_mysticism",
+    "tags": [
+      "기독교 신비주의",
+      "여성 신비가",
+      "베네딕토회",
+      "비전"
+    ],
+    "mvp": false,
+    "summary": "독일의 베네딕토회 수녀이자 신비가. 23세부터 비전과 황홀경을 경험하며 이를 기록한 《비전의 서》를 남겼다. 힐데가르트 폰 빙엔과 서신을 교환하며 12세기 여성 신비주의 전통의 중요한 인물이 되었다.",
+    "detailed": "",
+    "religionId": "christianity",
+    "role": "수녀/신비주의자"
+  },
+  {
+    "id": "ibrahim-ibn-adham",
+    "name": {
+      "ko": "이브라힘 이븐 아드함",
+      "en": "Ibrahim ibn Adham",
+      "original": "إبراهيم بن أدهم"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 718,
+      "end": 782,
+      "approximate": true
+    },
+    "location": {
+      "lat": 36.2,
+      "lng": 37.16,
+      "region": "시리아/호라산"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_sufism",
+    "tags": [
+      "수피즘",
+      "금욕주의",
+      "이슬람 신비주의",
+      "호라산"
+    ],
+    "mvp": false,
+    "summary": "초기 수피즘의 핵심 인물. 발흐(호라산)의 왕자였으나 세속적 삶을 포기하고 금욕적 영적 수행의 길을 택했다. 그의 회심 이야기는 이슬람판 '붓다 이야기'로 불리며, 수피 전통에서 포기와 신뢰(타와쿨)의 이상을 상징한다.",
+    "detailed": "",
+    "religionId": "islam",
+    "role": "수피 성자/금욕가"
+  },
+  {
+    "id": "junayd-al-baghdadi",
+    "name": {
+      "ko": "주나이드 알바그다디",
+      "en": "Junayd of Baghdad",
+      "original": "الجنيد البغدادي"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 830,
+      "end": 910,
+      "approximate": true
+    },
+    "location": {
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "이라크 바그다드"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_sufism",
+    "tags": [
+      "수피즘",
+      "바그다드 학파",
+      "절제적 수피즘",
+      "파나"
+    ],
+    "mvp": false,
+    "summary": "이슬람 수피즘의 핵심 이론가이자 '절제적 수피즘(sober Sufism)'의 대표자. 자아의 소멸(파나)과 신과의 합일을 추구하면서도 샤리아(이슬람법)의 틀 안에서 신비 체험을 해석했다. 만수르 알할라지의 스승이자, 바그다드 수피 학파의 지도자였다.",
+    "detailed": "",
+    "religionId": "islam",
+    "role": "수피 신비가/이론가"
+  },
+  {
+    "id": "farid-al-din-attar",
+    "name": {
+      "ko": "파리드 앗딘 아타르",
+      "en": "Farid al-Din Attar",
+      "original": "فرید الدین عطار"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1145,
+      "end": 1221,
+      "approximate": true
+    },
+    "location": {
+      "lat": 36.21,
+      "lng": 58.8,
+      "region": "이란 니샤푸르"
+    },
+    "category": "religious_figure",
+    "subcategory": "islam_sufism",
+    "tags": [
+      "수피즘",
+      "페르시아 시인",
+      "신비시",
+      "새들의 회의"
+    ],
+    "mvp": false,
+    "summary": "페르시아의 수피 시인이자 약재상(아타르). 대표작 《새들의 회의(만티크 앗타이르)》에서 30마리 새가 신비로운 왕새 시무르그를 찾아가는 여정을 통해 영혼의 신과의 합일 과정을 비유적으로 묘사했다. 루미에게 깊은 영향을 준 수피 문학의 거장이다.",
+    "detailed": "",
+    "religionId": "islam",
+    "role": "수피 시인/신비가"
+  },
+  {
+    "id": "marie-laveau",
+    "name": {
+      "ko": "마리 라보",
+      "en": "Marie Laveau",
+      "original": "Marie Laveau"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1801,
+      "end": 1881
+    },
+    "location": {
+      "lat": 29.96,
+      "lng": -90.07,
+      "region": "미국 뉴올리언스"
+    },
+    "category": "religious_figure",
+    "subcategory": "folk_religion",
+    "tags": [
+      "부두교",
+      "뉴올리언스",
+      "민속종교",
+      "치유"
+    ],
+    "mvp": false,
+    "summary": "뉴올리언스 부두(Voodoo)의 여왕으로 불리는 전설적 인물. 아프리카 전통 종교, 가톨릭, 크레올 문화를 융합한 독특한 영성 체계를 실천했다. 치유 의식, 주술, 상담으로 뉴올리언스의 모든 계층에 영향력을 행사했으며, 미국 민속종교사의 상징적 인물이다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "부두 사제/치유자"
+  },
+  {
+    "id": "max-beauvoir",
+    "name": {
+      "ko": "맥스 보부아르",
+      "en": "Max Beauvoir",
+      "original": "Max Gesner Beauvoir"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1936,
+      "end": 2015
+    },
+    "location": {
+      "lat": 18.54,
+      "lng": -72.34,
+      "region": "아이티 포르토프랭스"
+    },
+    "category": "religious_figure",
+    "subcategory": "folk_religion",
+    "tags": [
+      "부두교",
+      "아이티",
+      "훈간",
+      "아프리카 전통종교"
+    ],
+    "mvp": false,
+    "summary": "아이티 부두교의 최고 사제(Supreme Servitur). 생화학 박사 출신으로 1974년 할아버지의 임종 시 부두교 사제직을 계승했다. 부두교가 미신이 아닌 정당한 종교임을 국제사회에 알리며, 2003년 아이티 정부로부터 공식 종교로 인정받는 데 기여했다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "부두교 최고 사제"
+  },
+  {
+    "id": "kim-geum-hwa",
+    "name": {
+      "ko": "김금화",
+      "en": "Kim Geum-hwa"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1931,
+      "end": 2019
+    },
+    "location": {
+      "lat": 38,
+      "lng": 126.56,
+      "region": "황해도/인천"
+    },
+    "category": "religious_figure",
+    "subcategory": "shamanism",
+    "tags": [
+      "무속",
+      "만신",
+      "황해도굿",
+      "한국 샤머니즘"
+    ],
+    "mvp": false,
+    "summary": "한국의 대표적 무속인(만신)이자 중요무형문화재 보유자. 황해도 굿의 전통을 계승하여 한국 무속의 예술적·종교적 가치를 보존하고 세계에 알렸다. 한국 샤머니즘의 살아 있는 전통을 대표하는 인물이다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "만신(무속인)/무형문화재"
+  },
+  {
+    "id": "black-elk",
+    "name": {
+      "ko": "블랙 엘크",
+      "en": "Black Elk",
+      "original": "Heȟáka Sápa"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1863,
+      "end": 1950
+    },
+    "location": {
+      "lat": 43.88,
+      "lng": -102.34,
+      "region": "미국 사우스다코타"
+    },
+    "category": "religious_figure",
+    "subcategory": "indigenous_spirituality",
+    "tags": [
+      "라코타",
+      "원주민 영성",
+      "비전",
+      "아메리카 원주민"
+    ],
+    "mvp": false,
+    "summary": "라코타(수족) 오글랄라 부족의 성자이자 치유자(메디신 맨). 9세에 경험한 위대한 비전을 존 나이하르트에게 구술한 《블랙 엘크가 말하다》는 아메리카 원주민 영성의 가장 중요한 기록으로 평가받는다. 라코타의 우주관과 영적 전통을 세계에 알린 인물이다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "성자/치유자(메디신 맨)"
+  },
+  {
+    "id": "white-buffalo-woman",
+    "name": {
+      "ko": "백색 들소 여인",
+      "en": "White Buffalo Calf Woman",
+      "original": "Ptesáŋwiŋ"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -1000,
+      "end": -500,
+      "approximate": true
+    },
+    "location": {
+      "lat": 44.37,
+      "lng": -100.35,
+      "region": "북미 대평원"
+    },
+    "category": "religious_figure",
+    "subcategory": "indigenous_spirituality",
+    "tags": [
+      "라코타",
+      "원주민 영성",
+      "성스러운 파이프",
+      "신화적 인물"
+    ],
+    "mvp": false,
+    "summary": "라코타 족의 가장 신성한 전설적 존재. 성스러운 파이프(찬눈파)와 일곱 가지 신성한 의식을 라코타 민족에게 전해주었다고 전해진다. 하얀 들소 송아지로 변신하여 떠났으며, 아메리카 원주민 영성에서 가장 중요한 영적 존재 중 하나이다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "신성한 존재/전설적 교사"
+  },
+  {
+    "id": "don-juan-matus",
+    "name": {
+      "ko": "돈 후안 마투스",
+      "en": "Don Juan Matus",
+      "original": "Don Juan Matus"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1891,
+      "end": 1973,
+      "approximate": true
+    },
+    "location": {
+      "lat": 27.49,
+      "lng": -109.94,
+      "region": "멕시코 소노라"
+    },
+    "category": "religious_figure",
+    "subcategory": "indigenous_spirituality",
+    "tags": [
+      "톨텍 전통",
+      "샤머니즘",
+      "카스타네다",
+      "나우알리즘"
+    ],
+    "mvp": false,
+    "summary": "카를로스 카스타네다의 저서에 등장하는 야키 인디언 주술사(나왈). 톨텍 전통의 '보는 자(seer)'로서 비일상적 현실, 힘의 장소, 의식 확장에 대한 가르침을 전했다. 실존 여부에 논란이 있으나, 20세기 뉴에이지 영성에 지대한 영향을 미쳤다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "주술사/나왈"
+  },
+  {
+    "id": "motoori-norinaga",
+    "name": {
+      "ko": "모토오리 노리나가",
+      "en": "Motoori Norinaga",
+      "original": "本居宣長"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1730,
+      "end": 1801
+    },
+    "location": {
+      "lat": 34.73,
+      "lng": 136.51,
+      "region": "일본 이세(마츠사카)"
+    },
+    "category": "religious_figure",
+    "subcategory": "shinto",
+    "tags": [
+      "신토",
+      "국학",
+      "고사기",
+      "모노노아와레"
+    ],
+    "mvp": false,
+    "summary": "일본 국학(코쿠가쿠)의 대성자이자 신토 부흥 운동의 핵심 인물. 《고사기전》을 저술하여 일본 고유의 신화와 정신세계를 체계화했으며, '모노노아와레(もののあわれ, 사물의 정취)'라는 미학적 개념을 확립했다. 유교·불교의 외래 영향을 배제한 순수 일본 정신의 복원을 추구했다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "국학자/신토 이론가"
+  },
+  {
+    "id": "hirata-atsutane",
+    "name": {
+      "ko": "히라타 아츠타네",
+      "en": "Hirata Atsutane",
+      "original": "平田篤胤"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1776,
+      "end": 1843
+    },
+    "location": {
+      "lat": 39.72,
+      "lng": 140.1,
+      "region": "일본 아키타"
+    },
+    "category": "religious_figure",
+    "subcategory": "shinto",
+    "tags": [
+      "신토",
+      "국학",
+      "복고신도",
+      "사후세계"
+    ],
+    "mvp": false,
+    "summary": "일본 국학의 4대 대가 중 하나이자 복고신도(復古神道)의 이론가. 모토오리 노리나가의 사상을 계승하면서도 신토의 사후세계관과 영혼론을 체계적으로 발전시켰다. 유령과 영혼에 대한 독자적 이론을 전개하여 메이지 유신 이후 국가 신도의 사상적 기반을 마련했다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "국학자/복고신도 이론가"
+  },
+  {
+    "id": "joseph-smith",
+    "name": {
+      "ko": "조셉 스미스",
+      "en": "Joseph Smith",
+      "original": "Joseph Smith Jr."
+    },
+    "era": "modern",
+    "period": {
+      "start": 1805,
+      "end": 1844
+    },
+    "location": {
+      "lat": 42.94,
+      "lng": -76.56,
+      "region": "미국 뉴욕주"
+    },
+    "category": "religious_figure",
+    "subcategory": "new_religion",
+    "tags": [
+      "몰몬교",
+      "후기성도",
+      "모르몬경",
+      "미국 종교"
+    ],
+    "mvp": false,
+    "summary": "예수 그리스도 후기 성도 교회(몰몬교)의 창시자. 1820년 '첫번째 시현'에서 하나님과 예수를 만났다고 주장하며, 1830년 금판에서 번역했다는 《모르몬경》을 출판하고 교회를 설립했다. 미국에서 탄생한 가장 성공적인 신종교의 창시자로 평가받는다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "몰몬교 창시자/예언자"
+  },
+  {
+    "id": "brigham-young",
+    "name": {
+      "ko": "브리검 영",
+      "en": "Brigham Young",
+      "original": "Brigham Young"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1801,
+      "end": 1877
+    },
+    "location": {
+      "lat": 40.76,
+      "lng": -111.89,
+      "region": "미국 솔트레이크시티"
+    },
+    "category": "religious_figure",
+    "subcategory": "new_religion",
+    "tags": [
+      "몰몬교",
+      "후기성도",
+      "유타",
+      "종교 지도자"
+    ],
+    "mvp": false,
+    "summary": "예수 그리스도 후기 성도 교회의 제2대 회장이자 유타 준주의 초대 주지사. 조셉 스미스 사후 교회를 이끌고 1847년 성도들의 대이동을 지휘하여 솔트레이크 밸리에 정착시켰다. 행정적·조직적 천재로서 몰몬교를 지속 가능한 종교 공동체로 발전시켰다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "몰몬교 제2대 회장/지도자"
+  },
+  {
+    "id": "mary-baker-eddy",
+    "name": {
+      "ko": "메리 베이커 에디",
+      "en": "Mary Baker Eddy",
+      "original": "Mary Baker Eddy"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1821,
+      "end": 1910
+    },
+    "location": {
+      "lat": 42.36,
+      "lng": -71.06,
+      "region": "미국 보스턴"
+    },
+    "category": "religious_figure",
+    "subcategory": "new_religion",
+    "tags": [
+      "크리스천 사이언스",
+      "영적 치유",
+      "미국 종교",
+      "여성 종교 지도자"
+    ],
+    "mvp": false,
+    "summary": "크리스천 사이언스(그리스도 과학교)의 창시자. 1866년 낙상 후 치유 경험을 계기로 영적 치유의 원리를 탐구하여 《과학과 건강》(1875)을 저술했다. 물질과 질병의 비실재성을 주장하며 기도를 통한 치유를 강조한 독특한 신학 체계를 수립했다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "크리스천 사이언스 창시자"
+  },
+  {
+    "id": "sun-myung-moon",
+    "name": {
+      "ko": "문선명",
+      "en": "Sun Myung Moon",
+      "original": "文鮮明"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1920,
+      "end": 2012
+    },
+    "location": {
+      "lat": 39,
+      "lng": 125.75,
+      "region": "평안북도/한국"
+    },
+    "category": "religious_figure",
+    "subcategory": "new_religion",
+    "tags": [
+      "통일교",
+      "세계평화통일가정연합",
+      "한국 신종교",
+      "국제 결혼"
+    ],
+    "mvp": false,
+    "summary": "세계평화통일가정연합(통일교)의 창시자. 1954년 서울에서 교회를 설립하고 《원리강론》을 기본 교리로 삼아 전 세계적 종교 운동을 전개했다. 대규모 합동결혼식으로 유명하며, 반공 운동, 언론, 사업 등 다양한 분야에서 국제적 영향력을 행사한 논쟁적 종교 지도자이다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "통일교 창시자"
+  },
+  {
+    "id": "l-ron-hubbard",
+    "name": {
+      "ko": "L. 론 허바드",
+      "en": "L. Ron Hubbard",
+      "original": "Lafayette Ronald Hubbard"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1911,
+      "end": 1986
+    },
+    "location": {
+      "lat": 34.05,
+      "lng": -118.24,
+      "region": "미국 캘리포니아"
+    },
+    "category": "religious_figure",
+    "subcategory": "new_religion",
+    "tags": [
+      "사이언톨로지",
+      "다이어네틱스",
+      "미국 종교",
+      "SF 작가"
+    ],
+    "mvp": false,
+    "summary": "사이언톨로지 교회의 창시자. SF 작가로 활동하다 1950년 《다이어네틱스》를 출판하여 정신 치유 체계를 제안했고, 이를 발전시켜 1954년 사이언톨로지 교회를 설립했다. 세탄(thetan), 오디팅(auditing) 등 독자적 개념 체계를 수립하여 논쟁적이지만 영향력 있는 현대 신종교를 창시했다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "사이언톨로지 창시자"
+  },
+  {
+    "id": "abdul-baha",
+    "name": {
+      "ko": "압둘 바하",
+      "en": "Abdu'l-Bahá",
+      "original": "عبد البهاء"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1844,
+      "end": 1921
+    },
+    "location": {
+      "lat": 32.82,
+      "lng": 34.99,
+      "region": "이스라엘 하이파/이란"
+    },
+    "category": "religious_figure",
+    "subcategory": "other_religion",
+    "tags": [
+      "바하이",
+      "종교 통합",
+      "세계 평화",
+      "바하울라"
+    ],
+    "mvp": false,
+    "summary": "바하이 신앙의 창시자 바하울라의 장남이자 후계자로 지정된 '언약의 중심'. 아버지 바하울라의 가르침을 해석하고 바하이 공동체를 조직화하며, 유럽과 북미 순방을 통해 바하이 신앙을 국제적으로 확산시켰다. 인종 평등, 남녀 평등, 세계 평화에 대한 강연으로 널리 알려졌다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "바하이 지도자/해석자"
+  },
+  {
+    "id": "aleister-crowley",
+    "name": {
+      "ko": "알레이스터 크로울리",
+      "en": "Aleister Crowley",
+      "original": "Aleister Crowley"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1875,
+      "end": 1947
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "religious_figure",
+    "subcategory": "esoteric",
+    "tags": [
+      "텔레마",
+      "마법",
+      "오컬트",
+      "황금여명회"
+    ],
+    "mvp": false,
+    "summary": "텔레마(Thelema) 종교의 창시자이자 20세기 가장 영향력 있는 오컬티스트. 황금여명회 회원으로 활동한 후 독자적으로 '텔레마'를 창시하여 '그대의 의지를 행하라, 그것이 법의 전부'를 핵심 교리로 삼았다. 《법의 서》를 계시받았다고 주장하며, 현대 마법(Magick) 전통에 지대한 영향을 미쳤다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "텔레마 창시자/오컬티스트"
+  },
+  {
+    "id": "rudolf-steiner",
+    "name": {
+      "ko": "루돌프 슈타이너",
+      "en": "Rudolf Steiner",
+      "original": "Rudolf Joseph Lorenz Steiner"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1861,
+      "end": 1925
+    },
+    "location": {
+      "lat": 47.55,
+      "lng": 7.59,
+      "region": "오스트리아/스위스 도르나흐"
+    },
+    "category": "religious_figure",
+    "subcategory": "esoteric",
+    "tags": [
+      "인지학",
+      "발도르프 교육",
+      "생명역동 농업",
+      "영적 과학"
+    ],
+    "mvp": false,
+    "summary": "인지학(Anthroposophy)의 창시자. 신지학회에서 활동한 후 1912년 독자적으로 인지학회를 설립하여 영적 세계에 대한 과학적 접근을 추구했다. 발도르프 교육, 생명역동(바이오다이내믹) 농업, 인지학 의학, 오이리트미 예술 등 다양한 실천 분야를 창시하여 광범위한 문화적 영향을 미쳤다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "인지학 창시자/영적 과학자"
+  },
+  {
+    "id": "nostradamus",
+    "name": {
+      "ko": "노스트라다무스",
+      "en": "Nostradamus",
+      "original": "Michel de Nostredame"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1503,
+      "end": 1566
+    },
+    "location": {
+      "lat": 43.84,
+      "lng": 5.4,
+      "region": "프랑스 살롱드프로방스"
+    },
+    "category": "religious_figure",
+    "subcategory": "esoteric",
+    "tags": [
+      "예언",
+      "점성술",
+      "르네상스",
+      "프랑스"
+    ],
+    "mvp": false,
+    "summary": "프랑스의 약제사, 점성술사이자 역사상 가장 유명한 예언가. 1555년 출판한 《예언집(Les Prophéties)》에 4행시(카트랭) 형식으로 942편의 예언을 기록했다. 프랑스 혁명, 나폴레옹, 세계대전 등을 예언했다는 해석이 있으며, 수세기에 걸쳐 지속적으로 재해석되고 있다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "예언가/점성술사"
+  },
+  {
+    "id": "john-dee",
+    "name": {
+      "ko": "존 디",
+      "en": "John Dee",
+      "original": "John Dee"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1527,
+      "end": 1608
+    },
+    "location": {
+      "lat": 51.47,
+      "lng": -0.29,
+      "region": "영국 런던"
+    },
+    "category": "religious_figure",
+    "subcategory": "esoteric",
+    "tags": [
+      "마법",
+      "에녹 마법",
+      "수학",
+      "엘리자베스 시대"
+    ],
+    "mvp": false,
+    "summary": "엘리자베스 1세 시대의 수학자, 천문학자이자 오컬티스트. 르네상스 최고의 학자 중 하나로 수학, 항해술, 암호학에 정통했으나, 에드워드 켈리와 함께 천사와의 교신을 시도하여 에녹 마법(Enochian magic) 체계를 발전시켰다. 학문과 마법의 경계에 선 르네상스인의 전형이다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "학자/오컬티스트"
+  },
+  {
+    "id": "cornelius-agrippa",
+    "name": {
+      "ko": "하인리히 코르넬리우스 아그리파",
+      "en": "Heinrich Cornelius Agrippa",
+      "original": "Heinrich Cornelius Agrippa von Nettesheim"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1486,
+      "end": 1535
+    },
+    "location": {
+      "lat": 50.94,
+      "lng": 6.96,
+      "region": "독일 쾰른"
+    },
+    "category": "religious_figure",
+    "subcategory": "esoteric",
+    "tags": [
+      "오컬트 철학",
+      "르네상스 마법",
+      "카발라",
+      "헤르메스주의"
+    ],
+    "mvp": false,
+    "summary": "르네상스 시대 최고의 오컬트 철학자. 대표작 《오컬트 철학 3부작》에서 자연 마법, 천상 마법, 의식 마법의 체계를 종합하여 서양 마법 전통의 백과사전을 완성했다. 카발라, 신플라톤주의, 헤르메스주의를 융합한 그의 체계는 이후 서양 신비주의에 근본적 영향을 미쳤다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "오컬트 철학자/마법사"
+  },
+  {
+    "id": "eliphas-levi",
+    "name": {
+      "ko": "엘리파스 레비",
+      "en": "Éliphas Lévi",
+      "original": "Alphonse Louis Constant"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1810,
+      "end": 1875
+    },
+    "location": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "region": "프랑스 파리"
+    },
+    "category": "religious_figure",
+    "subcategory": "esoteric",
+    "tags": [
+      "오컬트",
+      "타로",
+      "카발라",
+      "마법 부흥"
+    ],
+    "mvp": false,
+    "summary": "19세기 서양 오컬트 부흥의 아버지. 본명 알퐁스 루이 콩스탕으로, 가톨릭 신학생 출신이다. 《초월적 마법의 교리와 의식》에서 마법을 과학적·철학적으로 체계화하고, 타로와 카발라의 연관성을 확립했다. 바포메트 이미지를 재해석하여 현대 오컬트 도상학에 큰 영향을 주었다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "오컬티스트/마법 이론가"
+  },
+  {
+    "id": "macgregor-mathers",
+    "name": {
+      "ko": "맥그리거 매더스",
+      "en": "MacGregor Mathers",
+      "original": "Samuel Liddell MacGregor Mathers"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1854,
+      "end": 1918
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던/프랑스 파리"
+    },
+    "category": "religious_figure",
+    "subcategory": "esoteric",
+    "tags": [
+      "황금여명회",
+      "마법",
+      "카발라",
+      "에녹 마법"
+    ],
+    "mvp": false,
+    "summary": "황금여명회(Golden Dawn)의 공동 창립자이자 핵심 지도자. 에녹 마법, 카발라, 타로, 연금술 등 서양 신비주의 전통을 종합하여 현대 의식 마법(ceremonial magic)의 체계를 수립했다. 크로울리, 예이츠 등 수많은 제자들을 통해 20세기 오컬트 전통에 결정적 영향을 미쳤다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "황금여명회 창립자/마법사"
+  },
+  {
+    "id": "dion-fortune",
+    "name": {
+      "ko": "디온 포춘",
+      "en": "Dion Fortune",
+      "original": "Violet Mary Firth Evans"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1890,
+      "end": 1946
+    },
+    "location": {
+      "lat": 51.34,
+      "lng": -2.98,
+      "region": "영국 글래스턴베리"
+    },
+    "category": "religious_figure",
+    "subcategory": "esoteric",
+    "tags": [
+      "서양 신비주의",
+      "내적 빛 협회",
+      "심리학적 마법",
+      "여성 오컬티스트"
+    ],
+    "mvp": false,
+    "summary": "영국의 오컬티스트이자 '내적 빛 협회(Society of the Inner Light)' 창립자. 심리학과 서양 신비주의를 결합하여 마법을 '의지에 따른 의식의 변화'로 재정의했다. 《신비 카발라》, 《심령적 자기방어》 등의 저서를 통해 현대 서양 오컬트와 위카(Wicca) 전통에 깊은 영향을 미쳤다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "오컬티스트/작가"
+  },
+  {
+    "id": "madame-blavatsky",
+    "name": {
+      "ko": "헬레나 블라바츠키",
+      "en": "Helena Blavatsky",
+      "original": "Елена Петровна Блаватская"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1831,
+      "end": 1891
+    },
+    "location": {
+      "lat": 19.08,
+      "lng": 72.88,
+      "region": "러시아/인도/미국"
+    },
+    "category": "religious_figure",
+    "subcategory": "esoteric",
+    "tags": [
+      "신지학",
+      "신지학회",
+      "동서양 융합",
+      "비교종교"
+    ],
+    "mvp": false,
+    "summary": "신지학회(Theosophical Society)의 공동 창립자이자 현대 신지학의 어머니. 러시아 출신으로 전 세계를 여행하며 힌두교, 불교, 카발라, 헤르메스주의 등을 종합한 독자적 영적 체계를 수립했다. 《비밀 교리》, 《베일 벗긴 이시스》를 통해 동양 사상의 서양 전파에 크게 기여했으며, 뉴에이지 운동의 선구자로 평가받는다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "신지학회 창립자/신비주의자"
+  },
+  {
+    "id": "yashodhara",
+    "name": {
+      "ko": "야소다라",
+      "en": "Yaśodharā",
+      "original": "यशोधरा"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -563,
+      "end": -483,
+      "approximate": true
+    },
+    "location": {
+      "lat": 27.47,
+      "lng": 83.28,
+      "region": "인도 카필라바스투"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism",
+    "tags": [
+      "불교",
+      "싯다르타의 아내",
+      "비구니",
+      "여성 수행자"
+    ],
+    "mvp": false,
+    "summary": "싯다르타 고타마(붓다)의 아내이자 라훌라의 어머니. 남편이 출가한 후에도 궁중에서 수행 생활을 하다가, 붓다가 깨달음을 얻고 돌아온 후 비구니로 출가하여 아라한과(깨달음)를 얻었다고 전한다. 초기 불교에서 여성 수행의 가능성을 보여준 중요한 인물이다.",
+    "detailed": "",
+    "religionId": "buddhism",
+    "role": "비구니/붓다의 아내"
+  },
+  {
+    "id": "yeshe-tsogyal",
+    "name": {
+      "ko": "예셰 초걀",
+      "en": "Yeshe Tsogyal",
+      "original": "ཡེ་ཤེས་མཚོ་རྒྱལ"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 757,
+      "end": 817,
+      "approximate": true
+    },
+    "location": {
+      "lat": 29.65,
+      "lng": 91.1,
+      "region": "티베트"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_tibetan",
+    "tags": [
+      "티베트 불교",
+      "닝마파",
+      "여성 수행자",
+      "파드마삼바바"
+    ],
+    "mvp": false,
+    "summary": "티베트 불교 닝마파의 가장 중요한 여성 성자. 파드마삼바바(연화생)의 수제자이자 배우자로, 스승의 비밀 가르침(떼르마)을 기록하고 은닉하여 후대에 전했다. '지혜의 호수의 여왕'이라는 의미의 이름을 가지며, 티베트 불교에서 여성 깨달음의 이상으로 존경받는다.",
+    "detailed": "",
+    "religionId": "buddhism",
+    "role": "여성 성자/떼르마 기록자"
+  },
+  {
+    "id": "machig-labdron",
+    "name": {
+      "ko": "마치그 랍드론",
+      "en": "Machig Labdrön",
+      "original": "མ་གཅིག་ལབ་སྒྲོན"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1055,
+      "end": 1149
+    },
+    "location": {
+      "lat": 29.65,
+      "lng": 91.1,
+      "region": "티베트"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_tibetan",
+    "tags": [
+      "티베트 불교",
+      "최드",
+      "여성 수행자",
+      "공포 극복"
+    ],
+    "mvp": false,
+    "summary": "티베트 불교의 위대한 여성 스승이자 최드(gcod, 절단) 수행법의 창시자. 반야바라밀다(지혜의 완성) 사상을 바탕으로 자아 집착을 '절단'하는 독특한 명상법을 개발했다. 티베트에서 인도로 역수출된 유일한 수행법을 창시한 인물로, 티베트 불교사의 가장 위대한 여성 수행자 중 하나이다.",
+    "detailed": "",
+    "religionId": "buddhism",
+    "role": "최드 창시자/여성 수행자"
+  },
+  {
+    "id": "catherine-of-siena",
+    "name": {
+      "ko": "시에나의 카타리나",
+      "en": "Catherine of Siena",
+      "original": "Caterina da Siena"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1347,
+      "end": 1380
+    },
+    "location": {
+      "lat": 43.32,
+      "lng": 11.33,
+      "region": "이탈리아 시에나"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_mysticism",
+    "tags": [
+      "가톨릭",
+      "도미니코회",
+      "여성 신비가",
+      "교회 박사"
+    ],
+    "mvp": false,
+    "summary": "이탈리아의 신비가이자 가톨릭 교회 박사(Doctor of the Church). 도미니코 제3회 소속으로 신비적 결혼, 성흔 체험 등 깊은 신비 경험을 했다. 교황 그레고리오 11세를 설득하여 아비뇽에서 로마로 교황청을 환원시킨 정치적 영향력도 발휘했다. 《대화》는 중세 신비 문학의 걸작이다.",
+    "detailed": "",
+    "religionId": "christianity",
+    "role": "신비주의자/교회 박사"
+  },
+  {
+    "id": "therese-of-lisieux",
+    "name": {
+      "ko": "리지외의 테레즈",
+      "en": "Thérèse of Lisieux",
+      "original": "Thérèse de l'Enfant-Jésus"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1873,
+      "end": 1897
+    },
+    "location": {
+      "lat": 49.14,
+      "lng": 0.23,
+      "region": "프랑스 리지외"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_mysticism",
+    "tags": [
+      "가톨릭",
+      "가르멜회",
+      "작은 길",
+      "교회 박사"
+    ],
+    "mvp": false,
+    "summary": "프랑스의 가르멜회 수녀이자 가톨릭 교회 박사. '작은 길(Petite Voie)'이라는 영성을 통해 일상의 작은 행위 속에서 사랑을 실천하는 것이 성덕에 이르는 방법임을 가르쳤다. 24세에 결핵으로 사망했으나, 사후 출간된 자서전 《한 영혼의 이야기》는 현대 가톨릭 영성의 고전이 되었다.",
+    "detailed": "",
+    "religionId": "christianity",
+    "role": "수녀/교회 박사"
+  },
+  {
+    "id": "mechthild-of-magdeburg",
+    "name": {
+      "ko": "마그데부르크의 메히틸트",
+      "en": "Mechthild of Magdeburg",
+      "original": "Mechthild von Magdeburg"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1207,
+      "end": 1282,
+      "approximate": true
+    },
+    "location": {
+      "lat": 52.13,
+      "lng": 11.64,
+      "region": "독일 마그데부르크"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_mysticism",
+    "tags": [
+      "기독교 신비주의",
+      "베긴회",
+      "여성 신비가",
+      "신비시"
+    ],
+    "mvp": false,
+    "summary": "중세 독일의 위대한 여성 신비가. 베긴회(반수도 여성 공동체) 소속으로, 12세부터 경험한 신비 체험을 《신성의 흐르는 빛》에 기록했다. 하나님과 영혼의 사랑을 관능적이고 시적인 언어로 표현한 최초의 독일어 신비 문학 작품을 남겨, 마이스터 에크하르트와 단테에게 영향을 주었다.",
+    "detailed": "",
+    "religionId": "christianity",
+    "role": "신비주의자/시인"
+  },
+  {
+    "id": "choe-je-u",
+    "name": {
+      "ko": "최제우",
+      "en": "Choe Je-u",
+      "original": "崔濟愚"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1824,
+      "end": 1864
+    },
+    "location": {
+      "lat": 35.87,
+      "lng": 129.21,
+      "region": "경주"
+    },
+    "category": "religious_figure",
+    "subcategory": "korean_religion",
+    "tags": [
+      "동학",
+      "천도교",
+      "한국 신종교",
+      "시천주"
+    ],
+    "mvp": false,
+    "summary": "동학(東學)의 창시자. 1860년 신비 체험을 통해 '시천주(侍天主, 하늘님을 모심)' 사상을 깨달아 동학을 창시했다. '사람이 곧 하늘'이라는 인내천(人乃天) 사상으로 신분 차별에 저항하고 민중의 존엄성을 강조했다. 조선 정부에 의해 처형되었으나 그의 사상은 동학혁명과 천도교로 이어졌다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "동학 창시자"
+  },
+  {
+    "id": "gang-jeungsan",
+    "name": {
+      "ko": "강증산",
+      "en": "Gang Jeungsan",
+      "original": "姜甑山"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1871,
+      "end": 1909
+    },
+    "location": {
+      "lat": 35.95,
+      "lng": 126.99,
+      "region": "전라북도 정읍"
+    },
+    "category": "religious_figure",
+    "subcategory": "korean_religion",
+    "tags": [
+      "증산교",
+      "천지공사",
+      "한국 신종교",
+      "후천개벽"
+    ],
+    "mvp": false,
+    "summary": "증산교 계통 종교들의 원류인 강증산(본명 강일순). 천지공사(天地公事)를 통해 선천(先天)의 부조리한 세계 질서를 개혁하고 후천(後天) 선경 세계를 열고자 했다. 해원상생(解冤相生)과 보은(報恩)의 윤리를 강조했으며, 사후 수십 개의 증산계 신종교가 파생되었다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "증산교 시조/상제"
+  },
+  {
+    "id": "sotaesan",
+    "name": {
+      "ko": "소태산(박중빈)",
+      "en": "Sotaesan",
+      "original": "少太山(朴重彬)"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1891,
+      "end": 1943
+    },
+    "location": {
+      "lat": 34.95,
+      "lng": 126.72,
+      "region": "전라남도 영광"
+    },
+    "category": "religious_figure",
+    "subcategory": "korean_religion",
+    "tags": [
+      "원불교",
+      "일원상",
+      "한국 신종교",
+      "불법 현대화"
+    ],
+    "mvp": false,
+    "summary": "원불교의 창시자(대종사). 1916년 대각(大覺)을 성취하고 '물질이 개벽되니 정신을 개벽하자'는 기치 아래 불교의 현대화를 추구했다. 일원상(○) 진리를 핵심 교리로 삼아 불교, 유교, 도교의 가르침을 통합하고, 생활 속 수행과 사회 참여를 강조하는 새로운 종교 운동을 전개했다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "원불교 창시자/대종사"
+  },
+  {
+    "id": "seosan-daesa",
+    "name": {
+      "ko": "서산대사(휴정)",
+      "en": "Seosan Daesa",
+      "original": "西山大師(休靜)"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1520,
+      "end": 1604
+    },
+    "location": {
+      "lat": 38.12,
+      "lng": 128.46,
+      "region": "묘향산/한양"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_korean",
+    "tags": [
+      "조선 불교",
+      "승병",
+      "선교 통합",
+      "임진왜란"
+    ],
+    "mvp": false,
+    "summary": "조선 중기의 고승이자 승병장. 선(禪)과 교(教)의 통합을 추구하며 조선 불교의 이론적 체계를 정립했다. 임진왜란 시 73세의 고령으로 승병 총사령관을 맡아 의승군(義僧軍)을 이끌었다. 《선가귀감》 등을 저술하여 조선 후기 불교의 사상적 기반을 마련했다.",
+    "detailed": "",
+    "religionId": "buddhism",
+    "role": "고승/승병장"
+  },
+  {
+    "id": "samyeong-daesa",
+    "name": {
+      "ko": "사명대사(유정)",
+      "en": "Samyeong Daesa",
+      "original": "泗溟大師(惟政)"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1544,
+      "end": 1610
+    },
+    "location": {
+      "lat": 35.8,
+      "lng": 128.64,
+      "region": "경상남도/일본"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_korean",
+    "tags": [
+      "조선 불교",
+      "승병",
+      "외교",
+      "임진왜란"
+    ],
+    "mvp": false,
+    "summary": "서산대사의 제자이자 임진왜란의 영웅적 승려. 의승군을 이끌고 평양성 탈환 등 여러 전투에 참전했으며, 전쟁 후 일본에 사신으로 건너가 포로 3,000여 명을 데리고 귀환하는 외교적 성과를 거두었다. 호국 불교의 상징으로 한국 불교사에서 크게 존경받는다.",
+    "detailed": "",
+    "religionId": "buddhism",
+    "role": "고승/승병장/외교승"
+  },
+  {
+    "id": "jinul",
+    "name": {
+      "ko": "지눌(보조국사)",
+      "en": "Jinul",
+      "original": "知訥(普照國師)"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1158,
+      "end": 1210
+    },
+    "location": {
+      "lat": 35,
+      "lng": 127.08,
+      "region": "전라남도 송광사"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_korean",
+    "tags": [
+      "고려 불교",
+      "조계종",
+      "돈오점수",
+      "정혜결사"
+    ],
+    "mvp": false,
+    "summary": "한국 불교 조계종의 실질적 창시자이자 고려 시대 최고의 선승. 돈오점수(頓悟漸修, 단번에 깨닫고 점진적으로 수행)의 수행론을 체계화하여 선(禪)과 교(教)의 통합을 이루었다. 수선사(修禪社) 결사 운동을 이끌어 고려 불교의 혁신과 한국 불교의 정체성 확립에 결정적 기여를 했다.",
+    "detailed": "",
+    "religionId": "buddhism",
+    "role": "고승/조계종 중흥조"
+  },
+  {
+    "id": "guru-arjan",
+    "name": {
+      "ko": "구루 아르잔",
+      "en": "Guru Arjan",
+      "original": "ਗੁਰੂ ਅਰਜਨ ਦੇਵ"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1563,
+      "end": 1606
+    },
+    "location": {
+      "lat": 31.62,
+      "lng": 74.88,
+      "region": "인도 암리차르"
+    },
+    "category": "religious_figure",
+    "subcategory": "sikhism",
+    "tags": [
+      "시크교",
+      "아디 그란트",
+      "황금사원",
+      "순교자"
+    ],
+    "mvp": false,
+    "summary": "시크교의 제5대 구루이자 최초의 순교자. 시크교의 중심 경전 《아디 그란트(Adi Granth)》를 편찬하고, 암리차르의 황금사원(하르만디르 사힙)을 건설했다. 무굴 제국의 종교적 박해에 굴하지 않고 순교하여 시크교의 저항 정신과 순교 전통을 확립했다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "시크교 제5대 구루/순교자"
+  },
+  {
+    "id": "guru-gobind-singh",
+    "name": {
+      "ko": "구루 고빈드 싱",
+      "en": "Guru Gobind Singh",
+      "original": "ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1666,
+      "end": 1708
+    },
+    "location": {
+      "lat": 30.88,
+      "lng": 76.78,
+      "region": "인도 아난드푸르"
+    },
+    "category": "religious_figure",
+    "subcategory": "sikhism",
+    "tags": [
+      "시크교",
+      "칼사",
+      "다섯 K",
+      "구루 그란트 사힙"
+    ],
+    "mvp": false,
+    "summary": "시크교의 제10대이자 마지막 인간 구루. 1699년 칼사(Khalsa, 순수한 자들의 공동체)를 창설하고 '다섯 K'의 정체성을 확립했다. 임종 시 경전 《구루 그란트 사힙》을 영원한 구루로 선포하여 인간 구루 제도를 종결시켰다. 시크교에 군사적·민주적 전통을 부여한 결정적 인물이다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "시크교 제10대 구루/칼사 창설자"
+  },
+  {
+    "id": "mani-prophet",
+    "name": {
+      "ko": "마니",
+      "en": "Mani",
+      "original": "Māni"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 216,
+      "end": 274
+    },
+    "location": {
+      "lat": 33.1,
+      "lng": 44.6,
+      "region": "메소포타미아/페르시아"
+    },
+    "category": "religious_figure",
+    "subcategory": "other_religion",
+    "tags": [
+      "마니교",
+      "이원론",
+      "빛과 어둠",
+      "세계 종교"
+    ],
+    "mvp": false,
+    "summary": "마니교의 창시자. 조로아스터교, 기독교, 불교의 요소를 종합하여 빛과 어둠의 우주적 투쟁을 핵심으로 하는 이원론적 세계 종교를 창시했다. 마니교는 한때 로마 제국에서 중국까지 퍼진 진정한 세계 종교였으며, 아우구스티누스도 한때 마니교도였다. 사산 왕조에 의해 처형되었다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "마니교 창시자/예언자"
+  },
+  {
+    "id": "parshvanatha",
+    "name": {
+      "ko": "파르슈바나타",
+      "en": "Parshvanatha",
+      "original": "पार्श्वनाथ"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -872,
+      "end": -772,
+      "approximate": true
+    },
+    "location": {
+      "lat": 25.32,
+      "lng": 83.01,
+      "region": "인도 바라나시"
+    },
+    "category": "religious_figure",
+    "subcategory": "jainism",
+    "tags": [
+      "자이나교",
+      "제23대 티르탕카라",
+      "불살생",
+      "금욕"
+    ],
+    "mvp": false,
+    "summary": "자이나교의 제23대 티르탕카라(깨달음을 이룬 자). 마하비라의 직접적 선배로, 자이나교의 핵심 윤리인 불살생(아힘사), 진실, 불탈취, 무소유의 네 가지 서약을 확립했다. 역사적 실존이 학술적으로 인정되는 가장 이른 시기의 티르탕카라이다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "제23대 티르탕카라"
+  },
+  {
+    "id": "ge-hong",
+    "name": {
+      "ko": "갈홍",
+      "en": "Ge Hong",
+      "original": "葛洪"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 283,
+      "end": 343
+    },
+    "location": {
+      "lat": 30.29,
+      "lng": 120.15,
+      "region": "중국 강소성"
+    },
+    "category": "religious_figure",
+    "subcategory": "daoism",
+    "tags": [
+      "도교",
+      "연금술",
+      "양생",
+      "포박자"
+    ],
+    "mvp": false,
+    "summary": "동진 시대의 도교 학자이자 연금술사. 대표작 《포박자》에서 유교적 윤리와 도교적 신선술을 종합하여 도교의 이론적 체계를 크게 발전시켰다. 단약 제조, 양생법, 벽곡, 도인 등 구체적 수련법을 기록하여 중국 연금술과 초기 화학의 발전에도 기여했다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "도교 학자/연금술사"
+  },
+  {
+    "id": "lu-dongbin",
+    "name": {
+      "ko": "여동빈",
+      "en": "Lü Dongbin",
+      "original": "呂洞賓"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 796,
+      "end": 900,
+      "approximate": true
+    },
+    "location": {
+      "lat": 34.78,
+      "lng": 110.99,
+      "region": "중국 산서성"
+    },
+    "category": "religious_figure",
+    "subcategory": "daoism",
+    "tags": [
+      "도교",
+      "팔선",
+      "내단",
+      "전진교"
+    ],
+    "mvp": false,
+    "summary": "도교 팔선(八仙) 중 가장 유명한 인물이자 내단(내적 연금술)의 전설적 대가. 여러 전설에 따르면 과거 시험에 낙방한 후 종리권으로부터 도를 전수받아 신선이 되었다. 전진교의 영적 조상으로 숭배되며, 중국 민간신앙에서 학문, 문학, 의술의 수호신으로 광범위하게 신앙된다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "팔선/내단 대가"
+  },
+  {
+    "id": "zhang-daoling",
+    "name": {
+      "ko": "장도릉",
+      "en": "Zhang Daoling",
+      "original": "張道陵"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 34,
+      "end": 156,
+      "approximate": true
+    },
+    "location": {
+      "lat": 30.57,
+      "lng": 103,
+      "region": "중국 사천성"
+    },
+    "category": "religious_figure",
+    "subcategory": "daoism",
+    "tags": [
+      "도교",
+      "천사도",
+      "오두미도",
+      "정일파"
+    ],
+    "mvp": false,
+    "summary": "도교 최초의 교단인 천사도(天師道, 오두미도)의 창시자이자 초대 천사(天師). 노자의 가르침에 기반하여 조직화된 종교 공동체를 수립하고, 부적, 참회, 치유 의식 등의 종교 제도를 확립했다. 정일파(正一派) 도교의 시조로 오늘날까지 그 후손이 천사직을 세습하고 있다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "도교 천사도 창시자/초대 천사"
+  },
+  {
+    "id": "gregory-palamas",
+    "name": {
+      "ko": "그레고리오스 팔라마스",
+      "en": "Gregory Palamas",
+      "original": "Γρηγόριος Παλαμᾶς"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1296,
+      "end": 1359
+    },
+    "location": {
+      "lat": 40.63,
+      "lng": 22.95,
+      "region": "그리스 테살로니카"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_orthodox",
+    "tags": [
+      "동방정교회",
+      "헤시카즘",
+      "신의 에너지",
+      "타보르 빛"
+    ],
+    "mvp": false,
+    "summary": "동방정교회의 핵심 신학자이자 헤시카즘(정적주의) 수행 전통의 수호자. 신의 본질(ousia)과 신의 에너지(energeia)를 구분하는 교리를 체계화하여, 인간이 신의 에너지를 통해 실제로 신과 합일할 수 있다는 동방 신비 신학의 토대를 확립했다. 테살로니카 대주교를 역임했다.",
+    "detailed": "",
+    "religionId": "christianity",
+    "role": "신학자/대주교"
+  },
+  {
+    "id": "symeon-new-theologian",
+    "name": {
+      "ko": "새 신학자 시메온",
+      "en": "Symeon the New Theologian",
+      "original": "Συμεών ο Νέος Θεολόγος"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 949,
+      "end": 1022
+    },
+    "location": {
+      "lat": 41.01,
+      "lng": 28.98,
+      "region": "비잔티움 콘스탄티노폴리스"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_orthodox",
+    "tags": [
+      "동방정교회",
+      "신비신학",
+      "신적 빛",
+      "체험 신학"
+    ],
+    "mvp": false,
+    "summary": "동방정교회의 3대 신학자 중 하나로 불리는 비잔틴 신비가. 신의 빛에 대한 직접적 체험을 강조하며, 모든 그리스도인이 성령의 은사를 직접 경험할 수 있다고 가르쳤다. 개인적 신비 체험의 중요성을 역설하여 동방 기독교 영성에 깊은 영향을 미쳤다.",
+    "detailed": "",
+    "religionId": "christianity",
+    "role": "신비가/수도원장"
+  },
+  {
+    "id": "valentinus-gnostic",
+    "name": {
+      "ko": "발렌티누스",
+      "en": "Valentinus",
+      "original": "Valentinus"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 100,
+      "end": 160,
+      "approximate": true
+    },
+    "location": {
+      "lat": 31.2,
+      "lng": 29.92,
+      "region": "이집트 알렉산드리아/로마"
+    },
+    "category": "religious_figure",
+    "subcategory": "gnosticism",
+    "tags": [
+      "영지주의",
+      "그노시스",
+      "프레로마",
+      "소피아"
+    ],
+    "mvp": false,
+    "summary": "초기 기독교 시대 가장 영향력 있는 영지주의(그노시스주의) 신학자. 정교한 신화적 우주론을 발전시켜, 참된 신(프레로마)으로부터 물질 세계가 소피아(지혜)의 타락으로 생겨났다고 가르쳤다. 한때 로마 교회의 감독 후보였으며, 그의 학파는 4세기까지 존속했다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "영지주의 신학자"
+  },
+  {
+    "id": "abhinavagupta",
+    "name": {
+      "ko": "아비나바굽타",
+      "en": "Abhinavagupta",
+      "original": "अभिनवगुप्त"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 950,
+      "end": 1016,
+      "approximate": true
+    },
+    "location": {
+      "lat": 34.08,
+      "lng": 74.8,
+      "region": "인도 카슈미르"
+    },
+    "category": "religious_figure",
+    "subcategory": "hinduism_philosophy",
+    "tags": [
+      "카슈미르 시바이즘",
+      "탄트라",
+      "미학",
+      "비인이론"
+    ],
+    "mvp": false,
+    "summary": "카슈미르 시바이즘(트리카)의 최고 이론가이자 인도 탄트라 전통의 대성자. 《탄트랄로카》에서 시바파 비이원론(非二元論)의 완성된 체계를 제시했다. 의식이 곧 시바이며 세계는 시바의 자유로운 현현이라는 사상을 전개했다. 인도 미학(라사 이론) 발전에도 크게 기여했다.",
+    "detailed": "",
+    "religionId": "hinduism",
+    "role": "철학자/탄트라 대가"
+  },
+  {
+    "id": "guru-tegh-bahadur",
+    "name": {
+      "ko": "구루 테그 바하두르",
+      "en": "Guru Tegh Bahadur",
+      "original": "ਗੁਰੂ ਤੇਗ਼ ਬਹਾਦਰ"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1621,
+      "end": 1675
+    },
+    "location": {
+      "lat": 28.66,
+      "lng": 77.23,
+      "region": "인도 델리"
+    },
+    "category": "religious_figure",
+    "subcategory": "sikhism",
+    "tags": [
+      "시크교",
+      "제9대 구루",
+      "순교자",
+      "종교의 자유"
+    ],
+    "mvp": false,
+    "summary": "시크교의 제9대 구루이자 종교의 자유를 위한 순교자. 무굴 제국 아우랑제브 황제가 카슈미르 힌두교도들의 강제 개종을 명하자, 그들의 종교적 자유를 지키기 위해 스스로 나서서 델리에서 참수당했다. '힌드 디 차다르(인도의 방패)'로 불리며, 종교적 관용의 상징으로 존경받는다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "시크교 제9대 구루/순교자"
+  },
+  {
+    "id": "wang-chongyang",
+    "name": {
+      "ko": "왕중양",
+      "en": "Wang Chongyang",
+      "original": "王重陽"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1113,
+      "end": 1170
+    },
+    "location": {
+      "lat": 34.27,
+      "lng": 108.94,
+      "region": "중국 섬서성"
+    },
+    "category": "religious_figure",
+    "subcategory": "daoism",
+    "tags": [
+      "도교",
+      "전진교",
+      "삼교 통합",
+      "내단"
+    ],
+    "mvp": false,
+    "summary": "전진교(全眞教)의 창시자로, 도교 역사에서 가장 중요한 개혁자 중 하나. 유교, 불교, 도교의 삼교 통합을 주장하며 내면적 수련(내단)을 강조하는 새로운 도교 운동을 일으켰다. 7명의 뛰어난 제자(전진칠자)를 양성하여 전진교는 중국 도교의 양대 종파 중 하나로 성장했다.",
+    "detailed": "",
+    "religionId": "",
+    "role": "전진교 창시자"
+  },
+  {
+    "id": "linji-yixuan",
+    "name": {
+      "ko": "임제 의현",
+      "en": "Linji Yixuan",
+      "original": "臨濟義玄"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 810,
+      "end": 866,
+      "approximate": true
+    },
+    "location": {
+      "lat": 38.04,
+      "lng": 114.51,
+      "region": "중국 하북성"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_chan",
+    "tags": [
+      "선종",
+      "임제종",
+      "할",
+      "무위진인"
+    ],
+    "mvp": false,
+    "summary": "중국 선종(禪宗) 임제종의 창시자. 황벽 희운의 제자로, '할(喝)!'이라는 파격적 고함과 방(棒) 등 파격적 교육법으로 제자들의 깨달음을 촉구했다. '무위진인(無位眞人, 지위 없는 참된 사람)' 개념을 제시했다. 임제종은 이후 중국·한국·일본 선종의 주류가 되었다.",
+    "detailed": "",
+    "religionId": "buddhism",
+    "role": "선승/임제종 창시자"
+  },
+  {
+    "id": "wumen-huikai",
+    "name": {
+      "ko": "무문 혜개",
+      "en": "Wumen Huikai",
+      "original": "無門慧開"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1183,
+      "end": 1260
+    },
+    "location": {
+      "lat": 30.25,
+      "lng": 120.17,
+      "region": "중국 절강성"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_chan",
+    "tags": [
+      "선종",
+      "공안",
+      "무문관",
+      "무자 화두"
+    ],
+    "mvp": false,
+    "summary": "중국 선종의 승려이자 《무문관(無門關)》의 편찬자. 조주의 '무(無)' 화두를 6년간 참구한 끝에 깨달음을 얻었으며, 48개의 핵심 공안(화두)을 모아 간결한 해설을 붙인 《무문관》을 편찬했다. 이 공안집은 동아시아 선 수행의 가장 중요한 교재 중 하나로 사용되고 있다.",
+    "detailed": "",
+    "religionId": "buddhism",
+    "role": "선승/공안집 편찬자"
+  },
+  {
+    "id": "thomas-merton",
+    "name": {
+      "ko": "토마스 머튼",
+      "en": "Thomas Merton",
+      "original": "Thomas Merton"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1915,
+      "end": 1968
+    },
+    "location": {
+      "lat": 37.67,
+      "lng": -85.53,
+      "region": "미국 켄터키(겟세마니 수도원)"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_modern",
+    "tags": [
+      "가톨릭",
+      "트라피스트",
+      "동서양 대화",
+      "관상"
+    ],
+    "mvp": false,
+    "summary": "미국의 트라피스트 수도승, 작가, 사회운동가이자 20세기 기독교 영성의 대표적 인물. 자서전 《칠층산》으로 유명해졌으며, 관상 수행과 사회 참여를 결합하고 불교, 도교 등 동양 영성과의 적극적 대화를 추구했다. 방콕에서 아시아 수도승들과의 대화 중 사고로 사망했다.",
+    "detailed": "",
+    "religionId": "christianity",
+    "role": "수도승/작가/영성가"
+  },
+  {
+    "id": "shunryu-suzuki",
+    "name": {
+      "ko": "스즈키 순류",
+      "en": "Shunryu Suzuki",
+      "original": "鈴木俊隆"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1904,
+      "end": 1971
+    },
+    "location": {
+      "lat": 37.77,
+      "lng": -122.42,
+      "region": "일본/미국 샌프란시스코"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhism_zen",
+    "tags": [
+      "선종",
+      "조동종",
+      "서양 선",
+      "초심자의 마음"
+    ],
+    "mvp": false,
+    "summary": "일본 조동종 승려로 미국에 선(禪) 수행을 전파한 핵심 인물. 1959년 샌프란시스코에 건너가 선 센터를 설립하고, 서양인을 위한 좌선 수행을 지도했다. 사후 제자들이 편집한 《초심자의 마음(Zen Mind, Beginner's Mind)》은 서양에서 가장 많이 읽힌 선 관련 저작이 되었다.",
+    "detailed": "",
+    "religionId": "buddhism",
+    "role": "선승/미국 선불교 개척자"
+  },
+  {
+    "id": "anthony-great",
+    "name": {
+      "ko": "대 안토니우스",
+      "en": "Anthony the Great",
+      "original": "Ἀντώνιος"
+    },
+    "era": "ancient",
+    "period": {
+      "start": 251,
+      "end": 356
+    },
+    "location": {
+      "lat": 28.85,
+      "lng": 32.35,
+      "region": "이집트"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_patristic",
+    "tags": [
+      "기독교",
+      "사막 교부",
+      "은수",
+      "수도원 운동"
+    ],
+    "mvp": false,
+    "summary": "기독교 수도원 운동의 아버지이자 사막 교부들의 원조. 20세경 모든 재산을 버리고 이집트 사막으로 들어가 극단적 금욕 생활과 영적 전투를 수행했다. 아타나시우스가 쓴 《안토니우스의 생애》는 최초의 성인 전기로, 수도원 운동을 전 기독교 세계에 확산시키는 계기가 되었다.",
+    "detailed": "",
+    "religionId": "christianity",
+    "role": "사막 교부/수도원 운동 창시자"
+  },
+  {
+    "id": "seraphim-of-sarov",
+    "name": {
+      "ko": "사로프의 세라핌",
+      "en": "Seraphim of Sarov",
+      "original": "Серафим Саровский"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1754,
+      "end": 1833
+    },
+    "location": {
+      "lat": 54.93,
+      "lng": 43.82,
+      "region": "러시아 사로프"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity_orthodox",
+    "tags": [
+      "러시아 정교회",
+      "성인",
+      "헤시카즘",
+      "성령 획득"
+    ],
+    "mvp": false,
+    "summary": "러시아 정교회에서 가장 사랑받는 성인 중 하나. 사로프 수도원에서 30여 년간 은수 생활과 극도의 금욕을 실천하며 신적 빛의 체험에 이르렀다. '성령의 획득이 기독교 생활의 목적'이라는 가르침을 전했으며, 모든 방문자를 '나의 기쁨이여!'라고 부르며 맞이한 사랑의 영성으로 유명하다.",
+    "detailed": "",
+    "religionId": "christianity",
+    "role": "수도승/성인"
   }
 ]

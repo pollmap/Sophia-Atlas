@@ -776,5 +776,378 @@
       "genetic-engineering",
       "computing-paradigm"
     ]
+  },
+  {
+    "id": "ancient-technology",
+    "type": "technology",
+    "name": {
+      "ko": "고대 기술",
+      "en": "Ancient Technology"
+    },
+    "period": {
+      "start": -10000,
+      "end": 500
+    },
+    "location": {
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "메소포타미아, 이집트, 중국, 인도"
+    },
+    "era": "ancient",
+    "summary": "농업혁명(기원전 10000년경), 바퀴·쟁기·관개 체계, 문자 발명, 도자기·유리·직조 기술을 포함하는 고대의 기술적 성취. 이집트 피라미드, 로마 수도교, 중국 만리장성 등은 거대한 조직력과 공학적 지식을 보여준다.",
+    "tags": [
+      "고대기술",
+      "농업혁명",
+      "문자",
+      "관개"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "metallurgy",
+      "ancient-architecture-tech"
+    ]
+  },
+  {
+    "id": "metallurgy",
+    "type": "technology",
+    "name": {
+      "ko": "야금술",
+      "en": "Metallurgy"
+    },
+    "period": {
+      "start": -5000,
+      "end": 2000
+    },
+    "location": {
+      "lat": 37.0,
+      "lng": 35.32,
+      "region": "아나톨리아, 글로벌"
+    },
+    "era": "ancient",
+    "summary": "구리에서 청동, 철, 강철로 이어지는 금속 가공 기술의 발전. 문명의 단계를 규정하는 핵심 기술로(석기→청동기→철기), 무기·농기구·건축에 혁명적 변화를 가져왔다.",
+    "tags": [
+      "야금술",
+      "금속",
+      "청동기",
+      "철기"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "ancient-technology",
+      "first-industrial-revolution"
+    ]
+  },
+  {
+    "id": "ancient-architecture-tech",
+    "type": "technology",
+    "name": {
+      "ko": "고대 건축 기술",
+      "en": "Ancient Architecture Technology"
+    },
+    "period": {
+      "start": -3000,
+      "end": 500
+    },
+    "location": {
+      "lat": 29.98,
+      "lng": 31.13,
+      "region": "이집트, 그리스, 로마"
+    },
+    "era": "ancient",
+    "summary": "이집트 피라미드의 석재 기술, 그리스의 주범 건축, 로마의 아치·콘크리트 기술을 포함한다. 특히 로마 콘크리트와 아치 구조는 판테온, 콜로세움 건설을 가능케 하여 근대 이전 가장 위대한 공학적 성취로 평가된다.",
+    "tags": [
+      "건축기술",
+      "피라미드",
+      "아치",
+      "콘크리트"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "ancient-technology",
+      "architecture-tradition"
+    ]
+  },
+  {
+    "id": "printing-technology",
+    "type": "technology",
+    "name": {
+      "ko": "인쇄 기술",
+      "en": "Printing Technology"
+    },
+    "period": {
+      "start": 868,
+      "end": 1800
+    },
+    "location": {
+      "lat": 39.9,
+      "lng": 116.4,
+      "region": "중국, 한국, 독일 마인츠"
+    },
+    "era": "medieval",
+    "summary": "중국의 목판 인쇄, 한국의 금속활자(1234년), 구텐베르크의 활판인쇄(1440년경)를 포함하는 인쇄 기술 발전. 구텐베르크의 인쇄술은 종교개혁, 과학혁명, 계몽주의의 물질적 조건을 창출한 '정보혁명'이었다.",
+    "tags": [
+      "인쇄술",
+      "구텐베르크",
+      "활자",
+      "정보혁명"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "ancient-technology",
+      "first-industrial-revolution"
+    ]
+  },
+  {
+    "id": "first-industrial-revolution",
+    "type": "technology",
+    "name": {
+      "ko": "제1차 산업혁명",
+      "en": "First Industrial Revolution"
+    },
+    "period": {
+      "start": 1760,
+      "end": 1840
+    },
+    "location": {
+      "lat": 53.48,
+      "lng": -2.24,
+      "region": "영국 맨체스터"
+    },
+    "era": "modern",
+    "summary": "증기기관, 방직기, 제철법의 혁신으로 시작된 기계화 생산 혁명. 수공업에서 공장제 기계공업으로의 전환을 이루었다. 도시화, 노동계급의 형성, 자본주의 체제의 확립을 가져왔으며, 인류 생활양식의 가장 근본적인 변혁이었다.",
+    "tags": [
+      "산업혁명",
+      "증기기관",
+      "기계화",
+      "공장제"
+    ],
+    "relatedPersons": [
+      "adam-smith",
+      "marx"
+    ],
+    "relatedEntities": [
+      "metallurgy",
+      "second-industrial-revolution"
+    ]
+  },
+  {
+    "id": "second-industrial-revolution",
+    "type": "technology",
+    "name": {
+      "ko": "제2차 산업혁명",
+      "en": "Second Industrial Revolution"
+    },
+    "period": {
+      "start": 1870,
+      "end": 1914
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -74.01,
+      "region": "미국, 독일, 영국"
+    },
+    "era": "contemporary",
+    "summary": "전기, 석유, 내연기관, 화학 산업의 발전으로 특징지어지는 기술 혁명. 에디슨의 전구, 벨의 전화, 포드의 대량생산이 대표적이다. 대기업·독점자본의 등장, 소비 사회의 시작과 맞물려 현대 산업 문명의 기초를 형성했다.",
+    "tags": [
+      "산업혁명",
+      "전기",
+      "석유",
+      "대량생산"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "first-industrial-revolution",
+      "third-industrial-revolution"
+    ]
+  },
+  {
+    "id": "third-industrial-revolution",
+    "type": "technology",
+    "name": {
+      "ko": "제3차 산업혁명 (디지털 혁명)",
+      "en": "Third Industrial Revolution (Digital Revolution)"
+    },
+    "period": {
+      "start": 1969,
+      "end": 2000
+    },
+    "location": {
+      "lat": 37.39,
+      "lng": -122.08,
+      "region": "미국 실리콘밸리"
+    },
+    "era": "contemporary",
+    "summary": "반도체, 컴퓨터, 인터넷으로 대표되는 디지털 정보 혁명. 마이크로프로세서, IBM PC, 월드와이드웹, 스마트폰으로 이어지며 정보의 생산·저장·전달 방식을 근본적으로 변혁했다.",
+    "tags": [
+      "디지털혁명",
+      "컴퓨터",
+      "인터넷",
+      "정보화"
+    ],
+    "relatedPersons": [
+      "turing"
+    ],
+    "relatedEntities": [
+      "second-industrial-revolution",
+      "computer-internet"
+    ]
+  },
+  {
+    "id": "fourth-industrial-revolution",
+    "type": "technology",
+    "name": {
+      "ko": "제4차 산업혁명",
+      "en": "Fourth Industrial Revolution"
+    },
+    "period": {
+      "start": 2010,
+      "end": 2030
+    },
+    "location": {
+      "lat": 37.39,
+      "lng": -122.08,
+      "region": "글로벌"
+    },
+    "era": "contemporary",
+    "summary": "인공지능, 사물인터넷, 빅데이터, 로봇공학, 3D 프린팅, 블록체인 등 사이버-물리 시스템의 융합으로 정의되는 현재 진행 중인 기술 혁명. 노동의 미래, AI 윤리, 디지털 격차 등 새로운 사회적 도전을 제기하고 있다.",
+    "tags": [
+      "4차산업혁명",
+      "인공지능",
+      "IoT",
+      "융합"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "third-industrial-revolution",
+      "connectionism-deep-learning"
+    ]
+  },
+  {
+    "id": "computer-internet",
+    "type": "technology",
+    "name": {
+      "ko": "컴퓨터와 인터넷",
+      "en": "Computer and Internet"
+    },
+    "period": {
+      "start": 1936,
+      "end": 2000
+    },
+    "location": {
+      "lat": 37.39,
+      "lng": -122.08,
+      "region": "영국, 미국"
+    },
+    "era": "contemporary",
+    "summary": "튜링의 보편 기계 개념(1936), ARPANET(1969), 팀 버너스-리의 월드와이드웹(1991)으로 이어지는 컴퓨터와 인터넷의 발전. 인류의 정보 처리·소통 방식을 근본적으로 변혁하여, 인쇄술에 비견되는 문명사적 전환을 이루었다.",
+    "tags": [
+      "컴퓨터",
+      "인터넷",
+      "WWW",
+      "정보혁명"
+    ],
+    "relatedPersons": [
+      "turing",
+      "shannon"
+    ],
+    "relatedEntities": [
+      "third-industrial-revolution",
+      "information-revolution"
+    ]
+  },
+  {
+    "id": "biotechnology",
+    "type": "technology",
+    "name": {
+      "ko": "생명공학",
+      "en": "Biotechnology"
+    },
+    "period": {
+      "start": 1973,
+      "end": 2000
+    },
+    "location": {
+      "lat": 37.77,
+      "lng": -122.42,
+      "region": "미국, 글로벌"
+    },
+    "era": "contemporary",
+    "summary": "1973년 유전자 재조합 기술에서 시작된 생명체의 공학적 활용. 유전자변형생물, 인간 게놈 프로젝트, CRISPR 유전자 편집, mRNA 백신 등으로 발전하며 의학·농업·산업을 혁신하고 있다.",
+    "tags": [
+      "생명공학",
+      "유전자편집",
+      "CRISPR",
+      "GMO"
+    ],
+    "relatedPersons": [
+      "watson",
+      "crick"
+    ],
+    "relatedEntities": [
+      "molecular-biology",
+      "genetics-science"
+    ]
+  },
+  {
+    "id": "symbolic-ai",
+    "type": "technology",
+    "name": {
+      "ko": "기호주의 인공지능",
+      "en": "Symbolic AI (GOFAI)"
+    },
+    "period": {
+      "start": 1956,
+      "end": 1990
+    },
+    "location": {
+      "lat": 42.37,
+      "lng": -71.12,
+      "region": "미국 MIT, 스탠퍼드"
+    },
+    "era": "contemporary",
+    "summary": "1956년 다트머스 회의에서 시작된 초기 인공지능 패러다임. 인간의 지능을 기호 조작으로 모델링하여 논리적 추론·전문가 시스템을 구현하려 했다. 1980년대 'AI 겨울'을 겪었으나 지식표현의 전통은 현재 AI에도 기여하고 있다.",
+    "tags": [
+      "인공지능",
+      "기호주의",
+      "전문가시스템",
+      "논리"
+    ],
+    "relatedPersons": [
+      "turing"
+    ],
+    "relatedEntities": [
+      "cognitive-science",
+      "connectionism-deep-learning"
+    ]
+  },
+  {
+    "id": "connectionism-deep-learning",
+    "type": "technology",
+    "name": {
+      "ko": "연결주의와 딥러닝",
+      "en": "Connectionism and Deep Learning"
+    },
+    "period": {
+      "start": 1943,
+      "end": 2000
+    },
+    "location": {
+      "lat": 40.44,
+      "lng": -79.95,
+      "region": "미국, 캐나다, 글로벌"
+    },
+    "era": "contemporary",
+    "summary": "매컬록-피츠의 인공 뉴런(1943), 퍼셉트론(1958), 역전파 알고리즘(1986), 딥러닝 혁명(2010s)으로 이어지는 신경망 기반 AI. GPT 등 생성형 AI의 등장으로 인간의 언어·예술·추론 능력에 도전하며, AI 윤리와 인간 정체성의 근본적 질문을 제기하고 있다.",
+    "tags": [
+      "딥러닝",
+      "신경망",
+      "생성AI",
+      "기계학습"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "symbolic-ai",
+      "artificial-general-intelligence"
+    ]
   }
 ]

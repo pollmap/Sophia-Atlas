@@ -22,6 +22,9 @@ export default function SophiaTypePage() {
   const axes = testData.axes;
   const types = testData.types;
 
+  // Format code as MBTI-style "XXXX-X" (4 letters + hyphen + 1 letter)
+  const formatCode = (code: string) => code.length === 5 ? `${code.slice(0, 4)}-${code[4]}` : code;
+
   // Calculate type code from scores
   const typeCode = useMemo(() => {
     return axes.map((axis) => {
@@ -111,7 +114,7 @@ export default function SophiaTypePage() {
             >
               테스트 시작하기
             </button>
-            <span className="text-xs text-ink-faded">약 3~5분 소요 · 20문항</span>
+            <span className="text-xs text-ink-faded">약 3~5분 소요 · 20문항 · 32가지 유형</span>
           </div>
         </div>
       </div>
@@ -210,7 +213,7 @@ export default function SophiaTypePage() {
             {resultType.name}
           </h1>
           <p className="text-lg text-medieval font-medium mb-1">{resultType.subtitle}</p>
-          <p className="text-sm text-ink-faded font-mono">{resultType.code}</p>
+          <p className="text-sm text-ink-faded font-mono">{formatCode(resultType.code)}</p>
         </div>
 
         {/* Type Description */}
@@ -319,12 +322,12 @@ export default function SophiaTypePage() {
               if (navigator.share) {
                 navigator.share({
                   title: `나의 사상 유형: ${resultType.name}`,
-                  text: `Sophia Type Test 결과 — ${resultType.name} (${resultType.code}): ${resultType.description}`,
+                  text: `Sophia Type Test 결과 — ${resultType.name} (${formatCode(resultType.code)}): ${resultType.description}`,
                   url: window.location.href,
                 });
               } else {
                 navigator.clipboard.writeText(
-                  `나의 사상 유형: ${resultType.name} (${resultType.code}) — ${resultType.subtitle}\n${window.location.href}`
+                  `나의 사상 유형: ${resultType.name} (${formatCode(resultType.code)}) — ${resultType.subtitle}\n${window.location.href}`
                 );
               }
             }}

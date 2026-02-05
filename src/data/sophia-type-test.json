@@ -244,6 +244,78 @@
       "persons": ["einstein", "stephen-hawking", "edward-lorenz", "ilya-prigogine", "stuart-kauffman"],
       "traditions": ["complexity-science", "systems-thinking", "progressivism"],
       "learningPaths": ["scientific-revolution", "influence-chains"]
+    },
+    {
+      "code": "INFRS",
+      "name": "급진적 자연 통합주의자",
+      "subtitle": "Radical Natural Synthesizer",
+      "description": "직관과 체험을 중시하며, 자연주의적 세계관 위에서 자유와 변혁을 동시에 추구하는 통합적 사상가. 경계를 넘어서는 융합적 사유를 지향합니다.",
+      "persons": ["deleuze", "donna-haraway", "bruno-latour", "gregory-bateson", "felix-guattari"],
+      "traditions": ["poststructuralism", "new-materialism", "systems-thinking"],
+      "learningPaths": ["philosophy-intro", "influence-chains"]
+    },
+    {
+      "code": "INHPS",
+      "name": "토착적 생태 통합주의자",
+      "subtitle": "Indigenous Ecological Synthesizer",
+      "description": "자연 세계 안에서 공동체의 전통적 지혜를 통합적으로 계승하는 생태 현자. 토착 지식과 전체론적 세계관을 중시합니다.",
+      "persons": ["laozi", "chief-seattle", "vandana-shiva", "aldo-leopold", "robin-wall-kimmerer"],
+      "traditions": ["daoism", "indigenous-traditions", "deep-ecology"],
+      "learningPaths": ["eastern-philosophy", "east-west-dialogue"]
+    },
+    {
+      "code": "ITFRA",
+      "name": "영적 분석 혁명가",
+      "subtitle": "Spiritual Analytic Revolutionary",
+      "description": "초월적 직관에서 얻은 통찰을 분석적 도구로 사회 변혁에 적용하는 급진적 영성가. 내면의 해방이 곧 외면의 혁명입니다.",
+      "persons": ["kierkegaard", "simone-weil", "dorothy-day", "thomas-merton", "cornel-west"],
+      "traditions": ["liberation-theology", "existentialism", "prophetic-tradition"],
+      "learningPaths": ["existentialism", "world-religions"]
+    },
+    {
+      "code": "ITHRA",
+      "name": "변혁적 영적 공동체 분석가",
+      "subtitle": "Transformative Spiritual Community Analyst",
+      "description": "영적 전통의 분석적 이해를 통해 공동체의 근본적 변혁을 이끄는 예언적 지식인.",
+      "persons": ["martin-luther-king", "gustavo-gutierrez", "muhammad-iqbal", "abraham-heschel", "reinhold-niebuhr"],
+      "traditions": ["liberation-theology", "islamic-modernism", "prophetic-tradition"],
+      "learningPaths": ["world-religions", "influence-chains"]
+    },
+    {
+      "code": "RNFRS",
+      "name": "혁명적 과학 통합주의자",
+      "subtitle": "Revolutionary Scientific Synthesizer",
+      "description": "과학적 합리성과 통합적 비전으로 자유와 변혁을 동시에 추구하는 급진적 과학 사상가.",
+      "persons": ["buckminster-fuller", "noam-chomsky", "peter-singer", "steven-pinker", "yuval-harari"],
+      "traditions": ["enlightenment", "transhumanism", "effective-altruism"],
+      "learningPaths": ["scientific-revolution", "logic-basics"]
+    },
+    {
+      "code": "RNHPS",
+      "name": "자연주의적 공동체 통합가",
+      "subtitle": "Naturalistic Community Synthesizer",
+      "description": "자연주의적 세계관과 공동체 전통을 통합적으로 결합하는 온건한 사상가. 과학과 인문의 조화를 추구합니다.",
+      "persons": ["aristotle", "charles-taylor", "michael-sandel", "alasdair-macintyre", "confucius"],
+      "traditions": ["aristotelianism", "communitarianism", "virtue-ethics"],
+      "learningPaths": ["western-philosophy", "eastern-philosophy"]
+    },
+    {
+      "code": "RTFRS",
+      "name": "초월적 자유 혁명 통합가",
+      "subtitle": "Transcendent Free Revolutionary Synthesizer",
+      "description": "이성과 초월의 결합으로 자유와 변혁의 통합적 비전을 제시하는 대담한 사상가.",
+      "persons": ["hegel", "teilhard-de-chardin", "sri-aurobindo", "ken-wilber", "alfred-north-whitehead"],
+      "traditions": ["german-idealism", "process-philosophy", "integral-theory"],
+      "learningPaths": ["western-philosophy", "east-west-dialogue"]
+    },
+    {
+      "code": "RTHRS",
+      "name": "변혁적 신학 통합주의자",
+      "subtitle": "Transformative Theological Synthesizer",
+      "description": "이성적 신학과 공동체 변혁을 통합적으로 추구하는 진보적 종교 사상가.",
+      "persons": ["jurgen-moltmann", "paul-tillich", "hans-kung", "cornel-west", "tariq-ramadan"],
+      "traditions": ["liberation-theology", "progressive-theology", "interfaith-dialogue"],
+      "learningPaths": ["world-religions", "influence-chains"]
     }
   ]
 }

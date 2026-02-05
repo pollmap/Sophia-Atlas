@@ -2,331 +2,1523 @@
   {
     "id": "classical-greek-art",
     "type": "art_movement",
-    "name": { "ko": "고전 그리스 예술", "en": "Classical Greek Art" },
-    "period": { "start": -500, "end": -323 },
+    "name": {
+      "ko": "고전 그리스 예술",
+      "en": "Classical Greek Art"
+    },
+    "period": {
+      "start": -500,
+      "end": -323
+    },
     "era": "ancient",
     "summary": "인체의 이상적 비례와 조화를 추구한 고대 그리스의 예술 양식. 파르테논 신전과 페이디아스의 조각에서 절정에 달했으며, 서양 미술의 근본적 기준을 확립했다. 자연주의와 이상화의 균형이 핵심 특징이다.",
-    "tags": ["고대 그리스", "조각", "건축", "이상미", "자연주의"],
-    "relatedPersons": ["phidias", "plato", "aristotle"],
-    "relatedEntities": ["academy-institution", "idea-plato"]
+    "tags": [
+      "고대 그리스",
+      "조각",
+      "건축",
+      "이상미",
+      "자연주의"
+    ],
+    "relatedPersons": [
+      "phidias",
+      "plato",
+      "aristotle"
+    ],
+    "relatedEntities": [
+      "academy-institution",
+      "idea-plato"
+    ]
   },
   {
     "id": "roman-art",
     "type": "art_movement",
-    "name": { "ko": "로마 예술", "en": "Roman Art" },
-    "period": { "start": -509, "end": 476 },
+    "name": {
+      "ko": "로마 예술",
+      "en": "Roman Art"
+    },
+    "period": {
+      "start": -509,
+      "end": 476
+    },
     "era": "ancient",
     "summary": "그리스 예술을 계승하면서도 사실적 초상 조각과 대규모 건축으로 독자적 영역을 개척한 로마의 예술. 콜로세움, 판테온 등 공학적 혁신을 결합한 건축이 대표적이다. 제국의 권위와 실용성을 동시에 표현했다.",
-    "tags": ["로마 제국", "건축", "초상 조각", "모자이크", "공학"],
-    "relatedPersons": ["julius-caesar", "augustus", "virgil"],
-    "relatedEntities": ["classical-greek-art"]
+    "tags": [
+      "로마 제국",
+      "건축",
+      "초상 조각",
+      "모자이크",
+      "공학"
+    ],
+    "relatedPersons": [
+      "julius-caesar",
+      "augustus",
+      "virgil"
+    ],
+    "relatedEntities": [
+      "classical-greek-art"
+    ]
   },
   {
     "id": "byzantine-art",
     "type": "art_movement",
-    "name": { "ko": "비잔틴 예술", "en": "Byzantine Art" },
-    "period": { "start": 330, "end": 1453 },
+    "name": {
+      "ko": "비잔틴 예술",
+      "en": "Byzantine Art"
+    },
+    "period": {
+      "start": 330,
+      "end": 1453
+    },
     "era": "medieval",
     "summary": "동로마 제국의 기독교 신앙을 시각화한 예술 양식으로, 금빛 모자이크와 이콘 회화가 특징이다. 초월적 신성을 평면적이고 상징적인 형식으로 표현하며, 정면성과 위계적 구도를 중시했다. 하기아 소피아 대성당이 대표적 건축물이다.",
-    "tags": ["동로마 제국", "기독교 미술", "이콘", "모자이크", "신성"],
-    "relatedPersons": ["john-of-damascus", "pseudo-dionysius"],
-    "relatedEntities": ["eastern-orthodoxy", "great-schism", "mount-athos"]
+    "tags": [
+      "동로마 제국",
+      "기독교 미술",
+      "이콘",
+      "모자이크",
+      "신성"
+    ],
+    "relatedPersons": [
+      "john-of-damascus",
+      "pseudo-dionysius"
+    ],
+    "relatedEntities": [
+      "eastern-orthodoxy",
+      "great-schism",
+      "mount-athos"
+    ]
   },
   {
     "id": "gothic-art",
     "type": "art_movement",
-    "name": { "ko": "고딕 예술", "en": "Gothic Art" },
-    "period": { "start": 1140, "end": 1500 },
+    "name": {
+      "ko": "고딕 예술",
+      "en": "Gothic Art"
+    },
+    "period": {
+      "start": 1140,
+      "end": 1500
+    },
     "era": "medieval",
     "summary": "첨두 아치, 플라잉 버트레스, 스테인드글라스로 대표되는 중세 유럽의 예술 양식. 노트르담 대성당 등 하늘을 향해 솟은 건축이 신에 대한 경외를 표현했다. 자연주의적 감수성이 점차 발달하여 르네상스의 전조가 되었다.",
-    "tags": ["중세", "대성당", "스테인드글라스", "첨두 아치", "기독교"],
-    "relatedPersons": ["thomas-aquinas", "dante"],
-    "relatedEntities": ["roman-catholicism", "university-paris"]
+    "tags": [
+      "중세",
+      "대성당",
+      "스테인드글라스",
+      "첨두 아치",
+      "기독교"
+    ],
+    "relatedPersons": [
+      "thomas-aquinas",
+      "dante"
+    ],
+    "relatedEntities": [
+      "roman-catholicism",
+      "university-paris"
+    ]
   },
   {
     "id": "islamic-art",
     "type": "art_movement",
-    "name": { "ko": "이슬람 예술", "en": "Islamic Art" },
-    "period": { "start": 622, "end": 1800 },
+    "name": {
+      "ko": "이슬람 예술",
+      "en": "Islamic Art"
+    },
+    "period": {
+      "start": 622,
+      "end": 1800
+    },
     "era": "medieval",
     "summary": "아라베스크 문양, 기하학적 패턴, 서예를 핵심으로 하는 이슬람 문화권의 예술 전통. 우상숭배 금지의 영향으로 추상적이고 수학적인 장식 예술이 고도로 발전했다. 알함브라 궁전과 모스크 건축이 대표적 성취이다.",
-    "tags": ["이슬람", "아라베스크", "기하학", "서예", "모스크"],
-    "relatedPersons": ["ibn-sina", "ibn-rushd", "ibn-al-haytham"],
-    "relatedEntities": ["sunni-islam", "sufism", "house-of-wisdom", "al-azhar-university"]
+    "tags": [
+      "이슬람",
+      "아라베스크",
+      "기하학",
+      "서예",
+      "모스크"
+    ],
+    "relatedPersons": [
+      "ibn-sina",
+      "ibn-rushd",
+      "ibn-al-haytham"
+    ],
+    "relatedEntities": [
+      "sunni-islam",
+      "sufism",
+      "house-of-wisdom",
+      "al-azhar-university"
+    ]
   },
   {
     "id": "renaissance-art",
     "type": "art_movement",
-    "name": { "ko": "르네상스 미술", "en": "Renaissance Art" },
-    "period": { "start": 1400, "end": 1600 },
+    "name": {
+      "ko": "르네상스 미술",
+      "en": "Renaissance Art"
+    },
+    "period": {
+      "start": 1400,
+      "end": 1600
+    },
     "era": "modern",
     "summary": "고전 고대의 부활을 기치로 원근법, 해부학적 정확성, 인간 중심의 표현을 혁신한 미술 운동. 레오나르도 다 빈치, 미켈란젤로, 라파엘로가 대표적 거장이다. 피렌체에서 시작되어 유럽 전역으로 확산되며 근대 서양 미술의 토대를 놓았다.",
-    "tags": ["르네상스", "원근법", "인문주의", "해부학", "피렌체"],
-    "relatedPersons": ["leonardo-da-vinci", "michelangelo", "erasmus", "machiavelli"],
-    "relatedEntities": ["renaissance", "humanism-movement", "printing-press"]
+    "tags": [
+      "르네상스",
+      "원근법",
+      "인문주의",
+      "해부학",
+      "피렌체"
+    ],
+    "relatedPersons": [
+      "leonardo-da-vinci",
+      "michelangelo",
+      "erasmus",
+      "machiavelli"
+    ],
+    "relatedEntities": [
+      "renaissance",
+      "humanism-movement",
+      "printing-press"
+    ]
   },
   {
     "id": "baroque-art",
     "type": "art_movement",
-    "name": { "ko": "바로크 예술", "en": "Baroque Art" },
-    "period": { "start": 1600, "end": 1750 },
+    "name": {
+      "ko": "바로크 예술",
+      "en": "Baroque Art"
+    },
+    "period": {
+      "start": 1600,
+      "end": 1750
+    },
     "era": "modern",
     "summary": "극적인 명암 대비, 역동적 구도, 감정적 강렬함을 특징으로 하는 17세기 유럽의 예술 양식. 카라바조, 베르니니, 루벤스, 렘브란트가 대표 작가이다. 반종교개혁의 가톨릭 교회와 절대왕정의 권위를 시각적으로 구현했다.",
-    "tags": ["바로크", "명암법", "역동성", "반종교개혁", "절대왕정"],
-    "relatedPersons": ["rembrandt", "bach", "louis-xiv"],
-    "relatedEntities": ["roman-catholicism", "protestant-reformation"]
+    "tags": [
+      "바로크",
+      "명암법",
+      "역동성",
+      "반종교개혁",
+      "절대왕정"
+    ],
+    "relatedPersons": [
+      "rembrandt",
+      "bach",
+      "louis-xiv"
+    ],
+    "relatedEntities": [
+      "roman-catholicism",
+      "protestant-reformation"
+    ]
   },
   {
     "id": "rococo",
     "type": "art_movement",
-    "name": { "ko": "로코코", "en": "Rococo" },
-    "period": { "start": 1720, "end": 1780 },
+    "name": {
+      "ko": "로코코",
+      "en": "Rococo"
+    },
+    "period": {
+      "start": 1720,
+      "end": 1780
+    },
     "era": "modern",
     "summary": "바로크의 웅장함에서 벗어나 경쾌하고 장식적인 우아함을 추구한 18세기 예술 양식. 파스텔 색조, 곡선 문양, 귀족적 유희를 소재로 한 회화가 특징이다. 프랑스 궁정 문화를 중심으로 발전했으나 계몽주의의 비판을 받았다.",
-    "tags": ["로코코", "장식", "우아함", "귀족 문화", "프랑스"],
-    "relatedPersons": ["voltaire", "mozart"],
-    "relatedEntities": ["enlightenment-movement", "french-revolution"]
+    "tags": [
+      "로코코",
+      "장식",
+      "우아함",
+      "귀족 문화",
+      "프랑스"
+    ],
+    "relatedPersons": [
+      "voltaire",
+      "mozart"
+    ],
+    "relatedEntities": [
+      "enlightenment-movement",
+      "french-revolution"
+    ]
   },
   {
     "id": "neoclassicism-art",
     "type": "art_movement",
-    "name": { "ko": "신고전주의", "en": "Neoclassicism" },
-    "period": { "start": 1760, "end": 1840 },
+    "name": {
+      "ko": "신고전주의",
+      "en": "Neoclassicism"
+    },
+    "period": {
+      "start": 1760,
+      "end": 1840
+    },
     "era": "modern",
     "summary": "고대 그리스·로마의 질서, 균형, 이성적 아름다움을 부활시키려 한 예술 운동. 자크 루이 다비드의 역사화가 대표적이며, 계몽주의와 프랑스 혁명의 이념을 시각적으로 표현했다. 로코코의 과도한 장식에 대한 반발로 등장했다.",
-    "tags": ["신고전주의", "고대 부활", "이성", "계몽주의", "혁명"],
-    "relatedPersons": ["kant", "napoleon", "beethoven"],
-    "relatedEntities": ["enlightenment-movement", "french-revolution", "classical-greek-art"]
+    "tags": [
+      "신고전주의",
+      "고대 부활",
+      "이성",
+      "계몽주의",
+      "혁명"
+    ],
+    "relatedPersons": [
+      "kant",
+      "napoleon",
+      "beethoven"
+    ],
+    "relatedEntities": [
+      "enlightenment-movement",
+      "french-revolution",
+      "classical-greek-art"
+    ]
   },
   {
     "id": "romanticism-art",
     "type": "art_movement",
-    "name": { "ko": "낭만주의 예술", "en": "Romanticism Art" },
-    "period": { "start": 1780, "end": 1850 },
+    "name": {
+      "ko": "낭만주의 예술",
+      "en": "Romanticism Art"
+    },
+    "period": {
+      "start": 1780,
+      "end": 1850
+    },
     "era": "modern",
     "summary": "이성보다 감정, 질서보다 자연, 보편보다 개인을 중시한 예술 사조. 들라크루아의 격정적 회화, 카스파르 다비트 프리드리히의 숭고한 풍경화가 대표적이다. 산업혁명과 합리주의에 대한 반발로 자연과 상상력의 해방을 추구했다.",
-    "tags": ["낭만주의", "감정", "자연", "숭고", "개인"],
-    "relatedPersons": ["goethe", "beethoven", "chopin", "wagner", "victor-hugo", "schopenhauer", "kierkegaard"],
-    "relatedEntities": ["romanticism-movement", "industrial-revolution", "french-revolution"]
+    "tags": [
+      "낭만주의",
+      "감정",
+      "자연",
+      "숭고",
+      "개인"
+    ],
+    "relatedPersons": [
+      "goethe",
+      "beethoven",
+      "chopin",
+      "wagner",
+      "victor-hugo",
+      "schopenhauer",
+      "kierkegaard"
+    ],
+    "relatedEntities": [
+      "romanticism-movement",
+      "industrial-revolution",
+      "french-revolution"
+    ]
   },
   {
     "id": "impressionism",
     "type": "art_movement",
-    "name": { "ko": "인상주의", "en": "Impressionism" },
-    "period": { "start": 1860, "end": 1886 },
+    "name": {
+      "ko": "인상주의",
+      "en": "Impressionism"
+    },
+    "period": {
+      "start": 1860,
+      "end": 1886
+    },
     "era": "modern",
     "summary": "빛과 색채의 순간적 인상을 포착하려 한 혁명적 미술 운동. 모네, 르누아르, 드가가 대표 화가이며, 야외 사생과 붓터치의 자유로움이 특징이다. 아카데미즘의 엄격한 규범을 거부하고 현대 미술의 문을 열었다.",
-    "tags": ["인상주의", "빛", "색채", "야외 사생", "파리"],
-    "relatedPersons": ["monet", "debussy"],
-    "relatedEntities": ["impressionism-movement", "post-impressionism"]
+    "tags": [
+      "인상주의",
+      "빛",
+      "색채",
+      "야외 사생",
+      "파리"
+    ],
+    "relatedPersons": [
+      "monet",
+      "debussy"
+    ],
+    "relatedEntities": [
+      "impressionism-movement",
+      "post-impressionism"
+    ]
   },
   {
     "id": "post-impressionism",
     "type": "art_movement",
-    "name": { "ko": "후기 인상주의", "en": "Post-Impressionism" },
-    "period": { "start": 1886, "end": 1905 },
+    "name": {
+      "ko": "후기 인상주의",
+      "en": "Post-Impressionism"
+    },
+    "period": {
+      "start": 1886,
+      "end": 1905
+    },
     "era": "modern",
     "summary": "인상주의의 성과를 기반으로 하면서도 더 깊은 구조와 감정 표현을 추구한 다양한 경향의 총칭. 세잔, 반 고흐, 고갱, 쇠라가 각자의 독자적 양식을 개척했다. 20세기 전위 미술의 직접적 원천이 되었다.",
-    "tags": ["후기 인상주의", "구조", "색채", "주관적 표현", "전위"],
-    "relatedPersons": ["van-gogh"],
-    "relatedEntities": ["impressionism", "expressionism", "cubism"]
+    "tags": [
+      "후기 인상주의",
+      "구조",
+      "색채",
+      "주관적 표현",
+      "전위"
+    ],
+    "relatedPersons": [
+      "van-gogh"
+    ],
+    "relatedEntities": [
+      "impressionism",
+      "expressionism",
+      "cubism"
+    ]
   },
   {
     "id": "symbolism-art",
     "type": "art_movement",
-    "name": { "ko": "상징주의", "en": "Symbolism" },
-    "period": { "start": 1880, "end": 1910 },
+    "name": {
+      "ko": "상징주의",
+      "en": "Symbolism"
+    },
+    "period": {
+      "start": 1880,
+      "end": 1910
+    },
     "era": "modern",
     "summary": "눈에 보이지 않는 내면의 세계, 꿈, 신비를 상징적 이미지로 표현하려 한 예술 운동. 기스타브 모로, 오딜롱 르동이 대표 화가이며 문학의 상징주의와 깊이 연결된다. 실증주의와 자연주의에 대한 반발로 초자연적이고 신비적인 주제를 탐구했다.",
-    "tags": ["상징주의", "신비", "꿈", "내면", "데카당스"],
-    "relatedPersons": ["nietzsche", "wagner", "klimt", "debussy"],
-    "relatedEntities": ["romanticism-art", "surrealism-art"]
+    "tags": [
+      "상징주의",
+      "신비",
+      "꿈",
+      "내면",
+      "데카당스"
+    ],
+    "relatedPersons": [
+      "nietzsche",
+      "wagner",
+      "klimt",
+      "debussy"
+    ],
+    "relatedEntities": [
+      "romanticism-art",
+      "surrealism-art"
+    ]
   },
   {
     "id": "arts-and-crafts",
     "type": "art_movement",
-    "name": { "ko": "미술공예운동", "en": "Arts and Crafts Movement" },
-    "period": { "start": 1860, "end": 1910 },
+    "name": {
+      "ko": "미술공예운동",
+      "en": "Arts and Crafts Movement"
+    },
+    "period": {
+      "start": 1860,
+      "end": 1910
+    },
     "era": "modern",
     "summary": "산업혁명의 대량 생산에 반발하여 수공예의 가치와 예술의 사회적 역할을 강조한 운동. 윌리엄 모리스가 주도했으며, 일상 사물의 아름다움과 노동의 존엄을 회복하고자 했다. 아르누보와 바우하우스 등 후대 디자인 운동에 큰 영향을 미쳤다.",
-    "tags": ["공예", "수공업", "사회주의", "디자인", "윌리엄 모리스"],
+    "tags": [
+      "공예",
+      "수공업",
+      "사회주의",
+      "디자인",
+      "윌리엄 모리스"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["industrial-revolution", "socialism", "art-nouveau", "bauhaus-movement"]
+    "relatedEntities": [
+      "industrial-revolution",
+      "socialism",
+      "art-nouveau",
+      "bauhaus-movement"
+    ]
   },
   {
     "id": "art-nouveau",
     "type": "art_movement",
-    "name": { "ko": "아르누보", "en": "Art Nouveau" },
-    "period": { "start": 1890, "end": 1910 },
+    "name": {
+      "ko": "아르누보",
+      "en": "Art Nouveau"
+    },
+    "period": {
+      "start": 1890,
+      "end": 1910
+    },
     "era": "modern",
     "summary": "자연에서 영감을 받은 유기적 곡선과 장식적 형태를 특징으로 하는 국제적 예술 양식. 건축, 가구, 유리공예, 그래픽 등 모든 분야를 통합하는 총체예술을 지향했다. 클림트, 가우디, 뮈샤가 대표 작가이며, 근대 디자인의 중요한 전환점이 되었다.",
-    "tags": ["아르누보", "유기적 곡선", "장식", "총체예술", "자연"],
-    "relatedPersons": ["klimt"],
-    "relatedEntities": ["arts-and-crafts", "symbolism-art", "bauhaus-movement"]
+    "tags": [
+      "아르누보",
+      "유기적 곡선",
+      "장식",
+      "총체예술",
+      "자연"
+    ],
+    "relatedPersons": [
+      "klimt"
+    ],
+    "relatedEntities": [
+      "arts-and-crafts",
+      "symbolism-art",
+      "bauhaus-movement"
+    ]
   },
   {
     "id": "expressionism",
     "type": "art_movement",
-    "name": { "ko": "표현주의", "en": "Expressionism" },
-    "period": { "start": 1905, "end": 1930 },
+    "name": {
+      "ko": "표현주의",
+      "en": "Expressionism"
+    },
+    "period": {
+      "start": 1905,
+      "end": 1930
+    },
     "era": "contemporary",
     "summary": "내면의 감정과 정신적 불안을 왜곡된 형태와 강렬한 색채로 표현한 예술 운동. 뭉크, 키르히너, 칸딘스키가 대표적이다. 세계대전과 산업화의 소외 속에서 인간 존재의 근원적 불안과 고통을 직시했다.",
-    "tags": ["표현주의", "감정", "왜곡", "불안", "독일"],
-    "relatedPersons": ["kandinsky", "nietzsche"],
-    "relatedEntities": ["post-impressionism", "world-war-i"]
+    "tags": [
+      "표현주의",
+      "감정",
+      "왜곡",
+      "불안",
+      "독일"
+    ],
+    "relatedPersons": [
+      "kandinsky",
+      "nietzsche"
+    ],
+    "relatedEntities": [
+      "post-impressionism",
+      "world-war-i"
+    ]
   },
   {
     "id": "cubism",
     "type": "art_movement",
-    "name": { "ko": "입체주의", "en": "Cubism" },
-    "period": { "start": 1907, "end": 1925 },
+    "name": {
+      "ko": "입체주의",
+      "en": "Cubism"
+    },
+    "period": {
+      "start": 1907,
+      "end": 1925
+    },
     "era": "contemporary",
     "summary": "대상을 여러 시점에서 동시에 분석하고 기하학적 형태로 재구성한 혁명적 미술 운동. 피카소와 브라크가 창시했으며, 원근법의 전통을 근본적으로 해체했다. 20세기 추상미술과 현대 디자인 전반에 결정적 영향을 미쳤다.",
-    "tags": ["입체주의", "기하학", "다시점", "해체", "피카소"],
-    "relatedPersons": ["picasso"],
-    "relatedEntities": ["post-impressionism", "futurism-art", "abstract-expressionism"]
+    "tags": [
+      "입체주의",
+      "기하학",
+      "다시점",
+      "해체",
+      "피카소"
+    ],
+    "relatedPersons": [
+      "picasso"
+    ],
+    "relatedEntities": [
+      "post-impressionism",
+      "futurism-art",
+      "abstract-expressionism"
+    ]
   },
   {
     "id": "futurism-art",
     "type": "art_movement",
-    "name": { "ko": "미래주의 예술", "en": "Futurism" },
-    "period": { "start": 1909, "end": 1944 },
+    "name": {
+      "ko": "미래주의 예술",
+      "en": "Futurism"
+    },
+    "period": {
+      "start": 1909,
+      "end": 1944
+    },
     "era": "contemporary",
     "summary": "속도, 기계, 기술, 역동성을 찬양하며 과거의 전통을 철저히 부정한 이탈리아 발 전위 운동. 마리네티의 선언문(1909)으로 시작되었으며, 보치오니, 발라 등이 운동과 에너지를 시각화했다. 다다이즘과 구성주의 등 후대 아방가르드에 영향을 주었다.",
-    "tags": ["미래주의", "속도", "기계", "역동성", "이탈리아"],
+    "tags": [
+      "미래주의",
+      "속도",
+      "기계",
+      "역동성",
+      "이탈리아"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["cubism", "dadaism", "world-war-i"]
+    "relatedEntities": [
+      "cubism",
+      "dadaism",
+      "world-war-i"
+    ]
   },
   {
     "id": "dadaism",
     "type": "art_movement",
-    "name": { "ko": "다다이즘", "en": "Dadaism" },
-    "period": { "start": 1916, "end": 1924 },
+    "name": {
+      "ko": "다다이즘",
+      "en": "Dadaism"
+    },
+    "period": {
+      "start": 1916,
+      "end": 1924
+    },
     "era": "contemporary",
     "summary": "제1차 세계대전의 비합리성에 대한 항의로 기존 예술과 사회의 모든 가치를 전복하려 한 반예술 운동. 뒤샹의 레디메이드, 아르프의 우연 작업이 대표적이다. 예술의 정의 자체에 근본적 질문을 던졌으며 초현실주의와 개념미술의 선구가 되었다.",
-    "tags": ["다다", "반예술", "레디메이드", "우연", "전복"],
+    "tags": [
+      "다다",
+      "반예술",
+      "레디메이드",
+      "우연",
+      "전복"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["world-war-i", "surrealism-art", "conceptual-art", "nihilism"]
+    "relatedEntities": [
+      "world-war-i",
+      "surrealism-art",
+      "conceptual-art",
+      "nihilism"
+    ]
   },
   {
     "id": "surrealism-art",
     "type": "art_movement",
-    "name": { "ko": "초현실주의", "en": "Surrealism" },
-    "period": { "start": 1924, "end": 1966 },
+    "name": {
+      "ko": "초현실주의",
+      "en": "Surrealism"
+    },
+    "period": {
+      "start": 1924,
+      "end": 1966
+    },
     "era": "contemporary",
     "summary": "꿈, 무의식, 자동기술법을 통해 이성의 통제를 벗어난 초현실적 세계를 탐구한 예술 운동. 달리, 마그리트, 에른스트가 대표 화가이며, 앙드레 브르통이 이론적 기반을 제공했다. 프로이트 정신분석학의 영향을 깊이 받았다.",
-    "tags": ["초현실주의", "무의식", "꿈", "자동기술법", "프로이트"],
-    "relatedPersons": ["frida-kahlo", "freud", "jung"],
-    "relatedEntities": ["surrealism-movement", "dadaism", "collective-unconscious"]
+    "tags": [
+      "초현실주의",
+      "무의식",
+      "꿈",
+      "자동기술법",
+      "프로이트"
+    ],
+    "relatedPersons": [
+      "frida-kahlo",
+      "freud",
+      "jung"
+    ],
+    "relatedEntities": [
+      "surrealism-movement",
+      "dadaism",
+      "collective-unconscious"
+    ]
   },
   {
     "id": "abstract-expressionism",
     "type": "art_movement",
-    "name": { "ko": "추상표현주의", "en": "Abstract Expressionism" },
-    "period": { "start": 1943, "end": 1965 },
+    "name": {
+      "ko": "추상표현주의",
+      "en": "Abstract Expressionism"
+    },
+    "period": {
+      "start": 1943,
+      "end": 1965
+    },
     "era": "contemporary",
     "summary": "제2차 세계대전 이후 뉴욕을 중심으로 발전한 최초의 미국 주도 미술 운동. 폴록의 액션 페인팅과 로스코의 색면 회화가 대표적이며, 거대한 캔버스에 작가의 무의식적 행위를 직접 투영했다. 세계 미술의 중심을 파리에서 뉴욕으로 이동시켰다.",
-    "tags": ["추상표현주의", "액션 페인팅", "색면 회화", "뉴욕", "무의식"],
+    "tags": [
+      "추상표현주의",
+      "액션 페인팅",
+      "색면 회화",
+      "뉴욕",
+      "무의식"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["world-war-ii", "surrealism-art", "existentialism", "pop-art"]
+    "relatedEntities": [
+      "world-war-ii",
+      "surrealism-art",
+      "existentialism",
+      "pop-art"
+    ]
   },
   {
     "id": "pop-art",
     "type": "art_movement",
-    "name": { "ko": "팝아트", "en": "Pop Art" },
-    "period": { "start": 1955, "end": 1970 },
+    "name": {
+      "ko": "팝아트",
+      "en": "Pop Art"
+    },
+    "period": {
+      "start": 1955,
+      "end": 1970
+    },
     "era": "contemporary",
     "summary": "대중문화, 광고, 만화, 소비재 이미지를 고급 예술의 영역으로 끌어올린 운동. 앤디 워홀, 로이 리히텐슈타인이 대표 작가이며, 대량 생산과 대중매체 시대의 예술을 재정의했다. 고급 예술과 대중문화의 경계를 해체하는 데 기여했다.",
-    "tags": ["팝아트", "대중문화", "소비사회", "복제", "워홀"],
-    "relatedPersons": ["andy-warhol"],
-    "relatedEntities": ["abstract-expressionism", "minimalism-art", "postmodern-art"]
+    "tags": [
+      "팝아트",
+      "대중문화",
+      "소비사회",
+      "복제",
+      "워홀"
+    ],
+    "relatedPersons": [
+      "andy-warhol"
+    ],
+    "relatedEntities": [
+      "abstract-expressionism",
+      "minimalism-art",
+      "postmodern-art"
+    ]
   },
   {
     "id": "minimalism-art",
     "type": "art_movement",
-    "name": { "ko": "미니멀리즘 예술", "en": "Minimalism Art" },
-    "period": { "start": 1960, "end": 1975 },
+    "name": {
+      "ko": "미니멀리즘 예술",
+      "en": "Minimalism Art"
+    },
+    "period": {
+      "start": 1960,
+      "end": 1975
+    },
     "era": "contemporary",
     "summary": "형태를 극도로 단순화하고 예술가의 주관적 표현을 배제하여 순수한 물질성과 공간성을 탐구한 예술 운동. 도널드 저드, 댄 플래빈, 솔 르윗이 대표 작가이다. '보이는 것이 보이는 것 전부'라는 원칙 아래 기하학적 형태와 산업 재료를 사용했다.",
-    "tags": ["미니멀리즘", "단순화", "기하학", "물질성", "산업 재료"],
+    "tags": [
+      "미니멀리즘",
+      "단순화",
+      "기하학",
+      "물질성",
+      "산업 재료"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["abstract-expressionism", "conceptual-art", "bauhaus-movement"]
+    "relatedEntities": [
+      "abstract-expressionism",
+      "conceptual-art",
+      "bauhaus-movement"
+    ]
   },
   {
     "id": "conceptual-art",
     "type": "art_movement",
-    "name": { "ko": "개념미술", "en": "Conceptual Art" },
-    "period": { "start": 1965, "end": 1980 },
+    "name": {
+      "ko": "개념미술",
+      "en": "Conceptual Art"
+    },
+    "period": {
+      "start": 1965,
+      "end": 1980
+    },
     "era": "contemporary",
     "summary": "물리적 작품보다 아이디어와 개념 자체를 예술의 본질로 간주한 운동. 솔 르윗, 요제프 코수스가 대표적이며, '예술이란 무엇인가'에 대한 철학적 질문을 작품의 핵심으로 삼았다. 뒤샹의 레디메이드 정신을 계승하여 예술의 비물질화를 추구했다.",
-    "tags": ["개념미술", "아이디어", "비물질화", "철학적 질문", "텍스트"],
+    "tags": [
+      "개념미술",
+      "아이디어",
+      "비물질화",
+      "철학적 질문",
+      "텍스트"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["dadaism", "minimalism-art", "postmodern-art"]
+    "relatedEntities": [
+      "dadaism",
+      "minimalism-art",
+      "postmodern-art"
+    ]
   },
   {
     "id": "bauhaus-movement",
     "type": "art_movement",
-    "name": { "ko": "바우하우스", "en": "Bauhaus" },
-    "period": { "start": 1919, "end": 1933 },
+    "name": {
+      "ko": "바우하우스",
+      "en": "Bauhaus"
+    },
+    "period": {
+      "start": 1919,
+      "end": 1933
+    },
     "era": "contemporary",
     "summary": "예술, 공예, 기술의 통합을 지향한 독일의 혁명적 디자인 학교이자 운동. 발터 그로피우스가 설립했으며, 칸딘스키, 클레, 미스 반 데어 로에 등이 참여했다. 기능주의와 산업 생산의 결합을 통해 현대 건축과 디자인의 기초를 확립했다.",
-    "tags": ["바우하우스", "디자인", "기능주의", "건축", "통합예술"],
-    "relatedPersons": ["kandinsky"],
-    "relatedEntities": ["expressionism", "minimalism-art", "art-nouveau"]
+    "tags": [
+      "바우하우스",
+      "디자인",
+      "기능주의",
+      "건축",
+      "통합예술"
+    ],
+    "relatedPersons": [
+      "kandinsky"
+    ],
+    "relatedEntities": [
+      "expressionism",
+      "minimalism-art",
+      "art-nouveau"
+    ]
   },
   {
     "id": "postmodern-art",
     "type": "art_movement",
-    "name": { "ko": "포스트모던 아트", "en": "Postmodern Art" },
-    "period": { "start": 1970, "end": 2000 },
+    "name": {
+      "ko": "포스트모던 아트",
+      "en": "Postmodern Art"
+    },
+    "period": {
+      "start": 1970,
+      "end": 2000
+    },
     "era": "contemporary",
     "summary": "모더니즘의 순수성과 진보 서사를 거부하고, 차용, 혼성, 아이러니를 통해 다원적 표현을 추구한 예술 경향. 셔먼, 쿤스, 바스키아 등이 대표적이다. 고급/저급, 원본/복제의 이분법을 해체하고 문화적 다양성과 정체성의 정치학을 탐구했다.",
-    "tags": ["포스트모더니즘", "차용", "해체", "다원주의", "아이러니"],
-    "relatedPersons": ["derrida", "foucault", "baudrillard", "lyotard"],
-    "relatedEntities": ["postmodernism-movement", "pop-art", "conceptual-art", "deconstruction"]
+    "tags": [
+      "포스트모더니즘",
+      "차용",
+      "해체",
+      "다원주의",
+      "아이러니"
+    ],
+    "relatedPersons": [
+      "derrida",
+      "foucault",
+      "baudrillard",
+      "lyotard"
+    ],
+    "relatedEntities": [
+      "postmodernism-movement",
+      "pop-art",
+      "conceptual-art",
+      "deconstruction"
+    ]
   },
   {
     "id": "digital-art-movement",
     "type": "art_movement",
-    "name": { "ko": "디지털 아트", "en": "Digital Art" },
-    "period": { "start": 1990, "end": 2025 },
+    "name": {
+      "ko": "디지털 아트",
+      "en": "Digital Art"
+    },
+    "period": {
+      "start": 1990,
+      "end": 2025
+    },
     "era": "contemporary",
     "summary": "컴퓨터, 인터넷, AI 등 디지털 기술을 창작의 핵심 매체로 활용하는 예술 운동. NFT, 제너러티브 아트, 인터랙티브 설치 등 다양한 형식을 포괄한다. 기술과 예술의 경계를 재정의하며, 창작자와 관객의 관계를 근본적으로 변화시키고 있다.",
-    "tags": ["디지털 아트", "컴퓨터", "인터넷", "NFT", "제너러티브"],
+    "tags": [
+      "디지털 아트",
+      "컴퓨터",
+      "인터넷",
+      "NFT",
+      "제너러티브"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["internet-revolution", "artificial-general-intelligence", "information-revolution"]
+    "relatedEntities": [
+      "internet-revolution",
+      "artificial-general-intelligence",
+      "information-revolution"
+    ]
   },
   {
     "id": "performance-art",
     "type": "art_movement",
-    "name": { "ko": "퍼포먼스 아트", "en": "Performance Art" },
-    "period": { "start": 1960, "end": 2025 },
+    "name": {
+      "ko": "퍼포먼스 아트",
+      "en": "Performance Art"
+    },
+    "period": {
+      "start": 1960,
+      "end": 2025
+    },
     "era": "contemporary",
     "summary": "작가의 신체와 행위 자체를 예술 매체로 삼는 시간 기반 예술 형식. 마리나 아브라모비치, 요제프 보이스, 오노 요코가 대표 작가이다. 회화나 조각 같은 물질적 결과물 대신 현존과 체험의 순간성을 강조하며, 관객과의 직접적 소통을 추구한다.",
-    "tags": ["퍼포먼스", "신체", "시간", "현존", "관객 참여"],
+    "tags": [
+      "퍼포먼스",
+      "신체",
+      "시간",
+      "현존",
+      "관객 참여"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["dadaism", "conceptual-art", "postmodern-art"]
+    "relatedEntities": [
+      "dadaism",
+      "conceptual-art",
+      "postmodern-art"
+    ]
   },
   {
     "id": "classical-music-tradition",
     "type": "art_movement",
-    "name": { "ko": "서양 고전음악 전통", "en": "Western Classical Music Tradition" },
-    "period": { "start": 1600, "end": 1950 },
+    "name": {
+      "ko": "서양 고전음악 전통",
+      "en": "Western Classical Music Tradition"
+    },
+    "period": {
+      "start": 1600,
+      "end": 1950
+    },
     "era": "modern",
     "summary": "바로크에서 낭만주의를 거쳐 현대에 이르는 서양 예술음악의 거대한 전통. 바흐의 대위법, 모차르트의 형식미, 베토벤의 교향곡, 바그너의 총체예술이 주요 이정표이다. 음악을 자율적 예술 형식으로 확립하고, 화성법과 관현악법의 체계적 발전을 이루었다.",
-    "tags": ["클래식 음악", "교향곡", "오페라", "화성학", "관현악"],
-    "relatedPersons": ["bach", "mozart", "beethoven", "chopin", "wagner", "tchaikovsky", "debussy", "stravinsky"],
-    "relatedEntities": ["baroque-art", "romanticism-art", "expressionism"]
+    "tags": [
+      "클래식 음악",
+      "교향곡",
+      "오페라",
+      "화성학",
+      "관현악"
+    ],
+    "relatedPersons": [
+      "bach",
+      "mozart",
+      "beethoven",
+      "chopin",
+      "wagner",
+      "tchaikovsky",
+      "debussy",
+      "stravinsky"
+    ],
+    "relatedEntities": [
+      "baroque-art",
+      "romanticism-art",
+      "expressionism"
+    ]
   },
   {
     "id": "jazz-tradition",
     "type": "art_movement",
-    "name": { "ko": "재즈 전통", "en": "Jazz Tradition" },
-    "period": { "start": 1900, "end": 2025 },
+    "name": {
+      "ko": "재즈 전통",
+      "en": "Jazz Tradition"
+    },
+    "period": {
+      "start": 1900,
+      "end": 2025
+    },
     "era": "contemporary",
     "summary": "아프리카계 미국인 공동체에서 탄생하여 즉흥 연주, 스윙 리듬, 블루 노트를 핵심으로 하는 음악 전통. 루이 암스트롱, 듀크 엘링턴, 마일스 데이비스가 대표 음악가이다. 비밥, 쿨 재즈, 프리 재즈 등으로 끊임없이 진화하며 대중음악 전반에 혁명적 영향을 미쳤다.",
-    "tags": ["재즈", "즉흥 연주", "블루스", "스윙", "아프리카계 미국인"],
-    "relatedPersons": ["louis-armstrong"],
-    "relatedEntities": ["expressionism", "abstract-expressionism"]
+    "tags": [
+      "재즈",
+      "즉흥 연주",
+      "블루스",
+      "스윙",
+      "아프리카계 미국인"
+    ],
+    "relatedPersons": [
+      "louis-armstrong"
+    ],
+    "relatedEntities": [
+      "expressionism",
+      "abstract-expressionism"
+    ]
+  },
+  {
+    "id": "epic-mythic-literature",
+    "type": "art_movement",
+    "name": {
+      "ko": "서사시·신화 문학",
+      "en": "Epic and Mythic Literature"
+    },
+    "period": {
+      "start": -3000,
+      "end": -500
+    },
+    "location": {
+      "lat": 32.54,
+      "lng": 44.42,
+      "region": "메소포타미아, 그리스, 인도"
+    },
+    "era": "ancient",
+    "summary": "인류 최초의 문학 형식으로, 《길가메시 서사시》, 호메로스의 《일리아스》·《오디세이아》, 인도의 《마하바라타》·《라마야나》를 포함한다. 영웅의 여정, 신들의 세계, 인간 조건의 보편적 문제를 서사적으로 탐구하며, 모든 후대 문학의 원형이 되었다.",
+    "tags": [
+      "서사시",
+      "신화",
+      "호메로스",
+      "고대문학"
+    ],
+    "relatedPersons": [
+      "homer"
+    ],
+    "relatedEntities": [
+      "heros-journey",
+      "tragedy-comedy"
+    ]
+  },
+  {
+    "id": "tragedy-comedy",
+    "type": "art_movement",
+    "name": {
+      "ko": "비극과 희극",
+      "en": "Tragedy and Comedy"
+    },
+    "period": {
+      "start": -534,
+      "end": -200
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "era": "ancient",
+    "summary": "기원전 5세기 아테네에서 꽃핀 그리스 연극 전통. 아이스킬로스, 소포클레스, 에우리피데스의 비극은 인간 운명과 신적 질서의 갈등을, 아리스토파네스의 희극은 사회 풍자를 보여준다. 아리스토텔레스의 《시학》은 비극 이론의 고전이며, 서양 드라마 전통의 기초이다.",
+    "tags": [
+      "비극",
+      "희극",
+      "그리스연극",
+      "카타르시스"
+    ],
+    "relatedPersons": [
+      "aristotle"
+    ],
+    "relatedEntities": [
+      "epic-mythic-literature",
+      "theater-tradition"
+    ]
+  },
+  {
+    "id": "lyric-poetry",
+    "type": "art_movement",
+    "name": {
+      "ko": "서정시 전통",
+      "en": "Lyric Poetry Tradition"
+    },
+    "period": {
+      "start": -700,
+      "end": 2000
+    },
+    "location": {
+      "lat": 39.17,
+      "lng": 26.33,
+      "region": "그리스, 글로벌"
+    },
+    "era": "ancient",
+    "summary": "사포, 핀다로스에서 시작하여 페트라르카, 셰익스피어의 소네트, 낭만주의 시, 보들레르의 상징주의, 릴케의 현대시로 이어지는 개인의 감정과 내면을 표현하는 시적 전통. 동아시아에서는 이백·두보의 당시, 마쓰오 바쇼의 하이쿠가 대응한다.",
+    "tags": [
+      "서정시",
+      "시",
+      "감정",
+      "내면"
+    ],
+    "relatedPersons": [
+      "shakespeare"
+    ],
+    "relatedEntities": [
+      "epic-mythic-literature",
+      "novel-tradition"
+    ]
+  },
+  {
+    "id": "novel-tradition",
+    "type": "art_movement",
+    "name": {
+      "ko": "소설 전통",
+      "en": "Novel Tradition"
+    },
+    "period": {
+      "start": 1000,
+      "end": 2000
+    },
+    "location": {
+      "lat": 35.01,
+      "lng": 135.77,
+      "region": "일본, 스페인, 영국"
+    },
+    "era": "medieval",
+    "summary": "무라사키 시키부의 《겐지 이야기》와 세르반테스의 《돈 키호테》를 시원으로 하는 근대 서사 문학의 핵심 장르. 발자크, 도스토예프스키, 톨스토이의 리얼리즘 소설에서 정점에 달하고, 조이스·카프카의 모더니즘으로 혁신되었다.",
+    "tags": [
+      "소설",
+      "서사",
+      "리얼리즘",
+      "모더니즘"
+    ],
+    "relatedPersons": [
+      "dostoevsky",
+      "tolstoy"
+    ],
+    "relatedEntities": [
+      "lyric-poetry",
+      "modern-literature-movement"
+    ]
+  },
+  {
+    "id": "essay-tradition",
+    "type": "art_movement",
+    "name": {
+      "ko": "에세이 전통",
+      "en": "Essay Tradition"
+    },
+    "period": {
+      "start": 1580,
+      "end": 2000
+    },
+    "location": {
+      "lat": 44.84,
+      "lng": -0.58,
+      "region": "프랑스, 영국"
+    },
+    "era": "modern",
+    "summary": "몽테뉴의 《수상록》(1580)에서 시작된 자유로운 산문적 사유의 전통. 베이컨, 에머슨, 오웰, 손택을 거쳐 현대 논픽션의 핵심 장르로 발전했다. 개인의 경험과 성찰을 통해 보편적 진리를 탐구하는 형식이다.",
+    "tags": [
+      "에세이",
+      "산문",
+      "성찰",
+      "몽테뉴"
+    ],
+    "relatedPersons": [
+      "montaigne"
+    ],
+    "relatedEntities": [
+      "novel-tradition"
+    ]
+  },
+  {
+    "id": "modern-literature-movement",
+    "type": "art_movement",
+    "name": {
+      "ko": "현대문학 운동",
+      "en": "Modern Literature Movement"
+    },
+    "period": {
+      "start": 1850,
+      "end": 2000
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "유럽, 미국, 글로벌"
+    },
+    "era": "contemporary",
+    "summary": "리얼리즘에서 상징주의, 모더니즘, 실존주의 문학, 포스트모더니즘, 마술적 리얼리즘으로 이어지는 현대 문학. 조이스의 의식의 흐름, 카프카의 부조리, 보르헤스의 메타픽션, 가르시아 마르케스의 마술적 리얼리즘이 혁신의 정점을 보여준다.",
+    "tags": [
+      "현대문학",
+      "모더니즘",
+      "포스트모더니즘",
+      "마술적리얼리즘"
+    ],
+    "relatedPersons": [
+      "kafka"
+    ],
+    "relatedEntities": [
+      "novel-tradition",
+      "postmodernism"
+    ]
+  },
+  {
+    "id": "painting-tradition",
+    "type": "art_movement",
+    "name": {
+      "ko": "회화 전통",
+      "en": "Painting Tradition"
+    },
+    "period": {
+      "start": -30000,
+      "end": 2000
+    },
+    "location": {
+      "lat": 43.29,
+      "lng": 0.57,
+      "region": "라스코 동굴, 글로벌"
+    },
+    "era": "ancient",
+    "summary": "라스코·알타미라 동굴벽화에서 시작하여 이집트 벽화, 동아시아 수묵화, 르네상스 원근법, 인상주의, 추상미술로 이어지는 인류 가장 오래된 예술 형식. 레오나르도, 렘브란트, 모네, 피카소, 칸딘스키 등이 회화 역사를 만들었다.",
+    "tags": [
+      "회화",
+      "미술",
+      "원근법",
+      "추상"
+    ],
+    "relatedPersons": [
+      "leonardo-da-vinci"
+    ],
+    "relatedEntities": [
+      "sculpture-tradition",
+      "modern-contemporary-art"
+    ]
+  },
+  {
+    "id": "sculpture-tradition",
+    "type": "art_movement",
+    "name": {
+      "ko": "조각 전통",
+      "en": "Sculpture Tradition"
+    },
+    "period": {
+      "start": -25000,
+      "end": 2000
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "글로벌"
+    },
+    "era": "ancient",
+    "summary": "빌렌도르프의 비너스에서 그리스 고전기의 이상적 인체상, 미켈란젤로의 르네상스 조각, 로댕의 근대 조각, 자코메티의 현대 조각으로 이어지는 3차원 예술의 전통. 인간의 신체와 존재를 물질로 표현하는 근본적 예술이다.",
+    "tags": [
+      "조각",
+      "미술",
+      "인체",
+      "3차원"
+    ],
+    "relatedPersons": [
+      "michelangelo"
+    ],
+    "relatedEntities": [
+      "painting-tradition",
+      "architecture-tradition"
+    ]
+  },
+  {
+    "id": "architecture-tradition",
+    "type": "art_movement",
+    "name": {
+      "ko": "건축 전통",
+      "en": "Architecture Tradition"
+    },
+    "period": {
+      "start": -3000,
+      "end": 2000
+    },
+    "location": {
+      "lat": 29.98,
+      "lng": 31.13,
+      "region": "이집트, 글로벌"
+    },
+    "era": "ancient",
+    "summary": "이집트 피라미드, 그리스 신전, 로마 판테온, 고딕 성당, 이슬람 모스크, 르네상스 돔에서 르 코르뷔지에의 모더니즘까지. 건축은 '거주하는 예술'로서 시대의 기술·미학·철학·종교를 가장 총체적으로 구현한다.",
+    "tags": [
+      "건축",
+      "건축사",
+      "공간",
+      "미학"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "painting-tradition",
+      "sculpture-tradition"
+    ]
+  },
+  {
+    "id": "modern-contemporary-art",
+    "type": "art_movement",
+    "name": {
+      "ko": "근현대 미술",
+      "en": "Modern and Contemporary Art"
+    },
+    "period": {
+      "start": 1860,
+      "end": 2000
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "파리, 뉴욕, 글로벌"
+    },
+    "era": "contemporary",
+    "summary": "인상주의에서 입체주의, 다다이즘, 초현실주의, 추상표현주의, 팝아트, 개념미술, 미디어아트로 이어지는 시각예술의 혁명적 전개. '미술이란 무엇인가'라는 질문 자체를 예술의 주제로 삼는 자기반성적 전통이다.",
+    "tags": [
+      "현대미술",
+      "아방가르드",
+      "개념미술",
+      "미디어아트"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "painting-tradition",
+      "postmodernism"
+    ]
+  },
+  {
+    "id": "religious-music",
+    "type": "art_movement",
+    "name": {
+      "ko": "종교음악",
+      "en": "Religious Music"
+    },
+    "period": {
+      "start": -1000,
+      "end": 2000
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.5,
+      "region": "글로벌"
+    },
+    "era": "ancient",
+    "summary": "그레고리안 성가, 비잔틴 성가, 꾸란 낭송, 힌두 만트라, 불교 범패, 가스펠 등 종교적 예배와 명상을 위한 음악 전통의 총칭. 음악이 신성과의 소통, 영적 체험, 공동체적 일체감의 매개가 되는 인류 보편적 현상이다.",
+    "tags": [
+      "종교음악",
+      "성가",
+      "예배",
+      "영성"
+    ],
+    "relatedPersons": [
+      "bach"
+    ],
+    "relatedEntities": [
+      "classical-music-tradition",
+      "christianity"
+    ]
+  },
+  {
+    "id": "folk-music-tradition",
+    "type": "art_movement",
+    "name": {
+      "ko": "민속음악 전통",
+      "en": "Folk Music Tradition"
+    },
+    "period": {
+      "start": -5000,
+      "end": 2000
+    },
+    "location": {
+      "lat": 35.86,
+      "lng": 104.2,
+      "region": "글로벌"
+    },
+    "era": "ancient",
+    "summary": "각 문화권의 구전 음악 전통으로, 노동요, 서사민요, 춤곡, 의례음악을 포함한다. 한국의 판소리·민요, 아일랜드 민요, 아프리카 리듬, 인도 라가 등이 대표적이다. 20세기 민속학 운동과 함께 재발견되어 대중음악에 깊은 영향을 미쳤다.",
+    "tags": [
+      "민속음악",
+      "구전전통",
+      "민요",
+      "문화"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "religious-music",
+      "modern-music"
+    ]
+  },
+  {
+    "id": "modern-music",
+    "type": "art_movement",
+    "name": {
+      "ko": "현대 대중음악",
+      "en": "Modern Popular Music"
+    },
+    "period": {
+      "start": 1900,
+      "end": 2000
+    },
+    "location": {
+      "lat": 29.95,
+      "lng": -90.07,
+      "region": "미국 뉴올리언스, 글로벌"
+    },
+    "era": "contemporary",
+    "summary": "재즈, 블루스, 로큰롤, 소울, 힙합, 일렉트로닉 등 20세기에 탄생한 대중음악 장르의 총칭. 아프리카계 미국인의 음악 전통이 핵심 원천이며, 녹음 기술과 미디어의 발전과 함께 세계적으로 확산되었다.",
+    "tags": [
+      "대중음악",
+      "재즈",
+      "로큰롤",
+      "힙합"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "folk-music-tradition",
+      "cinema-tradition"
+    ]
+  },
+  {
+    "id": "theater-tradition",
+    "type": "art_movement",
+    "name": {
+      "ko": "연극 전통",
+      "en": "Theater Tradition"
+    },
+    "period": {
+      "start": -534,
+      "end": 2000
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네, 글로벌"
+    },
+    "era": "ancient",
+    "summary": "고대 그리스 디오니소스 제전에서 시작하여 셰익스피어, 몰리에르, 입센·체호프의 사실주의, 브레히트의 서사극, 부조리극으로 이어지는 서양 연극 전통. 동양에서는 중국 경극, 일본 노·가부키, 한국 판소리가 대응한다.",
+    "tags": [
+      "연극",
+      "드라마",
+      "무대",
+      "공연"
+    ],
+    "relatedPersons": [
+      "shakespeare"
+    ],
+    "relatedEntities": [
+      "tragedy-comedy",
+      "opera-tradition"
+    ]
+  },
+  {
+    "id": "dance-tradition",
+    "type": "art_movement",
+    "name": {
+      "ko": "무용 전통",
+      "en": "Dance Tradition"
+    },
+    "period": {
+      "start": -5000,
+      "end": 2000
+    },
+    "location": {
+      "lat": 35.86,
+      "lng": 104.2,
+      "region": "글로벌"
+    },
+    "era": "ancient",
+    "summary": "인류 가장 오래된 예술 형식 중 하나로, 의례적 춤에서 인도 바라타나탐, 유럽 궁정 발레, 이사도라 던컨의 현대무용, 피나 바우쉬의 탄츠테아터로 발전했다. 신체를 통한 표현의 극한을 탐구한다.",
+    "tags": [
+      "무용",
+      "춤",
+      "신체",
+      "공연"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "theater-tradition",
+      "folk-music-tradition"
+    ]
+  },
+  {
+    "id": "opera-tradition",
+    "type": "art_movement",
+    "name": {
+      "ko": "오페라 전통",
+      "en": "Opera Tradition"
+    },
+    "period": {
+      "start": 1597,
+      "end": 2000
+    },
+    "location": {
+      "lat": 43.77,
+      "lng": 11.25,
+      "region": "이탈리아 피렌체"
+    },
+    "era": "modern",
+    "summary": "1597년 피렌체에서 고대 그리스 비극 부활을 시도하며 탄생한 종합 예술. 몬테베르디, 모차르트, 베르디, 바그너, 푸치니가 정점을 이루었다. 음악·연극·시각예술을 통합하는 '총체예술작품'으로서 서양 예술사의 핵심 장르이다.",
+    "tags": [
+      "오페라",
+      "종합예술",
+      "성악",
+      "음악극"
+    ],
+    "relatedPersons": [
+      "mozart",
+      "wagner"
+    ],
+    "relatedEntities": [
+      "classical-music-tradition",
+      "theater-tradition"
+    ]
+  },
+  {
+    "id": "cinema-tradition",
+    "type": "art_movement",
+    "name": {
+      "ko": "영화 전통",
+      "en": "Cinema Tradition"
+    },
+    "period": {
+      "start": 1895,
+      "end": 2000
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "프랑스 파리, 글로벌"
+    },
+    "era": "contemporary",
+    "summary": "1895년 뤼미에르 형제의 최초 상영에서 시작된 20세기의 대표적 예술. 에이젠슈테인의 몽타주, 이탈리아 네오리얼리즘, 프랑스 누벨바그, 할리우드, 아시아 영화의 부상으로 이어지며 현대 문화의 가장 영향력 있는 매체가 되었다.",
+    "tags": [
+      "영화",
+      "시네마",
+      "몽타주",
+      "미디어"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "modern-music",
+      "modern-contemporary-art"
+    ]
+  },
+  {
+    "id": "ancient-aesthetics",
+    "type": "art_movement",
+    "name": {
+      "ko": "고대 미학",
+      "en": "Ancient Aesthetics"
+    },
+    "period": {
+      "start": -400,
+      "end": 500
+    },
+    "location": {
+      "lat": 37.97,
+      "lng": 23.72,
+      "region": "그리스 아테네"
+    },
+    "era": "ancient",
+    "summary": "플라톤의 미메시스 비판, 아리스토텔레스의 《시학》(카타르시스 이론), 플로티노스의 미의 형이상학으로 구성되는 고대 미학 전통. 예술은 이데아의 모방인가, 자연의 창조적 모방인가라는 근본 물음은 모든 미학 논의의 출발점이다.",
+    "tags": [
+      "미학",
+      "미메시스",
+      "카타르시스",
+      "고대그리스"
+    ],
+    "relatedPersons": [
+      "plato",
+      "aristotle",
+      "plotinus"
+    ],
+    "relatedEntities": [
+      "platonism",
+      "tragedy-comedy"
+    ]
+  },
+  {
+    "id": "kantian-hegelian-aesthetics",
+    "type": "art_movement",
+    "name": {
+      "ko": "칸트-헤겔 미학",
+      "en": "Kantian-Hegelian Aesthetics"
+    },
+    "period": {
+      "start": 1790,
+      "end": 1835
+    },
+    "location": {
+      "lat": 54.71,
+      "lng": 20.51,
+      "region": "독일"
+    },
+    "era": "modern",
+    "summary": "칸트의 《판단력 비판》과 헤겔의 《미학 강의》로 대표되는 근대 미학의 양대 축. 칸트는 '무관심적 만족'으로 미적 판단의 자율성을 확립했고, 헤겔은 예술을 절대정신의 감각적 현현으로 보아 예술사를 변증법적으로 체계화했다.",
+    "tags": [
+      "미학",
+      "판단력비판",
+      "절대정신",
+      "예술철학"
+    ],
+    "relatedPersons": [
+      "kant",
+      "hegel"
+    ],
+    "relatedEntities": [
+      "german-idealism",
+      "ancient-aesthetics"
+    ]
+  },
+  {
+    "id": "modern-aesthetics",
+    "type": "art_movement",
+    "name": {
+      "ko": "현대 미학",
+      "en": "Modern Aesthetics"
+    },
+    "period": {
+      "start": 1900,
+      "end": 2000
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "글로벌"
+    },
+    "era": "contemporary",
+    "summary": "벤야민의 '기술복제 시대의 예술작품', 아도르노의 '문화산업' 비판, 하이데거의 '예술작품의 근원', 단토의 '예술의 종말' 등으로 구성되는 현대 미학. 대중문화와 디지털 환경에서 예술의 본질을 재질문한다.",
+    "tags": [
+      "미학",
+      "현대미학",
+      "문화산업",
+      "예술종말"
+    ],
+    "relatedPersons": [
+      "adorno",
+      "heidegger",
+      "benjamin"
+    ],
+    "relatedEntities": [
+      "kantian-hegelian-aesthetics",
+      "modern-contemporary-art"
+    ]
   }
 ]

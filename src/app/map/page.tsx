@@ -26,6 +26,9 @@ import movementsData from "@/data/entities/movements.json";
 import institutionsData from "@/data/entities/institutions.json";
 import textsData from "@/data/entities/texts.json";
 import conceptsData from "@/data/entities/concepts.json";
+import archetypesData from "@/data/entities/archetypes.json";
+import artMovementsData from "@/data/entities/art-movements.json";
+import technologiesData from "@/data/entities/technologies.json";
 
 const WorldMap = dynamic(
   () => import("@/components/visualization/WorldMap"),
@@ -82,6 +85,9 @@ const allEntities: EntityData[] = [
   ...(institutionsData as EntityData[]),
   ...(textsData as EntityData[]),
   ...(conceptsData as EntityData[]),
+  ...(archetypesData as EntityData[]),
+  ...(artMovementsData as EntityData[]),
+  ...(technologiesData as EntityData[]),
 ];
 
 const entitiesWithLocation = allEntities.filter((e) => e.location?.lat && e.location?.lng);
@@ -93,6 +99,10 @@ const ENTITY_TYPE_LABELS: Record<string, string> = {
   institution: "기관/조직",
   text: "경전/문헌",
   concept: "핵심 개념",
+  tradition: "전통",
+  archetype: "신화/원형",
+  art_movement: "예술운동",
+  technology: "기술 패러다임",
 };
 
 const ENTITY_TYPE_COLORS: Record<string, string> = {
@@ -102,6 +112,10 @@ const ENTITY_TYPE_COLORS: Record<string, string> = {
   institution: "#B8860B",
   text: "#5B7355",
   concept: "#4A7A6B",
+  tradition: "#C4722B",
+  archetype: "#8B6914",
+  art_movement: "#7A5478",
+  technology: "#3D7A9E",
 };
 
 const CATEGORY_OPTIONS = [
@@ -236,8 +250,10 @@ export default function MapPage() {
           <WorldMap
             persons={filteredPersons}
             religions={religionsData as any}
+            entities={allEntities as any}
             categoryFilter={categoryFilter}
             eraFilter={eraFilter}
+            showEntities={showEntities}
             onViewportPersons={setViewportPersons}
           />
 
