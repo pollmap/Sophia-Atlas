@@ -368,8 +368,8 @@
       "전자기학"
     ],
     "relatedPersons": [
-      "tesla",
-      "edison"
+      "nikola-tesla",
+      "thomas-edison"
     ],
     "relatedEntities": [
       "industrial-revolution",
@@ -399,7 +399,7 @@
       "정보혁명"
     ],
     "relatedPersons": [
-      "shannon"
+      "claude-shannon"
     ],
     "relatedEntities": [
       "electricity-revolution",
@@ -535,7 +535,7 @@
     ],
     "relatedPersons": [
       "turing",
-      "shannon"
+      "claude-shannon"
     ],
     "relatedEntities": [
       "computing-paradigm",
@@ -566,7 +566,7 @@
     "relatedPersons": [
       "berners-lee",
       "turing",
-      "shannon"
+      "claude-shannon"
     ],
     "relatedEntities": [
       "semiconductor-revolution",
@@ -625,8 +625,8 @@
     "relatedPersons": [
       "turing",
       "babbage",
-      "lovelace",
-      "shannon"
+      "ada-lovelace",
+      "claude-shannon"
     ],
     "relatedEntities": [
       "semiconductor-revolution",
@@ -656,7 +656,7 @@
     ],
     "relatedPersons": [
       "turing",
-      "shannon"
+      "claude-shannon"
     ],
     "relatedEntities": [
       "computing-paradigm",
@@ -742,7 +742,7 @@
       "지속가능성"
     ],
     "relatedPersons": [
-      "tesla"
+      "nikola-tesla"
     ],
     "relatedEntities": [
       "electricity-revolution",
@@ -1048,7 +1048,7 @@
     ],
     "relatedPersons": [
       "turing",
-      "shannon"
+      "claude-shannon"
     ],
     "relatedEntities": [
       "third-industrial-revolution",

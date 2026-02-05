@@ -28,7 +28,7 @@
     ],
     "relatedPersons": [
       "augustine",
-      "aquinas"
+      "thomas-aquinas"
     ],
     "relatedEntities": [
       "council-of-nicaea",
@@ -176,7 +176,7 @@
     "relatedPersons": [
       "confucius",
       "mencius",
-      "zhuxi"
+      "zhu-xi"
     ],
     "relatedEntities": [
       "ren-confucius",
@@ -253,7 +253,7 @@
     "relatedPersons": [
       "aristotle",
       "plato",
-      "aquinas"
+      "thomas-aquinas"
     ],
     "relatedEntities": [
       "lyceum",
@@ -692,7 +692,7 @@
       "타자"
     ],
     "relatedPersons": [
-      "simone-de-beauvoir",
+      "de-beauvoir",
       "sartre"
     ],
     "relatedEntities": [
@@ -700,7 +700,7 @@
       "existentialism",
       "alterity"
     ],
-    "author": "simone-de-beauvoir",
+    "author": "de-beauvoir",
     "language": "프랑스어"
   },
   {
@@ -801,7 +801,7 @@
       "positivism",
       "scientific-revolution"
     ],
-    "author": "thomas-kuhn",
+    "author": "kuhn",
     "language": "영어"
   },
   {

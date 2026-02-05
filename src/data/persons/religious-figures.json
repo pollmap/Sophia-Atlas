@@ -9390,5 +9390,47 @@
     "influenced": [
       "thich-nhat-hanh"
     ]
+  },
+  {
+    "id": "john-the-baptist",
+    "name": {
+      "ko": "세례자 요한",
+      "en": "John the Baptist",
+      "original": "Ιωάννης ο Βαπτιστής"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -6,
+      "end": 30
+    },
+    "location": {
+      "lat": 31.77,
+      "lng": 35.23,
+      "region": "유대 광야"
+    },
+    "category": "religious_figure",
+    "subcategory": "christianity",
+    "tags": [
+      "기독교",
+      "세례",
+      "에세네파",
+      "메시아예언"
+    ],
+    "mvp": true,
+    "summary": "예수의 선구자로서 세례 의식을 통해 회개와 정화를 선포한 유대교-기독교의 핵심 예언자. 에세네파와의 연관성이 학계에서 논의되며, 이슬람에서도 예언자 야흐야로 존경받는다.",
+    "detailed": "세례자 요한은 유대 광야에서 회개의 세례를 선포한 예언자로, 기독교 전통에서 예수의 길을 예비한 선구자이다. 요르단강에서 예수에게 세례를 베풀었으며, 이 사건은 기독교 역사의 전환점이 되었다. 사해 사본의 발견 이후, 요한과 쿰란 공동체(에세네파)의 연관성이 학문적으로 주목받고 있다. 둘 다 광야에서의 정화 의식, 종말론적 메시아 기대, 금욕적 공동체 생활을 강조했다. 이슬람에서는 예언자 야흐야(Yahya)로 존경받으며, 만다야교에서는 최고의 예언자로 추앙된다.",
+    "keyWorks": [],
+    "quotes": [
+      {
+        "text": "회개하라, 하늘나라가 가까이 왔다.",
+        "source": "마태복음 3:2"
+      }
+    ],
+    "influences": [],
+    "influenced": [
+      "jesus"
+    ],
+    "religionId": "christianity",
+    "role": "예언자/세례자"
   }
 ]

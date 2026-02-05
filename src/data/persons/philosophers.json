@@ -18142,5 +18142,498 @@
     "questions": [
       "법은 성별 불평등을 실질적으로 시정할 수 있는가?"
     ]
+  },
+  {
+    "id": "bakunin",
+    "name": {
+      "ko": "미하일 바쿠닌",
+      "en": "Mikhail Bakunin",
+      "original": "Михаил Бакунин"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1814,
+      "end": 1876
+    },
+    "location": {
+      "lat": 56.33,
+      "lng": 37.52,
+      "region": "러시아"
+    },
+    "category": "philosopher",
+    "subcategory": "political_philosophy",
+    "tags": [
+      "아나키즘",
+      "혁명",
+      "반국가주의"
+    ],
+    "mvp": false,
+    "summary": "집산주의 아나키즘의 창시자. 국가와 종교 권위 모두를 거부하며 마르크스와 대립한 19세기 혁명 사상가.",
+    "detailed": "바쿠닌은 국가 권력 자체를 억압의 근원으로 보고, 마르크스의 프롤레타리아 독재론에 반대하여 국가 없는 자유로운 연합체를 주장했다. 제1인터내셔널에서 마르크스와의 논쟁은 사회주의 운동의 근본적 분열을 초래했다.",
+    "keyWorks": [
+      {
+        "title": "국가주의와 아나키즘",
+        "year": 1873,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "proudhon"
+    ],
+    "influenced": [],
+    "school": [
+      "아나키즘"
+    ],
+    "concepts": [
+      "집산주의",
+      "반권위주의",
+      "직접행동"
+    ]
+  },
+  {
+    "id": "kropotkin",
+    "name": {
+      "ko": "표트르 크로포트킨",
+      "en": "Peter Kropotkin",
+      "original": "Пётр Кропоткин"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1842,
+      "end": 1921
+    },
+    "location": {
+      "lat": 55.76,
+      "lng": 37.62,
+      "region": "러시아 모스크바"
+    },
+    "category": "philosopher",
+    "subcategory": "political_philosophy",
+    "tags": [
+      "아나키즘",
+      "상호부조",
+      "진화론",
+      "사회생물학"
+    ],
+    "mvp": false,
+    "summary": "아나키-공산주의의 이론가. 다윈의 진화론을 상호부조의 관점에서 재해석하여 협력이 경쟁보다 진화의 핵심 동력임을 주장했다.",
+    "detailed": "크로포트킨은 지리학자이자 박물학자로서 시베리아 탐험을 통해 동물의 상호부조 행동을 관찰하고, 이를 《상호부조론》(1902)에서 체계화했다. 사회 다윈주의의 적자생존 논리에 반대하여 협력이 종의 진화에 더 중요하다고 주장했으며, 이는 현대 사회생물학과 진화심리학의 선구적 통찰이었다.",
+    "keyWorks": [
+      {
+        "title": "상호부조론",
+        "year": 1902,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "darwin",
+      "bakunin"
+    ],
+    "influenced": [],
+    "school": [
+      "아나키즘"
+    ],
+    "concepts": [
+      "상호부조",
+      "아나키-공산주의",
+      "자발적 협력"
+    ]
+  },
+  {
+    "id": "dewey",
+    "name": {
+      "ko": "존 듀이",
+      "en": "John Dewey"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1859,
+      "end": 1952
+    },
+    "location": {
+      "lat": 44.47,
+      "lng": -73.21,
+      "region": "미국 버몬트"
+    },
+    "category": "philosopher",
+    "subcategory": "pragmatism",
+    "tags": [
+      "실용주의",
+      "교육철학",
+      "민주주의",
+      "경험주의"
+    ],
+    "mvp": true,
+    "summary": "미국 실용주의 철학의 대표자이자 진보적 교육 운동의 창시자. 경험과 탐구를 통한 학습, 민주주의와 교육의 불가분한 관계를 주장했다.",
+    "detailed": "듀이는 퍼스와 제임스의 실용주의를 사회 전반으로 확장하여 교육, 민주주의, 예술, 과학 방법론 등 거의 모든 분야에 적용했다. 《민주주의와 교육》(1916)에서 교육은 단순한 지식 전달이 아닌 민주적 시민 양성의 과정이라 주장했으며, 이는 20세기 교육 개혁의 이론적 토대가 되었다.",
+    "keyWorks": [
+      {
+        "title": "민주주의와 교육",
+        "year": 1916,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "william-james",
+      "hegel"
+    ],
+    "influenced": [],
+    "school": [
+      "실용주의"
+    ],
+    "concepts": [
+      "경험주의",
+      "탐구이론",
+      "도구주의"
+    ]
+  },
+  {
+    "id": "burke",
+    "name": {
+      "ko": "에드먼드 버크",
+      "en": "Edmund Burke"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1729,
+      "end": 1797
+    },
+    "location": {
+      "lat": 53.34,
+      "lng": -6.26,
+      "region": "아일랜드 더블린"
+    },
+    "category": "philosopher",
+    "subcategory": "political_philosophy",
+    "tags": [
+      "보수주의",
+      "프랑스혁명비판",
+      "전통",
+      "점진적개혁"
+    ],
+    "mvp": false,
+    "summary": "근대 보수주의의 아버지. 프랑스 혁명에 대한 체계적 비판을 통해 전통, 관습, 점진적 개혁의 가치를 옹호한 정치 사상가.",
+    "detailed": "버크는 《프랑스 혁명에 관한 성찰》(1790)에서 추상적 이성에 기반한 급진적 혁명이 사회의 유기적 전통과 제도를 파괴한다고 경고했다. 사회를 죽은 자, 살아있는 자, 아직 태어나지 않은 자 사이의 계약으로 보는 관점은 보수주의 사상의 핵심이 되었다.",
+    "keyWorks": [
+      {
+        "title": "프랑스 혁명에 관한 성찰",
+        "year": 1790,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "montesquieu"
+    ],
+    "influenced": [],
+    "school": [
+      "보수주의"
+    ],
+    "concepts": [
+      "전통의 지혜",
+      "점진적 개혁",
+      "사회유기체론"
+    ]
+  },
+  {
+    "id": "hanfeizi",
+    "name": {
+      "ko": "한비자",
+      "en": "Han Feizi",
+      "original": "韓非子"
+    },
+    "era": "ancient",
+    "period": {
+      "start": -280,
+      "end": -233
+    },
+    "location": {
+      "lat": 34.76,
+      "lng": 113.65,
+      "region": "중국 한나라"
+    },
+    "category": "philosopher",
+    "subcategory": "chinese_philosophy",
+    "tags": [
+      "법가",
+      "정치철학",
+      "권력",
+      "법치"
+    ],
+    "mvp": false,
+    "summary": "중국 법가(法家)사상의 집대성자. 법(法), 술(術), 세(勢)의 삼위일체로 군주의 통치술을 체계화한 고대 중국의 정치철학자.",
+    "detailed": "한비자는 순자의 제자로서 인간의 본성은 이기적이므로 법과 제도로 다스려야 한다고 주장했다. 유가의 덕치를 비판하고 상앙의 법치, 신불해의 술치, 신도의 세치를 종합하여 법가 사상을 완성했다. 진시황이 그의 사상을 채택하여 최초의 통일 제국을 건설했으며, 마키아벨리와 함께 현실주의 정치철학의 양대 봉우리로 평가된다.",
+    "keyWorks": [
+      {
+        "title": "한비자",
+        "year": -230,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "xunzi"
+    ],
+    "influenced": [],
+    "school": [
+      "법가"
+    ],
+    "concepts": [
+      "법치",
+      "술치",
+      "세치",
+      "인성악"
+    ]
+  },
+  {
+    "id": "stirner",
+    "name": {
+      "ko": "막스 슈티르너",
+      "en": "Max Stirner",
+      "original": "Johann Kaspar Schmidt"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1806,
+      "end": 1856
+    },
+    "location": {
+      "lat": 49.44,
+      "lng": 11.08,
+      "region": "독일 바이로이트"
+    },
+    "category": "philosopher",
+    "subcategory": "political_philosophy",
+    "tags": [
+      "개인주의",
+      "에고이즘",
+      "아나키즘",
+      "반이데올로기"
+    ],
+    "mvp": false,
+    "summary": "개인주의적 아나키즘의 선구자. 《유일자와 그 소유》에서 국가, 종교, 도덕 등 모든 '고정관념'을 거부하고 유일한 개인(Einziger)의 절대적 자유를 주장했다.",
+    "detailed": "슈티르너는 모든 추상적 이념(국가, 신, 인류, 도덕)을 개인 위에 군림하는 '유령'으로 규정하고, 오직 구체적 개인만이 실재한다고 주장했다. 마르크스와 엥겔스가 《독일 이데올로기》에서 상세히 비판했으나, 니체의 초인 사상과 실존주의, 포스트아나키즘에 선행하는 급진적 개인주의의 원천이 되었다.",
+    "keyWorks": [
+      {
+        "title": "유일자와 그 소유",
+        "year": 1844,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "hegel"
+    ],
+    "influenced": [
+      "nietzsche"
+    ],
+    "school": [
+      "개인주의적 아나키즘"
+    ],
+    "concepts": [
+      "유일자",
+      "소유",
+      "에고이즘"
+    ]
+  },
+  {
+    "id": "wonhyo",
+    "name": {
+      "ko": "원효",
+      "en": "Wonhyo",
+      "original": "元曉"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 617,
+      "end": 686
+    },
+    "location": {
+      "lat": 35.87,
+      "lng": 128.6,
+      "region": "한국 신라"
+    },
+    "category": "philosopher",
+    "categories": [
+      "philosopher",
+      "religious_figure"
+    ],
+    "subcategory": "korean_philosophy",
+    "tags": [
+      "한국철학",
+      "불교",
+      "화쟁",
+      "일심"
+    ],
+    "mvp": true,
+    "summary": "한국 불교 최고의 사상가. 화쟁(和諍)사상으로 모든 불교 교파의 대립을 조화시키고, 일심(一心)의 철학으로 깨달음을 체계화한 신라의 승려이자 철학자.",
+    "detailed": "원효는 신라의 승려로서 불교의 수많은 종파와 교리의 대립을 '화쟁'(대립의 조화)으로 통합하고자 했다. 해골바가지 물 일화로 유명한 그는 깨달음이 경전이나 수행의 형식이 아닌 마음의 전환에 있음을 체득했다. 240여 편의 저술로 동아시아 불교 사상에 큰 영향을 미쳤으며, 특히 《대승기신론소》는 중국과 일본 불교에도 영향을 주었다.",
+    "keyWorks": [
+      {
+        "title": "대승기신론소",
+        "type": "commentary"
+      },
+      {
+        "title": "십문화쟁론",
+        "type": "treatise"
+      }
+    ],
+    "influences": [],
+    "influenced": [],
+    "school": [
+      "화쟁학파"
+    ],
+    "concepts": [
+      "화쟁",
+      "일심",
+      "무애행"
+    ]
+  },
+  {
+    "id": "toegye",
+    "name": {
+      "ko": "퇴계 이황",
+      "en": "Yi Hwang (Toegye)",
+      "original": "李滉"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1501,
+      "end": 1570
+    },
+    "location": {
+      "lat": 36.57,
+      "lng": 128.73,
+      "region": "한국 안동"
+    },
+    "category": "philosopher",
+    "subcategory": "korean_philosophy",
+    "tags": [
+      "한국철학",
+      "성리학",
+      "이기론",
+      "경(敬)"
+    ],
+    "mvp": true,
+    "summary": "조선 성리학의 최고봉. 주희의 이기론을 독창적으로 발전시켜 이(理)의 능동성을 주장한 '이기호발설'을 제시했으며, 일본 유학에도 깊은 영향을 미쳤다.",
+    "detailed": "퇴계 이황은 조선 중기 성리학의 거봉으로, 주희의 성리학을 조선적 맥락에서 심화·발전시켰다. 사단칠정론에서 이(理)도 발할 수 있다는 '이기호발설'을 주장하여 율곡 이이와 학문적 대논쟁을 벌였다. 경(敬)을 통한 수양론을 강조했으며, 《성학십도》는 성리학의 핵심을 10개의 도표로 정리한 걸작이다. 일본에 전해져 야마자키 안사이 등 일본 유학에 결정적 영향을 미쳤다.",
+    "keyWorks": [
+      {
+        "title": "성학십도",
+        "year": 1568,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "zhu-xi"
+    ],
+    "influenced": [],
+    "school": [
+      "영남학파"
+    ],
+    "concepts": [
+      "이기호발설",
+      "사단칠정",
+      "경(敬)"
+    ]
+  },
+  {
+    "id": "yulgok",
+    "name": {
+      "ko": "율곡 이이",
+      "en": "Yi I (Yulgok)",
+      "original": "李珥"
+    },
+    "era": "medieval",
+    "period": {
+      "start": 1536,
+      "end": 1584
+    },
+    "location": {
+      "lat": 37.77,
+      "lng": 128.88,
+      "region": "한국 강릉"
+    },
+    "category": "philosopher",
+    "subcategory": "korean_philosophy",
+    "tags": [
+      "한국철학",
+      "성리학",
+      "기발이승",
+      "경세론"
+    ],
+    "mvp": true,
+    "summary": "조선 성리학의 또 다른 거봉. 기(氣)의 역할을 강조한 '기발이승일도설'로 퇴계와 대비되는 학문 체계를 수립했으며, 실천적 경세론으로도 유명하다.",
+    "detailed": "율곡 이이는 퇴계의 이기호발설에 반대하여 '기발이승일도설'(氣發理乘一途說)을 주장했다. 이(理)는 형이상학적 원리이므로 스스로 발할 수 없고, 기(氣)만이 발하며 이는 그 위에 탄다는 것이다. 이 논쟁은 동아시아 성리학 역사에서 가장 정교한 형이상학적 토론이었다. 또한 《만언봉사》 등 현실 개혁안을 제시한 경세가이기도 했다.",
+    "keyWorks": [
+      {
+        "title": "성학집요",
+        "year": 1575,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "zhu-xi"
+    ],
+    "influenced": [],
+    "school": [
+      "기호학파"
+    ],
+    "concepts": [
+      "기발이승일도설",
+      "이통기국",
+      "경세론"
+    ]
+  },
+  {
+    "id": "jeong-yakyong",
+    "name": {
+      "ko": "다산 정약용",
+      "en": "Jeong Yak-yong (Dasan)",
+      "original": "丁若鎔"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1762,
+      "end": 1836
+    },
+    "location": {
+      "lat": 37.52,
+      "lng": 127.33,
+      "region": "한국 마현"
+    },
+    "category": "philosopher",
+    "subcategory": "korean_philosophy",
+    "tags": [
+      "한국철학",
+      "실학",
+      "개혁",
+      "경세치용"
+    ],
+    "mvp": true,
+    "summary": "조선 실학의 집대성자. 성리학의 관념적 한계를 비판하고 실증적·실용적 학문을 추구하며, 500여 권의 저술로 조선 후기 사상계를 혁신했다.",
+    "detailed": "다산 정약용은 18년의 유배 기간 동안 경학, 정치, 경제, 법률, 과학기술, 의학 등 거의 모든 분야에 걸쳐 500여 권의 방대한 저술을 남겼다. 《목민심서》는 지방 관리의 통치 윤리를, 《경세유표》는 국가 개혁의 청사진을, 《흠흠신서》는 형사법의 과학적 접근을 제시했다. 서양 과학과 천주교의 영향을 수용하면서도 유교 전통을 비판적으로 계승한 실학의 최고봉이다.",
+    "keyWorks": [
+      {
+        "title": "목민심서",
+        "year": 1818,
+        "type": "book"
+      },
+      {
+        "title": "경세유표",
+        "year": 1817,
+        "type": "book"
+      }
+    ],
+    "influences": [
+      "confucius",
+      "mencius"
+    ],
+    "influenced": [],
+    "school": [
+      "실학"
+    ],
+    "concepts": [
+      "경세치용",
+      "이용후생",
+      "실사구시"
+    ]
   }
 ]
