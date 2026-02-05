@@ -1417,5 +1417,727 @@
       "deep-learning"
     ],
     "domain": "시스템과학"
+  },
+  {
+    "id": "ancient-mathematics",
+    "type": "concept",
+    "name": {
+      "ko": "고대 수학",
+      "en": "Ancient Mathematics"
+    },
+    "period": {
+      "start": -3000,
+      "end": 500
+    },
+    "location": {
+      "lat": 29.98,
+      "lng": 31.13,
+      "region": "이집트, 메소포타미아, 그리스, 인도"
+    },
+    "era": "ancient",
+    "summary": "메소포타미아의 60진법과 대수, 이집트의 기하학, 그리스의 증명적 수학(유클리드 《원론》), 인도의 0과 십진법 체계를 포함하는 고대 수학 전통. 피타고라스의 수론, 아르키메데스의 적분적 방법, 디오판토스의 대수학은 근대 수학의 직접적 기초가 되었다.",
+    "tags": [
+      "수학",
+      "기하학",
+      "대수학",
+      "고대"
+    ],
+    "relatedPersons": [
+      "euclid",
+      "archimedes",
+      "pythagoras"
+    ],
+    "relatedEntities": [
+      "pythagorean-school"
+    ],
+    "domain": "수학"
+  },
+  {
+    "id": "islamic-mathematics",
+    "type": "concept",
+    "name": {
+      "ko": "이슬람 수학",
+      "en": "Islamic Mathematics",
+      "original": "الرياضيات"
+    },
+    "period": {
+      "start": 700,
+      "end": 1400
+    },
+    "location": {
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "바그다드, 사마르칸트"
+    },
+    "era": "medieval",
+    "summary": "알-콰리즈미가 체계화한 대수학(알-자브르), 알-하이삼의 광학과 적분, 오마르 하이얌의 3차방정식 풀이 등을 포함하는 이슬람 황금기의 수학. 인도의 십진법과 0을 아랍 숫자 체계로 발전시켜 유럽에 전파했으며, '알고리즘'이라는 용어의 기원이 되었다.",
+    "tags": [
+      "수학",
+      "대수학",
+      "이슬람",
+      "알고리즘"
+    ],
+    "relatedPersons": [
+      "al-khwarizmi"
+    ],
+    "relatedEntities": [
+      "ancient-mathematics"
+    ],
+    "domain": "수학"
+  },
+  {
+    "id": "modern-mathematics",
+    "type": "concept",
+    "name": {
+      "ko": "근대 수학",
+      "en": "Modern Mathematics"
+    },
+    "period": {
+      "start": 1600,
+      "end": 2000
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "유럽"
+    },
+    "era": "modern",
+    "summary": "데카르트의 해석기하학, 뉴턴·라이프니츠의 미적분, 가우스의 수론, 칸토어의 집합론, 힐베르트의 공리주의, 괴델의 불완전성 정리로 이어지는 근현대 수학의 발전. 수학의 기초에 대한 논쟁(논리주의·직관주의·형식주의)과 추상화·일반화의 경향이 특징이다.",
+    "tags": [
+      "수학",
+      "미적분",
+      "집합론",
+      "추상화"
+    ],
+    "relatedPersons": [
+      "newton",
+      "gauss",
+      "godel"
+    ],
+    "relatedEntities": [
+      "ancient-mathematics",
+      "islamic-mathematics"
+    ],
+    "domain": "수학"
+  },
+  {
+    "id": "classical-mechanics",
+    "type": "concept",
+    "name": {
+      "ko": "고전역학",
+      "en": "Classical Mechanics"
+    },
+    "period": {
+      "start": 1687,
+      "end": 1900
+    },
+    "location": {
+      "lat": 52.21,
+      "lng": 0.12,
+      "region": "영국 캠브리지"
+    },
+    "era": "modern",
+    "summary": "뉴턴의 《프린키피아》(1687)를 기점으로 확립된 역학 체계. 운동의 세 법칙과 만유인력 법칙으로 천체와 지상의 운동을 통일적으로 설명했다. 라그랑주·해밀턴에 의해 수학적으로 정교화되어, 양자역학과 상대성이론이 등장하기까지 물리학의 근간이었다.",
+    "tags": [
+      "역학",
+      "뉴턴",
+      "물리학",
+      "운동법칙"
+    ],
+    "relatedPersons": [
+      "newton"
+    ],
+    "relatedEntities": [
+      "modern-mathematics"
+    ],
+    "domain": "물리학"
+  },
+  {
+    "id": "electromagnetism-theory",
+    "type": "concept",
+    "name": {
+      "ko": "전자기학",
+      "en": "Electromagnetism Theory"
+    },
+    "period": {
+      "start": 1820,
+      "end": 1905
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국"
+    },
+    "era": "contemporary",
+    "summary": "패러데이의 전자기 유도 발견과 맥스웰의 전자기장 방정식으로 완성된 전기·자기·빛의 통합 이론. 맥스웰 방정식은 빛이 전자기파임을 보여주었고, 이는 아인슈타인의 특수 상대성이론의 직접적 계기가 되었다. 현대 전자공학과 통신 기술의 이론적 토대이다.",
+    "tags": [
+      "전자기학",
+      "맥스웰",
+      "빛",
+      "물리학"
+    ],
+    "relatedPersons": [
+      "faraday",
+      "maxwell"
+    ],
+    "relatedEntities": [
+      "classical-mechanics"
+    ],
+    "domain": "물리학"
+  },
+  {
+    "id": "string-theory",
+    "type": "concept",
+    "name": {
+      "ko": "끈 이론",
+      "en": "String Theory"
+    },
+    "period": {
+      "start": 1968,
+      "end": 2000
+    },
+    "location": {
+      "lat": 41.89,
+      "lng": -87.63,
+      "region": "미국, 유럽"
+    },
+    "era": "contemporary",
+    "summary": "물질의 기본 구성요소가 0차원 점입자가 아니라 1차원의 진동하는 끈이라는 이론. 양자역학과 일반상대성이론의 통합을 시도하며, 10~11차원의 시공간을 예측한다. 수학적으로 매우 정교하지만 실험적 검증이 어려워 '과학인가 수학인가'에 대한 논쟁이 계속되고 있다.",
+    "tags": [
+      "끈이론",
+      "양자중력",
+      "초끈",
+      "이론물리"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "quantum-gravity"
+    ],
+    "domain": "이론물리학"
+  },
+  {
+    "id": "quantum-gravity",
+    "type": "concept",
+    "name": {
+      "ko": "양자중력",
+      "en": "Quantum Gravity"
+    },
+    "period": {
+      "start": 1930,
+      "end": 2000
+    },
+    "location": {
+      "lat": 52.21,
+      "lng": 0.12,
+      "region": "글로벌"
+    },
+    "era": "contemporary",
+    "summary": "양자역학과 일반상대성이론을 통합하여 시공간의 양자적 본성을 설명하려는 이론물리학의 근본 과제. 끈 이론, 루프 양자중력, 인과적 다이나믹 삼각분할 등 다양한 접근이 경쟁하고 있다. 블랙홀의 정보 역설, 빅뱅의 물리학, 시공간의 근본 구조 문제와 연결된다.",
+    "tags": [
+      "양자중력",
+      "통일이론",
+      "시공간",
+      "이론물리"
+    ],
+    "relatedPersons": [
+      "einstein"
+    ],
+    "relatedEntities": [
+      "string-theory"
+    ],
+    "domain": "이론물리학"
+  },
+  {
+    "id": "modern-chemistry",
+    "type": "concept",
+    "name": {
+      "ko": "근대 화학",
+      "en": "Modern Chemistry"
+    },
+    "period": {
+      "start": 1661,
+      "end": 2000
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "유럽"
+    },
+    "era": "modern",
+    "summary": "보일의 원소 개념(1661)에서 시작하여 라부아지에의 질량보존법칙, 돌턴의 원자론, 멘델레예프의 주기율표로 발전한 근대 화학. 연금술의 실험적 전통을 계승하면서도 정량적·체계적 방법론으로 물질의 구성과 변환을 과학적으로 탐구한다.",
+    "tags": [
+      "화학",
+      "원소",
+      "주기율표",
+      "원자론"
+    ],
+    "relatedPersons": [
+      "lavoisier",
+      "mendeleev"
+    ],
+    "relatedEntities": [
+      "alchemy-tradition"
+    ],
+    "domain": "화학"
+  },
+  {
+    "id": "natural-history-tradition",
+    "type": "concept",
+    "name": {
+      "ko": "박물학 전통",
+      "en": "Natural History Tradition"
+    },
+    "period": {
+      "start": -350,
+      "end": 1859
+    },
+    "location": {
+      "lat": 48.85,
+      "lng": 2.35,
+      "region": "유럽"
+    },
+    "era": "ancient",
+    "summary": "아리스토텔레스의 동물 분류에서 시작하여 린네의 이명법(분류학), 뷔퐁의 자연사, 훔볼트의 생태지리학으로 이어지는 자연 세계 관찰·기록·분류의 전통. 다윈의 진화론에 경험적 토대를 제공했으며, 현대 생물학·생태학·보전생물학의 기원이다.",
+    "tags": [
+      "박물학",
+      "분류학",
+      "자연관찰",
+      "생물학"
+    ],
+    "relatedPersons": [
+      "aristotle",
+      "darwin"
+    ],
+    "relatedEntities": [
+      "evolutionary-theory"
+    ],
+    "domain": "생물학"
+  },
+  {
+    "id": "genetics-science",
+    "type": "concept",
+    "name": {
+      "ko": "유전학",
+      "en": "Genetics"
+    },
+    "period": {
+      "start": 1865,
+      "end": 2000
+    },
+    "location": {
+      "lat": 49.2,
+      "lng": 16.61,
+      "region": "체코 브르노 (멘델), 글로벌"
+    },
+    "era": "contemporary",
+    "summary": "멘델의 유전 법칙(1865)에서 시작하여 모건의 염색체 이론, 왓슨·크릭의 DNA 이중나선 구조 발견(1953), 인간 게놈 프로젝트(2003)로 이어진 유전의 과학. 진화론의 메커니즘을 분자 수준에서 해명하고, 생명공학·유전자 치료·합성생물학의 기초가 되었다.",
+    "tags": [
+      "유전학",
+      "DNA",
+      "유전자",
+      "분자생물학"
+    ],
+    "relatedPersons": [
+      "watson",
+      "crick"
+    ],
+    "relatedEntities": [
+      "molecular-biology",
+      "evolutionary-theory"
+    ],
+    "domain": "생물학"
+  },
+  {
+    "id": "molecular-biology",
+    "type": "concept",
+    "name": {
+      "ko": "분자생물학",
+      "en": "Molecular Biology"
+    },
+    "period": {
+      "start": 1953,
+      "end": 2000
+    },
+    "location": {
+      "lat": 52.21,
+      "lng": 0.12,
+      "region": "영국 캠브리지, 미국"
+    },
+    "era": "contemporary",
+    "summary": "DNA 이중나선 구조 발견(1953)을 기점으로 생명 현상을 분자 수준에서 탐구하는 학문. 중심원리(DNA→RNA→단백질), 유전자 발현 조절, 게놈학, 단백질 구조학 등을 포함한다. CRISPR 유전자 편집 기술의 발전으로 생명의 근본적 재설계가 가능해지고 있다.",
+    "tags": [
+      "분자생물학",
+      "DNA",
+      "유전자발현",
+      "CRISPR"
+    ],
+    "relatedPersons": [
+      "watson",
+      "crick"
+    ],
+    "relatedEntities": [
+      "genetics-science"
+    ],
+    "domain": "생물학"
+  },
+  {
+    "id": "ancient-cosmology",
+    "type": "concept",
+    "name": {
+      "ko": "고대 우주론",
+      "en": "Ancient Cosmology"
+    },
+    "period": {
+      "start": -3000,
+      "end": 1500
+    },
+    "location": {
+      "lat": 32.54,
+      "lng": 44.42,
+      "region": "바빌론, 그리스, 인도, 중국"
+    },
+    "era": "ancient",
+    "summary": "바빌로니아의 천문 관측, 그리스의 천구 모델(프톨레마이오스의 천동설), 인도의 우주 주기론, 중국의 개천설·혼천설을 포함하는 고대의 우주 이해. 각 문명은 독자적 우주 모델을 발전시켰으며, 이는 종교·철학·과학이 융합된 총체적 세계관의 표현이었다.",
+    "tags": [
+      "우주론",
+      "천문학",
+      "천동설",
+      "고대"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "babylonian-astrology",
+      "pythagorean-school"
+    ],
+    "domain": "천문학"
+  },
+  {
+    "id": "copernican-revolution",
+    "type": "concept",
+    "name": {
+      "ko": "코페르니쿠스 혁명",
+      "en": "Copernican Revolution"
+    },
+    "period": {
+      "start": 1543,
+      "end": 1687
+    },
+    "location": {
+      "lat": 53.01,
+      "lng": 18.61,
+      "region": "폴란드, 이탈리아, 영국"
+    },
+    "era": "modern",
+    "summary": "코페르니쿠스의 지동설(1543)에서 시작하여 케플러의 행성 운동 법칙, 갈릴레오의 망원경 관측, 뉴턴의 만유인력 법칙으로 완성된 과학혁명의 핵심. 지구가 우주의 중심이 아니라는 발견은 인간의 우주적 위치에 대한 근본적 전환을 야기하여, 토마스 쿤의 '패러다임 전환'의 대표적 사례가 되었다.",
+    "tags": [
+      "지동설",
+      "과학혁명",
+      "패러다임",
+      "천문학"
+    ],
+    "relatedPersons": [
+      "copernicus",
+      "galileo",
+      "kepler",
+      "newton"
+    ],
+    "relatedEntities": [
+      "ancient-cosmology",
+      "classical-mechanics"
+    ],
+    "domain": "천문학"
+  },
+  {
+    "id": "modern-cosmology-theory",
+    "type": "concept",
+    "name": {
+      "ko": "현대 우주론",
+      "en": "Modern Cosmology"
+    },
+    "period": {
+      "start": 1915,
+      "end": 2000
+    },
+    "location": {
+      "lat": 52.52,
+      "lng": 13.4,
+      "region": "글로벌"
+    },
+    "era": "contemporary",
+    "summary": "아인슈타인의 일반상대성이론(1915)을 토대로 발전한 우주의 기원·구조·진화에 대한 과학. 허블의 우주 팽창 발견(1929), 빅뱅 이론, 우주배경복사 발견(1965), 암흑물질·암흑에너지의 발견으로 이어진다. 관측 가능한 우주의 나이는 약 138억 년으로 추정된다.",
+    "tags": [
+      "우주론",
+      "빅뱅",
+      "상대성이론",
+      "암흑에너지"
+    ],
+    "relatedPersons": [
+      "einstein"
+    ],
+    "relatedEntities": [
+      "copernican-revolution",
+      "quantum-gravity"
+    ],
+    "domain": "천문학"
+  },
+  {
+    "id": "hippocratic-medicine",
+    "type": "concept",
+    "name": {
+      "ko": "히포크라테스 의학",
+      "en": "Hippocratic Medicine"
+    },
+    "period": {
+      "start": -460,
+      "end": 200
+    },
+    "location": {
+      "lat": 36.67,
+      "lng": 27.05,
+      "region": "그리스 코스섬"
+    },
+    "era": "ancient",
+    "summary": "히포크라테스와 그 학파가 발전시킨 고대 그리스 의학 전통. 질병을 초자연적 원인이 아닌 자연적 원인(체액의 불균형)으로 설명하고, 임상 관찰과 경험적 치료를 강조했다. '히포크라테스 선서'는 의료윤리의 기원이며, 갈레노스를 거쳐 서양 의학의 근간이 되었다.",
+    "tags": [
+      "의학",
+      "히포크라테스",
+      "체액설",
+      "의료윤리"
+    ],
+    "relatedPersons": [
+      "hippocrates"
+    ],
+    "relatedEntities": [
+      "natural-history-tradition"
+    ],
+    "domain": "의학"
+  },
+  {
+    "id": "islamic-medicine",
+    "type": "concept",
+    "name": {
+      "ko": "이슬람 의학",
+      "en": "Islamic Medicine",
+      "original": "الطب"
+    },
+    "period": {
+      "start": 700,
+      "end": 1400
+    },
+    "location": {
+      "lat": 33.31,
+      "lng": 44.37,
+      "region": "바그다드, 코르도바"
+    },
+    "era": "medieval",
+    "summary": "이븐 시나의 《의학전범》을 정점으로 하는 이슬람 황금기의 의학. 그리스 의학을 계승·발전시켜 임상 실험, 약학, 외과학, 안과학, 병원 체계를 체계화했다. 이븐 시나의 《의학전범》은 17세기까지 유럽 의과대학의 주요 교재로 사용되었다.",
+    "tags": [
+      "의학",
+      "이슬람",
+      "이븐시나",
+      "약학"
+    ],
+    "relatedPersons": [
+      "ibn-sina"
+    ],
+    "relatedEntities": [
+      "hippocratic-medicine"
+    ],
+    "domain": "의학"
+  },
+  {
+    "id": "ayurveda",
+    "type": "concept",
+    "name": {
+      "ko": "아유르베다",
+      "en": "Ayurveda",
+      "original": "आयुर्वेद"
+    },
+    "period": {
+      "start": -1500,
+      "end": 2000
+    },
+    "location": {
+      "lat": 25.32,
+      "lng": 83.01,
+      "region": "인도"
+    },
+    "era": "ancient",
+    "summary": "인도의 전통 의학 체계로, '생명의 지식'이라는 뜻이다. 바타·피타·카파의 세 도샤(체질) 이론에 기반하여 식이·약초·요가·명상을 통한 심신의 균형 회복을 추구한다. 《차라카 삼히타》와 《수슈루타 삼히타》가 주요 경전이다. WHO가 인정하는 전통 의학이다.",
+    "tags": [
+      "아유르베다",
+      "인도의학",
+      "도샤",
+      "전통의학"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "hippocratic-medicine",
+      "hinduism"
+    ],
+    "domain": "의학"
+  },
+  {
+    "id": "traditional-chinese-medicine",
+    "type": "concept",
+    "name": {
+      "ko": "한의학 (중국 전통의학)",
+      "en": "Traditional Chinese Medicine",
+      "original": "中醫學"
+    },
+    "period": {
+      "start": -2000,
+      "end": 2000
+    },
+    "location": {
+      "lat": 39.9,
+      "lng": 116.4,
+      "region": "중국"
+    },
+    "era": "ancient",
+    "summary": "음양오행론, 경락·경혈 이론, 기(氣)의 순환에 기반한 동아시아의 전통 의학 체계. 《황제내경》이 이론적 기초이며, 침구, 한약, 추나, 기공 등의 치료법을 발전시켰다. 한국(한의학), 일본(한방의학), 베트남 등 동아시아 전역에서 실천되고 있다.",
+    "tags": [
+      "한의학",
+      "음양오행",
+      "경락",
+      "침구"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "yin-yang",
+      "qi"
+    ],
+    "domain": "의학"
+  },
+  {
+    "id": "modern-medicine",
+    "type": "concept",
+    "name": {
+      "ko": "근대 의학",
+      "en": "Modern Medicine"
+    },
+    "period": {
+      "start": 1543,
+      "end": 2000
+    },
+    "location": {
+      "lat": 52.37,
+      "lng": 4.9,
+      "region": "유럽"
+    },
+    "era": "modern",
+    "summary": "베살리우스의 해부학(1543), 하비의 혈액순환론(1628), 제너의 종두법(1796), 파스퇴르의 세균론, 코흐의 병원균 발견, 플레밍의 페니실린 발견으로 이어지는 근대 의학의 발전. 과학적 방법론에 기반한 실증의학으로, 인류의 평균수명을 비약적으로 증가시켰다.",
+    "tags": [
+      "의학",
+      "세균론",
+      "항생제",
+      "해부학"
+    ],
+    "relatedPersons": [
+      "pasteur",
+      "fleming"
+    ],
+    "relatedEntities": [
+      "hippocratic-medicine"
+    ],
+    "domain": "의학"
+  },
+  {
+    "id": "psychology-science",
+    "type": "concept",
+    "name": {
+      "ko": "심리학",
+      "en": "Psychology"
+    },
+    "period": {
+      "start": 1879,
+      "end": 2000
+    },
+    "location": {
+      "lat": 51.34,
+      "lng": 12.37,
+      "region": "독일 라이프치히 (분트 실험실)"
+    },
+    "era": "contemporary",
+    "summary": "분트의 실험심리학 실험실 설립(1879)을 기점으로 독립 과학이 된 인간 마음의 연구. 행동주의(왓슨, 스키너), 정신분석(프로이트), 인지심리학(인지혁명), 인본주의 심리학(매슬로, 로저스) 등 다양한 패러다임이 경쟁하며 발전했다.",
+    "tags": [
+      "심리학",
+      "행동주의",
+      "인지",
+      "정신분석"
+    ],
+    "relatedPersons": [
+      "freud",
+      "jung"
+    ],
+    "relatedEntities": [
+      "neuroscience",
+      "cognitive-science"
+    ],
+    "domain": "심리학"
+  },
+  {
+    "id": "neuroscience",
+    "type": "concept",
+    "name": {
+      "ko": "신경과학",
+      "en": "Neuroscience"
+    },
+    "period": {
+      "start": 1890,
+      "end": 2000
+    },
+    "location": {
+      "lat": 40.71,
+      "lng": -74.01,
+      "region": "글로벌"
+    },
+    "era": "contemporary",
+    "summary": "뇌와 신경계의 구조·기능을 연구하는 학문. 라몬 이 카할의 뉴런 이론, 허지킨-헉슬리의 활동전위 모델, fMRI·EEG 등 뇌영상 기술의 발전으로 의식·기억·감정·의사결정의 신경 기반을 밝혀가고 있다. 인공지능, 철학, 윤리학과의 학제 간 대화가 활발하다.",
+    "tags": [
+      "신경과학",
+      "뇌",
+      "뉴런",
+      "의식"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "psychology-science",
+      "cognitive-science"
+    ],
+    "domain": "신경과학"
+  },
+  {
+    "id": "cognitive-science",
+    "type": "concept",
+    "name": {
+      "ko": "인지과학",
+      "en": "Cognitive Science"
+    },
+    "period": {
+      "start": 1956,
+      "end": 2000
+    },
+    "location": {
+      "lat": 42.37,
+      "lng": -71.12,
+      "region": "미국 MIT, 글로벌"
+    },
+    "era": "contemporary",
+    "summary": "1956년을 기점으로 형성된 마음·지능·인지의 학제적 연구. 심리학, 인공지능, 언어학, 철학, 신경과학, 인류학을 통합하여 인간의 인지 과정을 탐구한다. 촘스키의 언어학, 마르의 시각 이론, 체화된 인지, 연결주의 등 다양한 접근을 포함한다.",
+    "tags": [
+      "인지과학",
+      "학제간",
+      "인공지능",
+      "언어"
+    ],
+    "relatedPersons": [
+      "chomsky"
+    ],
+    "relatedEntities": [
+      "psychology-science",
+      "neuroscience"
+    ],
+    "domain": "인지과학"
   }
 ]
