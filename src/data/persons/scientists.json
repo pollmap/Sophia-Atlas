@@ -1231,64 +1231,6 @@
     ]
   },
   {
-    "id": "leibniz",
-    "name": {
-      "ko": "고트프리트 라이프니츠",
-      "en": "Gottfried Wilhelm Leibniz"
-    },
-    "era": "modern",
-    "period": {
-      "start": 1646,
-      "end": 1716
-    },
-    "location": {
-      "lat": 52.37,
-      "lng": 9.73,
-      "region": "독일 하노버"
-    },
-    "category": "scientist",
-    "subcategory": "scientific_revolution",
-    "tags": [
-      "수학",
-      "철학",
-      "미적분학",
-      "이진법"
-    ],
-    "mvp": true,
-    "summary": "17세기 독일의 수학자이자 철학자, 발명가로, 뉴턴과 독립적으로 미적분학을 발명하고 현대 수학에서 사용되는 미적분 표기법을 확립했다. 이진법의 체계를 정립하고 기계식 계산기를 개발했으며, 모나드론 등 철학적 체계로도 유명한 보편적 천재이다.",
-    "detailed": "고트프리트 빌헬름 라이프니츠(1646-1716)는 라이프치히 출신의 학자로 수학, 철학, 법학, 신학, 역사학, 언어학, 외교 등 인류 지성사에서 가장 넓은 영역을 아우른 보편적 천재이다. 1675-1676년 미적분학을 독자적으로 발명했으며, 그의 dy/dx 표기법과 적분 기호 ∫는 뉴턴의 표기법보다 훨씬 편리하여 오늘날 전 세계에서 표준으로 사용된다. 이진법(0과 1)의 수학적 체계를 정립했는데, 이는 250년 후 디지털 컴퓨터의 근간이 되었다. 사칙연산이 가능한 기계식 계산기(계단형 계산기)를 발명했으며, 보편적 기호 논리 체계(보편 기호법)의 구상은 현대 수리논리학과 컴퓨터 프로그래밍 언어의 선구가 되었다. 철학에서는 세계를 구성하는 궁극적 단위인 모나드 개념을 제시하고, 이 세계가 '가능한 최선의 세계'라는 신정론을 전개했다. 뉴턴과의 미적분 우선권 분쟁은 과학사에서 가장 유명한 논쟁 중 하나이며, 현대 학자들은 두 사람이 독립적으로 발명한 것으로 평가한다. 베를린 과학 아카데미를 설립하는 등 학술 제도화에도 기여했다.",
-    "keyWorks": [
-      {
-        "title": "미적분에 관한 새로운 방법",
-        "year": 1684,
-        "type": "book"
-      }
-    ],
-    "quotes": [
-      {
-        "text": "이것은 가능한 모든 세계 중 최선의 세계이다.",
-        "source": "변신론"
-      }
-    ],
-    "influences": [
-      "pascal"
-    ],
-    "influenced": [
-      "euler"
-    ],
-    "field": [
-      "수학",
-      "철학",
-      "논리학"
-    ],
-    "discoveries": [
-      "미적분학(독립적 발견)",
-      "미적분 표기법",
-      "이진법",
-      "기계식 계산기 개량"
-    ]
-  },
-  {
     "id": "halley",
     "name": {
       "ko": "에드먼드 핼리",
@@ -4806,7 +4748,7 @@
     "era": "contemporary",
     "period": {
       "start": 1928,
-      "end": -1
+      "end": 0
     },
     "location": {
       "lat": 40.86,
@@ -5102,7 +5044,7 @@
     "era": "contemporary",
     "period": {
       "start": 1931,
-      "end": -1
+      "end": 0
     },
     "location": {
       "lat": 51.75,
@@ -5408,7 +5350,7 @@
     "era": "contemporary",
     "period": {
       "start": 1941,
-      "end": -1
+      "end": 0
     },
     "location": {
       "lat": 51.75,
@@ -5588,7 +5530,7 @@
     "era": "contemporary",
     "period": {
       "start": 1951,
-      "end": -1
+      "end": 0
     },
     "location": {
       "lat": 40.35,
@@ -5646,7 +5588,7 @@
     "era": "contemporary",
     "period": {
       "start": 1953,
-      "end": -1
+      "end": 0
     },
     "location": {
       "lat": 51.75,
@@ -5700,7 +5642,7 @@
     "era": "contemporary",
     "period": {
       "start": 1964,
-      "end": -1
+      "end": 0
     },
     "location": {
       "lat": 37.87,
@@ -5761,7 +5703,7 @@
     "era": "contemporary",
     "period": {
       "start": 1968,
-      "end": -1
+      "end": 0
     },
     "location": {
       "lat": 52.52,
@@ -7086,7 +7028,7 @@
     "era": "contemporary",
     "period": {
       "start": 1938,
-      "end": -1
+      "end": 0
     },
     "location": {
       "lat": 43.04,
@@ -7141,7 +7083,7 @@
     "era": "contemporary",
     "period": {
       "start": 1955,
-      "end": -1
+      "end": 0
     },
     "location": {
       "lat": 51.51,
