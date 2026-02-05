@@ -34,7 +34,7 @@ import movementsData from '@/data/entities/movements.json';
 import institutionsData from '@/data/entities/institutions.json';
 import textsData from '@/data/entities/texts.json';
 import conceptsData from '@/data/entities/concepts.json';
-import { formatYear, getCategoryHexColor } from '@/lib/utils';
+import { formatYear, getCategoryHexColor, getCSSVar } from '@/lib/utils';
 
 const allPersons = [
   ...philosophersData,
@@ -195,6 +195,16 @@ export default function HomePage() {
     resize();
     window.addEventListener('resize', resize);
 
+    // Read theme-aware colors for canvas
+    const goldHex = getCSSVar('--gold') || '#B8860B';
+    const catColorsThemed: Record<string, string> = {
+      philosopher: getCSSVar('--cat-philosopher') || '#4A5D8A',
+      religious_figure: getCSSVar('--cat-religious') || '#B8860B',
+      scientist: getCSSVar('--cat-scientist') || '#5B7355',
+      historical_figure: getCSSVar('--cat-historical') || '#8B4040',
+      cultural_figure: getCSSVar('--cat-cultural') || '#7A5478',
+    };
+
     let time = 0;
     function draw() {
       if (!ctx || !canvas) return;
@@ -204,7 +214,7 @@ export default function HomePage() {
 
       ctx.clearRect(0, 0, w, h);
 
-      // Draw edges — warm sepia tone
+      // Draw edges — theme-aware gold
       netEdges.forEach(([i, j]) => {
         const a = netNodes[i];
         const b = netNodes[j];
@@ -216,12 +226,14 @@ export default function HomePage() {
         ctx.beginPath();
         ctx.moveTo(ax, ay);
         ctx.lineTo(bx, by);
-        ctx.strokeStyle = 'rgba(184, 134, 11, 0.06)';
+        ctx.strokeStyle = goldHex;
+        ctx.globalAlpha = 0.08;
         ctx.lineWidth = 0.5;
         ctx.stroke();
+        ctx.globalAlpha = 1;
       });
 
-      // Draw nodes — tradition pigment colors
+      // Draw nodes — theme-aware pigment colors
       netNodes.forEach((node) => {
         const nx = (node.x + Math.sin(time * node.speed * 0.1 + node.phase) * 1.5) * w / 100;
         const ny = (node.y + Math.cos(time * node.speed * 0.1 + node.phase) * 1) * h / 100;
@@ -229,8 +241,8 @@ export default function HomePage() {
 
         ctx.beginPath();
         ctx.arc(nx, ny, node.size * 1.5, 0, Math.PI * 2);
-        ctx.fillStyle = categoryColors[node.category] || '#6B6358';
-        ctx.globalAlpha = 0.12 + pulse * 0.15;
+        ctx.fillStyle = catColorsThemed[node.category] || '#6B6358';
+        ctx.globalAlpha = 0.15 + pulse * 0.15;
         ctx.fill();
         ctx.globalAlpha = 1;
       });
@@ -295,7 +307,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden px-4" style={{ paddingTop: '6rem', paddingBottom: '5rem' }}>
         {/* Subtle parchment texture + canvas */}
         <div className="absolute inset-0 parchment-texture" />
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(184,134,11,0.06) 0%, rgba(184,134,11,0.01) 100%)' }} />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, var(--gold-muted) 0%, transparent 100%)', opacity: 0.4 }} />
         <div className="absolute inset-0">
           <canvas ref={canvasRef} className="w-full h-full" />
         </div>
@@ -494,6 +506,67 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ═══════════════════ Featured Persons Spotlight ═══════════════════ */}
+      <section className="max-w-6xl mx-auto px-4 pb-16">
+        <div className="text-center mb-10">
+          <h2
+            className="text-2xl mb-2"
+            style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", color: 'var(--ink-dark)' }}
+          >
+            시대를 만든 사상가들
+          </h2>
+          <p className="text-sm" style={{ color: 'var(--ink-light)' }}>인류 지성사의 핵심 인물을 만나보세요</p>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+          {(() => {
+            const featured = [
+              { id: 'socrates', name: '소크라테스', en: 'Socrates', era: 'ancient', category: 'philosopher' },
+              { id: 'buddha', name: '석가모니', en: 'Buddha', era: 'ancient', category: 'religious_figure' },
+              { id: 'newton', name: '뉴턴', en: 'Newton', era: 'modern', category: 'scientist' },
+              { id: 'kant', name: '칸트', en: 'Kant', era: 'modern', category: 'philosopher' },
+              { id: 'darwin', name: '다윈', en: 'Darwin', era: 'modern', category: 'scientist' },
+              { id: 'nietzsche', name: '니체', en: 'Nietzsche', era: 'contemporary', category: 'philosopher' },
+            ];
+            return featured.map((person) => {
+              const eraColor = eraColors[person.era] || '#6B6358';
+              const catColor = categoryColors[person.category] || '#6B6358';
+              return (
+                <Link
+                  key={person.id}
+                  href={`/persons/${person.id}`}
+                  className="group fresco-card p-4 text-center"
+                >
+                  <div
+                    className="w-14 h-14 rounded-full mx-auto mb-3 flex items-center justify-center text-lg font-bold"
+                    style={{
+                      background: `linear-gradient(135deg, ${catColor}25, ${eraColor}25)`,
+                      color: catColor,
+                      fontFamily: "'Cormorant Garamond', serif",
+                      border: `2px solid ${catColor}30`,
+                    }}
+                  >
+                    {person.name.charAt(0)}
+                  </div>
+                  <h3
+                    className="text-sm font-semibold group-hover:opacity-80 transition-opacity"
+                    style={{ color: 'var(--ink-dark)', fontFamily: "'Noto Serif KR', serif" }}
+                  >
+                    {person.name}
+                  </h3>
+                  <p className="text-[10px] mt-0.5" style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}>
+                    {person.en}
+                  </p>
+                  <div
+                    className="w-2 h-2 rounded-full mx-auto mt-2"
+                    style={{ backgroundColor: eraColor }}
+                  />
+                </Link>
+              );
+            });
+          })()}
+        </div>
+      </section>
+
       {/* ═══════════════════ Mini Timeline ═══════════════════ */}
       <section className="max-w-6xl mx-auto px-4 pb-16">
         <h2
@@ -543,7 +616,7 @@ export default function HomePage() {
                         bottom: isTop ? 'auto' : '100%',
                         background: 'var(--fresco-parchment)',
                         border: '1px solid var(--fresco-shadow)',
-                        boxShadow: '0 4px 12px rgba(44, 36, 22, 0.1)',
+                        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
                       }}
                     >
                       <p className="text-[10px] font-medium" style={{ color: 'var(--ink-dark)' }}>{m.label}</p>
@@ -576,7 +649,7 @@ export default function HomePage() {
           </div>
 
           <div className="mt-6">
-            <Quote className="w-8 h-8 mb-4" style={{ color: 'rgba(184, 134, 11, 0.25)' }} />
+            <Quote className="w-8 h-8 mb-4" style={{ color: 'var(--gold)', opacity: 0.25 }} />
             <blockquote
               className="text-xl md:text-2xl font-light leading-relaxed mb-6 italic"
               style={{ fontFamily: "'Noto Serif KR', Georgia, serif", color: 'var(--ink-dark)' }}
