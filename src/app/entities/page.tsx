@@ -91,7 +91,7 @@ export default function EntitiesPage() {
       <section className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         <h1 className="text-3xl font-bold flex items-center gap-3 mb-2" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
           <Layers className="w-8 h-8" style={{ color: '#6B4E8A' }} />
-          엔터티 탐색기
+          주제 탐색기
         </h1>
         <p className="mb-6" style={{ color: 'var(--ink-light)' }}>
           역사적 사건, 사상, 운동, 기관, 경전, 개념 — 총 {allEntities.length}개
@@ -102,7 +102,7 @@ export default function EntitiesPage() {
           type="text"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder="엔터티 검색..."
+          placeholder="주제 검색..."
           className="w-full px-4 py-2.5 rounded-lg border focus:outline-none focus:ring-1 mb-4"
           style={{
             background: 'var(--fresco-parchment)',
@@ -148,7 +148,7 @@ export default function EntitiesPage() {
       </section>
 
       <section className="max-w-7xl mx-auto px-4 pb-20">
-        <p className="text-sm mb-4" style={{ color: 'var(--ink-light)' }}>{filteredEntities.length}개의 엔터티</p>
+        <p className="text-sm mb-4" style={{ color: 'var(--ink-light)' }}>{filteredEntities.length}개의 주제</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {filteredEntities.map((entity) => {
             const tc = typeColors[entity.type];

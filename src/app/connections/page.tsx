@@ -1089,7 +1089,7 @@ export default function ConnectionsPage() {
                   {filteredNodes.length}개 노드, {filteredLinks.length}개 관계
                   {showEntities && (
                     <span className="text-[#7A5478] ml-1">
-                      (인물 {allPersons.length} + 엔터티 {allEntities.length})
+                      (인물 {allPersons.length} + 주제 {allEntities.length})
                     </span>
                   )}
                   {selectedNode && selectedData && (
@@ -1110,10 +1110,10 @@ export default function ConnectionsPage() {
                     ? "bg-[#7A5478]/15 text-[#7A5478] ring-1 ring-[#7A5478]/30"
                     : "bg-[#E8DCCA]/50 text-[#7A6B55] hover:bg-[#E8DCCA]"
                 )}
-                title="엔터티(사건/사상/기관 등) 표시"
+                title="주제(사건/사상/기관 등) 표시"
               >
                 <Diamond className="w-3.5 h-3.5" />
-                엔터티
+                주제
                 {showEntities ? (
                   <ToggleRight className="w-4 h-4" />
                 ) : (
@@ -1128,7 +1128,7 @@ export default function ConnectionsPage() {
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="인물/엔터티 검색..."
+                  placeholder="인물/주제 검색..."
                   className="pl-9 pr-4 py-2 rounded bg-[#E8DCCA]/50 border border-[#D4C4AB] text-sm text-[#2C2416] placeholder-[#9C8B73] w-48 focus:w-64 transition-all focus:outline-none focus:ring-1 focus:ring-[#B8860B]/50"
                   style={{ fontFamily: "'Pretendard', sans-serif" }}
                 />
@@ -1140,7 +1140,7 @@ export default function ConnectionsPage() {
                         ? ENTITY_TYPE_COLORS[item.type] || "#9C8B73"
                         : getCategoryHexColor(item.category);
                       const typeLabel = isEntity
-                        ? ENTITY_TYPE_LABELS[item.type] || "엔터티"
+                        ? ENTITY_TYPE_LABELS[item.type] || "주제"
                         : getCategoryLabel(item.category);
                       return (
                         <button
@@ -1199,7 +1199,7 @@ export default function ConnectionsPage() {
                 인류의 모든 사상은 서로 연결되어 있으며, 하나를 이해하면 전체의 빛이 보입니다.
               </p>
               <p className="text-xs text-[#7A6B55]" style={{ fontFamily: "'Pretendard', sans-serif" }}>
-                <span className="text-[#B8860B]">&#9679;</span> 원형 = 인물 | <span className="text-[#7A5478]">&#9670;</span> 다이아몬드 = 엔터티(사건·사상·경전 등) |
+                <span className="text-[#B8860B]">&#9679;</span> 원형 = 인물 | <span className="text-[#7A5478]">&#9670;</span> 다이아몬드 = 주제(사건·사상·경전 등) |
                 노드 클릭 = 1-2차 관계망 탐색 | 휠 = 확대/축소 | 드래그 = 이동
               </p>
             </div>
@@ -1404,7 +1404,7 @@ export default function ConnectionsPage() {
                       }}
                     >
                       {selectedData.nodeType === "entity"
-                        ? ENTITY_TYPE_LABELS[selectedData.type] || "엔터티"
+                        ? ENTITY_TYPE_LABELS[selectedData.type] || "주제"
                         : getCategoryLabel(selectedData.category)}
                     </span>
                     {selectedData.era && (
@@ -1523,7 +1523,7 @@ export default function ConnectionsPage() {
                         <div className="text-2xl font-bold text-[#7A5478]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                           {allEntities.length}
                         </div>
-                        <div className="text-xs text-[#7A6B55]">엔터티 (사건·사상·경전 등)</div>
+                        <div className="text-xs text-[#7A6B55]">주제 (사건·사상·경전 등)</div>
                       </div>
                     )}
                     {CATEGORY_FILTERS.slice(1).map((c) => {
@@ -1566,7 +1566,7 @@ export default function ConnectionsPage() {
                           ? ENTITY_TYPE_COLORS[item.type] || "#9C8B73"
                           : getCategoryHexColor(item.category);
                         const typeLabel = isEntity
-                          ? ENTITY_TYPE_LABELS[item.type] || "엔터티"
+                          ? ENTITY_TYPE_LABELS[item.type] || "주제"
                           : getCategoryLabel(item.category);
                         return (
                           <div
@@ -1614,14 +1614,14 @@ export default function ConnectionsPage() {
                     사용 가이드
                   </h3>
                   <ul className="text-xs text-[#7A6B55] space-y-1.5" style={{ fontFamily: "'Pretendard', sans-serif" }}>
-                    <li>- <span className="text-[#B8860B]">&#9679;</span> 원형 = 인물, <span className="text-[#7A5478]">&#9670;</span> 다이아몬드 = 엔터티</li>
+                    <li>- <span className="text-[#B8860B]">&#9679;</span> 원형 = 인물, <span className="text-[#7A5478]">&#9670;</span> 다이아몬드 = 주제</li>
                     <li>- 노드 클릭 시 1, 2차 관계망이 강조됩니다</li>
                     <li>- 마우스 휠로 확대/축소, 드래그로 이동</li>
                     <li>- 노드를 드래그하여 위치 조정 가능</li>
                     <li>- 카테고리/시대/관계 필터로 원하는 영역만 탐색</li>
                     <li>- 노드 색상 = 카테고리/유형, 크기 = 연결 수</li>
                     <li>- 선 색상 = 관계 유형 (영향/대립/사제/창설 등)</li>
-                    <li>- 엔터티 토글로 사건·사상·경전 노드 표시/숨기기</li>
+                    <li>- 주제 토글로 사건·사상·경전 노드 표시/숨기기</li>
                   </ul>
                 </div>
               </div>

@@ -182,17 +182,17 @@ export function searchPersons(query: string): Person[] {
 // Entity Functions
 // ────────────────────────────────────────────────────────────
 
-/** 전체 엔터티 목록 */
+/** 전체 주제 목록 */
 export function getAllEntities(): Entity[] {
   return allEntities;
 }
 
-/** ID로 엔터티 조회 */
+/** ID로 주제 조회 */
 export function getEntityById(id: string): Entity | undefined {
   return getEntityMap().get(id);
 }
 
-/** 유형별 엔터티 필터 */
+/** 유형별 주제 필터 */
 export function getEntitiesByType(type: EntityType): Entity[] {
   return allEntities.filter((e) => e.type === type);
 }

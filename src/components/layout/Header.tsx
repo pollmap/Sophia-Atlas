@@ -16,7 +16,10 @@ import {
   Users,
   Network,
   ChevronDown,
+  Sun,
+  Moon,
 } from "lucide-react";
+import { useTheme } from "next-themes";
 import { cn } from "@/lib/utils";
 
 // ── Types ──
@@ -127,7 +130,11 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [expandedGroup, setExpandedGroup] = useState<string | null>(null);
+  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
+  const { theme, setTheme } = useTheme();
+
+  useEffect(() => { setMounted(true); }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -309,8 +316,20 @@ export default function Header() {
               })}
             </nav>
 
-            {/* Mobile Menu Button */}
-            <div className="flex items-center gap-2">
+            {/* Theme Toggle + Mobile Menu Button */}
+            <div className="flex items-center gap-1">
+              {mounted && (
+                <button
+                  onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                  className="flex items-center justify-center w-9 h-9 rounded transition-all duration-200"
+                  style={{ color: 'var(--ink-light)' }}
+                  onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = 'var(--gold)'; }}
+                  onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.color = 'var(--ink-light)'; }}
+                  aria-label={theme === "dark" ? "라이트 모드" : "다크 모드"}
+                >
+                  {theme === "dark" ? <Sun className="w-4.5 h-4.5" /> : <Moon className="w-4.5 h-4.5" />}
+                </button>
+              )}
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className="flex lg:hidden items-center justify-center w-9 h-9 rounded text-ink-medium hover:text-gold transition-all duration-200"

@@ -68,7 +68,7 @@ const allPersons: PersonData[] = [
   ...(historicalFiguresData as PersonData[]),
 ];
 
-/* ── Fresco Design System color helpers ── */
+/* ── Category/Era color helpers (these are identity colors, not theme-dependent) ── */
 
 const frescoCategory: Record<string, string> = {
   philosopher: '#4A5D8A',
@@ -119,18 +119,18 @@ export default async function PersonPage({
     return (
       <div
         className="min-h-screen flex items-center justify-center"
-        style={{ backgroundColor: '#FAF6E9' }}
+        style={{ backgroundColor: 'var(--fresco-ivory)' }}
       >
         <div className="text-center">
           <h1
             className="text-2xl font-bold mb-4"
-            style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+            style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
           >
             인물을 찾을 수 없습니다
           </h1>
           <Link
             href="/persons"
-            style={{ color: '#B8860B' }}
+            style={{ color: 'var(--gold)' }}
             className="hover:opacity-80 transition-opacity"
           >
             인물 목록으로 돌아가기
@@ -144,13 +144,13 @@ export default async function PersonPage({
   const allCategories = person.categories || [person.category];
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#FAF6E9' }}>
+    <div className="min-h-screen" style={{ backgroundColor: 'var(--fresco-ivory)' }}>
       {/* Back Navigation */}
       <div className="max-w-4xl mx-auto px-4 pt-8">
         <Link
           href="/persons"
           className="inline-flex items-center gap-1.5 text-sm hover:opacity-80 transition-opacity"
-          style={{ color: '#7A6B55', fontFamily: "'Pretendard', sans-serif" }}
+          style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}
         >
           <ArrowLeft className="w-4 h-4" />
           인물 목록으로
@@ -162,8 +162,8 @@ export default async function PersonPage({
         <div
           className="fresco-card relative overflow-hidden"
           style={{
-            backgroundColor: '#F0E6D3',
-            borderColor: '#D4C4AB',
+            backgroundColor: 'var(--fresco-parchment)',
+            borderColor: 'var(--fresco-shadow)',
             borderRadius: '4px',
           }}
         >
@@ -206,20 +206,20 @@ export default async function PersonPage({
               <div>
                 <h1
                   className="text-3xl md:text-4xl font-bold mb-1"
-                  style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+                  style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
                 >
                   {person.name.ko}
                 </h1>
                 <p
                   className="text-lg mb-1"
-                  style={{ color: '#7A6B55', fontFamily: "'Pretendard', sans-serif" }}
+                  style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}
                 >
                   {person.name.en}
                 </p>
                 {person.name.original && person.name.original !== person.name.en && (
                   <p
                     className="text-sm italic"
-                    style={{ color: '#9C8B73', fontFamily: "'Pretendard', sans-serif" }}
+                    style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}
                   >
                     {person.name.original}
                   </p>
@@ -229,22 +229,22 @@ export default async function PersonPage({
 
             <div
               className="flex flex-wrap items-center gap-4 mt-5 text-sm"
-              style={{ color: '#7A6B55', fontFamily: "'Pretendard', sans-serif" }}
+              style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}
             >
               <span className="flex items-center gap-1.5">
-                <Calendar className="w-4 h-4" style={{ color: '#9C8B73' }} />
+                <Calendar className="w-4 h-4" style={{ color: 'var(--ink-faded)' }} />
                 {formatYear(person.period.start)} ~ {formatYear(person.period.end)}
                 {person.period.approximate && (
-                  <span className="text-xs" style={{ color: '#9C8B73' }}>(추정)</span>
+                  <span className="text-xs" style={{ color: 'var(--ink-faded)' }}>(추정)</span>
                 )}
               </span>
               <span className="flex items-center gap-1.5">
-                <MapPin className="w-4 h-4" style={{ color: '#9C8B73' }} />
+                <MapPin className="w-4 h-4" style={{ color: 'var(--ink-faded)' }} />
                 {person.location.region}
               </span>
               {person.role && (
                 <span className="flex items-center gap-1.5">
-                  <Users className="w-4 h-4" style={{ color: '#9C8B73' }} />
+                  <Users className="w-4 h-4" style={{ color: 'var(--ink-faded)' }} />
                   {person.role}
                 </span>
               )}
@@ -288,9 +288,9 @@ export default async function PersonPage({
                   className="text-xs px-2.5 py-1 border"
                   style={{
                     borderRadius: '4px',
-                    backgroundColor: '#E8DCCA',
-                    color: '#4A3C2A',
-                    borderColor: '#D4C4AB',
+                    backgroundColor: 'var(--fresco-aged)',
+                    color: 'var(--ink-medium)',
+                    borderColor: 'var(--fresco-shadow)',
                     fontFamily: "'Pretendard', sans-serif",
                   }}
                 >
@@ -307,21 +307,21 @@ export default async function PersonPage({
         <div
           className="fresco-card border p-6"
           style={{
-            backgroundColor: '#F0E6D3',
-            borderColor: '#D4C4AB',
+            backgroundColor: 'var(--fresco-parchment)',
+            borderColor: 'var(--fresco-shadow)',
             borderRadius: '4px',
           }}
         >
           <h2
             className="text-base font-semibold mb-3 flex items-center gap-2"
-            style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+            style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
           >
-            <Lightbulb className="w-5 h-5" style={{ color: '#B8860B' }} />
+            <Lightbulb className="w-5 h-5" style={{ color: 'var(--gold)' }} />
             요약
           </h2>
           <p
             className="leading-relaxed"
-            style={{ color: '#4A3C2A', fontFamily: "'Pretendard', sans-serif" }}
+            style={{ color: 'var(--ink-medium)', fontFamily: "'Pretendard', sans-serif" }}
           >
             {person.summary}
           </p>
@@ -333,7 +333,7 @@ export default async function PersonPage({
         <ExpandableSection title="상세 해설" icon={<BookOpen className="w-5 h-5" style={{ color: '#6B4E8A' }} />} defaultOpen>
           <div
             className="leading-relaxed whitespace-pre-line space-y-3"
-            style={{ color: '#4A3C2A', fontFamily: "'Pretendard', sans-serif" }}
+            style={{ color: 'var(--ink-medium)', fontFamily: "'Pretendard', sans-serif" }}
           >
             {person.detailed.split('\n').filter(Boolean).map((para, i) => (
               <p key={i}>{para}</p>
@@ -352,25 +352,25 @@ export default async function PersonPage({
                   key={idx}
                   className="flex items-start gap-3 p-3"
                   style={{
-                    backgroundColor: '#E8DCCA',
+                    backgroundColor: 'var(--fresco-aged)',
                     borderRadius: '4px',
                   }}
                 >
-                  <BookOpen className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#9C8B73' }} />
+                  <BookOpen className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: 'var(--ink-faded)' }} />
                   <div>
                     <p
                       className="font-medium"
-                      style={{ color: '#2C2416', fontFamily: "'Pretendard', sans-serif" }}
+                      style={{ color: 'var(--ink-dark)', fontFamily: "'Pretendard', sans-serif" }}
                     >
                       {work.title}
                     </p>
                     {work.year && (
-                      <p className="text-xs mt-0.5" style={{ color: '#7A6B55' }}>
+                      <p className="text-xs mt-0.5" style={{ color: 'var(--ink-light)' }}>
                         {formatYear(work.year)}
                       </p>
                     )}
                     {work.type && (
-                      <p className="text-xs mt-0.5" style={{ color: '#9C8B73' }}>
+                      <p className="text-xs mt-0.5" style={{ color: 'var(--ink-faded)' }}>
                         {work.type}
                       </p>
                     )}
@@ -388,14 +388,14 @@ export default async function PersonPage({
           <div
             className="fresco-card border p-6"
             style={{
-              backgroundColor: '#F0E6D3',
-              borderColor: '#D4C4AB',
+              backgroundColor: 'var(--fresco-parchment)',
+              borderColor: 'var(--fresco-shadow)',
               borderRadius: '4px',
             }}
           >
             <h2
               className="text-base font-semibold mb-4 flex items-center gap-2"
-              style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+              style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
             >
               <Atom className="w-5 h-5" style={{ color: '#5B7355' }} />
               주요 발견/발명
@@ -427,14 +427,14 @@ export default async function PersonPage({
           <div
             className="fresco-card border p-6"
             style={{
-              backgroundColor: '#F0E6D3',
-              borderColor: '#D4C4AB',
+              backgroundColor: 'var(--fresco-parchment)',
+              borderColor: 'var(--fresco-shadow)',
               borderRadius: '4px',
             }}
           >
             <h2
               className="text-base font-semibold mb-4 flex items-center gap-2"
-              style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+              style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
             >
               <Crown className="w-5 h-5" style={{ color: '#8B4040' }} />
               주요 업적
@@ -463,23 +463,23 @@ export default async function PersonPage({
       {/* Quotes */}
       {person.quotes && person.quotes.length > 0 && (
         <section className="max-w-4xl mx-auto px-4 pb-6">
-          <ExpandableSection title="명언" icon={<MessageSquareQuote className="w-5 h-5" style={{ color: '#B8860B' }} />} defaultOpen>
+          <ExpandableSection title="명언" icon={<MessageSquareQuote className="w-5 h-5" style={{ color: 'var(--gold)' }} />} defaultOpen>
             <div className="space-y-4">
               {person.quotes.map((quote, idx) => (
                 <blockquote
                   key={idx}
                   className="fresco-quote border-l-[3px] pl-4 py-2"
-                  style={{ borderLeftColor: '#B8860B' }}
+                  style={{ borderLeftColor: 'var(--gold)' }}
                 >
                   <p
                     className="text-lg font-light italic leading-relaxed"
-                    style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+                    style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
                   >
                     &ldquo;{quote.text}&rdquo;
                   </p>
                   <footer
                     className="mt-2 text-sm"
-                    style={{ color: '#7A6B55', fontFamily: "'Pretendard', sans-serif" }}
+                    style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}
                   >
                     &mdash; {quote.source}
                   </footer>
@@ -493,12 +493,12 @@ export default async function PersonPage({
       {/* Influence Relationships */}
       {((person.influences && person.influences.length > 0) || (person.influenced && person.influenced.length > 0)) && (
         <section className="max-w-4xl mx-auto px-4 pb-6">
-          <ExpandableSection title="영향 관계" icon={<GitBranch className="w-5 h-5" style={{ color: '#6B6358' }} />} defaultOpen>
+          <ExpandableSection title="영향 관계" icon={<GitBranch className="w-5 h-5" style={{ color: 'var(--ink-faded)' }} />} defaultOpen>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <h4
                   className="text-sm font-semibold uppercase tracking-wider mb-3"
-                  style={{ color: '#7A6B55', fontFamily: "'Pretendard', sans-serif" }}
+                  style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}
                 >
                   영향 받은 인물
                 </h4>
@@ -512,7 +512,6 @@ export default async function PersonPage({
                           href={`/persons/${infId}`}
                           className="flex items-center gap-2.5 p-2.5 transition-colors group"
                           style={{ borderRadius: '4px' }}
-                          onMouseOver={undefined}
                         >
                           <div
                             className="w-2.5 h-2.5 rounded-full flex-shrink-0"
@@ -520,7 +519,7 @@ export default async function PersonPage({
                           />
                           <span
                             className="group-hover:opacity-80 transition-opacity"
-                            style={{ color: '#4A3C2A', fontFamily: "'Pretendard', sans-serif" }}
+                            style={{ color: 'var(--ink-medium)', fontFamily: "'Pretendard', sans-serif" }}
                           >
                             {getPersonName(infId)}
                           </span>
@@ -531,7 +530,7 @@ export default async function PersonPage({
                 ) : (
                   <p
                     className="text-sm italic"
-                    style={{ color: '#9C8B73', fontFamily: "'Pretendard', sans-serif" }}
+                    style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}
                   >
                     기록된 영향 관계 없음
                   </p>
@@ -540,7 +539,7 @@ export default async function PersonPage({
               <div>
                 <h4
                   className="text-sm font-semibold uppercase tracking-wider mb-3"
-                  style={{ color: '#7A6B55', fontFamily: "'Pretendard', sans-serif" }}
+                  style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}
                 >
                   영향을 준 인물
                 </h4>
@@ -561,7 +560,7 @@ export default async function PersonPage({
                           />
                           <span
                             className="group-hover:opacity-80 transition-opacity"
-                            style={{ color: '#4A3C2A', fontFamily: "'Pretendard', sans-serif" }}
+                            style={{ color: 'var(--ink-medium)', fontFamily: "'Pretendard', sans-serif" }}
                           >
                             {getPersonName(infId)}
                           </span>
@@ -572,7 +571,7 @@ export default async function PersonPage({
                 ) : (
                   <p
                     className="text-sm italic"
-                    style={{ color: '#9C8B73', fontFamily: "'Pretendard', sans-serif" }}
+                    style={{ color: 'var(--ink-faded)', fontFamily: "'Pretendard', sans-serif" }}
                   >
                     기록된 영향 관계 없음
                   </p>
@@ -589,14 +588,14 @@ export default async function PersonPage({
           <div
             className="fresco-card border p-6"
             style={{
-              backgroundColor: '#F0E6D3',
-              borderColor: '#D4C4AB',
+              backgroundColor: 'var(--fresco-parchment)',
+              borderColor: 'var(--fresco-shadow)',
               borderRadius: '4px',
             }}
           >
             <h2
               className="text-base font-semibold mb-4 flex items-center gap-2"
-              style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+              style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
             >
               <Tag className="w-5 h-5" style={{ color: '#4A7A6B' }} />
               관련 개념
@@ -610,7 +609,7 @@ export default async function PersonPage({
                     borderRadius: '4px',
                     borderColor: `${frescoEraColor(era)}40`,
                     color: frescoEraColor(era),
-                    backgroundColor: '#E8DCCA',
+                    backgroundColor: 'var(--fresco-aged)',
                     fontFamily: "'Pretendard', sans-serif",
                   }}
                 >
@@ -628,14 +627,14 @@ export default async function PersonPage({
           <div
             className="fresco-card border p-6"
             style={{
-              backgroundColor: '#F0E6D3',
-              borderColor: '#D4C4AB',
+              backgroundColor: 'var(--fresco-parchment)',
+              borderColor: 'var(--fresco-shadow)',
               borderRadius: '4px',
             }}
           >
             <h2
               className="text-base font-semibold mb-4 flex items-center gap-2"
-              style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}
+              style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
             >
               <HelpCircle className="w-5 h-5" style={{ color: '#6B4E8A' }} />
               다룬 질문
@@ -646,12 +645,12 @@ export default async function PersonPage({
                   key={question}
                   className="flex items-center gap-3 p-3"
                   style={{
-                    backgroundColor: '#E8DCCA',
+                    backgroundColor: 'var(--fresco-aged)',
                     borderRadius: '4px',
                   }}
                 >
-                  <HelpCircle className="w-4 h-4 flex-shrink-0" style={{ color: '#9C8B73' }} />
-                  <span style={{ color: '#4A3C2A', fontFamily: "'Pretendard', sans-serif" }}>
+                  <HelpCircle className="w-4 h-4 flex-shrink-0" style={{ color: 'var(--ink-faded)' }} />
+                  <span style={{ color: 'var(--ink-medium)', fontFamily: "'Pretendard', sans-serif" }}>
                     {question}
                   </span>
                 </div>

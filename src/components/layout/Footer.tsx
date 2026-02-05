@@ -24,9 +24,9 @@ export default function Footer() {
     <footer
       className="relative mt-auto"
       style={{
-        background: 'linear-gradient(180deg, #2C2416 0%, #3D3222 100%)',
-        borderTop: '4px solid var(--gold)',
-        color: '#F0E6D3',
+        background: 'linear-gradient(180deg, #1A1714 0%, #2A2520 100%)',
+        borderTop: '3px solid var(--gold)',
+        color: '#C4B9A8',
       }}
     >
       <div className="section-container">

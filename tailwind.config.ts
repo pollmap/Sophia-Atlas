@@ -71,16 +71,16 @@ const config: Config = {
           historical: "#8B4040",
           cultural: "#7A5478",
         },
-        // Semantic app colors (mapped to fresco)
+        // Semantic app colors (mapped to CSS vars for theme switching)
         background: {
-          DEFAULT: "#FAF6E9",
-          secondary: "#F0E6D3",
-          tertiary: "#E8DCCA",
+          DEFAULT: "var(--fresco-ivory)",
+          secondary: "var(--fresco-parchment)",
+          tertiary: "var(--fresco-aged)",
         },
         foreground: {
-          DEFAULT: "#2C2416",
-          secondary: "#4A3C2A",
-          muted: "#7A6B55",
+          DEFAULT: "var(--ink-dark)",
+          secondary: "var(--ink-medium)",
+          muted: "var(--ink-light)",
         },
         accent: {
           DEFAULT: "#B8860B",

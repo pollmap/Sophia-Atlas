@@ -23,24 +23,29 @@ export default function ExpandableSection({
 
   return (
     <div
-      className={cn(
-        'border border-slate-700/50 rounded-xl overflow-hidden bg-slate-800/20',
-        className
-      )}
+      className={cn('rounded overflow-hidden', className)}
+      style={{
+        border: '1px solid var(--fresco-shadow)',
+        backgroundColor: 'var(--fresco-parchment)',
+      }}
     >
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center justify-between w-full px-5 py-4 text-left hover:bg-slate-800/40 transition-colors duration-200"
+        className="flex items-center justify-between w-full px-5 py-4 text-left transition-colors duration-200"
+        style={{ color: 'var(--ink-dark)' }}
+        onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = 'var(--fresco-aged)'; }}
+        onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = ''; }}
       >
         <div className="flex items-center gap-2.5">
           {icon}
-          <span className="font-semibold text-white">{title}</span>
+          <span className="font-semibold" style={{ fontFamily: "'Cormorant Garamond', serif" }}>{title}</span>
         </div>
         <ChevronDown
           className={cn(
-            'w-5 h-5 text-slate-400 transition-transform duration-300 flex-shrink-0',
+            'w-5 h-5 transition-transform duration-300 flex-shrink-0',
             isOpen && 'rotate-180'
           )}
+          style={{ color: 'var(--ink-faded)' }}
         />
       </button>
       <div
@@ -49,7 +54,7 @@ export default function ExpandableSection({
           isOpen ? 'max-h-[3000px] opacity-100' : 'max-h-0 opacity-0'
         )}
       >
-        <div className="px-5 pb-5 text-slate-300 leading-relaxed">
+        <div className="px-5 pb-5 leading-relaxed" style={{ color: 'var(--ink-medium)' }}>
           {children}
         </div>
       </div>
