@@ -691,109 +691,731 @@
   {
     "id": "artificial-general-intelligence",
     "type": "concept",
-    "name": { "ko": "인공일반지능", "en": "Artificial General Intelligence", "original": "AGI" },
+    "name": {
+      "ko": "인공일반지능",
+      "en": "Artificial General Intelligence",
+      "original": "AGI"
+    },
     "era": "contemporary",
     "summary": "인간 수준의 일반적 인지 능력을 갖춘 인공지능을 의미하는 개념으로, 특정 과제에 특화된 좁은 AI(ANI)와 구별된다. 의식, 자아, 이해의 본질에 대한 근본적인 철학적 질문을 제기하며, 그 실현 가능성과 시기, 위험성을 둘러싼 논쟁이 활발하다.",
     "detailed": "인공일반지능(AGI)은 특정 영역에 국한되지 않고 인간처럼 다양한 인지 과제를 수행할 수 있는 범용 인공지능을 지칭한다. 앨런 튜링의 '모방 게임'(1950)이 기계 지능의 판별 기준을 처음 제시한 이래, AGI는 인공지능 연구의 궁극적 목표로 여겨져 왔다.\n존 설(John Searle)의 '중국어 방' 사고 실험(1980)은 구문론적 처리만으로는 진정한 의미 이해(의미론)에 도달할 수 없다고 주장하며, 강한 AI의 가능성에 근본적 의문을 제기했다. 반면 대니얼 데닛과 같은 기능주의자들은 적절한 기능적 조직만 갖추면 의식이 발생할 수 있다고 본다.\n2020년대 대규모 언어모델(GPT-4 등)의 등장으로 AGI 논쟁은 이론적 사변에서 실천적 긴급성을 띠게 되었다. 닉 보스트롬은 《슈퍼인텔리전스》(2014)에서 AGI를 넘어선 초지능(ASI)의 실존적 위험을 경고했고, 엘리에저 유드코프스키는 AGI 정렬(alignment) 문제의 근본적 어려움을 강조한다. 이에 반해 얀 르쿤(Yann LeCun) 등은 현재 접근법의 한계를 지적하며 AGI 실현이 아직 요원하다고 본다.\nAGI는 의식의 본질(현상적 의식 vs 접근 의식), 자유의지, 도덕적 지위(AGI에게 권리를 부여해야 하는가), 인간 고유성의 의미 등 깊은 철학적 문제와 직결된다.",
-    "tags": ["인공지능", "의식", "튜링테스트", "정렬문제", "실존적위험"],
-    "relatedPersons": ["alan-turing"],
-    "relatedEntities": ["chatgpt-launch", "openai", "deepmind", "superintelligence-book", "deep-learning"],
+    "tags": [
+      "인공지능",
+      "의식",
+      "튜링테스트",
+      "정렬문제",
+      "실존적위험"
+    ],
+    "relatedPersons": [
+      "alan-turing"
+    ],
+    "relatedEntities": [
+      "chatgpt-launch",
+      "openai",
+      "deepmind",
+      "superintelligence-book",
+      "deep-learning"
+    ],
     "domain": "인공지능/심리철학"
   },
   {
     "id": "posthumanism",
     "type": "concept",
-    "name": { "ko": "포스트휴머니즘", "en": "Posthumanism", "original": "Posthumanism" },
+    "name": {
+      "ko": "포스트휴머니즘",
+      "en": "Posthumanism",
+      "original": "Posthumanism"
+    },
     "era": "contemporary",
     "summary": "인간중심주의를 넘어 인간과 비인간(동물, 기계, 환경) 사이의 경계를 재사유하는 철학적 조류이다. 기술적 포스트휴머니즘(인간 향상)과 비판적 포스트휴머니즘(인간 개념 자체의 해체)을 포괄하며, 인류세 시대의 새로운 존재론과 윤리학을 모색한다.",
     "detailed": "포스트휴머니즘은 크게 두 갈래로 나뉜다. 기술적 포스트휴머니즘(트랜스휴머니즘과 중첩)은 기술을 통한 인간의 생물학적 한계 초월을 추구하며, 레이 커즈와일의 특이점 이론, 닉 보스트롬의 인간 향상 논의가 대표적이다. 비판적 포스트휴머니즘은 계몽주의적 '인간' 개념 자체의 해체를 지향하며, 도나 해러웨이의 사이보그 선언(1985), 로지 브라이도티의 《포스트휴먼》(2013), 카렌 바라드의 행위적 실재론 등이 핵심 텍스트이다.\n비판적 포스트휴머니즘은 푸코의 반인본주의('인간의 죽음'), 들뢰즈·가타리의 되기(devenir) 개념, 데리다의 동물타자론에 지적 뿌리를 두고 있다. 이들은 서양 형이상학의 인간/동물, 문화/자연, 정신/물질의 이분법이 식민주의, 인종차별, 성차별, 종차별을 정당화해왔다고 비판한다.\n인류세(Anthropocene) 담론과 기후위기는 포스트휴머니즘에 실천적 긴급성을 부여했다. 브뤼노 라투르의 행위자-네트워크 이론(ANT)은 인간과 비인간 행위자를 동등한 행위 능력(agency)의 담지자로 보며, 티모시 모턴의 '초객체(hyperobject)' 개념은 인간의 인지 능력을 초과하는 생태적 현상을 사유한다.\n포스트휴머니즘은 인공지능, 유전공학, 기후변화가 동시에 진행되는 21세기에 '인간이란 무엇인가'라는 물음을 근본적으로 재구성하는 철학적 프로젝트이다.",
-    "tags": ["반인간중심주의", "사이보그", "인류세", "비인간행위자"],
+    "tags": [
+      "반인간중심주의",
+      "사이보그",
+      "인류세",
+      "비인간행위자"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["transhumanism", "crispr-revolution", "environmentalism", "postmodernism-movement"],
+    "relatedEntities": [
+      "transhumanism",
+      "crispr-revolution",
+      "environmentalism",
+      "postmodernism-movement"
+    ],
     "domain": "존재론/윤리학"
   },
   {
     "id": "surveillance-capitalism",
     "type": "concept",
-    "name": { "ko": "감시 자본주의", "en": "Surveillance Capitalism", "original": "Surveillance Capitalism" },
+    "name": {
+      "ko": "감시 자본주의",
+      "en": "Surveillance Capitalism",
+      "original": "Surveillance Capitalism"
+    },
     "era": "contemporary",
     "summary": "쇼샤나 주보프가 명명한 개념으로, 인간 경험의 데이터를 원료로 추출하여 행동 예측 상품을 생산·판매하는 새로운 경제 질서를 가리킨다. 개인의 자율성, 민주주의, 사생활에 대한 근본적 위협으로 분석된다.",
     "detailed": "감시 자본주의(surveillance capitalism)는 하버드 경영대학원 교수 쇼샤나 주보프(Shoshana Zuboff)가 《감시 자본주의의 시대》(2019)에서 체계화한 개념이다. 주보프에 따르면, 구글이 2001년경 선도적으로 개발한 이 모델에서 인간 경험은 '행동 잉여(behavioral surplus)'로 추출되어 '예측 상품(prediction products)'으로 가공되며, '행동 선물 시장(behavioral futures markets)'에서 거래된다.\n이 체제의 핵심 메커니즘은 세 단계로 작동한다. 첫째, 추출(extraction): 검색, 소셜미디어, IoT 기기 등을 통해 방대한 행동 데이터를 수집한다. 둘째, 예측(prediction): 머신러닝으로 행동 패턴을 분석하여 미래 행동을 예측한다. 셋째, 수정(modification): 넛지, 개인화된 피드, 알림 등으로 행동을 원하는 방향으로 유도한다. 주보프는 이를 '도구주의적 권력(instrumentarian power)'이라 부르며, 이전의 전체주의적 권력과 구별한다.\n감시 자본주의는 칸트적 자율성(자기 입법적 이성적 존재로서의 인간)에 대한 근본적 도전이다. 행동이 예측되고 조종될 때, 자유의지와 도덕적 책임의 전제가 훼손된다. 또한 미셸 푸코의 감시(panopticon) 분석을 디지털 시대로 확장하면서, 벤담적 규율 권력이 알고리즘적 통제 권력으로 전환된 양상을 포착한다.\n비판자들은 주보프의 분석이 자본주의의 구조적 논리보다 특정 기업의 비즈니스 모델에 초점을 맞춘다고 지적하지만, 이 개념은 빅테크 규제, 데이터 주권, 디지털 인권 담론의 핵심 프레임이 되었다.",
-    "tags": ["데이터", "빅테크", "프라이버시", "디지털권리", "알고리즘"],
+    "tags": [
+      "데이터",
+      "빅테크",
+      "프라이버시",
+      "디지털권리",
+      "알고리즘"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["internet-revolution", "platform-economy", "attention-economy", "liberalism"],
+    "relatedEntities": [
+      "internet-revolution",
+      "platform-economy",
+      "attention-economy",
+      "liberalism"
+    ],
     "domain": "정치경제학/윤리학"
   },
   {
     "id": "platform-economy",
     "type": "concept",
-    "name": { "ko": "플랫폼 경제", "en": "Platform Economy", "original": "Platform Economy" },
+    "name": {
+      "ko": "플랫폼 경제",
+      "en": "Platform Economy",
+      "original": "Platform Economy"
+    },
     "era": "contemporary",
     "summary": "디지털 플랫폼이 생산자와 소비자를 연결하는 중개자 역할을 하며 경제적 가치를 창출하는 새로운 경제 모델이다. 네트워크 효과를 통한 독점적 권력 집중, 긱 경제(gig economy)에서의 노동권 문제, 공유경제의 허와 실 등 다층적 사회적 쟁점을 제기한다.",
     "detailed": "플랫폼 경제는 아마존, 우버, 에어비앤비, 배달의민족 등 디지털 플랫폼이 경제활동의 핵심 인프라로 부상한 현상을 가리킨다. 닉 스르니첵(Nick Srnicek)은 《플랫폼 자본주의》(2017)에서 플랫폼을 광고 플랫폼(구글, 페이스북), 클라우드 플랫폼(AWS), 산업 플랫폼(GE, 지멘스), 제품 플랫폼(스포티파이), 린 플랫폼(우버, 에어비앤비)으로 분류했다.\n플랫폼의 경제적 권력은 네트워크 효과(사용자가 많을수록 가치 증가)에 기반한다. 이 양의 피드백 루프는 '승자독식(winner-takes-all)' 구조를 만들어, 소수의 거대 플랫폼이 시장을 지배하는 독점적 경향을 낳는다. 리나 칸(Lina Khan)은 '아마존의 반독점 역설'(2017)에서 소비자 복지 중심의 기존 반독점법이 플랫폼의 구조적 권력을 규제하지 못한다고 비판했다.\n긱 경제(gig economy)는 플랫폼 경제의 노동 측면을 보여준다. 우버 기사, 배달 라이더 등 플랫폼 노동자들은 '독립 계약자'로 분류되어 노동법의 보호를 받지 못하는 법적 사각지대에 놓인다. 가이 스탠딩(Guy Standing)의 '프레카리아트(precariat)' 개념은 이 불안정 노동의 새로운 계급적 성격을 포착한다.\n플랫폼 경제는 마르크스의 소외 이론(노동과정에 대한 통제의 상실), 폴라니의 이중 운동(시장의 팽창과 사회의 자기보호), 푸코의 통치성(알고리즘적 통치) 등 고전적 사회이론의 현대적 적용을 요구하며, 디지털 공유지(digital commons)에 대한 대안적 상상력을 촉진한다.",
-    "tags": ["디지털경제", "긱경제", "네트워크효과", "독점", "노동"],
+    "tags": [
+      "디지털경제",
+      "긱경제",
+      "네트워크효과",
+      "독점",
+      "노동"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["internet-revolution", "surveillance-capitalism", "attention-economy", "capitalism"],
+    "relatedEntities": [
+      "internet-revolution",
+      "surveillance-capitalism",
+      "attention-economy",
+      "capitalism"
+    ],
     "domain": "정치경제학"
   },
   {
     "id": "effective-altruism",
     "type": "concept",
-    "name": { "ko": "효과적 이타주의", "en": "Effective Altruism", "original": "Effective Altruism" },
+    "name": {
+      "ko": "효과적 이타주의",
+      "en": "Effective Altruism",
+      "original": "Effective Altruism"
+    },
     "era": "contemporary",
     "summary": "이성적·과학적 방법을 활용하여 제한된 자원으로 최대한 많은 선을 실현하려는 사회 운동이자 철학적 프로젝트이다. 피터 싱어의 공리주의적 윤리학에 뿌리를 두며, 기부의 효과성 평가, 경력 선택의 사회적 영향, 장기적 미래 위험 대응을 핵심 주제로 다룬다.",
     "detailed": "효과적 이타주의(EA)는 옥스퍼드 대학의 철학자 윌리엄 맥어스킬(William MacAskill)과 토비 오드(Toby Ord)가 2011년경 조직화한 운동으로, 피터 싱어의 공리주의적 윤리학 — 특히 '익사하는 아이' 논증(1972)과 《동물 해방》(1975) — 에 지적 기원을 둔다.\nEA의 핵심 원칙은 '증거에 기반한 선행(evidence-based doing good)'이다. GiveWell 같은 기관은 자선단체의 비용 대비 효과를 정량적으로 평가하며, 80,000 Hours는 사회적 영향을 극대화하는 경력 경로를 연구한다. 이러한 접근은 공리주의적 최대화 원리의 실천적 적용이다.\n2010년대 후반부터 EA는 '장기주의(longtermism)'로 중심축이 이동했다. 맥어스킬의 《우리가 미래에 지는 빚》(2022)은 미래 세대의 복지를 현재 세대와 동등하게 고려해야 한다고 주장하며, 인공지능 위험, 생물무기, 핵전쟁 등 '실존적 위험(existential risk)'의 감소를 최우선 과제로 제시한다.\nEA에 대한 비판은 다방면에서 제기된다. 첫째, 구조적 불평등의 근본 원인(자본주의, 식민주의)을 무시하고 기술관료적 해결에 치중한다는 좌파적 비판. 둘째, '아무리 먼 미래 사람도 동등하게 중요하다'는 장기주의가 현재의 고통을 경시할 수 있다는 우려. 셋째, 2022년 FTX 붕괴(EA의 대표적 후원자 샘 뱅크먼-프리드의 사기 사건)로 '수단과 목적'의 윤리적 딜레마가 부각되었다. 이러한 비판에도 EA는 이성과 증거에 기반한 윤리적 실천이라는 핵심 지향에서 공리주의 전통의 가장 활발한 현대적 계승이다.",
-    "tags": ["공리주의", "기부", "장기주의", "실존적위험"],
-    "relatedPersons": ["peter-singer"],
-    "relatedEntities": ["utilitarianism", "longtermism", "openai"],
+    "tags": [
+      "공리주의",
+      "기부",
+      "장기주의",
+      "실존적위험"
+    ],
+    "relatedPersons": [
+      "peter-singer"
+    ],
+    "relatedEntities": [
+      "utilitarianism",
+      "longtermism",
+      "openai"
+    ],
     "domain": "윤리학/정치철학"
   },
   {
     "id": "attention-economy",
     "type": "concept",
-    "name": { "ko": "주의력 경제", "en": "Attention Economy", "original": "Attention Economy" },
+    "name": {
+      "ko": "주의력 경제",
+      "en": "Attention Economy",
+      "original": "Attention Economy"
+    },
     "era": "contemporary",
     "summary": "정보 과잉 시대에 인간의 주의력(attention)이 가장 희소한 자원이 되며, 이를 획득하고 화폐화하는 것이 경제적 가치의 핵심이 된 현상이다. 소셜미디어의 중독적 설계, 가짜뉴스의 확산, 공론장의 파편화 등 현대 사회의 주요 문제와 직결된다.",
     "detailed": "주의력 경제 개념은 노벨 경제학상 수상자 허버트 사이먼(Herbert Simon)이 1971년 '정보의 풍요는 주의력의 빈곤을 낳는다'고 진단한 데서 출발한다. 마이클 골드하버(Michael Goldhaber)가 1997년 '주의력 경제'라는 용어를 대중화했으며, 팀 우(Tim Wu)의 《주의력 상인들》(2016)은 이 개념의 역사를 19세기 페니 프레스까지 소급한다.\n디지털 시대의 주의력 경제는 세 가지 메커니즘으로 작동한다. 첫째, 무한 스크롤, 자동 재생, 알림 등 '설득적 설계(persuasive design)'가 사용자의 주의력을 포획한다. 트리스탄 해리스(Tristan Harris)는 이를 '인류의 뇌줄기를 향한 경쟁(race to the bottom of the brain stem)'이라 불렀다. 둘째, 알고리즘적 큐레이션이 감정적·극단적 콘텐츠를 우선 노출하여 '분노 경제(outrage economy)'를 만든다. 셋째, 개인화된 피드가 '필터 버블'과 '에코 챔버'를 형성하여 공론장을 파편화한다.\n철학적으로 주의력 경제는 하이데거의 '기술에 대한 물음' — 기술이 존재자를 '부품(Bestand)'으로 환원하는 닦아세움(Ge-stell) — 의 디지털 구현이라 할 수 있다. 인간의 주의력이 추출 가능한 자원으로 환원될 때, 주체성의 조건 자체가 훼손된다. 시몬동의 기술철학, 스티글레르의 '주의력의 약탈(capture de l'attention)' 개념도 이 맥락에서 중요하다.\n대안적 담론으로는 디지털 미니멀리즘(칼 뉴포트), 디지털 웰빙(digital wellbeing), 주의력 주권(attentional sovereignty) 등이 부상하고 있다.",
-    "tags": ["주의력", "소셜미디어", "알고리즘", "필터버블", "디지털웰빙"],
+    "tags": [
+      "주의력",
+      "소셜미디어",
+      "알고리즘",
+      "필터버블",
+      "디지털웰빙"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["internet-revolution", "surveillance-capitalism", "platform-economy", "digital-minimalism"],
+    "relatedEntities": [
+      "internet-revolution",
+      "surveillance-capitalism",
+      "platform-economy",
+      "digital-minimalism"
+    ],
     "domain": "정치경제학/인식론"
   },
   {
     "id": "deep-learning",
     "type": "concept",
-    "name": { "ko": "딥러닝", "en": "Deep Learning", "original": "Deep Learning" },
+    "name": {
+      "ko": "딥러닝",
+      "en": "Deep Learning",
+      "original": "Deep Learning"
+    },
     "era": "contemporary",
     "summary": "다층 인공신경망을 통해 데이터에서 계층적 표상(representation)을 자동으로 학습하는 기계학습 방법론이다. 2012년 이후 이미지 인식, 자연어 처리, 게임, 과학 연구 등 거의 모든 인공지능 분야에서 혁명적 성과를 이루었으며, 인식, 학습, 지능의 본질에 대한 철학적 질문을 재점화했다.",
     "detailed": "딥러닝은 워런 맥컬록과 월터 핏츠의 인공 뉴런 모델(1943), 프랭크 로젠블라트의 퍼셉트론(1957)에 기원을 두지만, 제프리 힌튼(Geoffrey Hinton), 얀 르쿤(Yann LeCun), 요슈아 벤지오(Yoshua Bengio) — '딥러닝의 삼총사' — 의 수십 년간의 연구가 결실을 맺은 것은 2012년 알렉스넷(AlexNet)이 이미지넷 경진대회에서 압도적 성능을 보인 이후이다. 이들은 2018년 튜링상을 수상했다.\n딥러닝의 핵심 원리는 역전파(backpropagation) 알고리즘을 통한 다층 네트워크의 매개변수 최적화이다. 합성곱 신경망(CNN)은 시각적 패턴 인식에, 순환 신경망(RNN)과 트랜스포머(Transformer, 2017)는 순차적 데이터 처리에 특화되어 있다. 특히 트랜스포머 아키텍처는 GPT, BERT, 비전 트랜스포머 등으로 발전하며 대규모 언어모델 시대를 열었다.\n철학적으로 딥러닝은 여러 근본적 문제를 제기한다. 첫째, '이해 없는 능력(competence without comprehension)' — 대니얼 데닛의 표현 — 이 가능한가? 딥러닝 시스템은 놀라운 과제 수행 능력을 보이지만, 설의 '중국어 방' 논증이 제기한 의미 이해의 문제는 해소되지 않았다. 둘째, '해석 가능성(interpretability)' 문제: 수십억 개의 매개변수로 이루어진 신경망의 내부 작동을 인간이 이해할 수 없다면, 이 시스템에 의한 의사결정을 어떻게 신뢰할 것인가? 셋째, 훈련 데이터에 내재된 편향이 차별적 결과를 재생산하는 '알고리즘적 편향' 문제는 정의론의 새로운 쟁점이다.\n딥러닝은 경험론적 인식론(데이터에서 지식을 추출)과 합리론적 인식론(내재적 구조를 통한 이해) 사이의 오랜 철학적 대립을 새로운 차원에서 재현한다.",
-    "tags": ["인공지능", "신경망", "트랜스포머", "기계학습", "빅데이터"],
-    "relatedPersons": ["alan-turing"],
-    "relatedEntities": ["artificial-general-intelligence", "chatgpt-launch", "alphago-match", "openai", "deepmind"],
+    "tags": [
+      "인공지능",
+      "신경망",
+      "트랜스포머",
+      "기계학습",
+      "빅데이터"
+    ],
+    "relatedPersons": [
+      "alan-turing"
+    ],
+    "relatedEntities": [
+      "artificial-general-intelligence",
+      "chatgpt-launch",
+      "alphago-match",
+      "openai",
+      "deepmind"
+    ],
     "domain": "인공지능/인식론"
   },
   {
     "id": "meme-culture",
     "type": "concept",
-    "name": { "ko": "밈 문화", "en": "Meme Culture", "original": "Meme Culture" },
+    "name": {
+      "ko": "밈 문화",
+      "en": "Meme Culture",
+      "original": "Meme Culture"
+    },
     "era": "contemporary",
     "summary": "리처드 도킨스가 《이기적 유전자》(1976)에서 명명한 문화적 모방 단위 '밈(meme)'이 인터넷 시대에 이미지 매크로, 바이럴 영상, 해시태그 등의 형태로 폭발적으로 확산되며 형성된 문화 현상이다. 의미의 생산, 유통, 소비 방식의 근본적 변화를 반영한다.",
     "detailed": "밈(meme) 개념은 리처드 도킨스가 《이기적 유전자》(1976)에서 유전자(gene)의 문화적 대응물로 제안한 것이다. 유전자가 생물학적 정보의 복제·변이·선택 단위라면, 밈은 문화적 정보(멜로디, 관념, 유행어, 패션 등)의 복제·변이·선택 단위이다. 다니엘 데닛은 《의식의 설명》(1991)과 《다윈의 위험한 생각》(1995)에서 밈 이론을 의식과 문화의 진화론적 설명에 본격적으로 활용했다.\n인터넷 밈은 도킨스의 원래 개념에서 변형·축소된 것이지만, 동시에 그 핵심 메커니즘(복제, 변이, 선택)을 가장 순수한 형태로 실현한다. 인터넷 밈은 복제 충실도가 낮고(변형과 리믹스가 핵심), 생존 기간이 짧으며(바이럴→망각의 주기가 극도로 빠르다), 선택 압력이 '재미'와 '공유 가능성'에 집중된다.\n밈 문화는 발터 벤야민의 '기계적 복제 시대의 예술작품'(1935)이 예견한 '아우라의 상실'을 극단까지 밀어붙인다. 밈에서 원본/복제의 구분은 완전히 무의미해지며, '작품'은 무한한 변형의 네트워크로만 존재한다. 장 보드리야르의 시뮬라크르 이론 — 원본 없는 복제, 실재 없는 기호의 자기 증식 — 은 밈 문화의 정확한 기술이 된다.\n정치적으로 밈은 양면적이다. 아랍의 봄, 미투 운동에서 밈은 저항의 도구가 되었지만, '페페 더 프로그' 밈이 극우에 전용된 사례처럼 이데올로기적 조작의 매체가 되기도 한다. 밈 문화는 의미의 민주화이면서 동시에 의미의 무정부 상태이다.",
-    "tags": ["인터넷", "문화진화", "바이럴", "시뮬라크르", "소셜미디어"],
-    "relatedPersons": ["richard-dawkins"],
-    "relatedEntities": ["internet-revolution", "arab-spring", "metoo-movement", "postmodernism-movement"],
+    "tags": [
+      "인터넷",
+      "문화진화",
+      "바이럴",
+      "시뮬라크르",
+      "소셜미디어"
+    ],
+    "relatedPersons": [
+      "richard-dawkins"
+    ],
+    "relatedEntities": [
+      "internet-revolution",
+      "arab-spring",
+      "metoo-movement",
+      "postmodernism-movement"
+    ],
     "domain": "문화이론/인식론"
   },
   {
     "id": "burnout-society",
     "type": "concept",
-    "name": { "ko": "피로사회", "en": "Burnout Society", "original": "Müdigkeitsgesellschaft" },
+    "name": {
+      "ko": "피로사회",
+      "en": "Burnout Society",
+      "original": "Müdigkeitsgesellschaft"
+    },
     "era": "contemporary",
     "summary": "한병철(Byung-Chul Han)이 《피로사회》(2010)에서 제시한 개념으로, 현대 사회가 푸코적 규율사회에서 성과사회(Leistungsgesellschaft)로 전환되었다고 진단한다. 외부의 금지와 처벌이 아니라, 내면화된 자기 착취가 지배 메커니즘이 되는 사회에서 우울증, 번아웃, 주의력결핍장애가 시대의 병이 된다.",
     "detailed": "한병철(1959-)은 한국 출생의 독일 철학자로, 베를린 예술대학 교수이다. 《피로사회(Müdigkeitsgesellschaft)》(2010)는 그의 대표작으로, 12개 이상의 언어로 번역되어 세계적 반향을 일으켰다.\n한병철의 핵심 테제는 현대 사회의 지배 패러다임이 '규율사회(Disziplinargesellschaft)'에서 '성과사회(Leistungsgesellschaft)'로 전환되었다는 것이다. 푸코가 분석한 규율사회는 '해서는 안 된다(Sollen)'의 부정성으로 작동한다 — 감옥, 병원, 학교, 공장이 그 장치이다. 반면 성과사회는 '할 수 있다(Können)'의 긍정성으로 작동한다 — '예스 위 캔(Yes We Can)'이 그 모토이다.\n성과사회의 주체는 더 이상 외부의 억압자(자본가, 국가)에 의해 착취당하는 '복종적 주체'가 아니라, 스스로를 '기업가적 자아(unternehmerisches Selbst)'로 구성하며 자발적으로 자기를 착취하는 '성과 주체(Leistungssubjekt)'이다. 착취자와 피착취자가 동일인이므로, 해방의 변증법은 작동하지 않는다. 그 결과 우울증, 번아웃, 주의력결핍과잉행동장애(ADHD)가 21세기의 대표적 정신 질환이 된다.\n한병철은 이 분석을 《투명사회》(2012, 디지털 감시와 프라이버시), 《에로스의 종말》(2012, 타자성의 소멸), 《시간의 향기》(2009, 관조적 삶의 상실) 등으로 확장했다. 그의 사상은 프랑크푸르트 학파의 비판이론, 하이데거의 기술 비판, 아렌트의 활동적 삶(vita activa)/관조적 삶(vita contemplativa) 구분에 뿌리를 두면서, 신자유주의적 자기 최적화 문화에 대한 가장 영향력 있는 철학적 비판을 제공한다.",
-    "tags": ["성과사회", "자기착취", "번아웃", "우울증", "신자유주의"],
+    "tags": [
+      "성과사회",
+      "자기착취",
+      "번아웃",
+      "우울증",
+      "신자유주의"
+    ],
     "relatedPersons": [],
-    "relatedEntities": ["neoliberalism", "attention-economy", "digital-minimalism"],
+    "relatedEntities": [
+      "neoliberalism",
+      "attention-economy",
+      "digital-minimalism"
+    ],
     "domain": "사회철학/문화비평"
+  },
+  {
+    "id": "heros-journey",
+    "type": "concept",
+    "name": {
+      "ko": "영웅의 여정",
+      "en": "Hero's Journey / Monomyth"
+    },
+    "era": "ancient",
+    "summary": "조셉 캠벨이 세계 신화를 비교 분석하여 도출한 보편적 서사 구조. 영웅이 일상 세계를 떠나 시련을 겪고, 결정적 변환을 이루어 귀환하는 순환적 여정이다. 출발-입문-귀환의 3단계 17개 모티프로 구성되며, 호메로스의 오디세이아에서 스타워즈까지 인류의 서사 원형을 관통한다.",
+    "tags": [
+      "신화학",
+      "원형",
+      "서사",
+      "비교신화학",
+      "모노미스"
+    ],
+    "relatedPersons": [
+      "homer",
+      "dante"
+    ],
+    "relatedEntities": [
+      "collective-unconscious",
+      "trickster-archetype",
+      "existentialism"
+    ],
+    "domain": "비교신화학"
+  },
+  {
+    "id": "world-egg",
+    "type": "concept",
+    "name": {
+      "ko": "세계 알",
+      "en": "World Egg / Cosmic Egg"
+    },
+    "era": "ancient",
+    "summary": "우주가 거대한 알에서 탄생했다는 범문화적 창조 신화 원형. 오르페우스교의 원초적 알, 힌두교의 히란야가르바(금알), 중국의 반고 신화, 핀란드의 칼레발라 등 동서양 창조 신화에 공통적으로 등장하며, 혼돈에서 질서로의 우주적 분화를 상징한다.",
+    "tags": [
+      "창조신화",
+      "우주론",
+      "원형",
+      "비교종교학"
+    ],
+    "relatedPersons": [
+      "pythagoras"
+    ],
+    "relatedEntities": [
+      "brahman",
+      "yin-yang",
+      "axis-mundi"
+    ],
+    "domain": "비교신화학"
+  },
+  {
+    "id": "axis-mundi",
+    "type": "concept",
+    "name": {
+      "ko": "세계 축",
+      "en": "Axis Mundi",
+      "original": "Axis Mundi"
+    },
+    "era": "ancient",
+    "summary": "천상·지상·지하 세계를 잇는 우주의 중심축 개념. 세계수(이그드라실), 성산(메루산, 시나이산), 사원 탑, 십자가, 보리수 등 다양한 형태로 나타나며, 성스러운 것과 세속의 경계가 만나는 지점을 상징한다. 엘리아데가 비교종교학적으로 체계화한 핵심 종교 현상학적 개념이다.",
+    "tags": [
+      "종교현상학",
+      "우주론",
+      "성스러움",
+      "원형"
+    ],
+    "relatedPersons": [
+      "buddha"
+    ],
+    "relatedEntities": [
+      "shamanism",
+      "world-egg"
+    ],
+    "domain": "종교현상학"
+  },
+  {
+    "id": "trickster-archetype",
+    "type": "concept",
+    "name": {
+      "ko": "트릭스터 원형",
+      "en": "Trickster Archetype"
+    },
+    "era": "ancient",
+    "summary": "규범과 경계를 교란하는 신화적 인물 유형. 그리스의 헤르메스·프로메테우스, 북유럽의 로키, 아프리카의 아난시, 아메리카의 코요테 등 전 세계 신화에 등장한다. 문화 영웅이자 사기꾼으로서 기존 질서를 해체하고 새로운 가능성을 여는 양가적 존재이다.",
+    "tags": [
+      "신화학",
+      "원형",
+      "경계해체",
+      "문화영웅"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "collective-unconscious",
+      "heros-journey",
+      "structuralism-movement"
+    ],
+    "domain": "비교신화학"
+  },
+  {
+    "id": "eternal-return",
+    "type": "concept",
+    "name": {
+      "ko": "영원 회귀",
+      "en": "Eternal Return",
+      "original": "Ewige Wiederkehr / Eliade's Eternal Return"
+    },
+    "era": "ancient",
+    "summary": "시간이 직선이 아닌 순환 구조를 가진다는 범문화적 세계관. 힌두교의 유가(劫) 순환, 스토아학파의 대화재(에크퓌로시스), 마야의 장기 달력, 불교의 윤회가 대표적이다. 니체는 이를 실존적 시험으로, 엘리아데는 원초적 시간의 회복 의례로 해석하여 각각 철학적·종교학적 의미를 부여했다.",
+    "tags": [
+      "시간관",
+      "순환",
+      "우주론",
+      "비교종교학"
+    ],
+    "relatedPersons": [
+      "nietzsche",
+      "buddha"
+    ],
+    "relatedEntities": [
+      "eternal-recurrence",
+      "karma",
+      "stoicism-movement"
+    ],
+    "domain": "형이상학"
+  },
+  {
+    "id": "coincidentia-oppositorum",
+    "type": "concept",
+    "name": {
+      "ko": "대립의 일치",
+      "en": "Coincidentia Oppositorum",
+      "original": "Coincidentia Oppositorum"
+    },
+    "era": "ancient",
+    "summary": "상반된 것들이 궁극적으로 하나의 통일체를 이룬다는 신비주의적·철학적 원리. 헤라클레이토스의 대립 조화론에서 출발하여 쿠자누스의 '반대의 일치', 도가의 음양 상보, 힌두교의 브라만, 융의 자기(Self) 원형으로 이어진다. 변증법의 원형이자 동서양 신비주의의 공통 핵심이다.",
+    "tags": [
+      "신비주의",
+      "형이상학",
+      "통합",
+      "양극성"
+    ],
+    "relatedPersons": [
+      "heraclitus",
+      "nicholas-of-cusa",
+      "plotinus"
+    ],
+    "relatedEntities": [
+      "dialectic",
+      "yin-yang",
+      "brahman"
+    ],
+    "domain": "형이상학",
+    "originPerson": "heraclitus"
+  },
+  {
+    "id": "anima-animus",
+    "type": "concept",
+    "name": {
+      "ko": "아니마/아니무스",
+      "en": "Anima / Animus"
+    },
+    "era": "contemporary",
+    "summary": "카를 구스타프 융이 제시한 분석심리학의 핵심 원형. 아니마는 남성 무의식 속의 여성적 원형, 아니무스는 여성 무의식 속의 남성적 원형이다. 내면의 대극적 성질을 통합하는 개성화(individuation) 과정의 핵심 요소이며, 꿈·신화·문학에서 이성(異性)적 형상으로 반복 출현한다.",
+    "tags": [
+      "분석심리학",
+      "원형",
+      "무의식",
+      "개성화"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "collective-unconscious",
+      "coincidentia-oppositorum",
+      "sacred-feminine"
+    ],
+    "domain": "심리학"
+  },
+  {
+    "id": "collective-unconscious",
+    "type": "concept",
+    "name": {
+      "ko": "집단 무의식",
+      "en": "Collective Unconscious",
+      "original": "Kollektives Unbewusstes"
+    },
+    "era": "contemporary",
+    "summary": "카를 구스타프 융이 발견한 인류 공통의 심층 무의식 영역. 개인적 경험이 아니라 인류의 진화적 유산으로 물려받은 원형(archetype)들이 저장된 정신의 가장 깊은 층위이다. 영웅, 그림자, 아니마/아니무스, 대모(Great Mother), 현자(Wise Old Man) 등의 원형이 신화·꿈·예술에 반복적으로 나타난다.",
+    "tags": [
+      "분석심리학",
+      "원형",
+      "무의식",
+      "신화"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "anima-animus",
+      "trickster-archetype",
+      "heros-journey"
+    ],
+    "domain": "심리학"
+  },
+  {
+    "id": "sacred-feminine",
+    "type": "concept",
+    "name": {
+      "ko": "성스러운 여성성",
+      "en": "Sacred Feminine"
+    },
+    "era": "ancient",
+    "summary": "신성의 여성적 차원을 강조하는 범문화적 종교·영성 전통. 고대 여신 숭배(이시스, 이난나, 가이아), 힌두교의 샥티, 기독교의 성모 마리아, 카발라의 쉐키나, 도교의 곤(坤) 등에서 발현된다. 근대 가부장적 종교관에 의해 억압된 후 페미니즘 영성 운동에 의해 재발견되었다.",
+    "tags": [
+      "여성성",
+      "여신",
+      "영성",
+      "페미니즘"
+    ],
+    "relatedPersons": [
+      "hildegard-bingen"
+    ],
+    "relatedEntities": [
+      "feminism",
+      "anima-animus",
+      "coincidentia-oppositorum"
+    ],
+    "domain": "종교학"
+  },
+  {
+    "id": "shamanism",
+    "type": "concept",
+    "name": {
+      "ko": "샤머니즘",
+      "en": "Shamanism"
+    },
+    "era": "ancient",
+    "summary": "황홀경(엑스터시) 기법을 통해 영적 세계와 교류하는 인류 최고(最古)의 종교적 실천. 시베리아 퉁구스어에서 유래한 이 개념은 북아시아, 아메리카, 아프리카, 오세아니아 등 전 세계에 분포한다. 샤먼은 치유자·점술가·영혼의 안내자로서 세계 축(axis mundi)을 따라 천상과 지하를 오간다.",
+    "tags": [
+      "영성",
+      "치유",
+      "황홀경",
+      "원시종교"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "axis-mundi",
+      "dreamtime",
+      "sacred-feminine"
+    ],
+    "domain": "종교학"
+  },
+  {
+    "id": "hermetic-philosophy",
+    "type": "concept",
+    "name": {
+      "ko": "헤르메스주의",
+      "en": "Hermetic Philosophy",
+      "original": "Hermeticism"
+    },
+    "era": "ancient",
+    "summary": "전설적 현자 헤르메스 트리스메기스토스에게 귀속된 비의(秘義) 철학 전통. '위에서와 같이 아래에서도(As above, so below)' 원리를 핵심으로 하여, 대우주와 소우주의 조응, 영혼의 상승, 물질과 정신의 변환을 가르친다. 르네상스 시대 피치노의 번역으로 재발견되어 연금술과 근대 과학의 탄생에 영향을 미쳤다.",
+    "tags": [
+      "비의전통",
+      "연금술",
+      "르네상스",
+      "대우주소우주"
+    ],
+    "relatedPersons": [
+      "giordano-bruno",
+      "paracelsus"
+    ],
+    "relatedEntities": [
+      "alchemy-tradition",
+      "renaissance"
+    ],
+    "domain": "비의철학"
+  },
+  {
+    "id": "alchemy-tradition",
+    "type": "concept",
+    "name": {
+      "ko": "연금술 전통",
+      "en": "Alchemy Tradition"
+    },
+    "era": "medieval",
+    "summary": "비금속을 금으로 변환하는 물질적 작업과 영혼의 정화라는 영적 작업을 동시에 추구한 전통. 그리스·이집트의 기원에서 이슬람 황금시대를 거쳐 유럽 르네상스에 꽃피었다. 표면적으로는 전과학적 실천이나, 물질 변환 실험은 근대 화학의 토대가 되었고 융은 이를 개성화 과정의 상징 체계로 재해석했다.",
+    "tags": [
+      "연금술",
+      "변환",
+      "화학",
+      "상징"
+    ],
+    "relatedPersons": [
+      "paracelsus",
+      "roger-bacon"
+    ],
+    "relatedEntities": [
+      "hermetic-philosophy",
+      "scientific-revolution"
+    ],
+    "domain": "자연철학"
+  },
+  {
+    "id": "dreamtime",
+    "type": "concept",
+    "name": {
+      "ko": "드림타임",
+      "en": "Dreamtime / The Dreaming",
+      "original": "Tjukurpa"
+    },
+    "era": "ancient",
+    "summary": "호주 원주민(Aboriginal Australian)의 세계관에서 조상 존재들이 세계를 형성한 신성한 창조 시간. 과거·현재·미래가 공존하는 비선형적 시간 개념으로, 의례·노래·예술을 통해 지금도 계속 접근 가능하다. 가장 오래된 연속적 문화 전통(약 6만 5천 년)의 핵심이자 독특한 시간 형이상학이다.",
+    "tags": [
+      "원주민",
+      "창조신화",
+      "시간관",
+      "호주"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "shamanism",
+      "eternal-return",
+      "world-egg"
+    ],
+    "domain": "종교학"
+  },
+  {
+    "id": "ubuntu-philosophy",
+    "type": "concept",
+    "name": {
+      "ko": "우분투 철학",
+      "en": "Ubuntu Philosophy",
+      "original": "Ubuntu"
+    },
+    "era": "ancient",
+    "summary": "남부 아프리카의 반투어에서 유래한 공동체적 인간관. '나는 우리이기 때문에 존재한다(I am because we are)'는 명제로 요약되며, 개인의 정체성을 공동체적 관계 속에서 파악한다. 데스몬드 투투와 넬슨 만델라가 남아프리카 화해 과정에서 이 철학을 실천적으로 활용하여 세계적 주목을 받았다.",
+    "tags": [
+      "아프리카철학",
+      "공동체",
+      "화해",
+      "관계적존재론"
+    ],
+    "relatedPersons": [
+      "desmond-tutu",
+      "mandela"
+    ],
+    "relatedEntities": [
+      "humanism",
+      "alterity"
+    ],
+    "domain": "윤리학"
+  },
+  {
+    "id": "information-revolution",
+    "type": "concept",
+    "name": {
+      "ko": "정보 혁명",
+      "en": "Information Revolution"
+    },
+    "era": "contemporary",
+    "summary": "20세기 후반 디지털 기술의 발전으로 촉발된 사회·경제·문화의 근본적 전환. 섀넌의 정보 이론, 튜링의 범용 컴퓨터, 인터넷의 등장이 핵심 계기이다. 농업혁명·산업혁명에 이은 제3의 문명사적 전환으로, 지식·데이터가 경제의 핵심 자원이 되고 시공간의 의미가 재편되었다.",
+    "tags": [
+      "기술",
+      "디지털",
+      "정보사회",
+      "문명전환"
+    ],
+    "relatedPersons": [
+      "claude-shannon",
+      "turing",
+      "tim-berners-lee"
+    ],
+    "relatedEntities": [
+      "internet-revolution",
+      "cybernetics",
+      "deep-learning"
+    ],
+    "domain": "기술철학"
+  },
+  {
+    "id": "singularity-concept",
+    "type": "concept",
+    "name": {
+      "ko": "특이점",
+      "en": "Technological Singularity"
+    },
+    "era": "contemporary",
+    "summary": "인공지능이 인간 지능을 초월하여 기술 발전이 예측 불가능한 속도로 가속되는 가상의 미래 시점. 존 폰 노이만이 처음 언급하고 버너 빈지가 개념화했으며, 레이 커즈와일이 대중화했다. 인류 문명의 근본적 전환점이 될 수 있다는 기대와, 존재적 위험이라는 우려가 공존하는 논쟁적 개념이다.",
+    "tags": [
+      "인공지능",
+      "미래학",
+      "기술가속",
+      "초지능"
+    ],
+    "relatedPersons": [
+      "turing",
+      "nick-bostrom",
+      "von-neumann"
+    ],
+    "relatedEntities": [
+      "artificial-general-intelligence",
+      "transhumanism",
+      "superintelligence"
+    ],
+    "domain": "기술철학"
+  },
+  {
+    "id": "cybernetics",
+    "type": "concept",
+    "name": {
+      "ko": "사이버네틱스",
+      "en": "Cybernetics",
+      "original": "Κυβερνήτης"
+    },
+    "era": "contemporary",
+    "summary": "노버트 위너가 1948년 창시한 제어와 통신의 통합 과학. 생물·기계·사회 시스템에 공통되는 피드백 메커니즘과 자기조절 원리를 연구한다. 그리스어 '조타수(kubernetes)'에서 유래하며, 인공지능·로봇공학·시스템이론·인지과학의 이론적 토대가 되었다.",
+    "tags": [
+      "시스템이론",
+      "피드백",
+      "통신",
+      "제어"
+    ],
+    "relatedPersons": [
+      "norbert-wiener"
+    ],
+    "relatedEntities": [
+      "artificial-general-intelligence",
+      "complexity-science",
+      "information-revolution"
+    ],
+    "domain": "시스템과학",
+    "originPerson": "norbert-wiener"
+  },
+  {
+    "id": "chaos-theory",
+    "type": "concept",
+    "name": {
+      "ko": "카오스 이론",
+      "en": "Chaos Theory"
+    },
+    "era": "contemporary",
+    "summary": "초기 조건의 미세한 차이가 결과에 막대한 영향을 미치는 비선형 동역학 체계의 이론. 앙리 푸앵카레의 3체 문제 연구에서 시작하여 에드워드 로렌츠의 '나비 효과' 발견으로 대중화되었다. 결정론적 시스템에서도 예측 불가능성이 발생함을 보여주어 과학적 세계관에 근본적 전환을 가져왔다.",
+    "tags": [
+      "비선형",
+      "나비효과",
+      "결정론",
+      "복잡계"
+    ],
+    "relatedPersons": [
+      "poincare"
+    ],
+    "relatedEntities": [
+      "complexity-science",
+      "determinism",
+      "quantum-mechanics"
+    ],
+    "domain": "과학철학"
+  },
+  {
+    "id": "complexity-science",
+    "type": "concept",
+    "name": {
+      "ko": "복잡계 과학",
+      "en": "Complexity Science"
+    },
+    "era": "contemporary",
+    "summary": "단순한 구성 요소들의 상호작용에서 예측 불가능한 창발적(emergent) 질서가 발생하는 시스템을 연구하는 학제적 과학. 개미 군집, 뇌 신경망, 경제 시장, 생태계 등이 대표적 복잡계이다. 환원주의적 과학관을 넘어서 전체는 부분의 합보다 크다는 통찰을 과학적으로 정당화한다.",
+    "tags": [
+      "창발",
+      "자기조직화",
+      "학제적",
+      "시스템"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "chaos-theory",
+      "cybernetics",
+      "deep-learning"
+    ],
+    "domain": "시스템과학"
   }
 ]
