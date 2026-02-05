@@ -1429,5 +1429,616 @@
       "world-egg-cosmogony",
       "yin-yang-cosmology"
     ]
+  },
+  {
+    "id": "creation-ex-nihilo",
+    "type": "archetype",
+    "name": {
+      "ko": "무(無)에서의 창조",
+      "en": "Creation Ex Nihilo"
+    },
+    "era": "ancient",
+    "summary": "신이 아무것도 없는 상태에서 세계를 창조했다는 원형 서사. 유대-기독교-이슬람 전통의 핵심 창조관이며, 절대적 초월자의 전능함을 강조한다. 고대 이집트의 아툼 신화와 폴리네시아의 이오(Io) 신화에서도 유사한 패턴이 나타난다.",
+    "tags": [
+      "신화",
+      "창조",
+      "원형",
+      "유일신"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "christianity",
+      "islam",
+      "judaism"
+    ]
+  },
+  {
+    "id": "world-egg",
+    "type": "archetype",
+    "name": {
+      "ko": "우주란(宇宙卵)",
+      "en": "World Egg / Cosmic Egg"
+    },
+    "era": "ancient",
+    "summary": "우주가 거대한 알에서 부화하여 탄생했다는 창조 원형. 인도의 히란야가르바(황금 태아), 핀란드의 카레발라, 중국의 반고 신화, 오르페우스교의 파네스 등 세계 각지에서 발견된다. 잠재태에서 현실태로의 전환이라는 보편적 상징을 담고 있다.",
+    "tags": [
+      "신화",
+      "창조",
+      "원형",
+      "우주란"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "orphism",
+      "vedic-tradition"
+    ]
+  },
+  {
+    "id": "world-parents-separation",
+    "type": "archetype",
+    "name": {
+      "ko": "천지부모 분리",
+      "en": "Separation of World Parents"
+    },
+    "era": "ancient",
+    "summary": "하늘 아버지와 대지 어머니가 자녀에 의해 분리되어 세계가 형성되는 서사. 마오리의 랑기누이-파파투아누쿠, 이집트의 게브-누트, 그리스의 우라노스-가이아가 대표적이다. 분리를 통한 창조와 세대 간 갈등이라는 이중 주제를 담는다.",
+    "tags": [
+      "신화",
+      "창조",
+      "분리",
+      "천지"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "maori-tradition",
+      "egyptian-religion",
+      "olympian-religion"
+    ]
+  },
+  {
+    "id": "earth-diver",
+    "type": "archetype",
+    "name": {
+      "ko": "잠수 창조",
+      "en": "Earth-Diver Creation"
+    },
+    "era": "ancient",
+    "summary": "원초적 바다 밑에서 흙을 가져와 대지를 만드는 창조 신화. 북아메리카 원주민(체로키, 이로쿼이), 시베리아 샤먼 전통, 동유럽 슬라브 신화에 널리 분포한다. 물에서 땅으로의 전환은 혼돈에서 질서로의 이행을 상징한다.",
+    "tags": [
+      "신화",
+      "창조",
+      "잠수",
+      "대지"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "cherokee-tradition",
+      "iroquois-tradition",
+      "siberian-shamanism"
+    ]
+  },
+  {
+    "id": "emergence-creation",
+    "type": "archetype",
+    "name": {
+      "ko": "출현 창조",
+      "en": "Emergence Creation"
+    },
+    "era": "ancient",
+    "summary": "인류가 지하 세계에서 여러 층을 거쳐 현재의 세계로 올라오는 창조 서사. 호피, 나바호, 주니 등 푸에블로 계통 원주민 전통에서 특히 두드러진다. 영적 성숙과 단계적 진화의 은유를 담고 있으며, 인간과 대지의 유기적 관계를 강조한다.",
+    "tags": [
+      "신화",
+      "창조",
+      "출현",
+      "지하세계"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "hopi-tradition",
+      "navajo-tradition"
+    ]
+  },
+  {
+    "id": "heros-departure",
+    "type": "archetype",
+    "name": {
+      "ko": "영웅의 출발",
+      "en": "Hero's Departure"
+    },
+    "era": "ancient",
+    "summary": "영웅이 일상 세계를 떠나 모험의 세계로 진입하는 서사 단계. 조지프 캠벨이 《천의 얼굴을 가진 영웅》에서 체계화한 '모노미스(monomyth)'의 첫 단계이다. 소명의 수용, 초자연적 조력자의 출현, 관문 통과 등의 모티프를 포함한다.",
+    "tags": [
+      "신화",
+      "영웅",
+      "출발",
+      "모험"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "heros-initiation",
+      "heros-return"
+    ]
+  },
+  {
+    "id": "heros-initiation",
+    "type": "archetype",
+    "name": {
+      "ko": "영웅의 시련",
+      "en": "Hero's Initiation"
+    },
+    "era": "ancient",
+    "summary": "영웅이 시련과 과업을 거쳐 변형되는 핵심 서사 단계. 용과의 싸움, 지하세계 여행, 궁극의 은총 획득 등이 포함된다. 길가메시의 모험, 헤라클레스의 12과업, 붓다의 마라 항복 등에서 공통적으로 나타나는 인류 보편 서사이다.",
+    "tags": [
+      "신화",
+      "영웅",
+      "시련",
+      "변형"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "heros-departure",
+      "heros-return"
+    ]
+  },
+  {
+    "id": "heros-return",
+    "type": "archetype",
+    "name": {
+      "ko": "영웅의 귀환",
+      "en": "Hero's Return"
+    },
+    "era": "ancient",
+    "summary": "시련을 극복한 영웅이 변형된 상태로 원래 세계에 귀환하여 공동체에 은총을 나누는 서사. 프로메테우스의 불 전달, 오디세우스의 이타카 귀환, 붓다의 전법(轉法) 등이 대표적이다. 개인의 초월이 집단의 구원으로 확장되는 원형적 구조를 보여준다.",
+    "tags": [
+      "신화",
+      "영웅",
+      "귀환",
+      "은총"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "heros-departure",
+      "heros-initiation"
+    ]
+  },
+  {
+    "id": "underworld-descent",
+    "type": "archetype",
+    "name": {
+      "ko": "명계 하강",
+      "en": "Descent to the Underworld"
+    },
+    "era": "ancient",
+    "summary": "산 자가 죽은 자의 세계로 내려가 지혜나 구원을 얻고 돌아오는 서사. 수메르의 인안나, 그리스의 오르페우스와 페르세포네, 이집트의 오시리스, 일본의 이자나기 등 전 세계적으로 분포한다. 죽음의 직면을 통한 변형과 재생의 보편적 상징이다.",
+    "tags": [
+      "신화",
+      "명계",
+      "하강",
+      "재생"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "sumerian-religion",
+      "olympian-religion",
+      "orphism"
+    ]
+  },
+  {
+    "id": "sacrifice-resurrection",
+    "type": "archetype",
+    "name": {
+      "ko": "희생과 부활",
+      "en": "Sacrifice and Resurrection"
+    },
+    "era": "ancient",
+    "summary": "신적 존재 또는 영웅이 자발적으로 죽음을 맞이하고 부활하여 세계를 갱신하는 서사. 그리스도의 십자가와 부활, 오시리스의 죽음과 재생, 북유럽 발드르의 죽음, 아즈텍의 케찰코아틀 등에서 반복된다.",
+    "tags": [
+      "신화",
+      "희생",
+      "부활",
+      "재생"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "christianity",
+      "egyptian-religion",
+      "aztec-religion"
+    ]
+  },
+  {
+    "id": "seasonal-cycle-myth",
+    "type": "archetype",
+    "name": {
+      "ko": "계절 순환 신화",
+      "en": "Seasonal Cycle Myth"
+    },
+    "era": "ancient",
+    "summary": "계절의 변화를 신의 죽음과 부활 또는 분리와 재회로 설명하는 신화. 페르세포네의 납치와 귀환, 타무즈/아도니스의 죽음과 재생, 오시리스의 순환이 대표적이다. 농경 사회의 자연 관찰이 신화적 서사로 전환된 예이다.",
+    "tags": [
+      "신화",
+      "계절",
+      "순환",
+      "농경"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "eleusinian-mysteries",
+      "egyptian-religion"
+    ]
+  },
+  {
+    "id": "world-destruction",
+    "type": "archetype",
+    "name": {
+      "ko": "세계 파괴",
+      "en": "World Destruction / Apocalypse"
+    },
+    "era": "ancient",
+    "summary": "대홍수, 대화재, 또는 신들의 전쟁으로 세계가 파괴되는 종말 서사. 노아의 홍수, 힌두교의 프랄라야(대멸), 북유럽의 라그나뢰크, 마야의 세계주기 등에서 반복된다. 현 질서의 종말은 새로운 시작의 전제이며, 도덕적 갱신의 필요성을 함축한다.",
+    "tags": [
+      "신화",
+      "종말",
+      "파괴",
+      "대홍수"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "norse-tradition",
+      "hinduism",
+      "maya-religion"
+    ]
+  },
+  {
+    "id": "last-judgment",
+    "type": "archetype",
+    "name": {
+      "ko": "최후의 심판",
+      "en": "Last Judgment"
+    },
+    "era": "ancient",
+    "summary": "세계의 종말에 모든 존재가 도덕적으로 심판받는 종말론적 서사. 조로아스터교의 프라쇼케레티가 최초의 체계적 형태이며, 유대교·기독교·이슬람의 최후 심판으로 이어진다. 이집트의 마아트 저울, 힌두교의 야마 심판 등도 유사한 원형을 공유한다.",
+    "tags": [
+      "신화",
+      "심판",
+      "종말",
+      "도덕"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "zoroastrianism",
+      "christianity",
+      "islam",
+      "egyptian-religion"
+    ]
+  },
+  {
+    "id": "new-beginning-myth",
+    "type": "archetype",
+    "name": {
+      "ko": "새로운 시작",
+      "en": "New Beginning / Renewal"
+    },
+    "era": "ancient",
+    "summary": "세계 파괴 이후 정화된 새 세계가 도래하는 갱신 서사. 라그나뢰크 이후의 새 세계, 기독교 묵시록의 새 하늘과 새 땅, 아즈텍의 다섯 번째 태양, 힌두교의 새로운 유가(yuga) 등이 있다. 종말이 곧 시작이라는 순환적 시간관을 반영한다.",
+    "tags": [
+      "신화",
+      "갱신",
+      "새세계",
+      "순환"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "norse-tradition",
+      "christianity",
+      "aztec-religion",
+      "hinduism"
+    ]
+  },
+  {
+    "id": "culture-hero",
+    "type": "archetype",
+    "name": {
+      "ko": "문화 영웅",
+      "en": "Culture Hero"
+    },
+    "era": "ancient",
+    "summary": "인류에게 불, 농경, 문자 등 문명의 핵심 요소를 가져다주는 신화적 존재. 그리스의 프로메테우스, 중국의 복희·신농, 폴리네시아의 마우이, 아메리카의 코요테/까마귀가 대표적이다. 자연에서 문화로의 전환을 매개하는 원형이다.",
+    "tags": [
+      "신화",
+      "문화영웅",
+      "트릭스터",
+      "문명"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "olympian-religion",
+      "polynesian-tradition"
+    ]
+  },
+  {
+    "id": "liminal-being",
+    "type": "archetype",
+    "name": {
+      "ko": "경계적 존재",
+      "en": "Liminal Being"
+    },
+    "era": "ancient",
+    "summary": "질서와 혼돈, 성(聖)과 속(俗), 인간과 동물의 경계에 서 있는 트릭스터 원형. 헤르메스, 로키, 아프리카의 아난시, 아메리카의 코요테가 대표적이다. 이분법적 범주를 교란하며 창조적 혼돈을 도입한다.",
+    "tags": [
+      "신화",
+      "트릭스터",
+      "경계",
+      "리미널"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "norse-tradition",
+      "yoruba-ifa",
+      "olympian-religion"
+    ]
+  },
+  {
+    "id": "order-disruptor",
+    "type": "archetype",
+    "name": {
+      "ko": "질서 교란자",
+      "en": "Order Disruptor"
+    },
+    "era": "ancient",
+    "summary": "기존 질서와 규범을 위반하여 역설적으로 새로운 가능성을 여는 트릭스터의 핵심 기능. 로키의 장난이 신들의 보물을 만들어내고, 손오공의 반란이 깨달음으로 이어지듯, 파괴를 통한 창조라는 역설적 논리를 구현한다.",
+    "tags": [
+      "신화",
+      "트릭스터",
+      "교란",
+      "역설"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "norse-tradition",
+      "buddhism"
+    ]
+  },
+  {
+    "id": "human-animal-transformation",
+    "type": "archetype",
+    "name": {
+      "ko": "인간-동물 변형",
+      "en": "Human-Animal Transformation"
+    },
+    "era": "ancient",
+    "summary": "인간이 동물로 또는 동물이 인간으로 변형되는 서사. 오비디우스 《변신 이야기》, 아메리카 원주민의 동물 정령, 동아시아의 여우·학 변신담, 아프리카의 표범 인간 등이 있다. 인간과 자연의 근본적 연속성, 그리고 정체성의 유동성을 표현하는 원형이다.",
+    "tags": [
+      "신화",
+      "변신",
+      "동물",
+      "변형"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "olympian-religion",
+      "korean-shamanism"
+    ]
+  },
+  {
+    "id": "ascension-descent",
+    "type": "archetype",
+    "name": {
+      "ko": "승천과 하강",
+      "en": "Ascension and Descent"
+    },
+    "era": "ancient",
+    "summary": "영적 존재가 천상으로 올라가거나 지상으로 내려오는 수직적 이동 서사. 엘리야의 승천, 무함마드의 미라즈(야간 승천), 샤먼의 하늘 여행, 보살의 하강 등이 포함된다. 천상-지상-지하의 3층 우주론과 결합하여 초월의 가능성을 상징한다.",
+    "tags": [
+      "신화",
+      "승천",
+      "하강",
+      "초월"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "christianity",
+      "islam",
+      "siberian-shamanism"
+    ]
+  },
+  {
+    "id": "spiritual-transformation",
+    "type": "archetype",
+    "name": {
+      "ko": "영적 변형",
+      "en": "Spiritual Transformation"
+    },
+    "era": "ancient",
+    "summary": "인간이 내적 각성이나 신비 체험을 통해 근본적으로 변형되는 서사. 붓다의 깨달음, 바울의 다마스쿠스 회심, 아르주나의 우주적 환시(비슈와루파) 등이 대표적이다. 자아의 죽음과 새로운 자아의 탄생이라는 구조를 공유한다.",
+    "tags": [
+      "신화",
+      "변형",
+      "깨달음",
+      "각성"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "buddhism",
+      "christianity",
+      "hinduism"
+    ]
+  },
+  {
+    "id": "great-flood",
+    "type": "archetype",
+    "name": {
+      "ko": "대홍수",
+      "en": "Great Flood"
+    },
+    "era": "ancient",
+    "summary": "신의 분노 또는 우주적 정화로 세계가 물에 잠기고 소수만이 살아남는 서사. 수메르의 지우수드라, 성경의 노아, 힌두교의 마누, 그리스의 데우칼리온, 마야의 홍수 신화 등 전 세계적으로 분포한다.",
+    "tags": [
+      "신화",
+      "홍수",
+      "정화",
+      "생존"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "sumerian-religion",
+      "christianity",
+      "hinduism",
+      "maya-religion"
+    ]
+  },
+  {
+    "id": "cosmic-tree",
+    "type": "archetype",
+    "name": {
+      "ko": "우주 나무",
+      "en": "Cosmic Tree / World Tree"
+    },
+    "era": "ancient",
+    "summary": "우주의 중심에 서서 하늘·땅·지하를 연결하는 거대한 나무. 북유럽의 위그드라실, 마야의 세이바, 시베리아 샤먼 전통의 세계수, 카발라의 생명나무가 대표적이다. 세계축(axis mundi)의 가장 보편적인 상징이다.",
+    "tags": [
+      "신화",
+      "세계수",
+      "우주축",
+      "연결"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "norse-tradition",
+      "maya-religion",
+      "siberian-shamanism",
+      "kabbalah-mysticism"
+    ]
+  },
+  {
+    "id": "sacred-mountain",
+    "type": "archetype",
+    "name": {
+      "ko": "성산(聖山)",
+      "en": "Sacred Mountain"
+    },
+    "era": "ancient",
+    "summary": "신이 거주하거나 계시가 내려지는 우주의 중심으로서의 산. 그리스의 올림포스, 히브리의 시나이, 힌두의 메루, 일본의 후지산, 중국의 곤륜산이 대표적이다. 성스러운 것의 현현(히에로파니) 장소를 상징한다.",
+    "tags": [
+      "신화",
+      "성산",
+      "세계축",
+      "성소"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "olympian-religion",
+      "hinduism",
+      "judaism"
+    ]
+  },
+  {
+    "id": "divine-twins",
+    "type": "archetype",
+    "name": {
+      "ko": "신성한 쌍둥이",
+      "en": "Divine Twins"
+    },
+    "era": "ancient",
+    "summary": "대립하면서도 보완적인 한 쌍의 신적 존재. 그리스의 카스토르와 폴룩스, 로마의 로물루스와 레무스, 힌두의 아슈빈 쌍둥이, 마야의 쌍둥이 영웅이 대표적이다. 이원성의 통합과 대립을 통한 창조라는 원리를 표현한다.",
+    "tags": [
+      "신화",
+      "쌍둥이",
+      "이원성",
+      "보완"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "olympian-religion",
+      "maya-religion",
+      "vedic-tradition"
+    ]
+  },
+  {
+    "id": "primordial-waters",
+    "type": "archetype",
+    "name": {
+      "ko": "원초적 물",
+      "en": "Primordial Waters"
+    },
+    "era": "ancient",
+    "summary": "만물이 생겨나기 이전에 존재한 근원적 물의 상징. 수메르의 남무/압수, 이집트의 눈(Nun), 힌두의 원초 대양, 성경의 '깊음 위의 수면'이 공통적으로 나타난다. 모든 가능성의 근원으로, 창조의 질료적 모태를 상징한다.",
+    "tags": [
+      "신화",
+      "물",
+      "근원",
+      "창조"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "sumerian-religion",
+      "egyptian-religion",
+      "hinduism"
+    ]
+  },
+  {
+    "id": "dragon-serpent",
+    "type": "archetype",
+    "name": {
+      "ko": "용/뱀 원형",
+      "en": "Dragon-Serpent Archetype"
+    },
+    "era": "ancient",
+    "summary": "우주적 뱀 또는 용은 가장 보편적인 신화 상징 중 하나이다. 혼돈의 뱀(바빌로니아 티아마트, 북유럽 요르문간드), 지혜의 뱀(에덴, 케찰코아틀), 보호의 용(중국 용왕, 인도 나가) 등 양가적 의미를 지닌다.",
+    "tags": [
+      "신화",
+      "용",
+      "뱀",
+      "원형"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "babylonian-religion",
+      "norse-tradition",
+      "hinduism"
+    ]
+  },
+  {
+    "id": "fire-theft",
+    "type": "archetype",
+    "name": {
+      "ko": "불의 절취",
+      "en": "Theft of Fire"
+    },
+    "era": "ancient",
+    "summary": "신의 세계에서 불(또는 지식)을 훔쳐 인류에게 전달하는 문화 영웅 서사. 그리스의 프로메테우스, 폴리네시아의 마우이, 체로키의 거미 할머니가 대표적이다. 문명의 획득에는 희생과 신벌이 따른다는 보편적 인식을 반영한다.",
+    "tags": [
+      "신화",
+      "불",
+      "절취",
+      "문명"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "olympian-religion",
+      "polynesian-tradition",
+      "cherokee-tradition"
+    ]
+  },
+  {
+    "id": "cosmic-ocean",
+    "type": "archetype",
+    "name": {
+      "ko": "우주 대양",
+      "en": "Cosmic Ocean"
+    },
+    "era": "ancient",
+    "summary": "세계가 거대한 바다 위에 떠 있거나, 바다 자체가 우주의 본체라는 관념. 힌두의 비슈누가 잠든 우유의 바다, 이집트의 눈(Nun), 수메르의 압수(Apsu) 등이 있다. 무한한 가능성의 모태이자, 의식 이전의 무의식 상태를 상징하는 원형이다.",
+    "tags": [
+      "신화",
+      "바다",
+      "우주",
+      "무한"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "hinduism",
+      "egyptian-religion",
+      "sumerian-religion"
+    ]
   }
 ]

@@ -13383,69 +13383,6 @@
     ]
   },
   {
-    "id": "jinul",
-    "name": {
-      "ko": "지눌",
-      "en": "Jinul",
-      "original": "知訥"
-    },
-    "era": "medieval",
-    "period": {
-      "start": 1158,
-      "end": 1210,
-      "approximate": false
-    },
-    "location": {
-      "lat": 35.0,
-      "lng": 127.0,
-      "region": "고려"
-    },
-    "category": "philosopher",
-    "subcategory": "korean",
-    "tags": [
-      "선불교",
-      "정혜쌍수",
-      "돈오점수",
-      "고려불교"
-    ],
-    "mvp": false,
-    "summary": "고려 중기의 승려로 한국 선불교의 전통을 확립한 사상가. 돈오점수(頓悟漸修)를 주장하며 깨달음 이후에도 점진적 수행이 필요함을 역설했다.",
-    "detailed": "",
-    "keyWorks": [
-      {
-        "title": "수심결",
-        "type": "book"
-      },
-      {
-        "title": "진심직설",
-        "type": "book"
-      }
-    ],
-    "quotes": [
-      {
-        "text": "마음이 곧 부처이니, 부처를 밖에서 구하지 말라.",
-        "source": "수심결"
-      }
-    ],
-    "influences": [
-      "nagarjuna",
-      "huineng"
-    ],
-    "influenced": [],
-    "school": [
-      "조계종",
-      "선불교"
-    ],
-    "concepts": [
-      "돈오점수",
-      "정혜쌍수",
-      "간화선"
-    ],
-    "questions": [
-      "깨달음 이후에도 수행이 필요한가?"
-    ]
-  },
-  {
     "id": "uicheon",
     "name": {
       "ko": "의천",
@@ -13515,8 +13452,8 @@
       "approximate": false
     },
     "location": {
-      "lat": 35.0,
-      "lng": 127.0,
+      "lat": 35,
+      "lng": 127,
       "region": "고려"
     },
     "category": "philosopher",
@@ -13877,7 +13814,7 @@
     },
     "location": {
       "lat": 36.63,
-      "lng": 127.0,
+      "lng": 127,
       "region": "조선 충청도"
     },
     "category": "philosopher",
@@ -16413,7 +16350,7 @@
     },
     "location": {
       "lat": 37.39,
-      "lng": -6.0,
+      "lng": -6,
       "region": "스페인 안달루시아"
     },
     "category": "philosopher",
@@ -17846,7 +17783,7 @@
     },
     "location": {
       "lat": 53.55,
-      "lng": 10.0,
+      "lng": 10,
       "region": "독일 함부르크"
     },
     "category": "philosopher",

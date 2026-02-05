@@ -965,31 +965,6 @@
     "domain": "비교신화학"
   },
   {
-    "id": "world-egg",
-    "type": "concept",
-    "name": {
-      "ko": "세계 알",
-      "en": "World Egg / Cosmic Egg"
-    },
-    "era": "ancient",
-    "summary": "우주가 거대한 알에서 탄생했다는 범문화적 창조 신화 원형. 오르페우스교의 원초적 알, 힌두교의 히란야가르바(금알), 중국의 반고 신화, 핀란드의 칼레발라 등 동서양 창조 신화에 공통적으로 등장하며, 혼돈에서 질서로의 우주적 분화를 상징한다.",
-    "tags": [
-      "창조신화",
-      "우주론",
-      "원형",
-      "비교종교학"
-    ],
-    "relatedPersons": [
-      "pythagoras"
-    ],
-    "relatedEntities": [
-      "brahman",
-      "yin-yang",
-      "axis-mundi"
-    ],
-    "domain": "비교신화학"
-  },
-  {
     "id": "axis-mundi",
     "type": "concept",
     "name": {
