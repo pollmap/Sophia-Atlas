@@ -652,9 +652,10 @@ export default function TimelinePage() {
                     const topY = 22 + row * 18;
 
                     return (
-                      <div
+                      <Link
                         key={event.id}
-                        className="absolute group"
+                        href={`/entities/${event.id}`}
+                        className="absolute group cursor-pointer"
                         style={{ left: `${left}%`, top: `${topY}px` }}
                       >
                         {/* Diamond marker */}
@@ -688,7 +689,7 @@ export default function TimelinePage() {
                             </p>
                           </div>
                         </div>
-                      </div>
+                      </Link>
                     );
                   })}
                 </div>
