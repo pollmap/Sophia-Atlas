@@ -24,6 +24,7 @@ import {
   Route,
   Boxes,
   Info,
+  Brain,
 } from "lucide-react";
 import { useTheme } from "next-themes";
 import { cn } from "@/lib/utils";
@@ -105,6 +106,12 @@ const navEntries: NavEntry[] = [
     label: "학습",
     icon: <Route className="w-4 h-4" />,
     href: "/learn",
+  },
+  {
+    kind: "link",
+    label: "성향 테스트",
+    icon: <Brain className="w-4 h-4" />,
+    href: "/learn/sophia-type",
   },
   {
     kind: "link",
