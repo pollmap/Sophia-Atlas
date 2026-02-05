@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -21,6 +22,28 @@ export function generateStaticParams() {
   return religionsData.map((religion) => ({
     id: religion.id,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const religion = (religionsData as any[]).find((r) => r.id === id);
+  if (!religion) return { title: "Sophia Atlas" };
+  const typeLabel = religion.type === "religion" ? "종교" : "신화";
+  return {
+    title: `${religion.name.ko} (${religion.name.en}) — Sophia Atlas`,
+    description: religion.summary,
+    keywords: [religion.name.ko, religion.name.en, typeLabel, ...(religion.region || [])],
+    openGraph: {
+      title: `${religion.name.ko} — ${typeLabel} | Sophia Atlas`,
+      description: religion.summary,
+      type: "article",
+      locale: "ko_KR",
+    },
+  };
 }
 
 const themeConfig: Record<

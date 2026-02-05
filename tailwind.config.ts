@@ -10,25 +10,25 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Fresco backgrounds
+        // Fresco backgrounds (CSS variables for theme switching)
         fresco: {
-          ivory: "#FAF6E9",
-          parchment: "#F0E6D3",
-          aged: "#E8DCCA",
-          shadow: "#D4C4AB",
+          ivory: "var(--fresco-ivory)",
+          parchment: "var(--fresco-parchment)",
+          aged: "var(--fresco-aged)",
+          shadow: "var(--fresco-shadow)",
         },
-        // Sepia inks
+        // Sepia inks (CSS variables for theme switching)
         ink: {
-          dark: "#2C2416",
-          medium: "#4A3C2A",
-          light: "#7A6B55",
-          faded: "#9C8B73",
+          dark: "var(--ink-dark)",
+          medium: "var(--ink-medium)",
+          light: "var(--ink-light)",
+          faded: "var(--ink-faded)",
         },
-        // Gold accent
+        // Gold accent (CSS variables for theme switching)
         gold: {
-          DEFAULT: "#B8860B",
-          hover: "#D4A84B",
-          light: "#E8C874",
+          DEFAULT: "var(--gold)",
+          hover: "var(--gold-hover)",
+          light: "var(--gold-light)",
           dark: "#8B6914",
         },
         // Tradition pigments

@@ -82,36 +82,36 @@
    Dark Mode — Warm Scholar's Study
    ============================================ */
 .dark {
-  /* ── Dark Fresco Backgrounds ── */
-  --fresco-ivory: #1A1714;
-  --fresco-parchment: #22201B;
-  --fresco-aged: #2A2722;
-  --fresco-shadow: #3D3830;
+  /* ── Dark Fresco Backgrounds (slightly lifted for readability) ── */
+  --fresco-ivory: #1E1B17;
+  --fresco-parchment: #26231E;
+  --fresco-aged: #2E2B26;
+  --fresco-shadow: #433D35;
 
-  /* ── Light Inks (inverted for readability) ── */
-  --ink-dark: #E8E0D4;
-  --ink-medium: #C4B9A8;
-  --ink-light: #9C8B73;
-  --ink-faded: #7A6B55;
+  /* ── Light Inks (boosted contrast for readability) ── */
+  --ink-dark: #F0EAE0;
+  --ink-medium: #D4C9B8;
+  --ink-light: #B0A290;
+  --ink-faded: #8C7E6C;
 
-  /* ── Gold Accent (slightly brighter in dark) ── */
-  --gold: #D4A84B;
-  --gold-hover: #E8C874;
-  --gold-light: #B8860B;
-  --gold-muted: rgba(212, 168, 75, 0.15);
+  /* ── Gold Accent (brighter in dark) ── */
+  --gold: #DDB355;
+  --gold-hover: #EDD080;
+  --gold-light: #C49A30;
+  --gold-muted: rgba(221, 179, 85, 0.15);
 
-  /* ── Category Colors (slightly brighter for dark bg) ── */
-  --cat-philosopher: #6B82B8;
-  --cat-religious: #D4A84B;
-  --cat-scientist: #7A9E73;
-  --cat-historical: #B85D5D;
-  --cat-cultural: #A87AA0;
+  /* ── Category Colors (brighter for dark bg legibility) ── */
+  --cat-philosopher: #7B92C8;
+  --cat-religious: #DDB355;
+  --cat-scientist: #8AB283;
+  --cat-historical: #C86D6D;
+  --cat-cultural: #B88AB0;
 
   /* ── Era Colors (brighter) ── */
-  --era-ancient: #D4A84B;
-  --era-medieval: #9B7BBD;
-  --era-modern: #6BA394;
-  --era-contemporary: #8A8176;
+  --era-ancient: #DDB355;
+  --era-medieval: #AB8BCD;
+  --era-modern: #7BB3A4;
+  --era-contemporary: #9A9186;
 
   /* ── Semantic (auto-swap) ── */
   --color-background: var(--fresco-ivory);
@@ -124,7 +124,7 @@
   --color-accent-hover: var(--gold-hover);
   --color-border: var(--fresco-shadow);
   --color-border-light: var(--fresco-aged);
-  --color-selection-bg: rgba(212, 168, 75, 0.25);
+  --color-selection-bg: rgba(221, 179, 85, 0.25);
   --color-selection-text: var(--ink-dark);
   --color-scrollbar-track: var(--fresco-parchment);
   --color-scrollbar-thumb: var(--fresco-shadow);
@@ -289,6 +289,14 @@
     transform: translateY(-2px);
   }
 
+  :is(.dark) .fresco-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  :is(.dark) .fresco-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  }
+
   /* Fresco Header */
   .fresco-header {
     background: rgba(250, 246, 233, 0.92);
@@ -298,7 +306,7 @@
   }
 
   :is(.dark) .fresco-header {
-    background: rgba(26, 23, 20, 0.92);
+    background: rgba(30, 27, 23, 0.92);
   }
 
   /* Glass — deprecated but kept for backwards compat */
@@ -310,7 +318,7 @@
   }
 
   :is(.dark) .glass {
-    background: rgba(34, 32, 27, 0.7);
+    background: rgba(38, 35, 30, 0.7);
   }
 
   .glass-header {
@@ -321,7 +329,7 @@
   }
 
   :is(.dark) .glass-header {
-    background: rgba(26, 23, 20, 0.92);
+    background: rgba(30, 27, 23, 0.92);
   }
 
   /* Era Indicator Pill */
@@ -576,6 +584,13 @@
       radial-gradient(ellipse at 20% 50%, rgba(232, 220, 202, 0.3) 0%, transparent 50%),
       radial-gradient(ellipse at 80% 20%, rgba(212, 196, 171, 0.2) 0%, transparent 50%),
       radial-gradient(ellipse at 50% 80%, rgba(240, 230, 211, 0.3) 0%, transparent 50%);
+  }
+
+  :is(.dark) .parchment-texture {
+    background-image:
+      radial-gradient(ellipse at 20% 50%, rgba(46, 43, 38, 0.5) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 20%, rgba(67, 61, 53, 0.3) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 80%, rgba(38, 35, 30, 0.4) 0%, transparent 50%);
   }
 
   /* Sepia shadow utility */

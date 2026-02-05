@@ -574,7 +574,7 @@ export default function GraphPage() {
   const selectedData = selectedNode ? personMap.get(selectedNode) : null;
 
   return (
-    <div className="min-h-screen" style={{ background: '#FAF6E9' }}>
+    <div className="min-h-screen" style={{ background: 'var(--fresco-ivory)' }}>
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-4">
         <Link href="/" className="inline-flex items-center gap-1.5 text-sm hover:opacity-80 transition-colors mb-6" style={{ color: 'var(--ink-light)' }}>
@@ -582,11 +582,11 @@ export default function GraphPage() {
         </Link>
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold mb-1 flex items-center gap-3" style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}>
+            <h1 className="text-3xl md:text-4xl font-bold mb-1 flex items-center gap-3" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
               <GitBranch className="w-8 h-8" style={{ color: '#B8860B' }} />
               영향 관계 그래프
             </h1>
-            <p className="text-sm" style={{ color: '#7A6B55' }}>
+            <p className="text-sm" style={{ color: 'var(--ink-light)' }}>
               {filteredNodes.length}명의 사상가, {filteredLinks.length}개의 관계
             </p>
           </div>
@@ -686,15 +686,15 @@ export default function GraphPage() {
           {/* Detail Panel */}
           <div className="w-full lg:w-80 flex-shrink-0">
             {selectedData ? (
-              <div className="rounded border p-6" style={{ background: '#F0E6D3', borderColor: '#D4C4AB' }}>
+              <div className="rounded border p-6" style={{ background: 'var(--fresco-parchment)', borderColor: 'var(--fresco-shadow)' }}>
                 <div className="flex items-start justify-between mb-3">
                   <div>
-                    <h3 className="text-xl font-bold" style={{ color: '#2C2416', fontFamily: "'Cormorant Garamond', serif" }}>
+                    <h3 className="text-xl font-bold" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
                       {selectedData.name.ko}
                     </h3>
-                    <p className="text-sm" style={{ color: '#7A6B55' }}>{selectedData.name.en}</p>
+                    <p className="text-sm" style={{ color: 'var(--ink-light)' }}>{selectedData.name.en}</p>
                   </div>
-                  <button onClick={() => setSelectedNode(null)} className="hover:opacity-80" style={{ color: '#7A6B55' }}>
+                  <button onClick={() => setSelectedNode(null)} className="hover:opacity-80" style={{ color: 'var(--ink-light)' }}>
                     <X className="w-5 h-5" />
                   </button>
                 </div>
@@ -710,18 +710,18 @@ export default function GraphPage() {
                   </span>
                 </div>
 
-                <p className="text-xs mb-1" style={{ color: '#7A6B55' }}>
+                <p className="text-xs mb-1" style={{ color: 'var(--ink-light)' }}>
                   {formatYear(selectedData.period.start)} ~ {selectedData.period.end === 0 ? '현재' : formatYear(selectedData.period.end)}
                 </p>
 
-                <p className="text-sm leading-relaxed mb-4 line-clamp-4" style={{ color: '#4A3C2A' }}>
+                <p className="text-sm leading-relaxed mb-4 line-clamp-4" style={{ color: 'var(--ink-medium)' }}>
                   {selectedData.summary}
                 </p>
 
                 {/* Relationships */}
                 {nodeRelationships.length > 0 && (
                   <div className="mb-4">
-                    <h4 className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: '#7A6B55' }}>
+                    <h4 className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: 'var(--ink-light)' }}>
                       관계 ({nodeRelationships.length})
                     </h4>
                     <div className="space-y-1.5 max-h-48 overflow-y-auto">
@@ -732,7 +732,7 @@ export default function GraphPage() {
                           <button key={i} onClick={() => focusOnNode(r.other)}
                             className="flex items-center gap-2 w-full text-left px-2 py-1.5 rounded hover:bg-[#E8DCCA] transition-colors">
                             <div className="w-2 h-2 rounded-full" style={{ backgroundColor: getCategoryHexColor(other.category) }} />
-                            <span className="text-sm" style={{ color: '#4A3C2A' }}>
+                            <span className="text-sm" style={{ color: 'var(--ink-medium)' }}>
                               {r.direction === 'outgoing' ? '→ ' : '← '}{other.name.ko}
                             </span>
                             <span className="text-[10px] ml-auto px-1.5 py-0.5 rounded"
@@ -748,17 +748,17 @@ export default function GraphPage() {
 
                 <Link href={`/persons/${selectedData.id}`}
                   className="flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-lg text-sm font-medium hover:opacity-90 transition-colors"
-                  style={{ background: '#B8860B', color: '#FAF6E9' }}>
+                  style={{ background: '#B8860B', color: 'var(--fresco-ivory)' }}>
                   상세 페이지 <ExternalLink className="w-4 h-4" />
                 </Link>
               </div>
             ) : (
-              <div className="rounded border p-6 text-center" style={{ borderColor: '#D4C4AB', background: '#F0E6D3' }}>
-                <GitBranch className="w-10 h-10 mx-auto mb-3" style={{ color: '#D4C4AB' }} />
-                <p className="text-sm mb-2" style={{ color: '#7A6B55' }}>
+              <div className="rounded border p-6 text-center" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
+                <GitBranch className="w-10 h-10 mx-auto mb-3" style={{ color: 'var(--fresco-shadow)' }} />
+                <p className="text-sm mb-2" style={{ color: 'var(--ink-light)' }}>
                   그래프에서 인물 노드를 클릭하면<br />상세 정보가 표시됩니다.
                 </p>
-                <p className="text-xs" style={{ color: '#9C8B73' }}>
+                <p className="text-xs" style={{ color: 'var(--ink-faded)' }}>
                   노드 크기 = 연결 수<br />
                   노드 색상 = 카테고리<br />
                   테두리 색상 = 시대

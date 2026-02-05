@@ -190,7 +190,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
               <div className="flex items-center justify-center w-9 h-9 rounded transition-colors duration-200 group-hover:opacity-80"
-                style={{ backgroundColor: 'rgba(184, 134, 11, 0.12)', color: '#B8860B' }}
+                style={{ backgroundColor: 'var(--gold-muted)', color: 'var(--gold)' }}
               >
                 <Landmark className="w-5 h-5" />
               </div>
@@ -277,7 +277,7 @@ export default function Header() {
                         style={{
                           background: 'var(--fresco-parchment)',
                           borderColor: 'var(--fresco-shadow)',
-                          boxShadow: '0 8px 24px rgba(44, 36, 22, 0.12)',
+                          boxShadow: '0 8px 24px rgba(0, 0, 0, 0.15)',
                         }}
                       >
                         {entry.children.map((child) => (
@@ -292,7 +292,7 @@ export default function Header() {
                                 : "text-ink-medium hover:text-gold"
                             )}
                             style={{
-                              ...(isActive(child.href) ? { backgroundColor: 'rgba(184, 134, 11, 0.08)' } : {}),
+                              ...(isActive(child.href) ? { backgroundColor: 'var(--gold-muted)' } : {}),
                             }}
                             onMouseEnter={(e) => {
                               if (!isActive(child.href)) {
@@ -402,7 +402,7 @@ export default function Header() {
                       )}
                       style={{
                         animationDelay: `${index * 50}ms`,
-                        ...(isActive(entry.href) ? { backgroundColor: 'rgba(184, 134, 11, 0.08)' } : {}),
+                        ...(isActive(entry.href) ? { backgroundColor: 'var(--gold-muted)' } : {}),
                       }}
                     >
                       <span className={isActive(entry.href) ? "text-gold" : "text-ink-faded"}>
@@ -432,7 +432,7 @@ export default function Header() {
                         "text-sm font-medium transition-all duration-200",
                         groupActive ? "text-gold" : "text-ink-medium hover:text-gold"
                       )}
-                      style={groupActive ? { backgroundColor: 'rgba(184, 134, 11, 0.08)' } : {}}
+                      style={groupActive ? { backgroundColor: 'var(--gold-muted)' } : {}}
                     >
                       <span className={groupActive ? "text-gold" : "text-ink-faded"}>
                         {entry.icon}
@@ -462,7 +462,7 @@ export default function Header() {
                               "transition-colors duration-150",
                               isActive(child.href) ? "text-gold" : "text-ink-medium hover:text-gold"
                             )}
-                            style={isActive(child.href) ? { backgroundColor: 'rgba(184, 134, 11, 0.08)' } : {}}
+                            style={isActive(child.href) ? { backgroundColor: 'var(--gold-muted)' } : {}}
                           >
                             <span className="text-sm font-medium">{child.label}</span>
                             <span className="text-xs" style={{ color: 'var(--ink-faded)' }}>{child.description}</span>

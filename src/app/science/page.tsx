@@ -188,7 +188,7 @@ export default function SciencePage() {
                     </span>
                   ))}
                   {scientists.length > 3 && (
-                    <span className="text-[11px] px-2 py-0.5 rounded-full" style={{ backgroundColor: 'rgba(232,220,202,0.6)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
+                    <span className="text-[11px] px-2 py-0.5 rounded-full" style={{ backgroundColor: 'var(--fresco-shadow)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
                       +{scientists.length - 3}
                     </span>
                   )}

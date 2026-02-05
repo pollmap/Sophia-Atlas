@@ -156,7 +156,7 @@ export default function FieldsPage() {
             <div
               key={field.key}
               className="rounded overflow-hidden"
-              style={{ border: '1px solid var(--fresco-shadow)', backgroundColor: 'rgba(240,230,211,0.3)' }}
+              style={{ border: '1px solid var(--fresco-shadow)', backgroundColor: 'var(--fresco-aged)' }}
             >
               {/* Field Header */}
               <button
@@ -248,7 +248,7 @@ export default function FieldsPage() {
                               </span>
                             ))}
                             {s.discoveries.length > 3 && (
-                              <span className="text-[11px] px-2 py-0.5 rounded-full" style={{ backgroundColor: 'rgba(232,220,202,0.6)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
+                              <span className="text-[11px] px-2 py-0.5 rounded-full" style={{ backgroundColor: 'var(--fresco-shadow)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
                                 +{s.discoveries.length - 3}
                               </span>
                             )}

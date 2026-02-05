@@ -245,8 +245,8 @@ export default function ScienceTimelinePage() {
               className="px-4 py-2 rounded text-sm font-medium transition-all"
               style={
                 selectedEra === 'all'
-                  ? { backgroundColor: '#5B7355', color: '#FAF6E9', fontFamily: "'Pretendard', sans-serif" }
-                  : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }
+                  ? { backgroundColor: '#5B7355', color: 'var(--fresco-ivory)', fontFamily: "'Pretendard', sans-serif" }
+                  : { backgroundColor: 'var(--fresco-parchment)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }
               }
             >
               전체 시대
@@ -258,8 +258,8 @@ export default function ScienceTimelinePage() {
                 className="px-4 py-2 rounded text-sm font-medium transition-all"
                 style={
                   selectedEra === era
-                    ? { backgroundColor: frescoEraColors[era], color: '#FAF6E9', fontFamily: "'Pretendard', sans-serif" }
-                    : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }
+                    ? { backgroundColor: frescoEraColors[era], color: 'var(--fresco-ivory)', fontFamily: "'Pretendard', sans-serif" }
+                    : { backgroundColor: 'var(--fresco-parchment)', color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }
                 }
               >
                 {getEraLabel(era)}
@@ -274,8 +274,8 @@ export default function ScienceTimelinePage() {
               className="flex items-center gap-1.5 px-3 py-1.5 rounded text-sm font-medium transition-all"
               style={
                 showEvents
-                  ? { backgroundColor: 'rgba(184, 134, 11, 0.15)', color: '#B8860B', border: '1px solid rgba(184, 134, 11, 0.3)' }
-                  : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: 'var(--ink-light)' }
+                  ? { backgroundColor: 'var(--gold-muted)', color: 'var(--gold)', border: '1px solid var(--gold-light)' }
+                  : { backgroundColor: 'var(--fresco-parchment)', color: 'var(--ink-light)' }
               }
             >
               <Flag className="w-3.5 h-3.5" />
@@ -312,8 +312,8 @@ export default function ScienceTimelinePage() {
             className="px-3 py-1.5 rounded text-xs font-medium transition-all"
             style={
               selectedField === 'all'
-                ? { backgroundColor: '#5B7355', color: '#FAF6E9' }
-                : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: 'var(--ink-light)' }
+                ? { backgroundColor: '#5B7355', color: 'var(--fresco-ivory)' }
+                : { backgroundColor: 'var(--fresco-parchment)', color: 'var(--ink-light)' }
             }
           >
             전체
@@ -327,8 +327,8 @@ export default function ScienceTimelinePage() {
                 className="px-3 py-1.5 rounded text-xs font-medium transition-all flex items-center gap-1"
                 style={
                   selectedField === field
-                    ? { backgroundColor: info.color, color: '#FAF6E9' }
-                    : { backgroundColor: 'rgba(240, 230, 211, 0.5)', color: 'var(--ink-light)' }
+                    ? { backgroundColor: info.color, color: 'var(--fresco-ivory)' }
+                    : { backgroundColor: 'var(--fresco-parchment)', color: 'var(--ink-light)' }
                 }
               >
                 <span
@@ -356,7 +356,7 @@ export default function ScienceTimelinePage() {
             </span>
           ))}
           <span className="flex items-center gap-1 ml-2 pl-3" style={{ borderLeft: '1px solid var(--fresco-shadow)', color: 'var(--ink-light)' }}>
-            <Sparkles className="w-3 h-3" style={{ color: '#B8860B' }} />
+            <Sparkles className="w-3 h-3" style={{ color: 'var(--gold)' }} />
             <span style={{ color: 'var(--ink-medium)' }}>= 주요 발견</span>
           </span>
         </div>
@@ -366,20 +366,20 @@ export default function ScienceTimelinePage() {
       <div className="max-w-7xl mx-auto px-4 pb-8">
         <div
           className="relative rounded overflow-hidden"
-          style={{ border: '1px solid rgba(212, 196, 171, 0.5)', backgroundColor: 'rgba(240, 230, 211, 0.5)' }}
+          style={{ border: '1px solid var(--fresco-shadow)', backgroundColor: 'var(--fresco-parchment)' }}
         >
           {/* Scroll buttons */}
           <button
             onClick={() => scrollTimeline('left')}
             className="absolute left-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full flex items-center justify-center transition-colors"
-            style={{ backgroundColor: 'rgba(240, 230, 211, 0.9)', border: '1px solid var(--fresco-shadow)', color: 'var(--ink-medium)' }}
+            style={{ backgroundColor: 'var(--fresco-parchment)', border: '1px solid var(--fresco-shadow)', color: 'var(--ink-medium)' }}
           >
             <ArrowLeft className="w-4 h-4" />
           </button>
           <button
             onClick={() => scrollTimeline('right')}
             className="absolute right-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full flex items-center justify-center transition-colors"
-            style={{ backgroundColor: 'rgba(240, 230, 211, 0.9)', border: '1px solid var(--fresco-shadow)', color: 'var(--ink-medium)' }}
+            style={{ backgroundColor: 'var(--fresco-parchment)', border: '1px solid var(--fresco-shadow)', color: 'var(--ink-medium)' }}
           >
             <ArrowRight className="w-4 h-4" />
           </button>
@@ -427,7 +427,8 @@ export default function ScienceTimelinePage() {
                     <div
                       className="w-px h-full"
                       style={{
-                        backgroundColor: isMajor ? 'rgba(212, 196, 171, 0.6)' : 'rgba(212, 196, 171, 0.3)',
+                        backgroundColor: 'var(--fresco-shadow)',
+                        opacity: isMajor ? 0.6 : 0.3,
                       }}
                     />
                   </div>
@@ -443,7 +444,7 @@ export default function ScienceTimelinePage() {
                     {laneIdx > 0 && (
                       <div
                         className="absolute left-0 right-0 h-px"
-                        style={{ top: `${y - 2}px`, backgroundColor: 'rgba(212, 196, 171, 0.4)' }}
+                        style={{ top: `${y - 2}px`, backgroundColor: 'var(--fresco-shadow)' }}
                       />
                     )}
 
@@ -453,7 +454,7 @@ export default function ScienceTimelinePage() {
                       style={{
                         top: `${y + 5}px`,
                         color: group.info.color,
-                        backgroundColor: 'rgba(250, 246, 233, 0.9)',
+                        backgroundColor: 'var(--fresco-parchment)',
                         fontFamily: "'Pretendard', sans-serif",
                       }}
                     >
@@ -489,7 +490,7 @@ export default function ScienceTimelinePage() {
                           >
                             <span
                               className="text-[9px] font-medium whitespace-nowrap truncate relative z-10"
-                              style={{ color: '#FAF6E9' }}
+                              style={{ color: 'var(--fresco-ivory)' }}
                             >
                               {s.name.ko}
                             </span>
@@ -497,7 +498,7 @@ export default function ScienceTimelinePage() {
                             {/* Discovery markers on the bar */}
                             {discoveries.length > 0 && (
                               <span className="absolute right-0.5 top-0.5">
-                                <Sparkles className="w-2.5 h-2.5" style={{ color: '#B8860B' }} />
+                                <Sparkles className="w-2.5 h-2.5" style={{ color: 'var(--gold)' }} />
                               </span>
                             )}
                           </div>
@@ -535,7 +536,7 @@ export default function ScienceTimelinePage() {
                               )}
                               {discoveries.length > 0 && (
                                 <div className="mt-1 pt-1" style={{ borderTop: '1px solid var(--fresco-shadow)' }}>
-                                  <p className="text-[8px] flex items-center gap-0.5" style={{ color: '#B8860B' }}>
+                                  <p className="text-[8px] flex items-center gap-0.5" style={{ color: 'var(--gold)' }}>
                                     <Sparkles className="w-2 h-2" />
                                     주요 발견
                                   </p>
@@ -582,7 +583,7 @@ export default function ScienceTimelinePage() {
                       >
                         <span
                           className="text-[10px] font-medium px-1.5 py-0.5 rounded"
-                          style={{ color: 'var(--ink-medium)', backgroundColor: 'rgba(250, 246, 233, 0.9)' }}
+                          style={{ color: 'var(--ink-medium)', backgroundColor: 'var(--fresco-parchment)' }}
                         >
                           {formatYear(year)}
                         </span>
@@ -630,13 +631,13 @@ export default function ScienceTimelinePage() {
                   {/* Section label */}
                   <div
                     className="absolute top-2 left-3 z-10 text-[10px] font-medium flex items-center gap-1 px-2 py-0.5 rounded"
-                    style={{ color: '#B8860B', backgroundColor: 'rgba(250, 246, 233, 0.8)', fontFamily: "'Pretendard', sans-serif" }}
+                    style={{ color: 'var(--gold)', backgroundColor: 'var(--fresco-parchment)', fontFamily: "'Pretendard', sans-serif" }}
                   >
                     <Flag className="w-3 h-3" />
                     역사 사건 ({filteredEvents.length})
                   </div>
                   {/* Separator line */}
-                  <div className="absolute top-0 left-0 right-0 h-px" style={{ backgroundColor: 'rgba(184, 134, 11, 0.3)' }} />
+                  <div className="absolute top-0 left-0 right-0 h-px" style={{ backgroundColor: 'var(--gold-light)' }} />
 
                   {filteredEvents.map((event: any, idx: number) => {
                     const left = getTimelinePosition(event.period.start);
@@ -657,17 +658,17 @@ export default function ScienceTimelinePage() {
                             className="w-2.5 h-2.5 rotate-45 transition-transform group-hover:scale-150"
                             style={{
                               backgroundColor: frescoEraColors[event.era as Era] || '#6B6358',
-                              border: '1px solid rgba(184, 134, 11, 0.5)',
+                              border: '1px solid var(--gold-light)',
                             }}
                           />
                           <div
                             className="mt-0.5 px-1.5 py-0.5 rounded opacity-60 group-hover:opacity-100 transition-opacity whitespace-nowrap"
                             style={{
-                              backgroundColor: 'rgba(240, 230, 211, 0.8)',
-                              border: '1px solid rgba(184, 134, 11, 0.2)',
+                              backgroundColor: 'var(--fresco-parchment)',
+                              border: '1px solid var(--gold-light)',
                             }}
                           >
-                            <p className="text-[8px] font-medium" style={{ color: '#8B6914' }}>
+                            <p className="text-[8px] font-medium" style={{ color: 'var(--gold)' }}>
                               {event.name.ko}
                             </p>
                             <p className="text-[7px]" style={{ color: 'var(--ink-faded)' }}>
@@ -707,15 +708,15 @@ export default function ScienceTimelinePage() {
                 className="group p-5 transition-all duration-200"
                 style={{
                   borderRadius: '4px',
-                  border: '1px solid rgba(212, 196, 171, 0.5)',
+                  border: '1px solid var(--fresco-shadow)',
                   borderLeft: `4px solid ${frescoEraColors[s.era as Era] || '#6B6358'}`,
-                  backgroundColor: 'rgba(240, 230, 211, 0.2)',
+                  backgroundColor: 'var(--fresco-aged)',
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = 'rgba(240, 230, 211, 0.4)';
+                  e.currentTarget.style.backgroundColor = 'var(--fresco-shadow)';
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = 'rgba(240, 230, 211, 0.2)';
+                  e.currentTarget.style.backgroundColor = 'var(--fresco-aged)';
                 }}
               >
                 <div className="flex items-start justify-between mb-3">
@@ -786,9 +787,9 @@ export default function ScienceTimelinePage() {
                         key={d}
                         className="text-[11px] px-2 py-0.5 rounded-full flex items-center gap-0.5"
                         style={{
-                          backgroundColor: 'rgba(184, 134, 11, 0.1)',
-                          color: '#B8860B',
-                          border: '1px solid rgba(184, 134, 11, 0.2)',
+                          backgroundColor: 'var(--gold-muted)',
+                          color: 'var(--gold)',
+                          border: '1px solid var(--gold-light)',
                         }}
                       >
                         <Sparkles className="w-2.5 h-2.5" />
@@ -798,7 +799,7 @@ export default function ScienceTimelinePage() {
                     {s.discoveries.length > 3 && (
                       <span
                         className="text-[11px] px-2 py-0.5 rounded-full"
-                        style={{ backgroundColor: 'rgba(212, 196, 171, 0.3)', color: 'var(--ink-light)' }}
+                        style={{ backgroundColor: 'var(--fresco-shadow)', color: 'var(--ink-light)' }}
                       >
                         +{s.discoveries.length - 3}
                       </span>
