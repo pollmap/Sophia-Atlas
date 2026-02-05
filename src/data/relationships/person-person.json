@@ -35382,5 +35382,35 @@
     "description": "손흥민의 국제적 활약은 아시아인의 글로벌 진출이라는 맥락에서, 간디의 탈식민주의적 비전의 문화적 확장으로 볼 수 있다",
     "strength": 1,
     "direction": "bidirectional"
+  },
+  {
+    "source": "hanfeizi",
+    "target": "confucius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "한비자는 유가의 덕치를 비판하고 법(法)에 의한 통치를 주장하여 유가 사상에 대한 핵심 비판자가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jeong-yakyong",
+    "target": "yulgok",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "정약용은 율곡 이이의 실학적 경세론을 계승·발전시켜 조선 후기 실학을 집대성했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "son-heung-min",
+    "target": "michael-jordan",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "손흥민과 마이클 조던은 각각 축구와 농구에서 아시아/미국을 대표하는 글로벌 스포츠 아이콘으로 병행적 위상을 지닌다",
+    "strength": 1,
+    "direction": "bidirectional"
   }
 ]

@@ -4,7 +4,106 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Brain, ChevronRight, RotateCcw, Share2, Users, BookOpen, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { getPersonById, getEntityById } from "@/lib/data-loader";
 import testData from "@/data/sophia-type-test.json";
+
+// 데이터에 없는 인물/엔터티 ID의 한국어 이름 매핑
+const personNameFallback: Record<string, string> = {
+  "karl-popper": "칼 포퍼",
+  "bertrand-russell": "버트런드 러셀",
+  "david-hume": "데이비드 흄",
+  "simone-de-beauvoir": "시몬 드 보부아르",
+  "durkheim": "에밀 뒤르켐",
+  "john-dewey": "존 듀이",
+  "jurgen-habermas": "위르겐 하버마스",
+  "whitehead": "알프레드 노스 화이트헤드",
+  "gustavo-gutierrez": "구스타보 구티에레스",
+  "dorothy-day": "도로시 데이",
+  "william-blake": "윌리엄 블레이크",
+  "henry-david-thoreau": "헨리 데이비드 소로",
+  "emma-goldman": "엠마 골드만",
+  "gary-snyder": "게리 스나이더",
+  "wendell-berry": "웬델 베리",
+  "chief-seattle": "시애틀 추장",
+  "ivan-illich": "이반 일리치",
+  "bell-hooks": "벨 훅스",
+  "antonio-gramsci": "안토니오 그람시",
+  "alan-watts": "앨런 왓츠",
+  "ram-dass": "람 다스",
+  "george-gurdjieff": "게오르기 구르지예프",
+  "osho": "오쇼 라즈니쉬",
+  "ken-wilber": "켄 윌버",
+  "terence-mckenna": "테렌스 매케나",
+  "teresa-of-avila": "아빌라의 테레사",
+  "martin-buber": "마르틴 부버",
+  "teilhard-de-chardin": "테야르 드 샤르댕",
+  "thomas-berry": "토머스 베리",
+  "bede-griffiths": "비드 그리피스",
+  "isaiah-berlin": "아이자이아 벌린",
+  "murray-bookchin": "머레이 북친",
+  "vandana-shiva": "반다나 시바",
+  "joanna-macy": "조안나 메이시",
+  "wangari-maathai": "왕가리 마타이",
+  "slavoj-zizek": "슬라보예 지제크",
+  "paul-tillich": "파울 틸리히",
+  "carl-jung": "카를 융",
+  "huston-smith": "휴스턴 스미스",
+  "ilya-prigogine": "일리야 프리고진",
+  "stuart-kauffman": "스튜어트 카우프만",
+  "bruno-latour": "브뤼노 라투르",
+  "gregory-bateson": "그레고리 베이트슨",
+  "felix-guattari": "펠릭스 가타리",
+  "aldo-leopold": "알도 레오폴드",
+  "robin-wall-kimmerer": "로빈 월 키머러",
+  "buckminster-fuller": "벅민스터 풀러",
+  "steven-pinker": "스티븐 핑커",
+  "sri-aurobindo": "스리 오로빈도",
+  "jurgen-moltmann": "위르겐 몰트만",
+  "hans-kung": "한스 큉",
+  "tariq-ramadan": "타리크 라마단",
+};
+
+const entityNameFallback: Record<string, string> = {
+  "analytic-philosophy": "분석철학",
+  "critical-theory": "비판이론",
+  "communitarianism": "공동체주의",
+  "christian-mysticism": "기독교 신비주의",
+  "perennial-philosophy": "영원의 철학",
+  "liberation-theology": "해방신학",
+  "nonviolence": "비폭력주의",
+  "prophetic-tradition": "예언자적 전통",
+  "indigenous-traditions": "토착 전통",
+  "critical-pedagogy": "비판적 교육학",
+  "integral-theory": "통합 이론",
+  "contemplative-christianity": "관상 기독교",
+  "interfaith-dialogue": "종교간 대화",
+  "integral-yoga": "통합 요가",
+  "process-theology": "과정신학",
+  "social-ecology": "사회생태학",
+  "systematic-theology": "조직신학",
+  "depth-psychology": "심층심리학",
+  "comparative-religion": "비교종교학",
+  "systems-thinking": "시스템 사고",
+  "progressivism": "진보주의",
+  "poststructuralism": "후기구조주의",
+  "new-materialism": "신유물론",
+  "islamic-modernism": "이슬람 근대주의",
+  "virtue-ethics": "덕 윤리학",
+  "process-philosophy": "과정철학",
+  "progressive-theology": "진보신학",
+};
+
+const learningPathNames: Record<string, string> = {
+  "east-west-dialogue": "동서양 사상 대화",
+  "eastern-philosophy": "동양철학의 세계",
+  "existentialism": "실존주의 탐험",
+  "influence-chains": "영향의 사슬 탐험",
+  "logic-basics": "논리학의 모험",
+  "philosophy-intro": "철학 입문",
+  "scientific-revolution": "과학혁명의 여정",
+  "western-philosophy": "서양철학사 여행",
+  "world-religions": "세계 종교 이해",
+};
 
 type Phase = "intro" | "test" | "result";
 
@@ -229,20 +328,41 @@ export default function SophiaTypePage() {
               const score = scores[axis.id] || 0;
               const maxScore = questions.filter((q) => q.axis === axis.id).length;
               const pct = ((score + maxScore) / (maxScore * 2)) * 100;
+              const leftPct = Math.round(100 - pct);
+              const rightPct = Math.round(pct);
+              const leftDominant = score <= 0;
               return (
                 <div key={axis.id}>
-                  <div className="flex justify-between text-xs text-ink-medium mb-1">
-                    <span className={cn(score <= 0 && "font-bold text-medieval")}>{axis.left.label}</span>
-                    <span className={cn(score > 0 && "font-bold text-gold")}>{axis.right.label}</span>
+                  <div className="flex justify-between text-xs mb-1">
+                    <span className={cn(
+                      "flex items-center gap-1.5",
+                      leftDominant ? "font-bold text-medieval" : "text-ink-faded"
+                    )}>
+                      {axis.left.label}
+                      <span className="tabular-nums text-[10px]">{leftPct}%</span>
+                    </span>
+                    <span className={cn(
+                      "flex items-center gap-1.5",
+                      !leftDominant ? "font-bold text-amber-500" : "text-ink-faded"
+                    )}>
+                      <span className="tabular-nums text-[10px]">{rightPct}%</span>
+                      {axis.right.label}
+                    </span>
                   </div>
-                  <div className="h-3 rounded-full bg-fresco-shadow overflow-hidden relative">
-                    <div className="absolute inset-0 flex">
-                      <div className="bg-medieval/60 rounded-l-full" style={{ width: `${100 - pct}%` }} />
-                      <div className="bg-gold/60 rounded-r-full" style={{ width: `${pct}%` }} />
-                    </div>
+                  <div className="h-5 rounded-full overflow-hidden flex gap-0.5">
                     <div
-                      className="absolute top-0 h-full w-1 bg-ink-dark rounded"
-                      style={{ left: `${pct}%`, transform: "translateX(-50%)" }}
+                      className={cn(
+                        "rounded-l-full transition-all duration-500",
+                        leftDominant ? "bg-medieval" : "bg-medieval/20"
+                      )}
+                      style={{ width: `${100 - pct}%` }}
+                    />
+                    <div
+                      className={cn(
+                        "rounded-r-full transition-all duration-500",
+                        !leftDominant ? "bg-amber-500" : "bg-amber-500/20"
+                      )}
+                      style={{ width: `${pct}%` }}
                     />
                   </div>
                 </div>
@@ -258,15 +378,18 @@ export default function SophiaTypePage() {
             나와 비슷한 사상가
           </h3>
           <div className="flex flex-wrap gap-2">
-            {resultType.persons.map((pid) => (
-              <Link
-                key={pid}
-                href={`/persons/${pid}`}
-                className="px-3 py-1.5 rounded-lg border border-fresco-shadow text-sm text-ink-dark hover:border-medieval/40 hover:bg-medieval/5 transition-colors"
-              >
-                {pid.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())}
-              </Link>
-            ))}
+            {resultType.persons.map((pid) => {
+              const person = getPersonById(pid);
+              return (
+                <Link
+                  key={pid}
+                  href={`/persons/${pid}`}
+                  className="px-3 py-1.5 rounded-lg border border-fresco-shadow text-sm text-ink-dark hover:border-medieval/40 hover:bg-medieval/5 transition-colors"
+                >
+                  {person?.name.ko || personNameFallback[pid] || pid.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())}
+                </Link>
+              );
+            })}
           </div>
         </div>
 
@@ -277,15 +400,18 @@ export default function SophiaTypePage() {
             관련 전통·사상
           </h3>
           <div className="flex flex-wrap gap-2">
-            {resultType.traditions.map((tid) => (
-              <Link
-                key={tid}
-                href={`/entities/${tid}`}
-                className="px-3 py-1.5 rounded-lg border border-fresco-shadow text-sm text-ink-dark hover:border-gold/40 hover:bg-gold/5 transition-colors"
-              >
-                {tid.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())}
-              </Link>
-            ))}
+            {resultType.traditions.map((tid) => {
+              const entity = getEntityById(tid);
+              return (
+                <Link
+                  key={tid}
+                  href={`/entities/${tid}`}
+                  className="px-3 py-1.5 rounded-lg border border-fresco-shadow text-sm text-ink-dark hover:border-gold/40 hover:bg-gold/5 transition-colors"
+                >
+                  {entity?.name.ko || entityNameFallback[tid] || tid.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())}
+                </Link>
+              );
+            })}
           </div>
         </div>
 
@@ -302,7 +428,7 @@ export default function SophiaTypePage() {
                 href="/learn"
                 className="block p-3 rounded-xl border border-fresco-shadow hover:border-modern/40 hover:bg-modern/5 transition-colors"
               >
-                <span className="text-sm text-ink-dark">{lpid.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())}</span>
+                <span className="text-sm text-ink-dark">{learningPathNames[lpid] || lpid.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())}</span>
               </Link>
             ))}
           </div>
