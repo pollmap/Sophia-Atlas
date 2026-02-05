@@ -103,13 +103,16 @@ export default function EntitiesPage() {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="주제 검색..."
-          className="w-full px-4 py-2.5 rounded-lg border focus:outline-none focus:ring-1 mb-4"
+          className="w-full px-4 py-2.5 rounded border mb-4 transition-colors"
           style={{
             background: 'var(--fresco-parchment)',
             borderColor: 'var(--fresco-shadow)',
             color: 'var(--ink-dark)',
             fontFamily: "'Pretendard', sans-serif",
+            outline: 'none',
           }}
+          onFocus={(e) => { e.currentTarget.style.borderColor = 'var(--gold)'; }}
+          onBlur={(e) => { e.currentTarget.style.borderColor = 'var(--fresco-shadow)'; }}
         />
 
         {/* Type Filter */}
@@ -156,8 +159,7 @@ export default function EntitiesPage() {
               <Link
                 key={entity.id}
                 href={`/entities/${entity.id}`}
-                className="group block rounded border hover:shadow-md transition-all overflow-hidden"
-                style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}
+                className="group block fresco-card overflow-hidden"
               >
                 <div className="h-1 w-full" style={{ backgroundColor: typeHexColors[entity.type] || '#6B6358' }} />
                 <div className="p-4">
@@ -178,7 +180,7 @@ export default function EntitiesPage() {
                       {entity.period.end !== entity.period.start && ` ~ ${formatYear(entity.period.end)}`}
                     </div>
                   )}
-                  <p className="mt-2 text-sm leading-relaxed line-clamp-2" style={{ color: 'var(--ink-light)' }}>{entity.summary}</p>
+                  <p className="mt-2 text-sm leading-relaxed line-clamp-2" style={{ color: 'var(--ink-medium)' }}>{entity.summary}</p>
                   <div className="flex flex-wrap gap-1 mt-2">
                     {entity.tags.slice(0, 3).map((tag) => (
                       <span key={tag} className="text-[10px] px-1.5 py-0.5 rounded" style={{ background: 'var(--fresco-aged)', color: 'var(--ink-light)' }}>{tag}</span>
