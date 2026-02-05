@@ -261,6 +261,7 @@ export default function ConnectionsPage() {
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [showInfo, setShowInfo] = useState(false);
+  const [showFilters, setShowFilters] = useState(false);
   const [showEntities, setShowEntities] = useState(true);
   const [canvasSize, setCanvasSize] = useState({ width: 800, height: 600 });
   const [isSimReady, setIsSimReady] = useState(false);
@@ -1121,6 +1122,23 @@ export default function ConnectionsPage() {
                 )}
               </button>
 
+              {/* Filter Toggle */}
+              <button
+                onClick={() => setShowFilters(!showFilters)}
+                className={cn(
+                  "flex items-center gap-1.5 px-3 py-2 rounded text-xs font-medium transition-all",
+                  showFilters
+                    ? "bg-[#B8860B]/15 text-[#B8860B] ring-1 ring-[#B8860B]/30"
+                    : "bg-[var(--fresco-aged)]/50 text-[var(--ink-light)] hover:bg-[var(--fresco-aged)]"
+                )}
+              >
+                <Layers className="w-3.5 h-3.5" />
+                필터
+                {(selectedCategory !== "all" || selectedEra !== "all" || selectedRelType !== "all") && (
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#B8860B]" />
+                )}
+              </button>
+
               {/* Search */}
               <div className="relative hidden md:block">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--ink-faded)]" />
@@ -1172,12 +1190,15 @@ export default function ConnectionsPage() {
                   </div>
                 )}
               </div>
+
+              {/* Reset - prominent */}
               <button
                 onClick={resetView}
-                className="p-2 rounded bg-[var(--fresco-aged)]/50 hover:bg-[var(--fresco-aged)] transition-colors"
-                title="초기화"
+                className="flex items-center gap-1.5 px-4 py-2 rounded bg-[var(--fresco-aged)] hover:bg-[var(--fresco-shadow)] border border-[var(--fresco-shadow)] transition-colors"
+                title="전체 초기화"
               >
-                <RotateCcw className="w-5 h-5 text-[var(--ink-light)]" />
+                <RotateCcw className="w-4 h-4 text-[#B8860B]" />
+                <span className="text-xs font-medium text-[var(--ink-dark)] hidden sm:inline">초기화</span>
               </button>
               <button
                 onClick={() => setShowInfo(!showInfo)}
@@ -1205,8 +1226,9 @@ export default function ConnectionsPage() {
             </div>
           )}
 
-          {/* Filters */}
-          <div className="flex flex-wrap gap-2 items-center">
+          {/* Filters - collapsible */}
+          {showFilters && (
+          <div className="flex flex-wrap gap-2 items-center animate-in slide-in-from-top-2 duration-200">
             <span className="text-xs text-[var(--ink-faded)] mr-1" style={{ fontFamily: "'Pretendard', sans-serif" }}>카테고리:</span>
             {CATEGORY_FILTERS.map((c) => (
               <button
@@ -1290,6 +1312,7 @@ export default function ConnectionsPage() {
               </button>
             )}
           </div>
+          )}
         </div>
       </div>
 
