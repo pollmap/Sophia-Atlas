@@ -350,17 +350,17 @@ export default function TimelinePage() {
               style={
                 selectedEra === 'all'
                   ? { backgroundColor: 'var(--fresco-aged)', color: 'var(--ink-dark)' }
-                  : { backgroundColor: 'rgba(240,230,211,0.5)', color: 'var(--ink-light)' }
+                  : { backgroundColor: 'var(--fresco-aged)', color: 'var(--ink-light)' }
               }
               onMouseEnter={(e) => {
                 if (selectedEra !== 'all') {
-                  e.currentTarget.style.backgroundColor = 'rgba(232,220,202,0.7)';
+                  e.currentTarget.style.backgroundColor = 'var(--fresco-shadow)';
                   e.currentTarget.style.color = 'var(--ink-medium)';
                 }
               }}
               onMouseLeave={(e) => {
                 if (selectedEra !== 'all') {
-                  e.currentTarget.style.backgroundColor = 'rgba(240,230,211,0.5)';
+                  e.currentTarget.style.backgroundColor = 'var(--fresco-aged)';
                   e.currentTarget.style.color = 'var(--ink-light)';
                 }
               }}
@@ -375,17 +375,17 @@ export default function TimelinePage() {
                 style={
                   selectedEra === era
                     ? { backgroundColor: frescoEraColors[era] + '20', color: frescoEraColors[era], border: `1px solid ${frescoEraColors[era]}40` }
-                    : { backgroundColor: 'rgba(240,230,211,0.5)', color: 'var(--ink-light)' }
+                    : { backgroundColor: 'var(--fresco-aged)', color: 'var(--ink-light)' }
                 }
                 onMouseEnter={(e) => {
                   if (selectedEra !== era) {
-                    e.currentTarget.style.backgroundColor = 'rgba(232,220,202,0.7)';
+                    e.currentTarget.style.backgroundColor = 'var(--fresco-shadow)';
                     e.currentTarget.style.color = 'var(--ink-medium)';
                   }
                 }}
                 onMouseLeave={(e) => {
                   if (selectedEra !== era) {
-                    e.currentTarget.style.backgroundColor = 'rgba(240,230,211,0.5)';
+                    e.currentTarget.style.backgroundColor = 'var(--fresco-aged)';
                     e.currentTarget.style.color = 'var(--ink-light)';
                   }
                 }}
@@ -402,8 +402,8 @@ export default function TimelinePage() {
               className="flex items-center gap-1.5 px-3 py-1.5 rounded text-sm font-medium transition-all"
               style={
                 showEvents
-                  ? { backgroundColor: 'rgba(184,134,11,0.12)', color: '#B8860B', border: '1px solid rgba(184,134,11,0.25)' }
-                  : { backgroundColor: 'rgba(240,230,211,0.5)', color: 'var(--ink-faded)' }
+                  ? { backgroundColor: 'var(--gold-muted)', color: 'var(--gold)', border: '1px solid var(--gold-light)' }
+                  : { backgroundColor: 'var(--fresco-aged)', color: 'var(--ink-faded)' }
               }
             >
               <Flag className="w-3.5 h-3.5" />
@@ -454,19 +454,19 @@ export default function TimelinePage() {
       <div className="max-w-[1400px] mx-auto px-4 pb-8">
         <div
           className="relative rounded overflow-hidden"
-          style={{ border: '1px solid var(--fresco-shadow)', backgroundColor: 'rgba(240,230,211,0.4)' }}
+          style={{ border: '1px solid var(--fresco-shadow)', backgroundColor: 'var(--fresco-parchment)' }}
         >
           {/* Fixed lane labels on the left + scrollable content */}
           <div className="flex">
             {/* Fixed Left Column: Lane Labels */}
             <div
               className="flex-shrink-0 z-10"
-              style={{ width: LANE_LABEL_WIDTH, backgroundColor: 'rgba(240,230,211,0.9)', borderRight: '1px solid rgba(212,196,171,0.5)' }}
+              style={{ width: LANE_LABEL_WIDTH, backgroundColor: 'var(--fresco-parchment)', borderRight: '1px solid var(--fresco-shadow)' }}
             >
               {/* Axis header */}
               <div
                 className="flex items-end px-3 pb-1"
-                style={{ height: AXIS_HEIGHT, borderBottom: '1px solid rgba(212,196,171,0.3)' }}
+                style={{ height: AXIS_HEIGHT, borderBottom: '1px solid var(--fresco-shadow)' }}
               >
                 <span className="text-[10px] font-medium uppercase tracking-wider" style={{ color: 'var(--ink-faded)' }}>
                   학파 / 전통
@@ -485,7 +485,7 @@ export default function TimelinePage() {
                     <div
                       key={key}
                       className="flex items-center px-3"
-                      style={{ height: h, borderBottom: '1px solid rgba(212,196,171,0.2)' }}
+                      style={{ height: h, borderBottom: '1px solid var(--fresco-shadow)' }}
                     >
                       <span className="text-xs font-medium leading-tight" style={{ color: 'var(--ink-medium)' }}>
                         {getSubcategoryLabel(key)}
@@ -537,7 +537,7 @@ export default function TimelinePage() {
                       left: yearToX(year),
                       width: 1,
                       height: totalHeight,
-                      backgroundColor: 'rgba(212,196,171,0.35)',
+                      backgroundColor: 'var(--fresco-shadow)',
                     }}
                   />
                 ))}
@@ -549,7 +549,7 @@ export default function TimelinePage() {
                     height: AXIS_HEIGHT,
                     borderBottom: '1px solid rgba(212,196,171,0.3)',
                     background:
-                      'linear-gradient(to bottom, rgba(250,246,233,0.95), rgba(250,246,233,0.8))',
+                      'linear-gradient(to bottom, var(--fresco-parchment), var(--fresco-aged))',
                   }}
                 >
                   {axisTicks.map((tick) => {
@@ -562,7 +562,7 @@ export default function TimelinePage() {
                       >
                         <div
                           className="absolute bottom-0 w-px"
-                          style={{ height: totalHeight, backgroundColor: 'rgba(212,196,171,0.3)' }}
+                          style={{ height: totalHeight, backgroundColor: 'var(--fresco-shadow)' }}
                         />
                         <div
                           className="absolute bottom-2 text-[10px] font-mono whitespace-nowrap"
@@ -596,7 +596,7 @@ export default function TimelinePage() {
                         {/* Lane separator */}
                         <div
                           className="absolute w-full"
-                          style={{ top: laneY + laneH, left: 0, borderBottom: '1px solid rgba(212,196,171,0.2)' }}
+                          style={{ top: laneY + laneH, left: 0, borderBottom: '1px solid var(--fresco-shadow)' }}
                         />
 
                         {/* Bars */}
@@ -654,7 +654,7 @@ export default function TimelinePage() {
                                 <span
                                   className="text-[11px] font-medium truncate leading-none"
                                   style={{
-                                    color: '#FAF6E9',
+                                    color: '#FEFCF5',
                                     textShadow: '0 1px 2px rgba(44,36,22,0.4)',
                                   }}
                                 >
@@ -676,12 +676,12 @@ export default function TimelinePage() {
                       {/* Events track separator */}
                       <div
                         className="absolute w-full"
-                        style={{ top: eventsTrackTop, left: 0, borderTop: '1px solid rgba(184,134,11,0.25)' }}
+                        style={{ top: eventsTrackTop, left: 0, borderTop: '1px solid var(--gold-light)' }}
                       />
                       {/* Events track label */}
                       <div
                         className="absolute z-10 text-[10px] font-medium flex items-center gap-1 px-2 py-0.5 rounded"
-                        style={{ top: eventsTrackTop + 4, left: 8, color: '#B8860B', backgroundColor: 'rgba(250,246,233,0.85)' }}
+                        style={{ top: eventsTrackTop + 4, left: 8, color: '#B8860B', backgroundColor: 'var(--fresco-parchment)' }}
                       >
                         <Flag className="w-3 h-3" />
                         역사 사건 ({filteredEvents.length})
@@ -708,9 +708,9 @@ export default function TimelinePage() {
                               />
                               <div
                                 className="mt-0.5 px-1.5 py-0.5 rounded opacity-60 group-hover:opacity-100 transition-opacity whitespace-nowrap"
-                                style={{ backgroundColor: 'rgba(240,230,211,0.85)', border: '1px solid rgba(184,134,11,0.15)' }}
+                                style={{ backgroundColor: 'var(--fresco-parchment)', border: '1px solid var(--gold-muted)' }}
                               >
-                                <p className="text-[8px] font-medium" style={{ color: '#8B6914' }}>
+                                <p className="text-[8px] font-medium" style={{ color: 'var(--gold)' }}>
                                   {event.name.ko}
                                 </p>
                                 <p className="text-[7px]" style={{ color: 'var(--ink-faded)' }}>
@@ -790,7 +790,7 @@ export default function TimelinePage() {
                       <span
                         key={s}
                         className="text-[10px] px-1.5 py-0.5 rounded"
-                        style={{ backgroundColor: 'rgba(212,196,171,0.5)', color: 'var(--ink-light)' }}
+                        style={{ backgroundColor: 'var(--fresco-aged)', color: 'var(--ink-light)' }}
                       >
                         {s}
                       </span>
@@ -842,12 +842,12 @@ export default function TimelinePage() {
                 href={`/philosophy/${p.id}`}
                 className="group rounded p-5 transition-all duration-200"
                 style={{
-                  border: '1px solid rgba(212,196,171,0.5)',
+                  border: '1px solid var(--fresco-shadow)',
                   borderLeft: `4px solid ${cardEraColor}`,
-                  backgroundColor: 'rgba(240,230,211,0.2)',
+                  backgroundColor: 'var(--fresco-parchment)',
                 }}
-                onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(240,230,211,0.45)'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'rgba(240,230,211,0.2)'; }}
+                onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'var(--fresco-aged)'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'var(--fresco-parchment)'; }}
               >
                 <div className="flex items-start justify-between mb-3">
                   <div>
@@ -886,7 +886,7 @@ export default function TimelinePage() {
                     <span
                       key={s}
                       className="text-[11px] px-2 py-0.5 rounded"
-                      style={{ backgroundColor: 'rgba(212,196,171,0.4)', color: 'var(--ink-light)' }}
+                      style={{ backgroundColor: 'var(--fresco-aged)', color: 'var(--ink-light)' }}
                     >
                       <Tag className="w-2.5 h-2.5 inline mr-0.5" />
                       {s}

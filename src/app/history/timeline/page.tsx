@@ -216,7 +216,7 @@ export default function HistoryTimelinePage() {
             인물 {filteredPersons.length}명
           </span>
           <span className="flex items-center gap-1">
-            <Flag className="w-4 h-4" style={{ color: '#B8860B' }} />
+            <Flag className="w-4 h-4" style={{ color: 'var(--gold)' }} />
             사건 {filteredEvents.length}개
           </span>
         </div>
@@ -232,7 +232,7 @@ export default function HistoryTimelinePage() {
               className="px-4 py-2 rounded text-sm font-medium transition-all"
               style={{
                 fontFamily: "'Pretendard', sans-serif",
-                backgroundColor: selectedEra === 'all' ? '#8B4040' : 'rgba(240, 230, 211, 0.5)',
+                backgroundColor: selectedEra === 'all' ? '#8B4040' : 'var(--fresco-aged)',
                 color: selectedEra === 'all' ? '#FAF6E9' : 'var(--ink-light)',
               }}
             >
@@ -245,7 +245,7 @@ export default function HistoryTimelinePage() {
                 className="px-4 py-2 rounded text-sm font-medium transition-all"
                 style={{
                   fontFamily: "'Pretendard', sans-serif",
-                  backgroundColor: selectedEra === era ? frescoEraColors[era] : 'rgba(240, 230, 211, 0.5)',
+                  backgroundColor: selectedEra === era ? frescoEraColors[era] : 'var(--fresco-aged)',
                   color: selectedEra === era ? '#FAF6E9' : 'var(--ink-light)',
                 }}
               >
@@ -306,7 +306,7 @@ export default function HistoryTimelinePage() {
           className="relative rounded overflow-hidden"
           style={{
             border: '1px solid var(--fresco-shadow)',
-            backgroundColor: 'rgba(240, 230, 211, 0.5)',
+            backgroundColor: 'var(--fresco-aged)',
           }}
         >
           {/* Scroll buttons */}
@@ -314,7 +314,7 @@ export default function HistoryTimelinePage() {
             onClick={() => scrollTimeline('left')}
             className="absolute left-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full flex items-center justify-center transition-colors"
             style={{
-              backgroundColor: 'rgba(240, 230, 211, 0.9)',
+              backgroundColor: 'var(--fresco-parchment)',
               border: '1px solid var(--fresco-shadow)',
               color: 'var(--ink-light)',
             }}
@@ -325,7 +325,7 @@ export default function HistoryTimelinePage() {
             onClick={() => scrollTimeline('right')}
             className="absolute right-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full flex items-center justify-center transition-colors"
             style={{
-              backgroundColor: 'rgba(240, 230, 211, 0.9)',
+              backgroundColor: 'var(--fresco-parchment)',
               border: '1px solid var(--fresco-shadow)',
               color: 'var(--ink-light)',
             }}
@@ -376,9 +376,8 @@ export default function HistoryTimelinePage() {
                     <div
                       className="w-px h-full"
                       style={{
-                        backgroundColor: isMajor
-                          ? 'rgba(212, 196, 171, 0.6)'
-                          : 'rgba(212, 196, 171, 0.3)',
+                        backgroundColor: 'var(--fresco-shadow)',
+                        opacity: isMajor ? 0.6 : 0.3,
                       }}
                     />
                   </div>
@@ -395,7 +394,7 @@ export default function HistoryTimelinePage() {
                   className="absolute top-2 left-3 z-10 text-[10px] font-medium flex items-center gap-1 px-2 py-0.5 rounded"
                   style={{
                     color: '#8B4040',
-                    backgroundColor: 'rgba(250, 246, 233, 0.8)',
+                    backgroundColor: 'var(--fresco-parchment)',
                     fontFamily: "'Pretendard', sans-serif",
                   }}
                 >
@@ -414,7 +413,7 @@ export default function HistoryTimelinePage() {
                         style={{
                           top: `${y + 4}px`,
                           color: group.info.color,
-                          backgroundColor: 'rgba(250, 246, 233, 0.8)',
+                          backgroundColor: 'var(--fresco-parchment)',
                           fontFamily: "'Pretendard', sans-serif",
                         }}
                       >
@@ -502,7 +501,7 @@ export default function HistoryTimelinePage() {
                         className="text-[10px] font-medium px-1.5 py-0.5 rounded"
                         style={{
                           color: 'var(--ink-medium)',
-                          backgroundColor: 'rgba(250, 246, 233, 0.9)',
+                          backgroundColor: 'var(--fresco-parchment)',
                           fontFamily: "'Pretendard', sans-serif",
                         }}
                       >
@@ -553,8 +552,8 @@ export default function HistoryTimelinePage() {
                 <div
                   className="absolute top-2 left-3 z-10 text-[10px] font-medium flex items-center gap-1 px-2 py-0.5 rounded"
                   style={{
-                    color: '#B8860B',
-                    backgroundColor: 'rgba(250, 246, 233, 0.8)',
+                    color: 'var(--gold)',
+                    backgroundColor: 'var(--fresco-parchment)',
                     fontFamily: "'Pretendard', sans-serif",
                   }}
                 >
@@ -587,11 +586,11 @@ export default function HistoryTimelinePage() {
                         <div
                           className="mt-0.5 px-2 py-0.5 rounded opacity-70 group-hover:opacity-100 transition-opacity whitespace-nowrap"
                           style={{
-                            backgroundColor: 'rgba(240, 230, 211, 0.8)',
-                            border: '1px solid rgba(184, 134, 11, 0.3)',
+                            backgroundColor: 'var(--fresco-parchment)',
+                            border: '1px solid var(--gold-light)',
                           }}
                         >
-                          <p className="text-[9px] font-medium" style={{ color: '#6B4E00' }}>
+                          <p className="text-[9px] font-medium" style={{ color: 'var(--gold)' }}>
                             {event.name.ko}
                           </p>
                           <p className="text-[8px]" style={{ color: 'var(--ink-faded)' }}>
@@ -622,7 +621,7 @@ export default function HistoryTimelinePage() {
               className="px-4 py-2 rounded text-sm font-medium transition-all"
               style={{
                 fontFamily: "'Pretendard', sans-serif",
-                backgroundColor: activeTab === tab.key ? '#8B4040' : 'rgba(240, 230, 211, 0.5)',
+                backgroundColor: activeTab === tab.key ? '#8B4040' : 'var(--fresco-aged)',
                 color: activeTab === tab.key ? '#FAF6E9' : 'var(--ink-light)',
               }}
             >
@@ -659,14 +658,14 @@ export default function HistoryTimelinePage() {
                       borderRadius: '4px',
                       border: '1px solid var(--fresco-shadow)',
                       borderLeft: `4px solid ${frescoEraColors[p.era as Era] || '#6B6358'}`,
-                      backgroundColor: 'rgba(240, 230, 211, 0.2)',
+                      backgroundColor: 'var(--fresco-aged)',
                       boxShadow: '0 1px 3px rgba(44, 36, 22, 0.1)',
                     }}
                     onMouseEnter={(e) => {
-                      e.currentTarget.style.backgroundColor = 'rgba(240, 230, 211, 0.4)';
+                      e.currentTarget.style.backgroundColor = 'var(--fresco-shadow)';
                     }}
                     onMouseLeave={(e) => {
-                      e.currentTarget.style.backgroundColor = 'rgba(240, 230, 211, 0.2)';
+                      e.currentTarget.style.backgroundColor = 'var(--fresco-aged)';
                     }}
                   >
                     <div className="flex items-start justify-between mb-3">
@@ -720,7 +719,7 @@ export default function HistoryTimelinePage() {
                           key={tag}
                           className="text-[11px] px-2 py-0.5 rounded"
                           style={{
-                            backgroundColor: 'rgba(212, 196, 171, 0.5)',
+                            backgroundColor: 'var(--fresco-shadow)',
                             color: 'var(--ink-light)',
                             fontFamily: "'Pretendard', sans-serif",
                           }}
@@ -753,7 +752,7 @@ export default function HistoryTimelinePage() {
               className="text-lg font-semibold mb-4 flex items-center gap-2"
               style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
             >
-              <Flag className="w-5 h-5" style={{ color: '#B8860B' }} />
+              <Flag className="w-5 h-5" style={{ color: 'var(--gold)' }} />
               역사 사건
               <span className="text-sm font-normal" style={{ color: 'var(--ink-faded)' }}>
                 ({filteredEvents.length}개)
@@ -768,22 +767,22 @@ export default function HistoryTimelinePage() {
                   style={{
                     borderRadius: '4px',
                     border: '1px solid var(--fresco-shadow)',
-                    borderLeft: `4px solid rgba(184, 134, 11, 0.5)`,
-                    backgroundColor: 'rgba(240, 230, 211, 0.2)',
+                    borderLeft: `4px solid var(--gold-muted)`,
+                    backgroundColor: 'var(--fresco-aged)',
                     boxShadow: '0 1px 3px rgba(44, 36, 22, 0.1)',
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = 'rgba(240, 230, 211, 0.4)';
+                    e.currentTarget.style.backgroundColor = 'var(--fresco-shadow)';
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = 'rgba(240, 230, 211, 0.2)';
+                    e.currentTarget.style.backgroundColor = 'var(--fresco-aged)';
                   }}
                 >
                   <div className="flex items-start justify-between mb-3">
                     <div>
                       <h3
                         className="font-semibold transition-colors"
-                        style={{ color: '#6B4E00', fontFamily: "'Cormorant Garamond', serif" }}
+                        style={{ color: 'var(--gold)', fontFamily: "'Cormorant Garamond', serif" }}
                       >
                         {event.name.ko}
                       </h3>
