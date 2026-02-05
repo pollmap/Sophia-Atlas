@@ -515,5 +515,262 @@
       "internet-revolution"
     ],
     "foundedYear": 1954
+  },
+  {
+    "id": "openai",
+    "type": "institution",
+    "name": {
+      "ko": "OpenAI",
+      "en": "OpenAI"
+    },
+    "period": {
+      "start": 2015,
+      "end": 2025
+    },
+    "location": {
+      "lat": 37.77,
+      "lng": -122.42,
+      "region": "미국 샌프란시스코"
+    },
+    "era": "contemporary",
+    "summary": "2015년 샘 올트먼, 일론 머스크 등이 공동 설립한 인공지능 연구 기관. '안전하고 유익한 범용인공지능(AGI)의 개발'을 미션으로 하며, GPT 시리즈와 ChatGPT, DALL-E 등을 개발하여 생성형 AI 혁명을 주도했다. 비영리로 출발했으나 영리 부문을 추가하며 AI의 상업화와 안전성 사이의 긴장을 상징하는 기관이 되었다.",
+    "detailed": "OpenAI는 2015년 12월 샘 올트먼(Y Combinator 대표), 일론 머스크(테슬라·스페이스X CEO), 그렉 브록먼, 일리야 수츠케버 등이 10억 달러의 기부금을 약정하며 비영리 연구 기관으로 설립했다. 설립 목적은 인공 범용지능(AGI)이 소수 기업에 의해 독점되지 않고 인류 전체에 이익이 되도록 보장하는 것이었다.\n초기에는 강화학습 연구(OpenAI Gym)와 로보틱스에 집중했으나, 2018년 이후 대규모 언어 모델 개발로 방향을 전환했다. GPT-2(2019)는 뛰어난 텍스트 생성 능력 때문에 '너무 위험하여' 전체 모델 공개를 유보하는 전례 없는 결정을 내렸다. GPT-3(2020)은 1,750억 개의 매개변수로 언어 이해와 생성의 새로운 지평을 열었다. 2022년 11월 ChatGPT의 출시는 AI 역사의 전환점이 되었으며, 2023년 GPT-4는 멀티모달 능력을 갖추며 AGI에 한 걸음 더 다가갔다.\n2019년 비영리 구조의 한계(대규모 컴퓨팅 자원 확보의 어려움)를 극복하기 위해 '제한적 영리(capped-profit)' 부문을 추가했고, 마이크로소프트로부터 수십억 달러의 투자를 받았다. 이러한 구조 변화는 '안전한 AGI 개발'이라는 원래 미션과 상업적 압력 사이의 긴장을 상징하며, 2023년 11월 샘 올트먼의 일시적 해임과 복귀 사태에서 이 긴장이 극적으로 표출되었다. OpenAI는 AI 안전, 정렬(alignment), 거버넌스 연구에도 투자하며, AI 시대의 가장 영향력 있는 기관으로 자리매김하고 있다.",
+    "tags": [
+      "인공지능",
+      "연구기관",
+      "AGI",
+      "생성형AI"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "artificial-general-intelligence",
+      "chatgpt-launch",
+      "deep-learning",
+      "deepmind"
+    ],
+    "foundedYear": 2015
+  },
+  {
+    "id": "deepmind",
+    "type": "institution",
+    "name": {
+      "ko": "딥마인드",
+      "en": "DeepMind"
+    },
+    "period": {
+      "start": 2010,
+      "end": 2025
+    },
+    "location": {
+      "lat": 51.53,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "era": "contemporary",
+    "summary": "2010년 데미스 허사비스, 셰인 레그, 무스타파 술레이만이 설립한 AI 연구 기관으로, 2014년 구글에 인수되었다. '지능의 근본 원리를 이해하고 이를 통해 인류의 가장 어려운 문제를 해결한다'를 미션으로 한다. 알파고(바둑), 알파폴드(단백질 구조 예측) 등 AI 연구의 획기적 성과로 유명하다.",
+    "detailed": "딥마인드(DeepMind Technologies)는 신경과학자이자 게임 개발자인 데미스 허사비스가 셰인 레그, 무스타파 술레이만과 함께 2010년 런던에서 설립한 AI 연구 기관이다. 허사비스는 체스 신동 출신으로, 인간 지능의 원리를 이해하고 이를 기계에 구현하려는 야심적 목표를 세웠다.\n2014년 구글이 약 5억 달러에 인수했으며, 이는 당시 AI 역사상 최대 규모의 인수로 주목받았다. 딥마인드는 심층 강화학습(deep reinforcement learning)이라는 접근법을 개척하여, 2013년 아타리 게임을 인간 수준 이상으로 플레이하는 DQN(Deep Q-Network)을 발표했다.\n가장 유명한 성과는 알파고(AlphaGo)이다. 2016년 3월 이세돌 9단을 4:1로 이기며 전 세계에 AI의 가능성을 각인시켰고, 2017년 알파고 제로는 인간의 기보 없이 자기 학습만으로 알파고를 능가했다. 이후 알파제로는 바둑뿐 아니라 체스, 장기에서도 최고 수준의 실력을 달성했다.\n과학 분야에서의 기여도 혁명적이다. 알파폴드(AlphaFold, 2020)는 50년간 풀리지 않던 단백질 접힘 문제를 사실상 해결하여, 생물학·의학 연구에 혁명적 도구를 제공했다. 2022년에는 알려진 거의 모든 단백질(약 2억 개)의 구조를 예측하여 데이터베이스로 공개했다. 알파폴드의 공동 개발자 데미스 허사비스와 존 점퍼는 2024년 노벨 화학상을 수상했다.\n딥마인드는 AI 안전 연구에도 투자하며, 범용인공지능(AGI)의 안전한 개발을 추구하고 있다. 2023년 구글 브레인 팀과 합병하여 구글 딥마인드(Google DeepMind)로 재편되었다.",
+    "tags": [
+      "인공지능",
+      "연구기관",
+      "딥러닝",
+      "영국"
+    ],
+    "relatedPersons": [],
+    "relatedEntities": [
+      "alphago-match",
+      "artificial-general-intelligence",
+      "deep-learning",
+      "openai"
+    ],
+    "foundedYear": 2010
+  },
+  {
+    "id": "vatican",
+    "type": "institution",
+    "name": {
+      "ko": "바티칸 / 교황청",
+      "en": "Vatican / Holy See",
+      "original": "Sancta Sedes"
+    },
+    "period": {
+      "start": 326,
+      "end": 2025
+    },
+    "location": {
+      "lat": 41.9,
+      "lng": 12.45,
+      "region": "이탈리아 로마 (바티칸 시국)"
+    },
+    "era": "ancient",
+    "summary": "로마 가톨릭 교회의 본부이자 교황의 거주지로, 세계에서 가장 작은 독립 국가(바티칸 시국)이다. 4세기 성 베드로 무덤 위에 대성당이 건립된 이래 기독교 세계의 영적·행정적 중심지 역할을 해왔다. 약 13억 가톨릭 신자의 정신적 수장인 교황이 이곳에서 교회를 이끈다.",
+    "tags": [
+      "가톨릭",
+      "교황",
+      "로마",
+      "교회본부"
+    ],
+    "relatedPersons": [
+      "peter",
+      "augustine",
+      "thomas-aquinas",
+      "pope-john-xxiii",
+      "pope-john-paul-ii",
+      "pope-francis"
+    ],
+    "relatedEntities": [
+      "roman-catholicism",
+      "christianity",
+      "council-of-nicaea",
+      "protestant-reformation"
+    ],
+    "foundedYear": 326
+  },
+  {
+    "id": "al-azhar-university",
+    "type": "institution",
+    "name": {
+      "ko": "알아즈하르 대학교",
+      "en": "Al-Azhar University",
+      "original": "جامعة الأزهر"
+    },
+    "period": {
+      "start": 970,
+      "end": 2025
+    },
+    "location": {
+      "lat": 30.04,
+      "lng": 31.26,
+      "region": "이집트 카이로"
+    },
+    "era": "medieval",
+    "summary": "970년 파티마 왕조 시대에 카이로에 설립된 이슬람 세계의 가장 권위 있는 교육기관이자 현존하는 세계 최고(最古) 대학 중 하나. 수니파 이슬람 신학·법학의 최고 권위로서 전 세계 무슬림에게 종교적 견해(파트와)를 발하며, 이슬람 학문의 중심지 역할을 계속하고 있다.",
+    "tags": [
+      "이슬람",
+      "대학",
+      "신학",
+      "카이로"
+    ],
+    "relatedPersons": [
+      "al-ghazali",
+      "muhammad-abduh"
+    ],
+    "relatedEntities": [
+      "sunni-islam",
+      "islam",
+      "house-of-wisdom"
+    ],
+    "foundedYear": 970
+  },
+  {
+    "id": "nalanda-university",
+    "type": "institution",
+    "name": {
+      "ko": "날란다 대학교",
+      "en": "Nalanda University",
+      "original": "नालन्दा"
+    },
+    "period": {
+      "start": 427,
+      "end": 1197,
+      "approximate": true
+    },
+    "location": {
+      "lat": 25.14,
+      "lng": 85.44,
+      "region": "인도 비하르"
+    },
+    "era": "medieval",
+    "summary": "5세기 인도 비하르에 설립된 고대 세계 최대 규모의 불교 교육기관으로, 전성기에 1만 명 이상의 학승이 수학했다. 대승 불교·중관학파·유식학파의 학문적 중심지였으며, 현장(삼장법사) 등 각국의 학자가 유학했다. 1197년 이슬람 군대에 의해 파괴되어 인도 불교 학문의 종언을 상징한다.",
+    "tags": [
+      "불교",
+      "대학",
+      "인도",
+      "학문"
+    ],
+    "relatedPersons": [
+      "nagarjuna-buddhist",
+      "vasubandhu",
+      "asanga",
+      "xuanzang"
+    ],
+    "relatedEntities": [
+      "mahayana-buddhism",
+      "buddhism",
+      "sunyata"
+    ],
+    "foundedYear": 427,
+    "dissolvedYear": 1197
+  },
+  {
+    "id": "mount-athos",
+    "type": "institution",
+    "name": {
+      "ko": "아토스 산",
+      "en": "Mount Athos",
+      "original": "Ἅγιον Ὄρος"
+    },
+    "period": {
+      "start": 963,
+      "end": 2025
+    },
+    "location": {
+      "lat": 40.16,
+      "lng": 24.33,
+      "region": "그리스 아토스 반도"
+    },
+    "era": "medieval",
+    "summary": "그리스 북부 아토스 반도에 위치한 동방 정교회의 최고 수도원 공동체로, '성산(聖山)'이라 불린다. 963년 대 라브라 수도원 설립 이래 20개 수도원이 천 년 이상 끊이지 않는 기도와 전례를 유지하고 있다. 여성의 출입이 금지되며, 정교회 수도 영성과 이콘 예술의 보고이다.",
+    "tags": [
+      "정교회",
+      "수도원",
+      "그리스",
+      "영성"
+    ],
+    "relatedPersons": [
+      "gregory-nazianzus",
+      "basil-great",
+      "maximus-confessor"
+    ],
+    "relatedEntities": [
+      "eastern-orthodoxy",
+      "christianity"
+    ],
+    "foundedYear": 963
+  },
+  {
+    "id": "potala-palace",
+    "type": "institution",
+    "name": {
+      "ko": "포탈라궁",
+      "en": "Potala Palace",
+      "original": "པོ་ཏ་ལ"
+    },
+    "period": {
+      "start": 1645,
+      "end": 2025
+    },
+    "location": {
+      "lat": 29.66,
+      "lng": 91.12,
+      "region": "중국 티베트 라싸"
+    },
+    "era": "modern",
+    "summary": "티베트 라싸 해발 3,700m에 위치한 달라이 라마의 전통적 거주지이자 티베트 불교의 상징적 중심지. 7세기 기원에서 17세기 달라이 라마 5세가 현재의 대규모 궁전으로 재건했다. 1,000개 이상의 방과 수많은 불상·벽화·경전을 소장하며, 유네스코 세계문화유산으로 지정되어 있다.",
+    "tags": [
+      "티베트불교",
+      "달라이라마",
+      "궁전",
+      "라싸"
+    ],
+    "relatedPersons": [
+      "dalai-lama-14",
+      "tsongkhapa",
+      "padmasambhava"
+    ],
+    "relatedEntities": [
+      "vajrayana-buddhism",
+      "buddhism"
+    ],
+    "foundedYear": 1645
   }
 ]

@@ -40,6 +40,10 @@ const typeLabels: Record<string, string> = {
   institution: '기관/조직',
   text: '경전/문헌',
   concept: '핵심 개념',
+  tradition: '전통',
+  archetype: '신화/원형',
+  art_movement: '예술운동',
+  technology: '기술 패러다임',
 };
 
 const typeColors: Record<string, { bg: string; text: string; border: string }> = {
@@ -49,6 +53,10 @@ const typeColors: Record<string, { bg: string; text: string; border: string }> =
   institution: { bg: 'rgba(184, 134, 11, 0.1)', text: '#B8860B', border: 'rgba(184, 134, 11, 0.3)' },
   text: { bg: 'rgba(91, 115, 85, 0.1)', text: '#5B7355', border: 'rgba(91, 115, 85, 0.3)' },
   concept: { bg: 'rgba(74, 122, 107, 0.1)', text: '#4A7A6B', border: 'rgba(74, 122, 107, 0.3)' },
+  tradition: { bg: 'rgba(156, 102, 68, 0.1)', text: '#9C6644', border: 'rgba(156, 102, 68, 0.3)' },
+  archetype: { bg: 'rgba(128, 90, 147, 0.1)', text: '#805A93', border: 'rgba(128, 90, 147, 0.3)' },
+  art_movement: { bg: 'rgba(193, 84, 138, 0.1)', text: '#C1548A', border: 'rgba(193, 84, 138, 0.3)' },
+  technology: { bg: 'rgba(59, 130, 146, 0.1)', text: '#3B8292', border: 'rgba(59, 130, 146, 0.3)' },
 };
 
 const typeHexColors: Record<string, string> = {
@@ -58,9 +66,13 @@ const typeHexColors: Record<string, string> = {
   institution: '#B8860B',
   text: '#5B7355',
   concept: '#4A7A6B',
+  tradition: '#9C6644',
+  archetype: '#805A93',
+  art_movement: '#C1548A',
+  technology: '#3B8292',
 };
 
-const types = ['all', 'event', 'ideology', 'movement', 'institution', 'text', 'concept'];
+const types = ['all', 'event', 'ideology', 'movement', 'institution', 'text', 'concept', 'tradition', 'archetype', 'art_movement', 'technology'];
 
 export default function EntitiesPage() {
   const [selectedType, setSelectedType] = useState('all');

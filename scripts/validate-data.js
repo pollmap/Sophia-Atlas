@@ -169,7 +169,7 @@ info(`MVP persons: ${mvpCount}`);
 console.log('\n━━━ 2. Entity Validation ━━━');
 console.log(`  Total entities: ${allEntities.length}`);
 
-const VALID_ENTITY_TYPES = ['event', 'ideology', 'movement', 'institution', 'text', 'nation', 'concept'];
+const VALID_ENTITY_TYPES = ['event', 'ideology', 'movement', 'institution', 'text', 'nation', 'concept', 'tradition', 'archetype', 'art_movement', 'technology'];
 const entityIds = new Set();
 
 for (const e of allEntities) {

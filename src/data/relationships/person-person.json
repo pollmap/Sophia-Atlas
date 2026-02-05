@@ -14922,5 +14922,4075 @@
     "description": "아크바르와 몽테뉴는 동시대에 각각 종교적 관용을 실천한 동서양의 인물이었다",
     "strength": 1,
     "direction": "bidirectional"
+  },
+  {
+    "source": "byung-chul-han",
+    "target": "heidegger",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "병철한은 하이데거의 존재론을 현대 디지털 사회 분석에 창조적으로 적용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "byung-chul-han",
+    "target": "foucault",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "한병철은 푸코의 권력론을 발전시켜 자기착취와 성과사회 개념을 제시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "byung-chul-han",
+    "target": "baudrillard",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "한병철은 보드리야르의 시뮬라시옹 이론에서 디지털 비판의 영감을 받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "byung-chul-han",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "한병철은 니체의 긍정성 개념을 피로사회론의 출발점으로 삼았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "byung-chul-han",
+    "target": "zizek",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "한병철과 지젝은 동시대 사회비판 철학자로서 자본주의를 각기 다른 관점에서 분석했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "byung-chul-han",
+    "target": "habermas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "한병철은 하버마스의 소통 낙관론에 대해 디지털 소통의 폭력성을 대치시켰다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "peter-singer",
+    "target": "bentham",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "피터 싱어는 벤담의 공리주의를 동물 윤리로 확장하여 효과적 이타주의를 제창했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "peter-singer",
+    "target": "john-stuart-mill",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "싱어는 밀의 공리주의 전통을 계승하여 실천윤리학을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "peter-singer",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "싱어는 마르크스의 '헤겔과 마르크스'를 저술하며 사회정의 관심을 발전시켰다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "peter-singer",
+    "target": "daniel-dennett",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "싱어와 데닛은 현대 분석철학에서 윤리와 의식 문제를 각각 탐구했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "peter-singer",
+    "target": "noam-chomsky",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "싱어와 촘스키는 현대 공공지식인으로서 사회정의와 도덕 문제를 적극 발언했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nassim-taleb",
+    "target": "popper",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "탈레브는 포퍼의 반증주의를 불확실성과 블랙스완 이론으로 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nassim-taleb",
+    "target": "hume",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "탈레브는 흄의 귀납법 비판에서 블랙스완 이론의 철학적 기초를 찾았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nassim-taleb",
+    "target": "seneca",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "탈레브는 세네카의 스토아적 실천 지혜를 현대 리스크 관리에 적용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nassim-taleb",
+    "target": "nick-bostrom",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "탈레브와 보스트롬은 존재적 위험에 대해 상반된 방법론적 접근을 취했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "noam-chomsky",
+    "target": "descartes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "촘스키는 데카르트의 보편문법 이론에서 생성문법의 철학적 기초를 발견했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "noam-chomsky",
+    "target": "russell",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "촘스키는 러셀의 합리주의적 철학에서 언어학적 방법론의 영감을 받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "noam-chomsky",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "촘스키는 마르크스의 사회비판에서 미디어와 권력에 대한 분석을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "noam-chomsky",
+    "target": "foucault",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "촘스키와 푸코는 1971년 유명한 논쟁에서 인간본성과 정의에 대해 대립했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "noam-chomsky",
+    "target": "habermas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "촘스키와 하버마스는 언어와 사회비판에서 각기 다른 이론적 전통을 발전시켰다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "amartya-sen",
+    "target": "adam-smith",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "아마르티아 센은 애덤 스미스의 도덕감정론을 재해석하여 역량접근법을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "amartya-sen",
+    "target": "john-stuart-mill",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "센은 밀의 자유론에서 자유와 발전의 관계에 대한 핵심 통찰을 얻었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "amartya-sen",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "센은 마르크스의 불평등 분석에서 빈곤과 기근 연구의 출발점을 찾았다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "michael-sandel",
+    "target": "amartya-sen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "샌델과 센은 현대 정의론에서 자유주의를 각각 공동체주의와 역량접근으로 비판했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "michael-sandel",
+    "target": "aristotle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "샌델은 아리스토텔레스의 덕 윤리학을 현대 정치철학의 기반으로 삼았다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "michael-sandel",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "샌델은 칸트의 의무론적 자유주의를 공동체적 관점에서 비판했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "michael-sandel",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "샌델은 헤겔의 인륜 개념에서 공동체주의의 이론적 자원을 발견했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "markus-gabriel",
+    "target": "schelling",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "마르쿠스 가브리엘은 셸링의 자연철학을 신실재론으로 재해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "markus-gabriel",
+    "target": "hegel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "가브리엘은 헤겔 변증법을 연구하며 새로운 존재론을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "markus-gabriel",
+    "target": "fichte",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "가브리엘은 피히테의 독일관념론을 현대적으로 재구성하여 의미장 존재론을 제시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "markus-gabriel",
+    "target": "byung-chul-han",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "가브리엘과 한병철은 독일 기반 현대 철학자로 기술사회를 각각 다르게 분석했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "markus-gabriel",
+    "target": "habermas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "가브리엘은 하버마스의 비판이론을 신실재론적 관점에서 재평가했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "nick-bostrom",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보스트롬은 칸트의 도덕철학을 AI 윤리와 미래 세대의 도덕적 지위에 적용했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "nick-bostrom",
+    "target": "john-stuart-mill",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보스트롬은 밀의 공리주의를 장기주의적 관점에서 재해석했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "nick-bostrom",
+    "target": "daniel-dennett",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "보스트롬과 데닛은 인공지능의 의식 가능성에 대해 상반된 견해를 가졌다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "daniel-dennett",
+    "target": "hume",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "데닛은 흄의 자연주의적 철학을 의식과 자유의지 연구에 적용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "daniel-dennett",
+    "target": "darwin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "데닛은 다윈의 진화론을 철학적으로 확장하여 의식의 진화적 설명을 제시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "daniel-dennett",
+    "target": "wittgenstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "데닛은 비트겐슈타인의 언어철학에서 심리철학적 통찰을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "daniel-dennett",
+    "target": "richard-dawkins",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "데닛과 도킨스는 새로운 무신론 운동에서 함께 과학적 세계관을 옹호했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "daniel-dennett",
+    "target": "quine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "데닛은 콰인의 자연화된 인식론에서 의식 연구의 방법론적 기초를 찾았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "geoffrey-hinton",
+    "target": "turing",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "힌턴은 튜링의 기계학습 비전을 심층신경망으로 실현하여 AI 혁명을 이끌었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "geoffrey-hinton",
+    "target": "von-neumann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "힌턴의 신경망 연구는 폰 노이만의 컴퓨터 아키텍처 위에서 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "geoffrey-hinton",
+    "target": "yann-lecun",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "힌턴과 르쿤은 딥러닝의 세 거장으로 함께 튜링상을 수상했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "geoffrey-hinton",
+    "target": "yoshua-bengio",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "힌턴과 벤지오는 딥러닝 연구의 핵심 파트너로 역전파 알고리즘을 발전시켰다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yann-lecun",
+    "target": "yoshua-bengio",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "르쿤과 벤지오는 딥러닝 3인방으로 함께 2018년 튜링상을 수상했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yann-lecun",
+    "target": "claude-shannon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "르쿤의 정보처리 연구는 섀넌의 정보이론에 이론적 기초를 두었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "yoshua-bengio",
+    "target": "turing",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "벤지오의 AI 연구는 튜링의 기계지능 개념에서 출발했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "demis-hassabis",
+    "target": "turing",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하사비스는 튜링의 인공지능 비전을 실현하기 위해 딥마인드를 설립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "demis-hassabis",
+    "target": "geoffrey-hinton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하사비스는 힌턴의 딥러닝 연구를 기반으로 알파고를 개발했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "demis-hassabis",
+    "target": "von-neumann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하사비스는 폰 노이만의 게임이론과 컴퓨터과학에서 AI 연구의 기초를 닦았다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "demis-hassabis",
+    "target": "feynman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하사비스는 파인만의 물리학적 사고방식에서 과학적 AI 접근법의 영감을 받았다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "charpentier",
+    "target": "jennifer-doudna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "샤르팡티에와 다우드나는 CRISPR-Cas9 유전자 편집 기술을 공동 개발했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "charpentier",
+    "target": "crick",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "샤르팡티에의 유전자 편집 연구는 크릭의 분자생물학 발견에 기초했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "charpentier",
+    "target": "watson",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "샤르팡티에의 DNA 편집 기술은 왓슨의 DNA 구조 발견이 없었으면 불가능했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kip-thorne",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "킵 손은 아인슈타인의 일반상대성이론을 중력파 검출 이론으로 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "kip-thorne",
+    "target": "hawking",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "킵 손과 호킹은 블랙홀 물리학에서 오랜 학문적 파트너이자 내기 동료였다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kip-thorne",
+    "target": "feynman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "킵 손은 칼텍에서 파인만의 동료로서 이론물리학의 대중화에 함께 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kip-thorne",
+    "target": "penrose",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "킵 손은 펜로즈와 함께 블랙홀과 특이점에 관한 연구를 수행했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "roger-penrose",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "펜로즈는 아인슈타인의 일반상대성이론에서 특이점 정리를 증명했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "roger-penrose",
+    "target": "hawking",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "collaborated",
+    "description": "펜로즈와 호킹은 함께 블랙홀 특이점 정리를 증명하여 현대 우주론을 혁신했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "roger-penrose",
+    "target": "godel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "펜로즈는 괴델의 불완전성 정리를 의식 연구에 적용하여 양자의식론을 제안했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "roger-penrose",
+    "target": "turing",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "펜로즈는 튜링의 계산이론을 비판적으로 발전시켜 의식의 비계산적 성격을 주장했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "berners-lee",
+    "target": "babbage",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "버너스리는 배비지로부터 시작된 컴퓨팅 혁명의 정보 민주화를 완성했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "berners-lee",
+    "target": "knuth",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "버너스리의 하이퍼텍스트 시스템은 크누스의 컴퓨터과학 기초 위에 발전했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "katalin-kariko",
+    "target": "crick",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카리코의 mRNA 연구는 크릭의 센트럴 도그마에 기초한 분자생물학에서 출발했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "katalin-kariko",
+    "target": "watson",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카리코의 mRNA 백신 기술은 왓슨의 DNA 구조 발견에서 시작된 분자생물학의 결실이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "katalin-kariko",
+    "target": "pasteur",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카리코는 파스퇴르의 백신학 전통을 mRNA 기술로 혁신했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "katalin-kariko",
+    "target": "jennifer-doudna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "카리코와 다우드나는 유전학 혁명의 동시대 선구자로 mRNA와 CRISPR을 각각 발전시켰다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "katalin-kariko",
+    "target": "alexander-fleming",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카리코는 플레밍의 항생제 발견처럼 면역학의 새로운 패러다임을 열었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "witten",
+    "target": "einstein",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "위튼은 아인슈타인의 통일장 이론의 꿈을 끈이론으로 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "witten",
+    "target": "dirac",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "위튼은 디랙의 수학적 물리학 전통을 이어받아 M-이론을 제안했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "witten",
+    "target": "feynman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "위튼은 파인만의 경로적분에서 끈이론의 핵심 수학적 도구를 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "witten",
+    "target": "weinberg",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "위튼과 와인버그는 입자물리학의 통일 이론을 각기 다른 방법으로 추구했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "witten",
+    "target": "penrose",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "위튼과 펜로즈는 양자중력 이론에서 끈이론과 트위스터 이론으로 각각 접근했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "terence-tao",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "테렌스 타오는 오일러의 해석학적 수론 전통을 현대적으로 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "terence-tao",
+    "target": "gauss",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "타오는 가우스의 소수 분포 연구를 소수의 등차수열에 관한 정리로 확장했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "terence-tao",
+    "target": "riemann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "타오는 리만의 해석학적 방법론을 편미분방정식 연구에 적용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "terence-tao",
+    "target": "hilbert",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "타오는 힐베르트의 수학적 프로그램을 계승하여 다양한 분야의 난제를 해결했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "terence-tao",
+    "target": "grigori-perelman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "타오와 페렐만은 21세기 최고의 수학자로서 각각 다른 분야에서 혁명적 업적을 이루었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "grigori-perelman",
+    "target": "riemann",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "페렐만은 리만 기하학의 도구를 사용하여 푸앵카레 추측을 증명했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "grigori-perelman",
+    "target": "poincare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "페렐만은 푸앵카레가 제시한 위상수학의 최대 난제를 해결했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "grigori-perelman",
+    "target": "hilbert",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "페렐만은 힐베르트 이래 수학의 엄밀한 증명 전통을 이어받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "grigori-perelman",
+    "target": "cantor",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "페렐만의 위상수학 연구는 칸토어의 집합론적 기초 위에 구축되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "pope-francis",
+    "target": "francis-assisi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프란치스코 교황은 아시시의 프란치스코를 교황명으로 삼아 가난한 교회를 추구했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "pope-francis",
+    "target": "thomas-aquinas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프란치스코 교황은 아퀴나스의 자연법 전통에 기초한 사회교리를 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "pope-francis",
+    "target": "pope-john-xxiii",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프란치스코 교황은 요한 23세의 제2차 바티칸 공의회 정신을 계승했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "pope-francis",
+    "target": "pope-john-paul-ii",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "프란치스코 교황은 요한 바오로 2세의 사회교리를 생태 회칙으로 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "pope-francis",
+    "target": "bonhoeffer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프란치스코 교황은 본회퍼의 값비싼 은총 개념에서 실천적 영성의 영감을 받았다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "pope-francis",
+    "target": "desmond-tutu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "프란치스코 교황과 투투 대주교는 사회정의와 평화를 위한 종교적 연대를 실천했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "karen-armstrong",
+    "target": "buber",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카렌 암스트롱은 부버의 대화철학에서 종교간 대화의 이론적 기초를 발견했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "karen-armstrong",
+    "target": "tillich",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "암스트롱은 틸리히의 궁극적 관심 개념에서 비교종교학의 핵심 통찰을 얻었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "karen-armstrong",
+    "target": "schleiermacher",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "암스트롱은 슐라이어마허의 종교적 경험론을 현대 비교종교 연구에 적용했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "karen-armstrong",
+    "target": "dalai-lama-14",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "암스트롱과 달라이 라마는 종교간 대화와 자비의 확산을 함께 추구했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "karen-armstrong",
+    "target": "thich-nhat-hanh",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "암스트롱과 틱낫한은 다종교적 영성과 자비를 대중에게 전파한 동시대 인물이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "elon-musk",
+    "target": "steve-jobs",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "머스크와 잡스는 기술 혁신을 통해 산업 패러다임을 바꾼 현대 기업가이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "elon-musk",
+    "target": "nick-bostrom",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "머스크는 보스트롬의 AI 위험론에 영향받아 AI 안전 연구에 투자했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "elon-musk",
+    "target": "sam-altman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "머스크와 알트먼은 OpenAI를 공동 설립했으나 이후 AI 방향에 대해 대립했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "elon-musk",
+    "target": "bill-gates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "머스크와 게이츠는 기술과 기후변화에 대해 다른 접근방식을 취하는 현대 기업가이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "steve-jobs",
+    "target": "bill-gates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "잡스와 게이츠는 PC 혁명의 양대 축으로 경쟁과 협력을 반복했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "steve-jobs",
+    "target": "jeff-bezos",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "잡스와 베이조스는 기술 산업의 미래를 각각 하드웨어와 클라우드로 개척했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bill-gates",
+    "target": "jeff-bezos",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "게이츠와 베이조스는 기술 산업의 거인으로 자선과 우주 사업에서 각각 활동했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bill-gates",
+    "target": "sam-altman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "게이츠와 알트먼은 AI 시대의 방향에 대해 긴밀히 협력하며 소통했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bill-gates",
+    "target": "berners-lee",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "게이츠와 버너스리는 각각 소프트웨어와 웹으로 디지털 혁명을 이끌었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sam-altman",
+    "target": "geoffrey-hinton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "알트먼과 힌턴은 AI 발전과 안전에 대해 상반된 견해로 공개 논쟁했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sam-altman",
+    "target": "turing",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "알트먼은 튜링의 인공지능 비전을 ChatGPT로 대중화시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "barack-obama",
+    "target": "mandela",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "오바마는 만델라의 화해와 포용의 리더십에서 깊은 영감을 받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "barack-obama",
+    "target": "abraham-lincoln",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "오바마는 링컨의 통합 정신을 계승하여 미국 최초의 흑인 대통령이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "barack-obama",
+    "target": "martin-luther-king",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "오바마는 킹 목사의 민권운동 유산 위에서 정치적 비전을 구축했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "barack-obama",
+    "target": "angela-merkel",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "오바마와 메르켈은 자유주의 국제질서를 함께 수호한 동시대 지도자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "barack-obama",
+    "target": "jfk",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "오바마는 케네디의 희망과 변화의 수사학에서 정치적 영감을 받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "angela-merkel",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "메르켈은 칸트의 도덕적 의무론을 실제 정치에서 난민 수용 결정으로 실천했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "angela-merkel",
+    "target": "churchill",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "메르켈은 처칠의 결단력 있는 리더십을 유럽 위기 관리에서 계승했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "angela-merkel",
+    "target": "catherine-the-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "메르켈과 예카테리나는 시대를 넘어 유럽 강대국을 이끈 여성 지도자라는 유사점이 있다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "greta-thunberg",
+    "target": "malala-yousafzai",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "툰베리와 말랄라는 청소년 사회운동가로서 세계적 변화를 이끈 동시대 인물이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "greta-thunberg",
+    "target": "peter-singer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "툰베리의 기후운동은 싱어의 효과적 이타주의와 미래 세대에 대한 도덕적 책임론에 공명했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "gorgias",
+    "target": "protagoras",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "고르기아스와 프로타고라스는 소피스트의 쌍벽으로 아테네에서 수사학을 가르쳤다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gorgias",
+    "target": "socrates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "고르기아스는 소크라테스와 수사학과 진리의 관계에 대해 논쟁했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gorgias",
+    "target": "aristotle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "고르기아스의 수사학 이론은 아리스토텔레스의 《수사학》에 중요한 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "philolaus",
+    "target": "pythagoras",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "필롤라오스는 피타고라스학파의 핵심 사상을 문서화한 제자이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "philolaus",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "필롤라오스의 중앙불 이론은 코페르니쿠스의 태양중심설에 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "philolaus",
+    "target": "empedocles",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "필롤라오스와 엠페도클레스는 동시대 자연철학자로 우주론을 각각 발전시켰다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "prodicus",
+    "target": "protagoras",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "프로디코스와 프로타고라스는 소피스트 동료로 아테네에서 활동했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "prodicus",
+    "target": "gorgias",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "프로디코스와 고르기아스는 소피스트의 대표적 인물로 함께 활동했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "prodicus",
+    "target": "plato",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프로디코스의 언어 분석은 플라톤 대화편에서 여러 차례 언급되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hippias",
+    "target": "protagoras",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "히피아스와 프로타고라스는 아테네의 대표적 소피스트로 함께 활동했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hippias",
+    "target": "plato",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "플라톤은 《히피아스 마이오르》와 《히피아스 미노르》에서 그를 대화 상대로 삼았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hippias",
+    "target": "gorgias",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "히피아스와 고르기아스는 소피스트로서 그리스 각지를 순회하며 가르쳤다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "diogenes-apollonia",
+    "target": "anaxagoras",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아폴로니아의 디오게네스는 아낙사고라스의 누스 개념에서 영향을 받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "diogenes-apollonia",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "디오게네스는 탈레스의 자연철학 전통을 계승하여 단일 원리를 탐구했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "diogenes-apollonia",
+    "target": "hippocrates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "디오게네스의 생리학적 사상은 히포크라테스 의학에 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "euclides-megara",
+    "target": "parmenides",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "메가라의 에우클레이데스는 파르메니데스의 일원론과 소크라테스의 윤리학을 결합했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "euclides-megara",
+    "target": "plato",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "에우클레이데스와 플라톤은 소크라테스 사후 메가라에서 함께 지낸 학문적 동료였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "euclides-megara",
+    "target": "antisthenes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "에우클레이데스와 안티스테네스는 소크라테스 학파의 다른 갈래를 이끈 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "aristippus",
+    "target": "epicurus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "아리스티포스의 쾌락주의는 에피쿠로스의 쾌락론에 이론적 선구가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "aristippus",
+    "target": "antisthenes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "아리스티포스와 안티스테네스는 소크라테스의 가르침을 쾌락과 금욕으로 각각 해석했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "aristippus",
+    "target": "diogenes-sinope",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "아리스티포스의 쾌락주의와 디오게네스의 견유주의는 정반대의 삶의 방식이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "carneades",
+    "target": "chrysippus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "카르네아데스는 크리시포스의 스토아 논리학을 체계적으로 비판한 회의주의자였다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "carneades",
+    "target": "plato",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "카르네아데스는 플라톤의 아카데메이아에서 회의주의적 전통을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "carneades",
+    "target": "pyrrho",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카르네아데스는 피론의 회의주의에서 영향을 받아 아카데미 회의주의를 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-gabirol",
+    "target": "plotinus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "이븐 가비롤은 플로티노스의 유출설을 유대-신플라톤주의로 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-gabirol",
+    "target": "spinoza",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "가비롤의 물질적 형상 이론은 스피노자의 실체 일원론에 간접적 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-gabirol",
+    "target": "maimonides",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "가비롤의 신플라톤주의와 마이모니데스의 아리스토텔레스주의는 중세 유대철학의 두 축이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ibn-gabirol",
+    "target": "ibn-sina",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "가비롤과 이븐 시나는 중세 이베리아와 페르시아에서 각각 신플라톤주의를 발전시켰다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gersonides",
+    "target": "aristotle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "게르소니데스는 아리스토텔레스의 논리학과 천문학을 유대 사상에 적용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gersonides",
+    "target": "ibn-rushd",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "게르소니데스는 이븐 루시드의 아리스토텔레스 주석에서 깊은 영향을 받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gersonides",
+    "target": "thomas-aquinas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "게르소니데스와 아퀴나스는 각각 유대교와 기독교에서 아리스토텔레스를 수용했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gassendi",
+    "target": "epicurus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "가상디는 에피쿠로스의 원자론을 근대적으로 부활시켜 기계론적 자연관을 발전시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "gassendi",
+    "target": "descartes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "가상디는 데카르트의 합리론에 경험주의적 비판을 가했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gassendi",
+    "target": "hobbes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "가상디와 홉스는 기계론적 세계관을 공유한 동시대 철학자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thomas-reid",
+    "target": "hume",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "토마스 리드는 흄의 회의주의에 반대하여 상식철학을 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-reid",
+    "target": "locke",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "리드는 로크의 관념론이 회의주의로 이어진다고 비판했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-reid",
+    "target": "berkeley",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "리드는 버클리의 관념론을 상식에 반한다고 비판했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thomas-reid",
+    "target": "kant",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "리드와 칸트는 각각 상식과 선험적 범주로 흄의 회의주의에 응답했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dalembert",
+    "target": "voltaire",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "달랑베르와 볼테르는 프랑스 계몽주의의 핵심 인물로 밀접히 교류했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dalembert",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "달랑베르와 오일러는 18세기 수학과 물리학의 양대 산맥이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dalembert",
+    "target": "newton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "달랑베르는 뉴턴의 역학을 수학적으로 정교화하여 달랑베르 원리를 제시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-ferguson",
+    "target": "adam-smith",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "퍼거슨과 스미스는 스코틀랜드 계몽주의의 핵심 동료로 사회이론을 발전시켰다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "adam-ferguson",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "퍼거슨의 노동분업론과 소외 개념은 마르크스에게 중요한 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "adam-ferguson",
+    "target": "montesquieu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "퍼거슨은 몽테스키외의 정치사회학에서 시민사회 분석의 모델을 찾았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hildegard-of-bingen",
+    "target": "augustine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "힐데가르트는 아우구스티누스의 신학에서 신비적 비전의 이론적 배경을 얻었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hildegard-of-bingen",
+    "target": "boethius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "힐데가르트의 음악이론은 보에티우스의 음악 철학에 기초했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hildegard-of-bingen",
+    "target": "thomas-aquinas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "힐데가르트의 자연관은 아퀴나스의 자연신학에 간접적 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hildegard-of-bingen",
+    "target": "francis-assisi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "힐데가르트와 프란치스코는 자연 속에서 신성을 발견한 중세 영성가였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "daniel-bernoulli",
+    "target": "newton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "베르누이는 뉴턴 역학을 유체역학으로 확장하여 베르누이 원리를 발견했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "daniel-bernoulli",
+    "target": "leibniz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베르누이 가문은 라이프니츠의 미적분을 물리학에 적극 적용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wegener",
+    "target": "humboldt",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베게너는 훔볼트의 지리학적 방법론을 대륙이동설 연구에 적용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wegener",
+    "target": "galileo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "베게너와 갈릴레오는 각각의 시대에서 기존 패러다임에 도전하여 처음에는 배척받았다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "wegener",
+    "target": "kuhn",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베게너의 대륙이동설은 쿤의 과학혁명 구조에서 패러다임 전환의 대표적 사례가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bohr",
+    "target": "kierkegaard",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "보어의 상보성 원리는 키르케고르의 실존적 역설 개념에서 영향을 받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "godel",
+    "target": "leibniz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "괴델은 라이프니츠의 합리론에서 수학적 플라톤주의의 기초를 발견했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "xenophanes",
+    "target": "pythagoras",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "크세노파네스는 피타고라스의 윤회설을 조롱하며 비판했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "xenophanes",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "크세노파네스는 탈레스의 자연철학을 신학적 비판으로 확장했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "anaxagoras",
+    "target": "empedocles",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아낙사고라스와 엠페도클레스는 다원론적 자연철학을 각기 발전시킨 동시대인이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zeno-of-elea",
+    "target": "plato",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "엘레아의 제논의 역설은 플라톤의 《파르메니데스》에서 중요하게 다루어졌다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zeno-of-elea",
+    "target": "aristotle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "제논의 역설은 아리스토텔레스의 무한과 연속성 분석의 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zeno-of-elea",
+    "target": "russell",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "제논의 역설은 러셀의 수학 철학과 무한 분석에 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "leucippus",
+    "target": "empedocles",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "레우키포스는 엠페도클레스의 다원론에서 원자론의 기초를 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "leucippus",
+    "target": "parmenides",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "레우키포스는 파르메니데스의 존재론을 원자와 허공의 이원론으로 변형시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "leucippus",
+    "target": "dalton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "레우키포스의 원자론은 돌턴의 근대 원자설의 철학적 선구가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "diogenes-sinope",
+    "target": "plato",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "디오게네스는 플라톤의 이데아론을 조롱하며 실천적 삶의 철학을 주장했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "diogenes-sinope",
+    "target": "alexander-the-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "디오게네스와 알렉산드로스의 만남은 철학과 권력의 대비를 보여준 유명한 일화이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "diogenes-sinope",
+    "target": "epictetus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "디오게네스의 금욕적 삶은 에픽테토스의 스토아적 실천에 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "porphyry",
+    "target": "augustine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "포르피리오스의 신플라톤주의는 아우구스티누스의 기독교 철학에 깊은 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "porphyry",
+    "target": "boethius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "포르피리오스의 《이사고게》는 보에티우스를 통해 중세 논리학의 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "pseudo-dionysius",
+    "target": "thomas-aquinas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "위(僞)디오니시우스의 신비신학은 아퀴나스의 신학에 결정적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "pseudo-dionysius",
+    "target": "john-scotus-eriugena",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "위디오니시우스는 에리우게나의 부정신학에 핵심적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-khaldun",
+    "target": "aristotle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "이븐 할둔은 아리스토텔레스의 정치학에서 문명 분석의 방법론을 배웠다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cleopatra",
+    "target": "augustus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "클레오파트라와 옥타비아누스는 악티움 해전에서 지중해 패권을 놓고 대결했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "cleopatra",
+    "target": "alexander-the-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "클레오파트라는 알렉산드로스 이래 헬레니즘 왕조의 마지막 통치자였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "cleopatra",
+    "target": "virgil",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "클레오파트라의 이야기는 베르길리우스의 《아이네이스》에 묘사되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "marco-polo",
+    "target": "columbus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마르코 폴로의 여행기는 콜럼버스의 항해 동기에 직접적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "marco-polo",
+    "target": "zheng-he",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "폴로와 정화는 동서양의 대표적 탐험가로 문명간 교류에 기여했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marco-polo",
+    "target": "ibn-khaldun",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "폴로와 이븐 할둔은 13-14세기 문명간 교류의 기록자였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mother-teresa",
+    "target": "francis-assisi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "마더 테레사는 아시시의 프란치스코의 가난한 이들을 위한 봉사 정신을 계승했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mother-teresa",
+    "target": "desmond-tutu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "테레사와 투투는 동시대 종교적 사회운동가로 인류애를 실천했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mother-teresa",
+    "target": "bonhoeffer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "parallel",
+    "description": "테레사와 본회퍼는 각각 봉사와 저항으로 기독교 실천윤리를 체현했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "spartacus",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "스파르타쿠스의 노예 봉기는 마르크스의 계급투쟁론에서 중요한 역사적 선례였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "spartacus",
+    "target": "hannibal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "스파르타쿠스는 한니발처럼 로마의 군사적 패권에 도전한 역사적 인물이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "augustus",
+    "target": "cicero",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "아우구스투스와 키케로는 로마 공화정에서 제정으로의 전환기를 함께 경험했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "elon-musk",
+    "target": "nikola-tesla",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "테슬라의 혁신 정신은 머스크의 전기차 회사(테슬라) 설립에 직접적 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "greta-thunberg",
+    "target": "rachel-carson",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카슨의 환경 운동 유산은 툰베리의 기후 행동주의에 사상적 토대를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "greta-thunberg",
+    "target": "gandhi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "간디의 비폭력 시민불복종은 툰베리의 평화적 기후 시위에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "daniel-bernoulli",
+    "target": "laplace",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "베르누이의 확률론 연구는 라플라스의 확률론 체계화에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "darwin",
+    "target": "malthus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "맬서스의 인구론은 다윈의 자연선택 이론 형성에 결정적 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mother-teresa",
+    "target": "gandhi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contextual",
+    "description": "인도에서 활동한 두 인물로, 간디의 비폭력 정신은 테레사의 봉사 활동과 맥을 같이한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "freud",
+    "target": "jung",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "프로이트는 융의 스승이었으나 나중에 결별했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jung",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "니체의 디오니소스적 사상이 융의 원형론에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jung",
+    "target": "schopenhauer",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "쇼펜하우어의 의지 개념이 융의 집단무의식에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "freud",
+    "target": "nietzsche",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "니체의 무의식적 충동 분석이 프로이트에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "joseph-campbell",
+    "target": "jung",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "융의 원형 이론이 캠벨의 비교신화학에 결정적 영향을 주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mircea-eliade",
+    "target": "jung",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "융의 원형론이 엘리아데의 종교현상학에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-maynard-keynes",
+    "target": "adam-smith",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "케인즈는 스미스의 고전 경제학을 발전시키고 수정했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "friedrich-hayek",
+    "target": "john-maynard-keynes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "하이에크는 케인즈의 정부 개입론에 반대했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "milton-friedman",
+    "target": "john-maynard-keynes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "프리드먼은 케인즈주의에 반대하며 통화주의를 주장했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ludwig-von-mises",
+    "target": "friedrich-hayek",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "미제스는 하이에크의 스승이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "daniel-kahneman",
+    "target": "adam-smith",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "카너먼은 스미스의 합리적 인간 가정에 도전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-said",
+    "target": "foucault",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "푸코의 담론 분석이 사이드의 오리엔탈리즘에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "arne-naess",
+    "target": "rachel-carson",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "카슨의 환경 운동이 네스의 심층생태학에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-lorenz",
+    "target": "laplace",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "developed",
+    "description": "로렌츠는 라플라스적 결정론의 한계를 카오스 이론으로 보여주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "helena-blavatsky",
+    "target": "ramakrishna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "라마크리슈나의 힌두 영성이 블라바츠키의 신지학에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "justin-martyr",
+    "target": "moses",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "유스티누스과(와) 모세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "justin-martyr",
+    "target": "zoroaster",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "유스티누스과(와) 조로아스터(자라투스트라)은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nikola-tesla",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "니콜라 테슬라과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nikola-tesla",
+    "target": "poincare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "니콜라 테슬라과(와) 앙리 푸앵카레은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nikola-tesla",
+    "target": "sherrington",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "니콜라 테슬라과(와) 찰스 셰링턴은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "malthus",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "토머스 맬서스과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "malthus",
+    "target": "vesalius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "토머스 맬서스과(와) 베살리우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "malthus",
+    "target": "tycho-brahe",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "토머스 맬서스과(와) 티코 브라헤은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "레이 커즈와일과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "poincare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "레이 커즈와일과(와) 앙리 푸앵카레은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "sherrington",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "레이 커즈와일과(와) 찰스 셰링턴은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "henry-viii",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헨리 8세과(와) 엘리자베스 1세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "henry-viii",
+    "target": "akbar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헨리 8세과(와) 악바르은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "henry-viii",
+    "target": "tokugawa-ieyasu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헨리 8세과(와) 도쿠가와 이에야스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "melissus",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "멜리소스과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "melissus",
+    "target": "anaximander",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "멜리소스과(와) 아낙시만드로스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thrasymachus",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "트라시마코스과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thrasymachus",
+    "target": "anaximander",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "트라시마코스과(와) 아낙시만드로스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "phaedo",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "파이돈과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "phaedo",
+    "target": "anaximander",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "파이돈과(와) 아낙시만드로스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "clement-of-alexandria",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "클레멘스 (알렉산드리아)과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "clement-of-alexandria",
+    "target": "anaximander",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "클레멘스 (알렉산드리아)과(와) 아낙시만드로스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-of-damascus",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "요한 다마스쿠스과(와) 오리게네스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-of-damascus",
+    "target": "augustine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "요한 다마스쿠스과(와) 아우구스티누스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "condillac",
+    "target": "erasmus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "콩디야크과(와) 에라스무스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "condillac",
+    "target": "machiavelli",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "콩디야크과(와) 마키아벨리은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anscombe",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "엘리자베스 앤스콤과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anscombe",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "엘리자베스 앤스콤과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dummett",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마이클 더밋과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dummett",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마이클 더밋과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "edward-said",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "에드워드 사이드과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "edward-said",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "에드워드 사이드과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "arne-naess",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아르네 네스과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "arne-naess",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아르네 네스과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "joseph-campbell",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "조지프 캠벨과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "joseph-campbell",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "조지프 캠벨과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "milton-friedman",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "밀턴 프리드먼과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "milton-friedman",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "밀턴 프리드먼과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ludwig-von-mises",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "루트비히 폰 미제스과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ludwig-von-mises",
+    "target": "william-james",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "루트비히 폰 미제스과(와) 윌리엄 제임스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "stephen-martyr",
+    "target": "moses",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "스데반과(와) 모세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thomas-a-kempis",
+    "target": "athanasius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "토마스 아 켐피스과(와) 아타나시우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "savonarola",
+    "target": "athanasius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "사보나롤라과(와) 아타나시우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "george-fox",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "조지 폭스과(와) 마르틴 루터은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "al-tabari",
+    "target": "athanasius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "알타바리과(와) 아타나시우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "al-ashari",
+    "target": "athanasius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "알아샤리과(와) 아타나시우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ibn-al-farid",
+    "target": "athanasius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "이븐 알파리드과(와) 아타나시우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "al-suyuti",
+    "target": "athanasius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "알수유티과(와) 아타나시우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shah-waliullah",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "샤 왈리울라과(와) 마르틴 루터은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tulsidas",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "툴시다스과(와) 마르틴 루터은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "swami-dayananda",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "스와미 다야난다 사라스와티과(와) 마르틴 루터은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "judah-ha-nasi",
+    "target": "moses",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "유다 하나시(랍비 유다 왕자)과(와) 모세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "laplace",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "피에르시몽 라플라스과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "laplace",
+    "target": "vesalius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "피에르시몽 라플라스과(와) 베살리우스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "edward-lorenz",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "에드워드 로렌츠과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "edward-lorenz",
+    "target": "poincare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "에드워드 로렌츠과(와) 앙리 푸앵카레은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vasco-da-gama",
+    "target": "charlemagne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "바스코 다 가마과(와) 카를 대제은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vasco-da-gama",
+    "target": "saladin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "바스코 다 가마과(와) 살라딘은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "magellan",
+    "target": "charlemagne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마젤란과(와) 카를 대제은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "magellan",
+    "target": "saladin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마젤란과(와) 살라딘은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sitting-bull",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "시팅 불과(와) 엘리자베스 1세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sitting-bull",
+    "target": "akbar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "시팅 불과(와) 악바르은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rodin",
+    "target": "cervantes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "오귀스트 로댕과(와) 미겔 데 세르반테스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rodin",
+    "target": "shakespeare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "오귀스트 로댕과(와) 윌리엄 셰익스피어은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tchaikovsky",
+    "target": "cervantes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "표트르 차이콥스키과(와) 미겔 데 세르반테스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tchaikovsky",
+    "target": "shakespeare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "표트르 차이콥스키과(와) 윌리엄 셰익스피어은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "klimt",
+    "target": "cervantes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "구스타프 클림트과(와) 미겔 데 세르반테스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "klimt",
+    "target": "shakespeare",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "구스타프 클림트과(와) 윌리엄 셰익스피어은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "amundsen",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아문센과(와) 엘리자베스 1세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "amundsen",
+    "target": "akbar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아문센과(와) 악바르은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "louis-armstrong",
+    "target": "frida-kahlo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "루이 암스트롱과(와) 프리다 칼로은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "louis-armstrong",
+    "target": "garcia-marquez",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "루이 암스트롱과(와) 가브리엘 가르시아 마르케스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "andy-warhol",
+    "target": "frida-kahlo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "앤디 워홀과(와) 프리다 칼로은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "andy-warhol",
+    "target": "garcia-marquez",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "앤디 워홀과(와) 가브리엘 가르시아 마르케스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neil-armstrong",
+    "target": "rosa-parks",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "닐 암스트롱과(와) 로자 파크스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neil-armstrong",
+    "target": "mandela",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "닐 암스트롱과(와) 넬슨 만델라은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-lennon",
+    "target": "frida-kahlo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "존 레논과(와) 프리다 칼로은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-lennon",
+    "target": "garcia-marquez",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "존 레논과(와) 가브리엘 가르시아 마르케스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hammurabi",
+    "target": "sun-tzu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "함무라비과(와) 손자은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hammurabi",
+    "target": "alexander-the-great",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "함무라비과(와) 알렉산드로스 대왕은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "helena-blavatsky",
+    "target": "rosa-parks",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헬레나 블라바츠키과(와) 로자 파크스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "helena-blavatsky",
+    "target": "mandela",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헬레나 블라바츠키과(와) 넬슨 만델라은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anaximenes",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아낙시메네스과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "xenophon",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "크세노폰과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zeno-of-citium",
+    "target": "thales",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "제논 (키티온)과(와) 탈레스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ramanuja",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "라마누자과(와) 오리게네스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ibn-bajja",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "이븐 바즈자과(와) 오리게네스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ibn-tufayl",
+    "target": "origen",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "이븐 투파일과(와) 오리게네스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "arnauld",
+    "target": "erasmus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아르노과(와) 에라스무스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "malebranche",
+    "target": "erasmus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "말브랑슈과(와) 에라스무스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "helvetius",
+    "target": "erasmus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "엘베시우스과(와) 에라스무스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marcel",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "가브리엘 마르셀과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "goodman",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "넬슨 굿먼과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "guattari",
+    "target": "peirce",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "펠릭스 과타리과(와) 퍼스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bahau-llah",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "바하울라과(와) 마르틴 루터은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zhang-heng",
+    "target": "hippocrates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "장형과(와) 히포크라테스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "edward-jenner",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "에드워드 제너과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "carnot",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "사디 카르노과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rayleigh",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "존 레일리과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "cecilia-payne",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "세실리아 페인과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "higgs",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "피터 힉스과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "aryabhata",
+    "target": "hippocrates",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아리아바타과(와) 히포크라테스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "volta",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "알레산드로 볼타과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "abel",
+    "target": "copernicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "닐스 헨리크 아벨과(와) 코페르니쿠스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "becquerel",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "앙리 베크렐과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rachel-carson",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "레이첼 카슨과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "daniel-kahneman",
+    "target": "ramon-y-cajal",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "대니얼 카너먼과(와) 산티아고 라몬 이 카할은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "saladin",
+    "target": "charlemagne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "살라딘과(와) 카를 대제은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zheng-he",
+    "target": "charlemagne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "정화과(와) 카를 대제은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "joan-of-arc",
+    "target": "charlemagne",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "잔 다르크과(와) 카를 대제은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "queen-victoria",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "빅토리아 여왕과(와) 엘리자베스 1세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "susan-b-anthony",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "수전 B. 앤서니과(와) 엘리자베스 1세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rommel",
+    "target": "elizabeth-i",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "롬멜과(와) 엘리자베스 1세은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "aung-san-suu-kyi",
+    "target": "rosa-parks",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아웅산 수치과(와) 로자 파크스은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "coco-chanel",
+    "target": "frida-kahlo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "코코 샤넬과(와) 프리다 칼로은(는) 같은 시대에 활동한 동시대인이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nikola-tesla",
+    "target": "hertz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤르츠의 전자기파 실험은 테슬라의 무선 전송 연구에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "henry-viii",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헨리 8세와 마르틴 루터는 동시대 종교개혁의 주역이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "henry-viii",
+    "target": "thomas-more",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헨리 8세는 토마스 모어를 대법관으로 임명했으나 후에 처형했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "justin-martyr",
+    "target": "clement-of-alexandria",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "유스티누스의 호교론적 방법은 클레멘스의 기독교-철학 종합에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "justin-martyr",
+    "target": "tertullian",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "유스티누스의 순교 전통은 테르툴리아누스의 호교론에 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "daniel-kahneman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "커즈와일과 카너먼은 인간 인지와 기술의 미래에 대해 다른 관점을 가졌다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "malthus",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "마르크스는 맬서스의 인구론을 부르주아 이데올로기로 비판했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "malthus",
+    "target": "john-maynard-keynes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "맬서스의 유효수요 개념은 케인즈 경제학의 선구적 아이디어였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tulsidas",
+    "target": "mirabai",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "툴시다스와 미라바이는 같은 시대 힌두 박티 운동의 대표자들이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rodin",
+    "target": "klimt",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "로댕과 클림트는 19세기 말 유럽 예술의 혁신을 이끈 동시대 예술가였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rodin",
+    "target": "victor-hugo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "로댕은 빅토르 위고의 기념 조각상을 제작했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "magellan",
+    "target": "vasco-da-gama",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마젤란과 바스코 다 가마는 포르투갈 대항해시대의 주역이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shah-waliullah",
+    "target": "abu-hanifa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "샤 왈리울라는 하나피 법학파를 따르면서도 독자적 해석을 추구했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "al-ashari",
+    "target": "al-kindi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "알아샤리는 무타질라파의 합리주의 신학에 반대하여 정통 신학을 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad-al-mahdi",
+    "target": "husayn-ibn-ali",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "후사인의 순교 전통은 마흐디론의 형성에 깊은 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-damascus",
+    "target": "pseudo-dionysius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "위-디오니시우스의 부정신학은 다마스쿠스의 요한의 신학에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "phaedo",
+    "target": "plato",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "파이돈과 플라톤은 소크라테스의 동문 제자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "phaedo",
+    "target": "xenophon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "파이돈과 크세노폰은 소크라테스의 제자들이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thomas-a-kempis",
+    "target": "ignatius-loyola",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "토마스 아 켐피스의 「그리스도를 본받아」는 이그나티우스의 영성에 깊은 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "imam-nawawi",
+    "target": "al-ghazali",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "가잘리의 영성 전통은 나와위의 종교적 저술에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-lorenz",
+    "target": "daniel-kahneman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "로렌츠와 카너먼은 불확실성과 예측의 한계를 연구한 동시대 학자였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tchaikovsky",
+    "target": "chopin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "차이콥스키와 쇼팽은 19세기 낭만주의 음악의 대표 작곡가였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tchaikovsky",
+    "target": "mozart",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "차이콥스키는 모차르트를 깊이 존경하여 작품 스타일에 영향을 받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thrasymachus",
+    "target": "hippias",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "트라시마코스와 히피아스는 같은 시대의 소피스트였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "edward-said",
+    "target": "derrida",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "사이드와 데리다는 해체주의적 문화 비평에서 교류했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "stephen-martyr",
+    "target": "peter",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "스데반은 사도 베드로와 함께 초대교회에서 활동했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "laplace",
+    "target": "newton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "뉴턴의 역학은 라플라스의 천체역학 연구의 기초가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "laplace",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "라플라스는 오일러의 수학적 방법론을 계승하여 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "andy-warhol",
+    "target": "bob-dylan",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "워홀과 밥 딜런은 1960년대 미국 대중문화를 대표하는 인물이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "andy-warhol",
+    "target": "john-lennon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "워홀과 존 레논은 뉴욕 예술계에서 교류한 동시대 문화 아이콘이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "louis-armstrong",
+    "target": "charlie-chaplin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "암스트롱과 채플린은 20세기 미국 대중문화의 아이콘이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "louis-armstrong",
+    "target": "bob-dylan",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "암스트롱과 딜런은 미국 대중음악사에서 혁신적 역할을 했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "klimt",
+    "target": "freud",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "클림트와 프로이트는 세기말 빈에서 무의식과 에로스의 주제를 탐구했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "abdul-qadir-jilani",
+    "target": "bernard-clairvaux",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "질라니와 클레르보의 베르나르는 동서양에서 신비주의 영성을 이끈 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "milton-friedman",
+    "target": "friedrich-hayek",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "프리드먼과 하이에크는 자유시장 경제를 옹호한 동시대 경제학자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-of-damascus",
+    "target": "thomas-aquinas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "다마스쿠스의 요한의 신학적 체계는 토마스 아퀴나스에게 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sitting-bull",
+    "target": "queen-victoria",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "시팅 불과 빅토리아 여왕은 제국주의 시대의 대립적 위치에 있었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sitting-bull",
+    "target": "theodore-roosevelt",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "시팅 불과 루스벨트는 미국 서부 개척 시대의 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "melissus",
+    "target": "zeno-of-elea",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "멜리소스와 엘레아의 제논은 파르메니데스 존재론의 옹호자들이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "swami-dayananda",
+    "target": "ramakrishna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "다야난다와 라마크리슈나는 19세기 인도 종교 개혁의 양대 인물이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neil-armstrong",
+    "target": "theodore-roosevelt",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "암스트롱과 루스벨트는 미국의 탐험 정신을 대표하는 인물이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "amundsen",
+    "target": "neil-armstrong",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아문센과 닐 암스트롱은 인류 탐험사의 위대한 업적을 남긴 탐험가들이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "amundsen",
+    "target": "queen-victoria",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아문센은 빅토리아 시대 말기의 위대한 탐험가였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "daniel-kahneman",
+    "target": "milton-friedman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "카너먼의 행동경제학은 합리적 행위자 가정에 기반한 프리드먼의 경제학에 도전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dummett",
+    "target": "frege",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프레게의 언어철학은 더밋의 반실재론 형성에 핵심적 기초가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "dummett",
+    "target": "kripke",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "더밋과 크립키는 언어철학과 형이상학에서 서로 다른 입장을 대표했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rabia-al-adawiyya",
+    "target": "hasan-al-basri",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하산 알바스리의 금욕적 경건주의는 라비아의 수피 영성에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "polycarp",
+    "target": "john-apostle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "폴리카르프는 사도 요한의 직접 제자로 전해진다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "billy-graham",
+    "target": "cs-lewis",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "그레이엄과 C.S. 루이스는 20세기 기독교 변증의 대표적 인물들이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zeno-of-citium",
+    "target": "antisthenes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "안티스테네스의 견유학파는 제논의 스토아 철학 형성에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zhang-heng",
+    "target": "aryabhata",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "장형과 아리아바타는 동아시아와 남아시아의 고대 천문학을 대표하는 학자였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "umar-ibn-khattab",
+    "target": "abu-bakr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "우마르와 아부 바크르는 이슬람 초기 칼리프로 함께 활동했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rommel",
+    "target": "churchill",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "롬멜과 처칠은 2차 세계대전의 적대적 관계에 있었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "cecilia-payne",
+    "target": "chandrasekhar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "페인과 찬드라세카르는 천체물리학의 혁신을 이끈 동시대 과학자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "goodman",
+    "target": "quine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "굿먼과 콰인은 하버드에서 함께 연구한 분석철학자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "aung-san-suu-kyi",
+    "target": "gandhi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "간디의 비폭력 저항 사상은 아웅산 수치의 민주화 운동에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hippolytus",
+    "target": "tertullian",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "히폴리토스와 테르툴리아누스는 초기 교회 이단 논쟁의 동시대 인물이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "abraham-heschel",
+    "target": "martin-luther-king",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헤셸과 마틴 루터 킹은 시민권 운동에서 함께 행진한 동지였다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "proclus",
+    "target": "pseudo-dionysius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프로클로스의 신플라톤주의는 위-디오니시우스의 부정신학에 깊은 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "carnot",
+    "target": "laplace",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "라플라스의 수학적 방법은 카르노의 열역학 분석에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anandamayi-ma",
+    "target": "ramana-maharshi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아난다마이 마와 라마나 마하르시는 현대 인도 영성의 대표적 인물이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "uthman-ibn-affan",
+    "target": "abu-bakr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "우스만과 아부 바크르는 이슬람 초기의 정통 칼리프들이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rayleigh",
+    "target": "hertz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "레일리와 헤르츠는 19세기 물리학의 주요 업적을 남긴 동시대 과학자였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "coco-chanel",
+    "target": "andy-warhol",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "샤넬과 워홀은 20세기 패션과 예술의 경계를 넘나든 문화 아이콘이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marcel",
+    "target": "sartre",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마르셀과 사르트르는 실존주의 내에서 유신론과 무신론의 대립을 대표했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hippias",
+    "target": "prodicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "히피아스와 프로디코스는 같은 시대 소피스트로 활동했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "suleiman",
+    "target": "henry-viii",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "술레이만과 헨리 8세는 16세기 동서양의 강력한 군주였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jonas-salk",
+    "target": "edward-jenner",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "제너의 백신학 전통은 소크의 소아마비 백신 개발에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "landau",
+    "target": "wolfgang-pauli",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "란다우와 파울리는 양자역학과 이론물리학의 동시대 거장이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tokugawa-ieyasu",
+    "target": "francis-xavier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "도쿠가와와 하비에르는 일본의 기독교 선교 시대의 인물이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yi-sun-sin",
+    "target": "tokugawa-ieyasu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "이순신과 도쿠가와 이에야스는 임진왜란 시대의 적대적 관계에 있었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ohm",
+    "target": "volta",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "옴과 볼타는 전기학의 발전에 기여한 동시대 과학자였다",
+    "strength": 2,
+    "direction": "bidirectional"
   }
 ]

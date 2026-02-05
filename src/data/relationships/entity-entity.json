@@ -814,16 +814,6 @@
     "direction": "directed"
   },
   {
-    "source": "world-war-i",
-    "target": "world-war-ii",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "1차 대전의 불완전한 평화(베르사유 조약)는 2차 대전의 직접적 원인이 되었다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "cold-war",
     "target": "internet-revolution",
     "sourceType": "entity",
@@ -890,16 +880,6 @@
     "targetType": "entity",
     "type": "preceded",
     "description": "니케아 공의회의 신학적 결정이 이후 동서 교회 분열의 원인 중 하나가 되었다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "crusades",
-    "target": "renaissance",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "십자군 전쟁을 통한 이슬람 문화와의 접촉이 르네상스의 지적 토양을 비옥하게 했다",
     "strength": 2,
     "direction": "directed"
   },
@@ -1045,31 +1025,11 @@
   },
   {
     "source": "structuralism-movement",
-    "target": "postmodernism-movement",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "preceded",
-    "description": "구조주의의 한계에 대한 비판에서 포스트모더니즘이 탄생했다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "structuralism-movement",
     "target": "deconstructionism",
     "sourceType": "entity",
     "targetType": "entity",
     "type": "evolved_into",
     "description": "구조주의는 데리다 등에 의해 해체주의로 비판적으로 발전했다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "analytic-philosophy-movement",
-    "target": "vienna-circle",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "part_of",
-    "description": "빈 학파는 분석철학 운동의 핵심 분파이다",
     "strength": 3,
     "direction": "directed"
   },
@@ -1504,16 +1464,6 @@
     "direction": "directed"
   },
   {
-    "source": "analects",
-    "target": "ren-confucius",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "part_of",
-    "description": "논어에서 인(仁)은 가장 핵심적인 윤리 개념으로 다뤄진다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "ethics-spinoza",
     "target": "rationalism",
     "sourceType": "entity",
@@ -1624,16 +1574,6 @@
     "direction": "directed"
   },
   {
-    "source": "world-war-ii",
-    "target": "cold-war",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "preceded",
-    "description": "2차 대전의 결과는 냉전 체제의 직접적 배경이 되었다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "nihilism",
     "target": "postmodernism-movement",
     "sourceType": "entity",
@@ -1670,16 +1610,6 @@
     "targetType": "entity",
     "type": "influenced",
     "description": "진화론은 생태계 상호의존성 인식을 통해 환경주의 사상에 기여했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "cold-war",
-    "target": "internet-revolution",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "preceded",
-    "description": "냉전의 군사 기술 연구는 인터넷 혁명의 기술적 배경이 되었다",
     "strength": 2,
     "direction": "directed"
   },
@@ -2144,16 +2074,6 @@
     "direction": "directed"
   },
   {
-    "source": "age-of-exploration",
-    "target": "industrial-revolution",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "대항해시대의 식민 무역은 산업혁명의 자본 축적에 기여했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
     "source": "scientific-revolution",
     "target": "quantum-mechanics",
     "sourceType": "entity",
@@ -2174,26 +2094,6 @@
     "direction": "directed"
   },
   {
-    "source": "french-revolution",
-    "target": "industrial-revolution",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "preceded",
-    "description": "프랑스 혁명의 사회 변혁은 산업 발전의 정치적 조건을 마련했다",
-    "strength": 1,
-    "direction": "directed"
-  },
-  {
-    "source": "american-revolution",
-    "target": "french-revolution",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "미국 독립혁명의 성공은 프랑스 혁명의 직접적 영감이 되었다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "quantum-mechanics",
     "target": "cold-war",
     "sourceType": "entity",
@@ -2211,26 +2111,6 @@
     "type": "preceded",
     "description": "2차 세계대전 후 과학 연구의 폭발적 성장이 DNA 발견을 촉진했다",
     "strength": 1,
-    "direction": "directed"
-  },
-  {
-    "source": "dna-discovery",
-    "target": "internet-revolution",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "DNA 발견의 정보 기술적 측면은 생물정보학과 인터넷 기술의 발전에 기여했다",
-    "strength": 1,
-    "direction": "directed"
-  },
-  {
-    "source": "printing-press",
-    "target": "protestant-reformation",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "인쇄술은 루터의 95개조 논제와 성경 번역의 대량 보급을 가능하게 했다",
-    "strength": 3,
     "direction": "directed"
   },
   {
@@ -2454,16 +2334,6 @@
     "direction": "directed"
   },
   {
-    "source": "phenomenology-movement",
-    "target": "existentialism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "preceded",
-    "description": "후설의 현상학은 하이데거와 사르트르의 실존주의에 직접적으로 선행했다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "humanism-movement",
     "target": "scientific-revolution",
     "sourceType": "entity",
@@ -2595,16 +2465,6 @@
   },
   {
     "source": "das-kapital",
-    "target": "russian-revolution",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "《자본론》의 자본주의 분석은 러시아 혁명의 이론적 무기가 되었다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "das-kapital",
     "target": "industrial-revolution",
     "sourceType": "entity",
     "targetType": "entity",
@@ -2711,16 +2571,6 @@
     "type": "influenced",
     "description": "리바이어던의 절대 주권론은 근대 국민국가와 민족주의의 이론적 기초가 되었다",
     "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "social-contract",
-    "target": "french-revolution",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "루소의 사회계약론은 프랑스 혁명의 직접적 사상적 토대가 되었다",
-    "strength": 3,
     "direction": "directed"
   },
   {
@@ -2950,16 +2800,6 @@
     "targetType": "entity",
     "type": "influenced",
     "description": "변증법은 마르크스의 역사 유물론과 공산주의 이론의 핵심 방법론이다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "cogito",
-    "target": "rationalism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "데카르트의 코기토는 합리주의 인식론의 출발점이다",
     "strength": 3,
     "direction": "directed"
   },
@@ -3534,16 +3374,6 @@
     "direction": "directed"
   },
   {
-    "source": "great-schism",
-    "target": "protestant-reformation",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "동서 교회 분열의 경험은 이후 서방 교회 내 종교개혁의 역사적 맥락을 형성했다",
-    "strength": 1,
-    "direction": "directed"
-  },
-  {
     "source": "renaissance",
     "target": "humanism",
     "sourceType": "entity",
@@ -3624,16 +3454,6 @@
     "direction": "directed"
   },
   {
-    "source": "world-war-i",
-    "target": "feminism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "1차 세계대전 중 여성의 사회 참여 확대가 여성 참정권 운동을 가속화했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
     "source": "world-war-ii",
     "target": "feminism",
     "sourceType": "entity",
@@ -3694,36 +3514,6 @@
     "direction": "directed"
   },
   {
-    "source": "black-death",
-    "target": "renaissance",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "흑사병은 기존 사회질서를 붕괴시켜 르네상스의 사회적 조건을 마련했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "protestant-reformation",
-    "target": "scientific-revolution",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "preceded",
-    "description": "종교개혁의 권위 비판 정신은 과학혁명의 지적 환경에 기여했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "age-of-exploration",
-    "target": "scientific-revolution",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "preceded",
-    "description": "대항해시대의 지리적 발견은 과학혁명을 촉진했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
     "source": "world-war-i",
     "target": "cold-war",
     "sourceType": "entity",
@@ -3774,16 +3564,6 @@
     "direction": "bidirectional"
   },
   {
-    "source": "nihilism",
-    "target": "existentialism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "허무주의에 대한 극복 시도가 실존주의의 핵심 동력이 되었다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "anarchism",
     "target": "socialism",
     "sourceType": "entity",
@@ -3824,36 +3604,6 @@
     "direction": "bidirectional"
   },
   {
-    "source": "phenomenology-movement",
-    "target": "deconstructionism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "현상학적 전통은 데리다의 해체주의에 비판적 출발점을 제공했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "vienna-circle",
-    "target": "analytic-philosophy-movement",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "part_of",
-    "description": "빈 학파는 분석철학 운동의 핵심적 분파이다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "critical-theory-movement",
-    "target": "postmodernism-movement",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "비판이론의 사회 비판은 포스트모더니즘에 영향을 미쳤다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
     "source": "enlightenment-movement",
     "target": "analytic-philosophy-movement",
     "sourceType": "entity",
@@ -3861,16 +3611,6 @@
     "type": "influenced",
     "description": "계몽주의의 이성과 과학 중시는 분석철학의 정신적 토대가 되었다",
     "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "enlightenment-movement",
-    "target": "liberalism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "계몽주의 운동은 자유주의 정치사상의 직접적 토대가 되었다",
-    "strength": 3,
     "direction": "directed"
   },
   {
@@ -3940,26 +3680,6 @@
     "targetType": "entity",
     "type": "influenced",
     "description": "자본론은 역사적 유물론을 경제 분석에 적용한 텍스트이다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "ethics-spinoza",
-    "target": "rationalism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "에티카는 기하학적 방법을 통한 합리론의 정점을 보여준다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "phenomenology-of-spirit",
-    "target": "dialectic",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "정신현상학은 변증법을 의식의 발전 원리로 체계화했다",
     "strength": 3,
     "direction": "directed"
   },
@@ -4135,16 +3855,6 @@
   },
   {
     "source": "french-revolution",
-    "target": "liberalism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "프랑스 혁명은 자유·평등·박애의 이념을 확산시켜 자유주의를 발전시켰다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "french-revolution",
     "target": "feminism",
     "sourceType": "entity",
     "targetType": "entity",
@@ -4160,16 +3870,6 @@
     "targetType": "entity",
     "type": "caused",
     "description": "제1차 세계대전의 참화는 실존주의의 등장에 결정적 영향을 미쳤다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "world-war-ii",
-    "target": "existentialism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "제2차 세계대전은 실존주의를 전후 유럽의 주도적 사상으로 만들었다",
     "strength": 3,
     "direction": "directed"
   },
@@ -4195,16 +3895,6 @@
   },
   {
     "source": "scientific-revolution",
-    "target": "rationalism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "과학혁명은 이성적 방법의 성공을 입증하여 합리론을 강화했다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "scientific-revolution",
     "target": "empiricism",
     "sourceType": "entity",
     "targetType": "entity",
@@ -4224,16 +3914,6 @@
     "direction": "directed"
   },
   {
-    "source": "scientific-revolution",
-    "target": "determinism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "과학혁명의 법칙적 자연관은 결정론적 세계관의 토대를 마련했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
     "source": "quantum-mechanics",
     "target": "determinism",
     "sourceType": "entity",
@@ -4242,16 +3922,6 @@
     "description": "양자역학의 불확정성 원리는 고전적 결정론에 도전했다",
     "strength": 3,
     "direction": "bidirectional"
-  },
-  {
-    "source": "renaissance",
-    "target": "humanism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "르네상스는 인간 중심적 사유의 부흥을 이끌어 인본주의를 발전시켰다",
-    "strength": 3,
-    "direction": "directed"
   },
   {
     "source": "renaissance",
@@ -4304,62 +3974,12 @@
     "direction": "directed"
   },
   {
-    "source": "thing-in-itself",
-    "target": "idealism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "물자체 개념은 독일 관념론의 핵심 문제가 되었다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "dialectic",
-    "target": "idealism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "변증법은 헤겔에 의해 관념론의 핵심 방법론이 되었다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "eternal-recurrence",
-    "target": "nihilism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "opposed_to",
-    "description": "영원회귀는 니체가 허무주의를 극복하기 위해 제시한 사상이다",
-    "strength": 3,
-    "direction": "bidirectional"
-  },
-  {
-    "source": "deconstruction",
-    "target": "postmodernism-movement",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "해체 개념은 포스트모더니즘의 핵심 철학 방법론이다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "karma",
     "target": "nirvana",
     "sourceType": "entity",
     "targetType": "entity",
     "type": "influenced",
     "description": "카르마의 업보에서 벗어나는 것이 니르바나의 핵심이다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "four-noble-truths",
-    "target": "middle-way",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "사성제의 팔정도는 중도의 실천적 내용이다",
     "strength": 3,
     "direction": "directed"
   },
@@ -4374,62 +3994,12 @@
     "direction": "directed"
   },
   {
-    "source": "atman",
-    "target": "brahman",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "아트만과 브라만의 동일성은 힌두 철학의 핵심 명제이다",
-    "strength": 3,
-    "direction": "bidirectional"
-  },
-  {
-    "source": "dao",
-    "target": "wu-wei",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "도의 자연적 흐름에 따르는 것이 무위이다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "dao",
     "target": "yin-yang",
     "sourceType": "entity",
     "targetType": "entity",
     "type": "influenced",
     "description": "도는 음양의 상호작용으로 만물을 생성한다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "yin-yang",
-    "target": "qi",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "음양의 운동이 기의 변화를 일으킨다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "habitus",
-    "target": "structuralism-movement",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "아비투스 개념은 구조주의적 사회분석의 핵심 도구이다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "rhizome",
-    "target": "postmodernism-movement",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "리좀 개념은 포스트모던적 다원주의의 핵심 은유이다",
     "strength": 3,
     "direction": "directed"
   },
@@ -4692,16 +4262,6 @@
     "description": "논어의 의례와 교육 중시는 도덕경의 무위자연과 대조를 이룬다",
     "strength": 2,
     "direction": "bidirectional"
-  },
-  {
-    "source": "library-alexandria",
-    "target": "house-of-wisdom",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "preceded",
-    "description": "알렉산드리아 도서관의 학문적 전통은 바이트 알히크마에 영향을 미쳤다",
-    "strength": 2,
-    "direction": "directed"
   },
   {
     "source": "royal-society",
@@ -5004,16 +4564,6 @@
     "direction": "directed"
   },
   {
-    "source": "scientific-revolution",
-    "target": "empiricism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "과학혁명의 실험적 방법론은 경험론의 과학적 기반을 제공했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
     "source": "origin-of-species-publication",
     "target": "materialism",
     "sourceType": "entity",
@@ -5044,26 +4594,6 @@
     "direction": "directed"
   },
   {
-    "source": "world-war-i",
-    "target": "existentialism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "1차 대전의 참혹함은 인간 존재의 의미에 대한 실존주의적 물음을 촉발했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "world-war-ii",
-    "target": "postmodernism-movement",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "2차 대전의 참화는 이성과 진보에 대한 근대적 신뢰를 흔들어 포스트모더니즘을 촉진했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
     "source": "industrial-revolution",
     "target": "anarchism",
     "sourceType": "entity",
@@ -5084,16 +4614,6 @@
     "direction": "directed"
   },
   {
-    "source": "american-revolution",
-    "target": "liberalism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "미국 독립혁명의 성공은 자유주의적 민주주의의 실천적 모범이 되었다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
     "source": "russian-revolution",
     "target": "socialism",
     "sourceType": "entity",
@@ -5101,16 +4621,6 @@
     "type": "influenced",
     "description": "러시아 혁명은 사회주의 이론의 역사적 실험으로 세계 사회주의 운동에 영향을 주었다",
     "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "world-war-i",
-    "target": "nihilism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "1차 대전의 대량 파괴는 기존 가치 체계에 대한 회의를 심화시켜 허무주의를 확산시켰다",
-    "strength": 2,
     "direction": "directed"
   },
   {
@@ -5151,26 +4661,6 @@
     "type": "preceded",
     "description": "종의 기원 출간 이후 19세기 과학의 성공은 20세기 양자역학의 탄생을 위한 학문적 환경을 조성했다",
     "strength": 1,
-    "direction": "directed"
-  },
-  {
-    "source": "industrial-revolution",
-    "target": "world-war-ii",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "preceded",
-    "description": "산업혁명의 기술적·군사적 발전은 2차 대전의 파괴적 규모를 가능하게 했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "russian-revolution",
-    "target": "world-war-ii",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "preceded",
-    "description": "러시아 혁명으로 수립된 소련 체제는 2차 대전의 지정학적 구도에 영향을 미쳤다",
-    "strength": 2,
     "direction": "directed"
   },
   {
@@ -5304,16 +4794,6 @@
     "direction": "directed"
   },
   {
-    "source": "sunyata",
-    "target": "nirvana",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "part_of",
-    "description": "공(空)의 깨달음은 열반에 이르는 핵심 통찰이다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "logos",
     "target": "cogito",
     "sourceType": "entity",
@@ -5342,26 +4822,6 @@
     "description": "플라톤의 이데아론은 칸트의 물자체 개념에 역사적 선례를 제공했다",
     "strength": 2,
     "direction": "directed"
-  },
-  {
-    "source": "monad",
-    "target": "idealism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "part_of",
-    "description": "라이프니츠의 모나드론은 관념론의 한 형태로 비물질적 실체를 주장한다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "logos",
-    "target": "dao",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "opposed_to",
-    "description": "그리스의 로고스(합리적 이성)와 도가의 도(道, 무위자연)는 동서양 우주 원리의 대비를 이룬다",
-    "strength": 2,
-    "direction": "bidirectional"
   },
   {
     "source": "brahman",
@@ -5404,16 +4864,6 @@
     "direction": "directed"
   },
   {
-    "source": "yin-yang",
-    "target": "dialectic",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "opposed_to",
-    "description": "음양의 상보적 조화와 변증법의 모순적 지양은 동서양 대립물 사유의 대비를 이룬다",
-    "strength": 2,
-    "direction": "bidirectional"
-  },
-  {
     "source": "middle-way",
     "target": "nihilism",
     "sourceType": "entity",
@@ -5441,16 +4891,6 @@
     "type": "influenced",
     "description": "헤겔 변증법의 부정성은 키르케고르의 반-변증법과 실존주의적 반항에 자극을 주었다",
     "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "social-contract-concept",
-    "target": "american-revolution",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "사회계약 개념은 미국 독립선언서의 이론적 토대가 되었다",
-    "strength": 3,
     "direction": "directed"
   },
   {
@@ -5514,26 +4954,6 @@
     "direction": "directed"
   },
   {
-    "source": "phenomenology-of-spirit",
-    "target": "das-kapital",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "정신현상학의 변증법은 마르크스의 자본론에서 유물론적으로 전도되었다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "critique-pure-reason",
-    "target": "phenomenology-of-spirit",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "influenced",
-    "description": "순수이성비판의 선험적 종합은 헤겔의 정신현상학에서 변증법적으로 발전되었다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "metaphysics-aristotle",
     "target": "ethics-spinoza",
     "sourceType": "entity",
@@ -5591,6 +5011,5826 @@
     "type": "influenced",
     "description": "계몽주의의 이성적 해방 이념은 비판이론이 비판적으로 계승한 핵심 유산이다",
     "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dna-discovery",
+    "target": "human-genome-project",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "DNA 이중나선 발견은 인간 게놈 프로젝트의 과학적 전제 조건이었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "human-genome-project",
+    "target": "crispr-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "인간 게놈 프로젝트의 유전 정보는 CRISPR 유전자 편집 혁명의 기초가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "human-genome-project",
+    "target": "deep-learning",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "게놈 빅데이터는 딥러닝의 생물정보학 적용을 촉진했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "human-genome-project",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "인터넷 기술은 게놈 데이터의 국제적 공유와 분석을 가능하게 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "scientific-revolution",
+    "target": "human-genome-project",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "과학혁명의 실험적 방법론은 게놈 프로젝트의 과학적 기초를 제공했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "cold-war",
+    "target": "september-11",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "냉전의 종식과 미국 일극체제는 9.11 테러의 역사적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "september-11",
+    "target": "arab-spring",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "9.11 이후 중동 정치의 변화는 아랍의 봄에 간접적 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nationalism",
+    "target": "september-11",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "민족주의와 종교적 극단주의가 결합하여 9.11 테러의 이념적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "september-11",
+    "target": "surveillance-capitalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "9.11 이후 국가 감시 체계의 확대는 감시 자본주의의 기초를 놓았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "september-11",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "인터넷은 9.11 테러의 글로벌 실시간 중계와 그 이후의 정보전의 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "deep-learning",
+    "target": "alphago-match",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "딥러닝 기술의 발전이 알파고의 바둑 대결을 가능하게 했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "alphago-match",
+    "target": "artificial-general-intelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "알파고의 승리는 범용 인공지능에 대한 대중적 관심을 크게 높였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "alphago-match",
+    "target": "chatgpt-launch",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "알파고 대결은 AI의 가능성을 보여주며 ChatGPT 시대로의 길을 열었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "alphago-match",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "인터넷을 통한 전 세계 실시간 중계가 알파고 대결의 문화적 영향력을 확대했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "covid-19-pandemic",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "인터넷 기술은 팬데믹 동안 원격 근무와 디지털 전환을 가능하게 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "human-genome-project",
+    "target": "covid-19-pandemic",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "게놈 분석 기술은 코로나 바이러스의 신속한 유전자 분석을 가능하게 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "covid-19-pandemic",
+    "target": "surveillance-capitalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "팬데믹은 디지털 감시와 데이터 추적의 확대를 촉진했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "covid-19-pandemic",
+    "target": "platform-economy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "팬데믹은 플랫폼 경제의 급속한 확장을 촉진했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "crispr-revolution",
+    "target": "covid-19-pandemic",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "유전자 편집 기술은 코로나19 진단과 치료법 개발에 활용되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "deep-learning",
+    "target": "chatgpt-launch",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "딥러닝의 대규모 언어모델 발전이 ChatGPT 출시를 가능하게 했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "chatgpt-launch",
+    "target": "artificial-general-intelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "ChatGPT는 AGI에 대한 대중적 논의를 촉발시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "chatgpt-launch",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "인터넷 혁명이 제공한 대규모 텍스트 데이터가 ChatGPT 학습의 기반이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "chatgpt-launch",
+    "target": "attention-economy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "ChatGPT는 주의력 경제에 새로운 차원의 변화를 가져왔다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "chatgpt-launch",
+    "target": "burnout-society",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "AI 자동화는 성과사회의 압박을 심화시킬 수 있다는 우려를 낳았다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "scientific-revolution",
+    "target": "crispr-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "과학혁명의 실험적 전통은 유전자 편집 기술의 발전을 가능하게 했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "crispr-revolution",
+    "target": "transhumanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "유전자 편집 기술은 트랜스휴머니즘적 인간 향상의 실현 가능성을 높였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "quantum-mechanics",
+    "target": "gravitational-wave-detection",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "양자역학적 정밀 측정 기술이 중력파 검출을 가능하게 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "scientific-revolution",
+    "target": "gravitational-wave-detection",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "뉴턴에서 아인슈타인으로 이어진 중력 이론이 중력파 검출의 이론적 기초이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gravitational-wave-detection",
+    "target": "deep-learning",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "중력파 데이터 분석에 딥러닝 기법이 적용되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "gravitational-wave-detection",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "인터넷을 통한 국제 공동 연구가 LIGO 프로젝트의 성공을 가능하게 했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "quantum-mechanics",
+    "target": "higgs-boson-discovery",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "양자역학의 표준모형이 힉스 보손의 존재를 예측했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "scientific-revolution",
+    "target": "higgs-boson-discovery",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "과학혁명 이래의 실험 과학 전통이 입자 물리학 실험의 기초를 놓았다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "industrial-revolution",
+    "target": "paris-climate-agreement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "산업혁명 이래의 탄소 배출이 기후변화를 초래하여 파리협정의 필요성을 만들었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "environmentalism",
+    "target": "paris-climate-agreement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "환경주의 운동이 국제적 기후 대응 합의를 이끌어냈다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "paris-climate-agreement",
+    "target": "degrowth",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "파리협정의 목표 달성을 위해 탈성장 논의가 활발해졌다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "arab-spring",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "소셜미디어와 인터넷이 아랍의 봄 시위의 확산을 촉진했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "liberalism",
+    "target": "arab-spring",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "자유주의적 민주화 열망이 아랍의 봄의 이념적 원동력이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nationalism",
+    "target": "arab-spring",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "민족주의적 자결 의식이 아랍의 봄 운동에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "arab-spring",
+    "target": "metoo-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "아랍의 봄의 대중적 저항 방식은 미투 운동 등 후속 사회운동에 영감을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "nationalism",
+    "target": "brexit",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "영국의 민족주의적 정서가 브렉시트 결정의 핵심 동력이었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "liberalism",
+    "target": "brexit",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "자유주의적 국제질서는 브렉시트의 고립주의적 경향과 대립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "brexit",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "소셜미디어를 통한 정보 유통이 브렉시트 캠페인에 중대한 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "humanism",
+    "target": "transhumanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "인문주의의 인간 향상 이념이 기술적 트랜스휴머니즘으로 진화했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "transhumanism",
+    "target": "posthumanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "트랜스휴머니즘은 인간 이후의 존재를 상상하는 포스트휴머니즘에 영향을 미쳤다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "transhumanism",
+    "target": "artificial-general-intelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "트랜스휴머니즘은 AGI를 인간 향상의 핵심 수단으로 기대했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "environmentalism",
+    "target": "degrowth",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "환경주의 운동이 경제성장 자체를 비판하는 탈성장론으로 발전했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "socialism",
+    "target": "degrowth",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사회주의의 자본주의 비판이 탈성장론에 이론적 영감을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "degrowth",
+    "target": "digital-minimalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "탈성장론의 절제 정신이 디지털 미니멀리즘에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "communism",
+    "target": "degrowth",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "공산주의의 무한 성장 비판이 탈성장 사상에 간접적 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "stoicism-movement",
+    "target": "digital-minimalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "스토아적 절제와 자기 통제의 전통이 디지털 미니멀리즘에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "digital-minimalism",
+    "target": "attention-economy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "디지털 미니멀리즘은 주의력 경제의 착취에 대한 저항 운동이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "digital-minimalism",
+    "target": "burnout-society",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "디지털 미니멀리즘은 피로사회에 대한 실천적 대안을 제시한다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "feminism",
+    "target": "metoo-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "페미니즘의 오랜 투쟁이 미투 운동의 이론적·실천적 기반이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "metoo-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "소셜미디어가 미투 운동의 글로벌 확산을 가능하게 했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "liberalism",
+    "target": "metoo-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "자유주의적 개인권리 개념이 미투 운동의 법적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "metoo-movement",
+    "target": "platform-economy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "미투 운동은 플랫폼 기업의 직장 문화 개혁을 촉진했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "open-source-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "인터넷이 오픈소스 소프트웨어의 공유와 협업을 가능하게 했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "anarchism",
+    "target": "open-source-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아나키즘의 자율적 협력 이념이 오픈소스 문화에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "liberalism",
+    "target": "open-source-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "자유주의의 정보 자유 개념이 오픈소스 운동의 철학적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "open-source-movement",
+    "target": "platform-economy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "오픈소스 기술은 플랫폼 경제의 인프라를 구축하는 데 핵심적이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "positivism",
+    "target": "new-atheism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "실증주의의 과학적 세계관이 새로운 무신론의 이론적 기초를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "naturalism",
+    "target": "new-atheism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "자연주의적 세계관이 새로운 무신론의 철학적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "enlightenment-movement",
+    "target": "new-atheism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "계몽주의의 이성 중심 사상이 새로운 무신론의 역사적 전선을 놓았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "utilitarianism",
+    "target": "longtermism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "공리주의의 최대 행복 원칙이 미래 세대를 포함하는 장기주의로 확장되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "effective-altruism",
+    "target": "longtermism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "효과적 이타주의가 장기적 관점을 채택하며 장기주의로 발전했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "longtermism",
+    "target": "artificial-general-intelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "장기주의는 AGI를 인류의 가장 중요한 장기적 과제로 규정했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "existentialism",
+    "target": "longtermism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "실존주의의 현재 중심 사고는 장기주의의 미래 중심 윤리와 대비된다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "deep-learning",
+    "target": "artificial-general-intelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "딥러닝의 성과가 범용 인공지능 논의를 활성화시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "artificial-general-intelligence",
+    "target": "posthumanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "AGI는 포스트휴머니즘적 인간 이후의 지성에 대한 논의를 촉발한다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "postmodernism-movement",
+    "target": "posthumanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "포스트모더니즘의 주체 해체가 포스트휴머니즘으로 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "existentialism",
+    "target": "posthumanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "실존주의의 인간 중심성과 포스트휴머니즘의 탈인간 중심성은 대조적이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "humanism",
+    "target": "posthumanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "인문주의의 인간 중심성은 포스트휴머니즘에 의해 근본적으로 도전받는다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "platform-economy",
+    "target": "surveillance-capitalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "플랫폼 경제의 데이터 수집 관행이 감시 자본주의를 가능하게 했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "liberalism",
+    "target": "surveillance-capitalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "자유주의의 프라이버시 개념과 감시 자본주의는 근본적으로 충돌한다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "platform-economy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "인터넷 혁명이 플랫폼 경제의 기술적 기반을 제공했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "liberalism",
+    "target": "platform-economy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "자유시장 자유주의가 플랫폼 경제의 규제 완화 환경을 만들었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "utilitarianism",
+    "target": "effective-altruism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "공리주의의 결과 중심 윤리가 효과적 이타주의의 이론적 기초가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "empiricism",
+    "target": "effective-altruism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "경험주의적 증거 기반 접근이 효과적 이타주의의 방법론을 형성했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "attention-economy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "인터넷과 소셜미디어가 주의력을 상품화하는 주의력 경제를 만들었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "platform-economy",
+    "target": "attention-economy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "플랫폼 경제의 광고 수익 모델이 주의력 경제의 핵심 구조를 형성했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "attention-economy",
+    "target": "burnout-society",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "주의력 경제의 끊임없는 자극이 피로사회를 심화시킨다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "meme-culture",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "인터넷 문화가 밈의 생산과 확산을 가능하게 했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "postmodernism-movement",
+    "target": "meme-culture",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "포스트모더니즘의 패러디와 혼성 전략이 밈 문화의 이론적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "platform-economy",
+    "target": "meme-culture",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "소셜미디어 플랫폼이 밈 문화의 확산 인프라를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "meme-culture",
+    "target": "attention-economy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "밈은 주의력 경제에서 가장 효율적인 정보 전달 형식 중 하나가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "industrial-revolution",
+    "target": "burnout-society",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "산업혁명의 노동 규율이 현대 피로사회의 역사적 기원이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "deep-learning",
+    "target": "openai",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "딥러닝 기술의 발전이 OpenAI의 설립과 연구 방향을 결정했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "openai",
+    "target": "chatgpt-launch",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "OpenAI가 ChatGPT를 개발하고 출시하여 AI 대중화를 이끌었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "openai",
+    "target": "artificial-general-intelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "OpenAI는 안전한 AGI 개발을 조직의 핵심 미션으로 삼고 있다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "deep-learning",
+    "target": "deepmind",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "딥러닝의 발전이 딥마인드의 연구 방향과 성과를 결정했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "deepmind",
+    "target": "alphago-match",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "딥마인드가 알파고를 개발하여 인간 바둑 챔피언과의 대결을 성사시켰다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "deepmind",
+    "target": "artificial-general-intelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "딥마인드는 과학적 방법으로 AGI를 달성하려는 대표적 연구기관이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sapiens",
+    "target": "longtermism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "《사피엔스》의 인류 역사 분석은 장기주의적 사고를 대중화시켰다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sapiens",
+    "target": "transhumanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "《사피엔스》의 후속작 《호모 데우스》는 트랜스휴머니즘적 미래를 탐구했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "scientific-revolution",
+    "target": "structure-of-scientific-revolutions",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "과학혁명의 역사가 쿤의 《과학혁명의 구조》의 핵심 분석 대상이었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "positivism",
+    "target": "structure-of-scientific-revolutions",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "쿤의 패러다임론은 실증주의적 과학관에 도전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "structure-of-scientific-revolutions",
+    "target": "postmodernism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "쿤의 패러다임 개념은 포스트모더니즘의 상대주의에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "deep-learning",
+    "target": "superintelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "딥러닝의 급속한 발전이 초지능에 대한 철학적 논의를 촉발했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "superintelligence",
+    "target": "artificial-general-intelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "초지능 논의는 AGI의 위험성과 통제 문제에 대한 연구를 촉진했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "superintelligence",
+    "target": "longtermism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "초지능 논의는 장기주의의 핵심 의제 중 하나이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "superintelligence",
+    "target": "transhumanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "초지능 개념은 트랜스휴머니즘적 인간 향상 논의의 극단적 형태이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "empiricism",
+    "target": "thinking-fast-and-slow",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "경험주의적 실험 전통이 카너먼의 행동경제학 연구의 방법론적 기초가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thinking-fast-and-slow",
+    "target": "effective-altruism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카너먼의 인지편향 연구는 효과적 이타주의의 합리적 의사결정 모델에 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "pragmatism",
+    "target": "thinking-fast-and-slow",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "실용주의적 인식론이 카너먼의 이중과정 이론의 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "university-bologna",
+    "target": "sorbonne",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "볼로냐대학은 유럽 최초의 대학으로 소르본 등 후속 대학의 모델이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "humanism-movement",
+    "target": "academie-francaise",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "르네상스 인문주의 전통이 아카데미 프랑세즈의 설립 이념에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "roman-catholicism",
+    "target": "eastern-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "branched_from",
+    "description": "1054년 동서 교회 분열로 가톨릭과 정교회가 분리되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "roman-catholicism",
+    "target": "lutheranism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "종교개혁으로 루터교가 가톨릭에서 분리되었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "roman-catholicism",
+    "target": "vatican",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "바티칸은 로마 가톨릭 교회의 중심지이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "eastern-orthodoxy",
+    "target": "mount-athos",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "아토스 산은 동방 정교회의 중요한 수도원 공동체이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "lutheranism",
+    "target": "calvinism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "루터교와 칼뱅주의는 개신교의 양대 축이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "calvinism",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "branched_from",
+    "description": "칼뱅주의는 종교개혁으로 가톨릭에서 분리되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "calvinism",
+    "target": "anglicanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "칼뱅주의와 성공회는 개신교 내 공존한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anglicanism",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "branched_from",
+    "description": "성공회는 로마 가톨릭에서 분리되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "anglicanism",
+    "target": "lutheranism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "성공회와 루터교는 개신교 전통을 공유한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pentecostalism",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "오순절주의는 가톨릭의 의례 중심 전통과 대비된다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pentecostalism",
+    "target": "new-age",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "오순절주의와 뉴에이지는 영적 체험을 강조하는 공통점이 있다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gnosticism",
+    "target": "hermeticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "영지주의와 헤르메스주의는 공통된 헬레니즘 영적 전통에 뿌리를 둔다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "gnosticism",
+    "target": "manichaeism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "영지주의는 마니교의 이원론적 세계관에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sunni-islam",
+    "target": "shia-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "수니파와 시아파는 후계자 문제로 분리된 이슬람의 양대 분파이다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sunni-islam",
+    "target": "sufism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "수피즘은 수니파 내 신비주의 전통으로 공존해왔다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shia-islam",
+    "target": "sufism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "시아파 내에도 수피즘 전통이 존재한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shia-islam",
+    "target": "wahhabism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "와하비즘은 시아파를 이단으로 간주한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sufism",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "수피즘과 요가는 영적 수련이라는 공통점이 있다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "wahhabism",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "와하비즘은 수니파 내 근본주의 운동이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wahhabism",
+    "target": "sufism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "와하비즘은 수피즘의 성인 숭배를 비판한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "bahai-faith",
+    "target": "zoroastrianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조로아스터교의 메시아 사상이 바하이 신앙에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "theravada-buddhism",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "테라바다와 대승불교는 불교의 양대 전통이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "theravada-buddhism",
+    "target": "vajrayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "테라바다와 밀교는 불교 내 다른 전통이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "theravada-buddhism",
+    "target": "nalanda-university",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "나란다 대학은 초기 불교 전통의 학문 중심지였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mahayana-buddhism",
+    "target": "zen-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "선불교는 대승불교의 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mahayana-buddhism",
+    "target": "pure-land-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "정토불교는 대승불교의 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "vajrayana-buddhism",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "금강승은 대승불교에서 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vajrayana-buddhism",
+    "target": "potala-palace",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "포탈라궁은 금강승 불교의 상징적 건축물이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "pure-land-buddhism",
+    "target": "zen-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "정토불교와 선불교는 동아시아 불교의 양대 전통이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pure-land-buddhism",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "정토불교와 테라바다는 다른 불교 전통이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "advaita-vedanta",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "아드바이타 베단타와 요가는 힌두교 내 상보적 전통이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jainism",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "자이나교와 요가는 고행과 명상의 전통을 공유한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sikhism",
+    "target": "sufism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "수피즘의 신비적 전통이 시크교에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sikhism",
+    "target": "jainism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "시크교와 자이나교는 인도 종교 전통 내 공존한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neo-confucianism",
+    "target": "wang-yangming-school",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "양명학은 신유학의 한 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "wang-yangming-school",
+    "target": "zen-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "선불교의 돈오 사상이 양명학의 치양지에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "shinto-movement",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "신도는 원시 샤머니즘 전통에서 발전했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shinto-movement",
+    "target": "zen-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "신도와 선불교는 일본 문화의 양대 축이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shinto-movement",
+    "target": "korean-shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "일본 신도와 한국 무속은 동북아 토착 신앙이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "korean-shamanism",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "한국 무속은 샤머니즘의 동아시아 전통이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "korean-shamanism",
+    "target": "cheondogyo",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "한국 무속의 토착 영성이 천도교에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zoroastrianism",
+    "target": "manichaeism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조로아스터교의 이원론이 마니교에 직접적 영향을 주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "zoroastrianism",
+    "target": "gnosticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조로아스터교의 빛과 어둠 개념이 영지주의에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hermeticism",
+    "target": "alchemy-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "헤르메스주의는 연금술의 이론적 토대이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hermeticism",
+    "target": "hermetic-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "헤르메스주의와 헤르메스 철학은 같은 전통이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hermeticism",
+    "target": "kabbalah",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "헤르메스주의와 카발라는 서양 비의 전통의 양대 축이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "theosophy",
+    "target": "hermeticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "헤르메스주의가 신지학에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "theosophy",
+    "target": "new-age",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신지학은 뉴에이지 운동의 선구자이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "theosophy",
+    "target": "kabbalah",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카발라의 신비 전통이 신지학에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "new-age",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "샤머니즘의 영적 전통이 뉴에이지에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "new-age",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "요가 전통이 뉴에이지의 핵심 수행법이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "orthodox-judaism",
+    "target": "reform-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "정통 유대교와 개혁 유대교는 율법 해석에서 대립한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "orthodox-judaism",
+    "target": "hasidism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "하시디즘은 정통 유대교 내 신비주의 운동이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "orthodox-judaism",
+    "target": "kabbalah",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카발라의 신비 전통이 정통 유대교에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "reform-judaism",
+    "target": "liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "자유주의 사상이 개혁 유대교에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "reform-judaism",
+    "target": "hasidism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "개혁 유대교는 하시디즘의 신비주의에 비판적이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hasidism",
+    "target": "kabbalah",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "하시디즘은 카발라 신비주의에서 발전했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hasidism",
+    "target": "sufism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "하시디즘과 수피즘은 각 종교 내 신비주의 전통이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kabbalah",
+    "target": "gnosticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "영지주의의 신비 전통이 카발라에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "shamanism",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "샤머니즘과 요가는 변성 의식 상태를 추구한다는 공통점이 있다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shamanism",
+    "target": "tengriism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "텡그리즘은 중앙아시아 샤머니즘의 일종이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tengriism",
+    "target": "zoroastrianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "텡그리즘과 조로아스터교는 중앙아시아에서 공존했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tengriism",
+    "target": "korean-shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "텡그리즘과 한국 무속은 북방 샤머니즘의 공통 기원을 가진다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yoruba-religion",
+    "target": "voodoo-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "요루바 종교는 부두교에 직접적 영향을 주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "yoruba-religion",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "요루바 종교와 샤머니즘은 원시 영성의 공통점을 가진다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yoruba-religion",
+    "target": "ubuntu-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "요루바 종교와 우분투 철학은 아프리카 전통을 공유한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "voodoo-tradition",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "부두교와 샤머니즘은 영매 전통을 공유한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "voodoo-tradition",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "merged_with",
+    "description": "부두교는 가톨릭 성인 숭배와 혼합되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-azhar-university",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "알-아즈하르는 수니파 이슬람의 최고 권위 대학이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "nalanda-university",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "나란다는 대승불교 발전의 핵심 기관이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mount-athos",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "아토스 산과 가톨릭 수도원은 기독교 금욕 전통을 공유한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mount-athos",
+    "target": "vatican",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "아토스 산과 바티칸은 기독교의 양대 영적 중심지이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "potala-palace",
+    "target": "mount-athos",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "포탈라궁과 아토스 산은 종교적 중심지이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "potala-palace",
+    "target": "nalanda-university",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "포탈라궁과 나란다는 불교 문명의 유산이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "heros-journey",
+    "target": "collective-unconscious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "영웅의 여정은 집단무의식의 원형적 서사이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "heros-journey",
+    "target": "trickster-archetype",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "영웅과 트릭스터는 신화의 양대 원형이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "heros-journey",
+    "target": "axis-mundi",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "세계축은 영웅의 여정에서 중심의 상징이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "world-egg",
+    "target": "axis-mundi",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "우주란과 세계축은 창조 신화의 보편적 상징이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "world-egg",
+    "target": "sacred-feminine",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "우주란은 여성적 창조 원리와 연관된다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "world-egg",
+    "target": "zoroastrianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "우주란은 조로아스터교 창조 서사에도 등장한다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "world-egg",
+    "target": "collective-unconscious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "우주란은 집단무의식의 원형적 이미지이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "axis-mundi",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "세계축은 샤머니즘의 핵심 우주론적 개념이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "axis-mundi",
+    "target": "collective-unconscious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "세계축은 집단무의식의 원형적 상징이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "trickster-archetype",
+    "target": "collective-unconscious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "트릭스터는 집단무의식의 주요 원형이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "trickster-archetype",
+    "target": "yoruba-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "요루바 신화의 에슈는 대표적 트릭스터이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "trickster-archetype",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "샤먼 전통에서 트릭스터적 존재가 등장한다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "coincidentia-oppositorum",
+    "target": "hermeticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "대립자의 일치는 헤르메스 전통의 핵심 원리이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "coincidentia-oppositorum",
+    "target": "dialectic",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "변증법과 대립자의 일치는 대립의 통합이라는 공통점이 있다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anima-animus",
+    "target": "collective-unconscious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "아니마/아니무스는 집단무의식의 주요 원형이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "anima-animus",
+    "target": "sacred-feminine",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아니마 원형은 성스러운 여성성과 연관된다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anima-animus",
+    "target": "heros-journey",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "아니마/아니무스는 영웅 서사에서 내적 변환의 상징이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "collective-unconscious",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "샤머니즘의 보편적 패턴이 집단무의식의 증거이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sacred-feminine",
+    "target": "collective-unconscious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "성스러운 여성성은 집단무의식의 원형이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sacred-feminine",
+    "target": "gnosticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "영지주의의 소피아는 성스러운 여성성의 상징이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hermetic-philosophy",
+    "target": "alchemy-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "헤르메스 철학이 연금술의 이론적 기초이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hermetic-philosophy",
+    "target": "gnosticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "헤르메스 철학과 영지주의는 헬레니즘 신비 전통을 공유한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dreamtime",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "꿈의 시간과 샤머니즘은 원시 영성의 공통 뿌리를 가진다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dreamtime",
+    "target": "collective-unconscious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "꿈의 시간은 집단무의식의 문화적 표현이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "dreamtime",
+    "target": "axis-mundi",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "꿈의 시간과 세계축은 보편적 우주론이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dreamtime",
+    "target": "world-egg",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "꿈의 시간과 우주란은 창조 서사이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ubuntu-philosophy",
+    "target": "communism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "공동체 중심 사상이 우분투와 유사점을 가진다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "impressionism-movement",
+    "target": "modernism-art",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "인상주의가 모더니즘 예술 운동에 선행했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "impressionism-movement",
+    "target": "surrealism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "인상주의가 초현실주의에 간접적으로 선행했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "impressionism-movement",
+    "target": "existentialist-literature",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "인상주의와 실존주의 문학은 근대 예술 운동이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "impressionism-movement",
+    "target": "scientific-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "과학의 광학 연구가 인상주의에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "modernism-art",
+    "target": "surrealism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "초현실주의는 모더니즘 예술의 한 분파이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "modernism-art",
+    "target": "existentialist-literature",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "실존주의 문학은 모더니즘의 한 측면이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "modernism-art",
+    "target": "postcolonialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "모더니즘이 포스트콜로니얼 비판의 대상이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "modernism-art",
+    "target": "industrial-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "산업혁명이 모더니즘 예술에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "surrealism-movement",
+    "target": "collective-unconscious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "융의 집단무의식 개념이 초현실주의에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "surrealism-movement",
+    "target": "existentialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "초현실주의와 실존주의는 20세기 문화 운동이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "existentialist-literature",
+    "target": "existentialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "실존주의 문학은 실존주의의 문학적 표현이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "meme-culture",
+    "target": "information-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "정보혁명이 밈 문화의 확산을 가능케 했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "meme-culture",
+    "target": "cybernetics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사이버네틱스의 정보 이론이 밈 개념에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "meme-culture",
+    "target": "singularity-concept",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "밈 문화와 특이점은 디지털 시대의 개념이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "metoo-movement",
+    "target": "postcolonialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "미투와 포스트콜로니얼리즘은 현대 사회 운동이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "metoo-movement",
+    "target": "social-democracy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사회민주주의적 가치가 미투 운동에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "metoo-movement",
+    "target": "information-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "정보혁명과 소셜미디어가 미투 운동을 가능케 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "metoo-movement",
+    "target": "sacred-feminine",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "성스러운 여성성 회복이 미투 운동과 연관된다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "postcolonialism",
+    "target": "feminism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "포스트콜로니얼리즘과 페미니즘은 현대 비판 이론이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "postcolonialism",
+    "target": "ubuntu-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "우분투 철학이 포스트콜로니얼 대안 사유에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "posthumanism",
+    "target": "singularity-concept",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "기술적 특이점이 포스트휴머니즘에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "posthumanism",
+    "target": "cybernetics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사이버네틱스가 포스트휴머니즘에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "posthumanism",
+    "target": "deep-ecology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "포스트휴머니즘과 심층생태학은 인간 중심주의를 비판한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "posthumanism",
+    "target": "information-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "정보혁명이 포스트휴머니즘 사유를 촉발했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "chaos-theory",
+    "target": "complexity-science",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "카오스 이론은 복잡계 과학의 핵심이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "chaos-theory",
+    "target": "cybernetics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사이버네틱스의 시스템 사고가 카오스 이론에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "chaos-theory",
+    "target": "quantum-mechanics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "카오스 이론과 양자역학은 불확정성을 다룬다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "chaos-theory",
+    "target": "determinism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "카오스 이론은 결정론적 예측의 한계를 보여준다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "complexity-science",
+    "target": "cybernetics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "사이버네틱스가 복잡계 과학으로 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "complexity-science",
+    "target": "information-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "정보혁명이 복잡계 과학 발전을 촉진했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "complexity-science",
+    "target": "deep-ecology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "복잡계 과학이 생태계의 상호 연결성 이해에 기여했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "complexity-science",
+    "target": "posthumanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "복잡계 과학이 포스트휴머니즘의 시스템적 사고에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "cybernetics",
+    "target": "information-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "사이버네틱스가 정보혁명의 이론적 기초이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "cybernetics",
+    "target": "singularity-concept",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사이버네틱스가 특이점 개념에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "information-revolution",
+    "target": "industrial-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "정보혁명은 산업혁명의 후속이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "information-revolution",
+    "target": "singularity-concept",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "정보혁명이 기술적 특이점 논의를 촉발했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "classical-liberalism",
+    "target": "liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "고전적 자유주의는 자유주의의 원형이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "classical-liberalism",
+    "target": "social-contract-theory",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사회계약론이 자유주의에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "classical-liberalism",
+    "target": "neoliberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "고전적 자유주의가 신자유주의로 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "neoliberalism",
+    "target": "keynesian-economics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "신자유주의는 케인즈주의에 반대한다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neoliberalism",
+    "target": "social-democracy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "신자유주의는 사회민주주의의 복지국가에 비판적이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neoliberalism",
+    "target": "austrian-economics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "오스트리아 학파가 신자유주의에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "keynesian-economics",
+    "target": "social-democracy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "케인즈주의가 사회민주주의 경제 정책에 영향을 주었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "keynesian-economics",
+    "target": "austrian-economics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "케인즈주의와 오스트리아 학파는 경제 이론에서 대립한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "keynesian-economics",
+    "target": "classical-liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "케인즈주의는 자유방임 경제에 반대한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "austrian-economics",
+    "target": "classical-liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "고전적 자유주의가 오스트리아 학파에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "behavioral-economics",
+    "target": "keynesian-economics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "케인즈의 동물적 본능 개념이 행동경제학에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "behavioral-economics",
+    "target": "classical-liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "행동경제학은 합리적 행위자 가정에 도전한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "behavioral-economics",
+    "target": "neoliberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "행동경제학은 시장 합리성을 비판한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "behavioral-economics",
+    "target": "complexity-science",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "복잡계 과학이 행동경제학에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "behavioral-economics",
+    "target": "austrian-economics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "행동경제학은 오스트리아 학파의 합리적 선택 이론에 도전한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "social-contract-theory",
+    "target": "french-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사회계약론이 프랑스 혁명의 사상적 기초이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "social-contract-theory",
+    "target": "social-democracy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사회계약론이 사회민주주의에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "social-democracy",
+    "target": "communism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "사회민주주의는 혁명적 공산주의에 반대한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "social-democracy",
+    "target": "classical-liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "사회민주주의는 자유주의에서 발전한 복지 국가 모델이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "deep-ecology",
+    "target": "environmentalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "심층생태학은 환경주의의 급진적 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "roman-catholicism",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "로마 가톨릭은 기독교의 가장 큰 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "eastern-orthodoxy",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "동방 정교회는 기독교의 주요 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "lutheranism",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "루터교는 개신교의 주요 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "calvinism",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "칼뱅주의는 개신교의 주요 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "anglicanism",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "성공회는 기독교 개신교의 주요 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "pentecostalism",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "오순절주의는 기독교의 성령 중심 운동이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "gnosticism",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "영지주의는 초기 기독교와 경쟁하며 공존했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vatican",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "바티칸은 기독교의 최고 권위 기관이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "sunni-islam",
+    "target": "islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "수니파는 이슬람의 최대 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "shia-islam",
+    "target": "islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "시아파는 이슬람의 주요 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "sufism",
+    "target": "islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "수피즘은 이슬람의 신비주의 전통이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "wahhabism",
+    "target": "islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "와하비즘은 이슬람의 보수적 복고 운동이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bahai-faith",
+    "target": "islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "branched_from",
+    "description": "바하이 신앙은 이슬람에서 파생된 독립 종교이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-azhar-university",
+    "target": "islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "알-아즈하르는 이슬람 세계 최고의 학술 기관이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "theravada-buddhism",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "테라바다는 불교의 가장 오래된 전통이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mahayana-buddhism",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "대승불교는 불교의 주요 전통이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "vajrayana-buddhism",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "금강승은 불교의 밀교 전통이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "zen-buddhism",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "선불교는 불교의 명상 중심 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "pure-land-buddhism",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "정토불교는 불교의 신앙 중심 전통이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "nalanda-university",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "나란다는 불교 학문의 최고 중심지였다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "potala-palace",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "포탈라궁은 불교 건축의 걸작이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "advaita-vedanta",
+    "target": "hinduism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "아드바이타 베단타는 힌두교의 핵심 철학 학파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "yoga-tradition",
+    "target": "hinduism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "요가는 힌두교의 핵심 수행 전통이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "jainism",
+    "target": "hinduism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "자이나교는 힌두교와 같은 인도 전통에서 발전했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sikhism",
+    "target": "hinduism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "branched_from",
+    "description": "시크교는 힌두교와 이슬람의 영향을 받아 탄생했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "neo-confucianism",
+    "target": "confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "신유학은 유학에서 발전한 철학 체계이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "wang-yangming-school",
+    "target": "confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "양명학은 유학 전통의 일부이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "daoism-religious",
+    "target": "daoism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "종교적 도교는 철학적 도교에서 발전했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "orthodox-judaism",
+    "target": "judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "정통 유대교는 유대교의 보수적 전통이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "reform-judaism",
+    "target": "judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "개혁 유대교는 유대교의 진보적 분파이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hasidism",
+    "target": "judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "하시디즘은 유대교의 신비주의 운동이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "kabbalah",
+    "target": "judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "카발라는 유대교의 신비주의 전통이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hermeticism",
+    "target": "neoplatonism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신플라톤주의가 헤르메스주의에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gnosticism",
+    "target": "neoplatonism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "영지주의와 신플라톤주의는 상호 영향을 주고받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kabbalah",
+    "target": "neoplatonism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신플라톤주의의 유출론이 카발라에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hermetic-philosophy",
+    "target": "neoplatonism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신플라톤주의가 헤르메스 철학에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "eternal-return",
+    "target": "stoicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "스토아학파의 우주 순환론이 영원회귀의 선구이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "reform-judaism",
+    "target": "enlightenment",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "계몽주의가 유대교 개혁 운동에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "classical-liberalism",
+    "target": "enlightenment",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "고전적 자유주의는 계몽주의에서 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "yoga-tradition",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "요가의 명상 전통은 불교 수행에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jainism",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "자이나교와 불교는 동시대에 발생한 인도의 비정통 전통이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sikhism",
+    "target": "islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "이슬람의 유일신론이 시크교에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "neo-confucianism",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불교의 형이상학이 신유학 형성에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wang-yangming-school",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불교 선종의 직관적 깨달음이 양명학에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zen-buddhism",
+    "target": "daoism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도교의 무위자연 사상이 선불교에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "daoism-religious",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "도교와 불교는 중국에서 오랫동안 공존해왔다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "daoism-religious",
+    "target": "confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "도교와 유교는 중국 삼교의 축이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shinto-movement",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "신도와 불교는 일본에서 신불습합의 전통으로 공존해왔다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "korean-shamanism",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "한국 무속과 불교는 한반도에서 오랫동안 공존해왔다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "korean-shamanism",
+    "target": "confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "무속과 유교는 한국 문화의 이중 축이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "cheondogyo",
+    "target": "confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "유교의 도덕 사상이 천도교에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "cheondogyo",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불교의 영성이 천도교에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "cheondogyo",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "기독교의 평등 사상이 천도교에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "cheondogyo",
+    "target": "daoism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도교의 자연관이 천도교에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "zoroastrianism",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조로아스터교의 선악 이원론과 종말론이 기독교에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zoroastrianism",
+    "target": "islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조로아스터교의 천사론이 이슬람에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "zoroastrianism",
+    "target": "judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조로아스터교의 메시아 사상이 유대교에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "manichaeism",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "기독교의 요소들이 마니교에 흡수되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "manichaeism",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불교의 윤회 사상이 마니교에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "theosophy",
+    "target": "hinduism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "힌두교의 카르마와 윤회가 신지학에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "theosophy",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불교의 명상과 깨달음이 신지학에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "new-age",
+    "target": "hinduism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "힌두교의 명상과 요가가 뉴에이지에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "new-age",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불교의 마음챙김이 뉴에이지에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bahai-faith",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "바하이 신앙은 기독교의 보편적 사랑 개념을 수용한다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bahai-faith",
+    "target": "hinduism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "바하이 신앙은 힌두교의 아바타 개념을 수용한다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bahai-faith",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "바하이 신앙은 불교의 보편적 자비 정신을 수용한다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "advaita-vedanta",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불교의 공(空) 사상은 아드바이타 베단타에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tengriism",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "텡그리즘과 불교는 몽골에서 공존했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tengriism",
+    "target": "islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "replaced",
+    "description": "이슬람이 중앙아시아에서 텡그리즘을 대체했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "yoruba-religion",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "요루바 종교와 기독교는 서아프리카에서 혼합적으로 공존한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yoruba-religion",
+    "target": "islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "요루바 종교와 이슬람은 서아프리카에서 공존한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "voodoo-tradition",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "merged_with",
+    "description": "부두교는 가톨릭과 혼합적으로 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mount-athos",
+    "target": "christianity",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "아토스 산은 기독교 수도원 전통의 상징이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "meme-culture",
+    "target": "postmodernism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "포스트모더니즘의 해체적 유머가 밈 문화에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "postcolonialism",
+    "target": "postmodernism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "포스트모더니즘이 포스트콜로니얼리즘에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "impressionism-movement",
+    "target": "romanticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "인상주의는 낭만주의에서 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "coincidentia-oppositorum",
+    "target": "daoism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도교의 음양 사상이 대립자의 일치와 유사하다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anima-animus",
+    "target": "daoism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도교의 음양 원리가 아니마/아니무스와 유사하다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "eternal-return",
+    "target": "hinduism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "힌두교의 윤회 사상이 영원회귀와 유사하다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "eternal-return",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불교의 순환적 시간관이 영원회귀와 연관된다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sacred-feminine",
+    "target": "hinduism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "힌두교의 샥티와 데비는 성스러운 여성성의 표현이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "deep-ecology",
+    "target": "buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불교의 상호 의존 사상이 심층생태학에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "world-egg",
+    "target": "hinduism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "우주란은 힌두교 창조 신화의 핵심 모티프이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "shinto-movement",
+    "target": "confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "유교의 윤리가 신도에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ubuntu-philosophy",
+    "target": "confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "우분투와 유교는 공동체 윤리를 강조한다는 공통점이 있다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "alchemy-tradition",
+    "target": "neoplatonism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신플라톤주의가 연금술의 이론적 배경이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "behavioral-economics",
+    "target": "thinking-fast-and-slow",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "행동경제학 연구가 《생각에 관한 생각》의 핵심 내용이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "information-revolution",
+    "target": "sapiens",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "정보혁명이 《사피엔스》의 주요 논의 주제이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "neoliberalism",
+    "target": "brexit",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신자유주의적 세계화에 대한 반발이 브렉시트를 촉발했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "postmodernism",
+    "target": "structure-of-scientific-revolutions",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "쿤의 패러다임 이론이 포스트모더니즘에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "enlightenment",
+    "target": "academie-francaise",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "계몽주의가 프랑스 아카데미의 활동에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "enlightenment",
+    "target": "university-bologna",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "볼로냐 대학은 유럽 학문 전통의 중심지로 계몽주의에 기여했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "singularity-concept",
+    "target": "deepmind",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "특이점 개념이 딥마인드의 AGI 연구에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "stoicism",
+    "target": "eternal-recurrence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "스토아학파의 우주 순환론이 영원회귀에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "postmodernism",
+    "target": "habitus",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "부르디외의 아비투스는 포스트모더니즘 시대의 사회학적 개념이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "monad",
+    "target": "neoplatonism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "신플라톤주의의 일자 개념이 모나드론에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "monad",
+    "target": "idealism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "모나드론은 관념론의 핵심 개념이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "pentecostalism",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "오순절주의의 성령 체험과 샤머니즘의 황홀경은 유사한 양상을 보인다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "higgs-boson-discovery",
+    "target": "quantum-mechanics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "힉스 입자 발견은 양자역학의 표준모형을 완성한 사건이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "sapiens",
+    "target": "information-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "정보혁명이 《사피엔스》의 핵심 논의 주제 중 하나이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "vedas",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "베다의 우파니샤드 철학은 아드바이타 베단타의 근본 경전적 토대이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "advaita-vedanta",
+    "target": "brahman",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아드바이타 베단타의 핵심 교리는 브라만과 아트만의 동일성(범아일여)이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "advaita-vedanta",
+    "target": "atman",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아드바이타 베단타는 아트만이 브라만과 동일하다는 교리를 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "protestant-reformation",
+    "target": "anglicanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "종교개혁의 영향으로 영국에서 성공회가 독립 교회로 성립되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anglicanism",
+    "target": "lutheranism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "성공회와 루터교는 모두 종교개혁에서 기원한 개신교 전통이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shia-islam",
+    "target": "bahai-faith",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "바하이 신앙은 시아파 이슬람의 바비즘에서 발전한 독자적 종교이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sufism",
+    "target": "bahai-faith",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "수피 신비주의의 영적 전통은 바하이 신앙의 신비적 차원에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bahai-faith",
+    "target": "zoroastrianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "바하이 신앙과 조로아스터교는 같은 페르시아 문화적 토양에서 탄생했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "calvinism",
+    "target": "lutheranism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "칼뱅주의와 루터교는 16세기 종교개혁에서 기원한 형제 전통이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "protestant-reformation",
+    "target": "calvinism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "종교개혁의 흐름 속에서 칼뱅은 독자적 개혁 신학을 확립했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "calvinism",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "칼뱅주의는 교황의 권위와 가톨릭 전례를 거부하며 개혁 신학을 세웠다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neo-confucianism",
+    "target": "cheondogyo",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "성리학의 천(天) 개념은 천도교의 인내천 사상의 유교적 원천이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "daoism-religious",
+    "target": "cheondogyo",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도교의 천도 사상은 천도교의 천지 합일적 세계관에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mahayana-buddhism",
+    "target": "cheondogyo",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "대승불교의 심성론은 천도교의 심학적 수양론에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "cheondogyo",
+    "target": "sikhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "천도교와 시크교는 모두 기존 종교들을 종합한 독자적 신종교이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "daoism-religious",
+    "target": "zen-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도교의 무위자연 사상은 선불교의 형성에 깊은 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "daoism-religious",
+    "target": "neo-confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도교의 형이상학은 성리학의 태극·무극 개념에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "daoism-religious",
+    "target": "dao",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도교의 핵심 개념인 도(道)는 우주의 근본 원리로서 도가 철학의 중심이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "daoism-religious",
+    "target": "wu-wei",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도교는 무위(無爲)를 통해 자연에 순응하는 삶의 방식을 가르친다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "daoism-religious",
+    "target": "tao-te-ching",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "도덕경은 도교의 근본 경전으로 도와 덕의 핵심 사상을 담고 있다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "great-schism",
+    "target": "eastern-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "1054년 동서 교회 대분열로 동방 정교회가 로마 가톨릭과 공식 분리되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "eastern-orthodoxy",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "정교회와 가톨릭은 교황 수위권과 필리오케 논쟁 등으로 대립해왔다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "council-of-nicaea",
+    "target": "eastern-orthodoxy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "니케아 공의회는 정교회 신앙의 근본인 니케아 신경을 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gnosticism",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "초대 교회는 영지주의를 이단으로 규정하고 격렬히 대립했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kabbalah",
+    "target": "hasidism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카발라의 신비적 전통은 하시디즘의 핵심적 영적 원천이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "hasidism",
+    "target": "orthodox-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "하시디즘은 정통 유대교의 한 분파로서 율법 준수와 신비적 열정을 결합한다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jainism",
+    "target": "karma",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "자이나교는 카르마 이론을 물질적으로 해석하여 독자적 카르마론을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vedas",
+    "target": "jainism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "베다 전통의 수행적 요소가 자이나교의 고행 전통에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "jainism",
+    "target": "nirvana",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "자이나교도 열반(모크샤) 개념을 독자적으로 발전시켜 해탈의 교리를 세웠다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "korean-shamanism",
+    "target": "shinto-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "한국 무속과 신도는 동북아시아 토착 종교로서 유사한 자연 숭배 전통을 가진다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "korean-shamanism",
+    "target": "tengriism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "한국 무속과 텡그리즘은 북방 유라시아 샤머니즘의 공통 전통에서 유래한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "protestant-reformation",
+    "target": "lutheranism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "종교개혁은 루터의 95개 논제에서 시작되어 루터교의 탄생으로 이어졌다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "lutheranism",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "루터교는 면죄부와 교황 권위를 비판하며 가톨릭에서 분리되었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "lutheranism",
+    "target": "bible",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "루터의 성경 번역은 독일어 표준화에 기여하며 루터교 신앙의 핵심이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mahayana-buddhism",
+    "target": "theravada-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "대승불교와 상좌부불교는 보살도와 아라한도의 차이로 교리적으로 대비된다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mahayana-buddhism",
+    "target": "zen-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "대승불교의 반야 사상이 중국에서 선불교로 발전했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mahayana-buddhism",
+    "target": "vajrayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "대승불교의 교리에 밀교적 수행이 결합되어 금강승이 형성되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mahayana-buddhism",
+    "target": "pure-land-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "대승불교의 아미타불 신앙이 정토 불교로 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mahayana-buddhism",
+    "target": "sunyata",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "대승불교는 공(空) 사상을 핵심 교리로 발전시켜 나가르주나의 중관학으로 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "manichaeism",
+    "target": "hermeticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "마니교와 헤르메스주의는 후기 고대 종교적 혼합주의 환경에서 공존했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "analects",
+    "target": "neo-confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "논어의 유교 경전적 가르침은 성리학의 텍스트적 토대이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mahayana-buddhism",
+    "target": "neo-confucianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "불교의 심성론과 형이상학은 성리학의 이기론 형성에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "neo-confucianism",
+    "target": "wang-yangming-school",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "주희의 성리학에 대한 비판적 발전으로 왕양명의 양명학이 탄생했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "yoga-tradition",
+    "target": "new-age",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "요가의 명상과 수행 전통은 뉴에이지 운동의 핵심 수행법으로 수용되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sufism",
+    "target": "new-age",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "수피 신비주의는 뉴에이지 운동의 이슬람적 영성 원천이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "advaita-vedanta",
+    "target": "new-age",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아드바이타 베단타의 비이원론은 뉴에이지 영성의 핵심 사상적 토대이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "shamanism",
+    "target": "new-age",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "전통 샤머니즘의 치유와 의식 변화 기술이 뉴에이지에 수용되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "protestant-reformation",
+    "target": "pentecostalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "종교개혁의 개신교 전통에서 오순절주의가 부흥적 전통으로 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "pentecostalism",
+    "target": "anglicanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "오순절주의와 성공회는 개신교 내에서 매우 다른 예배 전통으로 공존한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pentecostalism",
+    "target": "calvinism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "오순절주의와 칼뱅주의는 예정론과 성령 체험에 대한 강조점에서 차이를 보인다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "pure-land-buddhism",
+    "target": "nirvana",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "정토 불교는 정토 왕생을 통해 열반에 이르는 독자적 구원론을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "enlightenment-movement",
+    "target": "reform-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "계몽주의의 이성과 자유 사상은 개혁 유대교 탄생의 지적 토양이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "council-of-nicaea",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "니케아 공의회는 가톨릭 교리의 기초인 삼위일체 신앙을 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "great-schism",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "동서 교회 대분열은 로마 가톨릭의 독자적 정체성을 공고히 했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "roman-catholicism",
+    "target": "protestant-reformation",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "가톨릭 교회에 대한 비판이 축적되어 종교개혁으로 이어졌다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "shamanism",
+    "target": "korean-shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "범세계적 샤머니즘 전통이 한국 무속의 형성에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "shamanism",
+    "target": "tengriism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "샤머니즘과 텡그리즘은 북방 유라시아의 공통 영적 전통에서 유래한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shamanism",
+    "target": "dreamtime",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "샤머니즘과 드림타임은 인류 초기의 영적 경험 방식을 공유한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shamanism",
+    "target": "axis-mundi",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "샤먼의 세계 여행은 세계축(axis mundi) 개념과 밀접히 연결된다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "shamanism",
+    "target": "voodoo-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아프리카 전통 샤머니즘은 부두교의 영매적 전통에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "shia-islam",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "시아파와 수니파는 예언자 계승권 문제로 이슬람의 양대 분파로 갈라졌다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shia-islam",
+    "target": "bahai-faith",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "시아파 이슬람의 바비즘에서 바하이 신앙이 독립적으로 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "shinto-movement",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "신도와 대승불교는 일본에서 신불습합을 통해 천 년 이상 공존했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shinto-movement",
+    "target": "daoism-religious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "신도와 도교는 자연 숭배와 정화 의례에서 유사한 요소를 공유한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sufism",
+    "target": "sikhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "수피 신비주의의 신에 대한 사랑과 헌신은 시크교의 영성에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "advaita-vedanta",
+    "target": "sikhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아드바이타 베단타의 일원론은 시크교의 일신론적 신관에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sufism",
+    "target": "sunni-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "수피즘은 수니파 이슬람의 내면적 영성적 차원으로 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sunni-islam",
+    "target": "quran",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "꾸란은 수니파 이슬람의 최고 권위인 신의 말씀으로 신앙과 법의 근본 원천이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "sunni-islam",
+    "target": "wahhabism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "수니파 정통 전통에서 와하비즘이 18세기 극단적 순수주의 운동으로 등장했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tengriism",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "텡그리즘과 샤머니즘은 중앙아시아 유목민의 공통 영적 전통에서 유래한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tengriism",
+    "target": "daoism-religious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "텡그리즘과 도교는 동아시아 유목과 정주 문명에서 각각 발전하며 교류했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "advaita-vedanta",
+    "target": "theosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아드바이타 베단타의 비이원론은 신지학의 핵심 동양 사상적 원천이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "mahayana-buddhism",
+    "target": "theosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "대승불교의 보살 사상과 우주론은 신지학의 영적 체계에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hermeticism",
+    "target": "theosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "헤르메스주의의 비의적 전통은 신지학의 서양 신비주의적 원천이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gnosticism",
+    "target": "theosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "영지주의의 비밀 지식 전통은 신지학의 비의적 지식 체계에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "theravada-buddhism",
+    "target": "four-noble-truths",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "상좌부 불교는 사성제를 불교 교리의 핵심으로 가장 엄격히 보존한다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "theravada-buddhism",
+    "target": "middle-way",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "상좌부 불교는 중도를 수행의 근본 원리로 가르친다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vajrayana-buddhism",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "금강승은 요가 수행의 신체적 기법을 밀교적 맥락에서 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "roman-catholicism",
+    "target": "voodoo-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "가톨릭 성인 숭배가 부두교의 로아와 혼합되어 독특한 혼합 종교를 형성했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "voodoo-tradition",
+    "target": "sacred-feminine",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "부두교의 에르줄리 등 여성 로아 전통은 성스러운 여성성의 한 표현이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "wahhabism",
+    "target": "shia-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "와하비즘은 시아파의 이맘 숭배와 의례를 비이슬람적이라고 비판한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zen-buddhism",
+    "target": "sunyata",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "선불교는 공(空) 사상을 직관적 체험으로 전환시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "house-of-wisdom",
+    "target": "al-azhar-university",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "바이트 알히크마의 학문 전통이 알아즈하르 대학으로 계승되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-azhar-university",
+    "target": "quran",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "알아즈하르 대학은 꾸란 해석학과 이슬람 법학의 최고 권위이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "eastern-orthodoxy",
+    "target": "mount-athos",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "동방 정교회의 수도 영성이 아토스 산의 수도원 공동체를 형성했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "council-of-nicaea",
+    "target": "mount-athos",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "니케아 공의회의 교리가 이후 아토스 산 수도원 전통의 신학적 기초가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "mahayana-buddhism",
+    "target": "nalanda-university",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "대승불교의 학문적 전통이 날란다 대학의 교육 체계를 형성했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "nalanda-university",
+    "target": "sunyata",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "날란다 대학은 중관학파의 공 사상을 학문적으로 발전시킨 중심지였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "vajrayana-buddhism",
+    "target": "potala-palace",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "금강승 불교가 포탈라궁의 건립과 종교적 기능의 토대가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "council-of-nicaea",
+    "target": "vatican",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "니케아 공의회에서 확립된 교리가 바티칸 교회의 신학적 토대가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "protestant-reformation",
+    "target": "vatican",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "종교개혁은 바티칸의 권위에 직접적으로 도전한 역사적 사건이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "wang-yangming-school",
+    "target": "analects",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "양명학파는 논어의 유교적 가르침을 심학적으로 재해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zen-buddhism",
+    "target": "wang-yangming-school",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "선불교의 돈오 사상이 양명학의 치양지에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wang-yangming-school",
+    "target": "ren-confucius",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "양명학파는 인(仁)을 마음의 본체로 재해석하여 유교적 덕을 내면화했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "collective-unconscious",
+    "target": "anima-animus",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아니마/아니무스는 집단 무의식의 핵심 원형으로 심층 심리학에서 설명된다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "anima-animus",
+    "target": "sacred-feminine",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "아니마 원형과 성스러운 여성성은 인류 심리의 여성적 원리를 공유한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anima-animus",
+    "target": "yin-yang",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "아니마/아니무스와 음양은 남성성과 여성성의 상보적 원리를 각각 표현한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anima-animus",
+    "target": "coincidentia-oppositorum",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "아니마/아니무스의 통합은 대립의 일치를 심리학적으로 실현하는 과정이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "axis-mundi",
+    "target": "world-egg",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "세계축과 세계알은 우주의 구조와 기원에 관한 보편적 신화 모티프이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "axis-mundi",
+    "target": "eternal-return",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "세계축과 영원한 회귀는 신성한 시공간의 원형적 구조를 이룬다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "coincidentia-oppositorum",
+    "target": "dialectic",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "대립의 일치와 변증법은 대립 요소의 통일을 추구하는 사유 전통을 공유한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "coincidentia-oppositorum",
+    "target": "yin-yang",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "대립의 일치와 음양 사상은 동서양에서 대립적 원리의 조화를 추구한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "collective-unconscious",
+    "target": "heros-journey",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "영웅의 여정은 집단 무의식에 내재한 보편적 서사 원형이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "collective-unconscious",
+    "target": "trickster-archetype",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "트릭스터 원형은 집단 무의식 속 질서 파괴와 변화의 보편적 상징이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dreamtime",
+    "target": "axis-mundi",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "드림타임의 성스러운 장소는 세계축의 오세아니아적 표현이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dreamtime",
+    "target": "eternal-return",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "드림타임과 영원한 회귀는 원초적 시간으로의 복귀라는 공통 구조를 가진다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dreamtime",
+    "target": "ubuntu-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "드림타임과 우분투는 각각 오세아니아와 아프리카의 공동체적 세계관을 대표한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "eternal-return",
+    "target": "eternal-recurrence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "신화적 영원한 회귀와 니체의 영원회귀는 순환적 시간관의 다른 표현이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "eternal-return",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "영원한 회귀의 우주관은 샤먼적 의례의 시간적 구조를 형성한다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "eternal-return",
+    "target": "yin-yang",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "영원한 회귀와 음양은 순환적 우주 질서의 동서양적 표현이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "heros-journey",
+    "target": "world-egg",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "영웅의 여정과 세계알은 탄생-시련-재생의 보편적 신화 구조를 공유한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "heros-journey",
+    "target": "sacred-feminine",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "영웅의 여정에서 성스러운 여성성은 여신과의 만남이라는 핵심 단계로 나타난다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "heros-journey",
+    "target": "eternal-return",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "영웅의 귀환은 영원한 회귀의 서사적 구현이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sacred-feminine",
+    "target": "feminism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "성스러운 여성성의 재발견은 페미니즘의 영성적 차원을 풍부하게 했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "sacred-feminine",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "샤크티(여성 에너지) 전통은 요가에서 성스러운 여성성의 핵심 표현이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "trickster-archetype",
+    "target": "yoruba-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "요루바 종교의 에슈/레그바는 대표적인 트릭스터 신격이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "trickster-archetype",
+    "target": "voodoo-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "부두교의 레그바는 문지기 트릭스터로서 영계와 현세를 매개한다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "vedas",
+    "target": "world-egg",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "베다의 히란야가르바(황금의 알) 신화는 세계알 개념의 핵심 원천이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "existentialism",
+    "target": "existentialist-literature",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "실존주의 철학은 실존주의 문학의 직접적 사상적 토대이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "existentialist-literature",
+    "target": "nihilism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "실존주의 문학은 허무주의적 세계 인식을 문학적으로 탐구했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "romanticism-movement",
+    "target": "impressionism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "낭만주의의 감성적 표현 전통이 인상주의로 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "modernism-art",
+    "target": "surrealism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "모더니즘의 실험적 정신이 초현실주의의 무의식 탐구로 이어졌다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "modernism-art",
+    "target": "postmodernism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "모더니즘의 총체적 서사에 대한 반발로 포스트모더니즘이 등장했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "collective-unconscious",
+    "target": "surrealism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "집단 무의식과 꿈의 세계에 대한 관심이 초현실주의의 핵심 영감이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "surrealism-movement",
+    "target": "existentialist-literature",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "초현실주의와 실존주의 문학은 20세기 전반 파리에서 공존하며 교류했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "surrealism-movement",
+    "target": "postmodernism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "초현실주의의 이성 비판과 무의식 탐구가 포스트모더니즘에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "meme-culture",
+    "target": "platform-economy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "밈 문화는 소셜 미디어 플랫폼 경제의 콘텐츠 생태계를 형성한다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "feminism",
+    "target": "metoo-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "페미니즘 운동의 오랜 전통이 미투 운동의 사상적 토양이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "metoo-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "소셜 미디어의 확산이 미투 운동의 전 세계적 전파를 가능케 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "second-sex",
+    "target": "metoo-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "보부아르의 제2의 성이 제기한 여성 억압 분석이 미투 운동의 이론적 뿌리이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "structuralism-movement",
+    "target": "postcolonialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "구조주의의 문화 분석 방법론이 탈식민주의 비평의 도구가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "postmodernism-movement",
+    "target": "postcolonialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "포스트모더니즘의 거대 서사 해체가 서구 중심주의 비판의 기반을 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "posthumanism",
+    "target": "artificial-general-intelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "포스트휴머니즘은 AGI 시대의 인간 정체성 재정의 문제를 탐구한다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "posthumanism",
+    "target": "deep-learning",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "포스트휴머니즘과 딥러닝은 인간-기계 경계의 재설정이라는 문제를 공유한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "chaos-theory",
+    "target": "complexity-science",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "카오스 이론은 복잡계 과학의 핵심적 이론적 토대이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "cybernetics",
+    "target": "complexity-science",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사이버네틱스의 피드백 이론은 복잡계 과학의 선구적 토대이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "complexity-science",
+    "target": "deep-learning",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "복잡계 과학의 창발적 행동 이론은 딥러닝의 이론적 이해에 기여했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "complexity-science",
+    "target": "information-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "복잡성 과학과 정보 혁명은 20세기 후반 함께 발전한 지적 흐름이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "cybernetics",
+    "target": "information-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사이버네틱스의 통신·제어 이론은 정보 혁명의 핵심 이론적 기초이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "cybernetics",
+    "target": "artificial-general-intelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사이버네틱스의 기계 지능 탐구는 AGI 연구의 선구적 전통이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "internet-revolution",
+    "target": "information-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "인터넷 혁명은 정보 혁명의 핵심적 기술적 구현이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "singularity-concept",
+    "target": "artificial-general-intelligence",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "기술적 특이점은 AGI 출현 이후 인류 변혁에 대한 예측이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "singularity-concept",
+    "target": "transhumanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "기술적 특이점은 트랜스휴머니즘의 핵심 미래 시나리오이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "classical-liberalism",
+    "target": "austrian-economics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "고전적 자유주의의 자유 시장 원리가 오스트리아 학파의 사상적 토대이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "austrian-economics",
+    "target": "keynesian-economics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "오스트리아 학파는 케인스주의의 정부 개입 정책을 강하게 비판한다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "austrian-economics",
+    "target": "neoliberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "오스트리아 학파의 자유 시장 이론은 신자유주의의 핵심 사상적 원천이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "liberalism",
+    "target": "austrian-economics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "자유주의의 개인 자유 원리가 오스트리아 학파의 철학적 기초이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "utilitarianism",
+    "target": "behavioral-economics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "공리주의의 효용 극대화 모델이 행동경제학의 출발점이자 비판 대상이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "classical-liberalism",
+    "target": "neoliberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "고전적 자유주의의 자유 시장 이론이 20세기 신자유주의로 계승되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "enlightenment-movement",
+    "target": "classical-liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "계몽주의의 이성과 자유의 이념이 고전적 자유주의를 탄생시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "environmentalism",
+    "target": "deep-ecology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "환경주의에서 더 근본적인 생태철학으로 심층 생태학이 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "deep-ecology",
+    "target": "naturalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "심층 생태학은 자연주의적 세계관을 생태 윤리로 확장시켰다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "romanticism-movement",
+    "target": "deep-ecology",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "낭만주의의 자연 숭배 전통이 심층 생태학의 사상적 원천이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "deep-ecology",
+    "target": "postcolonialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "심층 생태학과 탈식민주의는 서구 근대성 비판이라는 문제의식을 공유한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "deep-ecology",
+    "target": "ubuntu-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "심층 생태학과 우분투 철학은 공동체적·관계적 존재론을 공유한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "keynesian-economics",
+    "target": "neoliberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "케인스주의는 신자유주의의 시장 만능주의를 비판하며 정부 개입을 옹호한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "industrial-revolution",
+    "target": "keynesian-economics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "산업혁명 이후의 경제 위기와 대공황이 케인스 경제학의 역사적 배경이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "social-contract-theory",
+    "target": "social-contract-concept",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "사회계약론은 사회계약 개념의 체계적 이론화이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "social-contract-theory",
+    "target": "liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사회계약론은 자유주의 정치 철학의 핵심 이론적 기초이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "social-contract-theory",
+    "target": "classical-liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사회계약론은 고전적 자유주의의 정치 철학적 토대이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "enlightenment-movement",
+    "target": "social-contract-theory",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "계몽주의의 이성적 사회 구성 이념이 사회계약론을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "socialism",
+    "target": "social-democracy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "사회주의에서 혁명이 아닌 점진적 개혁을 추구하는 사회민주주의가 발전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "liberalism",
+    "target": "social-democracy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "자유주의의 개인 권리 원칙이 사회민주주의의 자유적 요소를 형성했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "alchemy-tradition",
+    "target": "hermetic-philosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "연금술은 헤르메스 철학의 실천적 차원으로 물질 변환을 추구했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "alchemy-tradition",
+    "target": "hermeticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "연금술은 헤르메스주의의 핵심적 실천 전통이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "alchemy-tradition",
+    "target": "scientific-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "연금술의 실험적 방법론과 물질 탐구가 근대 화학의 선구가 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "hermetic-philosophy",
+    "target": "hermeticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "헤르메스 철학은 헤르메스주의의 이론적·철학적 핵심이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hermetic-philosophy",
+    "target": "theosophy",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "헤르메스 철학의 비의적 전통이 신지학의 서양 신비주의적 원천이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "kabbalah",
+    "target": "orthodox-judaism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "카발라는 정통 유대교 내에서 신비주의적 차원으로 공존해왔다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kabbalah",
+    "target": "gnosticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "카발라와 영지주의는 비밀 지식 전통이라는 공통점을 가진다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "kabbalah",
+    "target": "hermeticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "카발라와 헤르메스주의는 르네상스 시대 기독교 카발라를 통해 융합되었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ubuntu-philosophy",
+    "target": "postcolonialism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "우분투 철학은 아프리카 탈식민주의 사상의 핵심 가치 체계이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ubuntu-philosophy",
+    "target": "humanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "우분투와 인문주의는 인간 존엄성에 대한 신뢰라는 공통 가치를 가진다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ubuntu-philosophy",
+    "target": "yoruba-religion",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "우분투와 요루바 종교는 아프리카 공동체적 세계관을 공유한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "vedas",
+    "target": "yoga-tradition",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "베다의 명상적·수행적 전통이 요가 체계의 경전적 토대이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "yoga-tradition",
+    "target": "advaita-vedanta",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "요가와 아드바이타 베단타는 인도 영성의 실천과 이론으로 상호보완적이다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yoruba-religion",
+    "target": "trickster-archetype",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "요루바의 에슈는 세계 신화에서 가장 유명한 트릭스터 신격 중 하나이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bahai-faith",
+    "target": "liberalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "바하이 신앙의 인류 통합 비전은 세계시민주의적 자유주의와 공명한다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "cheondogyo",
+    "target": "nationalism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "천도교는 3.1 운동의 핵심 세력으로 한국 민족주의의 형성에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jainism",
+    "target": "mahayana-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "자이나교와 대승불교는 인도에서 비바라문적 수행 전통으로 공존했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "korean-shamanism",
+    "target": "daoism-religious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "한국 무속과 도교는 한반도에서 오랜 기간 상호작용하며 공존했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "manichaeism",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "로마 가톨릭 교회는 마니교를 가장 위험한 이단으로 규정하고 철저히 박해했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "manichaeism",
+    "target": "zoroastrianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "마니교와 조로아스터교는 페르시아의 이원론적 종교 전통을 공유한다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "manichaeism",
+    "target": "daoism-religious",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "마니교는 중국에서 도교적 요소를 흡수하며 변용되어 전파되었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "new-age",
+    "target": "hermeticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "뉴에이지 운동은 헤르메스주의의 만물 조응 원리를 현대적으로 수용했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "reform-judaism",
+    "target": "humanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "인문주의적 가치가 개혁 유대교의 율법 재해석에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "wahhabism",
+    "target": "new-age",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "와하비즘은 뉴에이지적 종교 혼합주의를 이단적이라고 강하게 반대한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "wahhabism",
+    "target": "roman-catholicism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "와하비즘은 가톨릭의 성인 숭배와 성상 전통을 우상숭배로 비판한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zoroastrianism",
+    "target": "shia-islam",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조로아스터교의 페르시아 문화적 유산이 시아파 이슬람의 형성에 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "zoroastrianism",
+    "target": "bahai-faith",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "조로아스터교의 페르시아 영적 전통이 바하이 신앙의 문화적 토양이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "zoroastrianism",
+    "target": "hermeticism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "조로아스터교와 헤르메스주의는 후기 고대 지중해 세계에서 교류했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "al-azhar-university",
+    "target": "wahhabism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "알아즈하르 대학은 수니파 온건 전통의 수호자로서 와하비즘의 극단주의를 비판해왔다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "al-azhar-university",
+    "target": "sufism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "알아즈하르 대학은 수피즘을 정통 이슬람의 일부로 수용하며 공존했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "mount-athos",
+    "target": "lutheranism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "아토스 산의 정교회 전통은 루터교의 개신교적 쇄신에 대해 비판적 입장을 취했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "potala-palace",
+    "target": "nalanda-university",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "날란다 대학의 불교 학문 전통이 포탈라궁의 티베트 불교 교학 체계에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "potala-palace",
+    "target": "zen-buddhism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "포탈라궁의 금강승과 선불교는 대승불교의 서로 다른 발전 경로를 대표한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "anima-animus",
+    "target": "heros-journey",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "아니마/아니무스의 통합은 영웅의 여정에서 내면적 변환의 핵심 단계이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "axis-mundi",
+    "target": "sacred-feminine",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "세계축과 성스러운 여성성은 우주의 생명력을 상징하는 신화적 모티프이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "coincidentia-oppositorum",
+    "target": "dao",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "shared_origin",
+    "description": "대립의 일치와 도(道)는 동서양에서 대립을 초월하는 궁극적 원리를 지향한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "dreamtime",
+    "target": "eternal-return",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "드림타임과 영원한 회귀는 원초적 시간으로의 복귀라는 구조를 공유한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "heros-journey",
+    "target": "existentialist-literature",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "영웅의 여정 원형은 실존주의 문학의 자아 발견 서사에 구조적 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "world-egg",
+    "target": "eternal-return",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "세계알의 탄생 신화와 영원한 회귀는 우주의 순환적 창조를 상징한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "world-egg",
+    "target": "shamanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "세계알 신화는 시베리아 샤머니즘의 창조 신화에서 핵심적 역할을 한다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "meme-culture",
+    "target": "information-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "밈 문화는 정보 혁명 시대의 핵심 문화적 현상이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "meme-culture",
+    "target": "surrealism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "초현실주의의 자동기술법과 우연의 미학이 밈 문화의 무작위적 창작에 선구적 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "meme-culture",
+    "target": "posthumanism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "밈 문화와 포스트휴머니즘은 디지털 시대 인간 표현과 정체성의 변화를 반영한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "metoo-movement",
+    "target": "feminism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "미투 운동은 페미니즘의 제4물결로서 디지털 시대의 여성 인권 운동이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "posthumanism",
+    "target": "singularity-concept",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "포스트휴머니즘과 기술적 특이점은 인간 이후의 미래에 대한 논의를 공유한다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "chaos-theory",
+    "target": "complexity-science",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "preceded",
+    "description": "카오스 이론의 비선형 동역학이 복잡계 과학의 이론적 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "chaos-theory",
+    "target": "cybernetics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "카오스 이론과 사이버네틱스는 시스템의 행동 패턴을 이해하려는 학제적 시도이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "chaos-theory",
+    "target": "information-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "카오스 이론의 발전은 컴퓨터 시뮬레이션의 발달과 함께 정보 혁명 시대에 이루어졌다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "information-revolution",
+    "target": "meme-culture",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "정보 혁명이 밈 문화의 폭발적 확산을 가능케 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "singularity-concept",
+    "target": "information-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "기술적 특이점은 정보 혁명의 궁극적 귀결에 대한 예측이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "singularity-concept",
+    "target": "cybernetics",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "사이버네틱스의 인간-기계 상호작용 연구가 특이점 개념의 이론적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "behavioral-economics",
+    "target": "empiricism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "경험론의 실험적 방법론이 행동경제학의 실증적 연구 전통에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "keynesian-economics",
+    "target": "industrial-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "산업혁명 이후의 경제 불안정이 케인스 경제학의 역사적 배경이 되었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "neoliberalism",
+    "target": "internet-revolution",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "coexisted",
+    "description": "신자유주의의 세계화 흐름은 인터넷 혁명과 함께 가속화되었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "social-democracy",
+    "target": "utilitarianism",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "공리주의의 최대 다수의 최대 행복 원리가 사회민주주의의 복지 정책에 영향을 주었다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "yoruba-religion",
+    "target": "sacred-feminine",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "요루바 종교의 오순(Oshun) 등 여성 오리샤는 성스러운 여성성의 아프리카적 표현이다",
+    "strength": 1,
     "direction": "directed"
   }
 ]

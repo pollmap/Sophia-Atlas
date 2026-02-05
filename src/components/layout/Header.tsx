@@ -22,6 +22,8 @@ import {
   Globe,
   Clock,
   Route,
+  Boxes,
+  Info,
 } from "lucide-react";
 import { useTheme } from "next-themes";
 import { cn } from "@/lib/utils";
@@ -79,6 +81,12 @@ const navEntries: NavEntry[] = [
     href: "/persons",
   },
   {
+    kind: "link",
+    label: "엔터티",
+    icon: <Boxes className="w-4 h-4" />,
+    href: "/entities",
+  },
+  {
     kind: "group",
     label: "탐색",
     icon: <BookOpen className="w-4 h-4" />,
@@ -89,8 +97,12 @@ const navEntries: NavEntry[] = [
       { label: "근본질문", description: "철학의 핵심 물음들", href: "/philosophy/questions" },
       { label: "종교 분파트리", description: "종교 분파 계보", href: "/religion/tree" },
       { label: "종교 비교표", description: "종교 간 비교 매트릭스", href: "/religion/compare" },
+      { label: "종교 세계지도", description: "종교 발원지와 전파", href: "/religion/map" },
       { label: "과학사 타임라인", description: "주요 발견과 발명", href: "/science/timeline" },
+      { label: "과학 분야별", description: "분야별 과학사 탐색", href: "/science/fields" },
       { label: "역사 사건", description: "주요 역사적 사건", href: "/history/timeline" },
+      { label: "문명 탐색", description: "문명권별 지성사", href: "/history/civilizations" },
+      { label: "문화·예술", description: "문화와 예술운동", href: "/culture" },
       { label: "비교 엔진", description: "인물 간 사상 비교", href: "/compare" },
     ],
   },
@@ -105,6 +117,12 @@ const navEntries: NavEntry[] = [
     label: "검색",
     icon: <Search className="w-4 h-4" />,
     href: "/search",
+  },
+  {
+    kind: "link",
+    label: "소개",
+    icon: <Info className="w-4 h-4" />,
+    href: "/about",
   },
 ];
 
@@ -150,8 +168,11 @@ export default function Header() {
     return pathname?.startsWith(normalized);
   };
 
-  const isGroupActive = (basePath: string) => {
-    return pathname?.startsWith(basePath);
+  const isGroupActive = (_basePath: string, children?: DropdownChild[]) => {
+    if (children) {
+      return children.some((child) => pathname?.startsWith(child.href.replace(/\/+$/, "")));
+    }
+    return pathname?.startsWith(_basePath);
   };
 
   const toggleMobileGroup = (label: string) => {
@@ -223,7 +244,7 @@ export default function Header() {
                   );
                 }
 
-                const groupActive = isGroupActive(entry.basePath);
+                const groupActive = isGroupActive(entry.basePath, entry.children);
                 return (
                   <div key={entry.label} className="relative group">
                     <button
@@ -400,7 +421,7 @@ export default function Header() {
                   );
                 }
 
-                const groupActive = isGroupActive(entry.basePath);
+                const groupActive = isGroupActive(entry.basePath, entry.children);
                 const isExpanded = expandedGroup === entry.label;
 
                 return (

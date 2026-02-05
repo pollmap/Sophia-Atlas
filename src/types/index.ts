@@ -231,7 +231,11 @@ export type EntityType =
   | "institution"
   | "text"
   | "nation"
-  | "concept";
+  | "concept"
+  | "tradition"        // v9: 전통 (사상체계, 종교/영성, 과학 패러다임 등)
+  | "archetype"        // v9: 신화/원형 서사 (영웅의 여정, 창조 신화 등)
+  | "art_movement"     // v9: 예술운동 (낭만주의, 인상파 등)
+  | "technology";      // v9: 기술 패러다임 (산업혁명, AI 등)
 
 export interface Entity {
   id: string;
@@ -283,14 +287,23 @@ export interface Entity {
  * 기존 5종 유지 + 3종 추가 = 8종
  */
 export type PersonRelationType =
-  | "influenced"      // 직접 영향 (스승→제자, 저작 읽음)
-  | "opposed"         // 비판/반박 (아리스토텔레스→플라톤 이데아론 비판)
-  | "developed"       // 사상을 발전/변형/종합 (헤겔→칸트 변증법 발전)
-  | "parallel"        // 독립적 구조적 유사성 (스토아↔불교 무집착)
-  | "contextual"      // 같은 역사적 맥락 공유 (사르트르↔카뮈 전후 파리)
-  | "teacher_student" // 명시적 사제 관계 (소크라테스→플라톤)
-  | "collaborated"    // 공동 작업 (마르크스↔엥겔스, 크릭↔왓슨)
-  | "contemporary";   // 동시대 교류 (라이프니츠↔뉴턴 미적분 논쟁)
+  | "influenced"         // 직접 영향 (스승→제자, 저작 읽음)
+  | "opposed"            // 비판/반박 (아리스토텔레스→플라톤 이데아론 비판)
+  | "developed"          // 사상을 발전/변형/종합 (헤겔→칸트 변증법 발전)
+  | "parallel"           // 독립적 구조적 유사성 (스토아↔불교 무집착)
+  | "contextual"         // 같은 역사적 맥락 공유 (사르트르↔카뮈 전후 파리)
+  | "teacher_student"    // 명시적 사제 관계 (소크라테스→플라톤)
+  | "collaborated"       // 공동 작업 (마르크스↔엥겔스, 크릭↔왓슨)
+  | "contemporary"       // 동시대 교류 (라이프니츠↔뉴턴 미적분 논쟁)
+  // v9 확장
+  | "patron"             // 후원자 관계 (메디치→다 빈치)
+  | "correspondent"      // 서신 교환 (라이프니츠↔뉴턴)
+  | "family"             // 가족 관계
+  | "rival"              // 논적/경쟁자
+  | "synthesized"        // 종합 (여러 사상을 결합)
+  | "reacted_against"    // 반발 (계승이 아닌 적극적 거부)
+  | "shared_archetype"   // 같은 원형 표현 (문화적 동형)
+  | "synchronistic";     // 의미 있는 우연/동시 발견
 
 /**
  * 인물-주제 관계 유형 (Person ↔ Entity)
@@ -310,12 +323,18 @@ export type PersonEntityRelationType =
  * 주제 간 관계 유형 (Entity ↔ Entity)
  */
 export type EntityRelationType =
-  | "preceded"        // 선행 (르네상스→과학혁명)
-  | "caused"          // 야기 (인쇄술 발명→종교개혁)
-  | "part_of"         // 부분 (빈 학파→논리실증주의)
-  | "opposed_to"      // 대립 (유물론↔관념론)
-  | "evolved_into"    // 발전 (연금술→근대 화학)
-  | "influenced";     // 영향 (그리스 철학→이슬람 철학)
+  | "preceded"           // 선행 (르네상스→과학혁명)
+  | "caused"             // 야기 (인쇄술 발명→종교개혁)
+  | "part_of"            // 부분 (빈 학파→논리실증주의)
+  | "opposed_to"         // 대립 (유물론↔관념론)
+  | "evolved_into"       // 발전 (연금술→근대 화학)
+  | "influenced"         // 영향 (그리스 철학→이슬람 철학)
+  // v9 확장
+  | "branched_from"      // 분파 (개신교→가톨릭에서 분리)
+  | "merged_with"        // 합류/융합 (신유학 = 유교+불교+도교)
+  | "replaced"           // 대체 (천동설→지동설)
+  | "coexisted"          // 공존/병행
+  | "shared_origin";     // 공통 기원 (유대교/기독교/이슬람)
 
 /** 관계 강도 */
 export type RelationshipStrength = 1 | 2 | 3; // 1=약함, 2=보통, 3=강함

@@ -24,7 +24,7 @@ import {
   Lightbulb,
   TrendingUp,
 } from "lucide-react";
-import Fuse from "fuse.js";
+import type FuseType from "fuse.js";
 import philosophersData from "@/data/persons/philosophers.json";
 import religiousFiguresData from "@/data/persons/religious-figures.json";
 import scientistsData from "@/data/persons/scientists.json";
@@ -161,32 +161,47 @@ const suggestedSearches = [
 ];
 
 // ────────────────────────────────────────────────────────────
-// Fuse.js indices
+// Fuse.js indices (lazy-loaded)
 // ────────────────────────────────────────────────────────────
 
-const personIndex = new Fuse(allPersonsData, {
-  keys: ["name.ko", "name.en", "name.original", "summary", "tags", "concepts", "field", "school"],
-  threshold: 0.35,
-  includeScore: true,
-});
+let _Fuse: typeof FuseType | null = null;
+let _personIndex: FuseType<any> | null = null;
+let _entityIndex: FuseType<any> | null = null;
+let _religionIndex: FuseType<any> | null = null;
+let _glossaryIndex: FuseType<any> | null = null;
 
-const entityIndex = new Fuse(allEntitiesData, {
-  keys: ["name.ko", "name.en", "name.original", "summary", "tags"],
-  threshold: 0.35,
-  includeScore: true,
-});
-
-const religionIndex = new Fuse(religionsData, {
-  keys: ["name.ko", "name.en", "summary"],
-  threshold: 0.4,
-  includeScore: true,
-});
-
-const glossaryIndex = new Fuse(glossaryData, {
-  keys: ["term.ko", "term.en", "definition"],
-  threshold: 0.4,
-  includeScore: true,
-});
+async function getFuseIndices() {
+  if (!_Fuse) {
+    const mod = await import("fuse.js");
+    _Fuse = mod.default;
+  }
+  const Fuse = _Fuse;
+  if (!_personIndex) {
+    _personIndex = new Fuse(allPersonsData, {
+      keys: ["name.ko", "name.en", "name.original", "summary", "tags", "concepts", "field", "school"],
+      threshold: 0.35, includeScore: true,
+    });
+  }
+  if (!_entityIndex) {
+    _entityIndex = new Fuse(allEntitiesData, {
+      keys: ["name.ko", "name.en", "name.original", "summary", "tags"],
+      threshold: 0.35, includeScore: true,
+    });
+  }
+  if (!_religionIndex) {
+    _religionIndex = new Fuse(religionsData, {
+      keys: ["name.ko", "name.en", "summary"],
+      threshold: 0.4, includeScore: true,
+    });
+  }
+  if (!_glossaryIndex) {
+    _glossaryIndex = new Fuse(glossaryData, {
+      keys: ["term.ko", "term.en", "definition"],
+      threshold: 0.4, includeScore: true,
+    });
+  }
+  return { personIndex: _personIndex, entityIndex: _entityIndex, religionIndex: _religionIndex, glossaryIndex: _glossaryIndex };
+}
 
 // ────────────────────────────────────────────────────────────
 // Recent searches (localStorage)
@@ -235,10 +250,13 @@ export default function SearchPage() {
   const [activeFilter, setActiveFilter] = useState<FilterTab>("all");
   const [expandedGlossary, setExpandedGlossary] = useState<Set<string>>(new Set());
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
+  const [fuseReady, setFuseReady] = useState(false);
+  const [results, setResults] = useState<{ persons: PersonResult[]; entities: EntityResult[]; religions: ReligionResult[]; glossary: GlossaryResult[] }>({ persons: [], entities: [], religions: [], glossary: [] });
 
-  // Load recent searches on mount
+  // Load Fuse.js indices + recent searches on mount
   useEffect(() => {
     setRecentSearches(getRecentSearches());
+    getFuseIndices().then(() => setFuseReady(true));
   }, []);
 
   // Save search on debounced query change
@@ -252,10 +270,13 @@ export default function SearchPage() {
   }, [query]);
 
   // ── Search logic ──
-  const results = useMemo(() => {
-    if (!query.trim()) return { persons: [], entities: [], religions: [], glossary: [] };
+  useEffect(() => {
+    if (!fuseReady || !query.trim()) {
+      setResults({ persons: [], entities: [], religions: [], glossary: [] });
+      return;
+    }
 
-    const personResults: PersonResult[] = personIndex.search(query).map((r) => ({
+    const personResults: PersonResult[] = (_personIndex?.search(query) ?? []).map((r: any) => ({
       type: "person" as const,
       id: r.item.id,
       name: r.item.name.ko,
@@ -266,7 +287,7 @@ export default function SearchPage() {
       period: r.item.period,
     }));
 
-    const entityResults: EntityResult[] = entityIndex.search(query).map((r) => ({
+    const entityResults: EntityResult[] = (_entityIndex?.search(query) ?? []).map((r: any) => ({
       type: "entity" as const,
       id: r.item.id,
       name: r.item.name.ko,
@@ -277,7 +298,7 @@ export default function SearchPage() {
       period: r.item.period,
     }));
 
-    const relResults: ReligionResult[] = religionIndex.search(query).map((r) => ({
+    const relResults: ReligionResult[] = (_religionIndex?.search(query) ?? []).map((r: any) => ({
       type: r.item.type as "religion" | "mythology",
       id: r.item.id,
       name: r.item.name.ko,
@@ -286,7 +307,7 @@ export default function SearchPage() {
       preview: r.item.summary,
     }));
 
-    const glosResults: GlossaryResult[] = glossaryIndex.search(query).map((r) => ({
+    const glosResults: GlossaryResult[] = (_glossaryIndex?.search(query) ?? []).map((r: any) => ({
       type: "glossary" as const,
       id: r.item.id,
       term: r.item.term.ko,
@@ -295,13 +316,13 @@ export default function SearchPage() {
       definition: r.item.definition,
     }));
 
-    return {
+    setResults({
       persons: personResults,
       entities: entityResults,
       religions: relResults,
       glossary: glosResults,
-    };
-  }, [query]);
+    });
+  }, [query, fuseReady]);
 
   const counts = {
     all: results.persons.length + results.entities.length + results.religions.length + results.glossary.length,
