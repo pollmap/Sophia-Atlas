@@ -27203,5 +27203,235 @@
     "description": "래리 페이지은(는) 디지털 혁명에 기여했다",
     "strength": 1,
     "direction": "directed"
+  },
+  {
+    "source": "plato",
+    "target": "prometheus-myth",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "플라톤은 프로메테우스 신화를 《프로타고라스》에서 문명의 기원 이야기로 활용했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nietzsche",
+    "target": "prometheus-myth",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "니체는 프로메테우스를 인간의 자기 초월 의지의 상징으로 해석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "jung",
+    "target": "hero-journey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "융은 집단 무의식과 원형론을 통해 영웅의 여정 구조의 심리학적 기반을 제시했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "joseph-campbell",
+    "target": "hero-journey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "캠벨은 《천의 얼굴을 가진 영웅》에서 영웅의 여정 구조를 체계화했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "einstein",
+    "target": "cubism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아인슈타인의 상대성이론과 큐비즘은 동시대에 다중 시점의 패러다임을 공유했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "einstein",
+    "target": "modernism-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "아인슈타인의 시공간 혁명은 모더니즘 예술의 전통 파괴와 동시대적 공명을 가졌다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "heisenberg",
+    "target": "abstract-expressionism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "하이젠베르크의 불확정성 원리는 추상표현주의의 우연성과 비확정성 미학에 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "freud",
+    "target": "expressionism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "프로이트의 정신분석은 표현주의의 내면 세계 표현에 심리학적 정당성을 부여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hegel",
+    "target": "romanticism-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "헤겔의 정신현상학과 역사철학은 낭만주의 예술의 이론적 배경이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "schopenhauer",
+    "target": "romanticism-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "쇼펜하우어의 의지와 표상의 세계는 후기 낭만주의에 깊은 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nietzsche",
+    "target": "expressionism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "니체의 디오니소스적 충동과 초인 사상은 표현주의의 격렬한 감정 표출에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sartre",
+    "target": "abstract-expressionism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "사르트르의 실존적 자유와 불안의 개념은 추상표현주의의 실존적 표현과 공명했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "derrida",
+    "target": "postmodern-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "데리다의 해체주의는 포스트모던 예술의 의미 해체와 다원성에 이론적 토대를 제공했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "foucault",
+    "target": "conceptual-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "푸코의 지식-권력 분석은 개념 미술의 제도 비판에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "deleuze",
+    "target": "postmodern-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "들뢰즈의 리좀 개념과 차이의 철학은 포스트모던 예술의 비위계적 다원성에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "kant",
+    "target": "romanticism-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "칸트의 숭고 미학과 판단력 비판은 낭만주의 예술의 이론적 출발점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "adorno",
+    "target": "modernism-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "아도르노는 《미학 이론》에서 모더니즘 예술의 자율성과 사회적 역할을 비판적으로 분석했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddha",
+    "target": "hero-journey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "붓다의 깨달음 서사는 영웅의 여정 원형의 동양적 구현이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "moses",
+    "target": "hero-journey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "모세의 이집트 탈출 서사는 영웅의 여정 원형의 유대교적 구현이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad",
+    "target": "hero-journey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "무함마드의 히즈라와 계시 서사는 영웅의 여정 원형의 이슬람적 구현이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "turing",
+    "target": "artificial-intelligence",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "튜링은 튜링 머신과 튜링 테스트로 인공지능의 이론적 기반을 창시했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "homer",
+    "target": "hero-journey",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "호메로스의 오디세우스 서사는 영웅의 여정 원형의 최초이자 가장 영향력 있는 문학적 구현이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "goethe",
+    "target": "prometheus-myth",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "괴테는 《프로메테우스》 시에서 인간의 자율적 창조성을 프로메테우스 원형으로 표현했다",
+    "strength": 2,
+    "direction": "directed"
   }
 ]
