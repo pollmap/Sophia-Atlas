@@ -307,7 +307,7 @@ export default function ComparePage() {
                 </span>
               )}
             </div>
-            <p className="text-xs text-[var(--ink-medium)] mt-2 line-clamp-3" style={{ fontFamily: "'Pretendard', sans-serif" }}>
+            <p className="text-xs text-[var(--ink-medium)] mt-2 line-clamp-5" style={{ fontFamily: "'Pretendard', sans-serif" }}>
               {data.summary}
             </p>
           </div>

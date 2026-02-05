@@ -93,25 +93,16 @@ const navEntries: NavEntry[] = [
     icon: <BookOpen className="w-4 h-4" />,
     basePath: "/explore",
     children: [
-      { label: "사유의 흐름", description: "타임라인 · 영향 그래프 · 근본 질문", href: "/philosophy/timeline" },
-      { label: "영성의 지도", description: "분파 트리 · 비교표 · 세계지도", href: "/religion/tree" },
-      { label: "발견의 여정", description: "과학사 타임라인 · 분야별 탐색", href: "/science/timeline" },
-      { label: "문명의 궤적", description: "역사 사건 · 문명권 탐색", href: "/history/timeline" },
-      { label: "예술의 세계", description: "문화·예술 운동과 전통", href: "/culture" },
-      { label: "비교 엔진", description: "인물·사상 간 비교 분석", href: "/compare" },
+      { label: "사유의 흐름", description: "철학 타임라인 · 영향 그래프", href: "/philosophy/timeline" },
+      { label: "영성의 지도", description: "분파 트리 · 비교표", href: "/religion/tree" },
+      { label: "발견의 여정", description: "과학사 타임라인", href: "/science/timeline" },
+      { label: "문명의 궤적", description: "역사 · 문명권 탐색", href: "/history/timeline" },
+      { label: "예술의 세계", description: "문화·예술 운동", href: "/culture" },
+      { label: "주요 테마", description: "창조·사후세계·영웅·윤리", href: "/themes" },
+      { label: "비교 엔진", description: "인물·사상 비교 분석", href: "/compare" },
+      { label: "학습 경로", description: "주제별 학습 가이드", href: "/learn" },
+      { label: "성향 테스트", description: "나의 사상 유형 알아보기", href: "/learn/sophia-type" },
     ],
-  },
-  {
-    kind: "link",
-    label: "학습",
-    icon: <Route className="w-4 h-4" />,
-    href: "/learn",
-  },
-  {
-    kind: "link",
-    label: "성향 테스트",
-    icon: <Brain className="w-4 h-4" />,
-    href: "/learn/sophia-type",
   },
   {
     kind: "link",
@@ -225,15 +216,15 @@ export default function Header() {
                       key={entry.href}
                       href={entry.href}
                       className={cn(
-                        "flex items-center gap-2 px-3.5 py-2 rounded",
-                        "text-sm font-medium transition-all duration-200",
+                        "flex items-center gap-1.5 px-2.5 py-2 rounded",
+                        "text-[13px] font-medium transition-all duration-200 whitespace-nowrap",
                         isActive(entry.href)
                           ? "text-gold"
                           : "text-ink-medium hover:text-gold"
                       )}
                       style={{
                         fontFamily: "'Pretendard', sans-serif",
-                        letterSpacing: '0.03em',
+                        letterSpacing: '0.02em',
                         ...(isActive(entry.href) ? { borderBottom: '2px solid var(--gold)' } : {}),
                       }}
                     >
@@ -250,15 +241,15 @@ export default function Header() {
                   <div key={entry.label} className="relative group">
                     <button
                       className={cn(
-                        "flex items-center gap-2 px-3.5 py-2 rounded",
-                        "text-sm font-medium transition-all duration-200",
+                        "flex items-center gap-1.5 px-2.5 py-2 rounded",
+                        "text-[13px] font-medium transition-all duration-200 whitespace-nowrap",
                         groupActive
                           ? "text-gold"
                           : "text-ink-medium hover:text-gold"
                       )}
                       style={{
                         fontFamily: "'Pretendard', sans-serif",
-                        letterSpacing: '0.03em',
+                        letterSpacing: '0.02em',
                         ...(groupActive ? { borderBottom: '2px solid var(--gold)' } : {}),
                       }}
                     >

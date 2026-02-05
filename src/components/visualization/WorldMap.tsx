@@ -113,9 +113,9 @@ function clusterPersons(
     }));
   }
 
-  // More aggressive clustering for large datasets
-  // zoom 2: ~60°, zoom 3: ~30°, zoom 4: ~15°, zoom 5: ~8°, zoom 6: ~4°, zoom 7: ~2°
-  const threshold = Math.max(1.5, 60 / Math.pow(2, zoom));
+  // Tighter clustering thresholds to reduce overlap
+  // zoom 2: ~20°, zoom 3: ~10°, zoom 4: ~5°, zoom 5: ~3°, zoom 6: ~1.5°, zoom 7: ~0.8°
+  const threshold = Math.max(0.8, 20 / Math.pow(2, zoom - 1));
   const clusters: ClusterGroup[] = [];
   const assigned = new Set<number>();
 
@@ -261,7 +261,7 @@ export default function WorldMap({
   showEntities = true,
   onViewportPersons,
 }: WorldMapProps) {
-  const [zoom, setZoom] = useState(3);
+  const [zoom, setZoom] = useState(4);
 
   const filteredPersons = useMemo(() => {
     return persons.filter((p) => {
@@ -305,7 +305,7 @@ export default function WorldMap({
   return (
     <MapContainer
       center={[35, 50]}
-      zoom={3}
+      zoom={4}
       minZoom={2}
       maxZoom={12}
       scrollWheelZoom={true}
@@ -326,17 +326,17 @@ export default function WorldMap({
         />
       )}
 
-      {/* Religion origin markers */}
-      {categoryFilter === "all" && religionsWithCoords.map((r) => (
+      {/* Religion origin markers - only show at higher zoom */}
+      {categoryFilter === "all" && zoom >= 4 && religionsWithCoords.map((r) => (
         <CircleMarker
           key={`religion-${r.id}`}
           center={[r.lat, r.lng]}
-          radius={zoom >= 5 ? 10 : 8}
+          radius={zoom >= 6 ? 8 : 6}
           pathOptions={{
             color: r.type === "religion" ? "#F59E0B" : "#10B981",
             fillColor: r.type === "religion" ? "#F59E0B" : "#10B981",
-            fillOpacity: 0.25,
-            weight: 2,
+            fillOpacity: 0.15,
+            weight: 1.5,
             dashArray: "4 4",
           }}
         >
@@ -374,19 +374,19 @@ export default function WorldMap({
         </CircleMarker>
       ))}
 
-      {/* Entity markers on the map */}
-      {filteredEntities.map((entity) => {
+      {/* Entity markers on the map - only show at zoom >= 5 */}
+      {zoom >= 5 && filteredEntities.map((entity) => {
         const color = ENTITY_TYPE_COLORS[entity.type] || "#6B4E8A";
         return (
           <CircleMarker
             key={`entity-${entity.id}`}
             center={[entity.location!.lat, entity.location!.lng]}
-            radius={zoom >= 5 ? 5 : 4}
+            radius={zoom >= 7 ? 5 : 4}
             pathOptions={{
               color: color,
               fillColor: color,
-              fillOpacity: 0.6,
-              weight: 1.5,
+              fillOpacity: 0.5,
+              weight: 1,
               dashArray: "3 3",
             }}
           >
@@ -426,14 +426,18 @@ export default function WorldMap({
       {clusters.map((cluster, idx) => {
         const isCluster = cluster.persons.length > 1;
         const radius = isCluster
-          ? Math.min(8 + Math.log2(cluster.persons.length) * 5, 25)
+          ? Math.min(6 + Math.log2(cluster.persons.length) * 3, 18)
           : zoom >= 5
-          ? 6
-          : 5;
+          ? 5
+          : 4;
 
         const color = isCluster
           ? getCategoryHexColor(getDominantCategory(cluster.persons))
           : getCategoryHexColor(cluster.persons[0].category);
+
+        const fillOpacity = isCluster
+          ? Math.max(0.3, 0.6 - cluster.persons.length * 0.01)
+          : 0.7;
 
         return (
           <CircleMarker
@@ -443,8 +447,8 @@ export default function WorldMap({
             pathOptions={{
               color: color,
               fillColor: color,
-              fillOpacity: isCluster ? 0.5 : 0.7,
-              weight: isCluster ? 2 : 1.5,
+              fillOpacity,
+              weight: isCluster ? 1.5 : 1,
             }}
           >
             <Popup maxWidth={300}>

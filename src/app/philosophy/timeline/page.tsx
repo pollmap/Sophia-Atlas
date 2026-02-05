@@ -498,8 +498,8 @@ export default function TimelinePage() {
             {/* Scrollable Timeline Area */}
             <div
               ref={scrollContainerRef}
-              className="flex-1 overflow-x-auto overflow-y-hidden"
-              style={{ position: 'relative' }}
+              className="flex-1 overflow-x-auto overflow-y-auto"
+              style={{ position: 'relative', maxHeight: 'calc(100vh - 260px)' }}
             >
               <div
                 style={{

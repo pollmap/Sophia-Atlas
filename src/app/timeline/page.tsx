@@ -444,8 +444,8 @@ export default function TimelinePage() {
 
           <div
             ref={timelineRef}
-            className="overflow-x-auto"
-            style={{ scrollbarWidth: 'thin', scrollbarColor: 'var(--fresco-shadow) var(--fresco-parchment)' }}
+            className="overflow-x-auto overflow-y-auto"
+            style={{ scrollbarWidth: 'thin', scrollbarColor: 'var(--fresco-shadow) var(--fresco-parchment)', maxHeight: 'calc(100vh - 260px)' }}
           >
             <div
               className="relative"
