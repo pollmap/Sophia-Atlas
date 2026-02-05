@@ -18,7 +18,6 @@ import {
   Scroll,
   ArrowRight,
   Search,
-  Box,
 } from 'lucide-react';
 import philosophersData from '@/data/persons/philosophers.json';
 import religiousFiguresData from '@/data/persons/religious-figures.json';
@@ -352,30 +351,74 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ═══════ IndraNet Banner ═══════ */}
+      {/* ═══════ 3 Ways to Explore ═══════ */}
       <section className="max-w-5xl mx-auto px-4 -mt-2 mb-10">
-        <Link
-          href="/connections"
-          className="group block fresco-card overflow-hidden"
-        >
-          <div className="flex items-center gap-4 p-5 md:p-6" style={{ background: 'linear-gradient(135deg, rgba(184,134,11,0.06), rgba(184,134,11,0.02))' }}>
-            <div className="w-14 h-14 rounded-lg flex items-center justify-center shrink-0" style={{ backgroundColor: 'rgba(184,134,11,0.1)' }}>
-              <Box className="w-7 h-7" style={{ color: 'var(--gold)' }} />
-            </div>
-            <div className="flex-1 min-w-0">
-              <h3 className="text-base font-semibold flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
-                인드라망 &mdash; 3D 시각화
-                <span className="text-[10px] px-1.5 py-0.5 rounded font-normal" style={{ backgroundColor: 'rgba(184,134,11,0.12)', color: 'var(--gold)', fontFamily: "'Pretendard', sans-serif" }}>
-                  NEW
-                </span>
-              </h3>
-              <p className="text-sm mt-0.5" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
-                {allPersons.length}명의 인물과 {totalEntities}개의 주제, {totalRelationships}개의 관계를 3D 구체 위에서 탐험하세요
+        <h2 className="text-lg font-semibold mb-4" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
+          어디서부터 시작할까요?
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <Link href="/connections" className="group fresco-card overflow-hidden">
+            <div className="p-5" style={{ background: 'linear-gradient(135deg, rgba(184,134,11,0.08), rgba(184,134,11,0.02))' }}>
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: 'rgba(184,134,11,0.12)' }}>
+                  <Network className="w-5 h-5" style={{ color: 'var(--gold)' }} />
+                </div>
+                <div>
+                  <h3 className="text-sm font-semibold flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
+                    인드라망 3D
+                    <span className="text-[9px] px-1.5 py-0.5 rounded font-normal" style={{ backgroundColor: 'rgba(184,134,11,0.12)', color: 'var(--gold)', fontFamily: "'Pretendard', sans-serif" }}>
+                      추천
+                    </span>
+                  </h3>
+                </div>
+              </div>
+              <p className="text-xs mb-3" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
+                {allPersons.length}명의 인물과 {totalEntities}개의 주제, {totalRelationships.toLocaleString()}개의 연결을 3D 구체 위에서 탐험
               </p>
+              <span className="text-[11px] font-medium group-hover:translate-x-0.5 transition-transform inline-flex items-center gap-1" style={{ color: 'var(--gold)', fontFamily: "'Pretendard', sans-serif" }}>
+                탐험하기 <ArrowRight className="w-3 h-3" />
+              </span>
             </div>
-            <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" style={{ color: 'var(--gold)' }} />
-          </div>
-        </Link>
+          </Link>
+
+          <Link href="/persons" className="group fresco-card overflow-hidden">
+            <div className="p-5" style={{ background: 'linear-gradient(135deg, rgba(74,93,138,0.06), rgba(74,93,138,0.01))' }}>
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: 'rgba(74,93,138,0.1)' }}>
+                  <Users className="w-5 h-5" style={{ color: '#4A5D8A' }} />
+                </div>
+                <h3 className="text-sm font-semibold" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
+                  인물 탐색
+                </h3>
+              </div>
+              <p className="text-xs mb-3" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
+                철학자, 종교 인물, 과학자, 역사·문화 인물을 카테고리별로 검색하고 비교
+              </p>
+              <span className="text-[11px] font-medium group-hover:translate-x-0.5 transition-transform inline-flex items-center gap-1" style={{ color: '#4A5D8A', fontFamily: "'Pretendard', sans-serif" }}>
+                둘러보기 <ArrowRight className="w-3 h-3" />
+              </span>
+            </div>
+          </Link>
+
+          <Link href="/learn" className="group fresco-card overflow-hidden">
+            <div className="p-5" style={{ background: 'linear-gradient(135deg, rgba(20,184,166,0.06), rgba(20,184,166,0.01))' }}>
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: 'rgba(20,184,166,0.1)' }}>
+                  <BookOpen className="w-5 h-5" style={{ color: '#14B8A6' }} />
+                </div>
+                <h3 className="text-sm font-semibold" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
+                  학습 경로
+                </h3>
+              </div>
+              <p className="text-xs mb-3" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
+                입문부터 심화까지, 주제별 학습 가이드로 체계적으로 사상의 세계를 탐구
+              </p>
+              <span className="text-[11px] font-medium group-hover:translate-x-0.5 transition-transform inline-flex items-center gap-1" style={{ color: '#14B8A6', fontFamily: "'Pretendard', sans-serif" }}>
+                시작하기 <ArrowRight className="w-3 h-3" />
+              </span>
+            </div>
+          </Link>
+        </div>
       </section>
 
       {/* ═══════ Compact Category Row ═══════ */}
@@ -580,24 +623,32 @@ export default function HomePage() {
           style={{ borderLeft: '3px solid var(--gold)' }}
         >
           <h3
-            className="text-sm font-semibold mb-2 flex items-center gap-2"
+            className="text-sm font-semibold mb-3 flex items-center gap-2"
             style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}
           >
             <Sparkles className="w-4 h-4" style={{ color: 'var(--gold)' }} />
             데이터 출처 및 투명성
           </h3>
-          <div className="space-y-1.5 text-xs" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
+          <div className="space-y-2 text-xs" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
             <p>
-              Sophia Atlas의 인물 정보, 관계 데이터, 사상 해설은 학술 문헌, 백과사전,
-              원전 번역서를 참고하여 AI 기반으로 생성·정리되었습니다.
+              Sophia Atlas의 데이터는 아래 학술 자료를 참고하여 <strong style={{ color: 'var(--ink-medium)' }}>AI 기반으로 생성·정리</strong>되었습니다.
+              인물의 기본 정보(생몰년, 지역, 주요 저작)는 백과사전 기반이며,
+              관계 데이터와 사상 해설은 AI가 학술 문헌을 참고해 구조화한 것입니다.
             </p>
             <p>
               <strong style={{ color: 'var(--ink-medium)' }}>주의:</strong> AI 생성 콘텐츠는
               단순화, 편향, 부정확성을 포함할 수 있습니다. 학술 연구에는 반드시 원전과
-              전문 학술서를 참조하세요. 특정 사상에 대한 해석은 여러 학파의 관점 중 하나일 수 있습니다.
+              전문 학술서를 참조하세요.
             </p>
-            <p style={{ color: 'var(--ink-faded)' }}>
-              관계 데이터 {totalRelationships}개 | 인물 {allPersons.length}명 | 전통·주제 {totalEntities}개
+            <div className="flex flex-wrap gap-x-3 gap-y-1 pt-1">
+              <a href="https://plato.stanford.edu/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-[var(--gold)] transition-colors">Stanford Encyclopedia of Philosophy</a>
+              <a href="https://iep.utm.edu/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-[var(--gold)] transition-colors">Internet Encyclopedia of Philosophy</a>
+              <a href="https://www.britannica.com/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-[var(--gold)] transition-colors">Encyclopedia Britannica</a>
+              <a href="https://encykorea.aks.ac.kr/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-[var(--gold)] transition-colors">한국민족문화대백과사전</a>
+              <Link href="/about" className="underline underline-offset-2 hover:text-[var(--gold)] transition-colors">더보기 &rarr;</Link>
+            </div>
+            <p className="pt-1" style={{ color: 'var(--ink-faded)' }}>
+              인물 {allPersons.length}명 · 주제 {totalEntities}개 · 관계 {totalRelationships.toLocaleString()}개
             </p>
           </div>
         </div>
