@@ -181,7 +181,7 @@ export default function ReligionMapPage() {
       {/* Map + Sidebar */}
       <div className="flex-1 flex overflow-hidden">
         {/* Map */}
-        <div className="flex-1 relative">
+        <div className="flex-1 relative isolate">
           <WorldMap
             persons={allPersons}
             religions={religionsData}

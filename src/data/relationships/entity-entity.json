@@ -1822,5 +1822,45 @@
     "description": "로고스 개념은 요한복음에서 '태초에 말씀이 계시니라'로 기독교 신학에 수용되었다",
     "strength": 3,
     "direction": "directed"
+  },
+  {
+    "source": "university-paris",
+    "target": "sorbonne",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "evolved_into",
+    "description": "파리 대학교의 신학부는 소르본으로 발전하여 유럽 학문의 중심지가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "sorbonne",
+    "target": "enlightenment-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "소르본은 프랑스 계몽주의 학자들의 토론과 교류의 핵심 거점이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "habitus",
+    "target": "structuralism-movement",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "part_of",
+    "description": "부르디외의 아비투스 개념은 구조주의적 사회 분석의 핵심 도구가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "habitus",
+    "target": "social-contract-concept",
+    "sourceType": "entity",
+    "targetType": "entity",
+    "type": "opposed_to",
+    "description": "아비투스는 사회계약론의 합리적 행위자 가정에 대해 체화된 성향의 관점에서 비판적 대안을 제시한다",
+    "strength": 1,
+    "direction": "directed"
   }
 ]
