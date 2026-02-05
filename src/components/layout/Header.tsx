@@ -24,6 +24,7 @@ import {
   Route,
   Boxes,
   Info,
+  Brain,
 } from "lucide-react";
 import { useTheme } from "next-themes";
 import { cn } from "@/lib/utils";
@@ -82,7 +83,7 @@ const navEntries: NavEntry[] = [
   },
   {
     kind: "link",
-    label: "엔터티",
+    label: "전통·주제",
     icon: <Boxes className="w-4 h-4" />,
     href: "/entities",
   },
@@ -92,18 +93,12 @@ const navEntries: NavEntry[] = [
     icon: <BookOpen className="w-4 h-4" />,
     basePath: "/explore",
     children: [
-      { label: "철학 타임라인", description: "시대별 철학사 흐름", href: "/philosophy/timeline" },
-      { label: "영향관계 그래프", description: "사상가 간 영향 그래프", href: "/philosophy/graph" },
-      { label: "근본질문", description: "철학의 핵심 물음들", href: "/philosophy/questions" },
-      { label: "종교 분파트리", description: "종교 분파 계보", href: "/religion/tree" },
-      { label: "종교 비교표", description: "종교 간 비교 매트릭스", href: "/religion/compare" },
-      { label: "종교 세계지도", description: "종교 발원지와 전파", href: "/religion/map" },
-      { label: "과학사 타임라인", description: "주요 발견과 발명", href: "/science/timeline" },
-      { label: "과학 분야별", description: "분야별 과학사 탐색", href: "/science/fields" },
-      { label: "역사 사건", description: "주요 역사적 사건", href: "/history/timeline" },
-      { label: "문명 탐색", description: "문명권별 지성사", href: "/history/civilizations" },
-      { label: "문화·예술", description: "문화와 예술운동", href: "/culture" },
-      { label: "비교 엔진", description: "인물 간 사상 비교", href: "/compare" },
+      { label: "사유의 흐름", description: "타임라인 · 영향 그래프 · 근본 질문", href: "/philosophy/timeline" },
+      { label: "영성의 지도", description: "분파 트리 · 비교표 · 세계지도", href: "/religion/tree" },
+      { label: "발견의 여정", description: "과학사 타임라인 · 분야별 탐색", href: "/science/timeline" },
+      { label: "문명의 궤적", description: "역사 사건 · 문명권 탐색", href: "/history/timeline" },
+      { label: "예술의 세계", description: "문화·예술 운동과 전통", href: "/culture" },
+      { label: "비교 엔진", description: "인물·사상 간 비교 분석", href: "/compare" },
     ],
   },
   {
@@ -111,6 +106,12 @@ const navEntries: NavEntry[] = [
     label: "학습",
     icon: <Route className="w-4 h-4" />,
     href: "/learn",
+  },
+  {
+    kind: "link",
+    label: "성향 테스트",
+    icon: <Brain className="w-4 h-4" />,
+    href: "/learn/sophia-type",
   },
   {
     kind: "link",

@@ -1,0 +1,1433 @@
+[
+  {
+    "id": "olympian-gods",
+    "type": "archetype",
+    "name": {
+      "ko": "올림포스 신화 체계",
+      "en": "Olympian Gods"
+    },
+    "period": {
+      "start": -1200,
+      "end": -300,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "그리스 문명의 중심 신화 체계로, 제우스를 수장으로 한 12신이 올림포스산에 거주하며 인간 세계를 지배한다. 각 신은 자연·감정·사회의 특정 영역을 관장하며, 인간적 결함과 감정을 지닌 신들의 이야기는 인간 본성에 대한 깊은 통찰을 담고 있다. 호메로스의 《일리아스》와 헤시오도스의 《신통기》가 이 체계의 핵심 문헌이다.",
+    "tags": [
+      "그리스신화",
+      "다신교",
+      "올림포스",
+      "고대그리스",
+      "신화체계"
+    ],
+    "relatedPersons": [
+      "homer",
+      "plato",
+      "aristotle"
+    ],
+    "relatedEntities": [
+      "greek-hero-cycle",
+      "prometheus-myth",
+      "orphic-mysteries",
+      "academy-plato"
+    ]
+  },
+  {
+    "id": "greek-hero-cycle",
+    "type": "archetype",
+    "name": {
+      "ko": "그리스 영웅 서사",
+      "en": "Greek Hero Cycle"
+    },
+    "period": {
+      "start": -1200,
+      "end": -400,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "헤라클레스, 페르세우스, 테세우스, 오디세우스 등 그리스 영웅들의 서사 구조로, 영웅의 신적 혈통·시련·과업 완수·귀환이라는 보편적 패턴을 보여준다. 조지프 캠벨의 '영웅의 여정' 이론의 원형적 소재이며, 인간의 자기 초월과 운명과의 투쟁이라는 보편적 주제를 담고 있다. 서양 문학과 서사 전통 전체의 근간이 되었다.",
+    "tags": [
+      "그리스신화",
+      "영웅서사",
+      "원형",
+      "고대그리스",
+      "서사구조"
+    ],
+    "relatedPersons": [
+      "homer",
+      "joseph-campbell",
+      "jung"
+    ],
+    "relatedEntities": [
+      "olympian-gods",
+      "heros-journey",
+      "hero-journey"
+    ]
+  },
+  {
+    "id": "prometheus-myth",
+    "type": "archetype",
+    "name": {
+      "ko": "프로메테우스 신화",
+      "en": "Prometheus Myth"
+    },
+    "period": {
+      "start": -800,
+      "end": -400,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "티탄 프로메테우스가 신들로부터 불을 훔쳐 인간에게 전달하고 영원한 형벌을 받는 신화로, 지식의 획득·문명의 시작·신에 대한 반역이라는 원형적 주제를 담고 있다. 아이스킬로스의 비극에서 정립된 이 서사는 계몽주의, 낭만주의, 과학기술 문명에 대한 성찰의 핵심 상징으로 반복되어 왔다.",
+    "tags": [
+      "그리스신화",
+      "불",
+      "문명",
+      "반역",
+      "지식"
+    ],
+    "relatedPersons": [
+      "homer",
+      "nietzsche",
+      "marx"
+    ],
+    "relatedEntities": [
+      "olympian-gods",
+      "enlightenment-movement",
+      "scientific-revolution"
+    ]
+  },
+  {
+    "id": "orphic-mysteries",
+    "type": "archetype",
+    "name": {
+      "ko": "오르페우스 밀교",
+      "en": "Orphic Mysteries"
+    },
+    "period": {
+      "start": -600,
+      "end": -100,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "신화적 시인 오르페우스에게 기원을 둔 고대 그리스의 밀교 전통으로, 영혼의 윤회·정화·해방이라는 교리를 핵심으로 한다. 디오니소스-자그레우스 신화를 중심으로 인간 내면의 신적 본성과 육체로부터의 해방을 추구했으며, 피타고라스 사상과 플라톤 철학에 깊은 영향을 미쳤다.",
+    "tags": [
+      "그리스신화",
+      "밀교",
+      "윤회",
+      "영혼정화",
+      "디오니소스"
+    ],
+    "relatedPersons": [
+      "pythagoras",
+      "plato",
+      "plotinus"
+    ],
+    "relatedEntities": [
+      "olympian-gods",
+      "neoplatonism",
+      "hermeticism"
+    ]
+  },
+  {
+    "id": "norse-cosmology",
+    "type": "archetype",
+    "name": {
+      "ko": "북유럽 우주론",
+      "en": "Norse Cosmology"
+    },
+    "period": {
+      "start": -500,
+      "end": 1100,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "거대한 물푸레나무 위그드라실(Yggdrasil)이 아홉 세계를 연결하는 북유럽 신화의 우주 구조이다. 신들의 세계 아스가르드, 인간의 세계 미드가르드, 거인의 세계 요툰하임 등이 세계수를 축으로 배치되며, 우주적 질서와 혼돈의 긴장을 표현한다. 세계수 원형은 샤머니즘적 우주축(axis mundi)의 대표적 사례이다.",
+    "tags": [
+      "북유럽신화",
+      "위그드라실",
+      "세계수",
+      "우주론",
+      "게르만"
+    ],
+    "relatedPersons": [
+      "mircea-eliade",
+      "jung"
+    ],
+    "relatedEntities": [
+      "ragnarok",
+      "odin-archetype",
+      "shamanic-world-tree",
+      "axis-mundi"
+    ]
+  },
+  {
+    "id": "ragnarok",
+    "type": "archetype",
+    "name": {
+      "ko": "라그나로크",
+      "en": "Ragnarok"
+    },
+    "period": {
+      "start": -500,
+      "end": 1100,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "북유럽 신화의 종말론으로, 신들과 거인들의 최후 전투를 통해 세계가 파괴되고 다시 재생되는 우주적 순환을 그린다. 오딘, 토르, 프레이르 등 주요 신들이 최후의 전투에서 쓰러지지만, 폐허 위에 새로운 세계가 탄생한다. 종말 이후의 재생이라는 구조는 영원회귀의 신화적 표현이며, 인도의 칼파·기독교 묵시록과 비교되는 보편적 종말론 원형이다.",
+    "tags": [
+      "북유럽신화",
+      "종말론",
+      "재생",
+      "영원회귀",
+      "신들의황혼"
+    ],
+    "relatedPersons": [
+      "mircea-eliade",
+      "nietzsche"
+    ],
+    "relatedEntities": [
+      "norse-cosmology",
+      "odin-archetype",
+      "eternal-return"
+    ]
+  },
+  {
+    "id": "odin-archetype",
+    "type": "archetype",
+    "name": {
+      "ko": "오딘 원형",
+      "en": "Odin Archetype"
+    },
+    "period": {
+      "start": -500,
+      "end": 1100,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "북유럽 신화의 최고신 오딘은 지혜를 얻기 위해 한쪽 눈을 희생하고 위그드라실에 매달려 룬 문자를 발견한 '지혜의 추구자' 원형이다. 전사의 신이자 시인의 신이며 마법의 신으로, 지식을 위해 자기 희생을 감수하는 원형적 패턴은 프로메테우스, 붓다의 고행, 예수의 십자가와 구조적으로 유사하다.",
+    "tags": [
+      "북유럽신화",
+      "지혜추구",
+      "자기희생",
+      "원형",
+      "룬"
+    ],
+    "relatedPersons": [
+      "jung",
+      "joseph-campbell"
+    ],
+    "relatedEntities": [
+      "norse-cosmology",
+      "ragnarok",
+      "prometheus-myth",
+      "shamanic-world-tree"
+    ]
+  },
+  {
+    "id": "egyptian-afterlife",
+    "type": "archetype",
+    "name": {
+      "ko": "이집트 내세관",
+      "en": "Egyptian Afterlife"
+    },
+    "period": {
+      "start": -3000,
+      "end": -300,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "고대 이집트의 내세 신앙 체계로, 사자(死者)의 영혼이 오시리스의 심판정에서 마아트의 깃털과 심장의 무게를 비교받는 의식을 핵심으로 한다. 《사자의 서(Book of the Dead)》에 기록된 주문과 의례는 영혼의 영원한 삶을 위한 안내서이다. 죽음 이후의 도덕적 심판이라는 개념은 유대교·기독교·이슬람 내세관의 원형적 선행 형태이다.",
+    "tags": [
+      "이집트신화",
+      "내세",
+      "심판",
+      "사자의서",
+      "영혼"
+    ],
+    "relatedPersons": [
+      "mircea-eliade",
+      "jung"
+    ],
+    "relatedEntities": [
+      "isis-osiris-myth",
+      "maat-concept",
+      "bible"
+    ]
+  },
+  {
+    "id": "isis-osiris-myth",
+    "type": "archetype",
+    "name": {
+      "ko": "이시스-오시리스 신화",
+      "en": "Isis-Osiris Myth"
+    },
+    "period": {
+      "start": -3000,
+      "end": -300,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "오시리스가 형제 세트에게 살해된 후 아내 이시스가 그를 부활시키는 이집트의 핵심 신화이다. 죽음과 부활, 부부의 헌신, 선과 악의 대립이라는 원형적 주제를 담고 있으며, 오시리스의 부활은 나일강의 범람과 농경의 순환을 신화적으로 표현한다. 이 '죽어가는 신(dying god)' 모티프는 아도니스·아티스·디오니소스·예수 부활 서사와 구조적 유사성을 보인다.",
+    "tags": [
+      "이집트신화",
+      "죽음과부활",
+      "죽어가는신",
+      "원형",
+      "농경신화"
+    ],
+    "relatedPersons": [
+      "jung",
+      "joseph-campbell",
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "egyptian-afterlife",
+      "maat-concept",
+      "sacred-feminine"
+    ]
+  },
+  {
+    "id": "maat-concept",
+    "type": "archetype",
+    "name": {
+      "ko": "마아트",
+      "en": "Ma'at"
+    },
+    "period": {
+      "start": -3000,
+      "end": -300,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "고대 이집트의 우주적 질서·진리·정의의 원리이자 여신으로, 파라오의 통치와 사회 질서의 정당성 근거이다. 마아트의 깃털은 사자의 심판에서 도덕적 기준이 되며, 우주의 질서(cosmos)가 인간의 도덕적 행위와 연결된다는 사상을 표현한다. 중국의 천명(天命)·인도의 리타(Ṛta)·그리스의 디케(Dike)와 비교되는 보편적 우주 윤리 개념이다.",
+    "tags": [
+      "이집트신화",
+      "우주질서",
+      "정의",
+      "윤리",
+      "진리"
+    ],
+    "relatedPersons": [
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "egyptian-afterlife",
+      "isis-osiris-myth",
+      "mandate-of-heaven"
+    ]
+  },
+  {
+    "id": "gilgamesh-epic",
+    "type": "archetype",
+    "name": {
+      "ko": "길가메시 서사시",
+      "en": "Epic of Gilgamesh"
+    },
+    "period": {
+      "start": -2700,
+      "end": -600,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "기원전 2700년경 수메르에서 기원한 인류 최고(最古)의 문학 작품으로, 우루크의 왕 길가메시가 친구 엔키두의 죽음 이후 영생을 추구하는 서사이다. 우정·죽음의 공포·영생의 불가능성·인간 조건의 수용이라는 보편적 주제를 다루며, 대홍수 이야기를 포함하여 성경의 노아 서사에 선행하는 원형적 서사이다.",
+    "tags": [
+      "메소포타미아",
+      "서사시",
+      "영생추구",
+      "우정",
+      "수메르"
+    ],
+    "relatedPersons": [
+      "joseph-campbell",
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "enuma-elish",
+      "sumerian-flood",
+      "heros-journey"
+    ]
+  },
+  {
+    "id": "enuma-elish",
+    "type": "archetype",
+    "name": {
+      "ko": "에누마 엘리시",
+      "en": "Enuma Elish"
+    },
+    "period": {
+      "start": -1800,
+      "end": -500,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "바빌론의 창조 서사시로, 혼돈의 여신 티아마트를 마르둑이 격파하고 그 시체로 천지를 창조하는 이야기이다. '혼돈에서 질서로'의 우주발생(cosmogony) 원형을 보여주며, 왕권의 신화적 정당화와 우주적 질서의 확립이라는 주제를 담고 있다. 구약성경 창세기의 창조 서사와의 비교 연구는 신화학의 핵심 주제이다.",
+    "tags": [
+      "메소포타미아",
+      "창조신화",
+      "바빌론",
+      "혼돈과질서",
+      "코스모고니"
+    ],
+    "relatedPersons": [
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "gilgamesh-epic",
+      "sumerian-flood",
+      "bible",
+      "world-egg-cosmogony"
+    ]
+  },
+  {
+    "id": "sumerian-flood",
+    "type": "archetype",
+    "name": {
+      "ko": "수메르 대홍수 신화",
+      "en": "Sumerian Flood Myth"
+    },
+    "period": {
+      "start": -2600,
+      "end": -500,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "신들이 인류를 홍수로 멸절시키되 한 의로운 인간(지우수드라/우트나피슈팀)을 구원하는 수메르 기원의 신화이다. 길가메시 서사시와 아트라하시스 서사시에 포함되어 있으며, 구약성경의 노아 방주·힌두교의 마누·그리스의 데우칼리온 홍수 등 전 세계 홍수 신화의 원형으로 간주된다. 신적 심판과 인류 재출발의 보편적 서사이다.",
+    "tags": [
+      "메소포타미아",
+      "대홍수",
+      "수메르",
+      "심판",
+      "보편서사"
+    ],
+    "relatedPersons": [
+      "mircea-eliade",
+      "joseph-campbell"
+    ],
+    "relatedEntities": [
+      "gilgamesh-epic",
+      "enuma-elish",
+      "bible"
+    ]
+  },
+  {
+    "id": "trimurti",
+    "type": "archetype",
+    "name": {
+      "ko": "트리무르티",
+      "en": "Trimurti"
+    },
+    "period": {
+      "start": -500,
+      "end": 1500,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "힌두교의 세 최고신 브라흐마(창조)·비슈누(유지)·시바(파괴)가 우주의 순환적 과정을 관장하는 삼위일체적 구조이다. 창조-보존-파괴의 우주적 순환은 힌두교 세계관의 핵심이며, 각 신은 다양한 화신(아바타라)과 배우자 여신(삭티)을 통해 현현한다. 기독교 삼위일체와의 비교는 비교종교학의 중요한 주제이다.",
+    "tags": [
+      "힌두신화",
+      "삼위일체",
+      "우주순환",
+      "창조파괴",
+      "인도"
+    ],
+    "relatedPersons": [
+      "shankara",
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "avatar-concept",
+      "cosmic-dance-shiva",
+      "vedas",
+      "brahman"
+    ]
+  },
+  {
+    "id": "avatar-concept",
+    "type": "archetype",
+    "name": {
+      "ko": "아바타라",
+      "en": "Avatara"
+    },
+    "period": {
+      "start": -500,
+      "end": 1500,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "힌두교에서 비슈누 신이 세계의 위기 시 다양한 형태로 지상에 강림하는 '화신(化身)' 개념이다. 마츠야(물고기)·쿠르마(거북)·라마·크리슈나 등 전통적으로 10대 화신(다샤바타라)이 있으며, 붓다도 화신 중 하나로 포함된다. 신의 자기 제한적 현현이라는 개념은 기독교의 성육신(Incarnation)과 비교되는 보편적 신학적 주제이다.",
+    "tags": [
+      "힌두신화",
+      "화신",
+      "비슈누",
+      "강림",
+      "인도"
+    ],
+    "relatedPersons": [
+      "shankara",
+      "buddha"
+    ],
+    "relatedEntities": [
+      "trimurti",
+      "vedas",
+      "brahman"
+    ]
+  },
+  {
+    "id": "kundalini-serpent",
+    "type": "archetype",
+    "name": {
+      "ko": "쿤달리니",
+      "en": "Kundalini Serpent"
+    },
+    "period": {
+      "start": -500,
+      "end": 1500,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "힌두교 탄트라 전통에서 척추 기저에 똬리를 틀고 잠자는 뱀의 형태로 표현되는 원초적 에너지이다. 요가 수행을 통해 쿤달리니가 각성되면 7개의 차크라를 따라 상승하여 사하스라라(정수리 차크라)에서 우주적 의식과 합일한다. 뱀은 전 세계 신화에서 재생·치유·변환·지혜의 원형적 상징이며, 쿤달리니는 이 뱀 원형의 가장 정교한 영적 체계화이다.",
+    "tags": [
+      "힌두신화",
+      "탄트라",
+      "뱀원형",
+      "차크라",
+      "에너지"
+    ],
+    "relatedPersons": [
+      "jung",
+      "shankara"
+    ],
+    "relatedEntities": [
+      "trimurti",
+      "yoga-tradition",
+      "vedas"
+    ]
+  },
+  {
+    "id": "cosmic-dance-shiva",
+    "type": "archetype",
+    "name": {
+      "ko": "시바의 우주적 춤",
+      "en": "Cosmic Dance of Shiva"
+    },
+    "period": {
+      "start": -200,
+      "end": 1200,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "시바 신이 나타라자(춤의 왕) 형상으로 우주의 창조·유지·파괴·은폐·해방의 다섯 작용을 춤으로 표현하는 힌두교의 핵심 신화적 이미지이다. 불의 고리(프라바만달라) 안에서 추는 시바의 춤은 우주가 정적 존재가 아닌 영원한 에너지의 리듬임을 상징한다. 현대 물리학자 프리초프 카프라는 이를 양자장의 에너지 춤과 비교했다.",
+    "tags": [
+      "힌두신화",
+      "나타라자",
+      "우주론",
+      "시바",
+      "리듬"
+    ],
+    "relatedPersons": [
+      "shankara",
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "trimurti",
+      "vedas",
+      "brahman"
+    ]
+  },
+  {
+    "id": "dragon-archetype-east",
+    "type": "archetype",
+    "name": {
+      "ko": "용의 원형 (동아시아)",
+      "en": "Dragon Archetype (East Asia)"
+    },
+    "period": {
+      "start": -3000,
+      "end": 1900,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "동아시아 문화권에서 용(龍)은 비·강·바다를 관장하는 신성한 존재이자 왕권의 상징으로, 서양의 사악한 용과 정반대의 긍정적 원형이다. 중국에서는 천자의 상징(오조룡포)이자 풍수·농경의 핵심 존재이며, 한국의 이무기 전승, 일본의 류진(龍神) 등 다양한 변형을 낳았다. 동서양 용 원형의 차이는 문명의 자연관 차이를 반영한다.",
+    "tags": [
+      "동아시아신화",
+      "용",
+      "왕권",
+      "자연숭배",
+      "원형"
+    ],
+    "relatedPersons": [
+      "confucius",
+      "jung"
+    ],
+    "relatedEntities": [
+      "yin-yang-cosmology",
+      "mandate-of-heaven",
+      "korean-dangun-myth"
+    ]
+  },
+  {
+    "id": "yin-yang-cosmology",
+    "type": "archetype",
+    "name": {
+      "ko": "음양 우주론",
+      "en": "Yin-Yang Cosmology"
+    },
+    "period": {
+      "start": -1000,
+      "end": -200,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "만물이 음(陰, 어둠·수동·여성)과 양(陽, 밝음·능동·남성)의 상호보완적 대립으로 이루어진다는 중국의 우주론적 원리이다. 《주역》을 근거로 체계화되었으며, 오행(五行)과 결합하여 자연·인체·사회 전체를 설명하는 포괄적 세계관을 형성했다. 대립물의 상호의존과 순환적 전환은 헤라클레이토스의 대립의 통일, 헤겔의 변증법과 구조적 유사성을 보인다.",
+    "tags": [
+      "중국사상",
+      "음양",
+      "우주론",
+      "주역",
+      "상보성"
+    ],
+    "relatedPersons": [
+      "laozi",
+      "zhuangzi",
+      "confucius",
+      "jung"
+    ],
+    "relatedEntities": [
+      "yin-yang",
+      "dao",
+      "tao-te-ching",
+      "mandate-of-heaven",
+      "coincidentia-oppositorum"
+    ]
+  },
+  {
+    "id": "mandate-of-heaven",
+    "type": "archetype",
+    "name": {
+      "ko": "천명 사상",
+      "en": "Mandate of Heaven"
+    },
+    "period": {
+      "start": -1046,
+      "end": 1911,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "천(天)이 덕 있는 자에게 통치 권한을 부여하고 부덕한 자에게서 거둔다는 중국의 정치·신화적 개념이다. 주(周) 왕조가 은(殷) 왕조 타도를 정당화하기 위해 체계화한 이래, 중국 역사 전체의 왕조 교체 논리가 되었다. 천명은 이집트의 마아트, 인도의 다르마(dharma)와 함께 우주적 질서와 정치적 정당성을 연결하는 보편적 신화정치학의 사례이다.",
+    "tags": [
+      "중국사상",
+      "천명",
+      "왕권",
+      "정당성",
+      "유교"
+    ],
+    "relatedPersons": [
+      "confucius",
+      "mencius"
+    ],
+    "relatedEntities": [
+      "analects",
+      "yin-yang-cosmology",
+      "maat-concept",
+      "dragon-archetype-east"
+    ]
+  },
+  {
+    "id": "japanese-creation-myth",
+    "type": "archetype",
+    "name": {
+      "ko": "일본 창세신화",
+      "en": "Japanese Creation Myth"
+    },
+    "period": {
+      "start": -300,
+      "end": 712,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "이자나기와 이자나미 남녀 두 신이 혼돈의 바다에 창을 휘저어 일본 열도를 창조하고 신들을 낳는 일본 신화의 창세 서사이다. 《고사기(古事記)》와 《일본서기(日本書紀)》에 기록되어 있으며, 이자나미의 죽음과 이자나기의 황천국(黃泉國) 방문은 오르페우스·이시스 신화와 유사한 '저승 방문' 모티프를 포함한다. 천황의 신적 혈통을 신화적으로 정당화하는 기능을 수행했다.",
+    "tags": [
+      "일본신화",
+      "창세",
+      "이자나기",
+      "이자나미",
+      "신도"
+    ],
+    "relatedPersons": [
+      "mircea-eliade",
+      "joseph-campbell"
+    ],
+    "relatedEntities": [
+      "shinto-movement",
+      "korean-dangun-myth",
+      "enuma-elish"
+    ]
+  },
+  {
+    "id": "korean-dangun-myth",
+    "type": "archetype",
+    "name": {
+      "ko": "단군신화",
+      "en": "Dangun Myth"
+    },
+    "period": {
+      "start": -2333,
+      "end": -100,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "천제 환인의 아들 환웅이 태백산에 강림하고, 곰이 인간 여성으로 변하여 환웅과 결합해 단군왕검을 낳아 고조선을 건국했다는 한국의 건국 신화이다. 천신 강림·동물의 인간 변신·신성 혼인·국가 건설이라는 복합적 모티프를 지니며, 홍익인간(弘益人間) 이념은 인본주의적 통치 철학으로 해석된다. 샤머니즘적 우주관과 토테미즘의 흔적을 동시에 담고 있다.",
+    "tags": [
+      "한국신화",
+      "단군",
+      "건국신화",
+      "홍익인간",
+      "샤머니즘"
+    ],
+    "relatedPersons": [
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "shamanic-world-tree",
+      "dragon-archetype-east",
+      "japanese-creation-myth",
+      "korean-shamanism"
+    ]
+  },
+  {
+    "id": "shamanic-world-tree",
+    "type": "archetype",
+    "name": {
+      "ko": "샤먼 세계수",
+      "en": "Shamanic World Tree"
+    },
+    "period": {
+      "start": -10000,
+      "end": 2000,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "시베리아·중앙아시아·북유럽·아메리카 원주민 등 전 세계 샤머니즘 전통에서 천상·지상·지하 세계를 연결하는 우주축(axis mundi)으로서의 나무 원형이다. 샤먼은 세계수를 타고 올라가 천상의 영과 교류하거나 지하 세계로 내려가 영혼을 구출한다. 위그드라실·보리수·기독교의 생명나무 등 수많은 변형을 낳은 인류 최고의 우주론적 원형 중 하나이다.",
+    "tags": [
+      "샤머니즘",
+      "세계수",
+      "우주축",
+      "영적여행",
+      "보편원형"
+    ],
+    "relatedPersons": [
+      "mircea-eliade",
+      "jung",
+      "joseph-campbell"
+    ],
+    "relatedEntities": [
+      "axis-mundi",
+      "norse-cosmology",
+      "shamanism",
+      "korean-dangun-myth"
+    ]
+  },
+  {
+    "id": "trickster-myth",
+    "type": "archetype",
+    "name": {
+      "ko": "트릭스터 원형",
+      "en": "Trickster Archetype"
+    },
+    "period": {
+      "start": -5000,
+      "end": 2000,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "질서를 교란하고 경계를 위반하며 동시에 문화를 창조하는 양가적 신화 인물의 보편적 원형이다. 그리스의 헤르메스, 북유럽의 로키, 아프리카의 아난시, 북미 원주민의 코요테 등이 대표적이다. 융은 트릭스터를 집단무의식의 원시적 측면으로 분석했으며, 기존 질서의 전복을 통한 변혁과 창조라는 역설적 기능은 디오니소스적 힘의 표현이기도 하다.",
+    "tags": [
+      "보편원형",
+      "트릭스터",
+      "경계위반",
+      "양가성",
+      "문화영웅"
+    ],
+    "relatedPersons": [
+      "jung",
+      "joseph-campbell"
+    ],
+    "relatedEntities": [
+      "trickster-myth",
+      "anansi-tradition",
+      "collective-unconscious",
+      "shadow-archetype"
+    ]
+  },
+  {
+    "id": "great-mother-archetype",
+    "type": "archetype",
+    "name": {
+      "ko": "태모신 원형",
+      "en": "Great Mother Archetype"
+    },
+    "period": {
+      "start": -30000,
+      "end": 2000,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "선사시대 비너스 조각상부터 이시스·데메테르·관음·마리아에 이르기까지, 생명의 탄생·양육·풍요와 동시에 죽음·파괴를 관장하는 위대한 어머니 원형이다. 에리히 노이만은 이를 융 심리학의 핵심 원형으로 체계화했으며, 대지·달·바다와 연결된 여성 신성은 가부장적 종교 체계 이전의 가장 오래된 종교적 표현이다. 인도의 삭티·켈트의 다누·일본의 아마테라스 등이 이에 해당한다.",
+    "tags": [
+      "보편원형",
+      "대모신",
+      "여성신성",
+      "풍요",
+      "생사"
+    ],
+    "relatedPersons": [
+      "jung",
+      "joseph-campbell",
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "sacred-feminine",
+      "isis-osiris-myth",
+      "collective-unconscious"
+    ]
+  },
+  {
+    "id": "spirit-animal-tradition",
+    "type": "archetype",
+    "name": {
+      "ko": "영물/토템 전통",
+      "en": "Spirit Animal Tradition"
+    },
+    "period": {
+      "start": -30000,
+      "end": 2000,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "특정 동물이 씨족·부족·개인의 수호 영(spirit)이자 조상으로 숭배되는 토테미즘 전통과, 동물이 영적 안내자 역할을 하는 샤머니즘적 전통의 통합적 원형이다. 라스코 동굴벽화에서 북미 원주민의 비전 퀘스트까지 인류 문화 전체에 걸쳐 나타나며, 인간과 자연의 원초적 유대와 만물의 영적 동질성에 대한 신앙을 표현한다.",
+    "tags": [
+      "샤머니즘",
+      "토테미즘",
+      "동물상징",
+      "수호영",
+      "자연숭배"
+    ],
+    "relatedPersons": [
+      "mircea-eliade",
+      "jung"
+    ],
+    "relatedEntities": [
+      "shamanic-world-tree",
+      "shamanism",
+      "dreamtime",
+      "korean-dangun-myth"
+    ]
+  },
+  {
+    "id": "hero-journey",
+    "type": "archetype",
+    "name": {
+      "ko": "영웅의 여정",
+      "en": "Hero's Journey"
+    },
+    "period": {
+      "start": 1949,
+      "end": 2000,
+      "approximate": true
+    },
+    "era": "contemporary",
+    "summary": "조지프 캠벨이 《천의 얼굴을 가진 영웅(The Hero with a Thousand Faces)》(1949)에서 체계화한 보편적 영웅 서사 구조이다. 출발(소명·문지기·멘토)→시련(심연·변환·보물 획득)→귀환(세계 두 곳의 지배자)이라는 삼단계 구조(모노미스, monomyth)는 길가메시·오디세우스·붓다·예수 등 전 세계 영웅 서사에서 반복된다. 융의 원형 이론에 기반하며, 현대 서사(스타워즈, 반지의 제왕)에도 직접적 영향을 미쳤다.",
+    "tags": [
+      "비교신화학",
+      "영웅서사",
+      "모노미스",
+      "캠벨",
+      "서사구조"
+    ],
+    "relatedPersons": [
+      "joseph-campbell",
+      "jung",
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "heros-journey",
+      "greek-hero-cycle",
+      "gilgamesh-epic",
+      "collective-unconscious"
+    ]
+  },
+  {
+    "id": "shadow-archetype",
+    "type": "archetype",
+    "name": {
+      "ko": "그림자 원형",
+      "en": "Shadow Archetype"
+    },
+    "period": {
+      "start": 1912,
+      "end": 1961,
+      "approximate": true
+    },
+    "era": "contemporary",
+    "summary": "카를 융이 제시한 분석심리학의 핵심 원형으로, 의식적 자아가 억압하고 부정하는 인격의 어두운 측면을 가리킨다. 그림자는 개인적 차원(억압된 욕망·충동)과 집단적 차원(문화적으로 부정되는 원시적 본능)을 모두 포함한다. 신화에서 영웅이 대면하는 괴물·악당·이중자(도플갱어)로 투사되며, 그림자의 통합이 개성화(individuation) 과정의 필수적 단계이다.",
+    "tags": [
+      "분석심리학",
+      "융",
+      "원형",
+      "억압",
+      "무의식"
+    ],
+    "relatedPersons": [
+      "jung",
+      "freud",
+      "nietzsche"
+    ],
+    "relatedEntities": [
+      "collective-unconscious",
+      "anima-animus",
+      "self-individuation"
+    ]
+  },
+  {
+    "id": "anima-animus-archetype",
+    "type": "archetype",
+    "name": {
+      "ko": "아니마/아니무스 원형",
+      "en": "Anima/Animus Archetype"
+    },
+    "period": {
+      "start": 1921,
+      "end": 1961,
+      "approximate": true
+    },
+    "era": "contemporary",
+    "summary": "카를 융이 제시한 원형으로, 남성 무의식 속의 여성적 인격(아니마)과 여성 무의식 속의 남성적 인격(아니무스)을 가리킨다. 신화에서 영웅이 만나는 여신·마녀·요정, 여주인공이 만나는 왕자·마법사로 투사되며, 대극의 통합을 통한 전체적 인격(Self) 실현의 핵심 경로이다. 음양의 상보성, 힌두교의 시바-삭티 합일과 구조적 유사성을 보인다.",
+    "tags": [
+      "분석심리학",
+      "융",
+      "원형",
+      "대극통합",
+      "양성성"
+    ],
+    "relatedPersons": [
+      "jung",
+      "joseph-campbell"
+    ],
+    "relatedEntities": [
+      "anima-animus",
+      "collective-unconscious",
+      "self-individuation",
+      "yin-yang-cosmology",
+      "coincidentia-oppositorum"
+    ]
+  },
+  {
+    "id": "self-individuation",
+    "type": "archetype",
+    "name": {
+      "ko": "자기실현/개성화",
+      "en": "Self and Individuation"
+    },
+    "period": {
+      "start": 1921,
+      "end": 1961,
+      "approximate": true
+    },
+    "era": "contemporary",
+    "summary": "융 심리학에서 자기(Self)는 의식과 무의식 전체를 포괄하는 인격의 중심이자 전체성이며, 개성화(individuation)는 자기를 실현해가는 평생의 심리적 과정이다. 만다라·철학자의 돌·신성한 결혼(hieros gamos) 등이 자기의 상징이며, 그림자·아니마/아니무스의 통합을 거쳐 인격의 전체성에 도달하는 과정은 영웅의 여정·연금술적 변환과 구조적으로 동형적이다.",
+    "tags": [
+      "분석심리학",
+      "융",
+      "자기실현",
+      "개성화",
+      "전체성"
+    ],
+    "relatedPersons": [
+      "jung",
+      "joseph-campbell"
+    ],
+    "relatedEntities": [
+      "collective-unconscious",
+      "shadow-archetype",
+      "anima-animus",
+      "alchemy-tradition",
+      "heros-journey"
+    ]
+  },
+  {
+    "id": "collective-unconscious-archetype",
+    "type": "archetype",
+    "name": {
+      "ko": "집단무의식",
+      "en": "Collective Unconscious"
+    },
+    "period": {
+      "start": 1916,
+      "end": 1961,
+      "approximate": true
+    },
+    "era": "contemporary",
+    "summary": "카를 융이 프로이트의 개인 무의식 개념을 확장하여 제시한 인류 공통의 심리적 기층으로, 원형(archetype)들이 거주하는 보편적 무의식 영역이다. 서로 접촉이 없는 문화권에서 유사한 신화·상징·꿈이 반복적으로 나타나는 현상을 설명하며, 영웅·태모·그림자·트릭스터 등의 원형은 집단무의식에서 유래한다. 인류 정신의 공통 구조라는 개념은 비교신화학과 종교학에 혁명적 영향을 미쳤다.",
+    "tags": [
+      "분석심리학",
+      "융",
+      "원형",
+      "무의식",
+      "보편성"
+    ],
+    "relatedPersons": [
+      "jung",
+      "freud",
+      "joseph-campbell",
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "collective-unconscious",
+      "shadow-archetype",
+      "anima-animus",
+      "self-individuation"
+    ]
+  },
+  {
+    "id": "quetzalcoatl-myth",
+    "type": "archetype",
+    "name": {
+      "ko": "케찰코아틀 신화",
+      "en": "Quetzalcoatl Myth"
+    },
+    "period": {
+      "start": -200,
+      "end": 1521,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "메소아메리카 문명의 핵심 신격인 '깃털 달린 뱀' 케찰코아틀은 아즈텍·톨텍·마야 문명에 걸쳐 숭배된 바람·지식·창조의 신이다. 자기 희생으로 인류를 창조하고, 문명을 가르치고, 떠나며 돌아올 것을 약속하는 서사 구조는 프로메테우스·오시리스·그리스도와 유사한 '문화 영웅/죽어가는 신' 원형의 아메리카적 표현이다.",
+    "tags": [
+      "메소아메리카",
+      "아즈텍",
+      "깃털뱀",
+      "문화영웅",
+      "창조신"
+    ],
+    "relatedPersons": [
+      "joseph-campbell",
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "mayan-cosmology",
+      "prometheus-myth",
+      "isis-osiris-myth"
+    ]
+  },
+  {
+    "id": "mayan-cosmology",
+    "type": "archetype",
+    "name": {
+      "ko": "마야 우주론",
+      "en": "Mayan Cosmology"
+    },
+    "period": {
+      "start": -2000,
+      "end": 1500,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "마야 문명의 신성한 서사 《팝올 부(Popol Vuh)》에 기록된 우주론으로, 신들이 여러 차례 시도 끝에 옥수수로 인간을 창조하는 과정과 영웅 쌍둥이의 지하세계(시발바) 모험을 담고 있다. 13층 천상·9층 지하세계·세계수 세이바가 중심축이 되는 우주 구조는 놀라운 정밀도의 역법·수학과 결합되어 고도로 정교한 시간-우주 체계를 형성했다.",
+    "tags": [
+      "메소아메리카",
+      "마야",
+      "팝올부",
+      "우주론",
+      "세계수"
+    ],
+    "relatedPersons": [
+      "joseph-campbell",
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "quetzalcoatl-myth",
+      "shamanic-world-tree",
+      "axis-mundi"
+    ]
+  },
+  {
+    "id": "african-creation-myths",
+    "type": "archetype",
+    "name": {
+      "ko": "아프리카 창조 신화 체계",
+      "en": "African Creation Myths"
+    },
+    "period": {
+      "start": -5000,
+      "end": 2000,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "아프리카 대륙의 다양한 민족이 전승하는 창조 신화들의 총체로, 요루바의 오바탈라·오둔두와 창조, 도곤의 암마 신과 노모 신화, 줄루의 운쿨룬쿨루 창조 등이 대표적이다. 최고신이 세계를 창조한 후 인간과 거리를 두는 '물러난 신(deus otiosus)' 모티프가 빈번하며, 조상 숭배·영적 매개자·구전 전통이 핵심적 특징이다. 아프리카 신화는 우분투 철학과 공동체주의적 세계관의 뿌리이다.",
+    "tags": [
+      "아프리카신화",
+      "창조신화",
+      "구전전통",
+      "조상숭배",
+      "다양성"
+    ],
+    "relatedPersons": [
+      "mircea-eliade",
+      "jung"
+    ],
+    "relatedEntities": [
+      "anansi-tradition",
+      "ubuntu-philosophy",
+      "great-mother-archetype"
+    ]
+  },
+  {
+    "id": "anansi-tradition",
+    "type": "archetype",
+    "name": {
+      "ko": "아난시 전통",
+      "en": "Anansi Tradition"
+    },
+    "period": {
+      "start": -1000,
+      "end": 2000,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "서아프리카 아칸(Akan) 민족에서 기원한 거미 트릭스터 아난시의 구전 전통이다. 아난시는 교활함과 지혜로 더 강한 존재들을 이기고 세상의 모든 이야기를 획득하는 문화 영웅이자 트릭스터이다. 대서양 노예무역을 통해 카리브해와 아메리카로 전파되어 디아스포라 문화의 핵심적 저항·생존·창의의 상징이 되었다. 트릭스터 원형의 아프리카적 표현이다.",
+    "tags": [
+      "아프리카신화",
+      "트릭스터",
+      "거미",
+      "구전전통",
+      "디아스포라"
+    ],
+    "relatedPersons": [
+      "jung",
+      "joseph-campbell"
+    ],
+    "relatedEntities": [
+      "trickster-myth",
+      "african-creation-myths"
+    ]
+  },
+  {
+    "id": "celtic-otherworld",
+    "type": "archetype",
+    "name": {
+      "ko": "켈트 이세계",
+      "en": "Celtic Otherworld"
+    },
+    "period": {
+      "start": -500,
+      "end": 1200,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "켈트 신화에서 현실 세계와 겹쳐져 존재하는 신비로운 이세계(Otherworld)로, 아발론·티르 나 노그(영원한 젊음의 땅)·안눈 등의 이름으로 불린다. 시간이 다르게 흐르며 병과 죽음이 없는 이상향으로, 사윈(Samhain) 축제 때 두 세계의 경계가 허물어진다. 아서왕의 아발론 이동, 요정 언덕(sidhe)의 전승은 현실과 초월적 세계의 투과성에 대한 켈트적 상상력의 표현이다.",
+    "tags": [
+      "켈트신화",
+      "이세계",
+      "아발론",
+      "요정",
+      "경계"
+    ],
+    "relatedPersons": [
+      "jung",
+      "joseph-campbell"
+    ],
+    "relatedEntities": [
+      "druid-tradition",
+      "shamanic-world-tree"
+    ]
+  },
+  {
+    "id": "druid-tradition",
+    "type": "archetype",
+    "name": {
+      "ko": "드루이드 전통",
+      "en": "Druid Tradition"
+    },
+    "period": {
+      "start": -500,
+      "end": 400,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "고대 켈트 사회의 사제·학자·재판관 계급인 드루이드의 영적·지적 전통이다. 구전으로만 전수된 자연 숭배, 영혼의 윤회, 참나무 숭배, 천문학적 지식 체계를 핵심으로 하며, 스톤헨지와의 관련도 논의된다. 로마의 정복으로 거의 소멸되었으나, 18세기 이후 네오드루이디즘으로 부활하였다. 자연과 영성의 통합이라는 생태적 세계관은 현대 환경주의와 공명한다.",
+    "tags": [
+      "켈트신화",
+      "드루이드",
+      "자연숭배",
+      "구전전통",
+      "영혼윤회"
+    ],
+    "relatedPersons": [
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "celtic-otherworld",
+      "shamanic-world-tree",
+      "shamanism"
+    ]
+  },
+  {
+    "id": "world-egg-cosmogony",
+    "type": "archetype",
+    "name": {
+      "ko": "세계란 우주론",
+      "en": "World Egg Cosmogony"
+    },
+    "period": {
+      "start": -3000,
+      "end": 500,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "우주가 원초적 알(cosmic egg)에서 부화하듯 탄생했다는 코스모고니(우주발생론)로, 인도의 히란야가르바(황금 알)·그리스 오르페우스교의 원초적 알·중국의 반고 신화·핀란드의 카레발라 등 전 세계에 분포한다. 알의 상반이 하늘, 하반이 땅이 되는 구조는 분화되지 않은 일자(一者)에서 다(多)가 생성되는 원리의 원초적 상징이다. 융은 이를 전체성(Self)의 상징으로 해석했다.",
+    "tags": [
+      "보편원형",
+      "코스모고니",
+      "세계란",
+      "창조신화",
+      "전체성"
+    ],
+    "relatedPersons": [
+      "jung",
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "world-egg",
+      "enuma-elish",
+      "orphic-mysteries",
+      "collective-unconscious"
+    ]
+  },
+  {
+    "id": "eternal-return-myth",
+    "type": "archetype",
+    "name": {
+      "ko": "영원회귀 신화",
+      "en": "Myth of Eternal Return"
+    },
+    "period": {
+      "start": 1949,
+      "end": 1986,
+      "approximate": true
+    },
+    "era": "contemporary",
+    "summary": "미르체아 엘리아데가 《영원회귀의 신화(The Myth of the Eternal Return)》(1949)에서 체계화한 개념으로, 고대인이 의례를 통해 태초의 신화적 시간(illud tempus)을 반복적으로 재현함으로써 역사의 불가역적 시간을 극복하려 했다는 종교현상학적 이론이다. 새해 축제·창조 의례·통과의례는 모두 코스모고니의 반복이며, 이는 니체의 영원회귀와 다른 차원에서 시간의 의미를 탐구한다.",
+    "tags": [
+      "비교종교학",
+      "엘리아데",
+      "시간론",
+      "의례",
+      "신화적시간"
+    ],
+    "relatedPersons": [
+      "mircea-eliade",
+      "nietzsche",
+      "jung"
+    ],
+    "relatedEntities": [
+      "eternal-return",
+      "eternal-recurrence",
+      "ragnarok",
+      "shamanism"
+    ]
+  },
+  {
+    "id": "axis-mundi-archetype",
+    "type": "archetype",
+    "name": {
+      "ko": "세계축",
+      "en": "Axis Mundi"
+    },
+    "period": {
+      "start": -10000,
+      "end": 2000,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "엘리아데가 체계화한 비교종교학 개념으로, 천상·지상·지하 세계를 관통하여 우주의 중심을 이루는 축이다. 세계수(위그드라실, 보리수)·성산(올림포스, 메루, 시나이)·성전(예루살렘 신전, 카바)·기둥(이르밍줄, 젯-기둥) 등으로 표현된다. 모든 성스러운 공간은 세계축이 관통하는 '세계의 중심(omphalos)'이며, 이곳에서 천상과의 소통이 가능하다.",
+    "tags": [
+      "비교종교학",
+      "우주축",
+      "성스러운공간",
+      "중심상징",
+      "보편원형"
+    ],
+    "relatedPersons": [
+      "mircea-eliade",
+      "jung"
+    ],
+    "relatedEntities": [
+      "axis-mundi",
+      "shamanic-world-tree",
+      "norse-cosmology",
+      "mayan-cosmology"
+    ]
+  },
+  {
+    "id": "flood-myth-universal",
+    "type": "archetype",
+    "name": {
+      "ko": "보편적 대홍수 신화",
+      "en": "Universal Flood Myth"
+    },
+    "period": {
+      "start": -3000,
+      "end": 500,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "전 세계 200개 이상의 문화권에서 발견되는 대홍수 서사의 보편적 원형이다. 수메르의 지우수드라, 성경의 노아, 힌두교의 마누, 그리스의 데우칼리온, 중국의 대우(大禹), 마야의 훈아흐푸 등이 대표적이다. 신적 심판·소수의 생존자·인류 재출발이라는 공통 구조는 문명 간 전파설과 독립 발생설의 논쟁 속에서 인류 공통 기억의 가능성을 시사한다.",
+    "tags": [
+      "보편신화",
+      "대홍수",
+      "심판",
+      "재생",
+      "문화비교"
+    ],
+    "relatedPersons": [
+      "joseph-campbell",
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "sumerian-flood",
+      "gilgamesh-epic",
+      "bible",
+      "vedas"
+    ]
+  },
+  {
+    "id": "dying-rising-god",
+    "type": "archetype",
+    "name": {
+      "ko": "죽어가는 신/부활하는 신",
+      "en": "Dying and Rising God"
+    },
+    "period": {
+      "start": -3000,
+      "end": 500,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "농경 문명에서 반복적으로 나타나는 신화 패턴으로, 신이 죽었다가 부활하며 이것이 계절의 순환·식물의 성장·풍요의 보장과 연결된다. 오시리스, 아도니스, 아티스, 디오니소스, 페르세포네, 발드르 등이 대표적이다. 제임스 프레이저의 《황금가지》가 이 원형을 최초로 비교 분석했으며, 기독교 부활 서사와의 관계는 종교학의 핵심 논쟁 중 하나이다.",
+    "tags": [
+      "보편원형",
+      "죽음과부활",
+      "농경신화",
+      "풍요",
+      "순환"
+    ],
+    "relatedPersons": [
+      "mircea-eliade",
+      "jung",
+      "joseph-campbell"
+    ],
+    "relatedEntities": [
+      "isis-osiris-myth",
+      "orphic-mysteries",
+      "olympian-gods"
+    ]
+  },
+  {
+    "id": "sacred-marriage",
+    "type": "archetype",
+    "name": {
+      "ko": "신성혼",
+      "en": "Sacred Marriage (Hieros Gamos)"
+    },
+    "period": {
+      "start": -4000,
+      "end": 500,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "하늘(남성)과 대지(여성)의 신성한 결합을 통해 만물이 탄생한다는 우주론적 신화 원형이다. 수메르의 이난나-두무지 의례, 그리스의 제우스-헤라, 힌두교의 시바-삭티 합일, 연금술의 '화학적 결혼' 등으로 표현된다. 융은 이를 의식과 무의식, 아니마와 아니무스의 통합이라는 심리적 전체성의 상징으로 해석했으며, 대극의 합일(coniunctio oppositorum)의 핵심 이미지이다.",
+    "tags": [
+      "보편원형",
+      "신성혼",
+      "대극합일",
+      "풍요의례",
+      "우주론"
+    ],
+    "relatedPersons": [
+      "jung",
+      "mircea-eliade"
+    ],
+    "relatedEntities": [
+      "anima-animus",
+      "coincidentia-oppositorum",
+      "alchemy-tradition",
+      "great-mother-archetype"
+    ]
+  },
+  {
+    "id": "underworld-journey",
+    "type": "archetype",
+    "name": {
+      "ko": "저승 여행 (카타바시스)",
+      "en": "Underworld Journey (Katabasis)"
+    },
+    "period": {
+      "start": -3000,
+      "end": 500,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "영웅·신·샤먼이 저승(지하세계)으로 내려가 시련을 겪고 변환된 채 귀환하는 보편적 신화 모티프이다. 이난나의 지하세계 하강, 오르페우스의 저승 방문, 오디세우스의 네퀴아, 길가메시의 탐색, 이자나기의 황천국 방문, 단테의 지옥편 등이 대표적이다. 죽음에 대면하고 돌아오는 이 여정은 의식의 심층(무의식)으로의 하강과 변환을 상징하며, 영웅 여정의 핵심 단계이다.",
+    "tags": [
+      "보편원형",
+      "저승여행",
+      "카타바시스",
+      "변환",
+      "죽음"
+    ],
+    "relatedPersons": [
+      "homer",
+      "joseph-campbell",
+      "jung"
+    ],
+    "relatedEntities": [
+      "gilgamesh-epic",
+      "orphic-mysteries",
+      "greek-hero-cycle",
+      "egyptian-afterlife",
+      "heros-journey"
+    ]
+  },
+  {
+    "id": "creation-from-chaos",
+    "type": "archetype",
+    "name": {
+      "ko": "혼돈으로부터의 창조",
+      "en": "Creation from Chaos"
+    },
+    "period": {
+      "start": -3000,
+      "end": 500,
+      "approximate": true
+    },
+    "era": "ancient",
+    "summary": "원초적 혼돈(chaos)·무(無)·원시적 물에서 질서(cosmos)가 탄생한다는 창조 신화의 가장 보편적 패턴이다. 헤시오도스의 카오스, 바빌론의 티아마트, 성경의 '토후와보후(혼돈과 공허)', 중국의 혼돈(渾沌), 인도의 원시 대양(原水) 등이 이에 해당한다. 혼돈과 질서의 변증법적 관계는 철학적 사유의 근원적 문제이기도 하며, 니체의 디오니소스적/아폴론적 구분과도 연결된다.",
+    "tags": [
+      "보편원형",
+      "창조신화",
+      "혼돈",
+      "코스모스",
+      "코스모고니"
+    ],
+    "relatedPersons": [
+      "mircea-eliade",
+      "nietzsche",
+      "plato"
+    ],
+    "relatedEntities": [
+      "enuma-elish",
+      "world-egg-cosmogony",
+      "yin-yang-cosmology"
+    ]
+  }
+]

@@ -1,0 +1,249 @@
+{
+  "axes": [
+    { "id": "RI", "left": { "code": "R", "label": "이성·논리", "en": "Rational" }, "right": { "code": "I", "label": "직관·체험", "en": "Intuitive" } },
+    { "id": "TN", "left": { "code": "T", "label": "초월·영적", "en": "Transcendent" }, "right": { "code": "N", "label": "내재·자연적", "en": "Natural" } },
+    { "id": "FH", "left": { "code": "F", "label": "개인 자유", "en": "Freedom" }, "right": { "code": "H", "label": "공동체 조화", "en": "Harmony" } },
+    { "id": "PR", "left": { "code": "P", "label": "보존·전통", "en": "Preservation" }, "right": { "code": "R", "label": "변혁·진보", "en": "Revolution" } },
+    { "id": "AS", "left": { "code": "A", "label": "분석·환원", "en": "Analytic" }, "right": { "code": "S", "label": "통합·전체", "en": "Synthetic" } }
+  ],
+  "questions": [
+    { "axis": "RI", "text": "복잡한 문제를 만났을 때 당신의 접근 방식은?", "optionA": "논리적으로 분석하고 단계별로 분해한다", "optionB": "직관적으로 전체 그림을 먼저 파악한다" },
+    { "axis": "RI", "text": "새로운 사상을 접했을 때 가장 먼저 하는 것은?", "optionA": "논증의 논리적 구조를 검토한다", "optionB": "그 사상이 주는 영감과 울림에 집중한다" },
+    { "axis": "RI", "text": "진리에 도달하는 가장 확실한 길은?", "optionA": "엄밀한 추론과 증거 기반의 탐구", "optionB": "명상, 체험, 깊은 성찰을 통한 깨달음" },
+    { "axis": "RI", "text": "위대한 사상가의 가장 중요한 자질은?", "optionA": "논리적 명석함과 비판적 사고력", "optionB": "깊은 통찰력과 영적 감수성" },
+    { "axis": "TN", "text": "인간 존재의 의미는 어디에서 찾을 수 있는가?", "optionA": "물질 세계를 초월한 영적·형이상학적 차원에서", "optionB": "자연과 이 세계 안의 관계와 경험에서" },
+    { "axis": "TN", "text": "우주의 궁극적 본질은?", "optionA": "물질 너머의 정신적·영적 실재가 있다", "optionB": "자연 법칙으로 설명 가능한 물질적 세계이다" },
+    { "axis": "TN", "text": "죽음 이후에 대한 당신의 생각은?", "optionA": "영혼·의식은 어떤 형태로든 존속할 수 있다", "optionB": "자연의 순환 속에 돌아가는 것이 전부이다" },
+    { "axis": "TN", "text": "종교/영성에 대한 당신의 태도는?", "optionA": "인간에게 초월적 차원은 필수적이다", "optionB": "윤리와 공동체만으로 충분하다" },
+    { "axis": "FH", "text": "이상적인 사회에서 더 중요한 것은?", "optionA": "개인의 자유와 권리 보장", "optionB": "공동체의 조화와 상호 의무" },
+    { "axis": "FH", "text": "갈등이 생겼을 때 우선해야 하는 것은?", "optionA": "개인의 양심과 자율적 판단", "optionB": "관계의 보존과 집단의 합의" },
+    { "axis": "FH", "text": "교육의 가장 중요한 목적은?", "optionA": "비판적 사고력과 자아 실현", "optionB": "덕성 함양과 사회적 책임감" },
+    { "axis": "FH", "text": "행복의 핵심은?", "optionA": "자기 삶을 스스로 결정하는 자유", "optionB": "소속감과 타인과의 깊은 유대" },
+    { "axis": "PR", "text": "전통과 혁신 사이에서 당신의 입장은?", "optionA": "검증된 전통에서 지혜를 찾아야 한다", "optionB": "낡은 것을 깨고 새로운 길을 열어야 한다" },
+    { "axis": "PR", "text": "역사의 흐름에 대한 생각은?", "optionA": "과거의 위대한 사상으로 돌아가야 한다", "optionB": "진보와 변화가 역사의 본질이다" },
+    { "axis": "PR", "text": "현재 세계가 가장 필요로 하는 것은?", "optionA": "잃어버린 가치와 지혜의 회복", "optionB": "근본적인 구조 변혁과 새로운 비전" },
+    { "axis": "PR", "text": "위기의 시대에 필요한 리더십은?", "optionA": "오랜 전통과 원칙에 기반한 안정적 리더십", "optionB": "기존 체제를 과감히 바꾸는 혁신적 리더십" },
+    { "axis": "AS", "text": "세계를 이해하는 최선의 방법은?", "optionA": "부분을 정밀하게 분석하여 전체를 이해한다", "optionB": "전체의 맥락 속에서 부분을 이해한다" },
+    { "axis": "AS", "text": "학문 분야 간의 관계는?", "optionA": "전문성과 엄밀성을 위해 분야를 구분해야 한다", "optionB": "경계를 넘어 통합적으로 사유해야 한다" },
+    { "axis": "AS", "text": "좋은 설명이란?", "optionA": "복잡한 것을 단순한 원리로 환원하는 것", "optionB": "다양한 요소의 관계와 맥락을 보여주는 것" },
+    { "axis": "AS", "text": "철학/과학에서 가장 가치 있는 작업은?", "optionA": "하나의 문제를 깊이 파고드는 분석", "optionB": "여러 분야를 연결하는 종합적 비전" }
+  ],
+  "types": [
+    {
+      "code": "RNFPA",
+      "name": "과학적 자유주의자",
+      "subtitle": "Scientific Liberal",
+      "description": "논리와 증거를 중시하며, 자연주의적 세계관 위에 개인의 자유를 존중하는 전통적 분석가. 과학적 방법론과 비판적 합리성을 신뢰합니다.",
+      "persons": ["karl-popper", "bertrand-russell", "john-stuart-mill", "david-hume", "voltaire"],
+      "traditions": ["liberalism", "positivism", "analytic-philosophy"],
+      "learningPaths": ["logic-basics", "scientific-revolution"]
+    },
+    {
+      "code": "RNFRA",
+      "name": "혁명적 합리주의자",
+      "subtitle": "Revolutionary Rationalist",
+      "description": "이성의 힘으로 세상을 변혁하려는 급진적 사상가. 과학적 분석과 사회 비판을 결합하여 더 나은 세계를 설계합니다.",
+      "persons": ["marx", "rousseau", "peter-singer", "noam-chomsky", "simone-de-beauvoir"],
+      "traditions": ["marxism", "enlightenment", "critical-theory"],
+      "learningPaths": ["western-philosophy", "influence-chains"]
+    },
+    {
+      "code": "RNHPA",
+      "name": "과학적 공동체주의자",
+      "subtitle": "Scientific Communitarian",
+      "description": "자연과학의 방법론을 신뢰하면서도 공동체의 전통과 조화를 중시하는 온건한 분석가.",
+      "persons": ["confucius", "aristotle", "durkheim", "alasdair-macintyre", "charles-taylor"],
+      "traditions": ["confucianism", "aristotelianism", "communitarianism"],
+      "learningPaths": ["eastern-philosophy", "east-west-dialogue"]
+    },
+    {
+      "code": "RNHRA",
+      "name": "진보적 자연주의자",
+      "subtitle": "Progressive Naturalist",
+      "description": "자연주의적 세계관 위에서 공동체의 변혁을 추구하는 실천적 사상가. 과학과 사회정의를 결합합니다.",
+      "persons": ["john-dewey", "jurgen-habermas", "martha-nussbaum", "amartya-sen", "rachel-carson"],
+      "traditions": ["pragmatism-movement", "social-democracy", "environmental-philosophy"],
+      "learningPaths": ["scientific-revolution", "influence-chains"]
+    },
+    {
+      "code": "RTFPA",
+      "name": "합리적 신비주의자",
+      "subtitle": "Rational Mystic",
+      "description": "이성과 초월을 동시에 추구하는 독특한 사상가. 논리적 엄밀성으로 형이상학적 진리를 탐구합니다.",
+      "persons": ["spinoza", "plotinus", "leibniz", "whitehead", "ibn-sina"],
+      "traditions": ["neoplatonism", "rationalism", "vedanta"],
+      "learningPaths": ["western-philosophy", "eastern-philosophy"]
+    },
+    {
+      "code": "RTFPS",
+      "name": "전통적 영성 탐구자",
+      "subtitle": "Traditional Spiritual Seeker",
+      "description": "오래된 영적 전통에서 개인적 자유와 초월적 진리를 동시에 추구하는 영혼의 탐험가.",
+      "persons": ["meister-eckhart", "rumi", "thomas-merton", "simone-weil", "aldous-huxley"],
+      "traditions": ["christian-mysticism", "sufism", "perennial-philosophy"],
+      "learningPaths": ["world-religions", "existentialism"]
+    },
+    {
+      "code": "RTHRA",
+      "name": "혁명적 예언자",
+      "subtitle": "Revolutionary Prophet",
+      "description": "초월적 비전으로 사회를 근본적으로 변혁하려는 예언적 사상가. 영적 각성과 사회 변혁을 하나로 봅니다.",
+      "persons": ["gandhi", "martin-luther-king", "gustavo-gutierrez", "dorothy-day", "desmond-tutu"],
+      "traditions": ["liberation-theology", "nonviolence", "prophetic-tradition"],
+      "learningPaths": ["world-religions", "influence-chains"]
+    },
+    {
+      "code": "RTHPS",
+      "name": "전통적 공동체 영성가",
+      "subtitle": "Traditional Community Mystic",
+      "description": "공동체의 오래된 영적 전통을 지키며, 조화와 통합적 비전을 추구하는 현자.",
+      "persons": ["thomas-aquinas", "al-ghazali", "zhu-xi", "maimonides", "shankara"],
+      "traditions": ["scholasticism-movement", "neo-confucianism-zhuxi", "advaita-vedanta"],
+      "learningPaths": ["eastern-philosophy", "world-religions"]
+    },
+    {
+      "code": "INFRA",
+      "name": "혁명적 직관주의자",
+      "subtitle": "Revolutionary Intuitionist",
+      "description": "직관과 체험을 바탕으로 자연 세계의 변혁을 꿈꾸는 급진적 자유인. 관습을 깨고 새로운 감각을 열어젖힙니다.",
+      "persons": ["nietzsche", "william-blake", "henry-david-thoreau", "mary-wollstonecraft", "emma-goldman"],
+      "traditions": ["romanticism", "anarchism", "existentialism"],
+      "learningPaths": ["existentialism", "philosophy-intro"]
+    },
+    {
+      "code": "INFPS",
+      "name": "자유로운 생태주의자",
+      "subtitle": "Free Ecologist",
+      "description": "자연과의 깊은 교감을 통해 개인의 자유와 생태적 조화를 추구하는 통합적 사상가.",
+      "persons": ["arne-naess", "gary-snyder", "rachel-carson", "laozi", "zhuangzi"],
+      "traditions": ["deep-ecology", "daoism", "environmental-philosophy"],
+      "learningPaths": ["eastern-philosophy", "influence-chains"]
+    },
+    {
+      "code": "INHPA",
+      "name": "전통적 자연 공동체주의자",
+      "subtitle": "Traditional Natural Communitarian",
+      "description": "자연 세계 안에서 공동체의 전통과 조화를 소중히 여기는 실천가. 토착 지혜와 지역 공동체를 중시합니다.",
+      "persons": ["wendell-berry", "gandhi", "confucius", "chief-seattle", "ivan-illich"],
+      "traditions": ["confucianism", "ubuntu-philosophy", "indigenous-traditions"],
+      "learningPaths": ["eastern-philosophy", "east-west-dialogue"]
+    },
+    {
+      "code": "INHRA",
+      "name": "진보적 체험주의자",
+      "subtitle": "Progressive Experientialist",
+      "description": "체험과 실천을 중시하며 공동체의 변혁을 추구하는 행동하는 사상가.",
+      "persons": ["paulo-freire", "frantz-fanon", "bell-hooks", "edward-said", "antonio-gramsci"],
+      "traditions": ["postcolonial-thought", "feminist-philosophy", "critical-pedagogy"],
+      "learningPaths": ["influence-chains", "western-philosophy"]
+    },
+    {
+      "code": "ITFPA",
+      "name": "영적 자유주의자",
+      "subtitle": "Spiritual Libertarian",
+      "description": "초월적 체험에서 개인의 절대적 자유를 발견하는 영적 모험가. 내면의 신비 체험이 최고의 진리입니다.",
+      "persons": ["kierkegaard", "william-james", "rudolf-steiner", "alan-watts", "ram-dass"],
+      "traditions": ["existentialism", "theosophy", "new-age-movement"],
+      "learningPaths": ["existentialism", "world-religions"]
+    },
+    {
+      "code": "ITFRS",
+      "name": "혁명적 신비주의자",
+      "subtitle": "Revolutionary Mystic",
+      "description": "신비 체험을 사회 변혁의 원동력으로 삼는 급진적 영성가. 영적 각성이 곧 세계의 변혁입니다.",
+      "persons": ["helena-blavatsky", "george-gurdjieff", "osho", "ken-wilber", "terence-mckenna"],
+      "traditions": ["theosophy", "hermeticism", "integral-theory"],
+      "learningPaths": ["world-religions", "existentialism"]
+    },
+    {
+      "code": "ITHPA",
+      "name": "전통적 명상가",
+      "subtitle": "Traditional Contemplative",
+      "description": "오래된 영적 전통 속에서 명상과 관조를 통해 초월적 진리를 체험하는 수행자.",
+      "persons": ["buddha", "huineng", "rumi", "teresa-of-avila", "ramana-maharshi"],
+      "traditions": ["zen-buddhism", "sufism", "contemplative-christianity"],
+      "learningPaths": ["world-religions", "eastern-philosophy"]
+    },
+    {
+      "code": "ITHPS",
+      "name": "통합적 영성 공동체주의자",
+      "subtitle": "Integral Spiritual Communitarian",
+      "description": "영적 전통의 지혜로 공동체를 이끄는 통합적 지도자. 전통, 영성, 공동체의 조화를 추구합니다.",
+      "persons": ["dalai-lama-14", "thich-nhat-hanh", "martin-buber", "abraham-heschel", "desmond-tutu"],
+      "traditions": ["buddhism", "judaism", "interfaith-dialogue"],
+      "learningPaths": ["world-religions", "east-west-dialogue"]
+    },
+    {
+      "code": "ITHRS",
+      "name": "변혁적 영적 통합주의자",
+      "subtitle": "Transformative Spiritual Synthesizer",
+      "description": "영적 깨달음을 통해 세상의 근본적 변화를 추구하며, 동서양의 지혜를 통합하는 비전가.",
+      "persons": ["aurobindo", "teilhard-de-chardin", "ken-wilber", "thomas-berry", "bede-griffiths"],
+      "traditions": ["integral-yoga", "process-theology", "new-age-movement"],
+      "learningPaths": ["east-west-dialogue", "world-religions"]
+    },
+    {
+      "code": "RNFPS",
+      "name": "체계적 자유 사상가",
+      "subtitle": "Systematic Free Thinker",
+      "description": "이성과 자연주의를 기반으로 개인의 자유를 옹호하되, 통합적 세계관을 추구하는 체계적 사상가.",
+      "persons": ["kant", "adam-smith", "john-rawls", "isaiah-berlin", "hannah-arendt"],
+      "traditions": ["liberalism", "enlightenment", "social-contract-theory"],
+      "learningPaths": ["western-philosophy", "logic-basics"]
+    },
+    {
+      "code": "INHRS",
+      "name": "통합적 자연 혁명가",
+      "subtitle": "Integral Natural Revolutionary",
+      "description": "체험적 지혜와 통합적 비전으로 자연과 공동체의 변혁을 이끄는 생태 혁명가.",
+      "persons": ["murray-bookchin", "vandana-shiva", "joanna-macy", "wangari-maathai", "arne-naess"],
+      "traditions": ["deep-ecology", "ecofeminism", "social-ecology"],
+      "learningPaths": ["eastern-philosophy", "influence-chains"]
+    },
+    {
+      "code": "RTFRA",
+      "name": "합리적 초월 혁명가",
+      "subtitle": "Rational Transcendent Revolutionary",
+      "description": "형이상학적 진리의 빛으로 기존 질서를 비판하고 새로운 세계를 구상하는 급진적 이상주의자.",
+      "persons": ["plato", "hegel", "marx", "simone-weil", "slavoj-zizek"],
+      "traditions": ["platonism", "german-idealism", "critical-theory"],
+      "learningPaths": ["western-philosophy", "influence-chains"]
+    },
+    {
+      "code": "RTHPA",
+      "name": "전통적 신학자",
+      "subtitle": "Traditional Theologian",
+      "description": "이성과 신앙의 조화를 추구하며, 공동체의 전통을 논리적으로 체계화하는 신학적 사상가.",
+      "persons": ["thomas-aquinas", "maimonides", "al-ghazali", "paul-tillich", "karl-barth"],
+      "traditions": ["scholasticism-movement", "kalam-theology", "systematic-theology"],
+      "learningPaths": ["western-philosophy", "world-religions"]
+    },
+    {
+      "code": "INFPA",
+      "name": "자유로운 예술가",
+      "subtitle": "Free Artist",
+      "description": "직관과 감성으로 개인의 자유를 표현하는 예술적 영혼. 전통의 틀 안에서 독자적 아름다움을 추구합니다.",
+      "persons": ["goethe", "beethoven", "emily-dickinson", "virginia-woolf", "frida-kahlo"],
+      "traditions": ["romanticism", "modern-literature-movement", "expressionism"],
+      "learningPaths": ["existentialism", "philosophy-intro"]
+    },
+    {
+      "code": "ITFPS",
+      "name": "통합적 영적 자유인",
+      "subtitle": "Integral Spiritual Free Spirit",
+      "description": "동서양의 신비 전통을 자유롭게 넘나들며 통합적 영적 비전을 추구하는 탐험가.",
+      "persons": ["joseph-campbell", "mircea-eliade", "carl-jung", "aldous-huxley", "huston-smith"],
+      "traditions": ["hermeticism", "depth-psychology", "comparative-religion"],
+      "learningPaths": ["east-west-dialogue", "world-religions"]
+    },
+    {
+      "code": "RNHRS",
+      "name": "진보적 과학 통합주의자",
+      "subtitle": "Progressive Scientific Synthesizer",
+      "description": "과학적 방법론과 진보적 비전을 결합하여 공동체와 세계를 변혁하려는 통합적 과학 사상가.",
+      "persons": ["einstein", "stephen-hawking", "edward-lorenz", "ilya-prigogine", "stuart-kauffman"],
+      "traditions": ["complexity-science", "systems-thinking", "progressivism"],
+      "learningPaths": ["scientific-revolution", "influence-chains"]
+    }
+  ]
+}
