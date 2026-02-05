@@ -15564,16 +15564,6 @@
     "direction": "directed"
   },
   {
-    "source": "berners-lee",
-    "target": "berners-lee",
-    "sourceType": "person",
-    "targetType": "person",
-    "type": "parallel",
-    "description": "버너스리와 벌너스리는 동일인(중복확인용)",
-    "strength": 1,
-    "direction": "bidirectional"
-  },
-  {
     "source": "katalin-kariko",
     "target": "crick",
     "sourceType": "person",
@@ -18281,6 +18271,726 @@
     "type": "contemporary",
     "description": "코코 샤넬과(와) 프리다 칼로은(는) 같은 시대에 활동한 동시대인이다",
     "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "nikola-tesla",
+    "target": "hertz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "헤르츠의 전자기파 실험은 테슬라의 무선 전송 연구에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "henry-viii",
+    "target": "martin-luther",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헨리 8세와 마르틴 루터는 동시대 종교개혁의 주역이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "henry-viii",
+    "target": "thomas-more",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헨리 8세는 토마스 모어를 대법관으로 임명했으나 후에 처형했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "justin-martyr",
+    "target": "clement-of-alexandria",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "유스티누스의 호교론적 방법은 클레멘스의 기독교-철학 종합에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "justin-martyr",
+    "target": "tertullian",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "유스티누스의 순교 전통은 테르툴리아누스의 호교론에 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "daniel-kahneman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "커즈와일과 카너먼은 인간 인지와 기술의 미래에 대해 다른 관점을 가졌다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "malthus",
+    "target": "marx",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "마르크스는 맬서스의 인구론을 부르주아 이데올로기로 비판했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "malthus",
+    "target": "john-maynard-keynes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "맬서스의 유효수요 개념은 케인즈 경제학의 선구적 아이디어였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tulsidas",
+    "target": "mirabai",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "툴시다스와 미라바이는 같은 시대 힌두 박티 운동의 대표자들이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rodin",
+    "target": "klimt",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "로댕과 클림트는 19세기 말 유럽 예술의 혁신을 이끈 동시대 예술가였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rodin",
+    "target": "victor-hugo",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "로댕은 빅토르 위고의 기념 조각상을 제작했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "magellan",
+    "target": "vasco-da-gama",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마젤란과 바스코 다 가마는 포르투갈 대항해시대의 주역이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "shah-waliullah",
+    "target": "abu-hanifa",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "샤 왈리울라는 하나피 법학파를 따르면서도 독자적 해석을 추구했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "al-ashari",
+    "target": "al-kindi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "알아샤리는 무타질라파의 합리주의 신학에 반대하여 정통 신학을 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "muhammad-al-mahdi",
+    "target": "husayn-ibn-ali",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "후사인의 순교 전통은 마흐디론의 형성에 깊은 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-damascus",
+    "target": "pseudo-dionysius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "위-디오니시우스의 부정신학은 다마스쿠스의 요한의 신학에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "phaedo",
+    "target": "plato",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "파이돈과 플라톤은 소크라테스의 동문 제자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "phaedo",
+    "target": "xenophon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "파이돈과 크세노폰은 소크라테스의 제자들이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "thomas-a-kempis",
+    "target": "ignatius-loyola",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "토마스 아 켐피스의 「그리스도를 본받아」는 이그나티우스의 영성에 깊은 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "imam-nawawi",
+    "target": "al-ghazali",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "가잘리의 영성 전통은 나와위의 종교적 저술에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-lorenz",
+    "target": "daniel-kahneman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "로렌츠와 카너먼은 불확실성과 예측의 한계를 연구한 동시대 학자였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tchaikovsky",
+    "target": "chopin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "차이콥스키와 쇼팽은 19세기 낭만주의 음악의 대표 작곡가였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tchaikovsky",
+    "target": "mozart",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "차이콥스키는 모차르트를 깊이 존경하여 작품 스타일에 영향을 받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "thrasymachus",
+    "target": "hippias",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "트라시마코스와 히피아스는 같은 시대의 소피스트였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "edward-said",
+    "target": "derrida",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "사이드와 데리다는 해체주의적 문화 비평에서 교류했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "stephen-martyr",
+    "target": "peter",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "스데반은 사도 베드로와 함께 초대교회에서 활동했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "laplace",
+    "target": "newton",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "뉴턴의 역학은 라플라스의 천체역학 연구의 기초가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "laplace",
+    "target": "euler",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "라플라스는 오일러의 수학적 방법론을 계승하여 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "andy-warhol",
+    "target": "bob-dylan",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "워홀과 밥 딜런은 1960년대 미국 대중문화를 대표하는 인물이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "andy-warhol",
+    "target": "john-lennon",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "워홀과 존 레논은 뉴욕 예술계에서 교류한 동시대 문화 아이콘이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "louis-armstrong",
+    "target": "charlie-chaplin",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "암스트롱과 채플린은 20세기 미국 대중문화의 아이콘이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "louis-armstrong",
+    "target": "bob-dylan",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "암스트롱과 딜런은 미국 대중음악사에서 혁신적 역할을 했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "klimt",
+    "target": "freud",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "클림트와 프로이트는 세기말 빈에서 무의식과 에로스의 주제를 탐구했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "abdul-qadir-jilani",
+    "target": "bernard-clairvaux",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "질라니와 클레르보의 베르나르는 동서양에서 신비주의 영성을 이끈 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "milton-friedman",
+    "target": "friedrich-hayek",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "프리드먼과 하이에크는 자유시장 경제를 옹호한 동시대 경제학자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "john-of-damascus",
+    "target": "thomas-aquinas",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "다마스쿠스의 요한의 신학적 체계는 토마스 아퀴나스에게 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sitting-bull",
+    "target": "queen-victoria",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "시팅 불과 빅토리아 여왕은 제국주의 시대의 대립적 위치에 있었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "sitting-bull",
+    "target": "theodore-roosevelt",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "시팅 불과 루스벨트는 미국 서부 개척 시대의 동시대인이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "melissus",
+    "target": "zeno-of-elea",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "멜리소스와 엘레아의 제논은 파르메니데스 존재론의 옹호자들이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "swami-dayananda",
+    "target": "ramakrishna",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "다야난다와 라마크리슈나는 19세기 인도 종교 개혁의 양대 인물이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "neil-armstrong",
+    "target": "theodore-roosevelt",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "암스트롱과 루스벨트는 미국의 탐험 정신을 대표하는 인물이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "amundsen",
+    "target": "neil-armstrong",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아문센과 닐 암스트롱은 인류 탐험사의 위대한 업적을 남긴 탐험가들이다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "amundsen",
+    "target": "queen-victoria",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아문센은 빅토리아 시대 말기의 위대한 탐험가였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "daniel-kahneman",
+    "target": "milton-friedman",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "opposed",
+    "description": "카너먼의 행동경제학은 합리적 행위자 가정에 기반한 프리드먼의 경제학에 도전했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dummett",
+    "target": "frege",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프레게의 언어철학은 더밋의 반실재론 형성에 핵심적 기초가 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "dummett",
+    "target": "kripke",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "더밋과 크립키는 언어철학과 형이상학에서 서로 다른 입장을 대표했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rabia-al-adawiyya",
+    "target": "hasan-al-basri",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "하산 알바스리의 금욕적 경건주의는 라비아의 수피 영성에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "polycarp",
+    "target": "john-apostle",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "teacher_student",
+    "description": "폴리카르프는 사도 요한의 직접 제자로 전해진다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "billy-graham",
+    "target": "cs-lewis",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "그레이엄과 C.S. 루이스는 20세기 기독교 변증의 대표적 인물들이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "zeno-of-citium",
+    "target": "antisthenes",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "안티스테네스의 견유학파는 제논의 스토아 철학 형성에 영향을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "zhang-heng",
+    "target": "aryabhata",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "장형과 아리아바타는 동아시아와 남아시아의 고대 천문학을 대표하는 학자였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "umar-ibn-khattab",
+    "target": "abu-bakr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "우마르와 아부 바크르는 이슬람 초기 칼리프로 함께 활동했다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rommel",
+    "target": "churchill",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "롬멜과 처칠은 2차 세계대전의 적대적 관계에 있었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "cecilia-payne",
+    "target": "chandrasekhar",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "페인과 찬드라세카르는 천체물리학의 혁신을 이끈 동시대 과학자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "goodman",
+    "target": "quine",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "굿먼과 콰인은 하버드에서 함께 연구한 분석철학자였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "aung-san-suu-kyi",
+    "target": "gandhi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "간디의 비폭력 저항 사상은 아웅산 수치의 민주화 운동에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hippolytus",
+    "target": "tertullian",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "히폴리토스와 테르툴리아누스는 초기 교회 이단 논쟁의 동시대 인물이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "abraham-heschel",
+    "target": "martin-luther-king",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "헤셸과 마틴 루터 킹은 시민권 운동에서 함께 행진한 동지였다",
+    "strength": 3,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "proclus",
+    "target": "pseudo-dionysius",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "프로클로스의 신플라톤주의는 위-디오니시우스의 부정신학에 깊은 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "carnot",
+    "target": "laplace",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "라플라스의 수학적 방법은 카르노의 열역학 분석에 영향을 미쳤다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anandamayi-ma",
+    "target": "ramana-maharshi",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "아난다마이 마와 라마나 마하르시는 현대 인도 영성의 대표적 인물이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "uthman-ibn-affan",
+    "target": "abu-bakr",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "우스만과 아부 바크르는 이슬람 초기의 정통 칼리프들이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "rayleigh",
+    "target": "hertz",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "레일리와 헤르츠는 19세기 물리학의 주요 업적을 남긴 동시대 과학자였다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "coco-chanel",
+    "target": "andy-warhol",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "샤넬과 워홀은 20세기 패션과 예술의 경계를 넘나든 문화 아이콘이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "marcel",
+    "target": "sartre",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "마르셀과 사르트르는 실존주의 내에서 유신론과 무신론의 대립을 대표했다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "hippias",
+    "target": "prodicus",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "히피아스와 프로디코스는 같은 시대 소피스트로 활동했다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "suleiman",
+    "target": "henry-viii",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "술레이만과 헨리 8세는 16세기 동서양의 강력한 군주였다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "jonas-salk",
+    "target": "edward-jenner",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "influenced",
+    "description": "제너의 백신학 전통은 소크의 소아마비 백신 개발에 영감을 주었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "landau",
+    "target": "wolfgang-pauli",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "란다우와 파울리는 양자역학과 이론물리학의 동시대 거장이었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "tokugawa-ieyasu",
+    "target": "francis-xavier",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "도쿠가와와 하비에르는 일본의 기독교 선교 시대의 인물이었다",
+    "strength": 1,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "yi-sun-sin",
+    "target": "tokugawa-ieyasu",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "이순신과 도쿠가와 이에야스는 임진왜란 시대의 적대적 관계에 있었다",
+    "strength": 2,
+    "direction": "bidirectional"
+  },
+  {
+    "source": "ohm",
+    "target": "volta",
+    "sourceType": "person",
+    "targetType": "person",
+    "type": "contemporary",
+    "description": "옴과 볼타는 전기학의 발전에 기여한 동시대 과학자였다",
+    "strength": 2,
     "direction": "bidirectional"
   }
 ]

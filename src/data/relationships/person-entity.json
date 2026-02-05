@@ -10555,76 +10555,6 @@
     "direction": "directed"
   },
   {
-    "source": "emmanuelle-charpentier",
-    "target": "crispr-revolution",
-    "sourceType": "person",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "샤르팡티에는 CRISPR-Cas9 기술을 개발하여 유전자 편집 혁명을 일으켰다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "emmanuelle-charpentier",
-    "target": "human-genome-project",
-    "sourceType": "person",
-    "targetType": "entity",
-    "type": "affected_by",
-    "description": "샤르팡티에의 유전자 편집 연구는 인간 게놈 프로젝트의 성과 위에 구축되었다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "tim-berners-lee",
-    "target": "internet-revolution",
-    "sourceType": "person",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "버너스리는 월드와이드웹을 발명하여 인터넷 혁명을 촉발시켰다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "tim-berners-lee",
-    "target": "open-source-movement",
-    "sourceType": "person",
-    "targetType": "entity",
-    "type": "advocated",
-    "description": "버너스리는 웹의 개방성을 지키기 위해 오픈소스 운동을 적극 지지했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "tim-berners-lee",
-    "target": "cern",
-    "sourceType": "person",
-    "targetType": "entity",
-    "type": "member_of",
-    "description": "버너스리는 CERN에서 근무하며 월드와이드웹을 발명했다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
-    "source": "tim-berners-lee",
-    "target": "surveillance-capitalism",
-    "sourceType": "person",
-    "targetType": "entity",
-    "type": "criticized",
-    "description": "버너스리는 감시 자본주의가 웹의 원래 이상을 훼손한다고 비판했다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "ed-witten",
-    "target": "ias-princeton",
-    "sourceType": "person",
-    "targetType": "entity",
-    "type": "member_of",
-    "description": "위튼은 프린스턴 고등연구소에서 끈이론과 M-이론을 연구했다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "john-knox",
     "target": "calvinism",
     "sourceType": "person",
@@ -11185,16 +11115,6 @@
     "direction": "directed"
   },
   {
-    "source": "hayek",
-    "target": "neoliberalism",
-    "sourceType": "person",
-    "targetType": "entity",
-    "type": "founded",
-    "description": "하이에크는 《노예의 길》로 신자유주의의 이론적 기초를 놓았다",
-    "strength": 3,
-    "direction": "directed"
-  },
-  {
     "source": "michael-sandel",
     "target": "neoliberalism",
     "sourceType": "person",
@@ -11575,7 +11495,7 @@
     "direction": "directed"
   },
   {
-    "source": "tim-berners-lee",
+    "source": "berners-lee",
     "target": "information-revolution",
     "sourceType": "person",
     "targetType": "entity",
@@ -11632,16 +11552,6 @@
     "type": "influenced",
     "description": "푸앵카레의 3체 문제 연구는 복잡계 과학의 수학적 기초를 놓았다",
     "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "prigogine",
-    "target": "complexity-science",
-    "sourceType": "person",
-    "targetType": "entity",
-    "type": "founded",
-    "description": "프리고진의 산일 구조 이론은 복잡계 과학의 핵심이다",
-    "strength": 3,
     "direction": "directed"
   },
   {
@@ -12462,16 +12372,6 @@
     "type": "influenced",
     "description": "간디의 반식민 운동이 포스트콜로니얼리즘에 영향을 주었다",
     "strength": 2,
-    "direction": "directed"
-  },
-  {
-    "source": "berners-lee",
-    "target": "information-revolution",
-    "sourceType": "person",
-    "targetType": "entity",
-    "type": "caused",
-    "description": "버너스-리의 월드 와이드 웹이 정보혁명을 가속화했다",
-    "strength": 3,
     "direction": "directed"
   },
   {
@@ -17742,6 +17642,916 @@
     "type": "belongs_to",
     "description": "브라마굽타는 힌두 브라만 전통의 수학자·천문학자로, 베다 천문학 체계 속에서 연구했다",
     "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nikola-tesla",
+    "target": "information-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "테슬라의 교류 시스템 발명은 정보혁명의 전기 인프라 기반이 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nikola-tesla",
+    "target": "industrial-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "테슬라는 산업혁명 후기 전기화 시대의 핵심 발명가였다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "henry-viii",
+    "target": "protestant-reformation",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "헨리 8세는 영국 종교개혁을 주도하여 로마 교황청과 결별했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "justin-martyr",
+    "target": "logos",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "유스티누스는 로고스 개념을 통해 기독교와 그리스 철학의 접점을 모색했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "transhumanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "커즈와일은 트랜스휴머니즘의 대표적 옹호자로 특이점 이론을 주장했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "artificial-general-intelligence",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "커즈와일은 범용 인공지능의 실현 가능성을 적극적으로 주장했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "malthus",
+    "target": "classical-liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "맬서스는 고전 자유주의 경제학 전통에 속한다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "tulsidas",
+    "target": "karma",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "툴시다스는 라마야나 서사를 통해 카르마와 다르마의 가르침을 전파했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rodin",
+    "target": "impressionism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "로댕의 조각은 인상주의의 빛과 움직임 표현에서 영향을 받았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-tabari",
+    "target": "quran",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "알타바리는 꾸란의 가장 포괄적인 주석서를 저술했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "al-tabari",
+    "target": "sunni-islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "알타바리는 수니파 이슬람 학문 전통의 핵심 인물이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "arne-naess",
+    "target": "environmentalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "네스는 환경주의의 철학적 기초를 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-lorenz",
+    "target": "complexity-science",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "로렌츠의 카오스 이론은 복잡성 과학의 형성에 핵심 기여를 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tchaikovsky",
+    "target": "romanticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "차이콥스키는 후기 낭만주의 음악의 거장이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-suyuti",
+    "target": "quran",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "알수유티는 꾸란 해석과 하디스 연구에 방대한 저술을 남겼다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "laplace",
+    "target": "determinism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "라플라스는 결정론적 우주관의 대표적 주창자이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "judah-ha-nasi",
+    "target": "orthodox-judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "유다 하나시는 유대 율법 전통의 체계화에 결정적으로 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "louis-armstrong",
+    "target": "information-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "루이 암스트롱은 라디오와 레코드를 통해 재즈를 전 세계에 전파했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "klimt",
+    "target": "modernism-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "클림트는 빈 분리파를 이끌며 모더니즘 미술의 선구자가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "klimt",
+    "target": "impressionism-movement",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "클림트의 초기 작품은 인상주의 운동의 영향을 받았다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "george-fox",
+    "target": "anglicanism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "조지 폭스는 퀘이커교를 창시하여 영국 개신교의 새로운 흐름을 만들었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "helena-blavatsky",
+    "target": "new-age",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "블라바츠키의 신지학은 뉴에이지 운동의 사상적 원류가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "helena-blavatsky",
+    "target": "hermeticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "블라바츠키는 헤르메스주의와 동양 신비주의를 종합하려 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "joseph-campbell",
+    "target": "collective-unconscious",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "캠벨은 집단무의식의 신화적 표현을 비교문화적으로 연구했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-lennon",
+    "target": "feminism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "레논은 오노 요코와 함께 평화주의와 페미니즘을 옹호했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "john-of-damascus",
+    "target": "eastern-orthodoxy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "요한 다마스쿠스는 동방 정교회 교리의 집대성자이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hammurabi",
+    "target": "liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "caused",
+    "description": "함무라비 법전은 성문법 전통의 시초로서 법의 지배 사상에 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "neil-armstrong",
+    "target": "information-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "암스트롱의 달 착륙은 정보혁명 시대 기술 발전의 상징이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "clement-of-alexandria",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "알렉산드리아의 클레멘스는 초기 기독교와 그리스 철학의 종합을 시도했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "clement-of-alexandria",
+    "target": "library-alexandria",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "클레멘스는 알렉산드리아에서 활동하며 그리스 학문과 기독교를 종합했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ludwig-von-mises",
+    "target": "classical-liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "미제스는 고전적 자유주의의 경제적 기초를 옹호했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "sherrington",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "셰링턴은 영국 왕립학회 회원이자 회장을 역임했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "john-apostle",
+    "target": "bible",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "authored",
+    "description": "사도 요한은 요한복음과 요한서신의 저자로 전해진다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "zhang-heng",
+    "target": "house-of-wisdom",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "장형은 고대 중국의 과학 기관에서 천문관측기를 제작했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "aryabhata",
+    "target": "nalanda-university",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "아리아바타는 인도 고대 수학과 천문학의 체계를 확립했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ibn-tufayl",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "이븐 투파일은 이슬람 철학적 소설의 선구자이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "becquerel",
+    "target": "academie-francaise",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "베크렐은 프랑스 과학 아카데미의 회원이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "william-carey",
+    "target": "protestant-reformation",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "캐리는 개신교 선교 운동의 새 장을 열었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "saladin",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "살라딘은 이슬람 세계에서 정의로운 지도자의 모범으로 존경받는다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "volta",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "볼타는 영국 왕립학회의 외국인 회원이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rachel-carson",
+    "target": "environmentalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "카슨의 「침묵의 봄」은 현대 환경주의 운동의 출발점이 되었다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "cecilia-payne",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "페인은 별의 화학적 조성에 대한 혁신적 발견으로 학계에 기여했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "joan-of-arc",
+    "target": "roman-catholicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "잔 다르크는 로마 가톨릭 교회의 성인으로 시성되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "bahau-llah",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "바하울라의 사상은 이슬람 전통에서 출발하여 새로운 종교를 창시했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "abraham-heschel",
+    "target": "judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "헤셸은 20세기 유대교 사상의 가장 영향력 있는 신학자 중 한 명이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "zheng-he",
+    "target": "islam",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "정화는 무슬림으로서 명나라의 대외 교류에 기여했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "mirabai",
+    "target": "karma",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "미라바이는 크리슈나에 대한 헌신을 통해 박티(신애)의 길을 노래했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "tertullian",
+    "target": "gnosticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "opposed",
+    "description": "테르툴리아누스는 영지주의 이단에 강력히 반대했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "higgs",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "힉스는 영국 왕립학회의 회원이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ramanuja",
+    "target": "hinduism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "라마누자는 힌두교 박티 철학의 위대한 체계화자이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hasan-al-basri",
+    "target": "sufism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "하산 알바스리는 수피즘의 초기 원류로 여겨진다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "edward-jenner",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "제너는 영국 왕립학회의 회원이었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "rayleigh",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "레일리는 영국 왕립학회에서 활동하며 빛의 산란을 연구했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "coco-chanel",
+    "target": "modernism-art",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "샤넬은 모더니즘 시대의 패션 혁신을 이끌었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "yukawa",
+    "target": "cern",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "유카와는 입자물리학 연구로 국제 학술 교류에 기여했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "bob-dylan",
+    "target": "information-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "밥 딜런은 음반과 미디어를 통해 전 세계에 문화적 영향을 미쳤다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "aurobindo-hindu",
+    "target": "hinduism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "오로빈도는 힌두교의 영적 진화론을 제시한 현대 인도의 성인이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "gersonides",
+    "target": "judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "게르소니데스는 유대 아리스토텔레스주의의 대표적 철학자이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "landsteiner",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "란트슈타이너는 혈액형 발견으로 의학에 혁신적 기여를 했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "saicho",
+    "target": "buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "사이초는 일본 천태종의 개조이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "diogenes-apollonia",
+    "target": "milesian-school",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "아폴로니아의 디오게네스는 밀레토스 자연철학의 후기 계승자이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "teresa-avila",
+    "target": "roman-catholicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "아빌라의 테레사는 로마 가톨릭 교회의 교회박사이자 신비가이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "chopin",
+    "target": "romanticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "쇼팽은 낭만주의 피아노 음악의 최고봉이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "emmy-noether",
+    "target": "prussian-academy",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "뇌터는 독일 학술원과 교류하며 추상대수학을 발전시켰다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "nachmanides",
+    "target": "judaism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "나흐마니데스는 유대교 율법과 카발라의 종합자이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "carneades",
+    "target": "academy-plato",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "카르네아데스는 플라톤 아카데메이아의 후기 학두로 학적 회의주의를 이끌었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "victor-hugo",
+    "target": "romanticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "빅토르 위고는 프랑스 낭만주의 문학의 거장이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gassendi",
+    "target": "materialism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "가상디는 에피쿠로스의 원자론을 기독교와 조화시켜 근대 유물론의 토대를 놓았다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "hertz",
+    "target": "information-revolution",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "participated",
+    "description": "헤르츠의 전자기파 실험은 정보혁명의 기술적 토대가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "grothendieck",
+    "target": "academie-francaise",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "그로텐디크는 프랑스 학술원과 관련된 수학계에서 활동했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "gandhi",
+    "target": "liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "간디는 비폭력 불복종을 통해 자유와 인권의 가치를 실현했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "buddhadasa",
+    "target": "buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "붓다다사는 현대 태국 불교 개혁의 핵심 승려이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "ramana-maharshi",
+    "target": "hinduism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "라마나 마하르시는 아드바이타 베단타의 현대적 성인이다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "mozart",
+    "target": "romanticism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "모차르트는 고전주의에서 초기 낭만주의로의 전환을 상징하는 작곡가이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "chandrasekhar",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "찬드라세카르는 영국 왕립학회의 회원으로 천체물리학에 기여했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "wegener",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "opposed",
+    "description": "베게너의 대륙이동설은 당시 학계의 강한 반대에 직면했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "anselm-canterbury",
+    "target": "roman-catholicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "안셀무스는 로마 가톨릭 교회의 교회박사이자 존재론적 신 존재 증명의 창시자이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "friedrich-hayek",
+    "target": "classical-liberalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "하이에크는 고전적 자유주의의 현대적 옹호자이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "ashoka",
+    "target": "buddhism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "advocated",
+    "description": "아소카는 불교를 국교로 삼아 인도 아대륙에 불교를 전파했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "cs-lewis",
+    "target": "christianity",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "C.S. 루이스는 20세기 기독교 변증론의 가장 영향력 있는 저술가이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "andrew-wiles",
+    "target": "royal-society",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "와일스는 영국 왕립학회의 회원으로 페르마의 마지막 정리를 증명했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "dominic",
+    "target": "roman-catholicism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "belongs_to",
+    "description": "도미니코는 도미니코회를 창립하여 설교와 교육을 통한 복음 전파에 헌신했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "milton-friedman",
+    "target": "thinking-fast-and-slow",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "「생각에 관한 생각」은 합리적 행위자 가정에 도전하여 전통 경제학을 비판했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "darwin",
+    "target": "sapiens",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "influenced",
+    "description": "다윈의 진화론은 「사피엔스」의 생물학적 서술의 토대가 되었다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "queen-victoria",
+    "target": "brexit",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "contextual",
+    "description": "브렉시트는 빅토리아 시대 대영제국의 유산이 현대에 미친 영향의 결과이다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "dalembert",
+    "target": "academie-francaise",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "달랑베르는 프랑스 아카데미에서 활동한 계몽주의 학자이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "al-suyuti",
+    "target": "al-azhar-university",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "알수유티는 알아즈하르 대학교에서 활동한 이슬람 학자이다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "peter-lombard",
+    "target": "university-bologna",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "member_of",
+    "description": "롬바르두스의 저술은 볼로냐 대학교를 포함한 중세 대학에서 표준 교재였다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "helena-blavatsky",
+    "target": "voodoo-tradition",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "criticized",
+    "description": "블라바츠키는 아프리카 전통 종교를 신지학적 관점에서 해석했다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "ray-kurzweil",
+    "target": "deepmind",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "contextual",
+    "description": "커즈와일의 AI 미래 예측은 딥마인드의 성과와 관련이 있다",
+    "strength": 1,
+    "direction": "directed"
+  },
+  {
+    "source": "billy-graham",
+    "target": "pentecostalism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "contextual",
+    "description": "빌리 그레이엄의 복음주의 부흥운동은 오순절주의 성장과 맞물려 있었다",
+    "strength": 1,
     "direction": "directed"
   }
 ]

@@ -8624,16 +8624,6 @@
     "direction": "bidirectional"
   },
   {
-    "source": "voodoo-tradition",
-    "target": "roman-catholicism",
-    "sourceType": "entity",
-    "targetType": "entity",
-    "type": "merged_with",
-    "description": "부두교는 가톨릭 성인 숭배와 혼합되었다",
-    "strength": 2,
-    "direction": "directed"
-  },
-  {
     "source": "higgs-boson-discovery",
     "target": "quantum-mechanics",
     "sourceType": "entity",
