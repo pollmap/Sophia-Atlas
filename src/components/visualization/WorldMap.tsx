@@ -82,6 +82,14 @@ const RELIGION_COORDS: Record<string, { lat: number; lng: number }> = {
   judaism: { lat: 31.77, lng: 35.23 },
   confucianism: { lat: 35.6, lng: 116.99 },
   shinto: { lat: 34.68, lng: 135.5 },
+  zoroastrianism: { lat: 32.65, lng: 51.68 },
+  jainism: { lat: 25.0, lng: 85.0 },
+  sikhism: { lat: 31.62, lng: 74.88 },
+  taoism: { lat: 30.57, lng: 114.27 },
+  "slavic-mythology": { lat: 50.45, lng: 30.52 },
+  "mesoamerican-mythology": { lat: 19.43, lng: -99.13 },
+  "african-traditional": { lat: 7.38, lng: 3.94 },
+  "native-american": { lat: 44.0, lng: -103.0 },
 };
 
 // ── Cluster logic ──

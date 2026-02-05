@@ -11188,5 +11188,97 @@
       "《지옥의 묵시록》 연출",
       "아카데미 감독상 수상"
     ]
+  },
+  {
+    "id": "thomas-edison",
+    "name": {
+      "ko": "토머스 에디슨",
+      "en": "Thomas Edison"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1847,
+      "end": 1931
+    },
+    "location": {
+      "lat": 40.74,
+      "lng": -74.17,
+      "region": "미국 뉴저지"
+    },
+    "category": "historical_figure",
+    "categories": [
+      "historical_figure",
+      "scientist"
+    ],
+    "subcategory": "inventor",
+    "tags": [
+      "발명가",
+      "전구",
+      "축음기",
+      "산업혁명",
+      "전기"
+    ],
+    "mvp": true,
+    "summary": "전구, 축음기, 영사기 등 1,000건 이상의 특허를 보유한 미국의 발명왕. 현대 문명의 기반을 만든 산업혁명의 아이콘.",
+    "detailed": "토머스 에디슨은 정규 교육을 거의 받지 못했으나 독학과 실험으로 1,093건의 미국 특허를 획득했다. 1877년 축음기를 발명하여 음성 녹음 기술을 개척했고, 1879년 실용적인 백열전구를 개발하여 전기 조명 시대를 열었다. 멘로파크 연구소는 세계 최초의 산업 연구소로, 조직적 발명의 모델이 되었다.",
+    "keyWorks": [
+      {
+        "title": "백열전구 특허",
+        "year": 1879,
+        "type": "invention"
+      }
+    ],
+    "domain": "발명/산업",
+    "achievements": [
+      "백열전구",
+      "축음기",
+      "영사기",
+      "멘로파크 연구소"
+    ]
+  },
+  {
+    "id": "michael-faraday",
+    "name": {
+      "ko": "마이클 패러데이",
+      "en": "Michael Faraday"
+    },
+    "era": "modern",
+    "period": {
+      "start": 1791,
+      "end": 1867
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.13,
+      "region": "영국 런던"
+    },
+    "category": "historical_figure",
+    "categories": [
+      "historical_figure",
+      "scientist"
+    ],
+    "subcategory": "scientist_figure",
+    "tags": [
+      "과학자",
+      "전자기학",
+      "전기분해",
+      "패러데이 법칙"
+    ],
+    "mvp": true,
+    "summary": "전자기 유도를 발견하고 전기 모터와 발전기의 원리를 확립한 실험물리학의 거장.",
+    "detailed": "가난한 대장장이의 아들로 태어나 독학으로 과학자가 된 마이클 패러데이는 전자기 유도 법칙(1831)을 발견하여 전기 발전기와 변압기의 기초를 놓았다. 전기분해 법칙을 확립하고, 자기장의 개념을 도입하여 맥스웰의 전자기 이론에 결정적 영감을 제공했다. 뛰어난 실험가이자 과학 대중화의 선구자였다.",
+    "keyWorks": [
+      {
+        "title": "전기의 실험적 연구",
+        "year": 1855,
+        "type": "book"
+      }
+    ],
+    "domain": "과학/발명",
+    "achievements": [
+      "전자기 유도 법칙",
+      "전기분해 법칙",
+      "패러데이 새장"
+    ]
   }
 ]

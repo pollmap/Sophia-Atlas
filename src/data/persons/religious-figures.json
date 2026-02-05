@@ -9339,5 +9339,56 @@
     "detailed": "",
     "religionId": "christianity",
     "role": "수도승/성인"
+  },
+  {
+    "id": "dalai-lama",
+    "name": {
+      "ko": "달라이 라마 (14대)",
+      "en": "Dalai Lama (14th)",
+      "original": "བསྟན་འཛིན་རྒྱ་མཚོ"
+    },
+    "era": "contemporary",
+    "period": {
+      "start": 1935,
+      "end": 2024
+    },
+    "location": {
+      "lat": 29.65,
+      "lng": 91.1,
+      "region": "티베트/인도"
+    },
+    "category": "religious_figure",
+    "subcategory": "buddhist_leader",
+    "tags": [
+      "티베트 불교",
+      "겔룩파",
+      "비폭력",
+      "노벨평화상",
+      "명상"
+    ],
+    "mvp": true,
+    "summary": "티베트 불교의 최고 지도자. 비폭력 평화운동으로 노벨평화상을 수상한 현대 불교의 상징적 인물.",
+    "detailed": "텐진 갸초는 2살에 13대 달라이 라마의 환생으로 인정받았다. 1959년 중국의 티베트 침공 후 인도로 망명하여 다람살라에서 티베트 망명정부를 이끌었다. 자비와 비폭력을 통한 티베트 독립운동으로 1989년 노벨평화상을 수상했다. 불교와 현대 과학의 대화를 촉진하며 세계 평화와 종교 간 화합을 위해 활동하고 있다.",
+    "keyWorks": [
+      {
+        "title": "달라이 라마의 행복론",
+        "year": 1998,
+        "type": "book"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "행복은 기성품이 아닙니다. 그것은 당신 자신의 행동에서 옵니다.",
+        "source": ""
+      }
+    ],
+    "religionId": "buddhism",
+    "role": "겔룩파 수장/티베트 불교 지도자",
+    "influences": [
+      "tsongkhapa"
+    ],
+    "influenced": [
+      "thich-nhat-hanh"
+    ]
   }
 ]
