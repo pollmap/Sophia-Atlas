@@ -902,5 +902,423 @@
     ],
     "author": "에세네파/쿰란 공동체",
     "significance": "현존 최고(最古)의 구약 성경 필사본. 20세기 최대의 고고학적 발견."
+  },
+  {
+    "id": "odyssey",
+    "type": "text",
+    "name": {
+      "ko": "오디세이아",
+      "en": "Odyssey",
+      "original": "Ὀδύσσεια"
+    },
+    "period": {
+      "start": -750,
+      "end": -700
+    },
+    "location": {
+      "lat": 38.37,
+      "lng": 20.72,
+      "region": "그리스"
+    },
+    "era": "ancient",
+    "summary": "호메로스의 서사시. 트로이 전쟁 후 오디세우스의 10년간의 귀향 여정. 서양 문학의 원형이자 영웅의 여정 서사의 시초.",
+    "tags": [
+      "서사시",
+      "그리스 문학",
+      "영웅의 여정",
+      "신화"
+    ],
+    "author": "homer"
+  },
+  {
+    "id": "iliad",
+    "type": "text",
+    "name": {
+      "ko": "일리아스",
+      "en": "Iliad",
+      "original": "Ἰλιάς"
+    },
+    "period": {
+      "start": -750,
+      "end": -700
+    },
+    "location": {
+      "lat": 38.37,
+      "lng": 20.72,
+      "region": "그리스"
+    },
+    "era": "ancient",
+    "summary": "호메로스의 서사시. 트로이 전쟁의 마지막 해를 배경으로 아킬레우스의 분노를 노래한 서양 문학의 출발점.",
+    "tags": [
+      "서사시",
+      "그리스 문학",
+      "전쟁",
+      "영웅",
+      "운명"
+    ],
+    "author": "homer"
+  },
+  {
+    "id": "divine-comedy",
+    "type": "text",
+    "name": {
+      "ko": "신곡",
+      "en": "Divine Comedy",
+      "original": "Divina Commedia"
+    },
+    "period": {
+      "start": 1308,
+      "end": 1320
+    },
+    "location": {
+      "lat": 43.77,
+      "lng": 11.25,
+      "region": "이탈리아 피렌체"
+    },
+    "era": "medieval",
+    "summary": "단테의 대서사시. 지옥·연옥·천국을 여행하며 인간의 구원을 그린 중세 문학의 최고봉이자 이탈리아어 문학의 기초.",
+    "tags": [
+      "서사시",
+      "기독교",
+      "중세 문학",
+      "사후세계",
+      "알레고리"
+    ],
+    "author": "dante"
+  },
+  {
+    "id": "hamlet",
+    "type": "text",
+    "name": {
+      "ko": "햄릿",
+      "en": "Hamlet"
+    },
+    "period": {
+      "start": 1600,
+      "end": 1601
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.12,
+      "region": "영국 런던"
+    },
+    "era": "modern",
+    "summary": "셰익스피어의 비극. 복수와 존재의 의미를 탐구하며 근대적 자아의식의 탄생을 보여준 세계 문학의 정전.",
+    "tags": [
+      "희곡",
+      "비극",
+      "실존주의",
+      "복수",
+      "영국 문학"
+    ],
+    "author": "shakespeare"
+  },
+  {
+    "id": "don-quixote",
+    "type": "text",
+    "name": {
+      "ko": "돈키호테",
+      "en": "Don Quixote",
+      "original": "El ingenioso hidalgo don Quijote de la Mancha"
+    },
+    "period": {
+      "start": 1605,
+      "end": 1615
+    },
+    "location": {
+      "lat": 40.42,
+      "lng": -3.7,
+      "region": "스페인"
+    },
+    "era": "modern",
+    "summary": "세르반테스의 소설. 최초의 근대 소설로 평가받으며, 이상과 현실의 괴리를 유머러스하게 그린 세계 문학의 걸작.",
+    "tags": [
+      "소설",
+      "풍자",
+      "스페인 문학",
+      "근대 소설의 시작"
+    ],
+    "author": "cervantes"
+  },
+  {
+    "id": "faust",
+    "type": "text",
+    "name": {
+      "ko": "파우스트",
+      "en": "Faust"
+    },
+    "period": {
+      "start": 1808,
+      "end": 1832
+    },
+    "location": {
+      "lat": 50.11,
+      "lng": 8.68,
+      "region": "독일"
+    },
+    "era": "modern",
+    "summary": "괴테의 희곡. 무한한 지식을 갈망하여 악마와 계약한 학자의 이야기. 근대 서양 정신의 상징이자 독일 문학의 최고봉.",
+    "tags": [
+      "희곡",
+      "독일 문학",
+      "악마와의 계약",
+      "지식 추구",
+      "낭만주의"
+    ],
+    "author": "goethe"
+  },
+  {
+    "id": "brothers-karamazov",
+    "type": "text",
+    "name": {
+      "ko": "카라마조프가의 형제들",
+      "en": "The Brothers Karamazov"
+    },
+    "period": {
+      "start": 1879,
+      "end": 1880
+    },
+    "location": {
+      "lat": 55.76,
+      "lng": 37.62,
+      "region": "러시아"
+    },
+    "era": "modern",
+    "summary": "도스토예프스키의 마지막 장편. 신의 존재, 자유의지, 도덕의 근거를 탐구한 철학적 소설의 정점. 실존주의에 지대한 영향.",
+    "tags": [
+      "소설",
+      "러시아 문학",
+      "실존주의",
+      "신의 존재",
+      "도덕"
+    ],
+    "author": "dostoevsky"
+  },
+  {
+    "id": "frankenstein",
+    "type": "text",
+    "name": {
+      "ko": "프랑켄슈타인",
+      "en": "Frankenstein"
+    },
+    "period": {
+      "start": 1818,
+      "end": 1818
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.12,
+      "region": "영국"
+    },
+    "era": "modern",
+    "summary": "메리 셸리의 소설. 과학의 오만과 창조자의 책임을 탐구한 최초의 SF 소설. 바이오테크놀로지와 AI 윤리의 선구적 예언.",
+    "tags": [
+      "SF",
+      "소설",
+      "과학 윤리",
+      "인조인간",
+      "낭만주의"
+    ],
+    "author": "mary-shelley",
+    "significance": "최초의 SF 소설. 과학기술의 윤리적 한계에 대한 최초의 문학적 탐구."
+  },
+  {
+    "id": "dune",
+    "type": "text",
+    "name": {
+      "ko": "듄",
+      "en": "Dune"
+    },
+    "period": {
+      "start": 1965,
+      "end": 1965
+    },
+    "location": {
+      "lat": 47.61,
+      "lng": -122.33,
+      "region": "미국"
+    },
+    "era": "contemporary",
+    "summary": "프랭크 허버트의 SF 소설. 사막 행성 아라키스를 배경으로 종교, 생태학, 정치, 메시아 신화를 융합한 SF 문학의 최고봉.",
+    "tags": [
+      "SF",
+      "소설",
+      "메시아",
+      "생태학",
+      "종교",
+      "에세네파",
+      "이슬람"
+    ],
+    "author": "frank-herbert",
+    "significance": "에세네파/이슬람 수피즘의 SF적 재해석. 스타워즈를 비롯한 현대 SF 전체에 지대한 영향."
+  },
+  {
+    "id": "1984-novel",
+    "type": "text",
+    "name": {
+      "ko": "1984",
+      "en": "Nineteen Eighty-Four"
+    },
+    "period": {
+      "start": 1949,
+      "end": 1949
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.12,
+      "region": "영국"
+    },
+    "era": "contemporary",
+    "summary": "조지 오웰의 디스토피아 소설. 전체주의 감시 사회의 공포를 그린 20세기 가장 영향력 있는 정치 소설.",
+    "tags": [
+      "디스토피아",
+      "전체주의",
+      "감시",
+      "언어 통제",
+      "정치 소설"
+    ],
+    "author": "george-orwell",
+    "significance": "빅 브라더, 이중사고, 뉴스피크 등 현대 정치 담론의 핵심 개념을 창조."
+  },
+  {
+    "id": "brave-new-world",
+    "type": "text",
+    "name": {
+      "ko": "멋진 신세계",
+      "en": "Brave New World"
+    },
+    "period": {
+      "start": 1932,
+      "end": 1932
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.12,
+      "region": "영국"
+    },
+    "era": "contemporary",
+    "summary": "올더스 헉슬리의 디스토피아 소설. 쾌락과 기술로 통제되는 미래 사회를 그려 바이오테크/AI 시대를 예언.",
+    "tags": [
+      "디스토피아",
+      "바이오테크",
+      "소비주의",
+      "유전공학",
+      "사회 통제"
+    ],
+    "author": "aldous-huxley"
+  },
+  {
+    "id": "lord-of-the-rings",
+    "type": "text",
+    "name": {
+      "ko": "반지의 제왕",
+      "en": "The Lord of the Rings"
+    },
+    "period": {
+      "start": 1954,
+      "end": 1955
+    },
+    "location": {
+      "lat": 51.76,
+      "lng": -1.26,
+      "region": "영국 옥스퍼드"
+    },
+    "era": "contemporary",
+    "summary": "톨킨의 판타지 대서사시. 북유럽 신화, 가톨릭 신학, 언어학을 융합하여 현대 판타지 장르를 창시.",
+    "tags": [
+      "판타지",
+      "영국 문학",
+      "북유럽 신화",
+      "선과 악",
+      "언어학"
+    ],
+    "author": "j-r-r-tolkien",
+    "significance": "북유럽/켈트 신화의 현대적 재창조. 현대 판타지 장르 전체의 원류."
+  },
+  {
+    "id": "star-wars",
+    "type": "text",
+    "name": {
+      "ko": "스타워즈",
+      "en": "Star Wars"
+    },
+    "period": {
+      "start": 1977,
+      "end": 2024
+    },
+    "location": {
+      "lat": 34.05,
+      "lng": -118.24,
+      "region": "미국 할리우드"
+    },
+    "era": "contemporary",
+    "summary": "조지 루카스의 SF 영화 시리즈. 캠벨의 영웅의 여정, 동양 철학, 듄의 영향을 받아 현대 대중문화의 가장 영향력 있는 신화를 창조.",
+    "tags": [
+      "SF",
+      "영화",
+      "영웅의 여정",
+      "동양 철학",
+      "선과 악",
+      "대중문화"
+    ],
+    "author": "george-lucas",
+    "significance": "캠벨의 영웅 신화학 + 도교/불교/선 + 듄의 영향. 현대 대중문화 최대의 신화 체계."
+  },
+  {
+    "id": "matrix",
+    "type": "text",
+    "name": {
+      "ko": "매트릭스",
+      "en": "The Matrix"
+    },
+    "period": {
+      "start": 1999,
+      "end": 2003
+    },
+    "location": {
+      "lat": 34.05,
+      "lng": -118.24,
+      "region": "미국 할리우드"
+    },
+    "era": "contemporary",
+    "summary": "워쇼스키 자매의 SF 영화. 플라톤의 동굴, 불교의 공, 보드리야르의 시뮬라크르를 융합한 철학적 SF의 정점.",
+    "tags": [
+      "SF",
+      "영화",
+      "시뮬레이션",
+      "플라톤",
+      "불교",
+      "포스트모더니즘"
+    ],
+    "significance": "플라톤 동굴의 비유 + 불교 空 + 보드리야르 시뮬라크르 = 대중 철학의 혁명."
+  },
+  {
+    "id": "2001-space-odyssey",
+    "type": "text",
+    "name": {
+      "ko": "2001: 스페이스 오디세이",
+      "en": "2001: A Space Odyssey"
+    },
+    "period": {
+      "start": 1968,
+      "end": 1968
+    },
+    "location": {
+      "lat": 51.51,
+      "lng": -0.12,
+      "region": "영국/미국"
+    },
+    "era": "contemporary",
+    "summary": "큐브릭/클라크의 SF 영화. 인류 진화, AI의 위험, 우주적 초월을 니체의 초인 사상과 결합한 SF 영화의 금자탑.",
+    "tags": [
+      "SF",
+      "영화",
+      "진화",
+      "AI",
+      "니체",
+      "초인",
+      "우주"
+    ],
+    "significance": "니체 초인 사상 + AI 위험 + 진화론의 영상적 종합. SF 영화의 예술적 정점."
   }
 ]
