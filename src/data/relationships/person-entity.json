@@ -27643,5 +27643,45 @@
     "description": "토머스 에디슨과(와) 제1차 산업혁명의 관련성",
     "strength": 1,
     "direction": "directed"
+  },
+  {
+    "source": "george-harrison",
+    "target": "hinduism",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "조지 해리슨은 힌두교에 깊이 영향받아 인도 음악과 영성을 서양 대중문화에 소개했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "gutenberg",
+    "target": "printing-technology",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "founded",
+    "description": "구텐베르크는 활판 인쇄 기술을 발명하여 지식의 대중화와 종교개혁의 토대를 마련했다",
+    "strength": 3,
+    "direction": "directed"
+  },
+  {
+    "source": "j-r-r-tolkien",
+    "target": "epic-mythic-literature",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "톨킨은 고대 서사시와 신화 전통에 깊이 영향받아 중간계(Middle-earth)라는 독자적 신화 세계를 창조했다",
+    "strength": 2,
+    "direction": "directed"
+  },
+  {
+    "source": "michael-jordan",
+    "target": "culture-hero",
+    "sourceType": "person",
+    "targetType": "entity",
+    "type": "affected_by",
+    "description": "마이클 조던은 현대의 문화 영웅 원형을 체현하며 스포츠를 넘어 글로벌 문화 아이콘이 되었다",
+    "strength": 1,
+    "direction": "directed"
   }
 ]
