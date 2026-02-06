@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from "react";
 import Link from "next/link";
 import * as d3 from "d3";
-import dynamic from "next/dynamic";
 import {
   Network,
   Info,
@@ -21,9 +20,6 @@ import {
   Diamond,
   ToggleLeft,
   ToggleRight,
-  Box,
-  Globe,
-  Loader2,
   Route,
   Compass,
   ArrowRight,
@@ -33,21 +29,6 @@ import {
 
 import { KnowledgeGraphEngine, type KnowledgeNode, type PathResult as KGPathResult } from "@/lib/knowledge-graph";
 
-// Dynamic import for 3D graph (no SSR - requires WebGL)
-const IndraNet3D = dynamic(
-  () => import("@/components/visualization/IndraNet3D"),
-  {
-    ssr: false,
-    loading: () => (
-      <div className="w-full h-full flex items-center justify-center bg-[var(--fresco-parchment)]">
-        <div className="flex flex-col items-center gap-3 text-[var(--ink-light)]">
-          <Loader2 className="w-8 h-8 animate-spin" />
-          <span className="text-sm">3D 인드라망 불러오는 중...</span>
-        </div>
-      </div>
-    ),
-  }
-);
 import philosophersData from "@/data/persons/philosophers.json";
 import religiousFiguresData from "@/data/persons/religious-figures.json";
 import scientistsData from "@/data/persons/scientists.json";
@@ -296,7 +277,7 @@ export default function ConnectionsPage() {
   const [showInfo, setShowInfo] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
   const [showEntities, setShowEntities] = useState(true);
-  const [viewMode, setViewMode] = useState<"2d" | "3d">("2d");
+  // viewMode removed — 2D only
   const [canvasSize, setCanvasSize] = useState({ width: 800, height: 600 });
   const [isSimReady, setIsSimReady] = useState(false);
 
@@ -310,6 +291,10 @@ export default function ConnectionsPage() {
   // Time slider state
   const [timeRange, setTimeRange] = useState<[number, number]>([-3000, 2100]);
   const [timeFilterActive, setTimeFilterActive] = useState(false);
+
+  // Exploration mode — start from one node, expand gradually
+  const [explorationMode, setExplorationMode] = useState(false);
+  const [explorationDepth, setExplorationDepth] = useState(1);
 
   // URL initialization guard
   const [urlInitialized, setUrlInitialized] = useState(false);
@@ -352,7 +337,6 @@ export default function ConnectionsPage() {
     const params = new URLSearchParams(window.location.search);
 
     const nodeParam = params.get("node");
-    const viewParam = params.get("view") as "2d" | "3d" | null;
     const eraParam = params.get("era");
     const categoryParam = params.get("category");
     const relTypeParam = params.get("relType");
@@ -360,7 +344,6 @@ export default function ConnectionsPage() {
     const pathEndParam = params.get("to");
 
     if (nodeParam && nodeDataMap.has(nodeParam)) setSelectedNode(nodeParam);
-    if (viewParam === "2d" || viewParam === "3d") setViewMode(viewParam);
     if (eraParam && ERA_LABELS[eraParam]) setSelectedEra(eraParam);
     if (categoryParam && CATEGORY_FILTERS.some((c) => c.key === categoryParam)) setSelectedCategory(categoryParam);
     if (relTypeParam && REL_TYPE_FILTERS.some((r) => r.key === relTypeParam)) setSelectedRelType(relTypeParam);
@@ -378,7 +361,6 @@ export default function ConnectionsPage() {
     if (!urlInitialized || typeof window === "undefined") return;
     const params = new URLSearchParams();
     if (selectedNode) params.set("node", selectedNode);
-    if (viewMode !== "2d") params.set("view", viewMode);
     if (selectedEra !== "all") params.set("era", selectedEra);
     if (selectedCategory !== "all") params.set("category", selectedCategory);
     if (selectedRelType !== "all") params.set("relType", selectedRelType);
@@ -388,7 +370,7 @@ export default function ConnectionsPage() {
     const qs = params.toString();
     const newUrl = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
     window.history.replaceState(null, "", newUrl);
-  }, [selectedNode, viewMode, selectedEra, selectedCategory, selectedRelType, pathMode, pathStart, pathEnd, urlInitialized]);
+  }, [selectedNode, selectedEra, selectedCategory, selectedRelType, pathMode, pathStart, pathEnd, urlInitialized]);
 
   // ── Path computation ──
   useEffect(() => {
@@ -493,33 +475,37 @@ export default function ConnectionsPage() {
         description: r.description || "",
       }));
 
-    return { filteredNodes: nodes, filteredLinks: links };
-  }, [selectedCategory, selectedEra, selectedRelType, showEntities, connectionCounts, timeFilterActive, timeRange]);
+    // Exploration mode: only show nodes within N degrees of selected node
+    if (explorationMode && selectedNode && nodeIdSet.has(selectedNode)) {
+      const reachable = new Set<string>([selectedNode]);
+      let frontier = new Set<string>([selectedNode]);
+      for (let depth = 0; depth < explorationDepth; depth++) {
+        const nextFrontier = new Set<string>();
+        links.forEach((l) => {
+          const src = typeof l.source === "object" ? (l.source as any).id : l.source;
+          const tgt = typeof l.target === "object" ? (l.target as any).id : l.target;
+          if (frontier.has(src) && !reachable.has(tgt)) {
+            nextFrontier.add(tgt);
+            reachable.add(tgt);
+          }
+          if (frontier.has(tgt) && !reachable.has(src)) {
+            nextFrontier.add(src);
+            reachable.add(src);
+          }
+        });
+        frontier = nextFrontier;
+      }
+      const explorationNodes = nodes.filter((n) => reachable.has(n.id));
+      const explorationLinks = links.filter((l) => {
+        const src = typeof l.source === "object" ? (l.source as any).id : l.source;
+        const tgt = typeof l.target === "object" ? (l.target as any).id : l.target;
+        return reachable.has(src) && reachable.has(tgt);
+      });
+      return { filteredNodes: explorationNodes, filteredLinks: explorationLinks };
+    }
 
-  // ── 3D graph data ──
-  const graph3DData = useMemo(() => {
-    const nodes3D = filteredNodes.map((n) => ({
-      id: n.id,
-      name: n.name,
-      nodeType: n.nodeType,
-      category: n.category,
-      entityType: n.entityType,
-      era: n.era,
-      connections: n.connections,
-      val: Math.max(1, n.connections),
-    }));
-    const nodeIdSet = new Set(nodes3D.map((n) => n.id));
-    const links3D = filteredLinks
-      .filter((l) => nodeIdSet.has(l.source as string) && nodeIdSet.has(l.target as string))
-      .map((l) => ({
-        source: l.source as string,
-        target: l.target as string,
-        type: l.type,
-        strength: l.strength,
-        description: l.description,
-      }));
-    return { nodes: nodes3D, links: links3D };
-  }, [filteredNodes, filteredLinks]);
+    return { filteredNodes: nodes, filteredLinks: links };
+  }, [selectedCategory, selectedEra, selectedRelType, showEntities, connectionCounts, timeFilterActive, timeRange, explorationMode, explorationDepth, selectedNode]);
 
   // ── Ego network (1st + 2nd degree) ──
   const egoData = useMemo(() => {
@@ -725,6 +711,7 @@ export default function ConnectionsPage() {
     function draw() {
       if (!ctx) return;
       const transform = transformRef.current;
+      const zoomLevel = transform.k;
 
       ctx.save();
       ctx.clearRect(0, 0, width, height);
@@ -759,11 +746,15 @@ export default function ConnectionsPage() {
         });
       }
 
-      // ── Draw links ──
+      // ── Draw links ── (semantic zoom: reduce clutter when zoomed out)
       links.forEach((l, i) => {
         const source = l.source as SimNode;
         const target = l.target as SimNode;
         if (source.x == null || target.x == null) return;
+
+        // Skip weak links when zoomed out (performance + clarity)
+        if (zoomLevel < 0.5 && (l.strength || 1) < 2) return;
+        if (zoomLevel < 0.3 && (l.strength || 1) < 3) return;
 
         let alpha = 0.15;
         let lineWidth = 0.5;
@@ -847,7 +838,9 @@ export default function ConnectionsPage() {
         let nodeAlpha = 0.85;
         let strokeColor = "rgba(250,246,233,0.08)";
         let strokeWidth = 0.5;
-        let drawLabel = node.radius >= 8;
+        // Semantic zoom: show more labels when zoomed in
+        const labelThreshold = zoomLevel > 1.5 ? 3 : zoomLevel > 0.8 ? 6 : 8;
+        let drawLabel = node.radius >= labelThreshold || (zoomLevel > 2 && node.connections >= 3);
         let labelAlpha = 0.7;
 
         // Path mode highlighting takes priority
@@ -1012,27 +1005,99 @@ export default function ConnectionsPage() {
         }
       }
 
-      // Category anchor labels (faint)
+      // Category anchor labels — semantic zoom: more prominent when zoomed out
       if (!currentSelected && !currentHover) {
+        const labelOpacity = zoomLevel < 0.5 ? 0.5 : zoomLevel < 1.0 ? 0.3 : 0.15;
+        const fontSize = zoomLevel < 0.5 ? 18 : zoomLevel < 1.0 ? 14 : 11;
         Object.entries(CATEGORY_ANCHORS).forEach(([cat, anchor]) => {
-          // Only show person category labels
           const info = CATEGORY_FILTERS.find((c) => c.key === cat);
           if (!info) return;
 
           const ax = width / 2 + anchor.x * width * 0.35;
           const ay = height / 2 + anchor.y * height * 0.35;
 
-          ctx.font = 'bold 11px "Pretendard", -apple-system, sans-serif';
+          ctx.font = `bold ${fontSize}px "Pretendard", -apple-system, sans-serif`;
           ctx.textAlign = "center";
           ctx.textBaseline = "middle";
-          ctx.globalAlpha = 0.2;
+          ctx.globalAlpha = labelOpacity;
           ctx.fillStyle = info.color;
           ctx.fillText(info.label, ax, ay);
+
+          // Show count when zoomed out
+          if (zoomLevel < 0.8) {
+            const catCount = nodes.filter((n) => n.category === cat || n.entityType === cat).length;
+            ctx.font = `${fontSize - 4}px "Pretendard", -apple-system, sans-serif`;
+            ctx.globalAlpha = labelOpacity * 0.6;
+            ctx.fillText(`${catCount}`, ax, ay + fontSize + 2);
+          }
+
           ctx.globalAlpha = 1;
         });
       }
 
       ctx.restore();
+
+      // ── Minimap ──
+      const mmW = 160;
+      const mmH = 120;
+      const mmX = width - mmW - 12;
+      const mmY = height - mmH - 12;
+      const mmPad = 4;
+
+      // Compute bounds of all nodes
+      let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+      for (const n of nodes) {
+        if (n.x != null && n.y != null) {
+          if (n.x < minX) minX = n.x;
+          if (n.y < minY) minY = n.y;
+          if (n.x > maxX) maxX = n.x;
+          if (n.y > maxY) maxY = n.y;
+        }
+      }
+      const rangeX = (maxX - minX) || 1;
+      const rangeY = (maxY - minY) || 1;
+      const mmScale = Math.min((mmW - mmPad * 2) / rangeX, (mmH - mmPad * 2) / rangeY);
+
+      // Background
+      ctx.fillStyle = "rgba(250,246,233,0.92)";
+      ctx.strokeStyle = "rgba(212,196,171,0.6)";
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.roundRect(mmX, mmY, mmW, mmH, 4);
+      ctx.fill();
+      ctx.stroke();
+
+      // Draw minimap nodes
+      for (const n of nodes) {
+        if (n.x == null || n.y == null) continue;
+        const nx = mmX + mmPad + (n.x - minX) * mmScale;
+        const ny = mmY + mmPad + (n.y - minY) * mmScale;
+        ctx.fillStyle = getNodeColor(n);
+        ctx.globalAlpha = 0.6;
+        ctx.beginPath();
+        ctx.arc(nx, ny, Math.max(1, n.radius * 0.15), 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+
+      // Viewport rectangle on minimap
+      const vpLeft = (-transform.x / transform.k - minX) * mmScale + mmX + mmPad;
+      const vpTop = (-transform.y / transform.k - minY) * mmScale + mmY + mmPad;
+      const vpW = (width / transform.k) * mmScale;
+      const vpH = (height / transform.k) * mmScale;
+      ctx.strokeStyle = "rgba(184,134,11,0.7)";
+      ctx.lineWidth = 1.5;
+      ctx.strokeRect(
+        Math.max(mmX + 1, vpLeft), Math.max(mmY + 1, vpTop),
+        Math.min(vpW, mmW - 2), Math.min(vpH, mmH - 2)
+      );
+
+      // Semantic zoom level indicator
+      ctx.fillStyle = "rgba(44,36,22,0.4)";
+      ctx.font = '9px "Pretendard", sans-serif';
+      ctx.textAlign = "right";
+      ctx.textBaseline = "bottom";
+      ctx.fillText(`${Math.round(zoomLevel * 100)}%`, mmX + mmW - 6, mmY + mmH - 4);
 
       animFrameRef.current = requestAnimationFrame(draw);
     }
@@ -1209,7 +1274,7 @@ export default function ConnectionsPage() {
       cancelAnimationFrame(animFrameRef.current);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filteredNodes, filteredLinks, canvasSize, egoData, viewMode]);
+  }, [filteredNodes, filteredLinks, canvasSize, egoData]);
 
   // Refs to avoid stale closures
   const hoveredNodeRef = useRef<string | null>(null);
@@ -1328,20 +1393,54 @@ export default function ConnectionsPage() {
               </div>
             </div>
             <div className="flex items-center gap-2">
-              {/* 2D/3D Toggle */}
+              {/* Exploration Mode Toggle */}
               <button
-                onClick={() => setViewMode(viewMode === "2d" ? "3d" : "2d")}
+                onClick={() => {
+                  setExplorationMode(!explorationMode);
+                  if (!explorationMode && !selectedNode) {
+                    // Pick a random well-connected node to start
+                    const topNodes = filteredNodes.filter((n) => n.connections >= 10);
+                    if (topNodes.length > 0) {
+                      const pick = topNodes[Math.floor(Math.random() * topNodes.length)];
+                      setSelectedNode(pick.id);
+                    }
+                  }
+                  setExplorationDepth(1);
+                }}
                 className={cn(
                   "flex items-center gap-1.5 px-3 py-2 rounded text-xs font-medium transition-all",
-                  viewMode === "3d"
+                  explorationMode
                     ? "bg-[#B8860B]/15 text-[#B8860B] ring-1 ring-[#B8860B]/30"
                     : "bg-[var(--fresco-aged)]/50 text-[var(--ink-light)] hover:bg-[var(--fresco-aged)]"
                 )}
-                title={viewMode === "2d" ? "3D 구체 뷰로 전환" : "2D 평면 뷰로 전환"}
+                title="하나의 인물에서 시작해 점진적으로 탐험"
               >
-                {viewMode === "2d" ? <Globe className="w-3.5 h-3.5" /> : <Box className="w-3.5 h-3.5" />}
-                {viewMode === "2d" ? "3D" : "2D"}
+                <Compass className="w-3.5 h-3.5" />
+                탐험
               </button>
+
+              {/* Exploration Depth Control (visible in exploration mode) */}
+              {explorationMode && (
+                <div className="flex items-center gap-1 px-2 py-1 rounded bg-[#B8860B]/10 border border-[#B8860B]/20">
+                  <button
+                    onClick={() => setExplorationDepth(Math.max(1, explorationDepth - 1))}
+                    className="w-5 h-5 flex items-center justify-center rounded text-[#B8860B] hover:bg-[#B8860B]/20 text-xs font-bold"
+                    disabled={explorationDepth <= 1}
+                  >
+                    -
+                  </button>
+                  <span className="text-[10px] font-medium text-[#B8860B] min-w-[40px] text-center">
+                    {explorationDepth}단계
+                  </span>
+                  <button
+                    onClick={() => setExplorationDepth(Math.min(5, explorationDepth + 1))}
+                    className="w-5 h-5 flex items-center justify-center rounded text-[#B8860B] hover:bg-[#B8860B]/20 text-xs font-bold"
+                    disabled={explorationDepth >= 5}
+                  >
+                    +
+                  </button>
+                </div>
+              )}
 
               {/* Path Finder Toggle */}
               <button
@@ -1627,35 +1726,19 @@ export default function ConnectionsPage() {
               </div>
 
               {/* 2D Canvas */}
-              {viewMode === "2d" && (
-                <canvas
-                  ref={canvasRef}
-                  style={{
-                    width: "100%",
-                    height: "calc(100vh - 280px)",
-                    minHeight: "550px",
-                    display: "block",
-                  }}
-                />
-              )}
-
-              {/* 3D View */}
-              {viewMode === "3d" && (
-                <div style={{ width: "100%", height: "calc(100vh - 280px)", minHeight: "550px" }}>
-                  <IndraNet3D
-                    nodes={graph3DData.nodes as any}
-                    links={graph3DData.links as any}
-                    width={canvasSize.width}
-                    height={Math.max(550, canvasSize.height)}
-                    onNodeClick={(nodeId) => setSelectedNode((prev) => (prev === nodeId ? null : nodeId))}
-                    selectedNode={selectedNode}
-                  />
-                </div>
-              )}
+              <canvas
+                ref={canvasRef}
+                style={{
+                  width: "100%",
+                  height: "calc(100vh - 280px)",
+                  minHeight: "550px",
+                  display: "block",
+                }}
+              />
 
               {/* Stats overlay */}
               <div className="absolute bottom-3 left-3 flex gap-3 text-[10px] text-[var(--ink-faded)] pointer-events-none">
-                <span>{viewMode === "3d" ? "3D" : "2D"} | 노드: {filteredNodes.length}</span>
+                <span>노드: {filteredNodes.length}</span>
                 <span>연결: {filteredLinks.length}</span>
                 {selectedNode && egoData && (
                   <>
@@ -1668,9 +1751,7 @@ export default function ConnectionsPage() {
               <div className="absolute bottom-3 right-3 text-[10px] text-[var(--ink-faded)] pointer-events-none">
                 {pathMode
                   ? "경로 모드: 시작/도착 노드를 클릭하세요"
-                  : viewMode === "3d"
-                    ? "드래그: 회전 | 스크롤: 확대/축소 | 클릭: 선택"
-                    : "스크롤: 확대/축소 | 드래그: 이동 | 클릭: 선택"}
+                  : "스크롤: 확대/축소 | 드래그: 이동 | 클릭: 선택"}
               </div>
 
               {/* Path mode indicator overlay */}

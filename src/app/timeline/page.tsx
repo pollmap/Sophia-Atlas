@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useRef, useCallback } from 'react';
+import { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import {
   ArrowLeft,
@@ -142,6 +142,16 @@ export default function TimelinePage() {
   const [zoom, setZoom] = useState(1);
   const [hoveredPerson, setHoveredPerson] = useState<string | null>(null);
   const timelineRef = useRef<HTMLDivElement>(null);
+
+  // Read initial filters from URL params
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    const cat = params.get('category') as Category | null;
+    const era = params.get('era') as Era | null;
+    if (cat && categoryOrder.includes(cat)) setSelectedCategory(cat);
+    if (era && eras.includes(era)) setSelectedEra(era);
+  }, []);
 
   // Filtered persons
   const filteredPersons = useMemo(() => {
