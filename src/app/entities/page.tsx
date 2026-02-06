@@ -3,7 +3,8 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { Layers, Calendar, MapPin, Sparkles } from 'lucide-react';
-import { cn, getEraLabel, getEraColor, formatYear } from '@/lib/utils';
+import { cn, getEraLabel, getEraColor, formatYear, getEntityTypeLabel, getEntityTypeHexColor, getEntityTypeColors, ENTITY_TYPES } from '@/lib/utils';
+import { useDebounce } from '@/lib/hooks';
 
 import eventsData from '@/data/entities/events.json';
 import ideologiesData from '@/data/entities/ideologies.json';
@@ -39,50 +40,12 @@ const allEntities: EntityData[] = [
   ...(technologiesData as EntityData[]),
 ];
 
-const typeLabels: Record<string, string> = {
-  event: '역사적 사건',
-  ideology: '사상/이념',
-  movement: '운동/학파',
-  institution: '기관/조직',
-  text: '경전/문헌',
-  concept: '핵심 개념',
-  tradition: '전통',
-  archetype: '신화/원형',
-  art_movement: '예술운동',
-  technology: '기술 패러다임',
-};
-
-const typeColors: Record<string, { bg: string; text: string; border: string }> = {
-  event: { bg: 'rgba(139, 64, 64, 0.1)', text: '#8B4040', border: 'rgba(139, 64, 64, 0.3)' },
-  ideology: { bg: 'rgba(107, 78, 138, 0.1)', text: '#6B4E8A', border: 'rgba(107, 78, 138, 0.3)' },
-  movement: { bg: 'rgba(74, 93, 138, 0.1)', text: '#4A5D8A', border: 'rgba(74, 93, 138, 0.3)' },
-  institution: { bg: 'rgba(184, 134, 11, 0.1)', text: '#B8860B', border: 'rgba(184, 134, 11, 0.3)' },
-  text: { bg: 'rgba(91, 115, 85, 0.1)', text: '#5B7355', border: 'rgba(91, 115, 85, 0.3)' },
-  concept: { bg: 'rgba(74, 122, 107, 0.1)', text: '#4A7A6B', border: 'rgba(74, 122, 107, 0.3)' },
-  tradition: { bg: 'rgba(156, 102, 68, 0.1)', text: '#9C6644', border: 'rgba(156, 102, 68, 0.3)' },
-  archetype: { bg: 'rgba(128, 90, 147, 0.1)', text: '#805A93', border: 'rgba(128, 90, 147, 0.3)' },
-  art_movement: { bg: 'rgba(193, 84, 138, 0.1)', text: '#C1548A', border: 'rgba(193, 84, 138, 0.3)' },
-  technology: { bg: 'rgba(59, 130, 146, 0.1)', text: '#3B8292', border: 'rgba(59, 130, 146, 0.3)' },
-};
-
-const typeHexColors: Record<string, string> = {
-  event: '#8B4040',
-  ideology: '#6B4E8A',
-  movement: '#4A5D8A',
-  institution: '#B8860B',
-  text: '#5B7355',
-  concept: '#4A7A6B',
-  tradition: '#9C6644',
-  archetype: '#805A93',
-  art_movement: '#C1548A',
-  technology: '#3B8292',
-};
-
-const types = ['all', 'event', 'ideology', 'movement', 'institution', 'text', 'concept', 'tradition', 'archetype', 'art_movement', 'technology'];
+const types = ['all', ...ENTITY_TYPES];
 
 export default function EntitiesPage() {
   const [selectedType, setSelectedType] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
+  const debouncedSearch = useDebounce(searchQuery, 200);
 
   const typeCounts = useMemo(() => {
     const counts: Record<string, number> = {};
@@ -95,14 +58,14 @@ export default function EntitiesPage() {
   const filteredEntities = useMemo(() => {
     return allEntities.filter((e) => {
       if (selectedType !== 'all' && e.type !== selectedType) return false;
-      if (searchQuery) {
-        const q = searchQuery.toLowerCase();
+      if (debouncedSearch) {
+        const q = debouncedSearch.toLowerCase();
         const fields = [e.name.ko, e.name.en, e.summary, ...e.tags].join(' ').toLowerCase();
         if (!fields.includes(q)) return false;
       }
       return true;
     });
-  }, [selectedType, searchQuery]);
+  }, [selectedType, debouncedSearch]);
 
   return (
     <div className="min-h-screen" style={{ background: 'var(--fresco-ivory)' }}>
@@ -137,7 +100,7 @@ export default function EntitiesPage() {
         <div className="flex flex-wrap gap-2">
           {types.map((type) => {
             const isSelected = selectedType === type;
-            const tc = type !== 'all' ? typeColors[type] : null;
+            const tc = type !== 'all' ? getEntityTypeColors(type) : null;
             return (
               <button
                 key={type}
@@ -156,7 +119,7 @@ export default function EntitiesPage() {
                   fontFamily: "'Pretendard', sans-serif",
                 }}
               >
-                {type === 'all' ? '전체' : typeLabels[type]}
+                {type === 'all' ? '전체' : getEntityTypeLabel(type)}
                 <span className="ml-1 opacity-60">
                   {type === 'all'
                     ? allEntities.length
@@ -172,20 +135,20 @@ export default function EntitiesPage() {
         <p className="text-sm mb-4" style={{ color: 'var(--ink-light)' }}>{filteredEntities.length}개의 주제</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {filteredEntities.map((entity) => {
-            const tc = typeColors[entity.type];
+            const tc = getEntityTypeColors(entity.type);
             return (
               <Link
                 key={entity.id}
                 href={`/entities/${entity.id}`}
                 className="group block fresco-card overflow-hidden"
               >
-                <div className="h-1 w-full" style={{ backgroundColor: typeHexColors[entity.type] || '#6B6358' }} />
+                <div className="h-1 w-full" style={{ backgroundColor: getEntityTypeHexColor(entity.type) }} />
                 <div className="p-4">
                   <span
                     className="text-[10px] px-2 py-0.5 rounded-full border font-medium"
-                    style={{ background: tc?.bg, color: tc?.text, borderColor: tc?.border, fontFamily: "'Pretendard', sans-serif" }}
+                    style={{ background: tc.bg, color: tc.text, borderColor: tc.border, fontFamily: "'Pretendard', sans-serif" }}
                   >
-                    {typeLabels[entity.type]}
+                    {getEntityTypeLabel(entity.type)}
                   </span>
                   <h3 className="text-lg font-bold mt-2 group-hover:opacity-80 transition-colors" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
                     {entity.name.ko}

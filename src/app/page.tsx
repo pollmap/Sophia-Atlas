@@ -71,7 +71,7 @@ const milestones = [
   { year: -300, label: '유클리드 — 기하학', category: 'scientist', id: 'euclid' },
   { year: 30, label: '예수 그리스도', category: 'religious_figure', id: 'jesus' },
   { year: 622, label: '무함마드 — 이슬람', category: 'religious_figure', id: 'muhammad' },
-  { year: 1225, label: '토마스 아퀴나스', category: 'philosopher', id: 'aquinas' },
+  { year: 1225, label: '토마스 아퀴나스', category: 'philosopher', id: 'thomas-aquinas' },
   { year: 1543, label: '코페르니쿠스 — 지동설', category: 'scientist', id: 'copernicus' },
   { year: 1687, label: '뉴턴 — 프린키피아', category: 'scientist', id: 'newton' },
   { year: 1789, label: '프랑스 혁명', category: 'historical_figure', id: 'french-revolution' },

@@ -186,9 +186,7 @@
     "influences": [
       "aristotle"
     ],
-    "influenced": [
-      "ptolemy-i"
-    ],
+    "influenced": [],
     "domain": "정복/통치",
     "achievements": [
       "페르시아 제국 정복",
@@ -759,9 +757,7 @@
       }
     ],
     "influences": [],
-    "influenced": [
-      "kublai-khan"
-    ],
+    "influenced": [],
     "domain": "정복/통치",
     "achievements": [
       "몽골 제국 건설",
@@ -5201,7 +5197,7 @@
     ],
     "influences": [
       "mandela",
-      "lincoln"
+      "abraham-lincoln"
     ],
     "influenced": [],
     "domain": "정치/민주주의",
@@ -5376,8 +5372,7 @@
       }
     ],
     "influences": [
-      "tolstoy",
-      "thoreau"
+      "tolstoy"
     ],
     "influenced": [
       "martin-luther-king",
@@ -11321,7 +11316,7 @@
       }
     ],
     "influences": [
-      "campbell-joseph",
+      "joseph-campbell",
       "jung"
     ],
     "influenced": [

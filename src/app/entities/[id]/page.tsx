@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowLeft, Calendar, MapPin, Lightbulb, BookOpen, Users, Tag, Layers, Network } from 'lucide-react';
-import { cn, getEraLabel, getEraColorClass, formatYear, getCategoryHexColor } from '@/lib/utils';
+import { cn, getEraLabel, getEraColorClass, formatYear, getCategoryHexColor, getEntityTypeLabel, getEntityTypeHexColor, getEntityTypeColors } from '@/lib/utils';
 import ExpandableSection from '@/components/common/ExpandableSection';
 
 import eventsData from '@/data/entities/events.json';
@@ -60,28 +60,6 @@ const allPersons: PersonBasic[] = [
   ...(historicalFiguresData as PersonBasic[]),
 ];
 
-const typeLabels: Record<string, string> = {
-  event: '역사적 사건', ideology: '사상/이념', movement: '운동/학파',
-  institution: '기관/조직', text: '경전/문헌', concept: '핵심 개념',
-  tradition: '전통', archetype: '신화/원형', art_movement: '예술운동', technology: '기술 패러다임',
-};
-const typeColors: Record<string, { bg: string; text: string; border: string }> = {
-  event: { bg: 'rgba(139, 64, 64, 0.1)', text: '#8B4040', border: 'rgba(139, 64, 64, 0.3)' },
-  ideology: { bg: 'rgba(107, 78, 138, 0.1)', text: '#6B4E8A', border: 'rgba(107, 78, 138, 0.3)' },
-  movement: { bg: 'rgba(74, 93, 138, 0.1)', text: '#4A5D8A', border: 'rgba(74, 93, 138, 0.3)' },
-  institution: { bg: 'rgba(184, 134, 11, 0.1)', text: '#B8860B', border: 'rgba(184, 134, 11, 0.3)' },
-  text: { bg: 'rgba(91, 115, 85, 0.1)', text: '#5B7355', border: 'rgba(91, 115, 85, 0.3)' },
-  concept: { bg: 'rgba(74, 122, 107, 0.1)', text: '#4A7A6B', border: 'rgba(74, 122, 107, 0.3)' },
-  tradition: { bg: 'rgba(156, 102, 68, 0.1)', text: '#9C6644', border: 'rgba(156, 102, 68, 0.3)' },
-  archetype: { bg: 'rgba(128, 90, 147, 0.1)', text: '#805A93', border: 'rgba(128, 90, 147, 0.3)' },
-  art_movement: { bg: 'rgba(193, 84, 138, 0.1)', text: '#C1548A', border: 'rgba(193, 84, 138, 0.3)' },
-  technology: { bg: 'rgba(59, 130, 146, 0.1)', text: '#3B8292', border: 'rgba(59, 130, 146, 0.3)' },
-};
-const typeHex: Record<string, string> = {
-  event: '#8B4040', ideology: '#6B4E8A', movement: '#4A5D8A',
-  institution: '#B8860B', text: '#5B7355', concept: '#4A7A6B',
-  tradition: '#9C6644', archetype: '#805A93', art_movement: '#C1548A', technology: '#3B8292',
-};
 
 export function generateStaticParams() {
   return allEntities.map((e) => ({ id: e.id }));
@@ -95,7 +73,7 @@ export async function generateMetadata({
   const { id } = await params;
   const entity = allEntities.find((e) => e.id === id);
   if (!entity) return { title: 'Sophia Atlas' };
-  const typeLabel = typeLabels[entity.type] || entity.type;
+  const typeLabel = getEntityTypeLabel(entity.type) || entity.type;
   return {
     title: `${entity.name.ko} (${entity.name.en}) — Sophia Atlas`,
     description: entity.summary,
@@ -134,7 +112,7 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
     );
   }
 
-  const tc = typeColors[entity.type];
+  const tc = getEntityTypeColors(entity.type);
 
   return (
     <div className="min-h-screen" style={{ background: 'var(--fresco-ivory)' }}>
@@ -148,14 +126,14 @@ export default async function EntityPage({ params }: { params: Promise<{ id: str
       {/* Hero */}
       <section className="max-w-4xl mx-auto px-4 py-8">
         <div className="relative rounded border overflow-hidden" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
-          <div className="absolute top-0 left-0 right-0 h-1" style={{ backgroundColor: typeHex[entity.type] || '#6B6358' }} />
+          <div className="absolute top-0 left-0 right-0 h-1" style={{ backgroundColor: getEntityTypeHexColor(entity.type) }} />
           <div className="p-6 md:p-8 pt-8">
             <div className="flex flex-wrap gap-2 mb-4">
               <span
                 className="text-xs px-2.5 py-1 rounded-full border font-medium"
                 style={{ background: tc?.bg, color: tc?.text, borderColor: tc?.border, fontFamily: "'Pretendard', sans-serif" }}
               >
-                {typeLabels[entity.type]}
+                {getEntityTypeLabel(entity.type)}
               </span>
               {entity.era && (
                 <span className={cn('text-xs px-2.5 py-1 rounded-full font-medium', getEraColorClass(entity.era))} style={{ fontFamily: "'Pretendard', sans-serif" }}>
