@@ -1,10 +1,11 @@
 'use client';
 
-import { useState, useMemo } from 'react';
-import Link from 'next/link';
-import { Layers, Calendar, MapPin, Sparkles } from 'lucide-react';
-import { cn, getEraLabel, getEraColor, formatYear, getEntityTypeLabel, getEntityTypeHexColor, getEntityTypeColors, ENTITY_TYPES } from '@/lib/utils';
+import { useState, useEffect, useMemo } from 'react';
+import { Layers } from 'lucide-react';
+import { getEntityTypeLabel, getEntityTypeColors, ENTITY_TYPES } from '@/lib/utils';
 import { useDebounce } from '@/lib/hooks';
+import SearchBar from '@/components/common/SearchBar';
+import EntityCard from '@/components/entities/EntityCard';
 
 import eventsData from '@/data/entities/events.json';
 import ideologiesData from '@/data/entities/ideologies.json';
@@ -47,6 +48,14 @@ export default function EntitiesPage() {
   const [searchQuery, setSearchQuery] = useState('');
   const debouncedSearch = useDebounce(searchQuery, 200);
 
+  // Read initial type from URL params
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    const type = params.get('type');
+    if (type && (ENTITY_TYPES as readonly string[]).includes(type)) setSelectedType(type);
+  }, []);
+
   const typeCounts = useMemo(() => {
     const counts: Record<string, number> = {};
     allEntities.forEach((e) => {
@@ -78,22 +87,11 @@ export default function EntitiesPage() {
           신화/원형, 종교/영성, 철학/사유, 과학, 예술, 정치, 경제, 기술, 비의 전통 — 총 {allEntities.length}개
         </p>
 
-        {/* Search */}
-        <input
-          type="text"
+        <SearchBar
           value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
+          onChange={setSearchQuery}
           placeholder="주제 검색..."
-          className="w-full px-4 py-2.5 rounded border mb-4 transition-colors"
-          style={{
-            background: 'var(--fresco-parchment)',
-            borderColor: 'var(--fresco-shadow)',
-            color: 'var(--ink-dark)',
-            fontFamily: "'Pretendard', sans-serif",
-            outline: 'none',
-          }}
-          onFocus={(e) => { e.currentTarget.style.borderColor = 'var(--gold)'; }}
-          onBlur={(e) => { e.currentTarget.style.borderColor = 'var(--fresco-shadow)'; }}
+          className="mb-4"
         />
 
         {/* Type Filter */}
@@ -134,43 +132,18 @@ export default function EntitiesPage() {
       <section className="max-w-7xl mx-auto px-4 pb-20">
         <p className="text-sm mb-4" style={{ color: 'var(--ink-light)' }}>{filteredEntities.length}개의 주제</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filteredEntities.map((entity) => {
-            const tc = getEntityTypeColors(entity.type);
-            return (
-              <Link
-                key={entity.id}
-                href={`/entities/${entity.id}`}
-                className="group block fresco-card overflow-hidden"
-              >
-                <div className="h-1 w-full" style={{ backgroundColor: getEntityTypeHexColor(entity.type) }} />
-                <div className="p-4">
-                  <span
-                    className="text-[10px] px-2 py-0.5 rounded-full border font-medium"
-                    style={{ background: tc.bg, color: tc.text, borderColor: tc.border, fontFamily: "'Pretendard', sans-serif" }}
-                  >
-                    {getEntityTypeLabel(entity.type)}
-                  </span>
-                  <h3 className="text-lg font-bold mt-2 group-hover:opacity-80 transition-colors" style={{ color: 'var(--ink-dark)', fontFamily: "'Cormorant Garamond', serif" }}>
-                    {entity.name.ko}
-                  </h3>
-                  <p className="text-sm" style={{ color: 'var(--ink-light)' }}>{entity.name.en}</p>
-                  {entity.period && (
-                    <div className="flex items-center gap-1 mt-2 text-xs" style={{ color: 'var(--ink-light)' }}>
-                      <Calendar className="w-3 h-3" />
-                      {formatYear(entity.period.start)}
-                      {entity.period.end !== entity.period.start && ` ~ ${formatYear(entity.period.end)}`}
-                    </div>
-                  )}
-                  <p className="mt-2 text-sm leading-relaxed line-clamp-2" style={{ color: 'var(--ink-medium)' }}>{entity.summary}</p>
-                  <div className="flex flex-wrap gap-1 mt-2">
-                    {entity.tags.slice(0, 3).map((tag) => (
-                      <span key={tag} className="text-[10px] px-1.5 py-0.5 rounded" style={{ background: 'var(--fresco-aged)', color: 'var(--ink-light)' }}>{tag}</span>
-                    ))}
-                  </div>
-                </div>
-              </Link>
-            );
-          })}
+          {filteredEntities.map((entity) => (
+            <EntityCard
+              key={entity.id}
+              id={entity.id}
+              type={entity.type}
+              name={entity.name}
+              period={entity.period}
+              era={entity.era}
+              summary={entity.summary}
+              tags={entity.tags}
+            />
+          ))}
         </div>
       </section>
     </div>

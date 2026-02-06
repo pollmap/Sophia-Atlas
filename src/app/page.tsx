@@ -57,11 +57,11 @@ const categoryColors: Record<string, string> = {
 };
 
 const categories = [
-  { key: 'philosopher', label: '철학', icon: BookOpen, color: categoryColors.philosopher, href: '/philosophy/timeline', data: philosophersData },
-  { key: 'religious_figure', label: '종교', icon: Scroll, color: categoryColors.religious_figure, href: '/religion/map', data: religiousFiguresData },
-  { key: 'scientist', label: '과학', icon: Atom, color: categoryColors.scientist, href: '/science', data: scientistsData },
-  { key: 'historical_figure', label: '역사', icon: Crown, color: categoryColors.historical_figure, href: '/history', data: (historicalFiguresData as any[]).filter((p: any) => p.category === 'historical_figure') },
-  { key: 'cultural_figure', label: '문화', icon: Palette, color: categoryColors.cultural_figure, href: '/culture', data: (historicalFiguresData as any[]).filter((p: any) => p.category === 'cultural_figure') },
+  { key: 'philosopher', label: '철학', icon: BookOpen, color: categoryColors.philosopher, href: '/persons?category=philosopher', data: philosophersData },
+  { key: 'religious_figure', label: '종교', icon: Scroll, color: categoryColors.religious_figure, href: '/persons?category=religious_figure', data: religiousFiguresData },
+  { key: 'scientist', label: '과학', icon: Atom, color: categoryColors.scientist, href: '/persons?category=scientist', data: scientistsData },
+  { key: 'historical_figure', label: '역사', icon: Crown, color: categoryColors.historical_figure, href: '/persons?category=historical_figure', data: (historicalFiguresData as any[]).filter((p: any) => p.category === 'historical_figure') },
+  { key: 'cultural_figure', label: '문화', icon: Palette, color: categoryColors.cultural_figure, href: '/persons?category=cultural_figure', data: (historicalFiguresData as any[]).filter((p: any) => p.category === 'cultural_figure') },
 ];
 
 const milestones = [
@@ -206,6 +206,28 @@ export default function HomePage() {
     });
     return results.slice(0, 8);
   }, [searchQuery]);
+
+  // Today's Discovery — random well-connected person with preview of connections
+  const todayDiscovery = useMemo(() => {
+    const now = new Date();
+    const dayOfYear = Math.floor((now.getTime() - new Date(now.getFullYear(), 0, 0).getTime()) / (1000 * 60 * 60 * 24));
+    const topPersons = allPersons.filter((p: any) => p.mvp);
+    const idx = dayOfYear % topPersons.length;
+    const person = topPersons[idx] as any;
+    if (!person) return null;
+
+    const connections: { id: string; name: string; type: string }[] = [];
+    (ppRelData as any[]).forEach((r: any) => {
+      if (r.source === person.id || r.target === person.id) {
+        const otherId = r.source === person.id ? r.target : r.source;
+        const other = allPersons.find((p: any) => p.id === otherId) as any;
+        if (other && connections.length < 3) {
+          connections.push({ id: otherId, name: other.name.ko, type: r.type });
+        }
+      }
+    });
+    return { person, connections };
+  }, []);
 
   const handleCopy = async () => {
     const text = `"${todayQuote.text}" — ${todayQuote.philosopher} (${todayQuote.source})`;
@@ -365,7 +387,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <h3 className="text-sm font-semibold flex items-center gap-2" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
-                    인드라망 3D
+                    인드라망
                     <span className="text-[9px] px-1.5 py-0.5 rounded font-normal" style={{ backgroundColor: 'rgba(184,134,11,0.12)', color: 'var(--gold)', fontFamily: "'Pretendard', sans-serif" }}>
                       추천
                     </span>
@@ -373,7 +395,7 @@ export default function HomePage() {
                 </div>
               </div>
               <p className="text-xs mb-3" style={{ color: 'var(--ink-light)', fontFamily: "'Pretendard', sans-serif" }}>
-                {allPersons.length}명의 인물과 {totalEntities}개의 주제, {totalRelationships.toLocaleString()}개의 연결을 3D 구체 위에서 탐험
+                {allPersons.length}명의 인물과 {totalEntities}개의 주제, {totalRelationships.toLocaleString()}개의 연결을 인터랙티브 그래프로 탐험
               </p>
               <span className="text-[11px] font-medium group-hover:translate-x-0.5 transition-transform inline-flex items-center gap-1" style={{ color: 'var(--gold)', fontFamily: "'Pretendard', sans-serif" }}>
                 탐험하기 <ArrowRight className="w-3 h-3" />
@@ -420,6 +442,52 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+
+      {/* ═══════ Today's Discovery ═══════ */}
+      {todayDiscovery && (
+        <section className="max-w-5xl mx-auto px-4 mb-10">
+          <div className="fresco-card p-5 md:p-6">
+            <div className="flex items-center gap-2 mb-4">
+              <Sparkles className="w-4 h-4" style={{ color: 'var(--gold)' }} />
+              <h2 className="text-sm font-semibold tracking-wider uppercase" style={{ fontFamily: "'Pretendard', sans-serif", color: 'var(--ink-faded)' }}>
+                오늘의 발견
+              </h2>
+            </div>
+            <div className="flex flex-col md:flex-row gap-5">
+              <Link href={`/persons/${todayDiscovery.person.id}`} className="group flex-1">
+                <h3 className="text-2xl font-bold group-hover:opacity-80 transition-colors" style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--ink-dark)' }}>
+                  {todayDiscovery.person.name.ko}
+                </h3>
+                <p className="text-sm mb-2" style={{ color: 'var(--ink-light)' }}>{todayDiscovery.person.name.en}</p>
+                <p className="text-sm leading-relaxed line-clamp-2" style={{ color: 'var(--ink-medium)' }}>{todayDiscovery.person.summary}</p>
+              </Link>
+              {todayDiscovery.connections.length > 0 && (
+                <div className="md:w-64 flex flex-col gap-2">
+                  <p className="text-[10px] font-medium uppercase tracking-wider" style={{ color: 'var(--ink-faded)' }}>연결된 인물</p>
+                  {todayDiscovery.connections.map((c) => (
+                    <Link
+                      key={c.id}
+                      href={`/persons/${c.id}`}
+                      className="flex items-center gap-2 px-3 py-2 rounded hover:bg-[var(--fresco-aged)]/50 transition-colors"
+                    >
+                      <ArrowRight className="w-3 h-3" style={{ color: 'var(--gold)' }} />
+                      <span className="text-sm font-medium" style={{ color: 'var(--ink-dark)' }}>{c.name}</span>
+                      <span className="text-[10px] ml-auto" style={{ color: 'var(--ink-faded)' }}>{c.type}</span>
+                    </Link>
+                  ))}
+                  <Link
+                    href={`/connections?node=${todayDiscovery.person.id}`}
+                    className="text-[11px] font-medium flex items-center gap-1 mt-1"
+                    style={{ color: 'var(--gold)' }}
+                  >
+                    인드라망에서 탐험하기 <ArrowRight className="w-3 h-3" />
+                  </Link>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ═══════ Compact Category Row ═══════ */}
       <section className="max-w-5xl mx-auto px-4 mb-10">

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import { Users, LayoutGrid, List } from 'lucide-react';
 import PersonCard from '@/components/persons/PersonCard';
 import PersonFilter from '@/components/persons/PersonFilter';
@@ -34,12 +34,48 @@ const allPersons: PersonData[] = [
   ...(historicalFiguresData as PersonData[]),
 ].sort((a, b) => a.period.start - b.period.start);
 
+const VALID_CATEGORIES = ['philosopher', 'religious_figure', 'scientist', 'historical_figure', 'cultural_figure'];
+const VALID_ERAS = ['ancient', 'medieval', 'modern', 'contemporary'];
+
 export default function PersonsPage() {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedEra, setSelectedEra] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const debouncedSearch = useDebounce(searchQuery, 200);
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
+  const [visibleCount, setVisibleCount] = useState(60);
+  const loadMoreRef = useRef<HTMLDivElement>(null);
+
+  // Infinite scroll — load more items when sentinel is visible
+  useEffect(() => {
+    const sentinel = loadMoreRef.current;
+    if (!sentinel) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((prev) => prev + 40);
+        }
+      },
+      { rootMargin: '200px' }
+    );
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, []);
+
+  // Reset visible count when filters change
+  useEffect(() => {
+    setVisibleCount(60);
+  }, [selectedCategory, selectedEra, debouncedSearch]);
+
+  // Read initial filters from URL params
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    const cat = params.get('category');
+    const era = params.get('era');
+    if (cat && VALID_CATEGORIES.includes(cat)) setSelectedCategory(cat);
+    if (era && VALID_ERAS.includes(era)) setSelectedEra(era);
+  }, []);
 
   const categoryCounts = useMemo(() => {
     const counts: Record<string, number> = {};
@@ -151,7 +187,7 @@ export default function PersonsPage() {
 
         {viewMode === 'grid' ? (
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
-            {filteredPersons.map((person) => (
+            {filteredPersons.slice(0, visibleCount).map((person) => (
               <PersonCard
                 key={person.id}
                 id={person.id}
@@ -169,7 +205,7 @@ export default function PersonsPage() {
           </div>
         ) : (
           <div className="rounded-lg border divide-y" style={{ borderColor: 'var(--fresco-shadow)', background: 'var(--fresco-parchment)' }}>
-            {filteredPersons.map((person) => (
+            {filteredPersons.slice(0, visibleCount).map((person) => (
               <PersonCard
                 key={person.id}
                 id={person.id}
@@ -185,6 +221,15 @@ export default function PersonsPage() {
                 compact
               />
             ))}
+          </div>
+        )}
+
+        {/* Infinite scroll sentinel */}
+        {visibleCount < filteredPersons.length && (
+          <div ref={loadMoreRef} className="flex justify-center py-8">
+            <p className="text-xs" style={{ color: 'var(--ink-faded)' }}>
+              {visibleCount}/{filteredPersons.length}명 표시 중...
+            </p>
           </div>
         )}
       </section>

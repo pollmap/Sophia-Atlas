@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useEffect, useMemo } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import {
@@ -136,7 +136,6 @@ const ERA_OPTIONS = [
 ];
 
 function getPersonLink(person: PersonData): string {
-  if (person.category === "philosopher") return `/philosophy/${person.id}/`;
   return `/persons/${person.id}`;
 }
 
@@ -149,6 +148,16 @@ export default function MapPage() {
   const [viewportPersons, setViewportPersons] = useState<PersonData[]>([]);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [sidebarTab, setSidebarTab] = useState<"persons" | "entities">("persons");
+
+  // Read initial filters from URL params
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    const cat = params.get('category');
+    const era = params.get('era');
+    if (cat && CATEGORY_OPTIONS.some(o => o.key === cat)) setCategoryFilter(cat);
+    if (era && ERA_OPTIONS.some(o => o.key === era)) setEraFilter(era);
+  }, []);
 
   const filteredPersons = useMemo(() => {
     return allPersons.filter((p) => {
