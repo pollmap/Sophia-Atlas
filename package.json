@@ -2,7 +2,6 @@
   "name": "sophia-atlas",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://local_proxy@127.0.0.1:34841/git/pollmap/Sophia-Atlas"
+    "url": "https://github.com/pollmap/Sophia-Atlas"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@react-leaflet/core": "^2.1.0",
     "@tailwindcss/typography": "^0.5.19",

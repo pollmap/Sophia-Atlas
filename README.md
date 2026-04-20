@@ -3,7 +3,7 @@
 > **인류 지성의 인드라망** — 철학·종교·과학·역사·문화를 하나의 인터랙티브 플랫폼에서 탐험하세요
 
 [![Deploy](https://github.com/pollmap/Sophia-Atlas/actions/workflows/deploy.yml/badge.svg)](https://github.com/pollmap/Sophia-Atlas/actions/workflows/deploy.yml)
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## 소개
 
@@ -158,6 +158,8 @@ src/
 Sophia Atlas의 데이터는 아래 학술 자료를 참고하여 **AI 기반으로 생성·정리**되었습니다.
 인물의 기본 정보(생몰년, 지역, 주요 저작)는 백과사전 기반이며, 관계 데이터와 사상 해설은 AI가 학술 문헌을 참고해 구조화한 것입니다.
 
+**저작권 고지:** 모든 텍스트는 AI가 독자적으로 생성한 요약이며, Wikipedia·Stanford SEP 등 외부 문헌의 원문을 그대로 복사하지 않았습니다. 구조화된 데이터(인물 목록, 관계 유형)는 공공 도메인 사실에 기반합니다.
+
 **주의:** AI 생성 콘텐츠는 단순화, 편향, 부정확성을 포함할 수 있습니다. 학술 연구에는 반드시 원전과 전문 학술서를 참조하세요.
 
 ### 참고 자료
@@ -169,7 +171,7 @@ Sophia Atlas의 데이터는 아래 학술 자료를 참고하여 **AI 기반으
 
 ## 라이선스
 
-[ISC License](LICENSE)
+[MIT License](LICENSE)
 
 ## 제작
 
